@@ -1,0 +1,8 @@
+# Render: sitio estático con el Herbolario Consultor.
+# La página ya está generada en web/sitio (se regenera con: python build_web.py).
+services:
+  - type: web
+    name: herbolario-consultor
+    runtime: static
+    buildCommand: echo "Sitio ya generado en web/sitio"
+    staticPublishPath: ./web/sitio

@@ -1,0 +1,4185 @@
+{
+  "fuente": "www.naturessunshine.com (WebFetch, 2026-10-05). Las páginas no muestran nombres latinos binomiales, pinyin ni cantidades por hierba; solo nombres comunes en inglés. pinyin solo se rellena cuando el nombre de la página ya es pinyin/Wade-Giles.",
+  "productos": [
+    {
+      "slug": "kb-c-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/kb-c-tcm-concentrate",
+      "nombre": "KB-C TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1016",
+      "precio_usd": 50.75,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $38.05)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cistanche",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dipsacus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "drynaria",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "morinda",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cornus",
+          "latin": null,
+          "parte": "fruit without seeds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "epimedium",
+          "latin": null,
+          "parte": "leaf",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ligustrum",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "liquidambar",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Apoyo herbal para el sistema urinario, diseñado para nutrir los riñones y fortalecer los huesos. Apoya el sistema estructural, específicamente los huesos, y se usa tradicionalmente para fortalecer el sistema urinario. Su nombre chino, jian gu, se traduce como 'fortalecer los huesos'; está diseñado para el elemento agua. Usos tradicionales: apoyar los riñones y nutrir los sistemas urinario y estructural.",
+      "beneficios": [
+        "Apoyo al sistema urinario",
+        "Nutre los riñones",
+        "Apoya el sistema estructural, específicamente los huesos"
+      ],
+      "energetica_oficial": "Elemento Agua (jian gu = 'fortalecer los huesos'). Riñones.",
+      "organos_mencionados": [
+        "riñones",
+        "huesos",
+        "sistema urinario"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "liver-balance-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/liver-balance-tcm-concentrate",
+      "nombre": "Liver Balance TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1008",
+      "precio_usd": 44.55,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $33.40)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui",
+          "nombre_comun": "dang gui",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "fu shen",
+          "nombre_comun": "fushen",
+          "latin": null,
+          "parte": "sclerotium with root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "zhi shi",
+          "nombre_comun": "zhishi",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Esta fórmula optimiza la salud del hígado mientras apoya los sistemas digestivo y nervioso en momentos de tensión. Se usa tradicionalmente para apoyar la función hepática, reducir el estrés y restaurar el vigor, y apoya una digestión saludable. La mezcla concentrada representa una fórmula 'reductora de madera' según la filosofía de la Medicina Tradicional China, diseñada para apoyar tanto el sistema digestivo como el nervioso frente a preocupaciones relacionadas con el estrés.",
+      "beneficios": [
+        "Optimiza la salud del hígado",
+        "Apoya los sistemas digestivo y nervioso",
+        "Ayuda a reducir el estrés y restaurar el vigor",
+        "Apoya una digestión saludable"
+      ],
+      "energetica_oficial": "Fórmula 'reductora de Madera' (wood-reducing). Hígado.",
+      "organos_mencionados": [
+        "hígado"
+      ],
+      "precauciones": null,
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "kidney-activator-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/kidney-activator-tcm-concentrate",
+      "nombre": "Kidney Activator TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1040",
+      "precio_usd": 47.65,
+      "presentacion": "30 cápsulas vegetales; 30 porciones; suministro para 30 días (suscripción: $35.70)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "siler",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chaenomeles",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "morus",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "alisma",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "plantago",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polyporus",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Su nombre chino, qu shi, se traduce como 'eliminar la humedad'. Brinda apoyo tradicional al sistema urinario y a los riñones, y contiene hierbas usadas tradicionalmente para eliminar el agua retenida. El hoelen se usó históricamente para 'drenar la humedad', y el alisma ayuda a promover el flujo de humedad en la MTC para el apoyo de la vejiga y vías urinarias. El astrágalo puede ayudar a eliminar el agua retenida del cuerpo.",
+      "beneficios": [
+        "Apoyo tradicional al sistema urinario y a los riñones",
+        "Ayuda a eliminar el agua retenida"
+      ],
+      "energetica_oficial": "Qu shi = 'eliminar la humedad'. Riñones, vejiga.",
+      "organos_mencionados": [
+        "riñones",
+        "vejiga",
+        "sistema urinario"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "trigger-immune-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/trigger-immune-tcm-concentrate",
+      "nombre": "Trigger Immune® TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1034",
+      "precio_usd": 54.9,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $41.15)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "epimedium",
+          "latin": null,
+          "parte": "leaf",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ganoderma",
+          "latin": null,
+          "parte": "mushroom",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ligustrum",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Esta fórmula, conocida por el nombre chino sheng mai (que se traduce como 'generar el pulso'), actúa nutriendo tu chi para apoyar la inmunidad natural. Según la teoría de la Medicina Tradicional China, fortalece una constitución energética debilitada y promueve el equilibrio de los elementos vitales.",
+      "beneficios": [
+        "Apoya el sistema inmunológico",
+        "Contribuye al bienestar general"
+      ],
+      "energetica_oficial": "Sheng mai = 'generar el pulso'; nutre el chi; fortalece una constitución energética debilitada.",
+      "organos_mencionados": [],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "hy-c-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/hy-c-tcm-concentrate",
+      "nombre": "HY-C TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1006",
+      "precio_usd": 53.85,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $40.35)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "glehnia",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "kudzu",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "trichosanthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "anemarrhena",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "asian water plantain",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chinese asparagus",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "tree peony",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "asiatic dogwood",
+          "latin": null,
+          "parte": "fruit without seeds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chinese licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "phellodendron",
+          "latin": null,
+          "parte": "stem bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Mezcla china concentrada que tradicionalmente apoya niveles de azúcar en sangre dentro del rango normal. Esta fórmula ayuda a nutrir el yin o 'fortalecer el agua'. Según la MTC, la fórmula se llama bu yin ('suplementar el yin'), donde el yin representa la humedad. Estas hierbas apoyan al cuerpo en su intento de reducir el fuego y fortalecer el agua.",
+      "beneficios": [
+        "Apoya niveles de azúcar en sangre dentro del rango normal",
+        "Apoya los sistemas circulatorio y glandular",
+        "La raíz de rehmannia ayuda a mantener el azúcar en sangre normal",
+        "La eucommia apoya hígado, riñones, músculos, pulmones y función cardiovascular",
+        "El ophiopogon apoya el yin y la función pulmonar"
+      ],
+      "energetica_oficial": "Bu yin = 'suplementar/nutrir el yin' (yin = humedad); reducir el Fuego y fortalecer el Agua.",
+      "organos_mencionados": [
+        "hígado",
+        "riñones",
+        "pulmones",
+        "músculos",
+        "sistema cardiovascular"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "blood-stimulator-tcm-conc",
+      "url": "https://www.naturessunshine.com/product/blood-stimulator-tcm-conc",
+      "nombre": "Blood Stimulator® TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1005",
+      "precio_usd": 66.3,
+      "presentacion": "30 cápsulas; 30 porciones (suscripción: $49.70)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Ganoderma",
+          "latin": null,
+          "parte": "mushroom fruiting body",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Chinese peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dong quai",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Asiatic dogwood",
+          "latin": null,
+          "parte": "fruit without seeds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "turmeric",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Chinese salvia",
+          "latin": null,
+          "parte": "root & rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "bai zhu",
+          "nombre_comun": "bai-zhu atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Ligusticum wallichii",
+          "latin": "Ligusticum wallichii",
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "fo-ti",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ligustrum",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cyperus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Asian ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Esta mezcla herbal concentrada aplica la teoría de la Medicina Tradicional China para apoyar la sangre, el hígado, las glándulas y la circulación. Los chinos llaman a esta fórmula bu xue, que se traduce como 'nutrir la sangre'. Fortalece una constitución de madera debilitada y presenta propiedades 'adaptógenas' que normalizan la producción hormonal.",
+      "beneficios": [
+        "Apoya una circulación saludable y mejora la calidad de la sangre",
+        "Fortalece el sistema inmunológico mientras calma nervios y músculos",
+        "Ayuda a eliminar toxinas y prevenir su acumulación"
+      ],
+      "energetica_oficial": "Bu xue = 'nutrir la sangre'; fortalece una constitución de Madera debilitada.",
+      "organos_mencionados": [
+        "sangre",
+        "hígado",
+        "glándulas"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "if-c-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/if-c-tcm-concentrate",
+      "nombre": "IF-C TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1007",
+      "precio_usd": 56.45,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $42.30)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Lonicera",
+          "latin": null,
+          "parte": "flower bud",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "forsythia",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cnidium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chrysanthemum",
+          "latin": null,
+          "parte": "flowers",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gardenia",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizonepeta",
+          "latin": null,
+          "parte": "flower",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "arctium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "phellodendron",
+          "latin": null,
+          "parte": "stem bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "siler",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "vitex",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "carthamus",
+          "latin": null,
+          "parte": "flowers",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Nutre los sistemas estructural, inmunológico y circulatorio. Ayuda a eliminar los desechos metabólicos tóxicos. Estimula el flujo sanguíneo para apoyar la eliminación de desechos y promover una sensación de bienestar. Contiene las mismas hierbas que IF-C en forma concentrada, basada en teorías de la Medicina Tradicional China.",
+      "beneficios": [
+        "Nutre los sistemas estructural, inmunológico y circulatorio",
+        "Ayuda a eliminar desechos metabólicos tóxicos",
+        "Estimula el flujo sanguíneo",
+        "Puede promover una sensación de bienestar"
+      ],
+      "energetica_oficial": null,
+      "organos_mencionados": [],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "stress-relief-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate",
+      "nombre": "Stress Relief TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1033",
+      "precio_usd": 75.65,
+      "presentacion": "30 cápsulas vegetales; 30 porciones; suministro para 30 días (suscripción: $56.70)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Oyster",
+          "latin": null,
+          "parte": "shell",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "albizzia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygonatum",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "haliotis",
+          "latin": null,
+          "parte": "shell",
+          "cantidad": null
+        },
+        {
+          "pinyin": "fu shen",
+          "nombre_comun": "fushen",
+          "latin": null,
+          "parte": "sclerotium with root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "acorus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "curcuma",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "jujuba",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "La fórmula busca calmar una constitución de fuego estresada y 'pacificar el espíritu'. Se usa tradicionalmente para nutrir el sistema nervioso y optimizar la función gástrica, y aporta hierbas adaptógenas para apoyar al cuerpo frente al estrés ocasional. Contiene las mismas 14 hierbas que la versión no concentrada.",
+      "beneficios": [
+        "Nutre el sistema nervioso",
+        "Optimiza la función gástrica",
+        "Hierbas adaptógenas frente al estrés ocasional"
+      ],
+      "energetica_oficial": "Calma una constitución de Fuego estresada; 'pacificar el espíritu'.",
+      "organos_mencionados": [
+        "estómago (función gástrica)",
+        "sistema nervioso"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "anti-gas-tcm-conc",
+      "url": "https://www.naturessunshine.com/product/anti-gas-tcm-conc",
+      "nombre": "Anti-Gas TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1018",
+      "precio_usd": 56.45,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $42.30)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Agastache",
+          "latin": null,
+          "parte": "tops",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "crataegus",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "oryza",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": "shen qu (shen-chu)",
+          "nombre_comun": "shen-chu",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gastrodia",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cardamom",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Según la filosofía china, esta fórmula superconcentrada ayuda a mover el chi extra hacia la cabeza y a apoyar la eliminación natural de humedad y toxinas. Se considera 'reductora de tierra' en la herbolaria china; su nombre chino se traduce como 'despejar la congestión'.",
+      "beneficios": [
+        "Apoya los sistemas digestivo, intestinal y urinario",
+        "Honrada en la MTC como 'reductora de tierra'"
+      ],
+      "energetica_oficial": "Fórmula 'reductora de Tierra'; mueve el chi hacia la cabeza; elimina humedad.",
+      "organos_mencionados": [
+        "sistema digestivo",
+        "intestinos",
+        "sistema urinario"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "mood-elevator-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/mood-elevator-tcm-concentrate",
+      "nombre": "Mood Elevator TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1035",
+      "precio_usd": 54.9,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $41.15)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Perilla",
+          "latin": null,
+          "parte": "leaves",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cyperus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": "zhi shi (chih-shih, Wade-Giles)",
+          "nombre_comun": "chih-shih",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "aurantium",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bamboo",
+          "latin": null,
+          "parte": "sap",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cnidium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gambir",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 o 2 cápsulas con una comida al día.",
+      "descripcion_oficial": "Apoya el estado de ánimo y el sistema nervioso; brinda apoyo tradicional al sistema nervioso y fortalece el sistema glandular, que puede influir en el ánimo. Apoya la vitalidad, el ánimo y el insomnio ocasional, a la vez que fomenta una sensación general de bienestar. Descrita como una combinación 'potenciadora de fuego' diseñada para regular y 'desatrapar' el chi (vitalidad). Su nombre chino, jie yu, se traduce como 'aliviar la ansiedad y la tensión'. Según la MTC, una función hepática óptima apoya el mantenimiento del ánimo, ya que el hígado filtra la sangre que se distribuye por todo el cuerpo.",
+      "beneficios": [
+        "Apoya el estado de ánimo y el sistema nervioso",
+        "Fortalece el sistema glandular",
+        "Apoya la vitalidad y el insomnio ocasional",
+        "Fomenta una sensación general de bienestar"
+      ],
+      "energetica_oficial": "Combinación 'potenciadora de Fuego'; regula y libera el chi; jie yu. Hígado.",
+      "organos_mencionados": [
+        "hígado",
+        "sistema nervioso",
+        "sistema glandular"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "lung-support-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/lung-support-tcm-concentrate",
+      "nombre": "Lung Support TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1004",
+      "precio_usd": 48.7,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $36.50)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "tartarian aster",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "large-leaf gentian",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "anemarrhena",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Asian ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dong quai",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": "bai zhu",
+          "nombre_comun": "bai-zhu astractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schisandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "tangerine",
+          "latin": null,
+          "parte": "green fruit rind",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "tangerine",
+          "latin": null,
+          "parte": "mature fruit rind",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "Chinese licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Esta mezcla botánica concentrada optimiza el 'metal' humano, según la tradición de la MTC. Un flujo de aire sin obstáculos fortalece el elemento metal de la salud. La fórmula busca 'fortalecer al débil y delgado' (fu lei), sirviendo como tónico pulmonar. Tradicionalmente apoya la salud respiratoria y puede ayudar a quienes experimentan fatiga ocasional o pérdida de peso.",
+      "beneficios": [
+        "Tónico pulmonar",
+        "Apoya la salud respiratoria",
+        "Puede ayudar en fatiga ocasional o pérdida de peso"
+      ],
+      "energetica_oficial": "Elemento Metal; fu lei = 'fortalecer al débil y delgado'. Pulmones.",
+      "organos_mencionados": [
+        "pulmones"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "nervous-fatigue-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/nervous-fatigue-tcm-concentrate",
+      "nombre": "Nervous Fatigue TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1017",
+      "precio_usd": 47.65,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $35.70)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Schisandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "biota",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cistanche",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cuscuta",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "succinum",
+          "latin": null,
+          "parte": "amber",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "acorus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lotus",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygonatum",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "jujuba",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Promueve un sueño saludable y equilibrado. Apoya la digestión, la circulación y el sistema nervioso. Es una fórmula 'potenciadora de fuego'; su nombre chino, yang xin, significa 'nutrir el corazón'. La debilidad en el elemento fuego suele manifestarse en los sistemas digestivo, cardiovascular o reproductivo.",
+      "beneficios": [
+        "Promueve un sueño saludable y equilibrado",
+        "Apoya la digestión, la circulación y el sistema nervioso"
+      ],
+      "energetica_oficial": "Fórmula 'potenciadora de Fuego'; yang xin = 'nutrir el corazón'. Corazón.",
+      "organos_mencionados": [
+        "corazón",
+        "sistema digestivo",
+        "sistema cardiovascular",
+        "sistema reproductivo"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "vs-c-tcm-concentrate",
+      "url": "https://www.naturessunshine.com/product/vs-c-tcm-concentrate",
+      "nombre": "VS-C® TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "949",
+      "precio_usd": 43.5,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $32.60)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Dandelion",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "purslane",
+          "latin": null,
+          "parte": "top",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "indigo",
+          "latin": null,
+          "parte": "leaves and root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "thlaspi",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Apoya los sistemas inmunológico y respiratorio con base en la teoría de la MTC y se usa tradicionalmente para apoyar la desintoxicación. La fórmula es una mezcla 'potenciadora de metal' diseñada para promover la conexión y la pureza, nutriendo los pulmones y el intestino grueso. Se enmarca en la teoría de los cinco elementos (Fuego, Tierra, Metal, Agua y Madera) y apoya el equilibrio yin-yang.",
+      "beneficios": [
+        "Apoya los sistemas inmunológico y respiratorio",
+        "Apoya la desintoxicación"
+      ],
+      "energetica_oficial": "Mezcla 'potenciadora de Metal'; pulmones e intestino grueso; equilibrio yin-yang.",
+      "organos_mencionados": [
+        "pulmones",
+        "intestino grueso"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": null
+    },
+    {
+      "slug": "spleen-activator-chinese",
+      "url": "https://www.naturessunshine.com/product/spleen-activator-chinese",
+      "nombre": "Spleen Activator, Chinese",
+      "formato": "cápsulas",
+      "sku": "1880",
+      "precio_usd": 47.15,
+      "presentacion": "100 cápsulas vegetales; 50 porciones; suministro para 16 días",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lotus",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chaenomeles",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "galangal",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hyacinth bean",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cardamon",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "zanthoxylum",
+          "latin": null,
+          "parte": "hull of seed",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas vegetales con una comida tres veces al día.",
+      "descripcion_oficial": "Hierbas chinas para el apoyo digestivo, basadas en teorías de la Medicina Tradicional China. La fórmula se describe como wen zhong ('potenciar la Tierra') y se dirige específicamente al elemento Tierra, que abarca el bazo, el páncreas y el estómago. Se usa tradicionalmente para apoyar los sistemas digestivo e inmunológico y para nutrir la función del bazo. La digestión y una buena composición intestinal son cruciales para sentirse bien.",
+      "beneficios": [
+        "Apoyo digestivo e inmunológico",
+        "Nutre la función del bazo"
+      ],
+      "energetica_oficial": "Wen zhong = 'potenciar la Tierra'; elemento Tierra (bazo, páncreas, estómago).",
+      "organos_mencionados": [
+        "bazo",
+        "páncreas",
+        "estómago"
+      ],
+      "precauciones": null,
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "kidney-activator-chinese",
+      "url": "https://www.naturessunshine.com/product/kidney-activator-chinese",
+      "nombre": "Kidney Activator, Chinese",
+      "formato": "cápsulas",
+      "sku": "1872",
+      "precio_usd": 37.3,
+      "presentacion": "100 cápsulas vegetales; 100 porciones; suministro para 100 días (suscripción: $27.95)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "siler",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chaenomeles",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "morus",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "alisma",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "plantago",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polyporus",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula vegetal con una comida al día.",
+      "descripcion_oficial": "Ayuda al flujo de la humedad y se usa tradicionalmente para apoyar los riñones, la vejiga y las vías urinarias, contribuyendo a la energía general, la resistencia y el bienestar. Se dirige al elemento Agua, relacionado con el sistema suprarrenal, la salud sexual y los riñones. Su nombre chino, qu shi, se traduce como 'eliminar la humedad'.",
+      "beneficios": [
+        "Apoya riñones, vejiga y vías urinarias",
+        "Contribuye a la energía, resistencia y bienestar general"
+      ],
+      "energetica_oficial": "Elemento Agua (suprarrenales, salud sexual, riñones); qu shi = 'eliminar la humedad'.",
+      "organos_mencionados": [
+        "riñones",
+        "vejiga",
+        "vías urinarias",
+        "glándulas suprarrenales"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "lung-support-chinese",
+      "url": "https://www.naturessunshine.com/product/lung-support-chinese",
+      "nombre": "Lung Support, Chinese",
+      "formato": "cápsulas",
+      "sku": "1887",
+      "precio_usd": 39.35,
+      "presentacion": "100 cápsulas vegetales; 50 porciones; suministro para 16 días (suscripción: $29.50)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "aster",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "qin jiao",
+          "nombre_comun": "qingjiao",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "anemarrhena",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "blue citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas vegetales con una comida tres veces al día.",
+      "descripcion_oficial": "Se usa tradicionalmente para apoyar la salud respiratoria y ofrece una forma práctica de tomar hierbas chinas no transgénicas. La fórmula se dirige a la constitución Metal según la filosofía de la MTC, que distingue cinco energías (Fuego, Tierra, Metal, Agua y Madera), apoyando pulmones sanos y un flujo de aire sin obstáculos.",
+      "beneficios": [
+        "Apoya la salud respiratoria",
+        "Pulmones sanos y flujo de aire sin obstáculos"
+      ],
+      "energetica_oficial": "Constitución Metal. Pulmones.",
+      "organos_mencionados": [
+        "pulmones"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "liver-balance-chinese",
+      "url": "https://www.naturessunshine.com/product/liver-balance-chinese",
+      "nombre": "Liver Balance, Chinese",
+      "formato": "cápsulas",
+      "sku": "22204",
+      "precio_usd": 35.2,
+      "presentacion": "100 cápsulas vegetales; 20 porciones; suministro para 20 días (suscripción: $26.40)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui",
+          "nombre_comun": "dang gui",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "fu shen",
+          "nombre_comun": "fushen",
+          "latin": null,
+          "parte": "sclerotium with root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "zhi shi",
+          "nombre_comun": "zhishi",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 5 cápsulas vegetales con una comida una vez al día.",
+      "descripcion_oficial": "La fórmula se llama tiao he, que significa 'armonizar', y se clasifica como fórmula 'reductora de madera' en la MTC. Apoya los sistemas digestivo y nervioso y puede ayudar a aliviar el estrés y la irritabilidad ocasionales. Se dirige al elemento Madera, siendo el hígado el principal órgano de desintoxicación.",
+      "beneficios": [
+        "Apoya los sistemas digestivo y nervioso",
+        "Puede ayudar a aliviar el estrés y la irritabilidad ocasionales"
+      ],
+      "energetica_oficial": "Tiao he = 'armonizar'; fórmula 'reductora de Madera'. Hígado.",
+      "organos_mencionados": [
+        "hígado"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "trigger-immune-chinese",
+      "url": "https://www.naturessunshine.com/product/trigger-immune-chinese",
+      "nombre": "Trigger Immune®, Chinese",
+      "formato": "cápsulas",
+      "sku": "1889",
+      "precio_usd": 41.45,
+      "presentacion": "100 cápsulas vegetales; 50 porciones; suministro para 16 días",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "epimedium",
+          "latin": null,
+          "parte": "leaf",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ganoderma",
+          "latin": null,
+          "parte": "mushroom",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ligustrum",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas vegetales con una comida dos veces al día.",
+      "descripcion_oficial": "Basada en teorías de la Medicina Tradicional China, Trigger Immune® ofrece una mezcla herbal exclusiva que nutre tu chi para impulsar los procesos vitales del cuerpo; un enfoque chino para apoyar la inmunidad natural, con hierbas usadas tradicionalmente para el sistema inmunológico. Según la MTC, esta fórmula fortalece una constitución energética debilitada. Su nombre chino, sheng mai, puede traducirse como 'generar el pulso'.",
+      "beneficios": [
+        "Apoyo al sistema inmunológico",
+        "Nutre el chi"
+      ],
+      "energetica_oficial": "Sheng mai = 'generar el pulso'; fortalece una constitución energética debilitada.",
+      "organos_mencionados": [],
+      "precauciones": null,
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "kb-c-chinese",
+      "url": "https://www.naturessunshine.com/product/kb-c-chinese",
+      "nombre": "KB-C, Chinese",
+      "formato": "cápsulas",
+      "sku": "1883",
+      "precio_usd": 44.0,
+      "presentacion": "100 cápsulas vegetales; 100 porciones; suministro para 33 días (agotado en la página)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cistanche",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dipsacus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "drynaria",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "morinda",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cornus",
+          "latin": null,
+          "parte": "fruit without seeds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "epimedium",
+          "latin": null,
+          "parte": "leaf",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ligustrum",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "liquidambar",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula vegetal con una comida tres veces al día.",
+      "descripcion_oficial": "Mezcla china tradicional con eucommia y achyranthes para nutrir el yang del riñón y ayudar a fortalecer los componentes articulares. Se usa tradicionalmente para apoyar el sistema urinario y apoya el sistema estructural, específicamente los huesos. Su nombre chino, jian gu, se traduce como 'fortalecer los huesos', y está diseñada para fortalecer el elemento agua.",
+      "beneficios": [
+        "Nutre el yang del riñón",
+        "Ayuda a fortalecer las articulaciones",
+        "Apoya el sistema urinario",
+        "Apoya los huesos"
+      ],
+      "energetica_oficial": "Nutre el yang del riñón; elemento Agua; jian gu = 'fortalecer los huesos'.",
+      "organos_mencionados": [
+        "riñones",
+        "huesos",
+        "articulaciones",
+        "sistema urinario"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "hy-c-chinese",
+      "url": "https://www.naturessunshine.com/product/hy-c-chinese",
+      "nombre": "HY-C, Chinese",
+      "formato": "cápsulas",
+      "sku": "1886",
+      "precio_usd": 45.0,
+      "presentacion": "100 cápsulas vegetales; 50 porciones; suministro para 16 días (suscripción: $33.75)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Eucommia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "glehnia",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "pueraria",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "trichosanthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "achyranthes",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "alisma",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "anemarrhena",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "asparagus",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "moutan",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cornus",
+          "latin": null,
+          "parte": "fruit without seeds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "phellodendron",
+          "latin": null,
+          "parte": "stem bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas vegetales con una comida tres veces al día.",
+      "descripcion_oficial": "Apoyo herbal para hígado y páncreas basado en teorías de la Medicina Tradicional China. Se usa tradicionalmente para apoyar niveles de azúcar en sangre dentro del rango normal y para el apoyo del hígado y el páncreas. Apoya el sistema glandular y los procesos metabólicos asociados. Se describe como bu yin o 'nutrir el yin' (yin = humedad); sus hierbas apoyan al cuerpo en su intento de reducir el fuego y fortalecer el agua.",
+      "beneficios": [
+        "Apoya niveles de azúcar en sangre normales",
+        "Apoyo para hígado y páncreas",
+        "Apoya el sistema glandular y metabólico"
+      ],
+      "energetica_oficial": "Bu yin = 'nutrir el yin' (yin = humedad); reducir el Fuego y fortalecer el Agua.",
+      "organos_mencionados": [
+        "hígado",
+        "páncreas"
+      ],
+      "precauciones": null,
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "if-c-chinese",
+      "url": "https://www.naturessunshine.com/product/if-c-chinese",
+      "nombre": "IF-C, Chinese",
+      "formato": "cápsulas",
+      "sku": "1875",
+      "precio_usd": 41.45,
+      "presentacion": "100 cápsulas vegetales; 50 porciones; suministro para 25 días (suscripción: $31.05)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Lonicera",
+          "latin": null,
+          "parte": "flower bud",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "forsythia",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cnidium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chrysanthemum",
+          "latin": null,
+          "parte": "flowers",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gardenia",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "peony",
+          "latin": null,
+          "parte": "root without bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizonepeta",
+          "latin": null,
+          "parte": "flower",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "arctium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "phellodendron",
+          "latin": null,
+          "parte": "stem bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "siler",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "vitex",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "carthamus",
+          "latin": null,
+          "parte": "flowers",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas vegetales con una comida dos veces al día.",
+      "descripcion_oficial": "Nutre el sistema inmunológico, nutre los sistemas estructural e inmunológico y brinda apoyo circulatorio. Esta mezcla herbal china única ayuda a calmar una constitución de fuego estresada. Según la filosofía de la MTC de las cinco energías (Fuego, Tierra, Metal, Agua, Madera), IF-C está diseñada para apoyar una inmunidad saludable y calmar una constitución de fuego estresada. Su nombre chino, qing re, puede traducirse como 'despejar el calor'.",
+      "beneficios": [
+        "Nutre el sistema inmunológico",
+        "Nutre los sistemas estructural e inmunológico",
+        "Apoyo circulatorio"
+      ],
+      "energetica_oficial": "Calma una constitución de Fuego estresada; qing re = 'despejar el calor'.",
+      "organos_mencionados": [],
+      "precauciones": null,
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "anti-gas-chinese",
+      "url": "https://www.naturessunshine.com/product/anti-gas-chinese",
+      "nombre": "Anti-Gas, Chinese",
+      "formato": "cápsulas",
+      "sku": "1869",
+      "precio_usd": 45.05,
+      "presentacion": "100 cápsulas vegetales; 33 porciones; suministro para 16 días (suscripción: $33.75)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Agastache",
+          "latin": null,
+          "parte": "tops",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "crataegus",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "oryza",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": "shen qu (shen-chu)",
+          "nombre_comun": "shen-chu",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gastrodia",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cardamon",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 3 cápsulas vegetales con una comida tres veces al día.",
+      "descripcion_oficial": "Hierbas chinas para una buena digestión. Ayuda a aliviar la indigestión ocasional y apoya el sistema urinario. La fórmula es 'reductora de tierra' en la herbolaria china; su nombre, xiao dao, se traduce como 'despejar la congestión'. Se dirige al elemento Tierra, que abarca el bazo, el páncreas y el estómago. Está diseñada para mover la energía (chi) hacia la cabeza y apoyar la eliminación natural del exceso de humedad y toxinas.",
+      "beneficios": [
+        "Ayuda a aliviar la indigestión ocasional",
+        "Apoya el sistema urinario"
+      ],
+      "energetica_oficial": "Fórmula 'reductora de Tierra'; xiao dao = 'despejar la congestión'; elemento Tierra (bazo, páncreas, estómago); mueve el chi hacia la cabeza.",
+      "organos_mencionados": [
+        "bazo",
+        "páncreas",
+        "estómago"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "nervous-fatigue-chinese",
+      "url": "https://www.naturessunshine.com/product/nervous-fatigue-chinese",
+      "nombre": "Nervous Fatigue, Chinese",
+      "formato": "cápsulas",
+      "sku": "1884",
+      "precio_usd": 39.35,
+      "presentacion": "100 cápsulas vegetales; 25 porciones; suministro para 13 días (suscripción: $29.50)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Schisandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "biota",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cistanche",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cuscuta",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "succinum",
+          "latin": null,
+          "parte": "amber",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "acorus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lotus",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygonatum",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "jujuba",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "rehmannia",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 4 cápsulas vegetales con una comida dos veces al día.",
+      "descripcion_oficial": "La filosofía de la MTC señala al 'fuego' como el elemento que controla los estados emocionales, el ánimo y la circulación de la sangre. Es una fórmula potenciadora del yang; su nombre chino, yang xin, se traduce como 'nutrir el corazón'.",
+      "beneficios": [
+        "Alivia el estrés y promueve sensación de bienestar",
+        "Nutre los sistemas circulatorio y nervioso"
+      ],
+      "energetica_oficial": "Elemento Fuego; fórmula que potencia el yang (según el resumen de la página); yang xin = 'nutrir el corazón'. Corazón.",
+      "organos_mencionados": [
+        "corazón"
+      ],
+      "precauciones": null,
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "mood-elevator-chinese",
+      "url": "https://www.naturessunshine.com/product/mood-elevator-chinese",
+      "nombre": "Mood Elevator, Chinese",
+      "formato": "cápsulas",
+      "sku": "1878",
+      "precio_usd": 40.4,
+      "presentacion": "100 cápsulas vegetales; 100 porciones; suministro para 100 días (suscripción: $30.30)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Perilla",
+          "latin": null,
+          "parte": "leaves",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cyperus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": "zhi shi (chih-shih, Wade-Giles)",
+          "nombre_comun": "chih-shih",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "aurantium",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bamboo",
+          "latin": null,
+          "parte": "sap",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cnidium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gambir",
+          "latin": null,
+          "parte": "stem",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula vegetal con una comida al día.",
+      "descripcion_oficial": "Apoyo herbal para el sistema nervioso, usado tradicionalmente para el sistema nervioso y para apoyar el alivio del insomnio ocasional. Fortalece la función hepática, preserva la positividad y ayuda a liberar ('desatrapar') el chi (vitalidad). Su nombre chino, jie yu, se traduce como 'regular el chi'. Se clasifica como combinación 'potenciadora de fuego' para regular y liberar el chi, dentro de la filosofía de las cinco energías (Fuego, Tierra, Metal, Agua y Madera).",
+      "beneficios": [
+        "Apoyo al sistema nervioso",
+        "Alivio del insomnio ocasional",
+        "Fortalece la función hepática"
+      ],
+      "energetica_oficial": "Combinación 'potenciadora de Fuego'; jie yu; libera el chi. Hígado.",
+      "organos_mencionados": [
+        "hígado"
+      ],
+      "precauciones": null,
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "stress-relief-tcm-concentrate-2",
+      "url": "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate-2",
+      "nombre": "Stress Relief, Chinese (Herbal Traditional Chinese Medicine)",
+      "formato": "cápsulas",
+      "sku": "1863",
+      "precio_usd": 43.0,
+      "presentacion": "100 cápsulas vegetales; 100 porciones; suministro para 33 días (suscripción: $32.25)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Oyster",
+          "latin": null,
+          "parte": "shell",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "albizzia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygonatum",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "haliotis",
+          "latin": null,
+          "parte": "shell",
+          "cantidad": null
+        },
+        {
+          "pinyin": "fu shen",
+          "nombre_comun": "fushen",
+          "latin": null,
+          "parte": "sclerotium with root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "acorus",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "curcuma",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "jujuba",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "polygala",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "coptis",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula vegetal con una comida tres veces al día.",
+      "descripcion_oficial": "La fórmula busca 'pacificar el espíritu' y apoyar el equilibrio emocional abordando la constitución de fuego. La concha de ostra se considera calmante y se usa para aliviar la ansiedad. Aporta hierbas adaptógenas usadas tradicionalmente para la salud física y emocional, y se usa tradicionalmente para apoyar la función gástrica y el sistema nervioso. La energía del fuego controla los estados emocionales, el ánimo y la circulación de la sangre.",
+      "beneficios": [
+        "Apoya el equilibrio emocional",
+        "Hierbas adaptógenas para la salud física y emocional",
+        "Apoya la función gástrica y el sistema nervioso"
+      ],
+      "energetica_oficial": "Constitución de Fuego; 'pacificar el espíritu'.",
+      "organos_mencionados": [
+        "estómago (función gástrica)",
+        "sistema nervioso"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "mineral-chi-tonic-chinese",
+      "url": "https://www.naturessunshine.com/product/mineral-chi-tonic-chinese",
+      "nombre": "Mineral-Chi Tonic, Chinese",
+      "formato": "líquido",
+      "sku": "1818",
+      "precio_usd": 60.1,
+      "presentacion": "Botella de 32 fl oz; 63 porciones; suministro para 31 días (suscripción: $45.05)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Potassium",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lycium",
+          "latin": null,
+          "parte": "fruit extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "gynostemma",
+          "latin": null,
+          "parte": "whole plant extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "deglycyrrhizinated licorice",
+          "latin": null,
+          "parte": "root extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "reishi",
+          "latin": null,
+          "parte": "mushroom mycelia",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginkgo",
+          "latin": null,
+          "parte": "leaves extract",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "purified water",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "white grape juice",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "fulvic acid",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "trace minerals",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "natural apple and cherry flavors",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cucharada por la mañana y 1 cucharada por la noche al día. Mezclar con agua o jugo si se desea.",
+      "descripcion_oficial": "Ayuda a potenciar y mantener el equilibrio del sistema energético del cuerpo y apoya el sistema glandular. La página menciona los meridianos de la MTC y la nutrición de las glándulas suprarrenales: el gynostemma alimenta las suprarrenales; las bayas de lycium y schizandra equilibran los meridianos; el astrágalo fortalece la inmunidad; la raíz de regaliz apoya la función suprarrenal e hipofisaria; el hongo reishi ayuda a la respuesta al estrés y a la inmunidad; el ginkgo mejora la energía mental y la concentración.",
+      "beneficios": [
+        "Equilibrio del sistema energético",
+        "Apoya el sistema glandular"
+      ],
+      "energetica_oficial": "Menciona meridianos (lycium y schizandra equilibran los meridianos) y glándulas suprarrenales.",
+      "organos_mencionados": [
+        "glándulas suprarrenales",
+        "hipófisis"
+      ],
+      "precauciones": null,
+      "paquete": null
+    },
+    {
+      "slug": "spleen-activator",
+      "url": "https://www.naturessunshine.com/product/spleen-activator",
+      "nombre": "Spleen Activator TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1070",
+      "precio_usd": 61.1,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $45.80)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "astragalus",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "atractylodes",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dioscorea",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "lotus",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chaenomeles",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "galangal",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hyacinth bean",
+          "latin": null,
+          "parte": null,
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": "dang gui (tang-kuei, romanización Wade-Giles)",
+          "nombre_comun": "tang-kuei",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cardamom",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "zanthoxylum",
+          "latin": null,
+          "parte": "hull of seed",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula con una comida al día.",
+      "descripcion_oficial": "Apoyo digestivo concentrado diseñado para potenciar tu 'tierra', promoviendo la digestión, la salud intestinal y el bienestar. Se usa tradicionalmente para nutrir la función del bazo y para el apoyo digestivo e inmunológico. La fórmula, llamada wen zhong ('potenciar la Tierra'), usa hierbas para calmar la digestión y fortalecer una constitución Tierra, lo que puede mejorar la función inmunológica.",
+      "beneficios": [
+        "Nutre la función del bazo",
+        "Apoyo digestivo e inmunológico"
+      ],
+      "energetica_oficial": "Wen zhong = 'potenciar la Tierra'; constitución Tierra. Bazo.",
+      "organos_mencionados": [
+        "bazo"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "negativo/yin (según páginas de los paquetes)"
+    },
+    {
+      "slug": "kidney-activator",
+      "url": "https://www.naturessunshine.com/product/kidney-activator",
+      "nombre": "Kidney Activator (Herbal Urinary Tract Support)",
+      "formato": "cápsulas",
+      "sku": "970",
+      "precio_usd": 27.95,
+      "presentacion": "100 cápsulas; 50 porciones; suministro para 50 días (suscripción: $20.95)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Juniper",
+          "latin": null,
+          "parte": "berries",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "parsley",
+          "latin": null,
+          "parte": "leaves",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "uva ursi",
+          "latin": null,
+          "parte": "leaves",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "dandelion",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "chamomile",
+          "latin": null,
+          "parte": "flowers",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 2 cápsulas con una comida una vez al día.",
+      "descripcion_oficial": "Favorece un equilibrio hídrico adecuado con base en el uso tradicional de hierbas. Apoya la función de la vejiga y los riñones con hierbas urinarias tradicionales. NOTA: esta página corresponde a una fórmula herbal occidental (no china) y no contiene referencias de MTC.",
+      "beneficios": [
+        "Favorece el equilibrio hídrico",
+        "Apoya la función de vejiga y riñones"
+      ],
+      "energetica_oficial": null,
+      "organos_mencionados": [
+        "riñones",
+        "vejiga"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "nota": "Fórmula occidental, no es la fórmula china Kidney Activator; no forma parte de los paquetes TCM.",
+      "paquete": null
+    },
+    {
+      "slug": "breathe-activator",
+      "url": "https://www.naturessunshine.com/product/breathe-activator",
+      "nombre": "Breathe Activator® TCM Concentrate",
+      "formato": "concentrado TCM",
+      "sku": "1036",
+      "precio_usd": 54.9,
+      "presentacion": "30 cápsulas; 30 porciones; suministro para 30 días (suscripción: $41.15)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Citrus",
+          "latin": null,
+          "parte": "peel",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bamboo",
+          "latin": null,
+          "parte": "sap",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "fritillaria",
+          "latin": null,
+          "parte": "bulb",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "hoelen",
+          "latin": null,
+          "parte": "sclerotium",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "perilla",
+          "latin": null,
+          "parte": "leaves",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "platycodon",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": "xing ren",
+          "nombre_comun": "xingren apricot",
+          "latin": null,
+          "parte": "seed",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "magnolia",
+          "latin": null,
+          "parte": "bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "morus",
+          "latin": null,
+          "parte": "root bark",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ophiopogon",
+          "latin": null,
+          "parte": "root tuber",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "tussilago",
+          "latin": null,
+          "parte": "flower buds",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginger",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "schizandra",
+          "latin": null,
+          "parte": "fruit",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula al día con una comida.",
+      "descripcion_oficial": "Su nombre chino se traduce como 'ventilar los pulmones'. Es una fórmula para una constitución de metal estresada. La mezcla busca ayudar a los bronquiolos a eliminar desechos y mantener la salud pulmonar, y estimula la producción de moco para ayudar a limpiar el tracto respiratorio. La cáscara de cítricos y la schizandra apoyan los esfuerzos del cuerpo para eliminar desechos del sistema respiratorio y aumentar la energía en los pulmones.",
+      "beneficios": [
+        "Ayuda a los bronquiolos a eliminar desechos",
+        "Mantiene la salud pulmonar",
+        "Ayuda a limpiar el tracto respiratorio"
+      ],
+      "energetica_oficial": "Constitución de Metal estresada; 'ventilar los pulmones'. Pulmones.",
+      "organos_mencionados": [
+        "pulmones",
+        "bronquiolos"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": "positivo/yang (según páginas de los paquetes)"
+    },
+    {
+      "slug": "vs-c-vegcapsules",
+      "url": "https://www.naturessunshine.com/product/vs-c-vegcapsules",
+      "nombre": "VS-C® VegCapsules",
+      "formato": "cápsulas",
+      "sku": "937",
+      "precio_usd": 29.0,
+      "presentacion": "100 cápsulas vegetales; 100 porciones; suministro para 25 días (suscripción: $21.75)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Dandelion",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "purslane",
+          "latin": null,
+          "parte": "top",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "indigo",
+          "latin": null,
+          "parte": "leaves and root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "thlaspi",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 1 cápsula vegetal con una comida hasta cuatro veces al día.",
+      "descripcion_oficial": "Apoya los sistemas inmunológico y respiratorio con base en la teoría de la MTC y se usa tradicionalmente para apoyar la desintoxicación. Es una mezcla 'potenciadora de metal' diseñada para promover la conexión y la pureza según la MTC, nutriendo los pulmones (Fei) y el intestino grueso (Da Chang), los dos órganos asociados al elemento metal. VS-C® ayuda al cuerpo a mantener un equilibrio yin-yang vital.",
+      "beneficios": [
+        "Apoya los sistemas inmunológico y respiratorio",
+        "Apoya la desintoxicación"
+      ],
+      "energetica_oficial": "Mezcla 'potenciadora de Metal'; pulmones (Fei) e intestino grueso (Da Chang); equilibrio yin-yang.",
+      "organos_mencionados": [
+        "pulmones",
+        "intestino grueso"
+      ],
+      "precauciones": null,
+      "paquete": null
+    },
+    {
+      "slug": "vs-c-liquid",
+      "url": "https://www.naturessunshine.com/product/vs-c-liquid",
+      "nombre": "VS-C® Liquid",
+      "formato": "líquido",
+      "sku": "3167",
+      "precio_usd": 31.6,
+      "presentacion": "2 fl oz; 29 porciones; suministro para 7 días (suscripción: $23.70)",
+      "ingredientes": [
+        {
+          "pinyin": null,
+          "nombre_comun": "Dandelion",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "purslane",
+          "latin": null,
+          "parte": "top",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "indigo",
+          "latin": null,
+          "parte": "leaves and root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "thlaspi",
+          "latin": null,
+          "parte": "whole plant",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "bupleurum",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "scute",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "typhonium",
+          "latin": null,
+          "parte": "rhizome",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "cinnamon",
+          "latin": null,
+          "parte": "twig",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "licorice",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        },
+        {
+          "pinyin": null,
+          "nombre_comun": "ginseng",
+          "latin": null,
+          "parte": "root",
+          "cantidad": null
+        }
+      ],
+      "modo_de_uso": "Tomar 30–40 gotas de dos a cuatro veces al día.",
+      "descripcion_oficial": "Apoyo inmunológico líquido, conocido en la filosofía oriental por potenciar el 'metal' humano. Según las cinco energías de la MTC (Fuego, Tierra, Metal, Agua, Madera), apoya la constitución metal. Unos pulmones sanos y un flujo de aire sin obstáculos conforman una constitución metal óptima.",
+      "beneficios": [
+        "Apoyo inmunológico",
+        "Presentación líquida práctica"
+      ],
+      "energetica_oficial": "Potencia el Metal; pulmones.",
+      "organos_mencionados": [
+        "pulmones"
+      ],
+      "precauciones": "Las mujeres embarazadas o lactantes deben consultar a su profesional de la salud antes de tomar este suplemento.",
+      "paquete": null
+    }
+  ],
+  "paquetes": [
+    {
+      "slug": "chinese-positive-pack-tcm",
+      "url": "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+      "nombre": "Chinese Positive Pack TCM",
+      "tipo": "positivo/yang",
+      "sku": "13343",
+      "precio_usd": 379.0,
+      "formulas_incluidas": [
+        "Anti-Gas",
+        "IF-C",
+        "Kidney Activator",
+        "Liver Balance",
+        "Stress Relief",
+        "Mood Elevator",
+        "Breathe Activator TCM"
+      ],
+      "descripcion_oficial": "7 fórmulas chinas que construyen el yang, mezclas concentradas de la Medicina Tradicional China. Apoya los sistemas circulatorio, urinario, hepático, nervioso, digestivo y respiratorio, y la función del corazón, riñones, hígado, pulmones, páncreas y bazo. Cada hierba de este paquete apoya un nivel de energía correspondiente en uno de los seis órganos principales; un séptimo producto apoya la función energética general del cuerpo. Modo de uso: tomar 1 cápsula de cada frasco al día durante 30 días, durante tres meses consecutivos.",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ]
+    },
+    {
+      "slug": "chinese-negative-pack-tcm",
+      "url": "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+      "nombre": "Chinese Negative Pack, TCM",
+      "tipo": "negativo/yin",
+      "sku": "13344",
+      "precio_usd": 379.0,
+      "formulas_incluidas": [
+        "Lung Support",
+        "Blood Stimulator",
+        "HY-C",
+        "KB-C",
+        "Nervous Fatigue",
+        "Spleen Activator",
+        "Trigger Immune"
+      ],
+      "descripcion_oficial": "Una potente combinación de fórmulas chinas que apoya los niveles de energía de seis órganos principales, más una séptima fórmula que apoya la energía general en todo el cuerpo. Apoya los sistemas respiratorio, circulatorio, estructural, nervioso e inmunológico, y la función del corazón, riñones, hígado, pulmones, páncreas y bazo. Modo de uso: tomar 1 cápsula de cada frasco al día durante 30 días, durante tres meses consecutivos.",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ]
+    },
+    {
+      "slug": "build-yang-positive2",
+      "url": "https://www.naturessunshine.com/product/build-yang-positive2",
+      "nombre": "Build Yang/Positive (stack)",
+      "tipo": "positivo/yang",
+      "sku": "K424",
+      "precio_usd": 245.0,
+      "formulas_incluidas": [
+        "Anti-Gas",
+        "Kidney Activator",
+        "Liver Balance",
+        "Stress Relief",
+        "Mood Elevator",
+        "Breathe Activator",
+        "IF-C",
+        "(+ Chlorophyll 16 oz gratis)"
+      ],
+      "descripcion_oficial": "Incluye 1 TCM Positive Pack y Chlorophyll de 16 oz gratis. Siete productos que apoyan los niveles de energía en seis órganos principales, con formulaciones que construyen el yang, arraigadas en la Medicina Tradicional China. Apoya los sistemas circulatorio, urinario, hepático, nervioso, digestivo y respiratorio, y la función del corazón, riñones, hígado, pulmones, páncreas y bazo. Fortalece la calidez, la vitalidad y el impulso; apoya el equilibrio energético y la resiliencia general; junto con la clorofila, desintoxica suavemente y aporta protección antioxidante.",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ]
+    },
+    {
+      "slug": "build-yin-negative2",
+      "url": "https://www.naturessunshine.com/product/build-yin-negative2",
+      "nombre": "Build Yin/Negative (stack)",
+      "tipo": "negativo/yin",
+      "sku": "K425",
+      "precio_usd": 245.0,
+      "formulas_incluidas": [
+        "Blood Stimulator",
+        "Trigger Immune",
+        "HY-C",
+        "Lung Support",
+        "Nervous Fatigue",
+        "Spleen Activator",
+        "KB-C",
+        "(+ Chlorophyll 16 oz gratis)"
+      ],
+      "descripcion_oficial": "Incluye 1 TCM Negative Pack y Chlorophyll de 16 oz gratis. Restaura el equilibrio y la calma: siete productos herbales, cada uno apoyando los niveles de energía de órganos principales, con formulaciones estabilizadoras del yin guiadas por la Medicina Tradicional China. Apoya los sistemas respiratorio, circulatorio, estructural, nervioso e inmunológico, y la función del corazón, riñones, hígado, pulmones, páncreas y bazo. Nutre una energía refrescante y que enraíza; apoya el equilibrio, la resiliencia y la paz interior.",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ]
+    }
+  ]
+}

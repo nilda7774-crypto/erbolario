@@ -1,0 +1,3215 @@
+[
+    {
+        "id":  "NSP-001",
+        "slug":  "chlorophyll-liquid",
+        "url":  "https://www.naturessunshine.com/product/chlorophyll-liquid",
+        "nombre":  "Chlorophyll, Liquid",
+        "nombre_es":  "Clorofila líquida",
+        "sku":  "P1601",
+        "precio_usd":  22.95,
+        "presentacion":  "16 oz (473 ml), 15 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "clorofilina de sodio y cobre",
+                             "aceite de partes aéreas de hierbabuena"
+                         ],
+        "modo_de_uso":  "Tomar 2 cucharadas (30 ml) en un vaso de 8 oz (240 ml) de agua fría al día.",
+        "descripcion":  "Clorofila líquida con sabor a menta que apoya la salud digestiva e inmunológica a nivel celular. Ayuda a la desintoxicación intestinal y actúa como desodorante interno natural.",
+        "beneficios":  [
+                           "Apoya la salud digestiva",
+                           "Apoya la salud inmunológica a nivel celular",
+                           "Ayuda a la desintoxicación intestinal",
+                           "Desodorante interno natural que neutraliza olores corporales"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "clorofila",
+                               "clorofila liquida",
+                               "desintoxicacion",
+                               "mal olor corporal",
+                               "mal aliento",
+                               "digestion",
+                               "limpieza intestinal"
+                           ]
+    },
+    {
+        "id":  "NSP-002",
+        "slug":  "chlorophyll-es-liquid",
+        "url":  "https://www.naturessunshine.com/product/chlorophyll-es-liquid",
+        "nombre":  "Liquid Chlorophyll Extra Strength",
+        "nombre_es":  "Clorofila líquida extra fuerte",
+        "sku":  "P1599",
+        "precio_usd":  24.95,
+        "presentacion":  "16 oz (473 ml), 30 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "clorofilina de sodio y cobre",
+                             "aceite de partes aéreas de hierbabuena",
+                             "glicerina vegetal"
+                         ],
+        "modo_de_uso":  "Tomar 1 cucharada (15 ml) en un vaso de 8 oz (240 ml) de agua fría al día.",
+        "descripcion":  "Versión concentrada de la clorofila líquida, con más del doble de clorofilina por porción que la fórmula regular y sabor a hierbabuena. Apoya la salud intestinal y celular, y no contiene parabenos.",
+        "beneficios":  [
+                           "Apoya la salud intestinal",
+                           "Apoya la función intestinal y el bienestar celular",
+                           "Más del doble de clorofilina por porción que la versión regular",
+                           "Desodorante interno natural"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "clorofila",
+                               "clorofila extra fuerte",
+                               "desintoxicacion",
+                               "mal olor corporal",
+                               "salud intestinal",
+                               "digestion"
+                           ]
+    },
+    {
+        "id":  "NSP-003",
+        "slug":  "psyllium-hulls-combination",
+        "url":  "https://www.naturessunshine.com/product/psyllium-hulls-combination",
+        "nombre":  "Psyllium Hulls Combination Supplement",
+        "nombre_es":  "Combinación de cáscara de psyllium",
+        "sku":  "1376",
+        "precio_usd":  36.25,
+        "presentacion":  "11 oz (312 g) en polvo, 45 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "cáscara de semilla de psyllium",
+                             "flores de hibisco",
+                             "raíz de regaliz"
+                         ],
+        "modo_de_uso":  "Adultos: mezclar 2 cucharaditas en un vaso de agua o jugo. No está formulado para niños.",
+        "descripcion":  "Suplemento de fibra soluble que combina cáscara de psyllium con hibisco y raíz de regaliz. Facilita la eliminación natural de desechos y apoya la salud intestinal.",
+        "beneficios":  [
+                           "Aporta fibra soluble",
+                           "Facilita la eliminación natural de desechos",
+                           "Apoya la salud intestinal",
+                           "Apoya niveles de colesterol que ya están en el rango normal"
+                       ],
+        "precauciones":  "Puede causar reacción alérgica en personas sensibles al psyllium inhalado o ingerido.",
+        "palabras_clave":  [
+                               "psyllium",
+                               "fibra soluble",
+                               "estrenimiento",
+                               "colesterol",
+                               "regularidad intestinal",
+                               "limpieza de colon"
+                           ]
+    },
+    {
+        "id":  "NSP-004",
+        "slug":  "stomach-comfort",
+        "url":  "https://www.naturessunshine.com/product/stomach-comfort",
+        "nombre":  "Stomach Comfort - Digestive System Support Supplement",
+        "nombre_es":  "Confort estomacal (Stomach Comfort)",
+        "sku":  "1820",
+        "precio_usd":  22.75,
+        "presentacion":  "60 tabletas masticables, 30 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "carbonato de calcio",
+                             "fibra prebiótica vegetal",
+                             "alginato de sodio de alga parda",
+                             "concentrado de fruto de papaya",
+                             "goma guar",
+                             "corteza de olmo resbaladizo",
+                             "rizoma de jengibre",
+                             "extracto de raíz de regaliz"
+                         ],
+        "modo_de_uso":  "Masticar 1 o 2 tabletas hasta tres veces al día para un alivio digestivo rápido y temporal.",
+        "descripcion":  "Tabletas masticables que ayudan a neutralizar el ácido estomacal y aliviar molestias digestivas ocasionales. Combinan olmo resbaladizo para recubrir el tracto digestivo con jengibre, papaya y regaliz.",
+        "beneficios":  [
+                           "Alivia molestias digestivas ocasionales",
+                           "Neutraliza el ácido estomacal",
+                           "Recubre el tracto digestivo",
+                           "Apoya la digestión"
+                       ],
+        "precauciones":  "Los problemas digestivos pueden ser señal de problemas de salud más serios.",
+        "palabras_clave":  [
+                               "acidez",
+                               "agruras",
+                               "reflujo",
+                               "ardor estomacal",
+                               "indigestion",
+                               "dolor de estomago",
+                               "antiacido natural"
+                           ]
+    },
+    {
+        "id":  "NSP-005",
+        "slug":  "bowel-detox",
+        "url":  "https://www.naturessunshine.com/product/bowel-detox",
+        "nombre":  "Bowel Detox Dietary Supplement",
+        "nombre_es":  "Desintoxicación intestinal (Bowel Detox)",
+        "sku":  "3020",
+        "precio_usd":  35.2,
+        "presentacion":  "120 cápsulas, 40 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "cáscara de psyllium",
+                             "corteza de cáscara sagrada",
+                             "pancreatina",
+                             "carbón activado",
+                             "sales biliares",
+                             "pepsina",
+                             "algina",
+                             "pectina de manzana",
+                             "jengibre",
+                             "arcilla bentonita"
+                         ],
+        "modo_de_uso":  "Tomar 3 cápsulas dos veces al día.",
+        "descripcion":  "Fórmula de apoyo digestivo que combina fibras, hierbas, desintoxicantes y enzimas. Ayuda a promover la eliminación regular de desechos y la función del tracto gastrointestinal.",
+        "beneficios":  [
+                           "Ayuda a promover la eliminación regular de desechos",
+                           "Apoya la función del tracto gastrointestinal",
+                           "Combina fibras, hierbas, desintoxicantes y enzimas"
+                       ],
+        "precauciones":  "Consultar a un profesional de la salud antes de usar si está embarazada, amamantando o tomando medicamentos. No usar si hay diarrea, heces blandas o dolor abdominal. No es para uso prolongado. Puede causar reacciones alérgicas en personas sensibles al psyllium.",
+        "palabras_clave":  [
+                               "desintoxicacion intestinal",
+                               "limpieza de colon",
+                               "estrenimiento",
+                               "detox",
+                               "eliminacion",
+                               "carbon activado"
+                           ]
+    },
+    {
+        "id":  "NSP-006",
+        "slug":  "eleven-elevated",
+        "url":  "https://www.naturessunshine.com/product/eleven-elevated",
+        "nombre":  "Eleven Elevated™",
+        "nombre_es":  "Eleven Elevated™",
+        "sku":  "1514",
+        "precio_usd":  65.25,
+        "presentacion":  "60 cápsulas vegetales, 30 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Probiótico",
+        "ingredientes":  [
+                             "30 mil millones de UFC de 11 cepas por porción",
+                             "Lactobacillus rhamnosus",
+                             "Lactobacillus acidophilus",
+                             "Lactobacillus brevis",
+                             "Lactobacillus bulgaricus",
+                             "Lactobacillus plantarum",
+                             "Lactobacillus casei",
+                             "Lactobacillus salivarius",
+                             "Bifidobacterium bifidum",
+                             "Bifidobacterium infantis",
+                             "Bifidobacterium longum",
+                             "Streptococcus thermophilus",
+                             "mezcla prebiótica: inulina, FOS y fibra vegetal"
+                         ],
+        "modo_de_uso":  "Tomar dos cápsulas al día con una comida. Se sugiere un régimen inicial de 30 días con Eleven Elevated y luego pasar a Probiotic Eleven para mantenimiento diario, o usarlo periódicamente para reforzar el régimen.",
+        "descripcion":  "Probiótico de alta potencia con 30 mil millones de UFC de 11 cepas por porción, en cápsulas vegetales de liberación retardada. Apoya un ambiente intestinal saludable y un microbioma diverso.",
+        "beneficios":  [
+                           "Apoya un ambiente intestinal saludable",
+                           "Favorece un microbioma diverso",
+                           "66% más potencia que Probiotic Eleven",
+                           "Incluye mezcla prebiótica"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "probioticos",
+                               "flora intestinal",
+                               "microbioma",
+                               "salud intestinal",
+                               "digestion",
+                               "bacterias buenas"
+                           ]
+    },
+    {
+        "id":  "NSP-007",
+        "slug":  "food-enzymes",
+        "url":  "https://www.naturessunshine.com/product/food-enzymes",
+        "nombre":  "Food Enzymes - Digestive Relief \u0026 Support Dietary Supplement",
+        "nombre_es":  "Enzimas digestivas (Food Enzymes)",
+        "sku":  "1836",
+        "precio_usd":  35.95,
+        "presentacion":  "120 cápsulas, 60 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Enzimas",
+        "ingredientes":  [
+                             "betaína HCl",
+                             "sales biliares",
+                             "bromelina",
+                             "lipasa",
+                             "alfa amilasa",
+                             "pancreatina",
+                             "papaína",
+                             "pepsina"
+                         ],
+        "modo_de_uso":  "Tomar 1 a 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Combinación de enzimas digestivas que ayuda a descomponer proteínas, grasas y carbohidratos de las comidas. Según el fabricante, una cápsula ayuda a digerir al menos 30 g de proteína, 30 g de carbohidratos y 20 g de grasa.",
+        "beneficios":  [
+                           "Ayuda a descomponer las comidas",
+                           "Apoya la digestión de proteínas, grasas y carbohidratos",
+                           "Ayuda a aliviar la indigestión ocasional"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "enzimas digestivas",
+                               "indigestion",
+                               "pesadez",
+                               "digestion",
+                               "gases",
+                               "mala digestion"
+                           ]
+    },
+    {
+        "id":  "NSP-008",
+        "slug":  "lower-bowel-stimulator-100-vegi",
+        "url":  "https://www.naturessunshine.com/product/lower-bowel-stimulator-100-vegi",
+        "nombre":  "Lower Bowel Stimulator (Vegitabs®)",
+        "nombre_es":  "Estimulante del intestino grueso (Vegitabs®)",
+        "sku":  "P1598",
+        "precio_usd":  27.99,
+        "presentacion":  "100 Vegitabs, 25 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "corteza de cáscara sagrada",
+                             "corteza de espino cerval",
+                             "raíz de regaliz",
+                             "fruto de capsicum",
+                             "rizoma de jengibre",
+                             "raíz y rizoma de uva de Oregón",
+                             "raíz de ruibarbo turco",
+                             "rizoma de grama",
+                             "flores de trébol rojo"
+                         ],
+        "modo_de_uso":  "Tomar de 2 a 4 vegitabs al día con una comida.",
+        "descripcion":  "Fórmula herbal de apoyo avanzado para el intestino grueso. Ayuda a mantener la regularidad intestinal favoreciendo una función y eliminación saludables.",
+        "beneficios":  [
+                           "Apoyo avanzado para el intestino grueso",
+                           "Ayuda a mantener la regularidad intestinal",
+                           "Favorece la función intestinal y la eliminación saludables"
+                       ],
+        "precauciones":  "Consultar a un profesional de la salud si está embarazada, amamantando o tomando medicamentos. No es para uso prolongado. No usar si hay o se presentan diarrea, heces blandas o dolor abdominal.",
+        "palabras_clave":  [
+                               "estrenimiento",
+                               "laxante natural",
+                               "regularidad intestinal",
+                               "intestino grueso",
+                               "cascara sagrada",
+                               "colon"
+                           ]
+    },
+    {
+        "id":  "NSP-009",
+        "slug":  "everybodys-fiber",
+        "url":  "https://www.naturessunshine.com/product/everybodys-fiber",
+        "nombre":  "Everybody\u0027s Fiber",
+        "nombre_es":  "Fibra para todos (Everybody\u0027s Fiber)",
+        "sku":  "1336",
+        "precio_usd":  42.7,
+        "presentacion":  "4.6 oz (130 g) en polvo, 26 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "fibra dietética 2 g por porción",
+                             "pectina de manzana",
+                             "corteza de olmo resbaladizo",
+                             "fructooligosacáridos de cadena corta",
+                             "flores de manzanilla",
+                             "harina de linaza",
+                             "semilla de hinojo",
+                             "ácido málico",
+                             "raíz de malvavisco",
+                             "hojas de menta",
+                             "extracto de hoja de stevia",
+                             "tallo de espárrago",
+                             "corteza interna de uña de gato",
+                             "sabores naturales de durazno, albaricoque y ciruela"
+                         ],
+        "modo_de_uso":  "Mezclar 1 medida de polvo (5 gramos) en 4 onzas (120 ml) de agua o jugo y beber una vez al día.",
+        "descripcion":  "Polvo de fibra con hierbas calmantes y prebióticos para el bienestar digestivo. Busca suavizar el tracto intestinal y apoyar la salud intestinal en general.",
+        "beneficios":  [
+                           "Calma el tracto intestinal",
+                           "Apoya la salud intestinal con prebióticos",
+                           "Puede ayudar con el estreñimiento, gases e hinchazón ocasionales"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "fibra",
+                               "prebioticos",
+                               "estrenimiento",
+                               "gases",
+                               "hinchazon",
+                               "inflamacion abdominal",
+                               "digestion"
+                           ]
+    },
+    {
+        "id":  "NSP-010",
+        "slug":  "gall-bladder-formula",
+        "url":  "https://www.naturessunshine.com/product/gall-bladder-formula",
+        "nombre":  "Gall Bladder Formula",
+        "nombre_es":  "Fórmula para la vesícula biliar",
+        "sku":  "1202",
+        "precio_usd":  27.95,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 16 días)",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz y rizoma de uva de Oregón",
+                             "rizoma de jengibre",
+                             "corteza de viburno (cramp bark)",
+                             "semillas de hinojo",
+                             "hojas de menta",
+                             "raíz de ñame silvestre",
+                             "hojas de hierba gatera (catnip)"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Combinación de hierbas de uso tradicional para apoyar el sistema digestivo, el hígado y la vesícula biliar. Incluye plantas como jengibre, hinojo, menta y hierba gatera para favorecer la digestión.",
+        "beneficios":  [
+                           "apoya la vesícula biliar",
+                           "apoya el hígado",
+                           "calma la función digestiva",
+                           "favorece la digestión"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "vesicula biliar",
+                               "bilis",
+                               "digestion",
+                               "higado",
+                               "indigestion",
+                               "pesadez despues de comer"
+                           ]
+    },
+    {
+        "id":  "NSP-011",
+        "slug":  "l-glutamine",
+        "url":  "https://www.naturessunshine.com/product/l-glutamine",
+        "nombre":  "L-Glutamine",
+        "nombre_es":  "L-glutamina",
+        "sku":  "1776",
+        "precio_usd":  27.95,
+        "presentacion":  "30 cápsulas, 15 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "L-glutamina"
+                         ],
+        "modo_de_uso":  "Tomar 1 a 2 cápsulas al día con una comida.",
+        "descripcion":  "Suplemento del aminoácido L-glutamina en cápsulas vegetales. Apoya la función gastrointestinal, inmunológica y cognitiva, además del crecimiento, la energía y la reparación celular.",
+        "beneficios":  [
+                           "Apoya la función gastrointestinal",
+                           "Apoya la función inmunológica y cognitiva",
+                           "Promueve el crecimiento, la energía y la reparación celular",
+                           "Puede ayudar con molestias musculares relacionadas con el ejercicio"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "glutamina",
+                               "aminoacido",
+                               "salud intestinal",
+                               "recuperacion muscular",
+                               "dolor muscular",
+                               "intestino"
+                           ]
+    },
+    {
+        "id":  "NSP-012",
+        "slug":  "loclo",
+        "url":  "https://www.naturessunshine.com/product/loclo",
+        "nombre":  "LOCLO®",
+        "nombre_es":  "LOCLO®",
+        "sku":  "1348",
+        "precio_usd":  47.65,
+        "presentacion":  "11 oz (312 g) en polvo, 33 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "cáscara de psyllium",
+                             "fibra de manzana",
+                             "corteza de canela cassia",
+                             "goma de acacia",
+                             "semilla de linaza",
+                             "fructosa",
+                             "goma guar",
+                             "salvado de avena",
+                             "ácido cítrico",
+                             "ácido málico",
+                             "extracto de hoja de stevia",
+                             "flores de brócoli",
+                             "raíz de cúrcuma",
+                             "hoja de romero",
+                             "raíz de remolacha roja",
+                             "fruto de tomate",
+                             "raíz de zanahoria",
+                             "hoja de col",
+                             "hesperidina",
+                             "extracto de bioflavonoides de toronja",
+                             "extracto de bioflavonoides de naranja"
+                         ],
+        "modo_de_uso":  "Añadir aproximadamente 1 cucharada rasa a 8 onzas (240 ml) de agua fría, una vez al día. Agitar o mezclar enérgicamente y beber de inmediato.",
+        "descripcion":  "Mezcla de fibra dietética en polvo enriquecida con ingredientes de frutas y verduras, pensada para quienes no consumen suficiente fibra. Ayuda a mejorar la digestión.",
+        "beneficios":  [
+                           "Aporta fibra dietética saludable",
+                           "Mejora la digestión",
+                           "Enriquecido con ingredientes de frutas y verduras"
+                       ],
+        "precauciones":  "Evitar su uso si alguna vez ha tenido estrechamiento del esófago o dificultad para tragar. Puede causar reacción alérgica en personas sensibles al psyllium inhalado o ingerido. Es esencial tomar suficiente agua.",
+        "palabras_clave":  [
+                               "fibra",
+                               "loclo",
+                               "estrenimiento",
+                               "digestion",
+                               "psyllium",
+                               "fibra soluble",
+                               "regularidad intestinal"
+                           ]
+    },
+    {
+        "id":  "NSP-013",
+        "slug":  "acidophilus",
+        "url":  "https://www.naturessunshine.com/product/acidophilus",
+        "nombre":  "L. Acidophilus Probiotic",
+        "nombre_es":  "Probiótico L. acidophilus",
+        "sku":  "1666",
+        "precio_usd":  33.15,
+        "presentacion":  "90 cápsulas, 30 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Probiótico",
+        "ingredientes":  [
+                             "L. acidophilus 250 millones de UFC por porción (mínimo 100 millones de organismos por cápsula)"
+                         ],
+        "modo_de_uso":  "Tomar 1 a 2 cápsulas dos veces al día con una comida.",
+        "descripcion":  "Probiótico liofilizado de L. acidophilus en cápsula vegetal de liberación retardada que protege los organismos del ácido estomacal. Es no transgénico y apto para veganos; se recomienda guardarlo en refrigerador o congelador.",
+        "beneficios":  [
+                           "Aporta bacterias beneficiosas para la salud intestinal",
+                           "Cápsula de liberación retardada que llega al intestino",
+                           "Liofilizado para mantener la viabilidad",
+                           "No transgénico y apto para veganos"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "acidophilus",
+                               "probioticos",
+                               "flora intestinal",
+                               "salud intestinal",
+                               "digestion",
+                               "bacterias buenas"
+                           ]
+    },
+    {
+        "id":  "NSP-014",
+        "slug":  "protease-plus",
+        "url":  "https://www.naturessunshine.com/product/protease-plus",
+        "nombre":  "Protease Plus",
+        "nombre_es":  "Proteasa Plus",
+        "sku":  "1841",
+        "precio_usd":  48.7,
+        "presentacion":  "90 cápsulas, 30 porciones",
+        "categoria":  "Sistema digestivo",
+        "tipo":  "Enzimas",
+        "ingredientes":  [
+                             "proteasa 60,000 HUT",
+                             "fibra de raíz de remolacha",
+                             "concentrado de minerales traza"
+                         ],
+        "modo_de_uso":  "Tomar 1 a 3 cápsulas con las comidas o entre comidas.",
+        "descripcion":  "Enzima proteasa que ayuda a descomponer las proteínas cuando se toma con las comidas. Tomada entre comidas, se presenta como apoyo para el sistema inmunológico.",
+        "beneficios":  [
+                           "Descompone las proteínas en aminoácidos más pequeños",
+                           "Impulsa la digestión",
+                           "Apoya los sistemas digestivo e inmunológico",
+                           "Apoya la inmunidad cuando se toma entre comidas"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "proteasa",
+                               "enzimas",
+                               "digestion de proteinas",
+                               "indigestion",
+                               "defensas",
+                               "sistema inmune"
+                           ]
+    },
+    {
+        "id":  "NSP-015",
+        "slug":  "burdock",
+        "url":  "https://www.naturessunshine.com/product/burdock",
+        "nombre":  "Burdock",
+        "nombre_es":  "Bardana",
+        "sku":  "140",
+        "precio_usd":  36.25,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 25 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de bardana"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Cápsulas de raíz de bardana con apoyo tradicional para el sistema digestivo. Según la medicina tradicional china, sus compuestos ayudan a depurar la sangre y favorecen una circulación saludable.",
+        "beneficios":  [
+                           "apoyo tradicional al sistema digestivo",
+                           "ayuda a depurar la sangre",
+                           "promueve una circulación saludable"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "bardana",
+                               "depurar la sangre",
+                               "detox",
+                               "desintoxicacion",
+                               "digestion",
+                               "circulacion"
+                           ]
+    },
+    {
+        "id":  "NSP-016",
+        "slug":  "cellular-detox",
+        "url":  "https://www.naturessunshine.com/product/cellular-detox",
+        "nombre":  "Cellular Detox",
+        "nombre_es":  "Desintoxicación celular",
+        "sku":  "1072",
+        "precio_usd":  31.60,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 16 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de genciana",
+                             "corteza de cáscara sagrada",
+                             "semillas de fenogreco",
+                             "corteza de olmo resbaladizo",
+                             "flores de cártamo",
+                             "cáscaras de nuez negra",
+                             "goma de mirra",
+                             "raíz de romaza (yellow dock)",
+                             "raíz de diente de león",
+                             "raíz y rizoma de uva de Oregón",
+                             "hojas de hierba gatera (catnip)",
+                             "extracto de hoja de pamplina",
+                             "raíz de parthenium",
+                             "extracto de hoja de gayuba (uva ursi)",
+                             "extracto de raíz de hidrastis (goldenseal)"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Mezcla de hierbas con cáscara sagrada pensada para favorecer la función intestinal y la eliminación de toxinas. Ayuda a que el colon trabaje de forma eficiente en la eliminación de desechos.",
+        "beneficios":  [
+                           "promueve una función intestinal adecuada",
+                           "favorece la eliminación de toxinas",
+                           "apoya la función digestiva e intestinal",
+                           "ayuda a la eliminación de desechos del colon"
+                       ],
+        "precauciones":  "Contiene cáscara sagrada. No usar en caso de diarrea, heces sueltas o dolor abdominal. Consultar a un profesional de la salud si está embarazada, en periodo de lactancia o toma medicamentos. No está destinado para uso prolongado.",
+        "palabras_clave":  [
+                               "detox",
+                               "desintoxicacion",
+                               "colon",
+                               "estrenimiento",
+                               "limpieza intestinal",
+                               "toxinas",
+                               "evacuacion"
+                           ]
+    },
+    {
+        "id":  "NSP-017",
+        "slug":  "dandelion",
+        "url":  "https://www.naturessunshine.com/product/dandelion",
+        "nombre":  "Dandelion",
+        "nombre_es":  "Diente de león",
+        "sku":  "250",
+        "precio_usd":  24.85,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 25 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de diente de león"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Cápsulas de raíz de diente de león, una planta rica en nutrientes. Se usa tradicionalmente para apoyar la salud digestiva, urinaria y hepática, además de la desintoxicación.",
+        "beneficios":  [
+                           "apoya la salud digestiva",
+                           "apoya la salud urinaria",
+                           "apoya la salud del hígado",
+                           "apoya la desintoxicación",
+                           "apoya el bienestar femenino"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "diente de leon",
+                               "higado",
+                               "detox",
+                               "digestion",
+                               "vias urinarias",
+                               "desintoxicacion"
+                           ]
+    },
+    {
+        "id":  "NSP-018",
+        "slug":  "liver-cleanse-formula",
+        "url":  "https://www.naturessunshine.com/product/liver-cleanse-formula",
+        "nombre":  "Liver Cleanse Formula",
+        "nombre_es":  "Fórmula de limpieza hepática",
+        "sku":  "1010",
+        "precio_usd":  27.95,
+        "presentacion":  "100 cápsulas, 100 porciones (suministro para 33 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de remolacha roja",
+                             "raíz de diente de león",
+                             "raíz de romaza (yellow dock)",
+                             "raíz de angélica",
+                             "hojas de perejil",
+                             "tallo y estróbilo de cola de caballo",
+                             "raíz de cohosh negro",
+                             "hojas de abedul",
+                             "partes aéreas de cardo santo",
+                             "flores de manzanilla",
+                             "raíz de genciana",
+                             "partes aéreas de vara de oro"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres veces al día.",
+        "descripcion":  "Fórmula de hierbas tradicionales para apoyar las funciones vitales del hígado. Nutre este órgano y ayuda a su desintoxicación.",
+        "beneficios":  [
+                           "apoya las funciones del hígado",
+                           "ayuda a desintoxicar el hígado",
+                           "apoya la digestión",
+                           "promueve la desintoxicación"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "higado",
+                               "limpieza de higado",
+                               "detox",
+                               "desintoxicacion",
+                               "digestion",
+                               "higado graso"
+                           ]
+    },
+    {
+        "id":  "NSP-019",
+        "slug":  "liquid-cleanse",
+        "url":  "https://www.naturessunshine.com/product/liquid-cleanse",
+        "nombre":  "Liquid Cleanse",
+        "nombre_es":  "Limpieza líquida",
+        "sku":  "3193",
+        "precio_usd":  36.25,
+        "presentacion":  "16 fl oz (473 ml), 16 porciones (suministro para 15 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "concentrado de jugo de hoja interna de aloe vera",
+                             "concentrado de fruta de frambuesa roja",
+                             "hojas de sen",
+                             "sabor natural de frambuesa",
+                             "corteza de canela cassia",
+                             "minerales traza",
+                             "corteza de raíz de agracejo",
+                             "goma xantana",
+                             "semillas de hinojo",
+                             "extracto de hoja de stevia",
+                             "barba de maíz",
+                             "rizoma de jengibre",
+                             "raíz de diente de león",
+                             "fruto de capsicum (pimiento)"
+                         ],
+        "modo_de_uso":  "Tomar 1 onza (30 ml) al día como parte de su programa personal de limpieza. No está destinado para uso prolongado.",
+        "descripcion":  "Fórmula líquida que apoya la función intestinal y la salud digestiva. Combina aloe vera, sen y hierbas como jengibre y capsicum, además de componentes que apoyan el hígado y los riñones.",
+        "beneficios":  [
+                           "apoya una función intestinal saludable",
+                           "aloe vera para calmar el tracto digestivo",
+                           "sen para mantener heces blandas y promover evacuaciones",
+                           "estimula las secreciones digestivas",
+                           "apoya la función del hígado y los riñones"
+                       ],
+        "precauciones":  "Consultar a un profesional de la salud si está embarazada, en periodo de lactancia, tiene alguna condición médica o toma medicamentos. No usar en caso de diarrea, heces sueltas o dolor abdominal. Contiene sen; no es para uso prolongado.",
+        "palabras_clave":  [
+                               "limpieza",
+                               "detox liquido",
+                               "estrenimiento",
+                               "colon",
+                               "aloe vera",
+                               "digestion",
+                               "laxante natural"
+                           ]
+    },
+    {
+        "id":  "NSP-020",
+        "slug":  "liv-j",
+        "url":  "https://www.naturessunshine.com/product/liv-j",
+        "nombre":  "LIV-J",
+        "nombre_es":  "LIV-J",
+        "sku":  "1011",
+        "precio_usd":  31.60,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 16 días)",
+        "categoria":  "Desintoxicación y limpieza",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de diente de león",
+                             "escaramujo (rosa mosqueta)",
+                             "corteza de raíz de agracejo",
+                             "semillas de hinojo",
+                             "hojas de perejil",
+                             "raíz de remolacha roja",
+                             "raíz de rábano picante"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día y antes de acostarse.",
+        "descripcion":  "Mezcla de hierbas usada tradicionalmente para apoyar la digestión y limpiar el sistema digestivo. También nutre el hígado y el bazo.",
+        "beneficios":  [
+                           "apoya el sistema digestivo",
+                           "apoya el sistema hepático",
+                           "nutre el hígado y el bazo",
+                           "ayuda a limpiar el sistema digestivo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "higado",
+                               "limpieza hepatica",
+                               "digestion",
+                               "detox",
+                               "bazo",
+                               "hierbas para el higado"
+                           ]
+    },
+    {
+        "id":  "NSP-021",
+        "slug":  "garlic-oil",
+        "url":  "https://www.naturessunshine.com/product/garlic-oil",
+        "nombre":  "Garlic Oil",
+        "nombre_es":  "Aceite de ajo",
+        "sku":  "1694",
+        "precio_usd":  31.75,
+        "presentacion":  "60 cápsulas blandas, 60 porciones (suministro para 20 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas blandas",
+        "ingredientes":  [
+                             "aceite de bulbo de ajo (cada cápsula blanda equivale a 1000 mg de dientes de ajo fresco)",
+                             "aceite de soya"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula blanda con una comida tres veces al día.",
+        "descripcion":  "Cápsulas blandas de aceite de ajo con compuestos azufrados como la alicina para apoyar las defensas. Ofrecen una forma práctica y sin olor de consumir ajo.",
+        "beneficios":  [
+                           "Apoya el sistema inmunológico",
+                           "Formato en cápsula blanda sin olor",
+                           "Cada cápsula equivale a 1000 mg de ajo fresco"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "aceite de ajo",
+                               "ajo sin olor",
+                               "alicina",
+                               "defensas",
+                               "sistema inmune",
+                               "capsulas blandas"
+                           ]
+    },
+    {
+        "id":  "NSP-022",
+        "slug":  "garlic",
+        "url":  "https://www.naturessunshine.com/product/garlic",
+        "nombre":  "Garlic",
+        "nombre_es":  "Ajo",
+        "sku":  "290",
+        "precio_usd":  25.90,
+        "presentacion":  "100 cápsulas, 100 porciones (suministro para 50 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "bulbo de ajo"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida dos veces al día.",
+        "descripcion":  "Cápsulas de bulbo de ajo cuyos compuestos azufrados, especialmente la alicina, son el principal componente activo. Aportan antioxidantes para la función inmunológica y favorecen una circulación saludable.",
+        "beneficios":  [
+                           "Aporta antioxidantes que apoyan la función inmunológica",
+                           "Favorece una circulación saludable",
+                           "Contiene alicina como compuesto activo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "ajo",
+                               "alicina",
+                               "defensas",
+                               "sistema inmune",
+                               "circulacion",
+                               "antioxidante"
+                           ]
+    },
+    {
+        "id":  "NSP-023",
+        "slug":  "una-de-gato-cats-claw",
+        "url":  "https://www.naturessunshine.com/product/una-de-gato-cats-claw",
+        "nombre":  "Cat\u0027s Claw Combination",
+        "nombre_es":  "Combinación de uña de gato",
+        "sku":  "175",
+        "precio_usd":  35.20,
+        "presentacion":  "100 cápsulas, 100 porciones (suministro para 100 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "corteza interna de uña de gato",
+                             "raíz de astrágalo",
+                             "raíz de Echinacea purpurea"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula al día con una comida.",
+        "descripcion":  "Mezcla herbal que combina uña de gato de la selva peruana con astrágalo chino y equinácea. Se basa en usos tradicionales para el apoyo inmunológico y respiratorio.",
+        "beneficios":  [
+                           "Aporta propiedades que refuerzan el sistema inmunológico",
+                           "Ayuda al cuerpo a adaptarse al estrés",
+                           "Uso tradicional para apoyo inmunológico y respiratorio"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "una de gato",
+                               "astragalo",
+                               "equinacea",
+                               "defensas",
+                               "sistema inmune",
+                               "estres",
+                               "respiratorio"
+                           ]
+    },
+    {
+        "id":  "NSP-024",
+        "slug":  "lymphatic-drainage",
+        "url":  "https://www.naturessunshine.com/product/lymphatic-drainage",
+        "nombre":  "Lymphatic Drainage™",
+        "nombre_es":  "Drenaje linfático",
+        "sku":  "3171",
+        "precio_usd":  37.95,
+        "presentacion":  "2 fl oz (59 ml), 59 porciones (suministro para 30 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "amor de hortelano (cleavers)",
+                             "flor de trébol rojo",
+                             "raíz roja (red root)",
+                             "corteza de fresno espinoso",
+                             "glicerina vegetal y agua"
+                         ],
+        "modo_de_uso":  "Tomar 1 ml (aproximadamente 15-20 gotas o ¼ de cucharadita) en agua dos veces al día.",
+        "descripcion":  "Mezcla líquida de hierbas que apoya la función y el flujo del sistema linfático. Ayuda a equilibrar los líquidos de los tejidos y a retirar desechos celulares.",
+        "beneficios":  [
+                           "apoya la función y el flujo linfático",
+                           "promueve la circulación saludable de líquidos en los tejidos",
+                           "ayuda a eliminar desechos celulares",
+                           "apoya la desintoxicación y la función inmunológica",
+                           "puede reducir la apariencia de hinchazón"
+                       ],
+        "precauciones":  "Consultar a un profesional de la salud si está embarazada, en periodo de lactancia, tiene alguna condición médica o toma medicamentos.",
+        "palabras_clave":  [
+                               "sistema linfatico",
+                               "drenaje linfatico",
+                               "retencion de liquidos",
+                               "hinchazon",
+                               "ganglios",
+                               "defensas",
+                               "detox"
+                           ]
+    },
+    {
+        "id":  "NSP-025",
+        "slug":  "echinacea-purpurea",
+        "url":  "https://www.naturessunshine.com/product/echinacea-purpurea",
+        "nombre":  "Echinacea Purpurea",
+        "nombre_es":  "Equinácea Purpurea",
+        "sku":  "263",
+        "precio_usd":  51.80,
+        "presentacion":  "180 cápsulas, 90 porciones (suministro para 30 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "partes aéreas y raíz de equinácea (Echinacea purpurea)"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Suplemento de equinácea elaborado con partes aéreas y raíz de la planta para fortalecer la función inmunológica durante todo el año. Sus compuestos activos incluyen polisacáridos, glicoproteínas, alcamidas, aceites volátiles y flavonoides.",
+        "beneficios":  [
+                           "Apoya el sistema inmunológico",
+                           "Crea un entorno desfavorable para bacterias no deseadas",
+                           "Aporta propiedades antioxidantes"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "equinacea",
+                               "defensas",
+                               "sistema inmune",
+                               "resfriado",
+                               "gripe",
+                               "bacterias",
+                               "antioxidante"
+                           ]
+    },
+    {
+        "id":  "NSP-026",
+        "slug":  "ultimate-echinacea",
+        "url":  "https://www.naturessunshine.com/product/ultimate-echinacea",
+        "nombre":  "Ultimate Echinacea",
+        "nombre_es":  "Equinácea Ultimate",
+        "sku":  "3181",
+        "precio_usd":  34.15,
+        "presentacion":  "2 fl oz (59 ml), 59 porciones (suministro para 20 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "extracto de raíz de Echinacea purpurea, E. angustifolia y E. pallida",
+                             "sabor a plátano y naranja",
+                             "glicerina vegetal",
+                             "agua"
+                         ],
+        "modo_de_uso":  "Adultos: tomar 15-20 gotas (1 ml) en agua con las comidas tres veces al día. Este producto no fue formulado para niños; consultar con su profesional de la salud.",
+        "descripcion":  "Extracto líquido que combina tres especies de equinácea, con equinacósidos, glicoproteínas, isobutilamidas y polisacáridos. Está pensado para reforzar las defensas y ayudar a sentirse mejor más rápido.",
+        "beneficios":  [
+                           "Fortalece el sistema inmunológico",
+                           "Aporta actividad antioxidante",
+                           "Combina tres especies de equinácea"
+                       ],
+        "precauciones":  "No formulado para niños; consultar con su profesional de la salud antes de administrarlo a niños.",
+        "palabras_clave":  [
+                               "equinacea liquida",
+                               "defensas",
+                               "sistema inmune",
+                               "resfriado",
+                               "gripe",
+                               "gotas",
+                               "antioxidante"
+                           ]
+    },
+    {
+        "id":  "NSP-027",
+        "slug":  "immune-stimulator",
+        "url":  "https://www.naturessunshine.com/product/immune-stimulator",
+        "nombre":  "Immune Stimulator",
+        "nombre_es":  "Estimulador inmunológico",
+        "sku":  "1839",
+        "precio_usd":  60.10,
+        "presentacion":  "90 cápsulas, 90 porciones (suministro para 45 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "betaglucanos",
+                             "arabinogalactano",
+                             "calostro",
+                             "micelio de cordyceps",
+                             "micelio de hongo reishi",
+                             "hongo maitake entero"
+                         ],
+        "modo_de_uso":  "Para mantenimiento, tomar 1 cápsula entre comidas dos o tres veces al día. En periodos de estrés del sistema inmunológico, tomar de 6 a 10 cápsulas al día.",
+        "descripcion":  "Fórmula con polisacáridos, calostro y hongos como reishi, maitake y cordyceps que estimula la respuesta inmunológica del cuerpo. Según la página, activa células como macrófagos, células T y células asesinas naturales.",
+        "beneficios":  [
+                           "Estimula la respuesta inmunológica del cuerpo",
+                           "Aporta protección antioxidante",
+                           "Combina hongos tradicionales con betaglucanos y calostro"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "estimulador inmune",
+                               "betaglucanos",
+                               "hongos",
+                               "reishi",
+                               "maitake",
+                               "defensas bajas",
+                               "sistema inmune"
+                           ]
+    },
+    {
+        "id":  "NSP-028",
+        "slug":  "pau-darco-extract",
+        "url":  "https://www.naturessunshine.com/product/pau-darco-extract",
+        "nombre":  "Pau D\u0027Arco Extract",
+        "nombre_es":  "Extracto de Pau D\u0027Arco",
+        "sku":  "1774",
+        "precio_usd":  34.05,
+        "presentacion":  "2 fl oz (59 ml), 23 porciones (suministro para 8 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "corteza interna de pau d\u0027arco (extracto líquido)"
+                         ],
+        "modo_de_uso":  "Tomar 1/2 cucharadita con agua tres veces al día.",
+        "descripcion":  "Extracto líquido de la corteza interna del árbol brasileño pau d\u0027arco, que contiene lapachol. Se usa tradicionalmente para apoyar las defensas y la desintoxicación.",
+        "beneficios":  [
+                           "Apoya la salud inmunológica",
+                           "Brinda apoyo a la desintoxicación",
+                           "Uso tradicional para combatir organismos dañinos"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "pau darco",
+                               "lapachol",
+                               "defensas",
+                               "hongos",
+                               "desintoxicacion",
+                               "sistema inmune"
+                           ]
+    },
+    {
+        "id":  "NSP-029",
+        "slug":  "golden-seal-parthenium-extract",
+        "url":  "https://www.naturessunshine.com/product/golden-seal-parthenium-extract",
+        "nombre":  "Golden Seal/Parthenium Extract",
+        "nombre_es":  "Extracto de sello de oro y parthenium",
+        "sku":  "1781",
+        "precio_usd":  62.90,
+        "presentacion":  "2 fl oz (59 ml), 59 porciones (suministro para 30 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "extracto de raíz de sello de oro",
+                             "extracto de raíz de parthenium",
+                             "agua",
+                             "alcohol"
+                         ],
+        "modo_de_uso":  "Adultos: usar 20-25 gotas dos veces al día. Un ml equivale a una cápsula de sello de oro y una de parthenium.",
+        "descripcion":  "Extracto líquido concentrado que aporta los alcaloides hidrastina y berberina del sello de oro y ésteres sesquiterpénicos del parthenium, de rápida absorción. Ofrece apoyo inmunológico tradicional.",
+        "beneficios":  [
+                           "Apoya las membranas mucosas",
+                           "Apoyo tradicional al sistema inmunológico",
+                           "Fórmula concentrada de rápida absorción"
+                       ],
+        "precauciones":  "No formulado para niños; consultar con un profesional de la salud antes de administrarlo a niños.",
+        "palabras_clave":  [
+                               "sello de oro",
+                               "goldenseal",
+                               "parthenium",
+                               "berberina",
+                               "mucosas",
+                               "defensas",
+                               "gotas"
+                           ]
+    },
+    {
+        "id":  "NSP-030",
+        "slug":  "my-immune-defense",
+        "url":  "https://www.naturessunshine.com/product/my-immune-defense",
+        "nombre":  "MY-Immune Defense",
+        "nombre_es":  "MY-Immune Defense (defensa inmunológica con hongos)",
+        "sku":  "22470",
+        "precio_usd":  56.45,
+        "presentacion":  "90 g de polvo, 30 porciones (suministro para 30 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "hongo cordyceps (micelio)",
+                             "hongo reishi (cuerpo fructífero y micelio)",
+                             "hongo cola de pavo (micelio)",
+                             "hongo chaga (micelio)",
+                             "hongo shiitake (cuerpo fructífero y micelio)",
+                             "hongo agaricus (cuerpo fructífero)"
+                         ],
+        "modo_de_uso":  "Mezclar una medida (3 g) en su batido, jugo o receta favorita. Usar a diario para mejores resultados.",
+        "descripcion":  "Polvo de seis hongos orgánicos que se mezcla con bebidas o recetas para apoyar las defensas. Los hongos aportan de forma natural betaglucanos y vitamina D.",
+        "beneficios":  [
+                           "Brinda un potente apoyo al sistema inmunológico",
+                           "Apoya la resistencia física y combate la fatiga",
+                           "Fuente natural de betaglucanos y vitamina D",
+                           "Beneficios antioxidantes"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "hongos medicinales",
+                               "defensas",
+                               "sistema inmune",
+                               "fatiga",
+                               "cansancio",
+                               "betaglucanos",
+                               "polvo"
+                           ]
+    },
+    {
+        "id":  "NSP-031",
+        "slug":  "sinus-support-ef",
+        "url":  "https://www.naturessunshine.com/product/sinus-support-ef",
+        "nombre":  "Sinus Support®",
+        "nombre_es":  "Sinus Support® (apoyo para senos nasales)",
+        "sku":  "1250",
+        "precio_usd":  31.60,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 16 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de bardana",
+                             "extracto de raíz y rizoma de sello de oro",
+                             "raíz de malvavisco",
+                             "hoja de yerba santa",
+                             "fruto de capsicum",
+                             "hoja de perejil",
+                             "hoja y flor de marrubio",
+                             "extracto de fruto de naranja amarga"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Suplemento herbal de apoyo respiratorio enfocado en la limpieza de los senos nasales y la protección de sus tejidos. Incluye sinefrina de la cáscara de naranja inmadura.",
+        "beneficios":  [
+                           "Brinda apoyo respiratorio específico",
+                           "Apoya fosas nasales saludables",
+                           "Útil durante los cambios de estación"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "sinusitis",
+                               "senos nasales",
+                               "congestion nasal",
+                               "nariz tapada",
+                               "respiratorio",
+                               "alergia estacional"
+                           ]
+    },
+    {
+        "id":  "NSP-032",
+        "slug":  "colostrum",
+        "url":  "https://www.naturessunshine.com/product/colostrum",
+        "nombre":  "Colostrum Dietary Supplement",
+        "nombre_es":  "Suplemento dietético de calostro",
+        "sku":  "1828",
+        "precio_usd":  39.35,
+        "presentacion":  "90 cápsulas, 90 porciones (suministro para 22 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "calostro de leche"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula cuatro veces al día, una hora antes de las comidas y al acostarse, con 8 oz (240 ml) de agua.",
+        "descripcion":  "Suplemento de calostro, que contiene de forma natural inmunoglobulinas para reforzar las defensas. También apoya la salud gastrointestinal y muscular.",
+        "beneficios":  [
+                           "Apoya la inmunidad",
+                           "Apoya la salud gastrointestinal",
+                           "Aporta beneficios antioxidantes",
+                           "Favorece la salud muscular"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "calostro",
+                               "inmunoglobulinas",
+                               "defensas",
+                               "sistema inmune",
+                               "salud intestinal",
+                               "musculos"
+                           ]
+    },
+    {
+        "id":  "NSP-033",
+        "slug":  "trigger-immune-chinese",
+        "url":  "https://www.naturessunshine.com/product/trigger-immune-chinese",
+        "nombre":  "Trigger Immune® (Chinese)",
+        "nombre_es":  "Trigger Immune® (fórmula china)",
+        "sku":  "1889",
+        "precio_usd":  41.45,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 16 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Fórmula china (TCM)",
+        "ingredientes":  [
+                             "raíz de astrágalo",
+                             "raíz de ginseng",
+                             "hoja de epimedium",
+                             "corteza de eucommia",
+                             "hongo ganoderma",
+                             "fruto de lycium",
+                             "tubérculo de raíz de rehmannia",
+                             "raíz de achyranthes",
+                             "raíz de tang-kuei",
+                             "rizoma de atractylodes",
+                             "cáscara de cítricos",
+                             "esclerocio de hoelen",
+                             "fruto de ligustrum",
+                             "tubérculo de raíz de ophiopogon",
+                             "raíz de peonía sin corteza",
+                             "raíz de polygala",
+                             "fruto de schizandra",
+                             "raíz de regaliz"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas vegetales con una comida dos veces al día.",
+        "descripcion":  "Fórmula de Medicina Tradicional China que apoya la inmunidad natural nutriendo el chi para impulsar los procesos vitales. Su nombre chino se traduce como \"generar el pulso\".",
+        "beneficios":  [
+                           "Apoya la inmunidad natural",
+                           "Nutre el chi del cuerpo",
+                           "Fortalece una constitución energética debilitada"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "trigger immune",
+                               "medicina china",
+                               "chi",
+                               "defensas",
+                               "sistema inmune",
+                               "energia baja",
+                               "astragalo"
+                           ]
+    },
+    {
+        "id":  "NSP-034",
+        "slug":  "vitamin-c-ascorbates",
+        "url":  "https://www.naturessunshine.com/product/vitamin-c-ascorbates",
+        "nombre":  "Vitamin C Ascorbates",
+        "nombre_es":  "Vitamina C Ascorbatos",
+        "sku":  "1606",
+        "precio_usd":  58.55,
+        "presentacion":  "9 oz (255 g) de polvo, 57 porciones",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "vitamina C 1800 mg (por porción de 4,5 g)",
+                             "ascorbato de calcio",
+                             "ascorbato de potasio",
+                             "ascorbato de magnesio",
+                             "extracto de fruta de acerola",
+                             "extracto de bioflavonoides rutina y hesperidina"
+                         ],
+        "modo_de_uso":  "Añadir aproximadamente 1 cucharadita ligeramente colmada (4,5 g) a un vaso de líquido y mezclar enérgicamente. Tomar una vez al día.",
+        "descripcion":  "Vitamina C en polvo amortiguada con ascorbatos minerales, más suave para el estómago que el ácido ascórbico común. Apoya la inmunidad y la producción de colágeno.",
+        "beneficios":  [
+                           "Apoya la salud inmunológica",
+                           "Apoya la producción de colágeno",
+                           "Más suave para el estómago",
+                           "Contribuye a la absorción de hierro"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "vitamina c",
+                               "defensas",
+                               "resfriado",
+                               "colageno",
+                               "inmunidad",
+                               "vitamina c en polvo",
+                               "antioxidante"
+                           ]
+    },
+    {
+        "id":  "NSP-035",
+        "slug":  "vs-c-liquid",
+        "url":  "https://www.naturessunshine.com/product/vs-c-liquid",
+        "nombre":  "VS-C® Liquid",
+        "nombre_es":  "VS-C® Líquido",
+        "sku":  "3167",
+        "precio_usd":  31.60,
+        "presentacion":  "2 fl oz (59 ml), 29 porciones (suministro para 7 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Fórmula china (TCM)",
+        "ingredientes":  [
+                             "diente de león (planta entera)",
+                             "verdolaga (parte superior)",
+                             "hojas y raíz de índigo",
+                             "thlaspi (planta entera)",
+                             "raíz de bupleurum",
+                             "raíz de escutelaria",
+                             "rizoma de typhonium",
+                             "ramita de canela",
+                             "raíz de regaliz",
+                             "raíz de ginseng"
+                         ],
+        "modo_de_uso":  "Tomar de 30 a 40 gotas de dos a cuatro veces al día.",
+        "descripcion":  "Fórmula herbal líquida basada en la Medicina Tradicional China para fortalecer la constitución \"metal\" del cuerpo. Apoya el sistema inmunológico y la función pulmonar.",
+        "beneficios":  [
+                           "Apoya la función del sistema inmunológico",
+                           "Favorece una función pulmonar saludable",
+                           "Presentación líquida práctica"
+                       ],
+        "precauciones":  "Las mujeres embarazadas o en periodo de lactancia deben consultar a su profesional de la salud antes de tomar este suplemento.",
+        "palabras_clave":  [
+                               "vs-c",
+                               "medicina china",
+                               "defensas",
+                               "pulmones",
+                               "sistema inmune",
+                               "resfriado",
+                               "gotas"
+                           ]
+    },
+    {
+        "id":  "NSP-036",
+        "slug":  "zinc-25mg",
+        "url":  "https://www.naturessunshine.com/product/zinc-25mg",
+        "nombre":  "Zinc (25mg)",
+        "nombre_es":  "Zinc (25 mg)",
+        "sku":  "1657",
+        "precio_usd":  21.75,
+        "presentacion":  "150 tabletas, 150 porciones (suministro para 150 días)",
+        "categoria":  "Sistema inmunológico",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "zinc 25 mg",
+                             "calcio",
+                             "fósforo",
+                             "kelp (hojas y tallo)",
+                             "hojas de tomillo",
+                             "partes aéreas de alfalfa"
+                         ],
+        "modo_de_uso":  "Tomar 1 tableta al día con una comida.",
+        "descripcion":  "Suplemento de zinc con una mezcla herbal patentada. El zinc participa en cientos de funciones del cuerpo, como el metabolismo, el crecimiento y la producción de energía.",
+        "beneficios":  [
+                           "Apoya la inmunidad",
+                           "Participa en el metabolismo y la producción de energía",
+                           "Apoya el crecimiento y desarrollo",
+                           "Incluye mezcla herbal complementaria"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "zinc",
+                               "defensas",
+                               "inmunidad",
+                               "metabolismo",
+                               "energia",
+                               "minerales",
+                               "resfriado"
+                           ]
+    },
+    {
+        "id":  "NSP-037",
+        "slug":  "5-htp-power",
+        "url":  "https://www.naturessunshine.com/product/5-htp-power",
+        "nombre":  "5-HTP Power",
+        "nombre_es":  "5-HTP Power",
+        "sku":  "2806",
+        "precio_usd":  37.30,
+        "presentacion":  "60 cápsulas vegetales, 60 porciones (20 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "5-HTP 35 mg",
+                             "vitamina B6",
+                             "zinc",
+                             "raíz de eleuthero",
+                             "raíz de ashwagandha",
+                             "corteza de suma"
+                         ],
+        "modo_de_uso":  "Tomar una cápsula con una comida tres veces al día.",
+        "descripcion":  "Combina 5-HTP, precursor de la serotonina, con hierbas adaptógenas para apoyar la función nerviosa. Está pensado para ayudar al ánimo, el apetito y el sueño, y a la adaptación del cuerpo al estrés.",
+        "beneficios":  [
+                           "Apoya un estado de ánimo saludable",
+                           "Apoya un apetito saludable",
+                           "Favorece un sueño reparador",
+                           "Ayuda al cuerpo a adaptarse al estrés"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "5-htp",
+                               "serotonina",
+                               "estado de animo",
+                               "insomnio",
+                               "ansiedad por comer",
+                               "estres",
+                               "adaptogenos"
+                           ]
+    },
+    {
+        "id":  "NSP-038",
+        "slug":  "ashwagandha",
+        "url":  "https://www.naturessunshine.com/product/ashwagandha",
+        "nombre":  "Ashwagandha - Dietary Supplement for Occasional Stress \u0026 Anxiety Support",
+        "nombre_es":  "Ashwagandha - suplemento de apoyo ante el estrés y la ansiedad ocasionales",
+        "sku":  "22385",
+        "precio_usd":  40.95,
+        "presentacion":  "60 cápsulas vegetales, 30 porciones (30 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de raíz de ashwagandha (estandarizado al 5% de witanólidos)",
+                             "extracto de hoja de bacopa",
+                             "extracto de fruto de pimienta negra",
+                             "extracto de fruto de schisandra",
+                             "extracto de rhodiola"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas vegetales al día.",
+        "descripcion":  "Mezcla de hierbas adaptógenas encabezada por ashwagandha para apoyar el manejo del estrés y la función cognitiva. También apoya la resistencia física y los sistemas inmunitario y nervioso.",
+        "beneficios":  [
+                           "Ayuda a estabilizar la respuesta al estrés",
+                           "Mejora la resistencia a la ansiedad ocasional",
+                           "Apoya la memoria y el rendimiento cognitivo con la edad",
+                           "Apoya la resistencia y la fuerza muscular (con entrenamiento)"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "ashwagandha",
+                               "estres",
+                               "ansiedad",
+                               "adaptogeno",
+                               "memoria",
+                               "cansancio",
+                               "energia"
+                           ]
+    },
+    {
+        "id":  "NSP-039",
+        "slug":  "nerve-control",
+        "url":  "https://www.naturessunshine.com/product/nerve-control",
+        "nombre":  "Nerve Control",
+        "nombre_es":  "Control de nervios",
+        "sku":  "1242",
+        "precio_usd":  27.95,
+        "presentacion":  "100 cápsulas, 50 porciones (25 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de cohosh negro",
+                             "raíz de valeriana",
+                             "fruto de capsicum",
+                             "partes aéreas de pasiflora",
+                             "hoja de hierba gatera (catnip)",
+                             "flor de lúpulo",
+                             "partes aéreas de betónica"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Mezcla herbal de relajación con hierbas que apoyan el sistema nervioso central. Busca ayudar a calmar los nervios irritables y la tensión muscular.",
+        "beneficios":  [
+                           "Ayuda a relajar los nervios irritables",
+                           "Puede ayudar a relajar la tensión muscular",
+                           "Apoya el sistema nervioso central"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "nervios",
+                               "tension muscular",
+                               "relajacion",
+                               "estres",
+                               "valeriana",
+                               "irritabilidad"
+                           ]
+    },
+    {
+        "id":  "NSP-040",
+        "slug":  "focus-attention",
+        "url":  "https://www.naturessunshine.com/product/focus-attention",
+        "nombre":  "Focus Attention Herbal Dietary Supplement",
+        "nombre_es":  "Focus Attention suplemento herbal para la atención",
+        "sku":  "1833",
+        "precio_usd":  44.00,
+        "presentacion":  "90 cápsulas vegetales, 45 porciones (15 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "corteza de olmo resbaladizo",
+                             "L-glutamina",
+                             "DMAE (dimetilaminoetanol)",
+                             "extracto de hoja de melisa (toronjil)",
+                             "extracto de semilla de uva",
+                             "extracto de hoja de ginkgo"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Fórmula con nutrientes herbales que nutren el sistema nervioso y el cerebro. Incluye DMAE para memoria y aprendizaje, ginkgo para la circulación y melisa para calmar el sistema nervioso.",
+        "beneficios":  [
+                           "Nutre el sistema nervioso y el cerebro",
+                           "Apoya la memoria y el aprendizaje",
+                           "Apoya la circulación sanguínea cerebral",
+                           "Aporta protección antioxidante"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "atencion",
+                               "concentracion",
+                               "memoria",
+                               "aprendizaje",
+                               "enfoque",
+                               "ginkgo",
+                               "estudio"
+                           ]
+    },
+    {
+        "id":  "NSP-041",
+        "slug":  "natures-cortisol-formula",
+        "url":  "https://www.naturessunshine.com/product/natures-cortisol-formula",
+        "nombre":  "Nature\u0027s Cortisol Formula®",
+        "nombre_es":  "Fórmula de cortisol de Nature\u0027s®",
+        "sku":  "3209",
+        "precio_usd":  44.99,
+        "presentacion":  "90 cápsulas (30 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "vitamina C 60 mg",
+                             "cromo 100 mcg",
+                             "Relora® (mezcla patentada de extracto de corteza de magnolia y corteza de phellodendron)",
+                             "extracto de hoja de albahaca sagrada",
+                             "extracto de hoja de té verde",
+                             "extracto de hoja de banaba",
+                             "L-teanina",
+                             "DHEA",
+                             "vanadio"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres veces al día. Combinar con una dieta sensata y un programa de ejercicio. Esperar de dos a tres meses para obtener mejores resultados.",
+        "descripcion":  "Fórmula para ayudar al cuerpo a manejar el estrés y apoyar niveles de cortisol y glucosa que ya están dentro de rangos normales. La página relaciona el cortisol con indicadores del control de peso.",
+        "beneficios":  [
+                           "Ayuda al cuerpo a manejar el estrés",
+                           "Apoya el manejo del cortisol",
+                           "Apoya niveles normales de glucosa en sangre"
+                       ],
+        "precauciones":  "NO apto para menores de 18 años.",
+        "palabras_clave":  [
+                               "cortisol",
+                               "estres",
+                               "grasa abdominal",
+                               "control de peso",
+                               "glucosa",
+                               "ansiedad"
+                           ]
+    },
+    {
+        "id":  "NSP-042",
+        "slug":  "gaba-plus",
+        "url":  "https://www.naturessunshine.com/product/gaba-plus",
+        "nombre":  "GABA Plus",
+        "nombre_es":  "GABA Plus",
+        "sku":  "1823",
+        "precio_usd":  27.95,
+        "presentacion":  "60 cápsulas vegetales, 30 porciones (15 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "GABA",
+                             "L-glutamina",
+                             "partes aéreas de pasiflora",
+                             "taurina",
+                             "alga espirulina"
+                         ],
+        "modo_de_uso":  "Tomar 1–2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Combina GABA, un neurotransmisor inhibidor, con nutrientes y plantas seleccionados para apoyar el cerebro y el sistema nervioso. Puede ayudar a calmar la actividad mental en personas con un sistema nervioso sobreestimulado o dificultad para concentrarse.",
+        "beneficios":  [
+                           "Apoya el cerebro y el sistema nervioso",
+                           "Puede ayudar a calmar la actividad mental",
+                           "Útil ante sobreestimulación o dificultad de concentración"
+                       ],
+        "precauciones":  "Consultar a un profesional de la salud antes de usar si está embarazada, amamantando, toma medicamentos o tiene alguna condición médica.",
+        "palabras_clave":  [
+                               "gaba",
+                               "calma mental",
+                               "nervios",
+                               "ansiedad",
+                               "concentracion",
+                               "estres",
+                               "mente acelerada"
+                           ]
+    },
+    {
+        "id":  "NSP-043",
+        "slug":  "magnesium",
+        "url":  "https://www.naturessunshine.com/product/magnesium",
+        "nombre":  "Magnesium",
+        "nombre_es":  "Magnesio",
+        "sku":  "1786",
+        "precio_usd":  23.80,
+        "presentacion":  "180 tabletas, 180 porciones (180 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "magnesio 250 mg (óxido de magnesio y quelato de aminoácidos de magnesio)",
+                             "raíz de regaliz",
+                             "hoja y tallo de kelp",
+                             "hojas de menta",
+                             "corteza de sauce blanco"
+                         ],
+        "modo_de_uso":  "Tomar 1 tableta al día con una comida.",
+        "descripcion":  "Tabletas de magnesio con hierbas de apoyo, mineral que participa en más de 300 reacciones enzimáticas del cuerpo. Apoya la relajación muscular, el sistema nervioso y la producción de energía.",
+        "beneficios":  [
+                           "Apoya la relajación muscular",
+                           "Apoya la función del sistema nervioso",
+                           "Apoya la producción de energía",
+                           "Apoya la salud ósea, cardiaca y renal"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "magnesio",
+                               "calambres",
+                               "estres",
+                               "relajacion muscular",
+                               "nervios",
+                               "energia",
+                               "huesos"
+                           ]
+    },
+    {
+        "id":  "NSP-044",
+        "slug":  "chamomile",
+        "url":  "https://www.naturessunshine.com/product/chamomile",
+        "nombre":  "Chamomile",
+        "nombre_es":  "Manzanilla",
+        "sku":  "190",
+        "precio_usd":  38.10,
+        "presentacion":  "100 cápsulas vegetales, 100 porciones (50 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "flores de manzanilla"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida dos veces al día.",
+        "descripcion":  "Manzanilla en cápsulas, una ayuda herbal calmante tradicional que contiene flavonoides, cumarina y aceite volátil. Apoya el sistema nervioso y la digestión.",
+        "beneficios":  [
+                           "Ayuda a calmar el estrés",
+                           "Promueve un sueño reparador",
+                           "Apoya el sistema nervioso",
+                           "Ayuda a calmar la digestión"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "manzanilla",
+                               "estres",
+                               "insomnio",
+                               "calmante",
+                               "digestion",
+                               "nervios"
+                           ]
+    },
+    {
+        "id":  "NSP-045",
+        "slug":  "melatonin-extra-3mg",
+        "url":  "https://www.naturessunshine.com/product/melatonin-extra-3mg",
+        "nombre":  "Melatonin Extra® 3mg Sleep Support Supplement",
+        "nombre_es":  "Melatonin Extra® 3 mg suplemento para el sueño",
+        "sku":  "2830",
+        "precio_usd":  30.55,
+        "presentacion":  "60 cápsulas vegetales, 60 porciones (60 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "melatonina 3 mg",
+                             "vitamina E",
+                             "hoja y extracto de hoja de ginkgo (estandarizado al 24% de glucósidos flavónicos)",
+                             "raíz de eleuthero"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula 30 minutos antes de acostarse.",
+        "descripcion":  "Fórmula para el sueño que combina melatonina, la hormona que regula los patrones de sueño y el reloj biológico, con vitamina E y hierbas. Busca apoyar el ritmo natural de sueño.",
+        "beneficios":  [
+                           "Promueve el ritmo natural de sueño del cuerpo",
+                           "Apoya los ciclos de energía tras un sueño reparador"
+                       ],
+        "precauciones":  "La melatonina no debe tomarse durante el día; puede causar somnolencia. No se recomienda para niños, adolescentes ni mujeres embarazadas o en periodo de lactancia. No tomar este producto al conducir un vehículo ni al operar maquinaria.",
+        "palabras_clave":  [
+                               "insomnio",
+                               "dormir",
+                               "melatonina",
+                               "sueño",
+                               "jet lag",
+                               "descanso"
+                           ]
+    },
+    {
+        "id":  "NSP-046",
+        "slug":  "mind-max",
+        "url":  "https://www.naturessunshine.com/product/mind-max",
+        "nombre":  "Mind-Max® Memory \u0026 Concentration Support Supplement",
+        "nombre_es":  "Mind-Max® suplemento de apoyo a la memoria y la concentración",
+        "sku":  "3134",
+        "precio_usd":  57.00,
+        "presentacion":  "90 cápsulas vegetales, 30 porciones (15 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "L-treonato de magnesio",
+                             "partes aéreas de gotu kola",
+                             "extracto de hoja de bacopa",
+                             "hoja de ginkgo"
+                         ],
+        "modo_de_uso":  "Tomar 3 cápsulas antes del desayuno y 3 cápsulas antes de dormir.",
+        "descripcion":  "Combina L-treonato de magnesio, una forma muy absorbible que cruza la barrera hematoencefálica, con plantas tradicionales como bacopa y ginkgo. Está orientado a apoyar las conexiones sinápticas ante el declive cognitivo propio de la edad.",
+        "beneficios":  [
+                           "Apoya el funcionamiento adecuado del cerebro",
+                           "Apoya la memoria y la concentración",
+                           "Apoya las conexiones sinápticas"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "memoria",
+                               "concentracion",
+                               "olvidos",
+                               "cerebro",
+                               "magnesio",
+                               "bacopa",
+                               "envejecimiento"
+                           ]
+    },
+    {
+        "id":  "NSP-047",
+        "slug":  "stress-j-capsules",
+        "url":  "https://www.naturessunshine.com/product/stress-j-capsules",
+        "nombre":  "Stress-J Herbal Calming Dietary Supplement",
+        "nombre_es":  "Stress-J suplemento herbal calmante",
+        "sku":  "1084",
+        "precio_usd":  24.85,
+        "presentacion":  "100 cápsulas, 33 porciones (33 días)",
+        "categoria":  "Sistema nervioso y estrés",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "partes aéreas de pasiflora",
+                             "semillas de hinojo",
+                             "partes aéreas de matricaria (feverfew)",
+                             "flores de lúpulo",
+                             "extracto de flores de manzanilla",
+                             "extracto de raíz de malvavisco"
+                         ],
+        "modo_de_uso":  "Tomar 2–3 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Fórmula herbal tradicional con pasiflora, lúpulo y manzanilla para dar apoyo calmante natural. Ayuda al cuerpo ante el estrés ocasional y al buen funcionamiento del sistema nervioso.",
+        "beneficios":  [
+                           "Alivia el estrés ocasional",
+                           "Promueve sensación de calma",
+                           "Apoya el funcionamiento del sistema nervioso"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "estres",
+                               "nervios",
+                               "calmante natural",
+                               "ansiedad",
+                               "relajacion",
+                               "pasiflora"
+                           ]
+    },
+    {
+        "id":  "NSP-048",
+        "slug":  "blood-sugar-formula",
+        "url":  "https://www.naturessunshine.com/product/blood-sugar-formula",
+        "nombre":  "Blood Sugar Formula",
+        "nombre_es":  "Fórmula para el Azúcar en la Sangre",
+        "sku":  "1298",
+        "precio_usd":  52.85,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 16 días)",
+        "categoria":  "Sistema glandular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de hoja de Gymnema sylvestre",
+                             "extracto de corteza de fruto de Momordica charantia (melón amargo)",
+                             "extracto de goma de Pterocarpus marsupium",
+                             "extracto de hoja de Aegle marmelos",
+                             "extracto de hierba Enicostemma littorale",
+                             "extracto de hierba Andrographis paniculata",
+                             "extracto de rizoma de Curcuma longa (cúrcuma)",
+                             "extracto de semilla de Syzygium cumini",
+                             "extracto de hoja de Azadirachta indica (neem)",
+                             "extracto de raíz de Picrorhiza kurroa",
+                             "extracto de semilla de Trigonella foenum-graecum (fenogreco)",
+                             "extracto de tubérculo de Cyperus rotundus"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Fórmula ayurvédica con hierbas tradicionales de la India usadas para el bienestar metabólico. Apoya la salud del páncreas y niveles de azúcar en sangre dentro del rango normal.",
+        "beneficios":  [
+                           "Apoya la salud del páncreas y glandular",
+                           "Apoya niveles normales de azúcar en sangre",
+                           "Hierbas ayurvédicas tradicionales"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "azucar en la sangre",
+                               "glucosa",
+                               "pancreas",
+                               "gymnema",
+                               "metabolismo",
+                               "ayurveda",
+                               "melon amargo"
+                           ]
+    },
+    {
+        "id":  "NSP-049",
+        "slug":  "master-gland",
+        "url":  "https://www.naturessunshine.com/product/master-gland",
+        "nombre":  "Master Gland®",
+        "nombre_es":  "Master Gland® (glándula maestra)",
+        "sku":  "3040",
+        "precio_usd":  34.15,
+        "presentacion":  "120 cápsulas, 60 porciones (30 días)",
+        "categoria":  "Sistema glandular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "vitamina A",
+                             "vitamina C",
+                             "vitamina E",
+                             "ácido pantoténico",
+                             "zinc",
+                             "manganeso",
+                             "potasio",
+                             "raíz de regaliz",
+                             "partes aéreas de alfalfa",
+                             "extracto de tallo de espárrago",
+                             "cáscara de nogal negro",
+                             "hojas de perejil",
+                             "hojas de tomillo",
+                             "raíz de diente de león",
+                             "raíz de dong quai",
+                             "raíz de eleuthero",
+                             "hojas y tallo de kelp",
+                             "bioflavonoides de limón",
+                             "fruto de schisandra",
+                             "extracto de raíz de malvavisco",
+                             "hoja de gayuba (uva ursi)",
+                             "lecitina de soya"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con el desayuno y 2 cápsulas con el almuerzo diariamente.",
+        "descripcion":  "Fórmula con vitaminas A, C y E, minerales, electrolitos y hierbas para nutrir el sistema glandular de todo el cuerpo. También apoya el metabolismo energético.",
+        "beneficios":  [
+                           "Ayuda al mantenimiento glandular",
+                           "Aporta nutrientes y antioxidantes",
+                           "Apoya el metabolismo energético"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "glandulas",
+                               "sistema endocrino",
+                               "hormonas",
+                               "energia",
+                               "antioxidantes",
+                               "vitaminas"
+                           ]
+    },
+    {
+        "id":  "NSP-050",
+        "slug":  "adrenal-support-60",
+        "url":  "https://www.naturessunshine.com/product/adrenal-support-60",
+        "nombre":  "Adrenal Support Dietary Supplement",
+        "nombre_es":  "Suplemento de apoyo suprarrenal",
+        "sku":  "1507",
+        "precio_usd":  34.15,
+        "presentacion":  "60 cápsulas, 60 porciones (30 días)",
+        "categoria":  "Sistema glandular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "vitamina C 25 mg",
+                             "tiamina 10 mg",
+                             "riboflavina 5 mg",
+                             "vitamina B6 5 mg",
+                             "ácido pantoténico 45 mg",
+                             "magnesio 10 mg",
+                             "zinc 5 mg",
+                             "potasio 5 mg",
+                             "sustancia suprarrenal bovina",
+                             "fruto de schisandra",
+                             "aceite de semilla de borraja",
+                             "raíz de regaliz",
+                             "mezcla de proteasas"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida dos veces al día.",
+        "descripcion":  "Combina hierbas adaptógenas, vitaminas, minerales y sustancia glandular suprarrenal. Está diseñado para apoyar la función de las glándulas suprarrenales y el equilibrio de las hormonas del estrés.",
+        "beneficios":  [
+                           "Apoya la función suprarrenal saludable",
+                           "Ayuda a mantener equilibradas las hormonas del estrés",
+                           "Apoya el equilibrio del sistema nervioso"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "suprarrenales",
+                               "fatiga adrenal",
+                               "estres",
+                               "cansancio",
+                               "glandulas",
+                               "agotamiento"
+                           ]
+    },
+    {
+        "id":  "NSP-051",
+        "slug":  "thyroid-support",
+        "url":  "https://www.naturessunshine.com/product/thyroid-support",
+        "nombre":  "Thyroid Support Dietary Supplement",
+        "nombre_es":  "Suplemento de apoyo tiroideo",
+        "sku":  "1228",
+        "precio_usd":  34.15,
+        "presentacion":  "60 cápsulas, 60 porciones (30 días)",
+        "categoria":  "Sistema glandular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "vitamina B6",
+                             "zinc",
+                             "cobre",
+                             "manganeso",
+                             "L-tirosina",
+                             "hojas y tallos de kelp",
+                             "sustancia tiroidea",
+                             "hojas de ortiga",
+                             "mezcla de proteasas",
+                             "sustancia pituitaria",
+                             "sustancia de hipotálamo"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida dos veces al día.",
+        "descripcion":  "Combina extractos glandulares, enzimas y nutrientes para apoyar la tiroides y el metabolismo. Incluye kelp silvestre del Atlántico Norte, fuente de yodo para la producción de hormona tiroidea.",
+        "beneficios":  [
+                           "Apoya un metabolismo saludable",
+                           "Promueve una función tiroidea saludable",
+                           "Aporta yodo a partir de kelp"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "tiroides",
+                               "metabolismo",
+                               "yodo",
+                               "kelp",
+                               "cansancio",
+                               "metabolismo lento"
+                           ]
+    },
+    {
+        "id":  "NSP-052",
+        "slug":  "capsicum",
+        "url":  "https://www.naturessunshine.com/product/capsicum",
+        "nombre":  "Capsicum",
+        "nombre_es":  "Capsicum (pimienta de cayena)",
+        "sku":  "160",
+        "precio_usd":  22.75,
+        "presentacion":  "100 cápsulas, 100 porciones (25 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "fruto de capsicum"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula cuatro veces al día con alimentos.",
+        "descripcion":  "Cápsulas de fruto de capsicum, una hierba de efecto calorífico que se usa a menudo como catalizador en fórmulas herbales. Apoya la digestión y el flujo sanguíneo.",
+        "beneficios":  [
+                           "Apoyo digestivo",
+                           "Apoyo cardiovascular",
+                           "Estimula la digestión",
+                           "Favorece el flujo sanguíneo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "capsicum",
+                               "cayena",
+                               "chile",
+                               "circulacion",
+                               "digestion",
+                               "manos frias",
+                               "corazon"
+                           ]
+    },
+    {
+        "id":  "NSP-053",
+        "slug":  "cardioxldl",
+        "url":  "https://www.naturessunshine.com/product/cardioxldl",
+        "nombre":  "CardioxLDL",
+        "nombre_es":  "CardioxLDL",
+        "sku":  "1195",
+        "precio_usd":  70.45,
+        "presentacion":  "60 cápsulas, 30 porciones (30 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de fruto de bergamota (Citrus bergamia Risso)",
+                             "extracto de cúrcuma",
+                             "extracto de té verde",
+                             "extracto de semilla de uva",
+                             "extracto de fruto de mangostán"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con la cena.",
+        "descripcion":  "Fórmula natural con bergamota y otros extractos vegetales para apoyar un manejo saludable del colesterol. Actúa modulando la oxidación del colesterol LDL.",
+        "beneficios":  [
+                           "Apoya un colesterol saludable",
+                           "Reduce el riesgo cardiometabólico",
+                           "Combate la oxidación del colesterol LDL",
+                           "Apoya la función de los vasos sanguíneos y la circulación"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "colesterol",
+                               "ldl",
+                               "bergamota",
+                               "corazon",
+                               "trigliceridos",
+                               "circulacion",
+                               "arterias"
+                           ]
+    },
+    {
+        "id":  "NSP-054",
+        "slug":  "olive-leaf-extract-concentrate",
+        "url":  "https://www.naturessunshine.com/product/olive-leaf-extract-concentrate",
+        "nombre":  "Olive Leaf Extract Concentrate",
+        "nombre_es":  "Extracto concentrado de hoja de olivo",
+        "sku":  "204",
+        "precio_usd":  35.20,
+        "presentacion":  "60 cápsulas, 60 porciones (suministro para 25 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de hoja de olivo estandarizado al 12% de oleuropeína"
+                         ],
+        "modo_de_uso":  "Tomar de 1 a 3 cápsulas al día con una comida.",
+        "descripcion":  "Extracto concentrado de hoja de olivo de origen mediterráneo español, estandarizado en oleuropeína. Está orientado al bienestar cardiovascular y a la protección antioxidante.",
+        "beneficios":  [
+                           "Apoya el bienestar cardiovascular",
+                           "Protege contra la oxidación del colesterol LDL",
+                           "Apoya niveles normales de presión arterial y azúcar en sangre",
+                           "Aporta protección antioxidante"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "hoja de olivo",
+                               "oleuropeina",
+                               "presion arterial",
+                               "colesterol",
+                               "azucar en sangre",
+                               "corazon",
+                               "antioxidante"
+                           ]
+    },
+    {
+        "id":  "NSP-055",
+        "slug":  "hawthorn-berries-extract",
+        "url":  "https://www.naturessunshine.com/product/hawthorn-berries-extract",
+        "nombre":  "Hawthorn Berries Extract",
+        "nombre_es":  "Extracto de bayas de espino blanco",
+        "sku":  "1760",
+        "precio_usd":  35.20,
+        "presentacion":  "2 fl oz (59 ml), 59 porciones (30 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "bayas de espino blanco (extracto líquido)"
+                         ],
+        "modo_de_uso":  "Tomar de 15 a 20 gotas con agua dos veces al día.",
+        "descripcion":  "Extracto líquido de bayas de espino blanco, planta usada tradicionalmente desde hace casi 2000 años. Se emplea para apoyar el sistema circulatorio y aporta antioxidantes.",
+        "beneficios":  [
+                           "Apoyo tradicional al sistema circulatorio",
+                           "Aporta beneficios antioxidantes",
+                           "Contiene componentes que favorecen la salud circulatoria"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "espino blanco",
+                               "hawthorn",
+                               "corazon",
+                               "circulacion",
+                               "antioxidante",
+                               "gotas",
+                               "presion arterial"
+                           ]
+    },
+    {
+        "id":  "NSP-056",
+        "slug":  "butchers-broom",
+        "url":  "https://www.naturessunshine.com/product/butchers-broom",
+        "nombre":  "Butcher\u0027s Broom",
+        "nombre_es":  "Rusco",
+        "sku":  "135",
+        "precio_usd":  29.50,
+        "presentacion":  "100 cápsulas, 50 porciones (25 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de rusco"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Raíz de rusco, hierba usada en la medicina popular europea durante casi 2000 años. Contiene flavonoides como la rutina y saponinas que apoyan la circulación.",
+        "beneficios":  [
+                           "Apoya el sistema circulatorio",
+                           "Fortalece las paredes de los capilares",
+                           "Apoya el bienestar general"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "rusco",
+                               "circulacion",
+                               "varices",
+                               "piernas cansadas",
+                               "capilares",
+                               "venas"
+                           ]
+    },
+    {
+        "id":  "NSP-057",
+        "slug":  "super-omega-3-epa",
+        "url":  "https://www.naturessunshine.com/product/super-omega-3-epa",
+        "nombre":  "Super Omega-3 EPA",
+        "nombre_es":  "Super Omega-3 EPA",
+        "sku":  "1515",
+        "precio_usd":  42.45,
+        "presentacion":  "60 cápsulas blandas, 60 porciones (20 días)",
+        "categoria":  "Sistema circulatorio y cardiovascular",
+        "tipo":  "Cápsulas blandas",
+        "ingredientes":  [
+                             "aceite de pescado (anchoa, sardina y caballa) aprox. 1000 mg por cápsula",
+                             "EPA 380 mg",
+                             "DHA 190 mg",
+                             "sabor natural a limón"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula blanda con una comida dos o tres veces al día.",
+        "descripcion":  "Concentrado de aceite de pescado de aguas frías rico en EPA y DHA. Tiene sabor natural a limón para mejorar el gusto y reducir el regusto a pescado.",
+        "beneficios":  [
+                           "Apoya la salud circulatoria",
+                           "Apoya la salud cerebral",
+                           "Sabor a limón que reduce el regusto a pescado"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "omega 3",
+                               "aceite de pescado",
+                               "epa",
+                               "dha",
+                               "corazon",
+                               "circulacion",
+                               "cerebro",
+                               "colesterol"
+                           ]
+    },
+    {
+        "id":  "NSP-058",
+        "slug":  "coral-calcium",
+        "url":  "https://www.naturessunshine.com/product/coral-calcium",
+        "nombre":  "Coral Calcium",
+        "nombre_es":  "Calcio de coral",
+        "sku":  "1873",
+        "precio_usd":  52.85,
+        "presentacion":  "75 g en polvo, 50 porciones (50 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "calcio 325 mg (33% VD)",
+                             "magnesio 163 mg (41% VD)",
+                             "coral marino",
+                             "montmorillonita (arcilla volcánica)"
+                         ],
+        "modo_de_uso":  "Mezclar 1 medida colmada (incluida) con 8 oz (240 ml) de agua u otra bebida.",
+        "descripcion":  "Suplemento en polvo de calcio de coral marino con montmorillonita, una arcilla volcánica que aporta más de 65 minerales traza. Está diseñado para apoyar el sistema estructural.",
+        "beneficios":  [
+                           "Apoya el sistema estructural",
+                           "Ayuda a contrarrestar la acidez corporal y mantener el pH",
+                           "Apoya huesos y dientes fuertes",
+                           "Aporta minerales traza y arcilla para la limpieza digestiva"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "calcio de coral",
+                               "huesos",
+                               "dientes",
+                               "acidez",
+                               "ph",
+                               "minerales",
+                               "osteoporosis"
+                           ]
+    },
+    {
+        "id":  "NSP-059",
+        "slug":  "natures-sea-calcium",
+        "url":  "https://www.naturessunshine.com/product/natures-sea-calcium",
+        "nombre":  "Nature\u0027s Sea Calcium",
+        "nombre_es":  "Calcio marino Nature\u0027s",
+        "sku":  "1577",
+        "precio_usd":  34.15,
+        "presentacion":  "120 cápsulas, 120 porciones (30 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "calcio (de alga lithothamnium)",
+                             "magnesio",
+                             "fructooligosacáridos de cadena corta",
+                             "hasta 70 minerales traza naturales (incluidos boro, cobre y zinc)"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres a cuatro veces al día.",
+        "descripcion":  "Calcio obtenido del alga roja lithothamnium, cosechada en costas irlandesas, con minerales traza naturales. Incluye fructooligosacáridos que favorecen la absorción del calcio.",
+        "beneficios":  [
+                           "Apoya la salud estructural y articular",
+                           "Ayuda a mantener niveles normales de pH",
+                           "Alta biodisponibilidad por la estructura porosa del alga",
+                           "Fructooligosacáridos que favorecen la absorción del calcio"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "calcio",
+                               "huesos",
+                               "osteoporosis",
+                               "calcio marino",
+                               "minerales",
+                               "articulaciones",
+                               "ph"
+                           ]
+    },
+    {
+        "id":  "NSP-060",
+        "slug":  "collatrim",
+        "url":  "https://www.naturessunshine.com/product/collatrim",
+        "nombre":  "Collatrim",
+        "nombre_es":  "Collatrim",
+        "sku":  "3065",
+        "precio_usd":  43.00,
+        "presentacion":  "180 cápsulas, 60 porciones (20 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "colágeno hidrolizado"
+                         ],
+        "modo_de_uso":  "Tomar 3 cápsulas 3 veces al día.",
+        "descripcion":  "Cápsulas de colágeno hidrolizado que aportan péptidos para la formación del tejido conectivo. El colágeno es la principal proteína estructural de tendones, ligamentos, cartílago, hueso y piel.",
+        "beneficios":  [
+                           "Apoya el sistema estructural",
+                           "Favorece la salud de las articulaciones",
+                           "Favorece la salud de la piel",
+                           "Aporta péptidos para el tejido conectivo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "colageno",
+                               "articulaciones",
+                               "piel",
+                               "tendones",
+                               "ligamentos",
+                               "cartilago",
+                               "colageno hidrolizado"
+                           ]
+    },
+    {
+        "id":  "NSP-061",
+        "slug":  "chondroitin",
+        "url":  "https://www.naturessunshine.com/product/chondroitin",
+        "nombre":  "Chondroitin",
+        "nombre_es":  "Condroitina",
+        "sku":  "1811",
+        "precio_usd":  56.45,
+        "presentacion":  "60 cápsulas, 30 porciones (15 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "sulfato de condroitina"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día. Beber 8 oz (240 ml) de agua junto con las cápsulas.",
+        "descripcion":  "Suplemento de sulfato de condroitina para nutrir, proteger y fortalecer el cartílago. Ayuda a compensar la disminución natural de condroitina que ocurre con la edad.",
+        "beneficios":  [
+                           "Apoya la movilidad y la flexibilidad",
+                           "Ayuda a nutrir, proteger y fortalecer el cartílago",
+                           "Atrae líquido articular para amortiguar impactos",
+                           "Mantiene la resistencia del tejido conectivo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "condroitina",
+                               "cartilago",
+                               "articulaciones",
+                               "movilidad",
+                               "dolor de rodillas",
+                               "flexibilidad",
+                               "artrosis"
+                           ]
+    },
+    {
+        "id":  "NSP-062",
+        "slug":  "turmeric-curcumin",
+        "url":  "https://www.naturessunshine.com/product/turmeric-curcumin",
+        "nombre":  "Turmeric Curcumin",
+        "nombre_es":  "Cúrcuma con curcumina",
+        "sku":  "238",
+        "precio_usd":  59.95,
+        "presentacion":  "60 cápsulas vegetales, 30 porciones (30 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de raíz de cúrcuma 1100 mg",
+                             "curcuminoides 1000 mg",
+                             "extracto de pimienta negra (Piper nigrum)"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas vegetales al día con agua.",
+        "descripcion":  "Extracto concentrado de cúrcuma que aporta 1000 mg de curcuminoides por porción, equivalente a unos 32 g de raíz entera. Incluye pimienta negra para mejorar la absorción de la curcumina.",
+        "beneficios":  [
+                           "Apoya la salud articular, intestinal e inmunológica",
+                           "Apoya la función cardiovascular",
+                           "Apoya la respuesta inmunitaria natural",
+                           "Pimienta negra para mejor absorción"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "curcuma",
+                               "curcumina",
+                               "articulaciones",
+                               "inflamacion",
+                               "dolor articular",
+                               "antioxidante",
+                               "pimienta negra"
+                           ]
+    },
+    {
+        "id":  "NSP-063",
+        "slug":  "devils-claw",
+        "url":  "https://www.naturessunshine.com/product/devils-claw",
+        "nombre":  "Devil\u0027s Claw",
+        "nombre_es":  "Garra del diablo",
+        "sku":  "255",
+        "precio_usd":  43.85,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (16 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de garra del diablo"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Cápsulas de raíz de garra del diablo, considerada por los herbolarios un apoyo nutricional para el sistema estructural. Se orienta a la salud y función de las articulaciones.",
+        "beneficios":  [
+                           "Apoyo nutricional al sistema estructural",
+                           "Apoya la salud de las articulaciones",
+                           "Apoya la función articular"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "garra del diablo",
+                               "articulaciones",
+                               "dolor articular",
+                               "rodillas",
+                               "artritis",
+                               "movilidad"
+                           ]
+    },
+    {
+        "id":  "NSP-064",
+        "slug":  "joint-health",
+        "url":  "https://www.naturessunshine.com/product/joint-health",
+        "nombre":  "Joint Health, Ayurvedic",
+        "nombre_es":  "Salud articular ayurvédica",
+        "sku":  "1296",
+        "precio_usd":  52.85,
+        "presentacion":  "100 cápsulas, 50 porciones (16 días)",
+        "categoria":  "Estructura (huesos y articulaciones)",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de Withania somnifera (ashwagandha)",
+                             "extracto de goma de Commiphora mukul",
+                             "raíz de Smilax china",
+                             "goma de Boswellia serrata",
+                             "corteza de Holarrhena antidysenterica",
+                             "extracto de hoja de Paederia foetida",
+                             "extracto de hoja de Vitex negundo",
+                             "tallo de Tinospora cordifolia",
+                             "tubérculo de Cyperus rotundus",
+                             "semilla de Apium graveolens (apio)",
+                             "raíz de Boerhaavia diffusa",
+                             "fruto de Trachyspermum ammi",
+                             "fruto de Tribulus terrestris",
+                             "semilla de Trigonella foenum-graecum (fenogreco)"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Fórmula de hierbas tradicionales de la India basada en la filosofía ayurvédica de equilibrio corporal. Está pensada para apoyar nutricionalmente el sistema estructural.",
+        "beneficios":  [
+                           "Apoyo nutricional al sistema estructural",
+                           "Puede apoyar la salud articular",
+                           "Puede apoyar la flexibilidad"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "articulaciones",
+                               "dolor de rodillas",
+                               "flexibilidad",
+                               "ayurveda",
+                               "boswellia",
+                               "rigidez",
+                               "artritis"
+                           ]
+    },
+    {
+        "id":  "NSP-065",
+        "slug":  "aloe-vera-gel",
+        "url":  "https://www.naturessunshine.com/product/aloe-vera-gel",
+        "nombre":  "Aloe Vera Gel",
+        "nombre_es":  "Gel de aloe vera",
+        "sku":  "1679",
+        "precio_usd":  26.55,
+        "presentacion":  "8 oz (237 ml)",
+        "categoria":  "Estructura (piel, cabello y uñas)",
+        "tipo":  "Gel tópico",
+        "ingredientes":  [
+                             "gel de aloe vera",
+                             "goma xantana",
+                             "ácido cítrico",
+                             "sorbato de potasio",
+                             "benzoato de sodio"
+                         ],
+        "modo_de_uso":  "Aplicar el gel de aloe vera sobre la piel según se desee para humectar.",
+        "descripcion":  "Gel de uso tópico elaborado con gel de hoja interna de aloe vera probado en potencia. Hidrata y refresca la piel sin dejar sensación pegajosa.",
+        "beneficios":  [
+                           "Humecta y refresca la piel",
+                           "Suaviza la apariencia de la piel seca",
+                           "Hidrata sin sensación pegajosa",
+                           "Ingredientes probados en seguridad y potencia"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "aloe vera",
+                               "sabila",
+                               "piel seca",
+                               "hidratante",
+                               "gel para la piel",
+                               "humectante"
+                           ]
+    },
+    {
+        "id":  "NSP-066",
+        "slug":  "collagen-2",
+        "url":  "https://www.naturessunshine.com/product/collagen-2",
+        "nombre":  "Collagen Powder Supplement",
+        "nombre_es":  "Suplemento de colágeno en polvo",
+        "sku":  "22336",
+        "precio_usd":  67.45,
+        "presentacion":  "18 oz (510 g), 30 porciones (30 días)",
+        "categoria":  "Estructura (piel, cabello y uñas)",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "péptidos de colágeno bovino",
+                             "sal marina",
+                             "mezcla de minerales traza",
+                             "cloruro de potasio"
+                         ],
+        "modo_de_uso":  "Mezclar 1 medida en cualquier bebida (café, té, agua, jugo de fruta, etc.) o añadirla a sus recetas favoritas. Usar a diario para mejores resultados.",
+        "descripcion":  "Colágeno en polvo de vacas alimentadas con pasto, sin olor y fácil de mezclar en bebidas o alimentos fríos o calientes. Aporta aminoácidos estructurales como glicina, prolina e hidroxiprolina.",
+        "beneficios":  [
+                           "Apoya cabello, piel y uñas de aspecto juvenil",
+                           "Apoya articulaciones y huesos",
+                           "Apoya la salud intestinal",
+                           "Favorece la elasticidad e hidratación de la piel"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "colageno",
+                               "colageno en polvo",
+                               "piel",
+                               "cabello",
+                               "unas",
+                               "arrugas",
+                               "articulaciones"
+                           ]
+    },
+    {
+        "id":  "NSP-067",
+        "slug":  "cornsilk",
+        "url":  "https://www.naturessunshine.com/product/cornsilk",
+        "nombre":  "Cornsilk",
+        "nombre_es":  "Barba de maíz",
+        "sku":  "235",
+        "precio_usd":  35.20,
+        "presentacion":  "100 cápsulas, 100 porciones (suministro para 33 días)",
+        "categoria":  "Sistema urinario",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "barba de maíz"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres veces al día.",
+        "descripcion":  "Suplemento de barba de maíz, el filamento sedoso dentro de la mazorca, muy usado en la herbolaria china. Ofrece apoyo tonificante y calmante para los tejidos urinarios.",
+        "beneficios":  [
+                           "apoya el sistema urinario",
+                           "tonifica y calma los tejidos urinarios",
+                           "uso tradicional para aliviar molestias urinarias"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "barba de maiz",
+                               "pelo de elote",
+                               "vias urinarias",
+                               "molestias al orinar",
+                               "vejiga",
+                               "rinones"
+                           ]
+    },
+    {
+        "id":  "NSP-068",
+        "slug":  "juniper-berries",
+        "url":  "https://www.naturessunshine.com/product/juniper-berries",
+        "nombre":  "Juniper Berries",
+        "nombre_es":  "Bayas de enebro",
+        "sku":  "400",
+        "precio_usd":  39.80,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 25 días)",
+        "categoria":  "Sistema urinario",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "conos de baya de enebro"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Suplemento de bayas de enebro con apoyo gastrointestinal tradicional. Sus compuestos, como quercetina, proantocianidinas y aceites volátiles, apoyan el sistema urinario y aportan antioxidantes.",
+        "beneficios":  [
+                           "apoyo gastrointestinal tradicional",
+                           "apoya el sistema urinario",
+                           "aporta beneficios antioxidantes"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "enebro",
+                               "vias urinarias",
+                               "rinones",
+                               "antioxidantes",
+                               "digestion",
+                               "vejiga"
+                           ]
+    },
+    {
+        "id":  "NSP-069",
+        "slug":  "kidney-drainage",
+        "url":  "https://www.naturessunshine.com/product/kidney-drainage",
+        "nombre":  "Kidney Drainage",
+        "nombre_es":  "Drenaje renal",
+        "sku":  "3168",
+        "precio_usd":  43.00,
+        "presentacion":  "2 fl oz (59 ml), 59 porciones (suministro para 30 días)",
+        "categoria":  "Sistema urinario",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "puntas de espárrago",
+                             "hojas de llantén",
+                             "bayas de enebro",
+                             "partes aéreas de vara de oro",
+                             "base de glicerina"
+                         ],
+        "modo_de_uso":  "Tomar 1 ml (aproximadamente 15-20 gotas o ¼ de cucharadita) en agua dos veces al día.",
+        "descripcion":  "Presentación líquida de hierbas usadas tradicionalmente para apoyar los riñones. Busca favorecer la eliminación adecuada de desechos mediante apoyo nutricional.",
+        "beneficios":  [
+                           "apoya la función renal",
+                           "apoya el sistema urinario",
+                           "promueve la eliminación adecuada de desechos"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "rinones",
+                               "salud renal",
+                               "sistema urinario",
+                               "drenaje renal",
+                               "retencion de liquidos",
+                               "orina"
+                           ]
+    },
+    {
+        "id":  "NSP-070",
+        "slug":  "urinary-maintenance",
+        "url":  "https://www.naturessunshine.com/product/urinary-maintenance",
+        "nombre":  "Urinary Maintenance",
+        "nombre_es":  "Mantenimiento urinario",
+        "sku":  "2884",
+        "precio_usd":  30.55,
+        "presentacion":  "120 cápsulas, 120 porciones (suministro para 40 días)",
+        "categoria":  "Sistema urinario",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "tallo de espárrago",
+                             "hoja de diente de león",
+                             "barba de maíz",
+                             "raíz de hortensia",
+                             "magnesio",
+                             "potasio",
+                             "hoja de perejil",
+                             "semilla de sandía",
+                             "raíz de dong quai",
+                             "tallo y estróbilo de cola de caballo",
+                             "hojas de gayuba (uva ursi)",
+                             "raíz de eleuterococo",
+                             "fruto de schisandra"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres veces al día.",
+        "descripcion":  "Fórmula vegetal que apoya el mantenimiento de líquidos y el equilibrio mineral del cuerpo. Contiene hierbas de uso tradicional como diuréticos y para el apoyo renal.",
+        "beneficios":  [
+                           "promueve una función urinaria saludable",
+                           "apoya el mantenimiento de líquidos",
+                           "apoya el equilibrio mineral",
+                           "hierbas tradicionales de apoyo renal"
+                       ],
+        "precauciones":  "Las mujeres embarazadas o en periodo de lactancia deben consultar a su profesional de la salud antes de tomar este suplemento.",
+        "palabras_clave":  [
+                               "vias urinarias",
+                               "rinones",
+                               "diuretico natural",
+                               "retencion de liquidos",
+                               "orina",
+                               "vejiga"
+                           ]
+    },
+    {
+        "id":  "NSP-071",
+        "slug":  "parsley",
+        "url":  "https://www.naturessunshine.com/product/parsley",
+        "nombre":  "Parsley",
+        "nombre_es":  "Perejil",
+        "sku":  "490",
+        "precio_usd":  30.00,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 25 días)",
+        "categoria":  "Sistema urinario",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "hojas de perejil"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida dos veces al día.",
+        "descripcion":  "Cápsulas de hoja de perejil que apoyan los riñones y nutren el sistema urinario. Pueden favorecer el flujo de orina sin pérdida de electrolitos.",
+        "beneficios":  [
+                           "apoya los riñones",
+                           "nutre y apoya el sistema urinario",
+                           "puede promover el flujo de orina sin pérdida de electrolitos",
+                           "ayuda a fortalecer y tonificar los tejidos urinarios"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "perejil",
+                               "rinones",
+                               "diuretico natural",
+                               "vias urinarias",
+                               "retencion de liquidos",
+                               "orina"
+                           ]
+    },
+    {
+        "id":  "NSP-072",
+        "slug":  "dong-quai",
+        "url":  "https://www.naturessunshine.com/product/dong-quai",
+        "nombre":  "Dong Quai",
+        "nombre_es":  "Dong Quai",
+        "sku":  "258",
+        "precio_usd":  40.40,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 16 días)",
+        "categoria":  "Salud de la mujer",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "raíz de dong quai"
+                         ],
+        "modo_de_uso":  "Tomar 1–2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Hierba tradicional china con fitoestrógenos naturales, pensada para apoyar la salud femenina en todas las etapas. Se destaca especialmente durante la menopausia y para los efectos menstruales.",
+        "beneficios":  [
+                           "Promueve la circulación",
+                           "Ayuda a regular la menstruación",
+                           "Calma los nervios",
+                           "Apoyo durante la menopausia"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "dong quai",
+                               "menopausia",
+                               "menstruacion",
+                               "colicos",
+                               "salud femenina",
+                               "fitoestrogenos",
+                               "circulacion"
+                           ]
+    },
+    {
+        "id":  "NSP-073",
+        "slug":  "menstrual-reg",
+        "url":  "https://www.naturessunshine.com/product/menstrual-reg",
+        "nombre":  "Menstrual Reg",
+        "nombre_es":  "Menstrual Reg (regulador menstrual)",
+        "sku":  "1125",
+        "precio_usd":  35.20,
+        "presentacion":  "100 cápsulas vegetales, 33 porciones (suministro para 15 días)",
+        "categoria":  "Salud de la mujer",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "partes aéreas de pie de león (alquemila)",
+                             "partes aéreas de bolsa de pastor",
+                             "partes aéreas y extracto de hoja y flor de milenrama",
+                             "raíz de black haw (viburno)",
+                             "hojas de ortiga",
+                             "raíz de zarzaparrilla",
+                             "concentrado de fruto de sauzgatillo (vitex)"
+                         ],
+        "modo_de_uso":  "Tomar 2–3 cápsulas con una comida tres veces al día. Para resultados más rápidos, pueden tomarse cantidades mayores cada dos horas durante varios días. Los mejores resultados se obtienen tomando la fórmula durante varios meses.",
+        "descripcion":  "Fórmula herbal con hierbas antihemorrágicas naturales que busca un ciclo menstrual más cómodo. Apoya el sistema glandular femenino y el equilibrio hormonal.",
+        "beneficios":  [
+                           "Ciclo menstrual más cómodo",
+                           "Ayuda con la menstruación abundante",
+                           "Apoya el sistema glandular femenino",
+                           "Ayuda a regular el flujo y el equilibrio hormonal"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "menstruacion abundante",
+                               "regla",
+                               "ciclo menstrual",
+                               "hormonas",
+                               "salud femenina",
+                               "periodo irregular",
+                               "sangrado"
+                           ]
+    },
+    {
+        "id":  "NSP-074",
+        "slug":  "x-action-women",
+        "url":  "https://www.naturessunshine.com/product/x-action-women",
+        "nombre":  "X-Action® (Women)",
+        "nombre_es":  "X-Action® (Mujer)",
+        "sku":  "1121",
+        "precio_usd":  34.15,
+        "presentacion":  "100 cápsulas vegetales, 50 porciones (suministro para 16 días)",
+        "categoria":  "Salud de la mujer",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de raíz de maca",
+                             "L-arginina",
+                             "raíz de eleuterococo",
+                             "extracto de paja de avena",
+                             "hojas de frambuesa roja",
+                             "hojas de damiana",
+                             "raíz de regaliz",
+                             "raíz de zarzaparrilla"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Mezcla herbal para la vitalidad femenina que busca mejorar la energía y la circulación hacia la zona reproductiva. También brinda apoyo glandular y nervioso.",
+        "beneficios":  [
+                           "Aumenta la energía y vitalidad",
+                           "Favorece el deseo sexual",
+                           "Apoya la resistencia al estrés",
+                           "Apoyo al sistema glandular y nervioso"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "libido femenina",
+                               "deseo sexual",
+                               "vitalidad",
+                               "energia mujer",
+                               "maca",
+                               "estres",
+                               "salud femenina"
+                           ]
+    },
+    {
+        "id":  "NSP-075",
+        "slug":  "mens-formula-w-lycopene",
+        "url":  "https://www.naturessunshine.com/product/mens-formula-w-lycopene",
+        "nombre":  "Men\u0027s Formula Prostate Support Supplement",
+        "nombre_es":  "Fórmula para Hombres - Apoyo a la Próstata",
+        "sku":  "3112",
+        "precio_usd":  40.40,
+        "presentacion":  "60 cápsulas, 20 porciones (suministro para 20 días)",
+        "categoria":  "Salud del hombre",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "zinc 15 mg",
+                             "extracto de fruto de saw palmetto (palma enana)",
+                             "semillas de calabaza",
+                             "partes aéreas de gotu kola",
+                             "concentrado de licopeno",
+                             "extracto de raíz de ortiga"
+                         ],
+        "modo_de_uso":  "Uso intensivo: tomar 3 cápsulas dos veces al día con las comidas de la mañana y de la noche. Mantenimiento: tomar 2 cápsulas al día con una comida.",
+        "descripcion":  "Suplemento herbal para hombres de 40 años o más que apoya y protege la glándula prostática. Combina saw palmetto, de uso tradicional para la próstata, con licopeno y zinc.",
+        "beneficios":  [
+                           "Apoya y protege la próstata",
+                           "Apoya la salud glandular masculina",
+                           "Licopeno con efecto protector en la función prostática"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "prostata",
+                               "salud masculina",
+                               "saw palmetto",
+                               "licopeno",
+                               "hombres mayores de 40",
+                               "orinar frecuente",
+                               "zinc"
+                           ]
+    },
+    {
+        "id":  "NSP-076",
+        "slug":  "alfalfa",
+        "url":  "https://www.naturessunshine.com/product/alfalfa",
+        "nombre":  "Alfalfa",
+        "nombre_es":  "Alfalfa",
+        "sku":  "30",
+        "precio_usd":  24.85,
+        "presentacion":  "100 cápsulas, 50 porciones (suministro para 16 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "partes aéreas de alfalfa"
+                         ],
+        "modo_de_uso":  "Tomar 2 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Superalimento herbal usado desde hace más de 2000 años, cuyas raíces profundas acceden a suelos ricos en nutrientes. Los herbolarios la consideran útil para fortalecer la sangre.",
+        "beneficios":  [
+                           "Aporta nutrientes vitales y minerales traza",
+                           "Contribuye a la energía y resistencia",
+                           "Apoya el bienestar general"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "alfalfa",
+                               "minerales",
+                               "superalimento",
+                               "energia",
+                               "cansancio",
+                               "nutricion",
+                               "vitalidad"
+                           ]
+    },
+    {
+        "id":  "NSP-077",
+        "slug":  "vitamin-b-complex",
+        "url":  "https://www.naturessunshine.com/product/vitamin-b-complex",
+        "nombre":  "Vitamin B Complex",
+        "nombre_es":  "Complejo de Vitamina B",
+        "sku":  "1778",
+        "precio_usd":  27.95,
+        "presentacion":  "100 cápsulas vegetales, 100 porciones (suministro para 33 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "tiamina",
+                             "riboflavina",
+                             "niacinamida",
+                             "vitamina B6",
+                             "ácido fólico",
+                             "vitamina B12",
+                             "biotina",
+                             "ácido pantoténico",
+                             "colina",
+                             "inositol",
+                             "extracto de bioflavonoides de limón",
+                             "PABA",
+                             "rutina",
+                             "germen de trigo",
+                             "extracto de escaramujo (rosa mosqueta)",
+                             "extracto de fruta de acerola"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula vegetal con una comida tres veces al día.",
+        "descripcion":  "Fórmula de vitaminas del complejo B combinada con fuentes naturales de vitamina C (escaramujo y acerola) y bioflavonoides de limón para mejorar la absorción. Orientada a apoyar el sistema nervioso y la energía.",
+        "beneficios":  [
+                           "Apoya la función del sistema nervioso",
+                           "Puede mejorar el estado de ánimo",
+                           "Vitaminas B esenciales para la energía",
+                           "Apoyo a la circulación, hormonas y función cognitiva"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "complejo b",
+                               "vitamina b12",
+                               "energia",
+                               "cansancio",
+                               "nervios",
+                               "estado de animo",
+                               "estres"
+                           ]
+    },
+    {
+        "id":  "NSP-078",
+        "slug":  "maca",
+        "url":  "https://www.naturessunshine.com/product/maca",
+        "nombre":  "Maca",
+        "nombre_es":  "Maca",
+        "sku":  "1117",
+        "precio_usd":  39.35,
+        "presentacion":  "90 cápsulas, 90 porciones (suministro para 30 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de raíz de maca"
+                         ],
+        "modo_de_uso":  "Tomar 1 cápsula con una comida tres veces al día.",
+        "descripcion":  "Hierba adaptógena de los Andes, también llamada ginseng peruano, con flavonas y glucósidos flavonoides. Se ha usado tradicionalmente para apoyar el sistema reproductivo.",
+        "beneficios":  [
+                           "Promueve la resistencia física",
+                           "Ayuda a reducir la fatiga",
+                           "Apoyo tradicional al sistema reproductivo",
+                           "Hierba adaptógena"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "maca",
+                               "ginseng peruano",
+                               "fatiga",
+                               "energia",
+                               "resistencia",
+                               "libido",
+                               "adaptogeno"
+                           ]
+    },
+    {
+        "id":  "NSP-079",
+        "slug":  "natures-harvest",
+        "url":  "https://www.naturessunshine.com/product/natures-harvest",
+        "nombre":  "Nature\u0027s Harvest",
+        "nombre_es":  "Nature\u0027s Harvest",
+        "sku":  "3090",
+        "precio_usd":  60.05,
+        "presentacion":  "465 g de polvo, 15 porciones (1 cucharada medidora colmada = 30 g)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Polvo",
+        "ingredientes":  [
+                             "concentrado de proteína de guisante",
+                             "aceite de girasol",
+                             "amaranto",
+                             "arroz integral",
+                             "linaza",
+                             "espirulina",
+                             "quinoa",
+                             "semilla de chía",
+                             "chlorella",
+                             "matcha",
+                             "espinaca",
+                             "kale",
+                             "brócoli",
+                             "arándano azul",
+                             "arándano rojo",
+                             "extracto de semilla de uva",
+                             "vitaminas A, complejo B, C, D, biotina y ácido fólico",
+                             "minerales: zinc, selenio, cromo, manganeso, cobre, molibdeno y yodo"
+                         ],
+        "modo_de_uso":  "Mezclar 1 cucharada medidora colmada de polvo (30 g) en aproximadamente 8 oz de agua, o al gusto. Agitar enérgicamente y disfrutar.",
+        "descripcion":  "Bebida en polvo rica en nutrientes que combina alimentos integrales, vegetales verdes, hierbas, enzimas y proteína vegetal. Aporta el 80% del valor diario de 16 vitaminas y minerales esenciales.",
+        "beneficios":  [
+                           "Aporta 80% del valor diario de 16 vitaminas y minerales",
+                           "Proteína de origen vegetal",
+                           "Incluye vegetales verdes y alimentos integrales",
+                           "Contiene enzimas y hierbas"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "batido",
+                               "proteina vegetal",
+                               "reemplazo de comida",
+                               "vegetales verdes",
+                               "nutricion",
+                               "energia",
+                               "vitaminas"
+                           ]
+    },
+    {
+        "id":  "NSP-080",
+        "slug":  "super-algae",
+        "url":  "https://www.naturessunshine.com/product/super-algae",
+        "nombre":  "Super Algae",
+        "nombre_es":  "Super Algas",
+        "sku":  "1056",
+        "precio_usd":  50.75,
+        "presentacion":  "100 cápsulas vegetales, 33 porciones",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "espirulina",
+                             "alga verde-azulada del lago Klamath",
+                             "Chlorella vulgaris"
+                         ],
+        "modo_de_uso":  "Tomar 2–4 cápsulas con una comida tres veces al día.",
+        "descripcion":  "Combinación de tres algas: espirulina, rica en proteína y carotenoides; chlorella, fuente de clorofila; y alga del lago Klamath, que aporta minerales. Busca reforzar la nutrición y el sistema inmune.",
+        "beneficios":  [
+                           "Estimula el sistema inmunológico",
+                           "Aporta minerales esenciales",
+                           "Fuente de proteína y antioxidantes carotenoides",
+                           "Aporta clorofila"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "espirulina",
+                               "chlorella",
+                               "algas",
+                               "proteina vegetal",
+                               "energia",
+                               "defensas",
+                               "superalimento",
+                               "minerales"
+                           ]
+    },
+    {
+        "id":  "NSP-081",
+        "slug":  "super-supplemental-vitamin-mineral-without-iron",
+        "url":  "https://www.naturessunshine.com/product/super-supplemental-vitamin-mineral-without-iron",
+        "nombre":  "Super Supplemental Vitamin \u0026 Mineral (without Iron)",
+        "nombre_es":  "Super Supplemental Vitaminas y Minerales (sin hierro)",
+        "sku":  "1379",
+        "precio_usd":  32.35,
+        "presentacion":  "120 tabletas, 30 porciones (suministro para 30 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "vitaminas A, C, D3, E, B1, B2, niacina, B6, folato, B12, biotina, ácido pantoténico y colina",
+                             "minerales: calcio, fósforo, yodo, magnesio, zinc, selenio, cobre, manganeso, cromo y potasio",
+                             "inositol",
+                             "PABA",
+                             "mezcla de frutas",
+                             "extractos de vegetales",
+                             "bioflavonoides",
+                             "luteína",
+                             "licopeno",
+                             "arándano rojo",
+                             "mangostán",
+                             "açaí",
+                             "granada",
+                             "aminoácidos (9 tipos)",
+                             "clorofilina"
+                         ],
+        "modo_de_uso":  "Tomar cuatro tabletas al día con una comida. Pueden tomarse por separado con las comidas y al acostarse.",
+        "descripcion":  "Multivitamínico que combina 23 vitaminas y minerales con aminoácidos, hierbas y polvos de frutas y verduras, sin hierro. Busca cubrir carencias nutricionales frecuentes en dietas con alimentos procesados.",
+        "beneficios":  [
+                           "Apoyo nutricional completo",
+                           "Aporta 23 vitaminas y minerales",
+                           "Apoyo antioxidante con luteína y licopeno",
+                           "Ayuda a cubrir carencias nutricionales"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "multivitaminico",
+                               "vitaminas sin hierro",
+                               "minerales",
+                               "cansancio",
+                               "deficiencia nutricional",
+                               "antioxidantes",
+                               "nutricion diaria"
+                           ]
+    },
+    {
+        "id":  "NSP-082",
+        "slug":  "thai-go",
+        "url":  "https://www.naturessunshine.com/product/thai-go",
+        "nombre":  "Thai-Go®",
+        "nombre_es":  "Thai-Go®",
+        "sku":  "K4195",
+        "precio_usd":  99.44,
+        "presentacion":  "48 oz (1,42 l) en total, 48 porciones (suministro para 24 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Líquido",
+        "ingredientes":  [
+                             "concentrado de fruta y extracto de pericarpio de mangostán",
+                             "concentrado de uva Concord",
+                             "concentrado de uva roja",
+                             "concentrado de arándano azul",
+                             "concentrado de frambuesa roja",
+                             "extracto de piel de uva roja",
+                             "extracto de fruta de goji",
+                             "concentrado de açaí",
+                             "concentrado de jugo de granada",
+                             "extracto de espino amarillo (sea buckthorn)",
+                             "extracto de semilla de uva roja",
+                             "extracto de hojas de té verde",
+                             "extracto de manzana"
+                         ],
+        "modo_de_uso":  "Tomar 1 onza (2 cucharadas) dos veces al día.",
+        "descripcion":  "Bebida antioxidante a base de mangostán, que contiene xantonas y bioflavonoides, junto con otras frutas antioxidantes. Tiene un alto valor ORAC para contrarrestar radicales libres.",
+        "beneficios":  [
+                           "Apoya la salud inmunológica y cardiovascular",
+                           "Promueve energía y bienestar",
+                           "Alto poder antioxidante (ORAC)",
+                           "Ayuda a contrarrestar radicales libres"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "mangostan",
+                               "antioxidante",
+                               "jugo",
+                               "energia",
+                               "radicales libres",
+                               "defensas",
+                               "corazon"
+                           ]
+    },
+    {
+        "id":  "NSP-083",
+        "slug":  "vitamin-d3",
+        "url":  "https://www.naturessunshine.com/product/vitamin-d3",
+        "nombre":  "Vitamin D3",
+        "nombre_es":  "Vitamina D3",
+        "sku":  "1155",
+        "precio_usd":  18.65,
+        "presentacion":  "60 tabletas, 30 porciones (suministro para 30 días)",
+        "categoria":  "Energía y nutrición general",
+        "tipo":  "Tabletas",
+        "ingredientes":  [
+                             "vitamina D3 100 mcg (por 2 tabletas)"
+                         ],
+        "modo_de_uso":  "Tomar 1–2 tabletas al día con una comida.",
+        "descripcion":  "Suplemento de vitamina D3, forma más bioactiva que la D2, que ayuda a mantener niveles normales de calcio y fósforo en sangre. Apoya los huesos, la inmunidad y el equilibrio del estado de ánimo.",
+        "beneficios":  [
+                           "Apoya la función inmunológica",
+                           "Contribuye a la salud y mineralización ósea",
+                           "Puede ayudar a un estado de ánimo equilibrado",
+                           "Ayuda a mantener niveles normales de calcio y fósforo"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "vitamina d",
+                               "vitamina d3",
+                               "huesos",
+                               "defensas",
+                               "estado de animo",
+                               "deficiencia de vitamina d",
+                               "calcio"
+                           ]
+    },
+    {
+        "id":  "NSP-084",
+        "slug":  "dieters-cleanse",
+        "url":  "https://www.naturessunshine.com/product/dieters-cleanse",
+        "nombre":  "Dieter\u0027s Cleanse®",
+        "nombre_es":  "Dieter\u0027s Cleanse® (limpieza para quienes hacen dieta)",
+        "sku":  "3220",
+        "precio_usd":  68.40,
+        "presentacion":  "Caja de 42 sobres (14 AM, 14 MEDIODÍA, 14 PM), 28 porciones (suministro para 14 días)",
+        "categoria":  "Control de peso",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "Bowel Detox (1 cápsula, AM y MEDIODÍA)",
+                             "Master Gland (1 cápsula, AM y MEDIODÍA)",
+                             "Enviro-Detox (1 cápsula, AM y MEDIODÍA)",
+                             "Liver Cleanse Formula (1 cápsula, AM y MEDIODÍA)",
+                             "LBS II (3 cápsulas, PM)",
+                             "SF (2 cápsulas, PM)",
+                             "Cromo (1 cápsula, PM)"
+                         ],
+        "modo_de_uso":  "Tomar 1 sobre AM con el desayuno, 1 sobre MEDIODÍA con el almuerzo y 1 sobre PM con la cena durante dos semanas.",
+        "descripcion":  "Programa de limpieza de 14 días pensado como primer paso en un plan de control de peso o para adultos que buscan una limpieza periódica. Combina varias fórmulas en sobres para mañana, mediodía y noche.",
+        "beneficios":  [
+                           "apoya la digestión y la eliminación",
+                           "apoya una función hepática saludable",
+                           "promueve un ambiente colónico saludable",
+                           "primer paso en programas de control de peso"
+                       ],
+        "precauciones":  "Contiene cáscara sagrada, espino cerval (buckthorn) y ruibarbo turco. No es para uso prolongado. Consultar a un profesional de la salud si está embarazada, en periodo de lactancia, tiene alguna condición médica o toma medicamentos. Evitar en caso de diarrea, heces sueltas o dolor abdominal.",
+        "palabras_clave":  [
+                               "bajar de peso",
+                               "dieta",
+                               "limpieza",
+                               "detox",
+                               "colon",
+                               "higado",
+                               "programa de limpieza"
+                           ]
+    },
+    {
+        "id":  "NSP-085",
+        "slug":  "fat-grabbers",
+        "url":  "https://www.naturessunshine.com/product/fat-grabbers",
+        "nombre":  "Fat Grabbers Intestinal Health Support Supplement",
+        "nombre_es":  "Fat Grabbers - Apoyo a la Salud Intestinal",
+        "sku":  "3028",
+        "precio_usd":  48.70,
+        "presentacion":  "180 cápsulas vegetales, 45 porciones (suministro para 15 días)",
+        "categoria":  "Control de peso",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "goma guar",
+                             "cáscaras de psyllium",
+                             "extracto de hoja de pamplina (chickweed)",
+                             "lecitina"
+                         ],
+        "modo_de_uso":  "Tomar 4 cápsulas con una comida tres veces al día. Beber 8 oz de agua pura con las cápsulas y luego otro vaso de agua.",
+        "descripcion":  "Fórmula de fibras naturales de psyllium y goma guar que apoya la eliminación adecuada y la regularidad intestinal. También ayuda a reducir la absorción de grasas en la digestión.",
+        "beneficios":  [
+                           "Apoya la regularidad intestinal",
+                           "Ayuda a eliminar grasa a través de los desechos",
+                           "Ayuda a mantener el colesterol en rango normal",
+                           "Disminuye la absorción digestiva de lípidos"
+                       ],
+        "precauciones":  "NOTA: Puede causar reacción alérgica en personas sensibles al psyllium inhalado o ingerido.",
+        "palabras_clave":  [
+                               "bajar de peso",
+                               "fibra",
+                               "psyllium",
+                               "colesterol",
+                               "estrenimiento",
+                               "absorcion de grasa",
+                               "control de peso"
+                           ]
+    },
+    {
+        "id":  "NSP-086",
+        "slug":  "metabomax-free",
+        "url":  "https://www.naturessunshine.com/product/metabomax-free",
+        "nombre":  "MetaboMax® Free",
+        "nombre_es":  "MetaboMax® Free (sin cafeína)",
+        "sku":  "3074",
+        "precio_usd":  72.50,
+        "presentacion":  "120 cápsulas, 60 porciones (suministro para 20 días)",
+        "categoria":  "Control de peso",
+        "tipo":  "Cápsulas",
+        "ingredientes":  [
+                             "extracto de hoja de té verde descafeinado",
+                             "fruto de capsicum (pimiento picante)",
+                             "rizoma de jengibre",
+                             "extracto de fruto de naranja amarga",
+                             "guggulipid",
+                             "partes aéreas de pamplina (chickweed)"
+                         ],
+        "modo_de_uso":  "Tomar 1–2 cápsulas tres veces al día con alimentos.",
+        "descripcion":  "Versión sin cafeína de una fórmula para el control natural del peso. Busca favorecer la quema de calorías, controlar el apetito y reducir las reservas de grasa.",
+        "beneficios":  [
+                           "Ayuda a quemar calorías",
+                           "Ayuda a controlar el apetito",
+                           "Promueve la pérdida de grasa",
+                           "Aumenta el metabolismo y la energía"
+                       ],
+        "precauciones":  "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+        "palabras_clave":  [
+                               "bajar de peso",
+                               "quemador de grasa",
+                               "metabolismo",
+                               "apetito",
+                               "sin cafeina",
+                               "adelgazar",
+                               "energia"
+                           ]
+    }
+]

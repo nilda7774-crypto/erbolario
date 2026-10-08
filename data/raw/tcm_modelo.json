@@ -1,0 +1,910 @@
+{
+  "modelo": {
+    "resumen": "El sistema de fórmulas chinas de Nature's Sunshine (NSP) es una adaptación comercial y simplificada de la medicina tradicional china (MTC) para distribuidores occidentales. Cada fórmula se describe según los Cinco Elementos (Madera, Fuego, Tierra, Metal, Agua) y según si atiende una 'constitución estresada' (exceso; fórmula 'reductora', p. ej. 'wood-reducing', 'earth reducing', 'calm a stressed fire constitution') o una 'constitución debilitada' (deficiencia; fórmula 'potenciadora/tonificante', p. ej. 'enhance earth', 'strengthen a weakened wood constitution'). Además hay fórmulas para Qi (Mood Elevator para Qi 'caído'/estancado, Trigger Immune para Qi deficiente) y para calor/sequedad (IF-C para exceso de yang/calor, HY-C para deficiencia de yin). NSP agrupa 14 concentrados TCM en dos paquetes: Chinese Positive Pack (+, 'yang') con Anti-Gas, IF-C, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator y Breathe Activator; y Chinese Negative Pack (-, 'yin') con Lung Support, Blood Stimulator, HY-C, KB-C, Nervous Fatigue, Spleen Activator y Trigger Immune. Al cruzar estos paquetes con las descripciones de NSP y con el cuestionario constitucional de Tree of Light (Steven Horne), los siete '+' coinciden con las categorías de EXCESO (Madera, Fuego, Tierra, Metal, Agua en exceso, exceso de Yang y Qi caído) y los siete '-' con las categorías de DEFICIENCIA (Madera, Fuego, Tierra, Metal, Agua deficientes, deficiencia de Yin y Qi deficiente). Esta correspondencia es una síntesis del compilador a partir de las fuentes; ninguna fuente encontrada publica la tabla completa explícitamente. VS-C y Mineral-Chi Tonic no pertenecen a ninguno de los paquetes. Uso tradicional según la medicina china y la literatura de distribuidores NSP; no es tratamiento médico probado ni sustituye el consejo profesional.",
+    "positivo": "'Positivo' (+) = 'yang'. NSP describe el Positive Pack como 'yang-building' / 'Build yang energy with 7 concentrated blends' (texto comercial actual). Sin embargo, por su contenido, las fórmulas '+' son las REDUCTORAS / LIMPIADORAS para condiciones de exceso o 'constitución estresada': Liver Balance ('wood-reducing', Madera estresada), Anti-Gas ('earth reducing'), Kidney Activator ('water-reducing', 'clear the dampness'), Breathe Activator ('stressed metal constitution', 'ventilate the lungs'), IF-C ('qing re', 'clear the heat'; en Canadá rotulada 'Yang formula'), Stress Relief ('an shen', 'fire-reducing', 'calm a stressed fire constitution') y Mood Elevator ('jie yu', regula/libera el Qi 'atrapado'). Steven Horne las clasifica en su mayoría como 'Cleanser' (limpiadoras): Kidney Activator ('Cleanser'), Anti-Gas ('cleansing'), Stress Relief ('cleanser... Reducing action'), IF-C ('cleanses'). Interpretación más coherente con las fuentes: '+' indica fórmulas para patrones yang/de exceso (calor, congestión, estancamiento, humedad retenida), es decir, que reducen o dispersan; la frase comercial 'build yang energy' contradice parcialmente esta lectura y se registra como discrepancia. Además, una ficha de NSP para Stress Relief 100 cápsulas la marca 'Stress Relief (-)' y la de Mood Elevator la llama 'fire-enhancing' aunque está en el paquete positivo: otras inconsistencias del propio material de NSP.",
+    "negativo": "'Negativo' (-) = 'yin'. NSP describe el Negative Pack como 'Seven yin-building Chinese formulas' y dice que promueve 'yin, or negative energy'; en MTC el yin representa lo que enfría, humedece y nutre. Por contenido, las fórmulas '-' son TONIFICANTES / CONSTRUCTORAS para deficiencia o 'constitución debilitada': Blood Stimulator ('bu xue', 'strengthen a weakened wood constitution'), Nervous Fatigue ('yang xin', 'fire-enhancing'), Spleen Activator ('wen zhong', 'Enhance Earth', 'supports a weak earth element'), Lung Support ('fu lei', 'weakened metal constitution'), KB-C ('jian gu', 'strengthen the water element', nutre el yang de riñón), HY-C ('bu yin', nutre el yin / 'reduce fire and strengthen water') y Trigger Immune ('sheng mai', 'strengthen a weakened energy constitution'). Steven Horne las llama 'Builder' (KB-C: 'Builder - works on weakened Kidneys'; Spleen Activator: 'building'; Nervous Fatigue: 'builder'; Lung Support y Trigger Immune: tónicos). Nota: 'negativo' no significa 'frío' en sentido estricto: KB-C nutre el yang de riñón y Spleen Activator 'calienta el centro', pero ambos son tonificantes de deficiencia.",
+    "cinco_elementos": "Correspondencias usadas por NSP/Tree of Light (síntesis): MADERA (hígado/vesícula; desintoxicación, sangre): exceso/estresada -> Liver Balance (+, 'tiao he', reductora de Madera); deficiente/debilitada -> Blood Stimulator (-, 'bu xue', tónico de sangre). FUEGO (corazón; NSP: controla estados emocionales, ánimo y circulación de la sangre): exceso/estresado -> Stress Relief (+, 'an shen') e IF-C (+, 'qing re', calor/inflamación aguda); deficiente -> Nervous Fatigue (-, 'yang xin', potenciadora de Fuego). TIERRA (bazo, páncreas, estómago; digestión): exceso -> Anti-Gas (+, 'xiao dao', reductora de Tierra); deficiente -> Spleen Activator (-, 'wen zhong', potenciadora de Tierra). METAL (pulmones e intestino grueso): exceso/estresado -> Breathe Activator (+, 'xuan fei'); deficiente/debilitado -> Lung Support (-, 'fu lei'); VS-C se describe como 'metal enhancing' (fuera de los paquetes). AGUA (riñones, vejiga, suprarrenales, huesos; NSP: 'reservoir of life'): exceso (humedad/retención de líquidos) -> Kidney Activator (+, 'qu shi', reductora de Agua); deficiente -> KB-C (-, 'jian gu'). Categorías transversales del cuestionario de Tree of Light: Exceso de Yang -> IF-C (+); Deficiencia de Yin -> HY-C (-); Qi caído/estancado ('Sagging Qi') -> Mood Elevator (+); Qi deficiente -> Trigger Immune (-). Mineral-Chi Tonic se describe como equilibrador de los 12 meridianos y energizante de los cinco tipos constitucionales. La asignación formula-categoría del cuestionario es una deducción del compilador basada en descripciones de NSP y de Steven Horne; el cuestionario en sí no nombra productos.",
+    "como_elegir": "1) Determinar qué elemento está más desequilibrado y si está en exceso ('estresado') o en deficiencia ('debilitado'). Tree of Light ofrece el cuestionario 'What is Your Chinese Constitutional Type?': 14 listas de 14 síntomas (Madera/Fuego/Tierra/Metal/Agua en exceso y en deficiencia, Exceso de Yang, Deficiencia de Yin, Qi caído, Qi deficiente), cada síntoma puntuado 0 (nunca), 1 (pasado/leve), 2 (actual/moderado) o 3 (severo); el resultado indica el elemento con mayor puntuación total y si predomina el exceso o la deficiencia. Las listas incluyen signos de lengua (punta roja, saburra gruesa, marcas de dientes, lengua pálida, lengua seca y roja, lengua temblorosa). 2) Si predomina el exceso/agudo (congestión, calor, gases, retención de líquidos, tensión, irritabilidad), elegir la fórmula '+' (reductora/limpiadora) del elemento; si predomina la deficiencia/crónico (debilidad, palidez, fatiga, sequedad, agotamiento), la fórmula '-' (tonificante/constructora). Ejemplos de Steven Horne: digestión con gases, eructos fétidos e indigestión aguda -> Anti-Gas (limpieza); persona pálida, delgada, que no gana peso -> Spleen Activator (construcción); retención de líquidos -> Kidney Activator ('Cleanser'); riñones débiles con dolor lumbar, rodillas/tobillos débiles, osteoporosis -> KB-C ('Builder'); estrés agudo -> Stress Relief; agotamiento suprarrenal/'burn out' -> Nervous Fatigue; inflamación aguda y calor -> IF-C ('cleanses'); inflamación crónica/virus de bajo grado -> VS-C ('builds'). Horne observa que los niños suelen tener más condiciones agudas 'estresadas' que crónicas. 3) Principio general de Horne ('Yin and Yang in Diagnosis'): valorar caliente vs frío y húmedo vs seco antes de elegir remedios, y usar remedios de energética opuesta al desequilibrio. 4) Los paquetes completos (+ o -) se toman 1 cápsula de cada frasco al día durante 30 días, tres meses consecutivos (indicación de NSP). No se encontraron fuentes NSP que enseñen diagnóstico por pulso para elegir estas fórmulas. Los concentrados 'TCM' equivalen a unas 5 cápsulas de la versión regular (según el distribuidor Four Winds/webnat).",
+    "historia": "Nature's Sunshine Products (Utah, EE. UU.) comercializa fórmulas chinas desde mediados de la década de 1980. NSP afirma que desde hace más de 35 años trabaja con el mismo proveedor de hierbas de China. VS-C se desarrolló a mediados de los 80 con el Dr. Wenwei Xie, médico de MTC de Pekín que llegó a EE. UU. en un proyecto de investigación sobre remedios chinos para la inmunidad; Xie también es autor de HRP-C (fórmula canadiense de equilibrio yin-yang). Según el artículo de Steven Horne publicado por Four Winds Nutrition, Liver Balance fue diseñada por 'a Chinese herbal doctor' (sin nombre) y Horne pasó tres semanas en China continental cuando NSP lanzaba su línea china. Steven Horne (herbolario registrado, expresidente del American Herbalists Guild, fundador de Tree of Light Publishing) fue consultor y formulador de NSP y divulgó estas fórmulas con un enfoque por sistemas corporales ('Builder'/'Cleanser'), en 'The Comprehensive Guide to Nature's Sunshine Products' y en el cuestionario constitucional chino de Tree of Light; sus referencias citan, entre otras, la materia médica de Bensky y Gamble y 'Oriental Materia Medica' de Hong-Yen Hsu (como bibliografía, no como autor de las fórmulas). Las fórmulas tienen nombres chinos que son principios terapéuticos (tiao he, bu xue, xiao dao, wen zhong, yang xin, an shen, qing re, bu yin, jian gu, qu shi, fu lei, xuan fei, jie yu, sheng mai). Se venden en versión regular (100 cápsulas) y 'TCM Concentrate' (30 cápsulas, extracto concentrado). En Canadá varias llevan códigos '-C' (p. ej. HS-C ~ Nervous Fatigue, LH-C = Lung Support, STR-C ~ Stress Relief). Nombres anteriores documentados: Blood Stimulator = 'Blood Build'; Breathe Activator = 'Breathe E-Z'; Stress Relief = 'STR-C'. Jake Fratkin (Chinese Herbal Patent Formulas) incluye un apéndice de productos de NSP con nombres como 'Tiao He - Bupleurum and Peony 12 Combination', 'Bu Xue - Dang Gui and Peony 16 Formula' y 'Yang Xin - Biota and Zizyphus 18 Formula' (visto solo en un resumen de búsqueda; no se pudo abrir el texto). No se encontró quién diseñó originalmente el esquema de pares por elemento ni fechas exactas de lanzamiento de cada fórmula; tampoco se encontraron manuales antiguos de NSP en archive.org.",
+    "fuentes": [
+      "https://www.webnat.com/articles/ChineseFormulas.asp",
+      "https://fourwindsnutrition.net/blogs/news/natures-sunshine-chinese-herbal-formulas",
+      "https://treelite.com/quizzes/chinese-constitutional-quiz",
+      "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+      "https://treelite.com/quizzes/",
+      "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+      "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+      "https://caringsunshine.com/product/natures-sunshine/chinese-yin",
+      "https://healthy-sunshine.com/chinese-tcm-yang-pack/",
+      "https://healthy-sunshine.com/chinese-tcm-yin-pack/",
+      "https://www.naturessunshine.com/product/vs-c-vegcapsules",
+      "https://lecapucin.ca/en/Product-16209-Nature-s-Sunshine-IF-C-100-caps",
+      "https://stevenhorne.com/article/Yin-and-Yang-in-Diagnosis",
+      "https://fourwindsnutrition.net/products.json",
+      "https://inttherapy.com/products.json",
+      "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html"
+    ]
+  },
+  "formulas": [
+    {
+      "nombre": "Anti-Gas (Chinese) / Anti-Gas TCM Concentrate",
+      "nombres_anteriores": [
+        "Chinese Anti-Gas",
+        "Anti Gas Formula (Chinese)",
+        "Xiao Dao"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Tierra (exceso; 'earth reducing')",
+      "organos": [
+        "estómago",
+        "bazo",
+        "páncreas",
+        "intestinos",
+        "sistema urinario"
+      ],
+      "meridianos": [
+        "Estómago",
+        "Bazo"
+      ],
+      "accion_energetica": "Reductora de Tierra; nombre chino 'xiao dao' = 'clear the congestion' (despejar la congestión). Según NSP 'mueve el chi hacia la cabeza' y favorece la eliminación de humedad excesiva y toxinas. Horne: limpiadora ('cleansing') que expulsa gases y alimento no digerido.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): la composición (agastache/huo xiang, magnolia, cáscara de cítrico, atractylodes, hoelen, jengibre, regaliz, platycodon, crataegus/shan zha, shen qu) se asemeja a Huo Xiang Zheng Qi San combinada con hierbas de Bao He Wan (estancamiento de alimentos).",
+      "patrones_mtc": [
+        "Exceso de Tierra",
+        "Congestión/estancamiento de alimentos (inferido de 'clear the congestion')",
+        "Humedad en el Jiao medio (inferido de 'eliminación de humedad excesiva')"
+      ],
+      "sintomas": [
+        "gases intestinales e hinchazón",
+        "eructos fétidos",
+        "indigestión aguda",
+        "mal aliento",
+        "mal sabor de boca",
+        "acidez o reflujo",
+        "náuseas",
+        "saburra gruesa en la lengua",
+        "preocupación crónica (síntomas de 'Exceso de Tierra' del cuestionario)"
+      ],
+      "condiciones_tradicionales": [
+        "indigestión ocasional",
+        "malestar digestivo agudo",
+        "apoyo a la desintoxicación",
+        "apoyo al sistema urinario"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Por su carácter limpiador se orienta a cuadros agudos/de exceso; para digestión débil por deficiencia Horne indica Spleen Activator.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/anti-gas-chinese",
+        "https://healthy-sunshine.com/chinese-anti-gas-100-caps/",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Blood Stimulator (Chinese) / Blood Stimulator TCM Concentrate",
+      "nombres_anteriores": [
+        "Blood Build (Chinese)",
+        "Bu Xue",
+        "Dang Gui and Peony 16 Formula (nombre en el apéndice de Fratkin, según resumen de búsqueda)"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Madera (deficiencia; 'weakened wood constitution')",
+      "organos": [
+        "hígado",
+        "sangre",
+        "glándulas",
+        "circulación"
+      ],
+      "meridianos": [
+        "Hígado"
+      ],
+      "accion_energetica": "Tónico de sangre; 'bu xue' = 'nurture the blood' (nutrir la sangre). Fortalece una constitución de Madera debilitada; el tónico principal es ganoderma (reishi), tónico del shen y adaptógeno según Horne.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): contiene dang gui, rehmannia y peonía (núcleo de Si Wu Tang) más astragalus, ginseng, ganoderma, cúrcuma y bupleurum; no corresponde exactamente a una fórmula clásica.",
+      "patrones_mtc": [
+        "Deficiencia de Madera",
+        "Deficiencia de sangre (de hígado)"
+      ],
+      "sintomas": [
+        "anemia",
+        "menstruación escasa o ciclo prolongado",
+        "fatiga general",
+        "palidez",
+        "visión borrosa y ojos secos",
+        "piel seca alrededor de los ojos",
+        "desánimo o desesperanza"
+      ],
+      "condiciones_tradicionales": [
+        "anemia",
+        "problemas menstruales y SPM",
+        "problemas de piel",
+        "migrañas",
+        "problemas hepáticos crónicos",
+        "apoyo inmunitario",
+        "calidad de la sangre y circulación"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://caringsunshine.com/product/natures-sunshine/blood-build-tcm",
+        "https://www.naturesbesthealthstore.com/products/blood-stimulator-chinese-100-caps",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+        "https://healthy-sunshine.com/chinese-tcm-yin-pack/",
+        "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html"
+      ]
+    },
+    {
+      "nombre": "Breathe Activator TCM Concentrate",
+      "nombres_anteriores": [
+        "Breathe E-Z TCM",
+        "Breath Activator"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Metal (exceso; 'stressed metal constitution')",
+      "organos": [
+        "pulmones",
+        "bronquios",
+        "senos paranasales",
+        "vías respiratorias"
+      ],
+      "meridianos": [
+        "Pulmón"
+      ],
+      "accion_energetica": "'xuan fei' = 'ventilate the lungs' (ventilar/abrir los pulmones). Moviliza el moco para limpiar toxinas y despejar residuos de los pulmones; cítrico y schisandra 'potencian la energía de los pulmones'. Limpiadora para Metal estresado.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): cáscara de cítrico, typhonium/pinellia, hoelen y regaliz forman el núcleo de Er Chen Tang; perilla, semilla de albaricoque, magnolia, morus, tussilago, fritillaria y platycodon son hierbas clásicas para descender el Qi de pulmón y transformar flema.",
+      "patrones_mtc": [
+        "Exceso de Metal",
+        "Flema/congestión en pulmón (inferido)"
+      ],
+      "sintomas": [
+        "congestión de pulmones y senos",
+        "tos",
+        "sibilancias",
+        "sensación de plenitud en el pecho",
+        "moco blanco o pálido",
+        "saburra blanca y gruesa",
+        "tristeza o duelo excesivo (cuestionario 'Exceso de Metal')"
+      ],
+      "condiciones_tradicionales": [
+        "salud bronquial y pulmonar",
+        "congestión sinusal/nasal",
+        "apoyo respiratorio estacional",
+        "asma, bronquitis, alergias (listados en 'Exceso de Metal')"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/breathe-activator",
+        "https://caringsunshine.com/product/natures-sunshine/breathe-ez-tcm",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+        "https://inttherapy.com/products.json"
+      ]
+    },
+    {
+      "nombre": "HY-C (Chinese) / HY-C TCM Concentrate",
+      "nombres_anteriores": [
+        "Bu Yin"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Agua/Fuego ('reduce fire and strengthen water'); categoría Deficiencia de Yin",
+      "organos": [
+        "riñones",
+        "páncreas (azúcar en sangre)",
+        "pulmones",
+        "sistema glandular",
+        "circulación"
+      ],
+      "meridianos": [
+        "Riñón",
+        "Pulmón"
+      ],
+      "accion_energetica": "'bu yin' = nutrir/suplementar el yin (yin entendido como humedad/fluido). Humedece y enfría: apoya al cuerpo para 'reducir el fuego y fortalecer el agua'. NSP la considera 'fire-reducing'; Horne la llama 'Balancer' que ayuda a las células a hidratarse.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): rehmannia, cornus, moutan, alisma, hoelen, anemarrhena y phellodendron son casi todo Zhi Bai Di Huang Wan (falta dioscorea); trichosanthes (tian hua fen), pueraria (ge gen) y ophiopogon evocan fórmulas clásicas para 'xiao ke' (sed y consunción).",
+      "patrones_mtc": [
+        "Deficiencia de Yin",
+        "Calor por deficiencia (inferido de 'reduce fire')",
+        "Sequedad"
+      ],
+      "sintomas": [
+        "sed constante",
+        "orina frecuente",
+        "boca, ojos y piel secos",
+        "sudores nocturnos",
+        "zumbido de oídos",
+        "tos seca",
+        "sensación de ardor en manos y pies",
+        "estreñimiento con heces secas",
+        "lengua seca y roja"
+      ],
+      "condiciones_tradicionales": [
+        "mantener niveles de azúcar en sangre ya normales",
+        "tendencia a hiperglucemia/diabetes incipiente según Horne",
+        "resistencia a la insulina (Horne)",
+        "apoyo glandular y respiratorio"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Las fuentes no dan otras contraindicaciones; por su naturaleza humectante/refrescante no se describe para cuadros de frío o humedad (inferencia).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/hy-c-tcm-concentrate",
+        "https://healthy-sunshine.com/chinese-hy-c-100-caps/",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+        "https://inttherapy.com/products.json"
+      ]
+    },
+    {
+      "nombre": "IF-C (Chinese) / IF-C TCM Concentrate",
+      "nombres_anteriores": [
+        "Qing Re"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Fuego (constitución de fuego estresada); categoría Exceso de Yang",
+      "organos": [
+        "sistema inmunitario",
+        "sistema estructural (articulaciones)",
+        "circulación"
+      ],
+      "meridianos": [
+        "Corazón (Fuego)"
+      ],
+      "accion_energetica": "'qing re' = 'clear the heat' (despejar el calor). Refrescante, elimina calor y toxinas: 'quenches the fire element and restores balance by clearing toxins' (etiqueta canadiense, que la rotula 'Yang formula'). Horne: limpiadora para inflamación aguda y calor excesivo.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): scute, coptis, phellodendron y gardenia forman completa Huang Lian Jie Du Tang; lonicera, forsythia, arctium, schizonepeta, platycodon y regaliz proceden de Yin Qiao San.",
+      "patrones_mtc": [
+        "Exceso de Yang",
+        "Calor/fuego tóxico (inferido)",
+        "Fuego estresado"
+      ],
+      "sintomas": [
+        "fiebre o fiebre con escalofríos",
+        "dolor de garganta",
+        "dolor de oídos",
+        "encías irritadas o sangrantes",
+        "ojos rojos",
+        "erupciones cutáneas agudas",
+        "sangrado nasal",
+        "sensación de calor o ardor",
+        "enrojecimiento facial",
+        "lengua roja brillante",
+        "pulso/latido rápido"
+      ],
+      "condiciones_tradicionales": [
+        "respuesta inflamatoria aguda",
+        "apoyo inmunitario",
+        "función articular",
+        "dolor muscular tras el ejercicio"
+      ],
+      "no_indicado_para": "Las fuentes no listan contraindicaciones específicas. Horne la reserva para calor/inflamación aguda; para inflamación crónica de bajo grado indica VS-C (inferencia de uso, no contraindicación).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/if-c-chinese",
+        "https://healthy-sunshine.com/chinese-if-c-100-caps/",
+        "https://lecapucin.ca/en/Product-16209-Nature-s-Sunshine-IF-C-100-caps",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "KB-C (Chinese) / KB-C TCM Concentrate",
+      "nombres_anteriores": [
+        "Jian Gu"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Agua (deficiencia; 'strengthen the water element')",
+      "organos": [
+        "riñones",
+        "vejiga",
+        "huesos",
+        "tendones y ligamentos",
+        "hígado",
+        "sistema urinario"
+      ],
+      "meridianos": [
+        "Riñón",
+        "Vejiga"
+      ],
+      "accion_energetica": "'jian gu' = 'strengthen the bones'. Tonifica el Agua y 'nutre el yang de riñón' (eucommia, achyranthes); fortalece riñones, huesos y tendones y elimina exceso de agua. Horne: 'Builder - works on weakened Kidneys'; la llama 'herbal chiropractor'.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): combina hierbas de Liu Wei Di Huang Wan (rehmannia, cornus, dioscorea, hoelen) con tónicos del yang de riñón (eucommia, cistanche, morinda, epimedium) y hierbas de huesos (drynaria, dipsacus, achyranthes); no es una fórmula clásica única.",
+      "patrones_mtc": [
+        "Deficiencia de Agua",
+        "Deficiencia de yang de riñón (NSP: 'nourish kidney yang')"
+      ],
+      "sintomas": [
+        "dolor lumbar",
+        "rodillas o tobillos débiles",
+        "huesos débiles o quebradizos",
+        "micción frecuente y urgente, goteo",
+        "zumbido de oídos",
+        "encanecimiento",
+        "ajustes quiroprácticos que no se mantienen",
+        "rigidez, miedo, falta de 'columna vertebral' (Horne)"
+      ],
+      "condiciones_tradicionales": [
+        "osteoporosis",
+        "artritis",
+        "dolor de espalda crónico",
+        "tendencia a cálculos renales y ácido úrico",
+        "insuficiencia renal crónica y nefritis (Horne)",
+        "infecciones urinarias crónicas",
+        "problemas de próstata",
+        "nicturia"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Horne la prefiere frente a Kidney Activator cuando los riñones están inflamados, porque fórmulas como Kidney Activator pueden irritarlos.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/kb-c-chinese",
+        "https://healthy-sunshine.com/chinese-kb-c-100-caps/",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Kidney Activator (Chinese) / Kidney Activator TCM Concentrate",
+      "nombres_anteriores": [
+        "Chinese Kidney Activator",
+        "Qu Shi"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Agua (exceso; 'water-reducing')",
+      "organos": [
+        "riñones",
+        "vejiga",
+        "vías urinarias",
+        "sistema linfático"
+      ],
+      "meridianos": [
+        "Riñón",
+        "Vejiga"
+      ],
+      "accion_energetica": "'qu shi' = 'clear the dampness' / 'eliminate moisture'. Drena la humedad y los líquidos retenidos (morus, hoelen, alisma, astragalus). Horne: 'Cleanser - for water retention where the kidneys need to be stimulated to flush fluid out'.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): hoelen, polyporus, alisma, atractylodes y ramita de canela forman completa Wu Ling San; con magnolia y cáscara de cítrico se parece a Wei Ling Tang; astragalus y siler evocan Fang Ji Huang Qi Tang.",
+      "patrones_mtc": [
+        "Exceso de Agua",
+        "Humedad / retención de líquidos"
+      ],
+      "sintomas": [
+        "edema o retención de líquidos",
+        "orina escasa o clara",
+        "sensación de pesadez y lentitud (sobre todo por la tarde)",
+        "dolor de espalda",
+        "dolor de piernas, cuello u hombros",
+        "lengua húmeda con saburra blanca",
+        "marcas de dientes en la lengua",
+        "timidez e indecisión"
+      ],
+      "condiciones_tradicionales": [
+        "retención de agua",
+        "apoyo urinario y linfático",
+        "salud articular",
+        "infecciones de vejiga y micción ardiente (listadas en 'Exceso de Agua')"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Una ficha de distribuidor advierte posible alergia en personas sensibles al psyllium. Horne indica que puede irritar riñones inflamados (nefritis); en ese caso prefiere KB-C.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/kidney-activator-chinese",
+        "https://www.naturessunshine.com/product/kidney-activator-tcm-concentrate",
+        "https://healthy-sunshine.com/chinese-kidney-activator-100-caps/",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Liver Balance (Chinese) / Liver Balance TCM Concentrate",
+      "nombres_anteriores": [
+        "Chinese Liver Balance",
+        "Tiao He",
+        "Bupleurum and Peony 12 Combination (apéndice de Fratkin, según resumen de búsqueda)"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Madera (exceso; 'wood-reducing', 'stressed wood constitution')",
+      "organos": [
+        "hígado",
+        "vesícula biliar",
+        "sistema digestivo",
+        "sistema nervioso"
+      ],
+      "meridianos": [
+        "Hígado",
+        "Vesícula Biliar"
+      ],
+      "accion_energetica": "'tiao he' = 'harmonizing' (armonizar; Horne: 'mediate harmony'). Refresca ('cool') un hígado estresado; bupleurum es 'the most important cooling herb' que fortalece frente al estrés favoreciendo el flujo del chi. Base del programa Tiao He Cleanse.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): bupleurum, scute, ginseng, typhonium/pinellia, regaliz, jengibre, canela y peonía corresponden casi completa a Chai Hu Gui Zhi Tang; dang gui, atractylodes y fushen/hoelen añaden el núcleo de Xiao Yao San, y zhishi el de Si Ni San.",
+      "patrones_mtc": [
+        "Exceso de Madera",
+        "Hígado estresado / estancamiento del Qi de hígado (inferido de 'harmonizing' y bupleurum)",
+        "Calor en hígado ('cool a stressed liver')"
+      ],
+      "sintomas": [
+        "irritabilidad o enojo",
+        "estrés y tensión",
+        "migrañas",
+        "molestia bajo las costillas derechas",
+        "mala digestión de grasas",
+        "cansancio por la mañana",
+        "mal sueño y niebla mental (Horne)",
+        "sensación de nudo en la garganta",
+        "acné o erupciones",
+        "SPM"
+      ],
+      "condiciones_tradicionales": [
+        "apoyo a la desintoxicación hepática",
+        "estrés e irritabilidad ocasionales",
+        "digestión superior durante la tensión",
+        "problemas de vesícula",
+        "hipoglucemia",
+        "alergias",
+        "problemas de piel"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/liver-balance-tcm-concentrate",
+        "https://healthy-sunshine.com/chinese-liver-balance-100-caps/",
+        "https://herbshopga.com/products/liver-balance-chinese-100",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+        "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html"
+      ]
+    },
+    {
+      "nombre": "Lung Support (Chinese) / Lung Support TCM Concentrate",
+      "nombres_anteriores": [
+        "LH-C (Canadá; 'Lung Support, Chinese (LH-C)')",
+        "Fu Lei"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Metal (deficiencia; 'weakened metal constitution')",
+      "organos": [
+        "pulmones",
+        "intestino grueso",
+        "senos paranasales",
+        "mucosas",
+        "sistema inmunitario"
+      ],
+      "meridianos": [
+        "Pulmón",
+        "Intestino Grueso"
+      ],
+      "accion_energetica": "'fu lei' = 'strengthen the weak and thin'. Tónico de Qi para el pulmón (astragalus como tónico principal; anemarrhena, aster, bupleurum); humedece las mucosas. Horne: 'qi tonic'.",
+      "formula_clasica_base": null,
+      "patrones_mtc": [
+        "Deficiencia de Metal",
+        "Deficiencia de Qi de pulmón (Horne: 'qi tonic')"
+      ],
+      "sintomas": [
+        "infecciones pulmonares crónicas",
+        "resfriados y gripes frecuentes",
+        "tos seca",
+        "opresión en el pecho",
+        "falta de aire",
+        "debilidad y fatiga general",
+        "palidez (o palidez con mejillas enrojecidas)",
+        "voz débil",
+        "sudoración excesiva o nocturna",
+        "delgadez y pérdida de peso",
+        "duelo reprimido"
+      ],
+      "condiciones_tradicionales": [
+        "enfisema, tuberculosis, asma o bronquitis crónicas (Horne)",
+        "pulmones dañados por tabaco",
+        "fatiga ocasional y pérdida de peso",
+        "apoyo inmunitario"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://caringsunshine.com/product/natures-sunshine/lung-support",
+        "https://healthy-sunshine.com/chinese-lung-support-lh-c-100-caps/",
+        "https://lecapucin.ca/en/Product-16243-Nature-s-Sunshine-LH-C-30-caps",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Mineral-Chi Tonic (Chinese)",
+      "nombres_anteriores": [],
+      "polaridad": null,
+      "elemento": "Ninguno específico ('energize all five constitutional types')",
+      "organos": [
+        "glándulas suprarrenales"
+      ],
+      "meridianos": [
+        "los 12 meridianos (según Horne/distribuidores)"
+      ],
+      "accion_energetica": "Tónico líquido con hierbas chinas (lycium, schisandra, gynostemma, reishi, astragalus, ginkgo, regaliz DGL, jengibre) y minerales traza. Horne: nutre las suprarrenales, equilibra los 12 meridianos y energiza los cinco tipos constitucionales; tónico estimulante y adaptógeno. No pertenece a ningún paquete +/-, por eso polaridad null.",
+      "formula_clasica_base": null,
+      "patrones_mtc": [
+        "Deficiencia general de Qi/energía (inferido de 'tonic')"
+      ],
+      "sintomas": [
+        "nerviosismo",
+        "estrés",
+        "depresión",
+        "baja energía",
+        "falta de concentración"
+      ],
+      "condiciones_tradicionales": [
+        "apoyo suprarrenal",
+        "energía y resistencia física",
+        "manejo del estrés"
+      ],
+      "no_indicado_para": null,
+      "fuentes": [
+        "https://caringsunshine.com/product/natures-sunshine/mineral-chi-tonic",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://inttherapy.com/products.json"
+      ]
+    },
+    {
+      "nombre": "Mood Elevator (Chinese) / Mood Elevator TCM Concentrate",
+      "nombres_anteriores": [
+        "Jie Yu"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Fuego según NSP ('fire-enhancing'); actúa sobre el hígado (Madera) y el Qi. Categoría 'Qi caído' del cuestionario (deducción).",
+      "organos": [
+        "hígado",
+        "sistema digestivo",
+        "sistema nervioso",
+        "pulmones (moco)",
+        "sistema linfático",
+        "glándulas (páncreas, suprarrenales, reproductoras)"
+      ],
+      "meridianos": [
+        "Hígado"
+      ],
+      "accion_energetica": "'jie yu' = 'regulate chi' / 'relieve depression'; 'regula y libera el chi atrapado'. Horne: alivia el Qi 'caído' (sagging chi) y dispersa el Qi estancado; expulsa viento (constricción y espasmo) y humedad (exceso de fluidos). Discrepancia: NSP la llama 'fire-enhancing' pero va en el paquete positivo.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): perilla, cyperus y cítrico recuerdan Xiang Su San; bupleurum, cyperus, cnidium (chuan xiong), zhishi y cítrico, Chai Hu Shu Gan San; hoelen, pinellia/typhonium, zhishi, bambú y regaliz, Wen Dan Tang.",
+      "patrones_mtc": [
+        "Qi caído ('Sagging Qi')",
+        "Estancamiento del Qi de hígado",
+        "Viento y humedad (Horne)"
+      ],
+      "sintomas": [
+        "depresión y tristeza",
+        "pesadez y letargo",
+        "fatiga",
+        "insomnio y sueños inquietos",
+        "ansiedad y tensión nerviosa",
+        "sensación de nudo en la garganta",
+        "opresión o dolor en el pecho",
+        "dolores migratorios",
+        "prolapso de colon o útero",
+        "hinchazón y dolor abdominal",
+        "espasmos musculares"
+      ],
+      "condiciones_tradicionales": [
+        "depresión, fatiga, insomnio, neurosis, tinnitus, depresión posparto, dismenorrea, náuseas del embarazo, menopausia, congestión pulmonar y SPM (usos chinos citados por Horne)",
+        "congestión hepática y linfática"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Horne: si se toman antidepresivos, no suspenderlos de golpe; reducirlos de forma gradual bajo supervisión profesional. Puede liberar hostilidad reprimida de forma pasajera.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/mood-elevator-tcm-concentrate",
+        "https://www.naturessunshine.com/product/mood-elevator-chinese",
+        "https://fourwindsnutrition.net/products/mood-elevator-100-caps",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Nervous Fatigue Formula (Chinese) / Nervous Fatigue TCM Concentrate",
+      "nombres_anteriores": [
+        "Yang Xin",
+        "HS-C (Canadá; mismo nombre chino 'yang xin' e ingredientes similares)",
+        "Biota and Zizyphus 18 Formula (apéndice de Fratkin, según resumen de búsqueda)"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Fuego (deficiencia; 'fire-enhancing')",
+      "organos": [
+        "corazón",
+        "sistema nervioso",
+        "suprarrenales",
+        "circulación",
+        "digestión"
+      ],
+      "meridianos": [
+        "Corazón"
+      ],
+      "accion_energetica": "'yang xin' = 'nurture the heart' (nutrir el corazón). Tónico que potencia el shen o energía del corazón; schisandra es tónico de qi, shen y jing; calma el shen y favorece el sueño. Horne: 'builder'.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): rehmannia, ophiopogon, biota, semilla de azufaifo, schisandra, dang gui, ginseng, hoelen y polygala son la mayor parte de Tian Wang Bu Xin Dan.",
+      "patrones_mtc": [
+        "Deficiencia de Fuego",
+        "Shen perturbado por deficiencia (inferido)"
+      ],
+      "sintomas": [
+        "agotamiento extremo con sueño inquieto",
+        "despertares nocturnos",
+        "sueños perturbadores",
+        "sudores nocturnos",
+        "sensación de estar abrumado o 'quemado'",
+        "temblor o agotamiento nervioso",
+        "vulnerabilidad, 'corazón roto'",
+        "pensamiento confuso y mala memoria",
+        "pérdida del deseo sexual",
+        "ojeras",
+        "palpitaciones"
+      ],
+      "condiciones_tradicionales": [
+        "agotamiento suprarrenal (burnout)",
+        "estrés ocasional",
+        "insomnio por despertar nocturno",
+        "apoyo circulatorio y nervioso"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). La etiqueta canadiense de HS-C indica consultar a un profesional si hay diabetes, úlcera péptica, trastornos autoinmunes, hipertensión, enfermedad cardiovascular, hipopotasemia o uso de anticoagulantes, antidepresivos, inmunosupresores u hormonas.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/nervous-fatigue-chinese",
+        "https://caringsunshine.com/product/natures-sunshine/nervous-fatigue-form",
+        "https://www.naturessunshine.ca/product/hs-c",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+        "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html"
+      ]
+    },
+    {
+      "nombre": "Spleen Activator (Chinese) / Spleen Activator TCM Concentrate",
+      "nombres_anteriores": [
+        "Wen Zhong"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Tierra (deficiencia; 'Enhance Earth')",
+      "organos": [
+        "bazo",
+        "páncreas",
+        "estómago",
+        "sistema digestivo"
+      ],
+      "meridianos": [
+        "Bazo",
+        "Estómago"
+      ],
+      "accion_energetica": "'wen zhong' = 'warm the center' (calentar el centro); 'Enhance Earth'. Tonifica y calienta la digestión (ginseng, astragalus, atractylodes, regaliz). Horne: 'activa la energía del sistema digestivo' en la deficiencia de bazo (building).",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): ginseng, atractylodes, hoelen, dioscorea, semilla de loto, dolicho/judía jacinto, cardamomo y regaliz coinciden con la mayor parte de Shen Ling Bai Zhu San, más hierbas calientes (jengibre, galanga, zanthoxylum) que encajan con 'wen zhong'.",
+      "patrones_mtc": [
+        "Deficiencia de Tierra",
+        "Deficiencia de bazo (Horne)",
+        "Frío en el centro (inferido de 'warm the center')"
+      ],
+      "sintomas": [
+        "palidez, delgadez, incapacidad para ganar peso",
+        "debilidad general y poco tono muscular",
+        "mala digestión de proteínas",
+        "comida pesada en el estómago",
+        "dolor de estómago que empeora con el frío",
+        "poco apetito",
+        "calambres intestinales",
+        "lengua pálida con saburra blanca y húmeda",
+        "calambres nocturnos ocasionales en las piernas"
+      ],
+      "condiciones_tradicionales": [
+        "debilidad digestiva y mala asimilación",
+        "pérdida de masa muscular en mayores",
+        "hernia de hiato (distribuidores)",
+        "equilibrio del azúcar en sangre",
+        "apoyo inmunitario"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/spleen-activator",
+        "https://caringsunshine.com/product/natures-sunshine/spleen-activator",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Stress Relief (Chinese) / Stress Relief TCM Concentrate",
+      "nombres_anteriores": [
+        "STR-C (Canadá; un distribuidor lo da como nombre anterior y Horne como fórmula 'muy similar')",
+        "An Shen"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Fuego (exceso; 'fire-reducing', 'stressed fire constitution')",
+      "organos": [
+        "corazón",
+        "sistema nervioso",
+        "estómago",
+        "circulación"
+      ],
+      "meridianos": [
+        "Corazón"
+      ],
+      "accion_energetica": "'an shen' = 'to pacify the spirit' (calmar el espíritu). Calma con sustancias pesadas (concha de ostra, concha de haliotis) y nervinos (polygala, semilla de azufaifo, albizzia). Horne: 'cleanser... Reducing action', activa el sistema parasimpático. Discrepancia: está en el paquete positivo y una ficha de NSP la marca '(-)'.",
+      "formula_clasica_base": null,
+      "patrones_mtc": [
+        "Exceso de Fuego",
+        "Shen agitado (inferido de 'an shen')"
+      ],
+      "sintomas": [
+        "personalidad nerviosa o acelerada",
+        "inquietud",
+        "irritabilidad",
+        "ansiedad o ataques de pánico",
+        "cefaleas tensionales",
+        "tensión muscular",
+        "palpitaciones",
+        "dificultad para conciliar el sueño",
+        "punta de la lengua roja"
+      ],
+      "condiciones_tradicionales": [
+        "estrés agudo",
+        "equilibrio emocional",
+        "función gástrica",
+        "salud circulatoria"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Consultar si se toman medicamentos (ficha de distribuidor).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate-2",
+        "https://caringsunshine.com/product/natures-sunshine/stress-relief-tcm",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "Trigger Immune (Chinese) / Trigger Immune TCM Concentrate",
+      "nombres_anteriores": [
+        "Sheng Mai"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Ninguno específico: Qi/energía general ('weakened energy constitution'); categoría Qi deficiente (deducción)",
+      "organos": [
+        "sistema inmunitario",
+        "sangre",
+        "circulación"
+      ],
+      "meridianos": [],
+      "accion_energetica": "'sheng mai' = 'generate the pulse' (también traducido 'generate chi'). Tónico mayor de Qi y sangre que también beneficia shen y jing (Horne); fortalece una constitución energética debilitada.",
+      "formula_clasica_base": "Observación del compilador (las fuentes NSP no lo afirman): el nombre coincide con Sheng Mai San (ginseng, ophiopogon, schisandra) y las tres hierbas están presentes, pero la fórmula NSP tiene 18 hierbas (astragalus, epimedium, eucommia, ganoderma, lycium, rehmannia, dang gui, etc.); NSP no dice que se base en Sheng Mai San.",
+      "patrones_mtc": [
+        "Deficiencia de Qi",
+        "Deficiencia de Qi y sangre (Horne)"
+      ],
+      "sintomas": [
+        "fatiga extrema o crónica",
+        "debilidad general",
+        "falta de aire",
+        "piel fría y pálida",
+        "escalofríos frecuentes",
+        "recuperación lenta",
+        "enfermedades frecuentes",
+        "poco apetito",
+        "piernas débiles",
+        "lengua pálida"
+      ],
+      "condiciones_tradicionales": [
+        "agotamiento por estrés o enfermedad crónica",
+        "baja resistencia a enfermedades",
+        "recuperación tras cirugía, lesión o quimioterapia/radioterapia (Horne)",
+        "personas mayores o debilitadas"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP).",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/trigger-immune-tcm-concentrate",
+        "https://caringsunshine.com/product/natures-sunshine/trigger-immune",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json",
+        "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm"
+      ]
+    },
+    {
+      "nombre": "VS-C (Chinese) / VS-C TCM Concentrate / VS-C Liquid",
+      "nombres_anteriores": [],
+      "polaridad": null,
+      "elemento": "Metal ('metal enhancing')",
+      "organos": [
+        "pulmones",
+        "intestino grueso",
+        "hígado",
+        "sistema inmunitario"
+      ],
+      "meridianos": [
+        "Pulmón (Fei)",
+        "Intestino Grueso (Da Chang)"
+      ],
+      "accion_energetica": "'Metal enhancing'; NSP dice que ayuda a mantener el equilibrio yin-yang y que favorece la desintoxicación. Horne: 'builds', para inflamación crónica y calor. No pertenece a ningún paquete +/-, por eso polaridad null.",
+      "formula_clasica_base": "NSP: desarrollada con el Dr. Wenwei Xie 'based on classical TCM formulations for the immune system' (sin nombrar la fórmula). Observación del compilador (las fuentes NSP no lo afirman): bupleurum, scute, typhonium/pinellia, ginseng y regaliz son el núcleo de Xiao Chai Hu Tang, con hierbas que eliminan calor tóxico (diente de león, verdolaga, índigo/isatis, thlaspi) y ramita de canela.",
+      "patrones_mtc": [
+        "Calor crónico / inflamación crónica (Horne)",
+        "Metal (pulmón-intestino grueso)"
+      ],
+      "sintomas": [
+        "herpes labial",
+        "aftas",
+        "infecciones virales de bajo grado"
+      ],
+      "condiciones_tradicionales": [
+        "herpes simple",
+        "gripe",
+        "hepatitis infecciosa",
+        "Epstein-Barr",
+        "inmunodeficiencia crónica y exceso de antibióticos (opinión del Dr. Xie citada por Horne)",
+        "apoyo respiratorio e inmunitario"
+      ],
+      "no_indicado_para": null,
+      "fuentes": [
+        "https://www.naturessunshine.com/product/vs-c-vegcapsules",
+        "https://healthy-sunshine.com/chinese-vs-c-100-caps/",
+        "https://www.webnat.com/articles/ChineseFormulas.asp",
+        "https://fourwindsnutrition.net/products.json"
+      ]
+    },
+    {
+      "nombre": "Chinese Positive Pack TCM (Chinese TCM Yang (+) Pack)",
+      "nombres_anteriores": [
+        "Chinese Yang Pack",
+        "Chinese TCM Positive Pack"
+      ],
+      "polaridad": "positiva",
+      "elemento": "Los cinco elementos en exceso + Exceso de Yang + Qi caído (síntesis)",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ],
+      "meridianos": [],
+      "accion_energetica": "Paquete de 7 concentrados TCM (Anti-Gas, IF-C, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator, Breathe Activator). NSP: 'Build yang energy'; 'cada hierba apoya un nivel de energía en uno de seis órganos principales; un séptimo producto apoya la función energética general'. Por contenido son fórmulas reductoras/limpiadoras de exceso.",
+      "formula_clasica_base": null,
+      "patrones_mtc": [
+        "Patrones de exceso / yang"
+      ],
+      "sintomas": [],
+      "condiciones_tradicionales": [
+        "apoyo circulatorio, urinario, hepático, nervioso, digestivo y respiratorio"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Uso: 1 cápsula de cada frasco al día durante 30 días, tres meses consecutivos.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+        "https://healthy-sunshine.com/chinese-tcm-yang-pack/",
+        "https://caringsunshine.com/product/natures-sunshine/chinese-yang"
+      ]
+    },
+    {
+      "nombre": "Chinese Negative Pack TCM (Chinese TCM Yin (-) Pack)",
+      "nombres_anteriores": [
+        "Chinese Yin Pack",
+        "Chinese TCM Negative Pack"
+      ],
+      "polaridad": "negativa",
+      "elemento": "Los cinco elementos en deficiencia + Deficiencia de Yin + Qi deficiente (síntesis)",
+      "organos": [
+        "corazón",
+        "riñones",
+        "hígado",
+        "pulmones",
+        "páncreas",
+        "bazo"
+      ],
+      "meridianos": [],
+      "accion_energetica": "Paquete de 7 concentrados TCM (Lung Support, Blood Stimulator/Blood Build, HY-C, KB-C, Nervous Fatigue, Spleen Activator, Trigger Immune). NSP: 'Seven yin-building Chinese formulas'; promueve 'yin, or negative energy'. Por contenido son fórmulas tonificantes de deficiencia.",
+      "formula_clasica_base": null,
+      "patrones_mtc": [
+        "Patrones de deficiencia / yin"
+      ],
+      "sintomas": [
+        "inquietud, sequedad, fatiga o dificultad para mantener la calma (síntomas de yin agotado citados por un distribuidor)"
+      ],
+      "condiciones_tradicionales": [
+        "apoyo respiratorio, circulatorio, estructural, nervioso e inmunitario"
+      ],
+      "no_indicado_para": "Embarazo o lactancia: consultar a un profesional de la salud antes de usar (advertencia de NSP). Uso: 1 cápsula de cada frasco al día durante 30 días, tres meses consecutivos.",
+      "fuentes": [
+        "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+        "https://caringsunshine.com/product/natures-sunshine/chinese-yin",
+        "https://healthy-sunshine.com/chinese-tcm-yin-pack/"
+      ]
+    }
+  ]
+}

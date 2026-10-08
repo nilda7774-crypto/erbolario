@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "super-omega-3-epa",
+    "url": "https://www.naturessunshine.com/product/super-omega-3-epa",
+    "nombre": "Super Omega-3 EPA",
+    "nombre_es": "Super Omega-3 EPA",
+    "sku": "1515",
+    "precio_usd": 42.45,
+    "presentacion": "60 cápsulas blandas, 60 porciones (20 días)",
+    "categoria": "Sistema circulatorio y cardiovascular",
+    "tipo": "Cápsulas blandas",
+    "ingredientes": [
+      "aceite de pescado (anchoa, sardina y caballa) aprox. 1000 mg por cápsula",
+      "EPA 380 mg",
+      "DHA 190 mg",
+      "sabor natural a limón"
+    ],
+    "modo_de_uso": "Tomar 1 cápsula blanda con una comida dos o tres veces al día.",
+    "descripcion": "Concentrado de aceite de pescado de aguas frías rico en EPA y DHA. Tiene sabor natural a limón para mejorar el gusto y reducir el regusto a pescado.",
+    "beneficios": [
+      "Apoya la salud circulatoria",
+      "Apoya la salud cerebral",
+      "Sabor a limón que reduce el regusto a pescado"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["omega 3", "aceite de pescado", "epa", "dha", "corazon", "circulacion", "cerebro", "colesterol"]
+  },
+  {
+    "slug": "hawthorn-berries-extract",
+    "url": "https://www.naturessunshine.com/product/hawthorn-berries-extract",
+    "nombre": "Hawthorn Berries Extract",
+    "nombre_es": "Extracto de bayas de espino blanco",
+    "sku": "1760",
+    "precio_usd": 35.20,
+    "presentacion": "2 fl oz (59 ml), 59 porciones (30 días)",
+    "categoria": "Sistema circulatorio y cardiovascular",
+    "tipo": "Líquido",
+    "ingredientes": ["bayas de espino blanco (extracto líquido)"],
+    "modo_de_uso": "Tomar de 15 a 20 gotas con agua dos veces al día.",
+    "descripcion": "Extracto líquido de bayas de espino blanco, planta usada tradicionalmente desde hace casi 2000 años. Se emplea para apoyar el sistema circulatorio y aporta antioxidantes.",
+    "beneficios": [
+      "Apoyo tradicional al sistema circulatorio",
+      "Aporta beneficios antioxidantes",
+      "Contiene componentes que favorecen la salud circulatoria"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["espino blanco", "hawthorn", "corazon", "circulacion", "antioxidante", "gotas", "presion arterial"]
+  },
+  {
+    "slug": "capsicum",
+    "url": "https://www.naturessunshine.com/product/capsicum",
+    "nombre": "Capsicum",
+    "nombre_es": "Capsicum (pimienta de cayena)",
+    "sku": "160",
+    "precio_usd": 22.75,
+    "presentacion": "100 cápsulas, 100 porciones (25 días)",
+    "categoria": "Sistema circulatorio y cardiovascular",
+    "tipo": "Cápsulas",
+    "ingredientes": ["fruto de capsicum"],
+    "modo_de_uso": "Tomar 1 cápsula cuatro veces al día con alimentos.",
+    "descripcion": "Cápsulas de fruto de capsicum, una hierba de efecto calorífico que se usa a menudo como catalizador en fórmulas herbales. Apoya la digestión y el flujo sanguíneo.",
+    "beneficios": [
+      "Apoyo digestivo",
+      "Apoyo cardiovascular",
+      "Estimula la digestión",
+      "Favorece el flujo sanguíneo"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["capsicum", "cayena", "chile", "circulacion", "digestion", "manos frias", "corazon"]
+  },
+  {
+    "slug": "cardioxldl",
+    "url": "https://www.naturessunshine.com/product/cardioxldl",
+    "nombre": "CardioxLDL",
+    "nombre_es": "CardioxLDL",
+    "sku": "1195",
+    "precio_usd": 70.45,
+    "presentacion": "60 cápsulas, 30 porciones (30 días)",
+    "categoria": "Sistema circulatorio y cardiovascular",
+    "tipo": "Cápsulas",
+    "ingredientes": [
+      "extracto de fruto de bergamota (Citrus bergamia Risso)",
+      "extracto de cúrcuma",
+      "extracto de té verde",
+      "extracto de semilla de uva",
+      "extracto de fruto de mangostán"
+    ],
+    "modo_de_uso": "Tomar 2 cápsulas con la cena.",
+    "descripcion": "Fórmula natural con bergamota y otros extractos vegetales para apoyar un manejo saludable del colesterol. Actúa modulando la oxidación del colesterol LDL.",
+    "beneficios": [
+      "Apoya un colesterol saludable",
+      "Reduce el riesgo cardiometabólico",
+      "Combate la oxidación del colesterol LDL",
+      "Apoya la función de los vasos sanguíneos y la circulación"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["colesterol", "ldl", "bergamota", "corazon", "trigliceridos", "circulacion", "arterias"]
+  },
+  {
+    "slug": "butchers-broom",
+    "url": "https://www.naturessunshine.com/product/butchers-broom",
+    "nombre": "Butcher's Broom",
+    "nombre_es": "Rusco",
+    "sku": "135",
+    "precio_usd": 29.50,
+    "presentacion": "100 cápsulas, 50 porciones (25 días)",
+    "categoria": "Sistema circulatorio y cardiovascular",
+    "tipo": "Cápsulas",
+    "ingredientes": ["raíz de rusco"],
+    "modo_de_uso": "Tomar 2 cápsulas con una comida dos veces al día.",
+    "descripcion": "Raíz de rusco, hierba usada en la medicina popular europea durante casi 2000 años. Contiene flavonoides como la rutina y saponinas que apoyan la circulación.",
+    "beneficios": [
+      "Apoya el sistema circulatorio",
+      "Fortalece las paredes de los capilares",
+      "Apoya el bienestar general"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["rusco", "circulacion", "varices", "piernas cansadas", "capilares", "venas"]
+  },
+  {
+    "slug": "joint-health",
+    "url": "https://www.naturessunshine.com/product/joint-health",
+    "nombre": "Joint Health, Ayurvedic",
+    "nombre_es": "Salud articular ayurvédica",
+    "sku": "1296",
+    "precio_usd": 52.85,
+    "presentacion": "100 cápsulas, 50 porciones (16 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": [
+      "raíz de Withania somnifera (ashwagandha)",
+      "extracto de goma de Commiphora mukul",
+      "raíz de Smilax china",
+      "goma de Boswellia serrata",
+      "corteza de Holarrhena antidysenterica",
+      "extracto de hoja de Paederia foetida",
+      "extracto de hoja de Vitex negundo",
+      "tallo de Tinospora cordifolia",
+      "tubérculo de Cyperus rotundus",
+      "semilla de Apium graveolens (apio)",
+      "raíz de Boerhaavia diffusa",
+      "fruto de Trachyspermum ammi",
+      "fruto de Tribulus terrestris",
+      "semilla de Trigonella foenum-graecum (fenogreco)"
+    ],
+    "modo_de_uso": "Tomar 2 cápsulas con una comida tres veces al día.",
+    "descripcion": "Fórmula de hierbas tradicionales de la India basada en la filosofía ayurvédica de equilibrio corporal. Está pensada para apoyar nutricionalmente el sistema estructural.",
+    "beneficios": [
+      "Apoyo nutricional al sistema estructural",
+      "Puede apoyar la salud articular",
+      "Puede apoyar la flexibilidad"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["articulaciones", "dolor de rodillas", "flexibilidad", "ayurveda", "boswellia", "rigidez", "artritis"]
+  },
+  {
+    "slug": "collatrim",
+    "url": "https://www.naturessunshine.com/product/collatrim",
+    "nombre": "Collatrim",
+    "nombre_es": "Collatrim",
+    "sku": "3065",
+    "precio_usd": 43.00,
+    "presentacion": "180 cápsulas, 60 porciones (20 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": ["colágeno hidrolizado"],
+    "modo_de_uso": "Tomar 3 cápsulas 3 veces al día.",
+    "descripcion": "Cápsulas de colágeno hidrolizado que aportan péptidos para la formación del tejido conectivo. El colágeno es la principal proteína estructural de tendones, ligamentos, cartílago, hueso y piel.",
+    "beneficios": [
+      "Apoya el sistema estructural",
+      "Favorece la salud de las articulaciones",
+      "Favorece la salud de la piel",
+      "Aporta péptidos para el tejido conectivo"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["colageno", "articulaciones", "piel", "tendones", "ligamentos", "cartilago", "colageno hidrolizado"]
+  },
+  {
+    "slug": "collagen-2",
+    "url": "https://www.naturessunshine.com/product/collagen-2",
+    "nombre": "Collagen Powder Supplement",
+    "nombre_es": "Suplemento de colágeno en polvo",
+    "sku": "22336",
+    "precio_usd": 67.45,
+    "presentacion": "18 oz (510 g), 30 porciones (30 días)",
+    "categoria": "Estructura (piel, cabello y uñas)",
+    "tipo": "Polvo",
+    "ingredientes": [
+      "péptidos de colágeno bovino",
+      "sal marina",
+      "mezcla de minerales traza",
+      "cloruro de potasio"
+    ],
+    "modo_de_uso": "Mezclar 1 medida en cualquier bebida (café, té, agua, jugo de fruta, etc.) o añadirla a sus recetas favoritas. Usar a diario para mejores resultados.",
+    "descripcion": "Colágeno en polvo de vacas alimentadas con pasto, sin olor y fácil de mezclar en bebidas o alimentos fríos o calientes. Aporta aminoácidos estructurales como glicina, prolina e hidroxiprolina.",
+    "beneficios": [
+      "Apoya cabello, piel y uñas de aspecto juvenil",
+      "Apoya articulaciones y huesos",
+      "Apoya la salud intestinal",
+      "Favorece la elasticidad e hidratación de la piel"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["colageno", "colageno en polvo", "piel", "cabello", "unas", "arrugas", "articulaciones"]
+  },
+  {
+    "slug": "natures-sea-calcium",
+    "url": "https://www.naturessunshine.com/product/natures-sea-calcium",
+    "nombre": "Nature's Sea Calcium",
+    "nombre_es": "Calcio marino Nature's",
+    "sku": "1577",
+    "precio_usd": 34.15,
+    "presentacion": "120 cápsulas, 120 porciones (30 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": [
+      "calcio (de alga lithothamnium)",
+      "magnesio",
+      "fructooligosacáridos de cadena corta",
+      "hasta 70 minerales traza naturales (incluidos boro, cobre y zinc)"
+    ],
+    "modo_de_uso": "Tomar 1 cápsula con una comida tres a cuatro veces al día.",
+    "descripcion": "Calcio obtenido del alga roja lithothamnium, cosechada en costas irlandesas, con minerales traza naturales. Incluye fructooligosacáridos que favorecen la absorción del calcio.",
+    "beneficios": [
+      "Apoya la salud estructural y articular",
+      "Ayuda a mantener niveles normales de pH",
+      "Alta biodisponibilidad por la estructura porosa del alga",
+      "Fructooligosacáridos que favorecen la absorción del calcio"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["calcio", "huesos", "osteoporosis", "calcio marino", "minerales", "articulaciones", "ph"]
+  },
+  {
+    "slug": "coral-calcium",
+    "url": "https://www.naturessunshine.com/product/coral-calcium",
+    "nombre": "Coral Calcium",
+    "nombre_es": "Calcio de coral",
+    "sku": "1873",
+    "precio_usd": 52.85,
+    "presentacion": "75 g en polvo, 50 porciones (50 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Polvo",
+    "ingredientes": [
+      "calcio 325 mg (33% VD)",
+      "magnesio 163 mg (41% VD)",
+      "coral marino",
+      "montmorillonita (arcilla volcánica)"
+    ],
+    "modo_de_uso": "Mezclar 1 medida colmada (incluida) con 8 oz (240 ml) de agua u otra bebida.",
+    "descripcion": "Suplemento en polvo de calcio de coral marino con montmorillonita, una arcilla volcánica que aporta más de 65 minerales traza. Está diseñado para apoyar el sistema estructural.",
+    "beneficios": [
+      "Apoya el sistema estructural",
+      "Ayuda a contrarrestar la acidez corporal y mantener el pH",
+      "Apoya huesos y dientes fuertes",
+      "Aporta minerales traza y arcilla para la limpieza digestiva"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["calcio de coral", "huesos", "dientes", "acidez", "ph", "minerales", "osteoporosis"]
+  },
+  {
+    "slug": "magnesium",
+    "url": "https://www.naturessunshine.com/product/magnesium",
+    "nombre": "Magnesium",
+    "nombre_es": "Magnesio",
+    "sku": "1786",
+    "precio_usd": 23.80,
+    "presentacion": "180 tabletas, 180 porciones (180 días)",
+    "categoria": "Sistema nervioso y estrés",
+    "tipo": "Tabletas",
+    "ingredientes": [
+      "magnesio 250 mg (óxido de magnesio y quelato de aminoácidos de magnesio)",
+      "raíz de regaliz",
+      "hoja y tallo de kelp",
+      "hojas de menta",
+      "corteza de sauce blanco"
+    ],
+    "modo_de_uso": "Tomar 1 tableta al día con una comida.",
+    "descripcion": "Tabletas de magnesio con hierbas de apoyo, mineral que participa en más de 300 reacciones enzimáticas del cuerpo. Apoya la relajación muscular, el sistema nervioso y la producción de energía.",
+    "beneficios": [
+      "Apoya la relajación muscular",
+      "Apoya la función del sistema nervioso",
+      "Apoya la producción de energía",
+      "Apoya la salud ósea, cardiaca y renal"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["magnesio", "calambres", "estres", "relajacion muscular", "nervios", "energia", "huesos"]
+  },
+  {
+    "slug": "turmeric-curcumin",
+    "url": "https://www.naturessunshine.com/product/turmeric-curcumin",
+    "nombre": "Turmeric Curcumin",
+    "nombre_es": "Cúrcuma con curcumina",
+    "sku": "238",
+    "precio_usd": 59.95,
+    "presentacion": "60 cápsulas vegetales, 30 porciones (30 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": [
+      "extracto de raíz de cúrcuma 1100 mg",
+      "curcuminoides 1000 mg",
+      "extracto de pimienta negra (Piper nigrum)"
+    ],
+    "modo_de_uso": "Tomar 2 cápsulas vegetales al día con agua.",
+    "descripcion": "Extracto concentrado de cúrcuma que aporta 1000 mg de curcuminoides por porción, equivalente a unos 32 g de raíz entera. Incluye pimienta negra para mejorar la absorción de la curcumina.",
+    "beneficios": [
+      "Apoya la salud articular, intestinal e inmunológica",
+      "Apoya la función cardiovascular",
+      "Apoya la respuesta inmunitaria natural",
+      "Pimienta negra para mejor absorción"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["curcuma", "curcumina", "articulaciones", "inflamacion", "dolor articular", "antioxidante", "pimienta negra"]
+  },
+  {
+    "slug": "devils-claw",
+    "url": "https://www.naturessunshine.com/product/devils-claw",
+    "nombre": "Devil's Claw",
+    "nombre_es": "Garra del diablo",
+    "sku": "255",
+    "precio_usd": 43.85,
+    "presentacion": "100 cápsulas vegetales, 50 porciones (16 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": ["raíz de garra del diablo"],
+    "modo_de_uso": "Tomar 2 cápsulas con una comida tres veces al día.",
+    "descripcion": "Cápsulas de raíz de garra del diablo, considerada por los herbolarios un apoyo nutricional para el sistema estructural. Se orienta a la salud y función de las articulaciones.",
+    "beneficios": [
+      "Apoyo nutricional al sistema estructural",
+      "Apoya la salud de las articulaciones",
+      "Apoya la función articular"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["garra del diablo", "articulaciones", "dolor articular", "rodillas", "artritis", "movilidad"]
+  },
+  {
+    "slug": "chondroitin",
+    "url": "https://www.naturessunshine.com/product/chondroitin",
+    "nombre": "Chondroitin",
+    "nombre_es": "Condroitina",
+    "sku": "1811",
+    "precio_usd": 56.45,
+    "presentacion": "60 cápsulas, 30 porciones (15 días)",
+    "categoria": "Estructura (huesos y articulaciones)",
+    "tipo": "Cápsulas",
+    "ingredientes": ["sulfato de condroitina"],
+    "modo_de_uso": "Tomar 2 cápsulas con una comida dos veces al día. Beber 8 oz (240 ml) de agua junto con las cápsulas.",
+    "descripcion": "Suplemento de sulfato de condroitina para nutrir, proteger y fortalecer el cartílago. Ayuda a compensar la disminución natural de condroitina que ocurre con la edad.",
+    "beneficios": [
+      "Apoya la movilidad y la flexibilidad",
+      "Ayuda a nutrir, proteger y fortalecer el cartílago",
+      "Atrae líquido articular para amortiguar impactos",
+      "Mantiene la resistencia del tejido conectivo"
+    ],
+    "precauciones": "La página oficial no indica advertencias específicas; consultar la etiqueta.",
+    "palabras_clave": ["condroitina", "cartilago", "articulaciones", "movilidad", "dolor de rodillas", "flexibilidad", "artrosis"]
+  }
+]
