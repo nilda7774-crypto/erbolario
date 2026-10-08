@@ -76,8 +76,28 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; }
 .tienda-nota { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 0.88rem; color: var(--muted); }
 
 /* Cabecera */
-header { display: grid; gap: 14px; }
-header p { margin: 0; max-width: 64ch; color: var(--muted); }
+header { display: grid; gap: 14px; position: relative; overflow: hidden; border-radius: 14px;
+  padding: clamp(28px, 6vw, 64px) clamp(20px, 5vw, 48px); color: #f3f6f0; min-height: 300px; align-content: end;
+  background: #1d2a22 url("img/bosque.jpg") center 40% / cover no-repeat; }
+header::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(12,22,16,.15) 0%, rgba(12,22,16,.55) 45%, rgba(12,22,16,.88) 100%); }
+header > * { position: relative; }
+header .label { color: #cfe3d4; }
+header h1 { color: #ffffff; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
+header p { margin: 0; max-width: 64ch; color: #e3ebe2; }
+header .stats b { color: #ffd38a; }
+header .stats { color: #e3ebe2; }
+.plantas { display: grid; gap: 14px; }
+.plantas > p { margin: 0; color: var(--muted); max-width: 70ch; }
+.galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.planta { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: grid; grid-template-rows: auto 1fr; min-width: 0; }
+.planta img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: var(--leaf-soft); }
+.planta .txt { padding: 10px 12px 12px; display: grid; gap: 4px; align-content: start; }
+.planta h3 { font-size: 1rem; }
+.planta .lat { font-style: italic; font-size: 0.82rem; color: var(--muted); }
+.planta p { margin: 0; font-size: 0.86rem; }
+.creditos { font-size: 0.75rem; }
+.creditos a { color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .planta img { transition: transform .4s ease; } .planta:hover img { transform: scale(1.04); } }
 .stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
 .stats b { font-weight: 500; color: var(--leaf); }
 
@@ -203,6 +223,15 @@ footer p { margin: 0; }
     </aside>
   </section>
 
+  <section class="plantas" aria-label="Plantas de nuestros productos">
+    <div>
+      <span class="label">De la naturaleza a tu bienestar</span>
+      <h2>Plantas de nuestros productos</h2>
+    </div>
+    <p>Algunas de las plantas que contienen los productos y las fórmulas chinas de Nature's Sunshine. Toca un nombre para ver la ficha.</p>
+    <div class="galeria" id="galeria"></div>
+  </section>
+
   <section aria-label="Catálogo" style="display:grid;gap:14px">
     <div class="cat-head">
       <h2>Catálogo</h2>
@@ -275,6 +304,7 @@ footer p { margin: 0; }
   <footer>
     <p>Herramienta creada por Nilda Esparza, consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.</p>
     <p>Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.</p>
+    <p class="creditos" id="creditos"></p>
   </footer>
 </div>
 
@@ -546,6 +576,94 @@ estar`.split(/\s+/));
     el.classList.add("flash");
     setTimeout(() => el.classList.remove("flash"), 1600);
   }
+
+  // ---------- Galería de plantas ----------
+  const PLANTAS = [
+    { img: "equinacea", nombre: "Equinácea", latin: "Echinacea purpurea", nota: "Planta clásica para las defensas.", ids: ["NSP-025", "NSP-026"] },
+    { img: "astragalo", nombre: "Astrágalo (huang qi)", latin: "Astragalus membranaceus", nota: "Tónico del Qi en 8 fórmulas chinas.", ids: ["HRB-038", "TCM-011", "TCM-013", "TCM-014"] },
+    { img: "goji", nombre: "Goji (gou qi zi)", latin: "Lycium barbarum", nota: "Nutre la sangre y el yin del hígado y el riñón.", ids: ["HRB-024", "TCM-010", "NSP-082"] },
+    { img: "jengibre", nombre: "Jengibre (sheng jiang)", latin: "Zingiber officinale", nota: "Calienta y ayuda a la digestión.", ids: ["HRB-072", "TCM-001", "TCM-013"] },
+    { img: "curcuma", nombre: "Cúrcuma", latin: "Curcuma longa", nota: "Raíz dorada de uso milenario.", ids: ["NSP-062"] },
+    { img: "manzanilla", nombre: "Manzanilla", latin: "Matricaria chamomilla", nota: "Flor calmante y digestiva.", ids: ["NSP-044"] },
+    { img: "diente-de-leon", nombre: "Diente de león (pu gong ying)", latin: "Taraxacum officinale", nota: "Apoya al hígado y la limpieza.", ids: ["NSP-017", "HRB-060", "TCM-016"] },
+    { img: "alfalfa", nombre: "Alfalfa", latin: "Medicago sativa", nota: "Rica en minerales y clorofila.", ids: ["NSP-076"] },
+    { img: "menta", nombre: "Menta verde", latin: "Mentha spicata", nota: "Da sabor y frescura a la Clorofila Líquida.", ids: ["NSP-001", "NSP-002"] },
+  ];
+  const CREDITOS = {
+ "bosque": {
+  "archivo": "Sunlight piercing through deep forest shade onto a stream,Western Serbia. April-2026.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Sunlight_piercing_through_deep_forest_shade_onto_a_stream,Western_Serbia._April-2026.jpg",
+  "autor": "Ljiljana Krupanj",
+  "licencia": "CC BY 4.0"
+ },
+ "equinacea": {
+  "archivo": "Echinacea purpurea in Jardin botanique de la Charme 01.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Echinacea_purpurea_in_Jardin_botanique_de_la_Charme_01.jpg",
+  "autor": "Krzysztof Golik",
+  "licencia": "CC BY-SA 4.0"
+ },
+ "manzanilla": {
+  "archivo": "Matricaria chamomilla–IMG 6148 02.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Matricaria_chamomilla%E2%80%93IMG_6148_02.jpg",
+  "autor": "Kızıl",
+  "licencia": "CC BY-SA 4.0"
+ },
+ "astragalo": {
+  "archivo": "Dried astragalus slices.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Dried_astragalus_slices.jpg",
+  "autor": "Fumikas Sagisavas",
+  "licencia": "CC0"
+ },
+ "jengibre": {
+  "archivo": "Zingiber officinale rhizome.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Zingiber_officinale_rhizome.jpg",
+  "autor": "Kayleemariev",
+  "licencia": "CC0"
+ },
+ "curcuma": {
+  "archivo": "Turmeric (Curcuma longa) 3.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Turmeric_(Curcuma_longa)_3.jpg",
+  "autor": "Mokkie",
+  "licencia": "CC BY-SA 4.0"
+ },
+ "alfalfa": {
+  "archivo": "British Wild Flowers - alfalfa - Medicago sativa agg - Flickr - Mick E. Talbot.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:British_Wild_Flowers_-_alfalfa_-_Medicago_sativa_agg_-_Flickr_-_Mick_E._Talbot.jpg",
+  "autor": "Mick Talbot from Lincoln (U.K.), England",
+  "licencia": "CC BY 2.0"
+ },
+ "goji": {
+  "archivo": "Lycium barbarum sl13.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Lycium_barbarum_sl13.jpg",
+  "autor": "Stefan.lefnaer",
+  "licencia": "CC BY-SA 4.0"
+ },
+ "diente-de-leon": {
+  "archivo": "Bombus ruderarius - Taraxacum officinale - Keila.jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Bombus_ruderarius_-_Taraxacum_officinale_-_Keila.jpg",
+  "autor": "Ivar Leidus",
+  "licencia": "CC BY-SA 4.0"
+ },
+ "menta": {
+  "archivo": "Mint leaves (Mentha spicata).jpg",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Mint_leaves_(Mentha_spicata).jpg",
+  "autor": "Commonists",
+  "licencia": "CC BY-SA 4.0"
+ }
+};
+  $("galeria").innerHTML = PLANTAS.map((pl) => `
+    <article class="planta">
+      <img src="img/${pl.img}.jpg" alt="${esc(pl.nombre)} (${esc(pl.latin)})" loading="lazy" width="960" height="720">
+      <div class="txt">
+        <h3>${esc(pl.nombre)}</h3>
+        <span class="lat">${esc(pl.latin)}</span>
+        <p>${esc(pl.nota)}</p>
+        <div class="herbs">${pl.ids.filter((id) => porId[id]).map((id) => `<button type="button" class="herb-chip" data-id="${id}">${esc(porId[id].titulo.split(" · ")[0].replace(/ - .*/, ""))}</button>`).join("")}</div>
+      </div>
+    </article>`).join("");
+  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("creditos").innerHTML = "Fotos de Wikimedia Commons: " + Object.values(CREDITOS).map((c) =>
+    `<a href="${esc(c.pagina)}" target="_blank" rel="noopener">${esc(c.autor || "autor desconocido")}</a> (${esc(c.licencia)})`).join(", ") + ".";
 
   // ---------- Recuperación visible ----------
   function pintarHits(consulta, hits, ejemplo) {

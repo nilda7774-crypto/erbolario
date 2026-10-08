@@ -17,7 +17,9 @@ def main():
     # Evita que un "</script>" dentro de los datos cierre la etiqueta antes de tiempo.
     datos = datos.replace("</", "<\\/")
     plantilla = (BASE / "web" / "plantilla.html").read_text(encoding="utf-8")
-    pagina = plantilla.replace("__DATA__", datos)
+    creditos_path = BASE / "web" / "img" / "creditos.json"
+    creditos = creditos_path.read_text(encoding="utf-8") if creditos_path.exists() else "{}"
+    pagina = plantilla.replace("__DATA__", datos).replace("__CREDITOS__", creditos.replace("</", "<\\/"))
 
     # Versión para claude.ai (el publicador añade <!doctype>, <head> y <body>).
     salida = BASE / "web" / "herbolario.html"
