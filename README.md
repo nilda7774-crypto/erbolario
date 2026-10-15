@@ -59,3 +59,11 @@ Para tener respuestas de Claude hace falta un servidor con una clave de API de A
 2. Sube los cambios a GitHub (`git add -A`, `git commit -m "..."`, `git push`).
 3. Render vuelve a publicar el sitio automáticamente. La configuración está en `render.yaml`:
    sitio estático publicado desde `web/sitio`.
+
+## Seguridad e interacciones
+
+`build_seguridad.py` une `data/raw/seguridad_*.json` en `data/seguridad.json`: 147 hierbas y suplementos
+(97 hierbas chinas, 47 hierbas occidentales y 3 suplementos), con 401 interacciones con medicamentos.
+Cada interacción lleva su gravedad, su nivel de evidencia y la URL de la fuente. Las instrucciones que siguió
+la investigación están en `data/raw/seguridad_INSTRUCCIONES.md`.
+Orden para regenerar todo: `python build_seguridad.py`, `python build_db.py`, `python build_web.py`.

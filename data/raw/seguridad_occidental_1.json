@@ -1,0 +1,352 @@
+[
+  {
+    "ref": null,
+    "nombre": {"es": "Hipérico (hierba de San Juan)", "en": "St. John's wort"},
+    "latin": "Hypericum perforatum",
+    "grupo": "occidental",
+    "resumen": {"es": "En adultos que no toman medicamentos parece seguro hasta 12 semanas, pero interactúa con muchos fármacos: acelera su eliminación y puede dejarlos sin efecto. Puede causar sensibilidad al sol, diarrea, mareo e insomnio. Información orientativa: consulte a su médico o farmacéutico.", "en": "In adults not taking any medicine it appears safe for up to 12 weeks, but it interacts with many drugs: it speeds up their elimination and can make them ineffective. It can cause sun sensitivity, diarrhea, dizziness and insomnia. Guidance only: consult your doctor or pharmacist."},
+    "contraindicaciones": {"es": ["Personas que toman cualquier medicamento, sin consultar antes a un profesional de la salud", "Embarazo y lactancia"], "en": ["People taking any medicine, without first consulting a health professional", "Pregnancy and breastfeeding"]},
+    "embarazo_lactancia": {"es": "Puede no ser seguro en el embarazo (posible aumento del riesgo de defectos congénitos). Los bebés de madres que lo toman pueden presentar cólicos, somnolencia y decaimiento.", "en": "May be unsafe in pregnancy (possible increased risk of birth defects). Infants of mothers who take it can have colic, drowsiness and lethargy."},
+    "interacciones": [
+      {"farmaco": {"es": "Anticonceptivos orales", "en": "Birth control pills"}, "clase": "hormonas", "efecto": {"es": "Reduce su efecto; puede disminuir la protección anticonceptiva.", "en": "Weakens their effect; contraceptive protection may be reduced."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Ciclosporina (antirrechazo en trasplantes)", "en": "Cyclosporine (transplant anti-rejection drug)"}, "clase": "inmunosupresores", "efecto": {"es": "Reduce su efecto, con riesgo de rechazo del órgano.", "en": "Weakens its effect, with a risk of organ rejection."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"}, "clase": "anticoagulantes", "efecto": {"es": "Reduce su efecto anticoagulante.", "en": "Weakens its anticoagulant effect."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Digoxina e ivabradina", "en": "Digoxin and ivabradine"}, "clase": "cardiacos", "efecto": {"es": "Reduce el efecto de estos fármacos para el corazón.", "en": "Weakens the effect of these heart medicines."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Antirretrovirales para el VIH (indinavir, nevirapina)", "en": "HIV drugs (indinavir, nevirapine)"}, "clase": "cyp450", "efecto": {"es": "Reduce sus niveles y su eficacia.", "en": "Lowers their levels and effectiveness."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Fármacos contra el cáncer (irinotecán, imatinib, docetaxel)", "en": "Cancer drugs (irinotecan, imatinib, docetaxel)"}, "clase": "quimioterapia", "efecto": {"es": "Reduce su efecto.", "en": "Weakens their effect."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Antidepresivos y otros fármacos que actúan sobre la serotonina", "en": "Antidepressants and other drugs that affect serotonin"}, "clase": "antidepresivos", "efecto": {"es": "Puede aumentar efectos secundarios relacionados con la serotonina, que pueden ser graves; además reduce el efecto de algunos (amitriptilina, bupropión).", "en": "May increase serotonin-related side effects, which can be serious; it also weakens some of them (amitriptyline, bupropion)."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Antiepilépticos (fenitoína, carbamazepina)", "en": "Seizure drugs (phenytoin, carbamazepine)"}, "clase": "otros", "efecto": {"es": "Reduce su efecto.", "en": "Weakens their effect."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"},
+      {"farmaco": {"es": "Algunas estatinas (simvastatina)", "en": "Certain statins (simvastatin)"}, "clase": "cyp450", "efecto": {"es": "Reduce su efecto para bajar el colesterol.", "en": "Weakens its cholesterol-lowering effect."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/st-johns-wort"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.nccih.nih.gov/health/st-johns-wort"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Ginkgo", "en": "Ginkgo"},
+    "latin": "Ginkgo biloba",
+    "grupo": "occidental",
+    "resumen": {"es": "El extracto de hoja suele tolerarse bien (mareo, molestias digestivas o dolor de cabeza son lo más común), pero puede prolongar el sangrado. Las semillas crudas son tóxicas. Información orientativa: consulte a un profesional si toma medicamentos.", "en": "Leaf extract is usually well tolerated (dizziness, stomach upset or headache are most common), but it can prolong bleeding. Raw seeds are toxic. Guidance only: consult a professional if you take medicines."},
+    "contraindicaciones": {"es": ["Uso junto con anticoagulantes o antiagregantes sin supervisión médica", "Cerca del parto, por riesgo de sangrado", "Personas con tendencia a convulsiones o que toman fármacos que bajan el umbral convulsivo"], "en": ["Use with anticoagulants or antiplatelet drugs without medical supervision", "Near childbirth, due to bleeding risk", "People prone to seizures or taking drugs that lower the seizure threshold"]},
+    "embarazo_lactancia": {"es": "Puede no ser seguro en el embarazo: cerca del parto podría adelantarlo o aumentar el sangrado. Se sabe poco sobre su seguridad en la lactancia.", "en": "May be unsafe in pregnancy: near delivery it might cause early labor or extra bleeding. Little is known about safety while breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Anticoagulantes y antiagregantes (warfarina, etc.)", "en": "Anticoagulants and antiplatelets (warfarin, etc.)"}, "clase": "anticoagulantes", "efecto": {"es": "Puede provocar o prolongar sangrados.", "en": "May cause or prolong bleeding."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Antiinflamatorios no esteroideos (AINE)", "en": "Nonsteroidal anti-inflammatory drugs (NSAIDs)"}, "clase": "analgesicos", "efecto": {"es": "Posible suma de efectos sobre la coagulación, con más riesgo de sangrado.", "en": "Possible additive effects on clotting, with higher bleeding risk."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Antipsicóticos / proclorperazina y otros fármacos que bajan el umbral convulsivo", "en": "Antipsychotics / prochlorperazine and other seizure-threshold-lowering drugs"}, "clase": "otros", "efecto": {"es": "Se han descrito convulsiones.", "en": "Seizures have been reported."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Trazodona", "en": "Trazodone"}, "clase": "antidepresivos", "efecto": {"es": "Se asoció a un coma en un paciente con Alzheimer.", "en": "Associated with coma in a patient with Alzheimer's disease."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Efavirenz (VIH)", "en": "Efavirenz (HIV)"}, "clase": "cyp450", "efecto": {"es": "Puede reducir su eficacia.", "en": "May reduce its effectiveness."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Insulina", "en": "Insulin"}, "clase": "antidiabeticos", "efecto": {"es": "Puede alterar la secreción de insulina y la glucosa en sangre.", "en": "May alter insulin secretion and blood glucose."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Midazolam", "en": "Midazolam"}, "clase": "sedantes", "efecto": {"es": "Puede disminuir sus concentraciones en sangre.", "en": "May lower its blood levels."}, "severidad": "baja", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Fármacos transportados por la glicoproteína P o metabolizados por CYP1A2, 2D6, 3A4", "en": "Drugs transported by P-glycoprotein or metabolized by CYP1A2, 2D6, 3A4"}, "clase": "cyp450", "efecto": {"es": "Puede alterar sus niveles; datos contradictorios y relevancia clínica no establecida.", "en": "May alter their levels; data are conflicting and clinical relevance is not established."}, "severidad": "teorica", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"},
+      {"farmaco": {"es": "Tacrolimus", "en": "Tacrolimus"}, "clase": "inmunosupresores", "efecto": {"es": "Inhibió su metabolismo en estudios preclínicos; relevancia clínica desconocida.", "en": "Inhibited its metabolism in preclinical studies; clinical relevance unknown."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginkgo", "https://www.nccih.nih.gov/health/ginkgo"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Ajo", "en": "Garlic"},
+    "latin": "Allium sativum",
+    "grupo": "occidental",
+    "resumen": {"es": "Seguro en cantidades de alimento; en suplemento puede causar mal aliento, gases o náuseas y aumentar el riesgo de sangrado. Aplicado crudo sobre la piel puede causar quemaduras. Información orientativa.", "en": "Safe in food amounts; as a supplement it can cause bad breath, gas or nausea and increase bleeding risk. Raw garlic on the skin can cause burns. Guidance only."},
+    "contraindicaciones": {"es": ["Alergia al ajo", "Trastornos de las plaquetas o uso de anticoagulantes", "Suspender al menos 7 días antes de una cirugía"], "en": ["Garlic allergy", "Platelet disorders or use of anticoagulants", "Stop at least 7 days before surgery"]},
+    "embarazo_lactancia": {"es": "En cantidades mayores que las de los alimentos puede no ser seguro durante el embarazo y la lactancia.", "en": "In amounts larger than those in food it may not be safe during pregnancy and breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Anticoagulantes (warfarina) y aspirina", "en": "Anticoagulants (warfarin) and aspirin"}, "clase": "anticoagulantes", "efecto": {"es": "Puede aumentar el riesgo de sangrado.", "en": "May increase bleeding risk."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/garlic"},
+      {"farmaco": {"es": "Inhibidores de la proteasa del VIH (saquinavir, darunavir)", "en": "HIV protease inhibitors (saquinavir, darunavir)"}, "clase": "cyp450", "efecto": {"es": "Bajó los niveles de saquinavir alrededor de un 50 % en voluntarios sanos y se describieron niveles insuficientes de darunavir con rebrote viral.", "en": "Lowered saquinavir levels by about 50% in healthy volunteers, and subtherapeutic darunavir levels with viral rebound have been reported."}, "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/garlic"},
+      {"farmaco": {"es": "Insulina", "en": "Insulin"}, "clase": "antidiabeticos", "efecto": {"es": "Podría requerir ajustar la dosis por su efecto hipoglucemiante.", "en": "Dose may need adjustment because of its blood-sugar-lowering effect."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/garlic"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP2C9 y CYP2C19", "en": "Drugs metabolized by CYP2C9 and CYP2C19"}, "clase": "cyp450", "efecto": {"es": "Podría inhibir estas enzimas y alterar los niveles de esos fármacos.", "en": "May inhibit these enzymes and alter the levels of those drugs."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/garlic"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.nccih.nih.gov/health/garlic", "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/garlic"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Equinácea", "en": "Echinacea"},
+    "latin": "Echinacea purpurea / Echinacea angustifolia",
+    "grupo": "occidental",
+    "resumen": {"es": "Suele tolerarse bien (dolor de cabeza, mareo o molestias digestivas); rara vez causa alergias graves. Precaución durante la quimioterapia y con inmunosupresores. Información orientativa.", "en": "Usually well tolerated (headache, dizziness or stomach upset); rarely causes serious allergies. Use caution during chemotherapy and with immunosuppressants. Guidance only."},
+    "contraindicaciones": {"es": ["Alergias o asma (precaución)", "Quimioterapia (precaución)", "Cirugía de párpados (blefaroplastia), por riesgo de ojo seco"], "en": ["Allergies or asthma (caution)", "Chemotherapy (caution)", "Eyelid surgery (blepharoplasty), due to dry-eye risk"]},
+    "embarazo_lactancia": {"es": "No hay pruebas suficientes sobre su seguridad en el embarazo; en la lactancia se aconseja consultar antes, pues puede no ser segura.", "en": "There is insufficient evidence on safety in pregnancy; when breastfeeding, consult first, as it may not be safe."},
+    "interacciones": [
+      {"farmaco": {"es": "Inmunosupresores", "en": "Immunosuppressants"}, "clase": "inmunosupresores", "efecto": {"es": "Puede contrarrestar su efecto.", "en": "May counteract their effect."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"},
+      {"farmaco": {"es": "Etopósido", "en": "Etoposide"}, "clase": "quimioterapia", "efecto": {"es": "Se describió una caída grave de plaquetas, probablemente por inhibición de CYP3A4.", "en": "A severe drop in platelets was reported, probably from CYP3A4 inhibition."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"},
+      {"farmaco": {"es": "Tamoxifeno", "en": "Tamoxifen"}, "clase": "quimioterapia", "efecto": {"es": "Podría reducir la activación del tamoxifeno y su eficacia.", "en": "Could reduce tamoxifen activation and effectiveness."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4, CYP2C8 o CYP1A2", "en": "Drugs metabolized by CYP3A4, CYP2C8 or CYP1A2"}, "clase": "cyp450", "efecto": {"es": "Puede alterar sus niveles; relevancia clínica desconocida.", "en": "May alter their levels; clinical relevance unknown."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"},
+      {"farmaco": {"es": "Oseltamivir", "en": "Oseltamivir"}, "clase": "otros", "efecto": {"es": "Redujo la formación del fármaco activo en laboratorio.", "en": "Reduced formation of the active drug in the lab."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/echinacea"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Sello de oro (hidrastis)", "en": "Goldenseal"},
+    "latin": "Hydrastis canadensis",
+    "grupo": "occidental",
+    "resumen": {"es": "Se ha usado a corto plazo sin efectos graves, pero inhibe enzimas que eliminan muchos fármacos y reduce los niveles de metformina. Su componente berberina es peligroso para recién nacidos. Información orientativa.", "en": "It has been used short term without serious effects, but it inhibits enzymes that clear many drugs and lowers metformin levels. Its constituent berberine is dangerous for newborns. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo y lactancia", "No dar a bebés ni recién nacidos"], "en": ["Pregnancy and breastfeeding", "Do not give to infants or newborns"]},
+    "embarazo_lactancia": {"es": "No debe usarse en el embarazo ni la lactancia; la berberina puede dañar al recién nacido.", "en": "Should not be used during pregnancy or breastfeeding; berberine can harm newborns."},
+    "interacciones": [
+      {"farmaco": {"es": "Metformina", "en": "Metformin"}, "clase": "antidiabeticos", "efecto": {"es": "Bajó los niveles de metformina un 25 % en adultos sanos; podría empeorar el control de la glucosa.", "en": "Lowered metformin levels by about 25% in healthy adults; could worsen glucose control."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/goldenseal"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 y CYP2D6", "en": "Drugs metabolized by CYP3A4 and CYP2D6"}, "clase": "cyp450", "efecto": {"es": "Inhibe estas enzimas y puede aumentar los niveles de esos fármacos.", "en": "Inhibits these enzymes and may raise the levels of those drugs."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/goldenseal"},
+      {"farmaco": {"es": "Bosutinib", "en": "Bosutinib"}, "clase": "quimioterapia", "efecto": {"es": "Simulaciones predicen que duplicaría su exposición.", "en": "Simulations predict about a 2-fold increase in exposure."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/goldenseal"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.nccih.nih.gov/health/goldenseal", "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/goldenseal"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Agracejo / uva de Oregón (berberina)", "en": "Barberry / Oregon grape (berberine)"},
+    "latin": "Berberis vulgaris, Mahonia aquifolium",
+    "grupo": "occidental",
+    "resumen": {"es": "La berberina, su principal componente, suele tolerarse bien (molestias digestivas, estreñimiento o diarrea), pero reduce la actividad de varias enzimas hepáticas y puede elevar los niveles de inmunosupresores. Datos basados en la berberina. Información orientativa.", "en": "Berberine, its main constituent, is usually well tolerated (stomach upset, constipation or diarrhea), but it reduces the activity of several liver enzymes and can raise immunosuppressant levels. Data are based on berberine. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo y lactancia", "Uso con tacrolimus o ciclosporina sin supervisión", "Recién nacidos"], "en": ["Pregnancy and breastfeeding", "Use with tacrolimus or cyclosporine without supervision", "Newborns"]},
+    "embarazo_lactancia": {"es": "Evitar: la berberina puede empeorar la ictericia del recién nacido o causar kernícterus.", "en": "Avoid: berberine may worsen newborn jaundice or cause kernicterus."},
+    "interacciones": [
+      {"farmaco": {"es": "Ciclosporina", "en": "Cyclosporine"}, "clase": "inmunosupresores", "efecto": {"es": "Aumentó sus niveles en sangre en trasplantados de riñón.", "en": "Raised its blood levels in kidney transplant recipients."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine"},
+      {"farmaco": {"es": "Tacrolimus", "en": "Tacrolimus"}, "clase": "inmunosupresores", "efecto": {"es": "Aumentó sus niveles y causó daño renal en un niño.", "en": "Raised its levels and caused kidney toxicity in a child."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP2D6, CYP2C9 y CYP3A4", "en": "Drugs metabolized by CYP2D6, CYP2C9 and CYP3A4"}, "clase": "cyp450", "efecto": {"es": "Dosis repetidas redujeron la actividad de estas enzimas en personas, lo que puede alterar los niveles de esos fármacos.", "en": "Repeated doses reduced the activity of these enzymes in people, which may alter the levels of those drugs."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine"},
+      {"farmaco": {"es": "Sulfonilureas (glibenclamida, gliclazida)", "en": "Sulfonylureas (glyburide, gliclazide)"}, "clase": "antidiabeticos", "efecto": {"es": "Podrían afectarse mutuamente en su metabolismo; relevancia clínica no establecida.", "en": "May mutually affect each other's metabolism; clinical relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine"},
+      {"farmaco": {"es": "Bosutinib", "en": "Bosutinib"}, "clase": "quimioterapia", "efecto": {"es": "Simulaciones predicen un aumento moderado de su exposición.", "en": "Simulations predict a moderate increase in exposure."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/berberine", "https://www.nccih.nih.gov/health/goldenseal"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Uña de gato", "en": "Cat's claw"},
+    "latin": "Uncaria tomentosa",
+    "grupo": "occidental",
+    "resumen": {"es": "Por vía oral parece segura a corto plazo (hasta 6 meses). Puede estimular el sistema inmunitario y enlentecer la coagulación. Información orientativa.", "en": "Taken by mouth it appears safe short term (up to 6 months). It may stimulate the immune system and slow blood clotting. Guidance only."},
+    "contraindicaciones": {"es": ["Enfermedades autoinmunes (consultar antes)", "Cirugía programada", "Embarazo"], "en": ["Autoimmune diseases (consult first)", "Scheduled surgery", "Pregnancy"]},
+    "embarazo_lactancia": {"es": "Algunos estudios sugieren que no es segura en el embarazo; se sabe poco sobre la lactancia.", "en": "Some studies suggest it is unsafe in pregnancy; little is known about breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Inhibidores de la proteasa del VIH (atazanavir, ritonavir, saquinavir)", "en": "HIV protease inhibitors (atazanavir, ritonavir, saquinavir)"}, "clase": "cyp450", "efecto": {"es": "Se describieron niveles más altos de estos fármacos que bajaron al suspender la uña de gato.", "en": "Higher levels of these drugs were reported that fell after stopping cat's claw."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://i-base.info/htb/wp-json/wp/v2/posts/5263"},
+      {"farmaco": {"es": "Anticoagulantes y antiagregantes", "en": "Anticoagulants and antiplatelets"}, "clase": "anticoagulantes", "efecto": {"es": "Podría aumentar el riesgo de sangrado.", "en": "Could increase bleeding risk."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/cats-claw"},
+      {"farmaco": {"es": "Fármacos para la presión arterial", "en": "Blood pressure drugs"}, "clase": "antihipertensivos", "efecto": {"es": "Posible interacción; preocupación teórica.", "en": "Possible interaction; a theoretical concern."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/cats-claw"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.nccih.nih.gov/health/cats-claw", "https://i-base.info/htb/wp-json/wp/v2/posts/5263"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Cimicífuga (cohosh negro)", "en": "Black cohosh"},
+    "latin": "Actaea racemosa",
+    "grupo": "occidental",
+    "resumen": {"es": "Suele tolerarse bien, pero se han descrito casos raros de daño hepático, a veces grave, y hay problemas de calidad en algunos productos. Consulte si aparece orina oscura o cansancio. Información orientativa.", "en": "Usually well tolerated, but rare cases of liver damage, sometimes serious, have been reported, and some products have quality problems. Seek advice if you develop dark urine or fatigue. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo", "Enfermedad hepática (precaución)", "Afecciones sensibles a hormonas, como cáncer de mama o de útero (seguridad incierta)"], "en": ["Pregnancy", "Liver disease (caution)", "Hormone-sensitive conditions such as breast or uterine cancer (safety uncertain)"]},
+    "embarazo_lactancia": {"es": "Evitar en el embarazo (podría ser abortiva); puede no ser segura en la lactancia.", "en": "Avoid in pregnancy (may be an abortifacient); may not be safe while breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Tamoxifeno", "en": "Tamoxifen"}, "clase": "quimioterapia", "efecto": {"es": "Podría interferir con su acción; relevancia clínica desconocida.", "en": "May interfere with its action; clinical relevance unknown."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/black-cohosh"},
+      {"farmaco": {"es": "Doxorrubicina y docetaxel", "en": "Doxorubicin and docetaxel"}, "clase": "quimioterapia", "efecto": {"es": "Podría aumentar su toxicidad; relevancia no establecida.", "en": "May increase their toxicity; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/black-cohosh"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4", "en": "Drugs metabolized by CYP3A4"}, "clase": "cyp450", "efecto": {"es": "Posible interacción; relevancia no establecida.", "en": "Possible interaction; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/black-cohosh"},
+      {"farmaco": {"es": "Simvastatina", "en": "Simvastatin"}, "clase": "otros", "efecto": {"es": "Efectos sinérgicos en laboratorio que podrían aumentar sus efectos secundarios.", "en": "Synergistic effects in the lab that might increase its side effects."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/black-cohosh"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/black-cohosh", "https://www.nccih.nih.gov/health/black-cohosh"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Valeriana", "en": "Valerian"},
+    "latin": "Valeriana officinalis",
+    "grupo": "occidental",
+    "resumen": {"es": "Puede causar somnolencia, dolor de cabeza o molestias digestivas y afectar la atención. Suma su efecto al de otros sedantes. Hay casos raros de daño hepático. Información orientativa.", "en": "It can cause drowsiness, headache or stomach upset and impair alertness. It adds to the effect of other sedatives. Rare cases of liver injury exist. Guidance only."},
+    "contraindicaciones": {"es": ["Enfermedad hepática o pancreática", "Conducir o manejar maquinaria tras tomarla", "Embarazo y lactancia", "Suspender al menos 1 semana antes de una cirugía (anestesia)"], "en": ["Liver or pancreatic disease", "Driving or operating machinery after taking it", "Pregnancy and breastfeeding", "Stop at least 1 week before surgery (anesthesia)"]},
+    "embarazo_lactancia": {"es": "Evitar: no se ha estudiado bien y en animales afectó el desarrollo cerebral del feto.", "en": "Avoid: it has not been well studied and in animals it affected fetal brain development."},
+    "interacciones": [
+      {"farmaco": {"es": "Benzodiazepinas", "en": "Benzodiazepines"}, "clase": "sedantes", "efecto": {"es": "Posible suma de efectos sedantes.", "en": "Possible additive sedative effects."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/valerian"},
+      {"farmaco": {"es": "Barbitúricos", "en": "Barbiturates"}, "clase": "sedantes", "efecto": {"es": "Prolongó el sueño inducido por pentobarbital en animales.", "en": "Prolonged pentobarbital-induced sleep in animals."}, "severidad": "moderada", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/valerian"},
+      {"farmaco": {"es": "Haloperidol", "en": "Haloperidol"}, "clase": "hepatotoxicos", "efecto": {"es": "Posible suma de daño hepático en animales; relevancia no establecida.", "en": "Possible additive liver damage in animals; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/valerian"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 o CYP2D6", "en": "Drugs metabolized by CYP3A4 or CYP2D6"}, "clase": "cyp450", "efecto": {"es": "Podría inhibir estas enzimas, aunque otros estudios indican que es poco probable.", "en": "May inhibit these enzymes, although other studies suggest this is unlikely."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/valerian"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/valerian"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Lúpulo", "en": "Hops"},
+    "latin": "Humulus lupulus",
+    "grupo": "occidental",
+    "resumen": {"es": "Hay pocos datos de efectos adversos por vía oral; un extracto estandarizado no mostró interacciones relevantes en personas. Las personas con cánceres sensibles a hormonas deben consultar antes. Información orientativa.", "en": "There are few data on adverse effects when taken by mouth; a standardized extract showed no relevant interactions in people. People with hormone-sensitive cancers should consult first. Guidance only."},
+    "contraindicaciones": {"es": ["Cánceres sensibles a hormonas (consultar con el médico)"], "en": ["Hormone-sensitive cancers (consult your doctor)"]},
+    "embarazo_lactancia": {"es": "Las fuentes consultadas no aportan datos de seguridad; consulte antes de usarlo.", "en": "The sources consulted provide no safety data; consult before use."},
+    "interacciones": [
+      {"farmaco": {"es": "Fármacos metabolizados por enzimas CYP450", "en": "Drugs metabolized by CYP450 enzymes"}, "clase": "cyp450", "efecto": {"es": "Inhibió CYP1A2, 2C8, 2C9 y 2C19 en laboratorio, pero en personas un extracto estandarizado no causó interacciones relevantes.", "en": "Inhibited CYP1A2, 2C8, 2C9 and 2C19 in the lab, but in people a standardized extract caused no relevant interactions."}, "severidad": "baja", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hops"},
+      {"farmaco": {"es": "Paracetamol", "en": "Acetaminophen (paracetamol)"}, "clase": "analgesicos", "efecto": {"es": "Enlenteció su eliminación en animales; relevancia no establecida.", "en": "Slowed its clearance in animals; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hops"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hops"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Pasiflora", "en": "Passionflower"},
+    "latin": "Passiflora incarnata",
+    "grupo": "occidental",
+    "resumen": {"es": "Puede causar mareo, somnolencia o falta de coordinación; en dosis altas se han descrito alteraciones del ritmo cardíaco. Suma su efecto al de otros sedantes. Información orientativa.", "en": "It can cause dizziness, drowsiness or poor coordination; at high doses heart rhythm changes have been reported. It adds to the effect of other sedatives. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo", "Uso con benzodiazepinas, barbitúricos o fármacos que prolongan el intervalo QT sin supervisión"], "en": ["Pregnancy", "Use with benzodiazepines, barbiturates or QT-prolonging drugs without supervision"]},
+    "embarazo_lactancia": {"es": "Evitar en el embarazo: algunos componentes podrían provocar contracciones uterinas. No hay datos sobre la lactancia.", "en": "Avoid in pregnancy: some constituents may cause uterine contractions. No data on breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Benzodiazepinas (p. ej. lorazepam)", "en": "Benzodiazepines (e.g., lorazepam)"}, "clase": "sedantes", "efecto": {"es": "Puede aumentar los efectos sedantes.", "en": "May increase sedative effects."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/passionflower"},
+      {"farmaco": {"es": "Pentobarbital (barbitúricos)", "en": "Pentobarbital (barbiturates)"}, "clase": "sedantes", "efecto": {"es": "Puede potenciar su efecto; relevancia clínica desconocida.", "en": "May potentiate its effect; clinical relevance unknown."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/passionflower"},
+      {"farmaco": {"es": "Fármacos que prolongan el intervalo QT (azitromicina, dasatinib, fingolimod)", "en": "QT-prolonging drugs (azithromycin, dasatinib, fingolimod)"}, "clase": "cardiacos", "efecto": {"es": "En dosis altas podría sumar efectos sobre el ritmo cardíaco.", "en": "At high doses it might add effects on heart rhythm."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/passionflower"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/passionflower"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Eleuterococo (ginseng siberiano)", "en": "Eleuthero (Siberian ginseng)"},
+    "latin": "Eleutherococcus senticosus",
+    "grupo": "occidental",
+    "resumen": {"es": "Hay pocos efectos adversos descritos, pero los datos en personas son escasos. Puede elevar o alterar la medición de la digoxina. Información orientativa.", "en": "Few adverse effects have been reported, but human data are limited. It can raise or interfere with the measurement of digoxin. Guidance only."},
+    "contraindicaciones": {"es": ["Uso con digoxina sin supervisión médica", "Lactancia"], "en": ["Use with digoxin without medical supervision", "Breastfeeding"]},
+    "embarazo_lactancia": {"es": "Evitar en la lactancia porque se desconoce su seguridad; no hay datos sobre el embarazo en las fuentes consultadas.", "en": "Avoid while breastfeeding because its safety is unknown; the sources consulted have no pregnancy data."},
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina", "en": "Digoxin"}, "clase": "cardiacos", "efecto": {"es": "Se describieron niveles elevados de digoxina (o falsamente elevados en el análisis).", "en": "Elevated (or falsely elevated on testing) digoxin levels were reported."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/siberian-ginseng"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP2C9 y CYP2E1", "en": "Drugs metabolized by CYP2C9 and CYP2E1"}, "clase": "cyp450", "efecto": {"es": "Posible inhibición de estas enzimas; relevancia no establecida.", "en": "Possible inhibition of these enzymes; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/siberian-ginseng"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/siberian-ginseng"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Ashwagandha", "en": "Ashwagandha"},
+    "latin": "Withania somnifera",
+    "grupo": "occidental",
+    "resumen": {"es": "Puede ser segura hasta 3 meses; puede causar somnolencia y molestias digestivas, y hay casos raros de daño hepático y de alteraciones tiroideas. Información orientativa.", "en": "May be safe for up to 3 months; it can cause drowsiness and stomach upset, and there are rare cases of liver injury and thyroid problems. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo y lactancia", "Cáncer de próstata sensible a hormonas", "Enfermedades autoinmunes o de tiroides", "Cirugía programada", "Uso con benzodiazepinas, anticonvulsivos o barbitúricos"], "en": ["Pregnancy and breastfeeding", "Hormone-sensitive prostate cancer", "Autoimmune or thyroid disorders", "Scheduled surgery", "Use with benzodiazepines, anticonvulsants or barbiturates"]},
+    "embarazo_lactancia": {"es": "Evitar en el embarazo (en dosis altas podría aumentar el riesgo de aborto) y no usar durante la lactancia.", "en": "Avoid in pregnancy (high doses may increase miscarriage risk) and do not use while breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Sedantes: benzodiazepinas, barbitúricos y anticonvulsivos", "en": "Sedatives: benzodiazepines, barbiturates and anticonvulsants"}, "clase": "sedantes", "efecto": {"es": "Posible suma de efectos sedantes.", "en": "Possible additive sedative effects."}, "severidad": "moderada", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha"},
+      {"farmaco": {"es": "Hormonas tiroideas", "en": "Thyroid hormone medicines"}, "clase": "tiroides", "efecto": {"es": "Posible interacción.", "en": "Possible interaction."}, "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/ashwagandha"},
+      {"farmaco": {"es": "Fármacos para la diabetes", "en": "Diabetes medicines"}, "clase": "antidiabeticos", "efecto": {"es": "Posible interacción.", "en": "Possible interaction."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/ashwagandha"},
+      {"farmaco": {"es": "Fármacos para la presión arterial", "en": "Blood pressure medicines"}, "clase": "antihipertensivos", "efecto": {"es": "Posible interacción.", "en": "Possible interaction."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/ashwagandha"},
+      {"farmaco": {"es": "Inmunosupresores", "en": "Immunosuppressants"}, "clase": "inmunosupresores", "efecto": {"es": "Posible interacción.", "en": "Possible interaction."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.nccih.nih.gov/health/ashwagandha"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 y CYP2B6", "en": "Drugs metabolized by CYP3A4 and CYP2B6"}, "clase": "cyp450", "efecto": {"es": "Indujo CYP3A4 e inhibió CYP2B6 en laboratorio; relevancia no establecida.", "en": "Induced CYP3A4 and inhibited CYP2B6 in the lab; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha", "https://www.nccih.nih.gov/health/ashwagandha"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Rodiola", "en": "Rhodiola"},
+    "latin": "Rhodiola rosea",
+    "grupo": "occidental",
+    "resumen": {"es": "Posiblemente segura hasta 12 semanas; puede causar mareo, dolor de cabeza, insomnio o boca seca. Precaución si se toman antidepresivos. Información orientativa.", "en": "Possibly safe for up to 12 weeks; it can cause dizziness, headache, insomnia or dry mouth. Use caution with antidepressants. Guidance only."},
+    "contraindicaciones": {"es": ["Uso con antidepresivos (precaución)"], "en": ["Use with antidepressants (caution)"]},
+    "embarazo_lactancia": {"es": "Se sabe poco sobre su seguridad en el embarazo y la lactancia.", "en": "Little is known about its safety in pregnancy and breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Antidepresivos", "en": "Antidepressants"}, "clase": "antidepresivos", "efecto": {"es": "Por su actividad inhibidora de la MAO podría aumentar efectos serotoninérgicos; se describió una taquiarritmia con un antidepresivo.", "en": "Through MAO-inhibiting activity it may increase serotonergic effects; a tachyarrhythmia with an antidepressant was reported."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP2C9 (warfarina, fenitoína, losartán)", "en": "Drugs metabolized by CYP2C9 (warfarin, phenytoin, losartan)"}, "clase": "cyp450", "efecto": {"es": "Inhibe modestamente CYP2C9 y puede alterar su metabolismo; se han descrito interacciones con losartán.", "en": "Modestly inhibits CYP2C9 and may alter their metabolism; interactions with losartan have been reported."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 o transportados por la glicoproteína P", "en": "Drugs metabolized by CYP3A4 or transported by P-glycoprotein"}, "clase": "cyp450", "efecto": {"es": "Puede alterar sus niveles; relevancia no establecida.", "en": "May alter their levels; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola"},
+      {"farmaco": {"es": "Antihipertensivos", "en": "Antihypertensives"}, "clase": "antihipertensivos", "efecto": {"es": "Podría aumentar la bajada de presión.", "en": "May increase blood-pressure lowering."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola"},
+      {"farmaco": {"es": "Estimulantes del sistema nervioso central", "en": "Central nervous system stimulants"}, "clase": "otros", "efecto": {"es": "Podría potenciar la subida de presión.", "en": "May enhance blood-pressure increases."}, "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rhodiola", "https://www.nccih.nih.gov/health/rhodiola"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Maca", "en": "Maca"},
+    "latin": "Lepidium meyenii",
+    "grupo": "occidental",
+    "resumen": {"es": "Hay pocos efectos adversos descritos (alteraciones menstruales, insomnio, molestias de estómago). No está claro cuánto influye en las hormonas; consulte si tiene una afección hormonal. Información orientativa.", "en": "Few adverse effects have been reported (menstrual changes, insomnia, stomach upset). It is unclear how much it affects hormones; consult if you have a hormonal condition. Guidance only."},
+    "contraindicaciones": {"es": ["Afecciones sensibles a hormonas (consultar con el médico)"], "en": ["Hormone-sensitive conditions (consult your doctor)"]},
+    "embarazo_lactancia": {"es": "Puede no ser segura; consulte antes de usarla en el embarazo o la lactancia.", "en": "May not be safe; consult before using it during pregnancy or breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Losartán", "en": "Losartan"}, "clase": "antihipertensivos", "efecto": {"es": "Potenció la bajada de presión en ratas; relevancia no establecida.", "en": "Enhanced blood-pressure lowering in rats; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maca"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/maca"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Extracto de té verde", "en": "Green tea extract"},
+    "latin": "Camellia sinensis",
+    "grupo": "occidental",
+    "resumen": {"es": "Como bebida es seguro para adultos; los extractos concentrados se han relacionado con casos raros de daño hepático y deben tomarse con comida. Contiene cafeína. Información orientativa.", "en": "As a beverage it is safe for adults; concentrated extracts have been linked to rare cases of liver injury and should be taken with food. It contains caffeine. Guidance only."},
+    "contraindicaciones": {"es": ["Enfermedad hepática", "Úlcera de estómago", "No tomar el extracto en ayunas"], "en": ["Liver disease", "Stomach ulcer", "Do not take the extract on an empty stomach"]},
+    "embarazo_lactancia": {"es": "Por su cafeína, limitar a cantidades moderadas en el embarazo y la lactancia y consultar con un profesional.", "en": "Because of its caffeine, keep intake moderate during pregnancy and breastfeeding and consult a professional."},
+    "interacciones": [
+      {"farmaco": {"es": "Nadolol (betabloqueante)", "en": "Nadolol (beta-blocker)"}, "clase": "cardiacos", "efecto": {"es": "Reduce sus niveles en sangre y su eficacia.", "en": "Lowers its blood levels and effectiveness."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/green-tea"},
+      {"farmaco": {"es": "Estatinas (atorvastatina, rosuvastatina)", "en": "Statins (atorvastatin, rosuvastatin)"}, "clase": "otros", "efecto": {"es": "Puede reducir sus niveles en sangre.", "en": "May lower their blood levels."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.nccih.nih.gov/health/green-tea"},
+      {"farmaco": {"es": "Raloxifeno", "en": "Raloxifene"}, "clase": "hormonas", "efecto": {"es": "Disminuyó su exposición en adultos sanos.", "en": "Decreased its exposure in healthy adults."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Nintedanib", "en": "Nintedanib"}, "clase": "otros", "efecto": {"es": "Redujo su biodisponibilidad un 21 %.", "en": "Reduced its bioavailability by 21%."}, "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Ziprasidona", "en": "Ziprasidone"}, "clase": "otros", "efecto": {"es": "Se describió un episodio psicótico al empezar un extracto de té verde.", "en": "A psychotic episode was reported after starting a green tea extract."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Bortezomib", "en": "Bortezomib"}, "clase": "quimioterapia", "efecto": {"es": "Los polifenoles (EGCG) pueden bloquear su efecto.", "en": "Polyphenols (EGCG) may block its effect."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Irinotecán", "en": "Irinotecan"}, "clase": "quimioterapia", "efecto": {"es": "El EGCG podría prolongar su eliminación y aumentar su toxicidad.", "en": "EGCG may slow its elimination and increase toxicity."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 o transportados por la glicoproteína P (p. ej. verapamilo)", "en": "Drugs metabolized by CYP3A4 or transported by P-glycoprotein (e.g., verapamil)"}, "clase": "cyp450", "efecto": {"es": "Puede alterar sus niveles en sangre.", "en": "May alter their blood levels."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Paracetamol", "en": "Acetaminophen (paracetamol)"}, "clase": "hepatotoxicos", "efecto": {"es": "Aumentó el daño hepático por paracetamol en ratones.", "en": "Increased acetaminophen liver damage in mice."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"},
+      {"farmaco": {"es": "Anticoagulantes (warfarina)", "en": "Anticoagulants (warfarin)"}, "clase": "anticoagulantes", "efecto": {"es": "Cantidades muy grandes de té (2 a 4 litros al día) podrían aportar vitamina K y contrarrestarlos.", "en": "Very large amounts of tea (0.5 to 1 gallon a day) might supply vitamin K and counteract them."}, "severidad": "baja", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.nccih.nih.gov/health/green-tea", "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/green-tea"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Cúrcuma / curcumina", "en": "Turmeric / curcumin"},
+    "latin": "Curcuma longa",
+    "grupo": "occidental",
+    "resumen": {"es": "Segura como especia; en suplemento puede causar molestias digestivas y se han descrito casos de daño hepático, sobre todo con productos de alta absorción. Puede aumentar el riesgo de sangrado. Información orientativa.", "en": "Safe as a spice; as a supplement it can cause stomach upset, and cases of liver injury have been reported, especially with high-absorption products. It may increase bleeding risk. Guidance only."},
+    "contraindicaciones": {"es": ["Tendencia a cálculos renales (consultar)", "Embarazo (suplementos)", "Uso con anticoagulantes o durante la quimioterapia sin supervisión"], "en": ["Tendency to kidney stones (consult first)", "Pregnancy (supplements)", "Use with anticoagulants or during chemotherapy without supervision"]},
+    "embarazo_lactancia": {"es": "Los suplementos pueden no ser seguros en el embarazo; se sabe poco sobre la lactancia en cantidades mayores que las de los alimentos.", "en": "Supplements may be unsafe in pregnancy; little is known about breastfeeding in amounts larger than food."},
+    "interacciones": [
+      {"farmaco": {"es": "Anticoagulantes y antiagregantes", "en": "Anticoagulants and antiplatelets"}, "clase": "anticoagulantes", "efecto": {"es": "Puede aumentar el riesgo de sangrado.", "en": "May increase bleeding risk."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Tacrolimus", "en": "Tacrolimus"}, "clase": "inmunosupresores", "efecto": {"es": "Aumentó sus niveles; se describió daño renal en un trasplantado que tomaba mucha cúrcuma.", "en": "Raised its levels; kidney toxicity was reported in a transplant patient taking large amounts of turmeric."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Quimioterapia (doxorrubicina, ciclofosfamida, camptotecina, mecloretamina)", "en": "Chemotherapy (doxorubicin, cyclophosphamide, camptothecin, mechlorethamine)"}, "clase": "quimioterapia", "efecto": {"es": "Redujo el efecto de estos fármacos sobre células o tumores en laboratorio y animales.", "en": "Reduced these drugs' effect on cancer cells or tumors in the lab and in animals."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Paclitaxel", "en": "Paclitaxel"}, "clase": "quimioterapia", "efecto": {"es": "Un caso de toxicidad hepática; en un estudio solo hubo cambios pequeños, sin relevancia clínica, en sus niveles.", "en": "One case of liver toxicity; in a study only small, clinically irrelevant changes in its levels occurred."}, "severidad": "baja", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4, CYP1A2 o CYP2D6", "en": "Drugs metabolized by CYP3A4, CYP1A2 or CYP2D6"}, "clase": "cyp450", "efecto": {"es": "Inhibe estas enzimas en laboratorio; en voluntarios sanos no hubo interacción relevante a corto plazo con CYP3A4.", "en": "Inhibits these enzymes in the lab; in healthy volunteers there was no relevant short-term CYP3A4 interaction."}, "severidad": "baja", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Fármacos transportados por la glicoproteína P (verapamilo, midazolam, celiprolol)", "en": "Drugs transported by P-glycoprotein (verapamil, midazolam, celiprolol)"}, "clase": "cyp450", "efecto": {"es": "Podría aumentar sus concentraciones.", "en": "May raise their concentrations."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"},
+      {"farmaco": {"es": "Losartán", "en": "Losartan"}, "clase": "antihipertensivos", "efecto": {"es": "Potenció la bajada de presión en ratas.", "en": "Enhanced blood-pressure lowering in rats."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/turmeric", "https://www.nccih.nih.gov/health/turmeric"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Canela cassia", "en": "Cassia cinnamon"},
+    "latin": "Cinnamomum cassia",
+    "grupo": "occidental",
+    "resumen": {"es": "Segura en cantidades de alimento. La canela cassia contiene cumarina, que en dosis altas o uso prolongado puede dañar el hígado. Puede causar molestias digestivas o alergias. Información orientativa.", "en": "Safe in food amounts. Cassia cinnamon contains coumarin, which at high doses or with long-term use can harm the liver. It can cause stomach upset or allergies. Guidance only."},
+    "contraindicaciones": {"es": ["Enfermedad hepática (uso prolongado de cassia)", "Uso con estatinas u otros fármacos que pueden dañar el hígado sin supervisión"], "en": ["Liver disease (long-term cassia use)", "Use with statins or other liver-toxic drugs without supervision"]},
+    "embarazo_lactancia": {"es": "En cantidades de alimento parece segura en el embarazo; se sabe poco sobre cantidades mayores en la lactancia.", "en": "In food amounts it appears safe in pregnancy; little is known about larger amounts while breastfeeding."},
+    "interacciones": [
+      {"farmaco": {"es": "Estatinas", "en": "Statins"}, "clase": "hepatotoxicos", "efecto": {"es": "Se ha descrito hepatitis al tomarla junto con estatinas.", "en": "Hepatitis has been reported when taken with statins."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cinnamon"},
+      {"farmaco": {"es": "Pioglitazona", "en": "Pioglitazone"}, "clase": "antidiabeticos", "efecto": {"es": "Aumentó su biodisponibilidad en estudios preclínicos.", "en": "Increased its bioavailability in preclinical studies."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cinnamon"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP2C9, 3A4, 2A6 y 2D6", "en": "Drugs metabolized by CYP2C9, 3A4, 2A6 and 2D6"}, "clase": "cyp450", "efecto": {"es": "Podría interferir con su metabolismo; relevancia no establecida.", "en": "May interfere with their metabolism; relevance not established."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cinnamon"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cinnamon", "https://www.nccih.nih.gov/health/cinnamon"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Fenogreco (alholva)", "en": "Fenugreek"},
+    "latin": "Trigonella foenum-graecum",
+    "grupo": "occidental",
+    "resumen": {"es": "Segura como alimento; en suplemento puede causar alergias y se han descrito interacciones con warfarina y con ISRS. Información orientativa.", "en": "Safe as a food; as a supplement it can cause allergies, and interactions with warfarin and SSRIs have been reported. Guidance only."},
+    "contraindicaciones": {"es": ["Embarazo y lactancia (en cantidades mayores que las de los alimentos)", "Uso con antidepresivos ISRS", "Cánceres sensibles a hormonas (consultar)"], "en": ["Pregnancy and breastfeeding (in amounts above food)", "Use with SSRI antidepressants", "Hormone-sensitive cancers (consult first)"]},
+    "embarazo_lactancia": {"es": "Evitar cantidades mayores que las de los alimentos en el embarazo y la lactancia: se ha relacionado con defectos congénitos y su seguridad no está establecida.", "en": "Avoid amounts above food during pregnancy and breastfeeding: it has been linked to birth defects and its safety is not established."},
+    "interacciones": [
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"}, "clase": "anticoagulantes", "efecto": {"es": "Puede potenciar su efecto y el riesgo de sangrado.", "en": "May increase its effect and bleeding risk."}, "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fenugreek"},
+      {"farmaco": {"es": "Antidepresivos ISRS (p. ej. sertralina)", "en": "SSRI antidepressants (e.g., sertraline)"}, "clase": "antidepresivos", "efecto": {"es": "Se describió un síndrome serotoninérgico.", "en": "A case of serotonin syndrome was reported."}, "severidad": "alta", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fenugreek"},
+      {"farmaco": {"es": "Ciclofosfamida", "en": "Cyclophosphamide"}, "clase": "quimioterapia", "efecto": {"es": "Podría interferir con su efecto en animales.", "en": "May interfere with its effect in animals."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fenugreek"},
+      {"farmaco": {"es": "Teofilina", "en": "Theophylline"}, "clase": "otros", "efecto": {"es": "Alteró su biodisponibilidad en animales.", "en": "Altered its bioavailability in animals."}, "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fenugreek"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/fenugreek"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Gimnema", "en": "Gymnema"},
+    "latin": "Gymnema sylvestre",
+    "grupo": "occidental",
+    "resumen": {"es": "Reduce temporalmente la percepción del sabor dulce. No se conocen interacciones confirmadas con fármacos, pero se aconseja precaución con medicamentos para la diabetes. Información orientativa.", "en": "It temporarily reduces the perception of sweet taste. No confirmed drug interactions are known, but caution is advised with diabetes medicines. Guidance only."},
+    "contraindicaciones": {"es": ["Uso con fármacos para la diabetes sin control de la glucosa (precaución)"], "en": ["Use with diabetes medicines without glucose monitoring (caution)"]},
+    "embarazo_lactancia": {"es": "No se ha establecido su seguridad en el embarazo ni en la lactancia.", "en": "Its safety in pregnancy and breastfeeding has not been established."},
+    "interacciones": [
+      {"farmaco": {"es": "Antidiabéticos (insulina, glimepirida y otros)", "en": "Diabetes medicines (insulin, glimepiride and others)"}, "clase": "antidiabeticos", "efecto": {"es": "Se aconseja precaución por posible suma del efecto sobre la glucosa; en ratas modificó el efecto de la glimepirida.", "en": "Caution is advised because of a possible additive effect on blood sugar; in rats it modified the effect of glimepiride."}, "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.utep.edu/herbal-safety/herbal-facts/herbal%20facts%20sheet/gymnema%20.html"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.utep.edu/herbal-safety/herbal-facts/herbal%20facts%20sheet/gymnema%20.html"]
+  }
+]

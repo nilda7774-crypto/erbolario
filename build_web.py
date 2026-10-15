@@ -20,6 +20,10 @@ def main():
     en = cargar(BASE / "data" / "en")
     if en["productos"]:
         idiomas["en"] = {k: en[k] or es[k] for k in es}
+    # Seguridad e interacciones (bilingüe dentro de cada ficha).
+    seg = BASE / "data" / "seguridad.json"
+    if seg.exists():
+        idiomas["seguridad"] = json.loads(seg.read_text(encoding="utf-8"))
     datos = json.dumps(idiomas, ensure_ascii=False)
     # Evita que un "</script>" dentro de los datos cierre la etiqueta antes de tiempo.
     datos = datos.replace("</", "<\\/")

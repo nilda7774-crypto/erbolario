@@ -172,6 +172,10 @@ def main():
     if tcm_path.exists():
         cargar_tcm(cur, json.loads(tcm_path.read_text(encoding="utf-8")))
 
+    seg_path = BASE / "data" / "seguridad.json"
+    if seg_path.exists():
+        cargar_seguridad(cur, json.loads(seg_path.read_text(encoding="utf-8")))
+
     con.commit()
     n_prod = cur.execute("SELECT COUNT(*) FROM productos").fetchone()[0]
     n_cat = cur.execute("SELECT COUNT(*) FROM categorias").fetchone()[0]
@@ -181,6 +185,43 @@ def main():
     con.close()
     print(f"Base de datos creada en {DB_PATH.name}: {n_prod} productos, {n_cat} categorías, "
           f"{n_form} fórmulas chinas, {n_hierb} hierbas chinas, {n_doc} documentos para RAG.")
+
+
+# ---------------------------------------------------------------- Seguridad e interacciones
+
+def cargar_seguridad(cur, fichas):
+    cur.executescript("""
+    DROP TABLE IF EXISTS interacciones;
+    DROP TABLE IF EXISTS seguridad;
+    CREATE TABLE seguridad (
+        id TEXT PRIMARY KEY, ref TEXT, nombre TEXT NOT NULL, latin TEXT, grupo TEXT,
+        resumen TEXT, contraindicaciones TEXT, embarazo_lactancia TEXT, fuentes TEXT
+    );
+    CREATE TABLE interacciones (
+        seguridad_id TEXT REFERENCES seguridad(id), farmaco TEXT, clase TEXT,
+        efecto TEXT, severidad TEXT, evidencia TEXT, fuente TEXT
+    );
+    """)
+    for g in fichas:
+        es = lambda campo: (g.get(campo) or {}).get("es")
+        cur.execute("INSERT INTO seguridad VALUES (?,?,?,?,?,?,?,?,?)", (
+            g["id"], g.get("ref"), es("nombre"), g.get("latin"), g.get("grupo"), es("resumen"),
+            json.dumps(es("contraindicaciones") or [], ensure_ascii=False), es("embarazo_lactancia"),
+            json.dumps(g.get("fuentes") or [], ensure_ascii=False)))
+        partes = []
+        for i in g.get("interacciones", []):
+            cur.execute("INSERT INTO interacciones VALUES (?,?,?,?,?,?,?)", (
+                g["id"], i["farmaco"]["es"], i["clase"], i["efecto"]["es"], i["severidad"], i["evidencia"], i.get("fuente")))
+            partes.append(f"{i['farmaco']['es']} ({i['clase']}; gravedad {i['severidad']}; evidencia {i['evidencia']}): {i['efecto']['es']}")
+        texto = "\n".join([
+            f"Seguridad e interacciones: {es('nombre')}" + (f" ({g['latin']})" if g.get("latin") else "") + f" [ID {g['id']}]"
+            + (f" · {g['ref']}" if g.get("ref") else ""),
+            f"Resumen: {es('resumen')}",
+            "Interacciones con medicamentos: " + (" | ".join(partes) if partes else "ninguna documentada en las fuentes consultadas"),
+            "No usar si… " + ("; ".join(es("contraindicaciones") or []) or "—"),
+            f"Embarazo y lactancia: {es('embarazo_lactancia') or '—'}",
+        ])
+        cur.execute("INSERT INTO documentos VALUES (?,?,?,?)", (g["id"], "seguridad", es("nombre"), texto))
 
 
 # ---------------------------------------------------------------- Medicina tradicional china

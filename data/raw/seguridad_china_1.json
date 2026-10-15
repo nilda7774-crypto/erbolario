@@ -1,0 +1,1723 @@
+[
+  {
+    "ref": "HRB-001",
+    "nombre": {
+      "es": "Raíz de morinda (ba ji tian)",
+      "en": "Morinda root (ba ji tian)"
+    },
+    "latin": "Morinda officinalis",
+    "grupo": "china",
+    "resumen": {
+      "es": "Se considera segura para la mayoría de las personas en las dosis habituales. Puede modificar el azúcar en sangre, por lo que conviene precaución si se usan medicamentos para la diabetes. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is considered safe for most people at usual doses. It may alter blood sugar, so caution is advised if you take diabetes medicines. This is general guidance: consult your health professional."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Dificultad o dolor al orinar (puede empeorarlo).",
+        "Según la medicina china: deficiencia de Yin con signos de calor y calor-humedad en el Jiao inferior.",
+        "Suspender al menos 2 semanas antes de una cirugía programada, por su posible efecto sobre la glucosa."
+      ],
+      "en": [
+        "Difficult or painful urination (it may worsen it).",
+        "According to Chinese medicine: Yin deficiency with heat signs and damp-heat in the lower burner.",
+        "Stop at least 2 weeks before scheduled surgery because of its possible effect on blood sugar."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia; se recomienda evitarla.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, metformina, glimepirida, glibenclamida, pioglitazona)",
+          "en": "Diabetes medicines (insulin, metformin, glimepiride, glyburide, pioglitazone)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Podría subir o bajar el azúcar en sangre y alterar el control de la diabetes; vigilar la glucosa, puede ser necesario ajustar la dosis.",
+          "en": "It might raise or lower blood sugar and disturb diabetes control; monitor blood sugar, as the dose may need adjusting."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/supplements/ba_ji_tian.htm"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.rxlist.com/supplements/ba_ji_tian.htm",
+      "https://www.americandragon.com/Individualherbsupdate/BaJiTian.html"
+    ]
+  },
+  {
+    "ref": "HRB-002",
+    "nombre": {
+      "es": "Frijol jacinto blanco (bai bian dou)",
+      "en": "White hyacinth bean (bai bian dou)"
+    },
+    "latin": "Lablab purpureus",
+    "grupo": "china",
+    "resumen": {
+      "es": "Cocida y procesada se usa como alimento y hierba suave. Cruda o mal cocida puede ser tóxica (contiene glucósidos cianogénicos). No se conocen interacciones con medicamentos. Información orientativa.",
+      "en": "Cooked and processed, it is used as a food and a mild herb. Raw or undercooked, it can be toxic (it contains cyanogenic glycosides). No interactions with medicines are known. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "No consumir cruda ni mal cocida: se prefiere la forma procesada.",
+        "Según la medicina china: fiebres y escalofríos intermitentes y trastornos por frío."
+      ],
+      "en": [
+        "Do not eat it raw or undercooked: the processed form is preferred.",
+        "According to Chinese medicine: intermittent fevers and chills, and cold disorders."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia; por prudencia, evitar su uso medicinal.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding; to be safe, avoid medicinal use."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.vital.ly/trc/Hyacinth-bean/monograph=700/",
+      "https://www.americandragon.com/Individualherbsupdate/BaiBianDou.html"
+    ]
+  },
+  {
+    "ref": "HRB-003",
+    "nombre": {
+      "es": "Rizoma de tifonio gigante (bai fu zi)",
+      "en": "Giant typhonium rhizome (bai fu zi)"
+    },
+    "latin": "Typhonium giganteum",
+    "grupo": "china",
+    "resumen": {
+      "es": "Es una hierba tóxica en crudo; solo se usa la forma procesada (zhi bai fu zi), en dosis bajas y bajo supervisión de un profesional cualificado. No se han encontrado interacciones con medicamentos documentadas. Información orientativa.",
+      "en": "It is toxic when raw; only the processed form (zhi bai fu zi) is used, at low doses and under the supervision of a qualified practitioner. No documented interactions with medicines were found. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "No usar la raíz cruda (sin procesar) por vía oral.",
+        "Embarazo.",
+        "Según la medicina china: viento por deficiencia de Yin o calor interno.",
+        "No confundir con fu zi (acónito), que es otra planta."
+      ],
+      "en": [
+        "Do not take the raw (unprocessed) root by mouth.",
+        "Pregnancy.",
+        "According to Chinese medicine: wind due to Yin deficiency, or internal heat.",
+        "Do not confuse it with fu zi (aconite), which is a different plant."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el embarazo según fuentes clínicas de medicina china (otras indican usar con precaución). No hay datos sobre la lactancia; se recomienda evitarla.",
+      "en": "Contraindicated in pregnancy according to clinical Chinese medicine sources (others advise caution). There are no data on breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/bai-fu-zi.php",
+      "https://herbaltcm.sn.polyu.edu.hk/herbal/giant-typhonium-rhizome"
+    ]
+  },
+  {
+    "ref": "HRB-004",
+    "nombre": {
+      "es": "Raíz de peonía blanca (bai shao)",
+      "en": "White peony root (bai shao)"
+    },
+    "latin": "Paeonia lactiflora",
+    "grupo": "china",
+    "resumen": {
+      "es": "Posiblemente segura por vía oral a corto plazo (hasta unas 4 semanas); puede causar malestar de estómago. Puede hacer más lenta la coagulación y alterar algunos fármacos, como la fenitoína. Información orientativa.",
+      "en": "Possibly safe by mouth in the short term (up to about 4 weeks); it may cause stomach upset. It may slow blood clotting and affect some drugs, such as phenytoin. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Trastornos de la coagulación (puede aumentar el riesgo de sangrado).",
+        "Suspender al menos 2 semanas antes de una cirugía programada.",
+        "Según la medicina china: frío interno con deficiencia de Yang; tradicionalmente incompatible con li lu (Veratrum)."
+      ],
+      "en": [
+        "Bleeding disorders (it may increase bleeding risk).",
+        "Stop at least 2 weeks before scheduled surgery.",
+        "According to Chinese medicine: internal cold with Yang deficiency; traditionally incompatible with li lu (Veratrum)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Posiblemente insegura en el embarazo: podría provocar contracciones uterinas, por lo que no debe usarse. En la lactancia no hay información suficiente; se recomienda evitarla.",
+      "en": "Possibly unsafe in pregnancy: it might cause uterine contractions, so it should not be used. There is not enough information on breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, heparina, enoxaparina, aspirina, clopidogrel, ibuprofeno, naproxeno)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, heparin, enoxaparin, aspirin, clopidogrel, ibuprofen, naproxen)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "La peonía puede hacer más lenta la coagulación; juntas pueden aumentar el riesgo de moretones y sangrado.",
+          "en": "Peony may slow blood clotting; together they may increase the risk of bruising and bleeding."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/supplements/peony.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Fenitoína (antiepiléptico)",
+          "en": "Phenytoin (antiseizure drug)"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "La raíz de peonía puede reducir los niveles de fenitoína en el cuerpo, lo que podría disminuir su eficacia y aumentar el riesgo de convulsiones.",
+          "en": "Peony root may lower phenytoin levels in the body, which could reduce its effect and increase the risk of seizures."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/supplements/peony.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Anticonceptivos orales y estrógenos",
+          "en": "Birth control pills and estrogens"
+        },
+        "clase": "hormonas",
+        "efecto": {
+          "es": "La peonía podría actuar de forma parecida al estrógeno: puede sumar efectos secundarios y quizá reducir la eficacia de los anticonceptivos (se aconseja un método de respaldo).",
+          "en": "Peony might act like estrogen: it may add to side effects and might reduce the effectiveness of birth control pills (a backup method is advised)."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://vital.ly/trc/Peony/monograph=1022"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4 y CYP1A2",
+          "en": "Drugs metabolized by CYP3A4 and CYP1A2"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "La peonía podría cambiar la velocidad con que el hígado elimina estos fármacos y alterar sus efectos.",
+          "en": "Peony might change how quickly the liver breaks down these drugs and alter their effects."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://vital.ly/trc/Peony/monograph=1022"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.rxlist.com/supplements/peony.htm",
+      "https://vital.ly/trc/Peony/monograph=1022"
+    ]
+  },
+  {
+    "ref": "HRB-005",
+    "nombre": {
+      "es": "Rizoma de atractylodes blanco (bai zhu)",
+      "en": "White atractylodes rhizome (bai zhu)"
+    },
+    "latin": "Atractylodes macrocephala",
+    "grupo": "china",
+    "resumen": {
+      "es": "Hay poca información de seguridad; un compuesto purificado (atractilenolida) se toleró bien durante varias semanas, con posibles náuseas y boca seca. Las interacciones descritas son teóricas y sin casos en personas. Información orientativa.",
+      "en": "Safety information is limited; a purified compound (atractylenolide) was well tolerated for several weeks, with possible nausea and dry mouth. The interactions described are theoretical, with no cases in people. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a plantas de la familia de las compuestas (ambrosía, crisantemo, caléndula, margarita).",
+        "Según la medicina china: deficiencia de Yin con calor, sed intensa por daño de líquidos y estancamiento de Qi con distensión."
+      ],
+      "en": [
+        "Allergy to plants of the daisy (Asteraceae) family (ragweed, chrysanthemum, marigold, daisy).",
+        "According to Chinese medicine: Yin deficiency with heat, extreme thirst from injured fluids, and Qi stagnation with distension."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se sabe poco sobre su uso en el embarazo y la lactancia; por prudencia, evitarla salvo indicación profesional.",
+      "en": "Little is known about its use during pregnancy and breastfeeding; to be safe, avoid it unless a professional advises otherwise."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, heparina, enoxaparina, aspirina, clopidogrel, dipiridamol)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, heparin, enoxaparin, aspirin, clopidogrel, dipyridamole)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "En teoría podría aumentar el riesgo de sangrado; usar con precaución.",
+          "en": "In theory it might increase the risk of bleeding; use with caution."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/BaiZhu.html"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos (hidroclorotiazida, clorotiazida, furosemida, bumetanida, torasemida)",
+          "en": "Diuretics (hydrochlorothiazide, chlorothiazide, furosemide, bumetanide, torsemide)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Juntos podrían aumentar la eliminación de agua y electrolitos.",
+          "en": "Together they may increase the loss of water and electrolytes."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/BaiZhu.html"
+      },
+      {
+        "farmaco": {
+          "es": "Omeprazol",
+          "en": "Omeprazole"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "Podría potenciar el efecto inhibidor del ácido del omeprazol.",
+          "en": "It may enhance the acid-suppressing effect of omeprazole."
+        },
+        "severidad": "baja",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/BaiZhu.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.rxlist.com/supplements/atractylodes.htm",
+      "https://www.americandragon.com/Individualherbsupdate/BaiZhu.html",
+      "https://hellopharmacist.com/drug-herbal-interactions/atractylodes-with-aspirin-omeprazole"
+    ]
+  },
+  {
+    "ref": "HRB-006",
+    "nombre": {
+      "es": "Semilla de biota (bai zi ren)",
+      "en": "Arborvitae seed (bai zi ren)"
+    },
+    "latin": "Platycladus orientalis",
+    "grupo": "china",
+    "resumen": {
+      "es": "Semilla de uso tradicional para calmar y suavizar el intestino. Puede causar náuseas o heces blandas. No se han encontrado interacciones con medicamentos documentadas. Información orientativa.",
+      "en": "A seed traditionally used to calm the mind and moisten the bowels. It may cause nausea or loose stools. No documented interactions with medicines were found. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Heces blandas o diarrea.",
+        "Flema abundante.",
+        "Debilidad del estómago con tendencia a náuseas o vómitos."
+      ],
+      "en": [
+        "Loose stools or diarrhea.",
+        "Excess phlegm.",
+        "Weak stomach with a tendency to nausea or vomiting."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontró información fiable sobre su seguridad en el embarazo ni en la lactancia; consulte a un profesional antes de usarla.",
+      "en": "No reliable information was found on its safety during pregnancy or breastfeeding; consult a professional before using it."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/BaiZiRen.html"
+    ]
+  },
+  {
+    "ref": "HRB-007",
+    "nombre": {
+      "es": "Raíz de glehnia (bei sha shen)",
+      "en": "Glehnia root (bei sha shen)"
+    },
+    "latin": "Glehnia littoralis",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se han descrito efectos adversos, pero tampoco hay estudios en personas. Contiene furanocumarinas, por lo que en teoría podría aumentar la sensibilidad al sol y afectar fármacos que usan el CYP3A4. Información orientativa.",
+      "en": "No adverse effects have been reported, but there are no studies in people either. It contains furanocoumarins, so in theory it could increase sun sensitivity and affect drugs that use CYP3A4. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Personas en radioterapia (posible fotosensibilidad), según el MSKCC.",
+        "Según la medicina china: tos por viento-frío, frío por deficiencia de Pulmón y Estómago y flema-humedad; tradicionalmente incompatible con li lu (Veratrum)."
+      ],
+      "en": [
+        "People receiving radiation therapy (possible photosensitivity), according to MSKCC.",
+        "According to Chinese medicine: wind-cold cough, cold from Lung and Stomach deficiency, and damp-phlegm; traditionally incompatible with li lu (Veratrum)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay estudios en personas ni información sobre el embarazo o la lactancia; por prudencia, evitarla.",
+      "en": "There are no human studies and no information on pregnancy or breastfeeding; to be safe, avoid it."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En teoría, sus furanocumarinas podrían inhibir el CYP3A4 y aumentar los efectos secundarios de estos fármacos; se desconoce su importancia clínica.",
+          "en": "In theory, its furanocoumarins could inhibit CYP3A4 and increase the side effects of these drugs; clinical relevance is unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/glehnia"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/glehnia"
+    ]
+  },
+  {
+    "ref": "HRB-008",
+    "nombre": {
+      "es": "Raíz de bupleuro (chai hu)",
+      "en": "Bupleurum root (chai hu)"
+    },
+    "latin": "Bupleurum chinense",
+    "grupo": "china",
+    "resumen": {
+      "es": "Se han descrito algunos casos de daño hepático con dosis altas o excesivas, sobre todo en productos con más de 19 g de bupleuro en personas con hepatitis B. Puede causar náuseas; podría afectar el metabolismo de algunos fármacos. Información orientativa.",
+      "en": "A few cases of liver damage have been reported with high or excessive doses, especially with products containing more than 19 g of bupleurum in people with hepatitis B. It may cause nausea and might affect how some drugs are metabolized. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Enfermedad hepática (precaución por casos de daño hepático con dosis altas).",
+        "Evitar dosis altas y el uso prolongado como hierba única.",
+        "Según la medicina china: tos por deficiencia de Yin, deficiencia grave de Yin o de líquidos, y fuego de Hígado o ascenso del Yang."
+      ],
+      "en": [
+        "Liver disease (caution because of liver damage cases at high doses).",
+        "Avoid high doses and long-term use as a single herb.",
+        "According to Chinese medicine: Yin-deficiency cough, severe Yin or fluid deficiency, and Liver fire or rising Yang."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontró información fiable sobre su seguridad en el embarazo ni en la lactancia; por prudencia, evitarla.",
+      "en": "No reliable information was found on its safety during pregnancy or breastfeeding; to be safe, avoid it."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP2C9 (p. ej., warfarina, fenitoína, algunos antiinflamatorios)",
+          "en": "Drugs metabolized by CYP2C9 (e.g., warfarin, phenytoin, some anti-inflammatory drugs)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En el laboratorio, extractos de bupleuro inhiben el CYP2C9 y podrían alterar los niveles de estos fármacos; su importancia clínica no está determinada.",
+          "en": "In the lab, bupleurum extracts inhibit CYP2C9 and might alter levels of these drugs; clinical relevance has not been determined."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bupleurum"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP2E1, CYP2D6 y CYP3A4",
+          "en": "Drugs metabolized by CYP2E1, CYP2D6 and CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En animales, el bupleuro induce estas enzimas, lo que podría reducir el efecto de algunos fármacos, sobre todo con dosis altas; importancia clínica no determinada.",
+          "en": "In animals, bupleurum induces these enzymes, which could reduce the effect of some drugs, especially at high doses; clinical relevance has not been determined."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bupleurum"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, aspirina, ibuprofeno, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, aspirin, ibuprofen, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "En teoría podría aumentar el riesgo de sangrado, ya que en el laboratorio sus saikosaponinas inhiben la agregación de las plaquetas.",
+          "en": "In theory it might increase bleeding risk, since in the lab its saikosaponins inhibit platelet aggregation."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://hellopharmacist.com/drug-herbal-interactions/bupleurum-with-ibuprofen"
+      },
+      {
+        "farmaco": {
+          "es": "Inmunosupresores",
+          "en": "Immunosuppressants"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "En teoría podría contrarrestar su efecto, porque en estudios de laboratorio y en animales parece estimular el sistema inmunitario.",
+          "en": "In theory it might counteract their effect, because lab and animal studies suggest it stimulates the immune system."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://hellopharmacist.com/drug-herbal-interactions/bupleurum-with-cladribine"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos que pueden dañar el hígado",
+          "en": "Drugs that can harm the liver"
+        },
+        "clase": "hepatotoxicos",
+        "efecto": {
+          "es": "Se han descrito casos de daño hepático con dosis altas de bupleuro; combinarlo con fármacos hepatotóxicos podría sumar riesgo.",
+          "en": "Liver damage has been reported with high doses of bupleurum; combining it with liver-toxic drugs could add to the risk."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bupleurum"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bupleurum",
+      "https://www.americandragon.com/Individualherbsupdate/ChaiHu.html",
+      "https://hellopharmacist.com/drug-herbal-interactions/herbals/bupleurum"
+    ]
+  },
+  {
+    "ref": "HRB-009",
+    "nombre": {
+      "es": "Semilla de llantén (che qian zi)",
+      "en": "Plantain seed (che qian zi)"
+    },
+    "latin": "Plantago asiatica",
+    "grupo": "china",
+    "resumen": {
+      "es": "Semilla diurética de uso tradicional. Puede reducir la absorción de algunos fármacos orales y sumarse al efecto de los diuréticos; las interacciones descritas son teóricas. Información orientativa.",
+      "en": "A traditional diuretic seed. It may reduce the absorption of some oral drugs and add to the effect of diuretics; the interactions described are theoretical. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Precaución en micción excesiva (poliuria) y en estreñimiento.",
+        "Según la medicina china: ausencia de calor-humedad, espermatorrea por deficiencia de Riñón, agotamiento o Yang agotado."
+      ],
+      "en": [
+        "Caution in excessive urination (polyuria) and constipation.",
+        "According to Chinese medicine: absence of damp-heat, spermatorrhea from Kidney deficiency, exhaustion or depleted Yang."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Usar con precaución en el embarazo según fuentes de medicina china. No hay datos sobre la lactancia; consulte a un profesional.",
+      "en": "Use with caution in pregnancy according to Chinese medicine sources. There are no data on breastfeeding; consult a professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Litio y otros fármacos orales",
+          "en": "Lithium and other oral drugs"
+        },
+        "clase": "absorcion",
+        "efecto": {
+          "es": "Podría reducir la absorción de fármacos tomados por boca, como el litio; conviene separar las tomas y vigilar los niveles de litio.",
+          "en": "It may reduce the absorption of drugs taken by mouth, such as lithium; space the doses apart and monitor lithium levels."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/CheQianZi.html"
+      },
+      {
+        "farmaco": {
+          "es": "Insulina",
+          "en": "Insulin"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Podría reducir la absorción de carbohidratos, por lo que podría requerirse ajustar la dosis de insulina.",
+          "en": "It may reduce carbohydrate absorption, so the insulin dose may need adjusting."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/CheQianZi.html"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos (hidroclorotiazida, clorotiazida, furosemida)",
+          "en": "Diuretics (hydrochlorothiazide, chlorothiazide, furosemide)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Juntos podrían aumentar la pérdida de agua y electrolitos.",
+          "en": "Together they may increase the loss of water and electrolytes."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/CheQianZi.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/CheQianZi.html"
+    ]
+  },
+  {
+    "ref": "HRB-010",
+    "nombre": {
+      "es": "Cáscara de mandarina añeja (chen pi)",
+      "en": "Aged tangerine peel (chen pi)"
+    },
+    "latin": "Citrus reticulata",
+    "grupo": "china",
+    "resumen": {
+      "es": "La mandarina es probablemente segura en cantidades de alimento; no hay información suficiente sobre su uso como medicamento. Las posibles interacciones descritas son menores. Información orientativa.",
+      "en": "Tangerine is likely safe in food amounts; there is not enough information on its use as a medicine. The possible interactions described are minor. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Según la medicina china: tos seca por deficiencia de Yin o de Qi, náuseas por fuego de Estómago, dolor abdominal espasmódico y ausencia de flema-humedad.",
+        "Precaución con calor por exceso, flema caliente, tos con sangre o deficiencia de líquidos; el uso prolongado puede debilitar."
+      ],
+      "en": [
+        "According to Chinese medicine: dry cough from Yin or Qi deficiency, nausea from Stomach fire, spasmodic abdominal pain and absence of damp-phlegm.",
+        "Caution with excess heat, hot phlegm, coughing up blood or fluid deficiency; long-term use may be weakening."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Como alimento es habitual, pero no hay información suficiente sobre dosis medicinales en el embarazo o la lactancia; por prudencia, evitarlas.",
+      "en": "It is common as a food, but there is not enough information on medicinal doses during pregnancy or breastfeeding; to be safe, avoid them."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4 (p. ej., midazolam, amiodarona, felodipino, sertralina, prednisona)",
+          "en": "Drugs metabolized by CYP3A4 (e.g., midazolam, amiodarone, felodipine, sertraline, prednisone)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "La mandarina podría acelerar la eliminación hepática de estos fármacos y reducir algo su efecto. Los datos proceden de la mandarina (fruto y zumo), no específicamente de la cáscara seca.",
+          "en": "Tangerine might speed up the liver's breakdown of these drugs and slightly reduce their effect. The data come from tangerine (fruit and juice), not specifically the dried peel."
+        },
+        "severidad": "baja",
+        "evidencia": "clinica",
+        "fuente": "https://www.vital.ly/trc/Tangerine/monograph=1273/"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.vital.ly/trc/Tangerine/monograph=1273/",
+      "https://www.americandragon.com/Individualherbsupdate/ChenPi.html"
+    ]
+  },
+  {
+    "ref": "HRB-011",
+    "nombre": {
+      "es": "Bulbo de fritilaria (chuan bei mu)",
+      "en": "Fritillaria bulb (chuan bei mu)"
+    },
+    "latin": "Fritillaria cirrhosa",
+    "grupo": "china",
+    "resumen": {
+      "es": "El bulbo crudo, sin procesar, se considera tóxico y no debe tomarse; se usa procesado y en fórmulas. No se han encontrado interacciones con medicamentos documentadas en fuentes fiables. Información orientativa.",
+      "en": "The raw, unprocessed bulb is considered toxic and should not be taken; it is used processed and in formulas. No documented interactions with medicines were found in reliable sources. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "No tomar el bulbo crudo sin procesar.",
+        "Embarazo.",
+        "Debilidad digestiva con flema; no indicada para flema-frío, flema-humedad ni flema-viento.",
+        "Tradicionalmente incompatible con wu tou y fu zi (acónito)."
+      ],
+      "en": [
+        "Do not take the raw, unprocessed bulb.",
+        "Pregnancy.",
+        "Digestive weakness with phlegm; not indicated for cold-phlegm, damp-phlegm or wind-phlegm.",
+        "Traditionally incompatible with wu tou and fu zi (aconite)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el embarazo según fuentes de medicina china. No hay datos sobre la lactancia; se recomienda evitarla.",
+      "en": "Contraindicated in pregnancy according to Chinese medicine sources. There are no data on breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ChuanBeiMu.html",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7676930/"
+    ]
+  },
+  {
+    "ref": "HRB-012",
+    "nombre": {
+      "es": "Ligústico de Sichuan (chuan xiong)",
+      "en": "Sichuan lovage (chuan xiong)"
+    },
+    "latin": "Ligusticum chuanxiong",
+    "grupo": "china",
+    "resumen": {
+      "es": "Hierba que activa la circulación de la sangre; puede aumentar el riesgo de sangrado si se combina con anticoagulantes. En dosis excesivas puede causar vómitos y mareo. Información orientativa.",
+      "en": "An herb that promotes blood circulation; it may increase bleeding risk when combined with blood thinners. In excessive doses it may cause vomiting and dizziness. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Personas que sangran o tienen moretones con facilidad, o con menstruación abundante.",
+        "Según la medicina china: deficiencia de Yin con calor, cefaleas por ascenso del Yang de Hígado o deficiencia de Qi; tradicionalmente incompatible con li lu (Veratrum)."
+      ],
+      "en": [
+        "People who bleed or bruise easily, or with heavy menstruation.",
+        "According to Chinese medicine: Yin deficiency with heat, headaches from rising Liver Yang or Qi deficiency; traditionally incompatible with li lu (Veratrum)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Usar con precaución en el embarazo (activa la circulación de la sangre); no hay una dosis segura establecida. No hay datos sobre la lactancia; consulte a un profesional.",
+      "en": "Use with caution in pregnancy (it promotes blood circulation); no safe dose has been established. There are no data on breastfeeding; consult a professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina",
+          "en": "Warfarin"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "En ratas, el chuan xiong alteró de forma importante la farmacocinética de la warfarina; podría modificar su efecto anticoagulante. Vigilar el INR.",
+          "en": "In rats, chuan xiong significantly altered warfarin pharmacokinetics; it could change its anticoagulant effect. Monitor INR."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.frontiersin.org/articles/10.3389/fphar.2018.01461/full"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (heparina, enoxaparina, aspirina, dipiridamol, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (heparin, enoxaparin, aspirin, dipyridamole, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Su uso conjunto puede tener un efecto aditivo y aumentar el riesgo de sangrado.",
+          "en": "Using them together may have an additive effect and increase bleeding risk."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/ChuanXiong.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ChuanXiong.html",
+      "https://www.frontiersin.org/articles/10.3389/fphar.2018.01461/full",
+      "https://scholars.hkbu.edu.hk/en/studentTheses/the-impact-of-rhizoma-chuanxiong-in-fetal-bone-development/"
+    ]
+  },
+  {
+    "ref": "HRB-013",
+    "nombre": {
+      "es": "Hoja y raíz de isatis (da qing ye / ban lan gen)",
+      "en": "Isatis leaf and root (da qing ye / ban lan gen)"
+    },
+    "latin": "Isatis indigotica",
+    "grupo": "china",
+    "resumen": {
+      "es": "No hay información fiable suficiente sobre su seguridad por vía oral. Podría provocar reacciones en personas alérgicas a la aspirina, y un componente (indirubina) podría afectar fármacos que usan el CYP3A4. Información orientativa.",
+      "en": "There is not enough reliable information on its safety by mouth. It might trigger reactions in people allergic to aspirin, and a component (indirubin) might affect drugs that use CYP3A4. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la aspirina o asma sensible a la aspirina (contiene sustancias parecidas).",
+        "Alergia a productos de Isatis.",
+        "Según la medicina china: frío por deficiencia de Bazo y Estómago, y resfriado por viento-frío."
+      ],
+      "en": [
+        "Aspirin allergy or aspirin-sensitive asthma (it contains similar substances).",
+        "Allergy to Isatis products.",
+        "According to Chinese medicine: cold from Spleen and Stomach deficiency, and wind-cold common cold."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia; se recomienda evitarla.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En el laboratorio, la indirubina (componente de la planta) activa el CYP3A4 y podría alterar el metabolismo de estos fármacos; importancia clínica no establecida.",
+          "en": "In the lab, indirubin (a plant component) activates CYP3A4 and might alter the metabolism of these drugs; clinical relevance has not been established."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/herb/indirubin"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.rxlist.com/supplements/isatis.htm",
+      "https://www.mskcc.org/cancer-care/herb/indirubin"
+    ]
+  },
+  {
+    "ref": "HRB-014",
+    "nombre": {
+      "es": "Salvia china (dan shen)",
+      "en": "Red sage root (dan shen)"
+    },
+    "latin": "Salvia miltiorrhiza",
+    "grupo": "china",
+    "resumen": {
+      "es": "Suele tolerarse bien, pero puede aumentar el riesgo de sangrado y se han descrito reacciones alérgicas y daño hepático. Su combinación con warfarina debe evitarse (casos de INR muy elevado). Información orientativa.",
+      "en": "It is usually well tolerated, but it may increase bleeding risk, and allergic reactions and liver damage have been reported. Combining it with warfarin should be avoided (cases of very high INR). This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Trastornos hemorrágicos, menstruación abundante o sangre en orina o esputo.",
+        "Avisar al médico antes de una cirugía; puede ser necesario suspenderla.",
+        "Enfermedad hepática (se ha descrito daño hepático).",
+        "Tradicionalmente incompatible con li lu (Veratrum)."
+      ],
+      "en": [
+        "Bleeding disorders, heavy menstruation, or blood in urine or sputum.",
+        "Tell your doctor before surgery; it may need to be stopped.",
+        "Liver disease (liver damage has been reported).",
+        "Traditionally incompatible with li lu (Veratrum)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se sabe si afecta al embarazo o pasa a la leche materna; fuentes de medicina china la contraindican en el embarazo. Se recomienda evitarla.",
+      "en": "It is not known whether it affects pregnancy or passes into breast milk; Chinese medicine sources contraindicate it in pregnancy. Avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina",
+          "en": "Warfarin"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Se han descrito casos de aumento marcado del INR (uno por encima de 8,4) y sangrado; se considera una combinación a evitar.",
+          "en": "Cases of a marked rise in INR (one above 8.4) and bleeding have been reported; this combination should be avoided."
+        },
+        "severidad": "alta",
+        "evidencia": "casos",
+        "fuente": "https://www.clevelandclinicmeded.com/medicalpubs/pharmacy/MarApr2001/herbs_cardiac.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antiagregantes y otros anticoagulantes (aspirina, clopidogrel, ticagrelor, cilostazol, dipiridamol, heparina)",
+          "en": "Antiplatelet drugs and other anticoagulants (aspirin, clopidogrel, ticagrelor, cilostazol, dipyridamole, heparin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Sus componentes hacen más lenta la coagulación; juntos pueden aumentar el riesgo de sangrado.",
+          "en": "Its components slow blood clotting; together they may increase bleeding risk."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.webmd.com/vitamins/ai/ingredientmono-931/danshen"
+      },
+      {
+        "farmaco": {
+          "es": "Digoxina (análisis de sangre)",
+          "en": "Digoxin (blood tests)"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Puede falsear la medición de digoxina en sangre (valores falsamente altos o bajos); avise al médico si toma dan shen antes de un análisis.",
+          "en": "It can distort blood measurements of digoxin (falsely high or low values); tell your doctor if you take dan shen before testing."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/DanShen.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.clevelandclinicmeded.com/medicalpubs/pharmacy/MarApr2001/herbs_cardiac.htm",
+      "https://www.webmd.com/vitamins/ai/ingredientmono-931/danshen",
+      "https://www.americandragon.com/Individualherbsupdate/DanShen.html"
+    ]
+  },
+  {
+    "ref": "HRB-015",
+    "nombre": {
+      "es": "Angélica china (dang gui)",
+      "en": "Chinese angelica (dang gui / dong quai)"
+    },
+    "latin": "Angelica sinensis",
+    "grupo": "china",
+    "resumen": {
+      "es": "Posiblemente segura por vía oral hasta unos 6 meses; puede causar gases, hinchazón, sensibilidad al sol y subida de la tensión. Puede hacer más lenta la coagulación y actuar como estrógeno; no debe combinarse con warfarina. Información orientativa.",
+      "en": "Possibly safe by mouth for up to about 6 months; it may cause gas, bloating, sun sensitivity and raised blood pressure. It may slow blood clotting and act like estrogen; it should not be combined with warfarin. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Trastornos de la coagulación; suspender al menos 2 semanas antes de una cirugía programada.",
+        "Afecciones sensibles a hormonas (cáncer de mama, útero u ovario, endometriosis, miomas).",
+        "Según la medicina china: diarrea o distensión por humedad, deficiencia de Yin con calor y fases iniciales de resfriado."
+      ],
+      "en": [
+        "Bleeding disorders; stop at least 2 weeks before scheduled surgery.",
+        "Hormone-sensitive conditions (breast, uterine or ovarian cancer, endometriosis, fibroids).",
+        "According to Chinese medicine: diarrhea or bloating due to dampness, Yin deficiency with heat and the early stages of a cold."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Posiblemente insegura en el embarazo (puede aumentar el riesgo de aborto); no usar. Evitar también durante la lactancia.",
+      "en": "Possibly unsafe in pregnancy (it may increase the risk of miscarriage); do not use. Also avoid while breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina",
+          "en": "Warfarin"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede sumarse al efecto anticoagulante y aumentar el riesgo de sangrado (se describió un caso con INR de 4,9). No combinar; si ocurre, vigilar el INR.",
+          "en": "It may add to the anticoagulant effect and increase bleeding risk (one case with an INR of 4.9 was reported). Do not combine; if it happens, monitor INR."
+        },
+        "severidad": "alta",
+        "evidencia": "casos",
+        "fuente": "https://www.vital.ly/trc/Dong-quai/monograph=473"
+      },
+      {
+        "farmaco": {
+          "es": "Otros anticoagulantes y antiagregantes (aspirina, clopidogrel, heparina)",
+          "en": "Other anticoagulants and antiplatelet drugs (aspirin, clopidogrel, heparin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Ambos pueden hacer más lenta la coagulación y aumentar moretones y sangrado; en ratones alteró la farmacocinética de aspirina con clopidogrel.",
+          "en": "Both may slow clotting and increase bruising and bleeding; in mice it altered the pharmacokinetics of aspirin plus clopidogrel."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai"
+      },
+      {
+        "farmaco": {
+          "es": "Estrógenos y terapia hormonal",
+          "en": "Estrogens and hormone therapy"
+        },
+        "clase": "hormonas",
+        "efecto": {
+          "es": "Podría actuar como estrógeno y aumentar los efectos y efectos secundarios de estos fármacos.",
+          "en": "It might act like estrogen and increase the effects and side effects of these drugs."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.vital.ly/trc/Dong-quai/monograph=473"
+      },
+      {
+        "farmaco": {
+          "es": "Clozapina",
+          "en": "Clozapine"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "En dos casos descritos, el dang gui aceleró el metabolismo de la clozapina, lo que puede reducir su efecto.",
+          "en": "In two reported cases, dong quai sped up clozapine metabolism, which may reduce its effect."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "El uso prolongado podría inducir el CYP3A4 y bajar los niveles y la eficacia de estos fármacos; importancia clínica desconocida.",
+          "en": "Long-term use might induce CYP3A4 and lower the levels and effectiveness of these drugs; clinical relevance is unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai",
+      "https://www.vital.ly/trc/Dong-quai/monograph=473",
+      "https://www.clevelandclinicmeded.com/medicalpubs/pharmacy/MarApr2001/herbs_cardiac.htm"
+    ]
+  },
+  {
+    "ref": "HRB-016",
+    "nombre": {
+      "es": "Corteza de raíz de lycium (di gu pi)",
+      "en": "Lycium root bark (di gu pi)"
+    },
+    "latin": "Lycium chinense / Lycium barbarum (Cortex Lycii)",
+    "grupo": "china",
+    "resumen": {
+      "es": "Hay pocos datos de seguridad en personas. En estudios de laboratorio y en animales baja el azúcar en sangre y la tensión arterial, por lo que puede sumarse a medicamentos para la diabetes o la hipertensión. Información orientativa.",
+      "en": "There are few safety data in people. In lab and animal studies it lowers blood sugar and blood pressure, so it may add to diabetes or blood pressure medicines. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Fiebre por resfriado común o trastornos exteriores (viento-frío).",
+        "Debilidad digestiva (frío por deficiencia de Bazo y Estómago) con diarrea o heces sueltas."
+      ],
+      "en": [
+        "Fever from a common cold or exterior (wind-cold) conditions.",
+        "Digestive weakness (Spleen and Stomach deficiency-cold) with diarrhea or loose stools."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontró información fiable sobre su seguridad en el embarazo ni en la lactancia; por prudencia, evitarla salvo indicación profesional.",
+      "en": "No reliable information was found on its safety during pregnancy or breastfeeding; to be safe, avoid it unless a professional advises otherwise."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, sulfonilureas como glipizida, glibenclamida, tolbutamida)",
+          "en": "Diabetes medicines (insulin, sulfonylureas such as glipizide, glyburide, tolbutamide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "La corteza de raíz de goji podría bajar el azúcar en sangre y tener un efecto sinérgico con estos fármacos (riesgo de hipoglucemia); vigilar la glucosa.",
+          "en": "Goji root bark might lower blood sugar and have a synergistic effect with these drugs (risk of hypoglycemia); monitor blood sugar."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/supplements/goji.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "La corteza de raíz puede bajar la tensión arterial; junto con estos fármacos podría bajarla demasiado. Vigilar la tensión.",
+          "en": "The root bark may lower blood pressure; with these drugs it could drop too low. Monitor blood pressure."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://vital.ly/trc/Goji/monograph=610"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/DiGuPi.html",
+      "https://acupuncturetoday.com/herbs-and-botanicals/lycium-bark-di-gu-pi",
+      "https://pesquisa.bvsalud.org/gim/resource/en/wpr-888045",
+      "https://www.rxlist.com/supplements/goji.htm",
+      "https://vital.ly/trc/Goji/monograph=610"
+    ]
+  },
+  {
+    "ref": "HRB-017",
+    "nombre": {
+      "es": "Corteza de eucomia (du zhong)",
+      "en": "Eucommia bark (du zhong)"
+    },
+    "latin": "Eucommia ulmoides",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se conocen efectos secundarios importantes ni toxicidad por sobredosis. Puede bajar la tensión arterial, por lo que conviene consultar si se toman antihipertensivos. Puede causar reacciones en personas alérgicas al látex. Información orientativa.",
+      "en": "No significant side effects or overdose toxicity are known. It may lower blood pressure, so check with a professional if you take blood pressure medicines. It may cause reactions in people allergic to latex. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia o sensibilidad al látex (aviso de la TGA australiana).",
+        "Según la medicina china: deficiencia de Yin con calor; tradicionalmente antagoniza con xuan shen."
+      ],
+      "en": [
+        "Latex allergy or sensitivity (Australian TGA warning).",
+        "According to Chinese medicine: Yin deficiency with heat; traditionally antagonizes xuan shen."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia. En medicina china se usa en algunos casos de embarazo, pero se contraindica cuando hay sensación de peso o hundimiento abdominal; consulte a un profesional.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding. In Chinese medicine it is used in some pregnancy cases, but it is contraindicated when there is a dragging or sinking sensation in the abdomen; consult a professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Por su efecto sobre la tensión arterial (demostrado en animales), podría sumarse a estos fármacos y bajarla en exceso; no hay estudios de interacción en personas.",
+          "en": "Because of its effect on blood pressure (shown in animals), it could add to these drugs and lower it too much; there are no interaction studies in people."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://acupuncturetoday.com/herbs-and-botanicals/eucommia-bark-du-zhong"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://acupuncturetoday.com/herbs-and-botanicals/eucommia-bark-du-zhong",
+      "https://www.americandragon.com/Individualherbsupdate/DuZhong.html",
+      "https://www.drugs.com/npp/du-zhong.html",
+      "https://www.tga.gov.au/news/safety-alerts/medicines-containing-eucommia-ulmoides-known-du-zhong-or-tu-chung"
+    ]
+  },
+  {
+    "ref": "HRB-018",
+    "nombre": {
+      "es": "Raíz de saposhnikovia (fang feng)",
+      "en": "Saposhnikovia root (fang feng)"
+    },
+    "latin": "Saposhnikovia divaricata",
+    "grupo": "china",
+    "resumen": {
+      "es": "Hierba de uso común en fórmulas chinas. No se han encontrado interacciones con medicamentos documentadas ni fichas de seguridad en las fuentes de referencia. Información orientativa.",
+      "en": "An herb commonly used in Chinese formulas. No documented interactions with medicines or safety monographs were found in the reference sources. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Según la medicina china: espasmos por deficiencia de sangre, convulsiones posparto, deficiencia de Yin con calor y cefalea por ascenso del Yang o viento de Hígado.",
+        "Sudoración espontánea por deficiencia de Qi; tradicionalmente incompatible con li lu (Veratrum)."
+      ],
+      "en": [
+        "According to Chinese medicine: spasms from blood deficiency, postpartum seizures, Yin deficiency with heat and headache from rising Liver Yang or Liver wind.",
+        "Spontaneous sweating from Qi deficiency; traditionally incompatible with li lu (Veratrum)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontró información fiable sobre su seguridad en el embarazo ni en la lactancia; consulte a un profesional.",
+      "en": "No reliable information was found on its safety during pregnancy or breastfeeding; consult a professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/FangFeng.html"
+    ]
+  },
+  {
+    "ref": "HRB-019",
+    "nombre": {
+      "es": "Poria (fu ling)",
+      "en": "Poria (fu ling)"
+    },
+    "latin": "Wolfiporia extensa (Poria cocos)",
+    "grupo": "china",
+    "resumen": {
+      "es": "Se considera de baja toxicidad, aunque no hay información fiable suficiente sobre su seguridad y puede causar alergias. Es diurética y podría sumarse a diuréticos y sedantes. Información orientativa.",
+      "en": "It is considered low in toxicity, although there is not enough reliable safety information and it may cause allergies. It is a diuretic and might add to diuretics and sedatives. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la poria.",
+        "Suspender al menos 2 semanas antes de una cirugía programada (podría sumarse a la anestesia).",
+        "Precaución en micción frecuente o abundante, espermatorrea o prolapso de órganos urogenitales; no usar en dosis altas ni de forma prolongada."
+      ],
+      "en": [
+        "Allergy to poria.",
+        "Stop at least 2 weeks before scheduled surgery (it might add to anesthesia).",
+        "Caution with frequent or copious urination, spermatorrhea or urogenital prolapse; do not use in large doses or long term."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia; se recomienda evitarla.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Sedantes y depresores del sistema nervioso (benzodiacepinas, barbitúricos, somníferos)",
+          "en": "Sedatives and nervous system depressants (benzodiazepines, barbiturates, sleep medicines)"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "El extracto podría causar somnolencia y respiración lenta; junto con sedantes podría producir somnolencia excesiva.",
+          "en": "The extract might cause sleepiness and slowed breathing; with sedatives it could cause excessive drowsiness."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.vital.ly/trc/Poria-mushroom/monograph=1066/"
+      },
+      {
+        "farmaco": {
+          "es": "Anticolinérgicos (p. ej., atropina, escopolamina, algunos antihistamínicos y antidepresivos)",
+          "en": "Anticholinergic drugs (e.g., atropine, scopolamine, some antihistamines and antidepressants)"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "El aceite esencial de poria podría aumentar la acetilcolina y reducir el efecto de estos fármacos.",
+          "en": "Poria essential oil might increase acetylcholine and reduce the effect of these drugs."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.vital.ly/trc/Poria-mushroom/monograph=1066/"
+      },
+      {
+        "farmaco": {
+          "es": "Colinérgicos (para glaucoma o Alzheimer, p. ej., donepezilo, pilocarpina)",
+          "en": "Cholinergic drugs (for glaucoma or Alzheimer disease, e.g., donepezil, pilocarpine)"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "Al poder aumentar la acetilcolina, podría incrementar los efectos secundarios de estos fármacos.",
+          "en": "Because it may increase acetylcholine, it could increase the side effects of these drugs."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.vital.ly/trc/Poria-mushroom/monograph=1066/"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos (hidroclorotiazida, furosemida, bumetanida, torasemida)",
+          "en": "Diuretics (hydrochlorothiazide, furosemide, bumetanide, torsemide)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Juntos podrían aumentar la pérdida de agua y electrolitos.",
+          "en": "Together they may increase the loss of water and electrolytes."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/FuLing.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.vital.ly/trc/Poria-mushroom/monograph=1066/",
+      "https://www.americandragon.com/Individualherbsupdate/FuLing.html",
+      "https://www.drugs.com/npp/poria.html"
+    ]
+  },
+  {
+    "ref": "HRB-020",
+    "nombre": {
+      "es": "Poria con raíz de pino (fu shen)",
+      "en": "Poria with pine root (fu shen)"
+    },
+    "latin": "Wolfiporia extensa (Poria cocos), Sclerotium Pararadicis",
+    "grupo": "china",
+    "resumen": {
+      "es": "Es la parte de la poria que rodea la raíz de pino; se considera muy segura y suele aplicarse la información de la poria (fu ling). No hay estudios específicos de interacciones; ver las precauciones de la poria con sedantes y diuréticos. Información orientativa.",
+      "en": "It is the part of poria that surrounds the pine root; it is considered very safe and poria (fu ling) information usually applies. There are no specific interaction studies; see poria's cautions with sedatives and diuretics. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la poria.",
+        "Precaución en micción excesiva, espermatorrea por frío-deficiencia o deficiencia de Yin sin humedad."
+      ],
+      "en": [
+        "Allergy to poria.",
+        "Caution with excessive urination, spermatorrhea from deficiency-cold, or Yin deficiency without dampness."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información sobre su seguridad en el embarazo ni en la lactancia; se recomienda evitarla.",
+      "en": "There is no information on its safety during pregnancy or breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/fu-shen.php",
+      "https://www.drugs.com/npp/poria.html",
+      "https://webprod.hc-sc.gc.ca/nhpid-bdipsn/dbImages/mono_poria-wolfiporia-extensa_en.pdf"
+    ]
+  },
+  {
+    "ref": "HRB-021",
+    "nombre": {
+      "es": "Raíz de regaliz chino (gan cao)",
+      "en": "Chinese licorice root (gan cao)"
+    },
+    "latin": "Glycyrrhiza uralensis",
+    "grupo": "china",
+    "resumen": {
+      "es": "Es segura como ingrediente alimentario, pero su componente glicirricina, en dosis altas o uso prolongado, puede subir la tensión, bajar el potasio y causar arritmias graves. Interactúa con varios fármacos cardiacos, diuréticos y corticoides. Información orientativa.",
+      "en": "It is safe as a food ingredient, but its component glycyrrhizin, at high doses or with long-term use, can raise blood pressure, lower potassium and cause serious arrhythmias. It interacts with several heart drugs, diuretics and corticosteroids. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Hipertensión arterial, enfermedades del corazón o del riñón, potasio bajo (hipopotasemia) o retención de líquidos.",
+        "Dietas con mucha sal: incluso pequeñas cantidades se han asociado a efectos graves.",
+        "Evitar dosis altas o uso prolongado; los productos desglicirricinados son más seguros (hasta unos 4 meses).",
+        "Tradicionalmente incompatible con gan sui, da ji, yuan hua y hai zao."
+      ],
+      "en": [
+        "High blood pressure, heart or kidney disease, low potassium (hypokalemia) or fluid retention.",
+        "High-salt diets: even small amounts have been linked to serious effects.",
+        "Avoid high doses or long-term use; deglycyrrhizinated products are safer (up to about 4 months).",
+        "Traditionally incompatible with gan sui, da ji, yuan hua and hai zao."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Consumir grandes cantidades en el embarazo (unos 250 g de regaliz por semana) no es seguro y se asocia a parto prematuro. No hay datos suficientes sobre la lactancia; evitar dosis medicinales.",
+      "en": "Consuming large amounts during pregnancy (about 250 g of licorice per week) is unsafe and is linked to preterm birth. There are not enough data on breastfeeding; avoid medicinal doses."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Digoxina y otros glucósidos cardiacos",
+          "en": "Digoxin and other cardiac glycosides"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Al bajar el potasio, el regaliz puede aumentar la toxicidad de estos fármacos de forma peligrosa.",
+          "en": "By lowering potassium, licorice may dangerously increase the toxicity of these drugs."
+        },
+        "severidad": "alta",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos que eliminan potasio (furosemida, hidroclorotiazida)",
+          "en": "Potassium-wasting diuretics (furosemide, hydrochlorothiazide)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Juntos aumentan el riesgo de potasio bajo en sangre (hipopotasemia).",
+          "en": "Together they increase the risk of low blood potassium (hypokalemia)."
+        },
+        "severidad": "alta",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "El regaliz sube la tensión arterial y puede reducir la eficacia de estos fármacos.",
+          "en": "Licorice raises blood pressure and may reduce the effectiveness of these drugs."
+        },
+        "severidad": "alta",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Corticosteroides (hidrocortisona, acetato de cortisol, prednisolona)",
+          "en": "Corticosteroids (hydrocortisone, cortisol acetate, prednisolone)"
+        },
+        "clase": "hormonas",
+        "efecto": {
+          "es": "El regaliz aumenta la disponibilidad del cortisol y puede potenciar los efectos de los corticoides.",
+          "en": "Licorice increases cortisol availability and may enhance the effects of corticosteroids."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.nccih.nih.gov/health/licorice-root"
+      },
+      {
+        "farmaco": {
+          "es": "Warfarina y otros anticoagulantes cumarínicos (fenprocumón)",
+          "en": "Warfarin and other coumarin anticoagulants (phenprocoumon)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría acelerar la eliminación de la warfarina (en ratas) y se describió un caso de caída brusca del INR con fenprocumón; vigilar el INR.",
+          "en": "It might speed up warfarin clearance (in rats), and a case of a sudden drop in INR with phenprocoumon was reported; monitor INR."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Ciclosporina",
+          "en": "Cyclosporine"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "Redujo mucho la absorción oral de la ciclosporina al activar la P-gp y el CYP3A4; importancia clínica desconocida.",
+          "en": "It greatly reduced the oral bioavailability of cyclosporine by activating P-gp and CYP3A4; clinical relevance is unknown."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Metformina e insulina",
+          "en": "Metformin and insulin"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "En ratas, el zumo de regaliz redujo la eficacia de la metformina; también podría aumentar la sensibilidad a la insulina. Importancia clínica desconocida.",
+          "en": "In rats, licorice juice reduced the efficacy of metformin; it might also increase insulin sensitivity. Clinical relevance is unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos que usan CYP3A4, CYP2D6 o P-gp (p. ej., daunorubicina)",
+          "en": "Drugs that use CYP3A4, CYP2D6 or P-gp (e.g., daunorubicin)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Sus componentes pueden inducir o inhibir estas enzimas en el laboratorio; un estudio en personas con un extracto estandarizado no halló interacciones relevantes con CYP3A4.",
+          "en": "Its components can induce or inhibit these enzymes in the lab; a human study with a standardized extract found no relevant interactions with CYP3A4."
+        },
+        "severidad": "baja",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      },
+      {
+        "farmaco": {
+          "es": "Antidepresivos IMAO",
+          "en": "MAO inhibitor antidepressants"
+        },
+        "clase": "antidepresivos",
+        "efecto": {
+          "es": "En el laboratorio el regaliz potenció la actividad de los IMAO; importancia clínica desconocida.",
+          "en": "In the lab, licorice enhanced MAOI activity; clinical relevance is unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice",
+      "https://www.nccih.nih.gov/health/licorice-root",
+      "https://www.clevelandclinicmeded.com/medicalpubs/pharmacy/MarApr2001/herbs_cardiac.htm"
+    ]
+  },
+  {
+    "ref": "HRB-022",
+    "nombre": {
+      "es": "Galanga menor (gao liang jiang)",
+      "en": "Lesser galangal (gao liang jiang)"
+    },
+    "latin": "Alpinia officinarum",
+    "grupo": "china",
+    "resumen": {
+      "es": "Especia de uso culinario y medicinal; no se han descrito efectos secundarios en dosis habituales, aunque hay pocos estudios. No se han encontrado interacciones con medicamentos documentadas. Información orientativa.",
+      "en": "A culinary and medicinal spice; no side effects have been reported at usual doses, although there are few studies. No documented interactions with medicines were found. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Según la medicina china: deficiencia de Yin con calor, calor excesivo, vómitos por fuego de Estómago y diarrea por calor.",
+        "Puede resultar irritante en personas débiles; en ese caso se combina con tónicos."
+      ],
+      "en": [
+        "According to Chinese medicine: Yin deficiency with heat, excess heat, vomiting from Stomach fire and heat-type diarrhea.",
+        "It can be irritating in weak people; in that case it is combined with tonics."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Falta información sobre su seguridad en el embarazo y la lactancia; evitar dosis medicinales (las cantidades culinarias son otra cuestión).",
+      "en": "Information on its safety in pregnancy and breastfeeding is lacking; avoid medicinal doses (culinary amounts are a different matter)."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/GaoLiangJiang.html",
+      "https://drugs.com/npp/galangal.html",
+      "https://traditional.sbmu.ac.ir/uploads/251/2025/May/01/Lesser galangal.pdf"
+    ]
+  },
+  {
+    "ref": "HRB-023",
+    "nombre": {
+      "es": "Raíz de kudzu (ge gen)",
+      "en": "Kudzu root (ge gen)"
+    },
+    "latin": "Pueraria lobata",
+    "grupo": "china",
+    "resumen": {
+      "es": "Posiblemente segura por vía oral hasta 4 meses. Puede actuar como estrógeno, bajar el azúcar y hacer más lenta la coagulación; se han descrito casos aislados de daño hepático y renal. Información orientativa.",
+      "en": "Possibly safe by mouth for up to 4 months. It may act like estrogen, lower blood sugar and slow blood clotting; isolated cases of liver and kidney injury have been reported. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Cánceres o afecciones sensibles a hormonas (cáncer de mama con receptores de estrógeno, útero u ovario, endometriosis, miomas).",
+        "Alergia al kudzu.",
+        "Diabetes: vigilar la glucosa; suspender al menos 2 semanas antes de una cirugía programada.",
+        "Según la medicina china: frío por deficiencia de Bazo y Estómago y sudoración excesiva por deficiencia del exterior."
+      ],
+      "en": [
+        "Hormone-sensitive cancers or conditions (estrogen receptor-positive breast cancer, uterine or ovarian cancer, endometriosis, fibroids).",
+        "Allergy to kudzu.",
+        "Diabetes: monitor blood sugar; stop at least 2 weeks before scheduled surgery.",
+        "According to Chinese medicine: cold from Spleen and Stomach deficiency and excessive sweating from exterior deficiency."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad en el embarazo ni en la lactancia; se recomienda evitarla.",
+      "en": "There is no reliable information on its safety during pregnancy or breastfeeding; avoiding it is recommended."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Tamoxifeno",
+          "en": "Tamoxifen"
+        },
+        "clase": "quimioterapia",
+        "efecto": {
+          "es": "Por su actividad parecida al estrógeno podría contrarrestar el tamoxifeno; no tomar kudzu si se usa tamoxifeno.",
+          "en": "Because of its estrogen-like activity it might counteract tamoxifen; do not take kudzu if you use tamoxifen."
+        },
+        "severidad": "alta",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/supplements/kudzu.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Metotrexato",
+          "en": "Methotrexate"
+        },
+        "clase": "quimioterapia",
+        "efecto": {
+          "es": "En animales, la raíz de kudzu redujo la eliminación del metotrexato y aumentó sus niveles, con más riesgo de efectos secundarios.",
+          "en": "In animals, kudzu root reduced methotrexate elimination and raised its levels, increasing the risk of side effects."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/kudzu"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, heparina, aspirina, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, heparin, aspirin, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "El kudzu podría hacer más lenta la coagulación; juntos pueden aumentar moretones y sangrado.",
+          "en": "Kudzu might slow blood clotting; together they may increase bruising and bleeding."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/supplements/kudzu.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Anticonceptivos orales y estrógenos",
+          "en": "Birth control pills and estrogens"
+        },
+        "clase": "hormonas",
+        "efecto": {
+          "es": "Sus efectos parecidos al estrógeno podrían reducir la eficacia de los anticonceptivos (usar un método de respaldo) e interferir con los estrógenos.",
+          "en": "Its estrogen-like effects might reduce the effectiveness of birth control pills (use a backup method) and interfere with estrogens."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/supplements/kudzu.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos que pueden dañar el hígado (algunas estatinas, ketoconazol, metotrexato)",
+          "en": "Drugs that can harm the liver (some statins, ketoconazole, methotrexate)"
+        },
+        "clase": "hepatotoxicos",
+        "efecto": {
+          "es": "El kudzu podría dañar el hígado; combinarlo con estos fármacos podría aumentar ese riesgo.",
+          "en": "Kudzu might harm the liver; combining it with these drugs could increase that risk."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.rxlist.com/supplements/kudzu.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glipizida, glibenclamida)",
+          "en": "Diabetes medicines (insulin, glipizide, glyburide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede bajar el azúcar en sangre y sumarse a estos fármacos; vigilar la glucosa.",
+          "en": "It may lower blood sugar and add to these drugs; monitor blood sugar."
+        },
+        "severidad": "baja",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/supplements/kudzu.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP2D6 y CYP1A2",
+          "en": "Drugs metabolized by CYP2D6 and CYP1A2"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En el laboratorio, la puerarina inhibe el CYP2D6 e induce el CYP1A2, lo que podría alterar el metabolismo de estos fármacos; importancia clínica no determinada.",
+          "en": "In the lab, puerarin inhibits CYP2D6 and induces CYP1A2, which might alter the metabolism of these drugs; clinical relevance has not been determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/kudzu"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/kudzu",
+      "https://www.rxlist.com/supplements/kudzu.htm",
+      "https://www.americandragon.com/Individualherbsupdate/GeGen.html"
+    ]
+  },
+  {
+    "ref": "HRB-024",
+    "nombre": {
+      "es": "Baya de goji (gou qi zi)",
+      "en": "Goji berry (gou qi zi)"
+    },
+    "latin": "Lycium barbarum",
+    "grupo": "china",
+    "resumen": {
+      "es": "El fruto es posiblemente seguro a corto plazo (hasta 15 g al día durante 4 meses); puede causar náuseas o alergias. Su combinación con warfarina debe evitarse por casos de INR elevado y sangrado. Información orientativa.",
+      "en": "The fruit is possibly safe in the short term (up to 15 g daily for 4 months); it may cause nausea or allergies. Combining it with warfarin should be avoided because of cases of raised INR and bleeding. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a proteínas de transferencia de lípidos o a tabaco, melocotón, tomate o frutos secos.",
+        "Tensión arterial baja (puede bajarla más).",
+        "Según la medicina china: enfermedades febriles agudas y deficiencia de Bazo con heces sueltas."
+      ],
+      "en": [
+        "Allergy to lipid transfer proteins or to tobacco, peaches, tomatoes or nuts.",
+        "Low blood pressure (it may lower it further).",
+        "According to Chinese medicine: acute febrile illness and Spleen deficiency with loose stools."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se recomienda evitarla en el embarazo y la lactancia: podría provocar contracciones uterinas y contiene betaína; no hay datos fiables de seguridad.",
+      "en": "Avoiding it during pregnancy and breastfeeding is recommended: it might cause uterine contractions and contains betaine; there are no reliable safety data."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina y otros anticoagulantes",
+          "en": "Warfarin and other anticoagulants"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Se han descrito varios casos de INR elevado y sangrado al tomar té concentrado, zumo o vino de goji con warfarina. Evitar la combinación; si ocurre, vigilar el INR.",
+          "en": "Several cases of raised INR and bleeding have been reported when concentrated goji tea, juice or wine was taken with warfarin. Avoid the combination; if it happens, monitor INR."
+        },
+        "severidad": "alta",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium"
+      },
+      {
+        "farmaco": {
+          "es": "Flecainida",
+          "en": "Flecainide"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Se describió un caso de toxicidad por flecainida (arritmia) en una mujer que tomaba té de goji, probablemente por inhibición del CYP2D6.",
+          "en": "A case of flecainide toxicity (arrhythmia) was reported in a woman drinking goji tea, probably through CYP2D6 inhibition."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167332"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP2C9, CYP2C19 y CYP3A4 (p. ej., ibuprofeno, fenitoína)",
+          "en": "Drugs metabolized by CYP2C9, CYP2C19 and CYP3A4 (e.g., ibuprofen, phenytoin)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En el laboratorio, el goji inhibe CYP2C9 y CYP2C19 e induce CYP3A4, lo que podría alterar los niveles de estos fármacos; importancia clínica por determinar.",
+          "en": "In the lab, goji inhibits CYP2C9 and CYP2C19 and induces CYP3A4, which might alter levels of these drugs; clinical relevance is yet to be determined."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium"
+      },
+      {
+        "farmaco": {
+          "es": "Antihipertensivos (losartán, amlodipino, furosemida)",
+          "en": "Blood pressure medicines (losartan, amlodipine, furosemide)"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "El goji parece bajar la tensión; junto con estos fármacos podría bajarla demasiado.",
+          "en": "Goji seems to lower blood pressure; with these drugs it could lower it too much."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/supplements/goji.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glipizida, glimepirida)",
+          "en": "Diabetes medicines (insulin, glipizide, glimepiride)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Podría bajar el azúcar en sangre y sumarse a estos fármacos; vigilar la glucosa.",
+          "en": "It might lower blood sugar and add to these drugs; monitor blood sugar."
+        },
+        "severidad": "baja",
+        "evidencia": "teorica",
+        "fuente": "https://vital.ly/trc/Goji/monograph=610"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lycium",
+      "https://www.rxlist.com/supplements/goji.htm",
+      "https://vital.ly/trc/Goji/monograph=610",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8167332"
+    ]
+  },
+  {
+    "ref": "HRB-025",
+    "nombre": {
+      "es": "Uña de gato china (gou teng)",
+      "en": "Chinese cat's claw / uncaria (gou teng)"
+    },
+    "latin": "Uncaria rhynchophylla",
+    "grupo": "china",
+    "resumen": {
+      "es": "Hierba tradicional para bajar la tensión y calmar; hay pocos datos en personas. Puede sumarse a los medicamentos para la tensión arterial. Información orientativa.",
+      "en": "A traditional herb used to lower blood pressure and calm; there are few data in people. It may add to blood pressure medicines. This is general guidance."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Tensión arterial baja (usar con precaución).",
+        "No usar sola en dosis máximas durante más de cuatro semanas seguidas.",
+        "Según la medicina china: patrones de frío y deficiencia sin calor ni viento de Hígado. Se añade al final de la decocción."
+      ],
+      "en": [
+        "Low blood pressure (use with caution).",
+        "Do not use alone at maximum dose for more than four weeks in a row.",
+        "According to Chinese medicine: cold and deficiency patterns without heat or Liver wind. It is added at the end of decoction."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Su seguridad en el embarazo y la lactancia no está establecida; se recomienda evitarla salvo indicación de un profesional cualificado.",
+      "en": "Its safety during pregnancy and breastfeeding has not been established; avoiding it is recommended unless a qualified practitioner advises otherwise."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "El gou teng baja la tensión arterial y puede tener un efecto aditivo con estos fármacos; avise a su médico.",
+          "en": "Gou teng lowers blood pressure and may have an additive effect with these drugs; tell your doctor."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/gou-teng.php"
+      },
+      {
+        "farmaco": {
+          "es": "Sedantes y calmantes potentes",
+          "en": "Sedatives and strong calming drugs"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "Se aconseja precaución al combinarla con sedantes; sin embargo, una fuente clínica indica que no potencia el efecto sedante de los barbitúricos.",
+          "en": "Caution is advised when combining it with sedatives; however, a clinical source states that it does not potentiate the sedative effect of barbiturates."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://vitalibrary.com/gou-teng-properties-uses-safety/"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/gou-teng.php",
+      "https://www.americandragon.com/Individualherbsupdate/GouTeng.html",
+      "https://vitalibrary.com/gou-teng-properties-uses-safety/"
+    ]
+  }
+]

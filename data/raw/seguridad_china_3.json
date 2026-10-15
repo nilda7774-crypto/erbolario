@@ -1,0 +1,1475 @@
+[
+  {
+    "ref": "HRB-051",
+    "nombre": {
+      "es": "Verdolaga (ma chi xian)",
+      "en": "Purslane (ma chi xian)"
+    },
+    "latin": "Portulaca oleracea",
+    "grupo": "china",
+    "resumen": {
+      "es": "Planta que también se come como verdura y se considera segura en cantidades de alimento. No se encontraron interacciones con fármacos documentadas en las fuentes consultadas. Información orientativa.",
+      "en": "A plant also eaten as a vegetable and considered safe in food amounts. No documented drug interactions were found in the sources consulted. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo (la medicina china tradicional la contraindica y señala que puede favorecer el aborto).",
+        "Personas con cálculos renales o problemas renales: contiene muchos oxalatos; no consumir en exceso."
+      ],
+      "en": [
+        "Pregnancy (traditional Chinese medicine contraindicates it and notes it may promote miscarriage).",
+        "People with kidney stones or kidney problems: it is high in oxalates; avoid eating too much."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el embarazo según la medicina china tradicional. No hay datos sobre la lactancia.",
+      "en": "Contraindicated in pregnancy according to traditional Chinese medicine. No data on breastfeeding."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/MaChiXian.html",
+      "https://mdc.mo.gov/discover-nature/field-guide/common-purslane"
+    ]
+  },
+  {
+    "ref": "HRB-052",
+    "nombre": {
+      "es": "Ofiopogon (mai men dong)",
+      "en": "Ophiopogon (mai men dong)"
+    },
+    "latin": "Ophiopogon japonicus",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se describe toxicidad en las fuentes tradicionales. Un componente de la raíz inhibe varias enzimas hepáticas que metabolizan fármacos en estudios de laboratorio, sin datos en personas. Información orientativa.",
+      "en": "No toxicity is described in traditional sources. A root constituent inhibits several liver enzymes that metabolize drugs in laboratory studies, with no human data. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Diarrea por frío de tipo deficiencia (medicina china tradicional).",
+        "Flema o mucosidad acumulada en pulmones o estómago.",
+        "Tos aguda por viento-frío en su fase inicial."
+      ],
+      "en": [
+        "Diarrhea due to deficiency cold (traditional Chinese medicine).",
+        "Accumulated phlegm or mucus in the lungs or stomach.",
+        "Early-stage acute wind-cold cough."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A, CYP2C9, CYP2C19, CYP1A2 y CYP2D6",
+          "en": "Drugs metabolized by CYP3A, CYP2C9, CYP2C19, CYP1A2 and CYP2D6"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "La metilofiopogonanona A, un componente principal, inhibió estas enzimas en microsomas hepáticos humanos; podría alterar los niveles de esos fármacos. No se ha confirmado en personas.",
+          "en": "Methylophiopogonanone A, a major constituent, inhibited these enzymes in human liver microsomes; it could alter levels of those drugs. Not confirmed in people."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://dmd.aspetjournals.org/content/49/6/459.full"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/MaiMenDong.html",
+      "https://dmd.aspetjournals.org/content/49/6/459.full"
+    ]
+  },
+  {
+    "ref": "HRB-053",
+    "nombre": {
+      "es": "Fruto de vitex (man jing zi)",
+      "en": "Vitex fruit (man jing zi)"
+    },
+    "latin": "Vitex rotundifolia / Vitex trifolia",
+    "grupo": "china",
+    "resumen": {
+      "es": "Las fuentes consultadas solo recogen precauciones de la medicina china tradicional; no se encontraron interacciones con fármacos documentadas. No confundir con el sauzgatillo europeo (Vitex agnus-castus). Información orientativa.",
+      "en": "The sources consulted only list traditional Chinese medicine cautions; no documented drug interactions were found. Do not confuse with European chasteberry (Vitex agnus-castus). For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Precaución en dolor de cabeza o problemas oculares por deficiencia de yin o de sangre.",
+        "Precaución en deficiencia de qi del bazo y el estómago (medicina china tradicional)."
+      ],
+      "en": [
+        "Caution with headache or eye problems due to yin or blood deficiency.",
+        "Caution in spleen and stomach qi deficiency (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ManJingZi.html"
+    ]
+  },
+  {
+    "ref": "HRB-054",
+    "nombre": {
+      "es": "Corteza de peonía arbórea (mu dan pi)",
+      "en": "Tree peony root bark (mu dan pi)"
+    },
+    "latin": "Paeonia suffruticosa",
+    "grupo": "china",
+    "resumen": {
+      "es": "Contraindicada en el embarazo según la medicina china tradicional. Sus componentes (como el peonol) inhiben la agregación de plaquetas y la coagulación en estudios de laboratorio, por lo que se aconseja precaución con anticoagulantes. Información orientativa.",
+      "en": "Contraindicated in pregnancy according to traditional Chinese medicine. Its constituents (such as paeonol) inhibit platelet aggregation and blood clotting in laboratory studies, so caution is advised with anticoagulants. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo.",
+        "Menstruación abundante que no se deba a calor con estancamiento de sangre.",
+        "Patrones de frío y estómago débil (medicina china tradicional)."
+      ],
+      "en": [
+        "Pregnancy.",
+        "Heavy menstruation not due to blood heat with blood stasis.",
+        "Cold patterns and weak stomach (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el embarazo. No hay datos sobre la lactancia.",
+      "en": "Contraindicated in pregnancy. No data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, heparina, aspirina, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, heparin, aspirin, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría aumentar el riesgo de sangrado, ya que la peonía mostró efectos antiplaquetarios y anticoagulantes en el laboratorio. No hay casos descritos en personas.",
+          "en": "May increase the risk of bleeding, since peony showed antiplatelet and anticoagulant effects in the laboratory. No cases have been described in people."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://hellopharmacist.com/drug-herbal-interactions/peony-with-warfarin"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/MuDanPi.html",
+      "https://hellopharmacist.com/drug-herbal-interactions/peony-with-warfarin",
+      "https://www.imrpress.com/journal/Pharmazie/65/8/10.1691/ph.2010.9870"
+    ]
+  },
+  {
+    "ref": "HRB-055",
+    "nombre": {
+      "es": "Membrillero chino (mu gua)",
+      "en": "Chinese quince (mu gua)"
+    },
+    "latin": "Chaenomeles speciosa",
+    "grupo": "china",
+    "resumen": {
+      "es": "Las fuentes consultadas solo recogen precauciones tradicionales; no se encontraron interacciones con fármacos documentadas. El uso excesivo podría dañar dientes y huesos según la tradición. Información orientativa.",
+      "en": "The sources consulted only list traditional cautions; no documented drug interactions were found. Traditionally, excessive use may harm teeth and bones. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Exceso de ácido en el estómago (hiperclorhidria).",
+        "Calor interno con orina escasa y oscura.",
+        "Debilidad de espalda baja y rodillas por deficiencia de esencia, sangre o yin (medicina china tradicional).",
+        "Uso excesivo o prolongado."
+      ],
+      "en": [
+        "Excess stomach acid (hyperchlorhydria).",
+        "Internal heat with scanty, dark urine.",
+        "Lower back and knee weakness due to essence, blood or yin deficiency (traditional Chinese medicine).",
+        "Excessive or prolonged use."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/MuGua.html"
+    ]
+  },
+  {
+    "ref": "HRB-056",
+    "nombre": {
+      "es": "Concha de ostra (mu li)",
+      "en": "Oyster shell (mu li)"
+    },
+    "latin": "Ostrea gigas (Concha Ostreae)",
+    "grupo": "china",
+    "resumen": {
+      "es": "Es sobre todo carbonato de calcio. En dosis altas puede causar indigestión y estreñimiento. Como cualquier suplemento de calcio, conviene separarla de otros medicamentos orales. Información orientativa.",
+      "en": "It is mostly calcium carbonate. High doses may cause indigestion and constipation. Like any calcium supplement, it is best taken apart from other oral medicines. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Patrones de frío por deficiencia y deficiencia de riñón sin fuego (medicina china tradicional).",
+        "Fiebre alta por exceso sin sudor.",
+        "Dosis altas: indigestión y estreñimiento."
+      ],
+      "en": [
+        "Deficiency-cold patterns and kidney deficiency without fire (traditional Chinese medicine).",
+        "High fever from excess without sweating.",
+        "High doses: indigestion and constipation."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Medicamentos orales en general",
+          "en": "Oral medicines in general"
+        },
+        "clase": "absorcion",
+        "efecto": {
+          "es": "Su componente principal, el carbonato de calcio, puede reducir la eficacia de otros medicamentos; se recomienda no tomarlos con 1-2 horas de diferencia. Es una extrapolación desde el carbonato de calcio, no un estudio con la concha.",
+          "en": "Its main component, calcium carbonate, may reduce the effectiveness of other medicines; it is advised not to take them within 1-2 hours of each other. This is extrapolated from calcium carbonate, not a study with the shell."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://medlineplus.gov/druginfo/meds/a601032.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/MuLi.html",
+      "https://en.5000yan.com/chinese-herbs/animals/concha-ostreae.html",
+      "https://medlineplus.gov/druginfo/meds/a601032.html"
+    ]
+  },
+  {
+    "ref": "HRB-057",
+    "nombre": {
+      "es": "Fruto de bardana (niu bang zi)",
+      "en": "Burdock fruit (niu bang zi)"
+    },
+    "latin": "Arctium lappa",
+    "grupo": "china",
+    "resumen": {
+      "es": "Puede bajar el azúcar en sangre, por lo que se aconseja precaución con antidiabéticos. Puede causar alergia en personas sensibles a la familia de las margaritas. Información orientativa.",
+      "en": "It may lower blood sugar, so caution is advised with diabetes medicines. It may cause allergy in people sensitive to the daisy family. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a plantas de la familia Asteraceae (ambrosía, crisantemo, margaritas).",
+        "Precaución en diarrea y deficiencia de qi (medicina china tradicional).",
+        "Llagas abiertas ya supuradas.",
+        "Trastornos de la coagulación; suspender 2 semanas antes de una cirugía."
+      ],
+      "en": [
+        "Allergy to plants of the Asteraceae family (ragweed, chrysanthemum, daisies).",
+        "Caution with diarrhea and qi deficiency (traditional Chinese medicine).",
+        "Open sores that have already drained.",
+        "Bleeding disorders; stop 2 weeks before surgery."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo y la lactancia: la bardana podría estimular el útero y no hay datos de seguridad suficientes.",
+      "en": "Avoid during pregnancy and breastfeeding: burdock may stimulate the uterus and there is not enough safety data."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glipizida, glibenclamida, tolbutamida)",
+          "en": "Diabetes medicines (insulin, glipizide, glyburide, tolbutamide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede sumarse a su efecto y causar hipoglucemia (azúcar baja). Vigilar la glucosa.",
+          "en": "May add to their effect and cause hypoglycemia (low blood sugar). Monitor blood sugar."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/NiuBangZi.html"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, aspirina, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, aspirin, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "La bardana podría retrasar la coagulación y aumentar el riesgo de moretones y sangrado. El dato se refiere a la bardana en general, no específicamente al fruto.",
+          "en": "Burdock may slow blood clotting and increase the risk of bruising and bleeding. This refers to burdock in general, not specifically the fruit."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/burdock/supplements.htm"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/NiuBangZi.html",
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/burdock",
+      "https://www.rxlist.com/burdock/supplements.htm"
+    ]
+  },
+  {
+    "ref": "HRB-058",
+    "nombre": {
+      "es": "Raíz de aquirantes (niu xi)",
+      "en": "Achyranthes root (niu xi)"
+    },
+    "latin": "Achyranthes bidentata",
+    "grupo": "china",
+    "resumen": {
+      "es": "Contraindicada en el embarazo según la medicina china tradicional. No se encontraron interacciones con fármacos documentadas en las fuentes consultadas. Información orientativa.",
+      "en": "Contraindicated in pregnancy according to traditional Chinese medicine. No documented drug interactions were found in the sources consulted. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo.",
+        "Menstruación excesiva.",
+        "Diarrea por deficiencia del bazo y espermatorrea (medicina china tradicional)."
+      ],
+      "en": [
+        "Pregnancy.",
+        "Heavy menstruation.",
+        "Diarrhea due to spleen deficiency and spermatorrhea (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el embarazo. No hay datos sobre la lactancia.",
+      "en": "Contraindicated in pregnancy. No data on breastfeeding."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/NiuXi.html"
+    ]
+  },
+  {
+    "ref": "HRB-059",
+    "nombre": {
+      "es": "Fruto de ligustro (nu zhen zi)",
+      "en": "Glossy privet fruit (nu zhen zi)"
+    },
+    "latin": "Ligustrum lucidum",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se han descrito efectos adversos importantes; puede causar alergia en personas sensibles a la familia del olivo. Precaución con litio y antidiabéticos. Información orientativa.",
+      "en": "No important adverse effects have been reported; it may cause allergy in people sensitive to the olive family. Caution with lithium and diabetes medicines. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a plantas de la familia Oleaceae (olivo, fresno, lila, aligustre).",
+        "Diarrea por frío de deficiencia del bazo y deficiencia de yang (medicina china tradicional).",
+        "Dosis altas pueden causar diarrea."
+      ],
+      "en": [
+        "Allergy to plants of the Oleaceae family (olive, ash, lilac, privet).",
+        "Diarrhea due to spleen deficiency cold and yang deficiency (traditional Chinese medicine).",
+        "High doses may cause diarrhea."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay datos de seguridad suficientes; se aconseja evitarla en el embarazo y la lactancia.",
+      "en": "There is not enough safety data; avoiding it during pregnancy and breastfeeding is advised."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Litio",
+          "en": "Lithium"
+        },
+        "clase": "litio",
+        "efecto": {
+          "es": "Podría actuar como diurético y reducir la eliminación del litio, aumentando sus niveles y efectos adversos.",
+          "en": "May act as a diuretic and reduce lithium clearance, raising its levels and side effects."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/glossy_privet/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, sulfonilureas como glipizida o glibenclamida)",
+          "en": "Diabetes medicines (insulin, sulfonylureas such as glipizide or glyburide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Posible efecto sinérgico que podría causar hipoglucemia.",
+          "en": "Possible synergistic effect that could cause hypoglycemia."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/NuZhenZi.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ligustrum-lucidum",
+      "https://www.rxlist.com/glossy_privet/supplements.htm",
+      "https://www.americandragon.com/Individualherbsupdate/NuZhenZi.html"
+    ]
+  },
+  {
+    "ref": "HRB-060",
+    "nombre": {
+      "es": "Diente de león (pu gong ying)",
+      "en": "Dandelion (pu gong ying)"
+    },
+    "latin": "Taraxacum mongolicum / Taraxacum officinale",
+    "grupo": "china",
+    "resumen": {
+      "es": "Probablemente seguro en cantidades de alimento; puede causar acidez, diarrea leve o alergia. Tiene varias interacciones posibles, sobre todo con diuréticos, litio, antidiabéticos, algunos antibióticos e inmunosupresores. Información orientativa.",
+      "en": "Likely safe in food amounts; it may cause heartburn, mild diarrhea or allergy. It has several possible interactions, especially with diuretics, lithium, diabetes medicines, some antibiotics and immunosuppressants. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la ambrosía u otras plantas de la familia de las margaritas.",
+        "Trastornos de la coagulación.",
+        "Insuficiencia renal.",
+        "Deficiencia del Jiao Medio (medicina china tradicional)."
+      ],
+      "en": [
+        "Allergy to ragweed or other plants of the daisy family.",
+        "Bleeding disorders.",
+        "Kidney failure.",
+        "Middle Jiao deficiency (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se sabe poco sobre su seguridad en cantidades mayores que las de los alimentos; se aconseja evitar dosis medicinales en el embarazo y la lactancia.",
+      "en": "Little is known about its safety in amounts larger than those in food; avoiding medicinal doses during pregnancy and breastfeeding is advised."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antibióticos quinolonas (ciprofloxacino, levofloxacino)",
+          "en": "Quinolone antibiotics (ciprofloxacin, levofloxacin)"
+        },
+        "clase": "absorcion",
+        "efecto": {
+          "es": "Puede reducir la absorción del antibiótico y su eficacia.",
+          "en": "May reduce absorption of the antibiotic and its effectiveness."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/dandelion/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Litio",
+          "en": "Lithium"
+        },
+        "clase": "litio",
+        "efecto": {
+          "es": "Su efecto diurético podría reducir la eliminación del litio y elevar sus niveles.",
+          "en": "Its diuretic effect may reduce lithium clearance and raise its levels."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/dandelion/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos, en especial ahorradores de potasio (espironolactona, amilorida)",
+          "en": "Diuretics, especially potassium-sparing ones (spironolactone, amiloride)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Efecto diurético aditivo; además, su alto contenido en potasio podría elevar demasiado el potasio con los ahorradores de potasio.",
+          "en": "Additive diuretic effect; its high potassium content may also raise potassium too much with potassium-sparing diuretics."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glimepirida, glibenclamida)",
+          "en": "Diabetes medicines (insulin, glimepiride, glyburide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede sumar su efecto y bajar demasiado el azúcar; hay un caso descrito de hipoglucemia.",
+          "en": "May add to their effect and lower blood sugar too much; one case of hypoglycemia has been reported."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Inmunosupresores y otros fármacos metabolizados por CYP3A4",
+          "en": "Immunosuppressants and other drugs metabolized by CYP3A4"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "Puede inhibir CYP3A4 y elevar sus niveles; hay un caso de niveles tóxicos de inmunosupresor en un trasplantado renal que tomaba té de diente de león.",
+          "en": "May inhibit CYP3A4 and raise their levels; there is a case of toxic immunosuppressant levels in a kidney transplant recipient drinking dandelion tea."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2 (amitriptilina, haloperidol, teofilina, propranolol)",
+          "en": "Drugs metabolized by CYP1A2 (amitriptyline, haloperidol, theophylline, propranolol)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Podría frenar su degradación en el hígado y aumentar sus efectos.",
+          "en": "May slow their breakdown in the liver and increase their effects."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/dandelion/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos que se eliminan por glucuronidación (paracetamol, lorazepam, morfina, atorvastatina)",
+          "en": "Drugs cleared by glucuronidation (acetaminophen, lorazepam, morphine, atorvastatin)"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "Podría acelerar su eliminación y reducir su eficacia.",
+          "en": "May speed up their elimination and reduce their effectiveness."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/dandelion/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, aspirina, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, aspirin, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría retrasar la coagulación y aumentar el riesgo de sangrado.",
+          "en": "May slow blood clotting and increase the risk of bleeding."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/dandelion/supplements.htm"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion",
+      "https://www.rxlist.com/dandelion/supplements.htm",
+      "https://www.nccih.nih.gov/health/dandelion",
+      "https://www.americandragon.com/Individualherbsupdate/PuGongYing.html"
+    ]
+  },
+  {
+    "ref": "HRB-061",
+    "nombre": {
+      "es": "Genciana de hoja grande (qin jiao)",
+      "en": "Large-leaf gentian root (qin jiao)"
+    },
+    "latin": "Gentiana macrophylla",
+    "grupo": "china",
+    "resumen": {
+      "es": "En dosis altas puede causar náuseas y vómitos, y puede dar somnolencia. Se describe que potencia el efecto sedante de los barbitúricos. Información orientativa.",
+      "en": "High doses may cause nausea and vomiting, and it may cause drowsiness. It is reported to enhance the sedative effect of barbiturates. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Diarrea o heces sueltas por frío de deficiencia del bazo.",
+        "Micción frecuente.",
+        "Dolor crónico con adelgazamiento (medicina china tradicional)."
+      ],
+      "en": [
+        "Diarrhea or loose stools due to spleen deficiency cold.",
+        "Frequent urination.",
+        "Chronic pain with weight loss (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos de seguridad sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No safety data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Barbitúricos (fenobarbital)",
+          "en": "Barbiturates (phenobarbital)"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "Puede potenciar su efecto sedante y aumentar la somnolencia.",
+          "en": "May enhance their sedative effect and increase drowsiness."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/QinJiao.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/QinJiao.html"
+    ]
+  },
+  {
+    "ref": "HRB-062",
+    "nombre": {
+      "es": "Cáscara de mandarina verde (qing pi)",
+      "en": "Green tangerine peel (qing pi)"
+    },
+    "latin": "Citrus reticulata (pericarpio inmaduro / unripe peel)",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se encontraron interacciones con fármacos documentadas en las fuentes consultadas. La tradición desaconseja su uso prolongado o en dosis altas. Información orientativa.",
+      "en": "No documented drug interactions were found in the sources consulted. Tradition advises against prolonged use or high doses. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Sudoración excesiva.",
+        "Precaución en deficiencia de qi (medicina china tradicional).",
+        "No se recomienda el uso prolongado ni dosis altas."
+      ],
+      "en": [
+        "Excessive sweating.",
+        "Caution in qi deficiency (traditional Chinese medicine).",
+        "Prolonged use or high doses are not recommended."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/QingPi.html"
+    ]
+  },
+  {
+    "ref": "HRB-063",
+    "nombre": {
+      "es": "Ginseng asiático (ren shen)",
+      "en": "Asian ginseng (ren shen)"
+    },
+    "latin": "Panax ginseng",
+    "grupo": "china",
+    "resumen": {
+      "es": "El uso oral a corto plazo (hasta 6 meses) parece seguro para la mayoría; el efecto adverso más frecuente es el insomnio. Tiene interacciones relevantes con antidiabéticos, warfarina y antidepresivos IMAO, entre otros. Información orientativa.",
+      "en": "Short-term oral use (up to 6 months) appears safe for most people; the most common side effect is insomnia. It has relevant interactions with diabetes medicines, warfarin and MAOI antidepressants, among others. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Hipertensión severa.",
+        "Trastornos de la coagulación; suspender al menos 1 semana antes de una cirugía.",
+        "Enfermedades autoinmunes (podría empeorarlas).",
+        "Evitar con café u otros estimulantes.",
+        "Patrones de calor o deficiencia de yin con calor (medicina china tradicional)."
+      ],
+      "en": [
+        "Severe high blood pressure.",
+        "Bleeding disorders; stop at least 1 week before surgery.",
+        "Autoimmune diseases (it may worsen them).",
+        "Avoid with coffee or other stimulants.",
+        "Heat patterns or yin deficiency with heat (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Algunos estudios sugieren que podría no ser seguro en el embarazo (un componente causó malformaciones en animales). Se sabe poco sobre la lactancia; algunos expertos desaconsejan su uso en embarazo, lactancia y niños.",
+      "en": "Some studies suggest it may be unsafe during pregnancy (one constituent caused birth defects in animals). Little is known about breastfeeding; some experts advise against use during pregnancy, breastfeeding and in children."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, sulfonilureas)",
+          "en": "Diabetes medicines (insulin, sulfonylureas)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede aumentar el efecto hipoglucemiante; vigilar la glucosa.",
+          "en": "May increase the blood-sugar-lowering effect; monitor blood sugar."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Warfarina",
+          "en": "Warfarin"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede reducir el efecto de la warfarina (baja el INR); los estudios en personas tienen resultados mixtos. Vigilar el INR.",
+          "en": "May reduce the effect of warfarin (lower INR); human studies have mixed results. Monitor INR."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Antiagregantes (aspirina)",
+          "en": "Antiplatelet drugs (aspirin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría aumentar la biodisponibilidad de la aspirina.",
+          "en": "May increase the bioavailability of aspirin."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Antidepresivos IMAO (fenelzina, tranilcipromina)",
+          "en": "MAOI antidepressants (phenelzine, tranylcypromine)"
+        },
+        "clase": "antidepresivos",
+        "efecto": {
+          "es": "Puede provocar síntomas de tipo maníaco en personas con depresión.",
+          "en": "May cause manic-like symptoms in people with depression."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Imatinib",
+          "en": "Imatinib"
+        },
+        "clase": "hepatotoxicos",
+        "efecto": {
+          "es": "Puede aumentar el riesgo de daño hepático (caso descrito).",
+          "en": "May increase the risk of liver damage (reported case)."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Raltegravir",
+          "en": "Raltegravir"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "Se describió un caso de niveles elevados de raltegravir en sangre.",
+          "en": "A case of elevated raltegravir blood levels has been reported."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Algunos ginsenósidos inducen CYP3A4 en el laboratorio y podrían acelerar la eliminación de estos fármacos; un estudio en voluntarios sugiere que el efecto no sería clínicamente importante.",
+          "en": "Some ginsenosides induce CYP3A4 in the laboratory and could speed clearance of these drugs; a volunteer study suggests the effect may not be clinically significant."
+        },
+        "severidad": "baja",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng-asian",
+      "https://www.nccih.nih.gov/health/asian-ginseng",
+      "https://www.americandragon.com/Individualherbsupdate/RenShen.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8489681/"
+    ]
+  },
+  {
+    "ref": "HRB-064",
+    "nombre": {
+      "es": "Cistanche (rou cong rong)",
+      "en": "Cistanche (rou cong rong)"
+    },
+    "latin": "Cistanche deserticola",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se describe toxicidad en las fuentes consultadas. Por su posible acción sobre noradrenalina, dopamina y serotonina, se aconseja precaución con antidepresivos y simpaticomiméticos. Información orientativa.",
+      "en": "No toxicity is described in the sources consulted. Because of its possible action on norepinephrine, dopamine and serotonin, caution is advised with antidepressants and sympathomimetics. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Diarrea por deficiencia del bazo y el estómago.",
+        "Deficiencia de yin con calor o eyaculación precoz.",
+        "Calor por exceso (medicina china tradicional)."
+      ],
+      "en": [
+        "Diarrhea due to spleen and stomach deficiency.",
+        "Yin deficiency with heat or premature ejaculation.",
+        "Excess heat (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidepresivos (IMAO, ISRS, tricíclicos) y simpaticomiméticos",
+          "en": "Antidepressants (MAOIs, SSRIs, tricyclics) and sympathomimetics"
+        },
+        "clase": "antidepresivos",
+        "efecto": {
+          "es": "Podría aumentar la actividad de noradrenalina, dopamina y serotonina y sumarse al efecto de estos fármacos.",
+          "en": "May increase norepinephrine, dopamine and serotonin activity and add to the effect of these drugs."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/RouCongRong.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/RouCongRong.html"
+    ]
+  },
+  {
+    "ref": "HRB-065",
+    "nombre": {
+      "es": "Corteza de raíz de morera blanca (sang bai pi)",
+      "en": "White mulberry root bark (sang bai pi)"
+    },
+    "latin": "Morus alba",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se encontraron interacciones con fármacos documentadas para la corteza de raíz; los estudios sobre enzimas hepáticas se hicieron con la hoja en animales. Información orientativa.",
+      "en": "No documented drug interactions were found for the root bark; studies on liver enzymes were done with the leaf in animals. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Tos o sibilancias por viento-frío.",
+        "Tos por deficiencia del pulmón o con micción excesiva (medicina china tradicional)."
+      ],
+      "en": [
+        "Cough or wheezing due to wind-cold.",
+        "Cough due to lung deficiency or with excessive urination (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/SangBaiPi.html",
+      "https://go.drugbank.com/drugs/DB14271"
+    ]
+  },
+  {
+    "ref": "HRB-066",
+    "nombre": {
+      "es": "Fruto de amomo (sha ren)",
+      "en": "Amomum fruit (sha ren)"
+    },
+    "latin": "Amomum villosum",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se describe toxicidad en las fuentes consultadas. Se aconseja precaución con anticoagulantes y antiagregantes. Información orientativa.",
+      "en": "No toxicity is described in the sources consulted. Caution is advised with anticoagulants and antiplatelet drugs. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Deficiencia de yin con calor y deficiencia de sangre.",
+        "Dolor abdominal por fuego o diarrea por calor de verano (medicina china tradicional)."
+      ],
+      "en": [
+        "Yin deficiency with heat and blood deficiency.",
+        "Abdominal pain due to fire or diarrhea due to summer heat (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Usar con precaución en el embarazo (tradicionalmente se usa para calmar el feto, pero solo bajo supervisión profesional). No hay datos sobre la lactancia.",
+      "en": "Use with caution during pregnancy (traditionally used to calm the fetus, but only under professional supervision). No data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, heparina, aspirina, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, heparin, aspirin, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Posible efecto aditivo o sinérgico que podría aumentar el riesgo de sangrado.",
+          "en": "Possible additive or synergistic effect that could increase the risk of bleeding."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/ShaRen.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShaRen.html"
+    ]
+  },
+  {
+    "ref": "HRB-067",
+    "nombre": {
+      "es": "Ñame chino (shan yao)",
+      "en": "Chinese yam (shan yao)"
+    },
+    "latin": "Dioscorea opposita",
+    "grupo": "china",
+    "resumen": {
+      "es": "Es también un alimento y no se describe toxicidad. Podría sumar su efecto al de los antidiabéticos. Información orientativa.",
+      "en": "It is also a food and no toxicity is described. It may add to the effect of diabetes medicines. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "No usar sola en patrones de exceso, humedad o estancamiento, ni en calor verdadero (medicina china tradicional)."
+      ],
+      "en": [
+        "Do not use alone in excess, dampness or stagnation patterns, or in true heat (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glipizida, glibenclamida, tolbutamida)",
+          "en": "Diabetes medicines (insulin, glipizide, glyburide, tolbutamide)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Posible efecto hipoglucemiante sinérgico; vigilar la glucosa.",
+          "en": "Possible synergistic blood-sugar-lowering effect; monitor blood sugar."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/ShanYao.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShanYao.html"
+    ]
+  },
+  {
+    "ref": "HRB-068",
+    "nombre": {
+      "es": "Espino blanco chino (shan zha)",
+      "en": "Chinese hawthorn berry (shan zha)"
+    },
+    "latin": "Crataegus pinnatifida",
+    "grupo": "china",
+    "resumen": {
+      "es": "Suele tolerarse bien; puede causar mareo, náuseas o molestias digestivas. Actúa sobre el corazón y la presión arterial, por lo que puede interactuar con varios fármacos cardiovasculares. Los datos de interacción proceden sobre todo del espino europeo. Información orientativa.",
+      "en": "Usually well tolerated; it may cause dizziness, nausea or digestive upset. It acts on the heart and blood pressure, so it may interact with several cardiovascular drugs. Interaction data come mainly from European hawthorn. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Enfermedad cardíaca: no usar sin indicación médica.",
+        "Precaución en reflujo ácido y en deficiencia de bazo y estómago sin estancamiento de alimentos (medicina china tradicional)."
+      ],
+      "en": [
+        "Heart disease: do not use without medical advice.",
+        "Caution with acid reflux and spleen and stomach deficiency without food stagnation (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo (las dosis altas están contraindicadas). Se sabe poco sobre la lactancia; mejor evitarla.",
+      "en": "Avoid during pregnancy (high doses are contraindicated). Little is known about breastfeeding; best avoided."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Digoxina",
+          "en": "Digoxin"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Puede potenciar el efecto de la digoxina y sus efectos adversos; un pequeño ensayo en voluntarios no encontró problemas, pero se recomienda vigilancia médica.",
+          "en": "May enhance the effect and side effects of digoxin; a small volunteer trial found no problems, but medical monitoring is recommended."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.rxlist.com/hawthorn/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Inhibidores de la fosfodiesterasa-5 (sildenafilo, tadalafilo)",
+          "en": "Phosphodiesterase-5 inhibitors (sildenafil, tadalafil)"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Ambos bajan la presión arterial y podrían causar una bajada excesiva. Evitar la combinación.",
+          "en": "Both lower blood pressure and could cause it to drop too much. Avoid the combination."
+        },
+        "severidad": "alta",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/hawthorn/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Nitratos (nitroglicerina, isosorbida)",
+          "en": "Nitrates (nitroglycerin, isosorbide)"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Puede aumentar el mareo y la sensación de desvanecimiento. Evitar la combinación.",
+          "en": "May increase dizziness and lightheadedness. Avoid the combination."
+        },
+        "severidad": "alta",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/hawthorn/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Betabloqueantes y antagonistas del calcio (metoprolol, amlodipino, diltiazem)",
+          "en": "Beta-blockers and calcium channel blockers (metoprolol, amlodipine, diltiazem)"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Efecto aditivo sobre la presión arterial, que podría bajar demasiado.",
+          "en": "Additive effect on blood pressure, which could drop too low."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/hawthorn/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes",
+          "en": "Anticoagulants and antiplatelet drugs"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría inhibir la formación de tromboxano A2 y aumentar el riesgo de sangrado.",
+          "en": "May inhibit thromboxane A2 formation and increase the risk of bleeding."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Induce CYP3A4 en el laboratorio y podría alterar el metabolismo de estos fármacos.",
+          "en": "Induces CYP3A4 in the laboratory and could alter the metabolism of these drugs."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShanZha.html",
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+      "https://www.rxlist.com/hawthorn/supplements.htm",
+      "https://www.nccih.nih.gov/health/hawthorn"
+    ]
+  },
+  {
+    "ref": "HRB-069",
+    "nombre": {
+      "es": "Cornejo asiático (shan zhu yu)",
+      "en": "Asiatic cornelian cherry (shan zhu yu)"
+    },
+    "latin": "Cornus officinalis",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se describe toxicidad en las fuentes consultadas. Tiene efecto diurético, por lo que se aconseja evitarlo junto con diuréticos. Información orientativa.",
+      "en": "No toxicity is described in the sources consulted. It has a diuretic effect, so avoiding it together with diuretics is advised. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Micción dolorosa o difícil por calor en la vejiga.",
+        "Humedad-calor.",
+        "Fuego de Ming Men exuberante (medicina china tradicional)."
+      ],
+      "en": [
+        "Painful or difficult urination due to bladder heat.",
+        "Damp-heat.",
+        "Blazing Ming Men fire (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Diuréticos (hidroclorotiazida, furosemida, bumetanida, torasemida)",
+          "en": "Diuretics (hydrochlorothiazide, furosemide, bumetanide, torsemide)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Posible efecto diurético aditivo o sinérgico.",
+          "en": "Possible additive or synergistic diuretic effect."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/ShanZhuYu.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShanZhuYu.html"
+    ]
+  },
+  {
+    "ref": "HRB-070",
+    "nombre": {
+      "es": "Masa medicada fermentada (shen qu)",
+      "en": "Medicated leaven (shen qu)"
+    },
+    "latin": "Massa Medicata Fermentata",
+    "grupo": "china",
+    "resumen": {
+      "es": "Preparado digestivo tradicional sin toxicidad descrita. No se encontraron interacciones con fármacos documentadas en las fuentes consultadas. Información orientativa.",
+      "en": "A traditional digestive preparation with no reported toxicity. No documented drug interactions were found in the sources consulted. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Deficiencia de yin del estómago y fuego de estómago (medicina china tradicional)."
+      ],
+      "en": [
+        "Stomach yin deficiency and stomach fire (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Usar con precaución en el embarazo. No hay datos sobre la lactancia.",
+      "en": "Use with caution during pregnancy. No data on breastfeeding."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShenQu.html"
+    ]
+  },
+  {
+    "ref": "HRB-071",
+    "nombre": {
+      "es": "Rehmannia cruda (sheng di huang)",
+      "en": "Raw rehmannia root (sheng di huang)"
+    },
+    "latin": "Rehmannia glutinosa",
+    "grupo": "china",
+    "resumen": {
+      "es": "Puede causar heces sueltas en personas con digestión débil. Podría bajar el azúcar en sangre, por lo que se aconseja precaución con antidiabéticos. Información orientativa.",
+      "en": "It may cause loose stools in people with weak digestion. It may lower blood sugar, so caution is advised with diabetes medicines. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Deficiencia del bazo con humedad, distensión abdominal y heces sueltas.",
+        "Deficiencia de yang (medicina china tradicional).",
+        "Diabetes: usar con mucha precaución y vigilar la glucosa.",
+        "Cirugía: suspender al menos 2 semanas antes."
+      ],
+      "en": [
+        "Spleen deficiency with dampness, abdominal bloating and loose stools.",
+        "Yang deficiency (traditional Chinese medicine).",
+        "Diabetes: use with great caution and monitor blood sugar.",
+        "Surgery: stop at least 2 weeks before."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay datos de seguridad suficientes; se aconseja evitarla en el embarazo y la lactancia.",
+      "en": "There is not enough safety data; avoiding it during pregnancy and breastfeeding is advised."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina, glimepirida, glibenclamida, pioglitazona)",
+          "en": "Diabetes medicines (insulin, glimepiride, glyburide, pioglitazone)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Podría sumar su efecto y bajar demasiado el azúcar; puede ser necesario ajustar la dosis.",
+          "en": "May add to their effect and lower blood sugar too much; the dose may need adjustment."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/rehmannia/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Preparados de hierro",
+          "en": "Iron preparations"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "La medicina china tradicional indica no combinarla con preparados de hierro; no hay estudios que expliquen el efecto.",
+          "en": "Traditional Chinese medicine advises not to combine it with iron preparations; no studies explain the effect."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/ShengDiHuang.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShengDiHuang.html",
+      "https://www.rxlist.com/rehmannia/supplements.htm"
+    ]
+  },
+  {
+    "ref": "HRB-072",
+    "nombre": {
+      "es": "Jengibre fresco (sheng jiang)",
+      "en": "Fresh ginger (sheng jiang)"
+    },
+    "latin": "Zingiber officinale",
+    "grupo": "china",
+    "resumen": {
+      "es": "Seguro como alimento y bien tolerado en estudios; puede causar acidez, diarrea o irritación de boca. En dosis de suplemento puede aumentar el riesgo de sangrado con anticoagulantes y con nifedipino. Información orientativa.",
+      "en": "Safe as a food and well tolerated in studies; it may cause heartburn, diarrhea or mouth irritation. At supplement doses it may increase bleeding risk with anticoagulants and with nifedipine. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Trastornos de la coagulación y antes de una cirugía.",
+        "Cálculos biliares.",
+        "Sudoración espontánea por deficiencia, calor de pulmón o deficiencia de yin con calor (medicina china tradicional)."
+      ],
+      "en": [
+        "Bleeding disorders and before surgery.",
+        "Gallstones.",
+        "Spontaneous sweating due to deficiency, lung heat or yin deficiency with heat (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Como alimento parece seguro. Los suplementos en el embarazo son controvertidos: consulte antes a un profesional de salud. Hay poca información sobre la lactancia; se aconseja evitar los suplementos.",
+      "en": "As a food it appears safe. Supplements during pregnancy are controversial: consult a healthcare professional first. Little is known about breastfeeding; avoiding supplements is advised."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, fenprocumón, dabigatrán, aspirina, clopidogrel) y AINE (ibuprofeno, diclofenaco)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, phenprocoumon, dabigatran, aspirin, clopidogrel) and NSAIDs (ibuprofen, diclofenac)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Inhibe la agregación de las plaquetas y puede aumentar el riesgo de sangrado; hay casos de INR elevado y sangrado. La evidencia global no es concluyente.",
+          "en": "Inhibits platelet aggregation and may increase bleeding risk; there are cases of raised INR and bleeding. Overall evidence is inconclusive."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger"
+      },
+      {
+        "farmaco": {
+          "es": "Nifedipino",
+          "en": "Nifedipine"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Juntos reducen la agregación de plaquetas más que por separado y pueden aumentar moretones y sangrado. Evitar la combinación.",
+          "en": "Together they reduce platelet aggregation more than either alone and may increase bruising and bleeding. Avoid the combination."
+        },
+        "severidad": "alta",
+        "evidencia": "clinica",
+        "fuente": "https://www.rxlist.com/ginger/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos (insulina y otros)",
+          "en": "Diabetes medicines (insulin and others)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede sumarse a la bajada del azúcar en sangre.",
+          "en": "May add to the lowering of blood sugar."
+        },
+        "severidad": "baja",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger"
+      },
+      {
+        "farmaco": {
+          "es": "Antagonistas del calcio para la presión arterial",
+          "en": "Calcium channel blockers for blood pressure"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Podría bajar la presión arterial en exceso o alterar el ritmo cardíaco.",
+          "en": "May lower blood pressure too much or affect heart rhythm."
+        },
+        "severidad": "baja",
+        "evidencia": "teorica",
+        "fuente": "https://www.rxlist.com/ginger/supplements.htm"
+      },
+      {
+        "farmaco": {
+          "es": "Tacrolimus y ciclosporina",
+          "en": "Tacrolimus and cyclosporine"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "Aumentó los niveles de tacrolimus en ratas; con la ciclosporina los datos son contradictorios (descenso o aumento de su absorción según el momento de la toma).",
+          "en": "Increased tacrolimus levels in rats; data for cyclosporine are conflicting (decreased or increased absorption depending on timing)."
+        },
+        "severidad": "baja",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger"
+      },
+      {
+        "farmaco": {
+          "es": "Metronidazol",
+          "en": "Metronidazole"
+        },
+        "clase": "otros",
+        "efecto": {
+          "es": "Podría aumentar su absorción y sus efectos adversos.",
+          "en": "May increase its absorption and side effects."
+        },
+        "severidad": "baja",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.rxlist.com/ginger/supplements.htm"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "https://www.rxlist.com/ginger/supplements.htm",
+      "https://www.nccih.nih.gov/health/ginger",
+      "https://www.americandragon.com/Individualherbsupdate/ShengJiang.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4657915/"
+    ]
+  },
+  {
+    "ref": "HRB-073",
+    "nombre": {
+      "es": "Rizoma de ácoro (shi chang pu)",
+      "en": "Acorus rhizome (shi chang pu)"
+    },
+    "latin": "Acorus tatarinowii",
+    "grupo": "china",
+    "resumen": {
+      "es": "Contiene asaronas (alfa y beta), que en roedores se han asociado a daño hepático y cáncer; la EMA fijó un límite temporal de exposición. Evitar el uso prolongado o en dosis altas. No se encontraron interacciones con fármacos documentadas para esta especie. Información orientativa.",
+      "en": "It contains asarones (alpha and beta), which have been linked to liver damage and cancer in rodents; the EMA set a temporary exposure limit. Avoid prolonged use or high doses. No documented drug interactions were found for this species. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Uso prolongado o dosis altas.",
+        "Deficiencia de yin con calor o deficiencia de sangre (medicina china tradicional).",
+        "Vómito con sangre (hematemesis) o sudoración excesiva."
+      ],
+      "en": [
+        "Prolonged use or high doses.",
+        "Yin deficiency with heat or blood deficiency (traditional Chinese medicine).",
+        "Vomiting blood (hematemesis) or excessive sweating."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay datos para esta especie; por el contenido en asaronas (con toxicidad reproductiva descrita en animales), se aconseja evitarla en el embarazo y la lactancia y consultar a un profesional.",
+      "en": "There are no data for this species; because of its asarone content (with reproductive toxicity reported in animals), avoiding it during pregnancy and breastfeeding and consulting a professional is advised."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShiChangPu.html",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060561/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC4335289"
+    ]
+  },
+  {
+    "ref": "HRB-074",
+    "nombre": {
+      "es": "Concha de abulón (shi jue ming)",
+      "en": "Abalone shell (shi jue ming)"
+    },
+    "latin": "Haliotis diversicolor (Concha Haliotidis)",
+    "grupo": "china",
+    "resumen": {
+      "es": "No se describe toxicidad en las fuentes consultadas; el uso prolongado puede dañar el estómago según la tradición. No se encontraron interacciones con fármacos documentadas. Información orientativa.",
+      "en": "No toxicity is described in the sources consulted; traditionally, prolonged use may harm the stomach. No documented drug interactions were found. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Ausencia de síntomas de calor verdadero.",
+        "Frío por deficiencia del bazo y el estómago con falta de apetito y heces sueltas (medicina china tradicional).",
+        "Uso prolongado."
+      ],
+      "en": [
+        "Absence of true heat symptoms.",
+        "Spleen and stomach deficiency cold with poor appetite and loose stools (traditional Chinese medicine).",
+        "Prolonged use."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se encontraron datos sobre embarazo ni lactancia; consulte a un profesional de salud.",
+      "en": "No data were found on pregnancy or breastfeeding; consult a healthcare professional."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/ShiJueMing.html"
+    ]
+  },
+  {
+    "ref": "HRB-075",
+    "nombre": {
+      "es": "Semilla de azufaifo ácido (suan zao ren)",
+      "en": "Sour jujube seed (suan zao ren)"
+    },
+    "latin": "Ziziphus jujuba var. spinosa",
+    "grupo": "china",
+    "resumen": {
+      "es": "Se usa tradicionalmente para el insomnio y no se describe toxicidad en las fuentes consultadas. Puede potenciar los sedantes. Información orientativa.",
+      "en": "Traditionally used for insomnia, with no toxicity described in the sources consulted. It may enhance sedatives. For general guidance only."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Diarrea intensa.",
+        "Calor por exceso o insomnio por calor o flema caliente (medicina china tradicional)."
+      ],
+      "en": [
+        "Severe diarrhea.",
+        "Excess heat or insomnia due to heat or hot phlegm (traditional Chinese medicine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Usar con precaución en el embarazo. No hay datos sobre la lactancia.",
+      "en": "Use with caution during pregnancy. No data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Sedantes (barbitúricos, benzodiacepinas, antihistamínicos, analgésicos opioides)",
+          "en": "Sedatives (barbiturates, benzodiazepines, antihistamines, opioid painkillers)"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "Prolonga el sueño producido por estos fármacos; puede aumentar la somnolencia.",
+          "en": "Prolongs the sleep produced by these drugs; may increase drowsiness."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.americandragon.com/Individualherbsupdate/SuanZaoRen.html"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.americandragon.com/Individualherbsupdate/SuanZaoRen.html"
+    ]
+  }
+]

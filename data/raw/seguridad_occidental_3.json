@@ -1,0 +1,584 @@
+[
+  {
+    "ref": null,
+    "nombre": {"es": "Cáscara sagrada", "en": "Cascara sagrada"},
+    "latin": "Rhamnus purshiana",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Laxante estimulante (antraquinonas) para uso breve. El uso prolongado o en exceso puede causar pérdida de potasio y otros electrolitos, dependencia de laxantes y, en casos aislados, daño hepático. Información orientativa; consulte a un profesional de salud.",
+      "en": "Stimulant laxative (anthraquinones) for short-term use. Prolonged or excessive use can cause loss of potassium and other electrolytes, laxative dependence and, in isolated cases, liver damage. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción o estrechamiento intestinal, atonía intestinal, apendicitis", "Enfermedad inflamatoria intestinal (Crohn, colitis ulcerosa) o dolor abdominal de causa desconocida", "Deshidratación grave con pérdida de agua y electrolitos", "Niños menores de 12 años", "Usar más de 1-2 semanas sin supervisión médica"],
+      "en": ["Intestinal obstruction or narrowing, intestinal atony, appendicitis", "Inflammatory bowel disease (Crohn's, ulcerative colitis) or abdominal pain of unknown cause", "Severe dehydration with water and electrolyte loss", "Children under 12 years", "Use for more than 1-2 weeks without medical supervision"]
+    },
+    "embarazo_lactancia": {
+      "es": "No se recomienda en el embarazo (datos experimentales de riesgo genotóxico de algunas antraquinonas) ni en la lactancia (sus metabolitos pueden pasar a la leche y causar diarrea en el bebé).",
+      "en": "Not recommended during pregnancy (experimental data on genotoxic risk of some anthraquinones) or breastfeeding (metabolites may pass into milk and cause diarrhea in the baby)."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina y otros glucósidos cardiacos; antiarrítmicos (p. ej. quinidina) y fármacos que prolongan el intervalo QT", "en": "Digoxin and other cardiac glycosides; antiarrhythmics (e.g. quinidine) and QT-prolonging drugs"},
+       "clase": "cardiacos",
+       "efecto": {"es": "El uso prolongado puede bajar el potasio, lo que aumenta el efecto y la toxicidad de la digoxina y altera la acción de los antiarrítmicos.", "en": "Prolonged use can lower potassium, which increases digoxin's effect and toxicity and interferes with antiarrhythmic drugs."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.e-lactancia.org/media/papers/Cascara-M-EMA2007.pdf"},
+      {"farmaco": {"es": "Diuréticos (furosemida, hidroclorotiazida, clortalidona)", "en": "Diuretics (furosemide, hydrochlorothiazide, chlorthalidone)"},
+       "clase": "diureticos",
+       "efecto": {"es": "Ambos pueden bajar el potasio; juntos pueden bajarlo demasiado.", "en": "Both can lower potassium; together they may lower it too much."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/cascara/supplements.htm"},
+      {"farmaco": {"es": "Corticosteroides (prednisona, dexametasona, hidrocortisona)", "en": "Corticosteroids (prednisone, dexamethasone, hydrocortisone)"},
+       "clase": "hormonas",
+       "efecto": {"es": "Suman pérdida de potasio y pueden aumentar el desequilibrio de electrolitos.", "en": "Add to potassium loss and may worsen electrolyte imbalance."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/cascara/supplements.htm"},
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "La diarrea que puede causar la cáscara puede aumentar el efecto de la warfarina y el riesgo de sangrado.", "en": "Diarrhea caused by cascara may increase warfarin's effect and bleeding risk."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/cascara/supplements.htm"},
+      {"farmaco": {"es": "Medicamentos tomados por boca en general", "en": "Oral medications in general"},
+       "clase": "absorcion",
+       "efecto": {"es": "Al acelerar el tránsito intestinal puede reducir la absorción de otros medicamentos orales.", "en": "By speeding intestinal transit it may reduce absorption of other oral medicines."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/cascara/supplements.htm"},
+      {"farmaco": {"es": "Fármacos transportados por la glicoproteína P (P-gp)", "en": "P-glycoprotein (P-gp) substrate drugs"},
+       "clase": "cyp450",
+       "efecto": {"es": "La emodina de la cáscara inhibe la P-gp en estudios de laboratorio y podría alterar los niveles de estos fármacos; relevancia clínica no determinada.", "en": "Emodin in cascara inhibits P-gp in laboratory studies and could alter levels of these drugs; clinical relevance not determined."},
+       "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cascara"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.e-lactancia.org/media/papers/Cascara-M-EMA2007.pdf", "https://www.rxlist.com/cascara/supplements.htm", "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cascara"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Sen (sena)", "en": "Senna"},
+    "latin": "Senna alexandrina",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Laxante estimulante seguro a corto plazo y en dosis recomendadas. El uso prolongado o en dosis altas puede causar dependencia de laxantes, pérdida de potasio y, rara vez, daño hepático. Información orientativa; consulte a un profesional de salud.",
+      "en": "Stimulant laxative that is safe short term at recommended doses. Prolonged or high-dose use can cause laxative dependence, potassium loss and, rarely, liver damage. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción o estrechamiento intestinal, atonía, apendicitis", "Enfermedad inflamatoria intestinal o dolor abdominal de causa desconocida", "Deshidratación grave con pérdida de electrolitos", "Niños menores de 12 años", "Precaución en enfermedad renal o cardiaca por el riesgo de desequilibrio de electrolitos"],
+      "en": ["Intestinal obstruction or narrowing, atony, appendicitis", "Inflammatory bowel disease or abdominal pain of unknown cause", "Severe dehydration with electrolyte loss", "Children under 12 years", "Caution in kidney or heart disease due to risk of electrolyte imbalance"]
+    },
+    "embarazo_lactancia": {
+      "es": "La monografía europea (EMA) la contraindica en embarazo y lactancia por datos experimentales de riesgo genotóxico de algunas antraquinonas y porque metabolitos como la reína pasan a la leche en pequeñas cantidades. Otras fuentes consideran posible el uso breve; consulte siempre al médico.",
+      "en": "The European (EMA) monograph contraindicates it in pregnancy and breastfeeding due to experimental data on genotoxic risk of some anthraquinones and because metabolites such as rhein pass into milk in small amounts. Other sources consider brief use possibly safe; always consult a doctor."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina y otros glucósidos cardiacos; antiarrítmicos y fármacos que prolongan el intervalo QT", "en": "Digoxin and other cardiac glycosides; antiarrhythmics and QT-prolonging drugs"},
+       "clase": "cardiacos",
+       "efecto": {"es": "El potasio bajo por uso prolongado aumenta el efecto de los glucósidos cardiacos e interfiere con los antiarrítmicos.", "en": "Low potassium from prolonged use increases the effect of cardiac glycosides and interferes with antiarrhythmics."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium-revision-1_en.pdf"},
+      {"farmaco": {"es": "Diuréticos", "en": "Diuretics"},
+       "clase": "diureticos",
+       "efecto": {"es": "Juntos pueden aumentar la pérdida de potasio.", "en": "Together they may increase potassium loss."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium-revision-1_en.pdf"},
+      {"farmaco": {"es": "Corticosteroides", "en": "Corticosteroids"},
+       "clase": "hormonas",
+       "efecto": {"es": "Juntos pueden aumentar la pérdida de potasio.", "en": "Together they may increase potassium loss."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium-revision-1_en.pdf"},
+      {"farmaco": {"es": "Anticonceptivos orales y estrógenos (terapia hormonal)", "en": "Oral contraceptives and estrogens (hormone therapy)"},
+       "clase": "hormonas",
+       "efecto": {"es": "El sen puede reducir la absorción de etinilestradiol o estrona y disminuir su eficacia.", "en": "Senna may reduce absorption of ethinyl estradiol or estrone and lower their effectiveness."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/senna/supplements.htm"},
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "La diarrea que puede provocar el sen puede aumentar el efecto de la warfarina y el riesgo de sangrado.", "en": "Diarrhea caused by senna may increase warfarin's effect and bleeding risk."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/senna/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/draft-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium-revision-1_en.pdf", "https://www.rxlist.com/senna/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Frángula y ruibarbo chino (laxantes antraquinónicos)", "en": "Buckthorn and Turkey rhubarb (anthraquinone laxatives)"},
+    "latin": "Rhamnus frangula; Rheum palmatum",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Laxantes estimulantes de la misma familia que el sen y la cáscara, para uso breve. El uso prolongado puede causar pérdida de potasio, dependencia de laxantes y alteraciones de agua y electrolitos. Información orientativa; consulte a un profesional de salud.",
+      "en": "Stimulant laxatives from the same family as senna and cascara, for short-term use. Prolonged use can cause potassium loss, laxative dependence and water and electrolyte disturbances. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción o estrechamiento intestinal, atonía, apendicitis", "Enfermedad inflamatoria intestinal (Crohn, colitis ulcerosa) o dolor abdominal de causa desconocida", "Deshidratación grave con pérdida de electrolitos", "Niños menores de 12 años", "Usar más de 1-2 semanas sin supervisión médica"],
+      "en": ["Intestinal obstruction or narrowing, atony, appendicitis", "Inflammatory bowel disease (Crohn's, ulcerative colitis) or abdominal pain of unknown cause", "Severe dehydration with electrolyte loss", "Children under 12 years", "Use for more than 1-2 weeks without medical supervision"]
+    },
+    "embarazo_lactancia": {
+      "es": "No se recomiendan en el embarazo por datos experimentales de riesgo genotóxico de algunas antraquinonas, ni en la lactancia por falta de datos (metabolitos como la reína pasan a la leche en pequeñas cantidades).",
+      "en": "Not recommended in pregnancy due to experimental data on genotoxic risk of some anthraquinones, nor during breastfeeding due to lack of data (metabolites such as rhein pass into milk in small amounts)."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina y otros glucósidos cardiacos; antiarrítmicos (p. ej. quinidina) y fármacos que prolongan el intervalo QT", "en": "Digoxin and other cardiac glycosides; antiarrhythmics (e.g. quinidine) and QT-prolonging drugs"},
+       "clase": "cardiacos",
+       "efecto": {"es": "El potasio bajo por uso prolongado potencia los glucósidos cardiacos e interactúa con los antiarrítmicos y fármacos que alargan el QT.", "en": "Low potassium from prolonged use potentiates cardiac glycosides and interacts with antiarrhythmics and QT-prolonging drugs."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-rheum-palmatum-l-and-rheum-officinale-baillon-radix_en.pdf"},
+      {"farmaco": {"es": "Diuréticos", "en": "Diuretics"},
+       "clase": "diureticos",
+       "efecto": {"es": "Juntos pueden aumentar la pérdida de potasio y el desequilibrio de electrolitos.", "en": "Together they may increase potassium loss and electrolyte imbalance."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-frangula-bark-frangulae-cortex_en.pdf"},
+      {"farmaco": {"es": "Corticosteroides", "en": "Corticosteroids"},
+       "clase": "hormonas",
+       "efecto": {"es": "Juntos pueden aumentar la pérdida de potasio y el desequilibrio de electrolitos.", "en": "Together they may increase potassium loss and electrolyte imbalance."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-rheum-palmatum-l-and-rheum-officinale-baillon-radix_en.pdf"},
+      {"farmaco": {"es": "Medicamentos tomados por boca en general", "en": "Oral medications in general"},
+       "clase": "absorcion",
+       "efecto": {"es": "La frángula puede reducir la absorción de medicamentos orales.", "en": "Buckthorn may reduce the absorption of oral medicines."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-frangula-bark-frangulae-cortex_en.pdf"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-frangula-bark-frangulae-cortex_en.pdf", "https://www.ema.europa.eu/en/documents/herbal-monograph/draft-community-herbal-monograph-rheum-palmatum-l-and-rheum-officinale-baillon-radix_en.pdf"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Aloe vera (látex o jugo)", "en": "Aloe vera (latex or juice)"},
+    "latin": "Aloe vera",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "El gel de uso externo es distinto del látex y del jugo, que contienen antraquinonas laxantes. Por boca puede causar dolor y diarrea, bajada de potasio y, en casos aislados, hepatitis; la FDA no lo considera seguro como laxante estimulante. Información orientativa; consulte a un profesional de salud.",
+      "en": "Topical gel differs from the latex and juice, which contain laxative anthraquinones. Taken by mouth it can cause pain and diarrhea, low potassium and, in isolated cases, hepatitis; the FDA does not consider it safe as a stimulant laxative. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción intestinal, apendicitis, enfermedad de Crohn o colitis ulcerosa", "Dolor abdominal de causa desconocida o deshidratación grave", "Hemorroides (el látex puede empeorarlas)", "Problemas renales (dosis altas de látex se han asociado a insuficiencia renal)", "Niños menores de 12 años", "Suspender al menos 2 semanas antes de una cirugía"],
+      "en": ["Intestinal obstruction, appendicitis, Crohn's disease or ulcerative colitis", "Abdominal pain of unknown cause or severe dehydration", "Hemorrhoids (latex may worsen them)", "Kidney problems (high doses of latex have been linked to kidney failure)", "Children under 12 years", "Stop at least 2 weeks before surgery"]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicado por boca en el embarazo y la lactancia (riesgo genotóxico de antraquinonas; se ha descrito un caso de aborto y los metabolitos pasan a la leche).",
+      "en": "Contraindicated by mouth during pregnancy and breastfeeding (genotoxic risk of anthraquinones; a miscarriage has been reported and metabolites pass into milk)."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina y otros glucósidos cardiacos; antiarrítmicos", "en": "Digoxin and other cardiac glycosides; antiarrhythmics"},
+       "clase": "cardiacos",
+       "efecto": {"es": "El látex de aloe puede bajar el potasio y aumentar el riesgo de efectos adversos de la digoxina. Se recomienda no combinarlos.", "en": "Aloe latex can lower potassium and increase the risk of digoxin side effects. Combining them is not recommended."},
+       "severidad": "alta", "evidencia": "teorica", "fuente": "https://www.rxlist.com/aloe/supplements.htm"},
+      {"farmaco": {"es": "Diuréticos (furosemida, hidroclorotiazida, clortalidona)", "en": "Diuretics (furosemide, hydrochlorothiazide, chlorthalidone)"},
+       "clase": "diureticos",
+       "efecto": {"es": "Ambos bajan el potasio; juntos pueden bajarlo demasiado.", "en": "Both lower potassium; together they may lower it too much."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-aloe-barbadensis-mill-and-aloe-various-species-mainly-aloe-ferox-mill-and-its-hybrids-folii-succus-siccatus_en.pdf"},
+      {"farmaco": {"es": "Corticosteroides", "en": "Corticosteroids"},
+       "clase": "hormonas",
+       "efecto": {"es": "Juntos pueden aumentar la pérdida de potasio.", "en": "Together they may increase potassium loss."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-aloe-barbadensis-mill-and-aloe-various-species-mainly-aloe-ferox-mill-and-its-hybrids-folii-succus-siccatus_en.pdf"},
+      {"farmaco": {"es": "Antidiabéticos (insulina, metformina, glibenclamida, glimepirida)", "en": "Antidiabetic drugs (insulin, metformin, glyburide, glimepiride)"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "El aloe por boca puede bajar el azúcar en sangre; junto con estos fármacos podría bajarlo demasiado. Vigilar la glucosa.", "en": "Oral aloe may lower blood sugar; with these drugs it could drop too low. Monitor glucose."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/aloe/supplements.htm"},
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "La diarrea por el látex puede aumentar el efecto de la warfarina y el riesgo de sangrado.", "en": "Diarrhea from the latex may increase warfarin's effect and bleeding risk."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/aloe/supplements.htm"},
+      {"farmaco": {"es": "Sevoflurano (anestésico)", "en": "Sevoflurane (anesthetic)"},
+       "clase": "otros",
+       "efecto": {"es": "Se describió sangrado excesivo durante una cirugía en una paciente que tomaba aloe por boca.", "en": "Excessive bleeding during surgery was reported in a patient taking oral aloe."},
+       "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera"},
+      {"farmaco": {"es": "Medicamentos tomados por boca en general", "en": "Oral medications in general"},
+       "clase": "absorcion",
+       "efecto": {"es": "Como laxante, el látex puede reducir la absorción de otros medicamentos orales.", "en": "As a laxative, the latex may reduce absorption of other oral medicines."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/aloe/supplements.htm"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4 y CYP2D6", "en": "Drugs metabolized by CYP3A4 and CYP2D6"},
+       "clase": "cyp450",
+       "efecto": {"es": "El jugo de aloe inhibió estas enzimas en el laboratorio; relevancia clínica desconocida.", "en": "Aloe juice inhibited these enzymes in the laboratory; clinical relevance unknown."},
+       "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-aloe-barbadensis-mill-and-aloe-various-species-mainly-aloe-ferox-mill-and-its-hybrids-folii-succus-siccatus_en.pdf", "https://www.rxlist.com/aloe/supplements.htm", "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/aloe-vera"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Psyllium (ispágula)", "en": "Psyllium (ispaghula)"},
+    "latin": "Plantago ovata",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Fibra formadora de volumen, en general bien tolerada. Debe tomarse siempre con abundante agua, porque sin líquido suficiente puede hincharse y obstruir la garganta o el intestino; puede causar gases y, rara vez, alergia. Información orientativa; consulte a un profesional de salud.",
+      "en": "Bulk-forming fiber, generally well tolerated. It must always be taken with plenty of water, because without enough fluid it can swell and block the throat or bowel; it can cause gas and, rarely, allergy. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción intestinal o estrechamientos del tubo digestivo, parálisis intestinal o megacolon", "Enfermedades del esófago o dificultad para tragar", "Diabetes difícil de controlar", "Cambio repentino del hábito intestinal de más de 2 semanas o sangrado rectal sin diagnóstico", "Alergia a la ispágula"],
+      "en": ["Intestinal obstruction or narrowing of the digestive tract, intestinal paralysis or megacolon", "Esophageal disease or difficulty swallowing", "Poorly controlled diabetes", "Sudden change in bowel habit lasting more than 2 weeks or undiagnosed rectal bleeding", "Allergy to ispaghula"]
+    },
+    "embarazo_lactancia": {
+      "es": "La monografía europea (EMA) no establece restricciones durante el embarazo ni la lactancia.",
+      "en": "The European (EMA) monograph sets no restriction during pregnancy or breastfeeding."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Medicamentos orales (digoxina, anticoagulantes cumarínicos, carbamazepina, minerales, vitamina B12)", "en": "Oral medications (digoxin, coumarin anticoagulants, carbamazepine, minerals, vitamin B12)"},
+       "clase": "absorcion",
+       "efecto": {"es": "Puede retrasar su absorción; conviene separar la toma de 30 minutos a 1 hora de otros medicamentos.", "en": "May delay their absorption; take it 30 minutes to 1 hour apart from other medicines."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"},
+      {"farmaco": {"es": "Litio", "en": "Lithium"},
+       "clase": "litio",
+       "efecto": {"es": "Puede retrasar la absorción del litio; separar las tomas.", "en": "May delay lithium absorption; separate the doses."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"},
+      {"farmaco": {"es": "Insulina", "en": "Insulin"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "Si se toma con las comidas, en personas con diabetes insulinodependiente puede ser necesario reducir la dosis de insulina.", "en": "If taken with meals, people with insulin-dependent diabetes may need a lower insulin dose."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"},
+      {"farmaco": {"es": "Hormonas tiroideas (levotiroxina)", "en": "Thyroid hormones (levothyroxine)"},
+       "clase": "tiroides",
+       "efecto": {"es": "Su uso conjunto requiere supervisión médica porque puede ser necesario ajustar la dosis de hormona tiroidea.", "en": "Combined use requires medical supervision because the thyroid hormone dose may need adjusting."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"},
+      {"farmaco": {"es": "Fármacos que frenan el movimiento intestinal (opioides, loperamida)", "en": "Drugs that slow bowel movement (opioids, loperamide)"},
+       "clase": "otros",
+       "efecto": {"es": "Aumenta el riesgo de obstrucción intestinal; usar juntos solo con supervisión médica.", "en": "Increases the risk of bowel obstruction; use together only under medical supervision."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-plantago-ovate-forssk-seminis-tegumentum_en.pdf"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Goma guar", "en": "Guar gum"},
+    "latin": "Cyamopsis tetragonoloba",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Fibra soluble generalmente segura en las cantidades habituales con suficiente agua. Puede bajar el azúcar y la presión arterial y reducir la absorción de algunos medicamentos. Información orientativa; consulte a un profesional de salud.",
+      "en": "Soluble fiber generally safe in usual amounts with enough water. It may lower blood sugar and blood pressure and reduce absorption of some medicines. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Obstrucción o estrechamiento del esófago o del intestino", "Precaución en diabetes (vigilar la glucosa) y en presión arterial baja", "Suspender al menos 2 semanas antes de una cirugía"],
+      "en": ["Obstruction or narrowing of the esophagus or bowel", "Caution in diabetes (monitor glucose) and low blood pressure", "Stop at least 2 weeks before surgery"]
+    },
+    "embarazo_lactancia": {
+      "es": "Posiblemente segura en el embarazo en cantidades habituales; no hay datos suficientes en la lactancia, por lo que se recomienda evitarla.",
+      "en": "Possibly safe in pregnancy in usual amounts; not enough is known about breastfeeding, so avoiding it is advised."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Antidiabéticos (insulina, glibenclamida, glimepirida, glipizida, pioglitazona)", "en": "Antidiabetic drugs (insulin, glyburide, glimepiride, glipizide, pioglitazone)"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "Juntos pueden bajar demasiado el azúcar en sangre; vigilar la glucosa.", "en": "Together they may lower blood sugar too much; monitor glucose."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"},
+      {"farmaco": {"es": "Metformina", "en": "Metformin"},
+       "clase": "absorcion",
+       "efecto": {"es": "La goma guar puede reducir la absorción de metformina y su eficacia.", "en": "Guar gum may reduce metformin absorption and effectiveness."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"},
+      {"farmaco": {"es": "Penicilina", "en": "Penicillin"},
+       "clase": "absorcion",
+       "efecto": {"es": "Puede reducir la absorción de la penicilina y su eficacia contra la infección.", "en": "May reduce penicillin absorption and its effectiveness against infection."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"},
+      {"farmaco": {"es": "Anticonceptivos orales y estrógenos (etinilestradiol)", "en": "Oral contraceptives and estrogens (ethinyl estradiol)"},
+       "clase": "hormonas",
+       "efecto": {"es": "Puede reducir la absorción de etinilestradiol y la eficacia de estos productos.", "en": "May reduce ethinyl estradiol absorption and the effectiveness of these products."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"},
+      {"farmaco": {"es": "Antihipertensivos (captopril, losartán, amlodipino, furosemida)", "en": "Blood pressure medications (captopril, losartan, amlodipine, furosemide)"},
+       "clase": "antihipertensivos",
+       "efecto": {"es": "Juntos podrían bajar demasiado la presión arterial; evitar dosis altas de goma guar.", "en": "Together they could lower blood pressure too much; avoid high doses of guar gum."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"},
+      {"farmaco": {"es": "Digoxina", "en": "Digoxin"},
+       "clase": "absorcion",
+       "efecto": {"es": "Podría reducir algo la absorción de digoxina, aunque es poco probable que sea relevante.", "en": "May slightly reduce digoxin absorption, although a significant effect is unlikely."},
+       "severidad": "baja", "evidencia": "teorica", "fuente": "https://www.rxlist.com/guar_gum/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.rxlist.com/guar_gum/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Gayuba (uva ursi)", "en": "Uva ursi (bearberry)"},
+    "latin": "Arctostaphylos uva-ursi",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Se usa a corto plazo para molestias urinarias leves. Puede causar náuseas y dolor de estómago y teñir la orina de verde-marrón; su uso se limita a pocas semanas por la hidroquinona que contiene. Información orientativa; consulte a un profesional de salud.",
+      "en": "Used short term for mild urinary complaints. It can cause nausea and stomach ache and turn urine greenish-brown; use is limited to a few weeks because of its hydroquinone content. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Enfermedad renal", "Niños y adolescentes menores de 18 años", "Retina adelgazada", "Consultar al médico si aparece fiebre, dolor al orinar, espasmos o sangre en la orina"],
+      "en": ["Kidney disease", "Children and adolescents under 18 years", "Thinning of the retina", "See a doctor if fever, painful urination, spasms or blood in the urine occur"]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo (podría estimular el parto) y no se recomienda en la lactancia por falta de datos de seguridad.",
+      "en": "Avoid during pregnancy (it might start labor) and not recommended during breastfeeding due to lack of safety data."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Litio", "en": "Lithium"},
+       "clase": "litio",
+       "efecto": {"es": "Podría reducir la eliminación del litio y aumentar sus niveles y efectos adversos; puede requerir ajuste de dosis. La monografía europea no recoge interacciones.", "en": "May reduce lithium elimination, raising its levels and side effects; the dose may need adjusting. The European monograph reports no interactions."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/uva_ursi/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/superseded-community-herbal-monograph-arctostaphylos-uva-ursi-l-spreng-folium-revision-1_en.pdf", "https://www.rxlist.com/uva_ursi/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Enebro (bayas)", "en": "Juniper berry"},
+    "latin": "Juniperus communis",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Uso tradicional para aumentar la orina en molestias urinarias leves. La monografía europea no describe efectos adversos ni interacciones, pero desaconseja su uso en enfermedad renal grave. Información orientativa; consulte a un profesional de salud.",
+      "en": "Traditionally used to increase urine flow in mild urinary complaints. The European monograph describes no adverse effects or interactions, but advises against use in severe kidney disease. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Enfermedad renal grave (nefritis intersticial infecciosa, pielitis, pielonefritis)", "Situaciones en que el médico indica restringir líquidos", "Menores de 18 años", "Trastornos gastrointestinales; precaución en diabetes y en presión arterial alta o baja"],
+      "en": ["Severe kidney disease (infectious interstitial nephritis, pyelitis, pyelonephritis)", "Conditions where a doctor advises reduced fluid intake", "Under 18 years", "Gastrointestinal disorders; caution in diabetes and high or low blood pressure"]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo y si se busca un embarazo (puede afectar al útero y causar aborto) y durante la lactancia por falta de datos.",
+      "en": "Avoid during pregnancy or when trying to conceive (it may affect the uterus and cause miscarriage) and during breastfeeding due to lack of data."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Antidiabéticos (insulina, glibenclamida, glimepirida, glipizida, pioglitazona)", "en": "Antidiabetic drugs (insulin, glyburide, glimepiride, glipizide, pioglitazone)"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "El enebro podría bajar el azúcar en sangre; junto con estos fármacos podría bajarlo demasiado.", "en": "Juniper may lower blood sugar; with these drugs it could drop too low."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/juniper/supplements.htm"},
+      {"farmaco": {"es": "Diuréticos (furosemida, hidroclorotiazida, clortalidona)", "en": "Diuretics (furosemide, hydrochlorothiazide, chlorthalidone)"},
+       "clase": "diureticos",
+       "efecto": {"es": "Podría sumar pérdida de líquidos y causar mareo o presión baja.", "en": "May add to fluid loss and cause dizziness or low blood pressure."},
+       "severidad": "baja", "evidencia": "teorica", "fuente": "https://www.rxlist.com/juniper/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-juniperus-communis-l-pseudo-fructus-galbulus-revision-1_en.pdf", "https://www.rxlist.com/juniper/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Perejil", "en": "Parsley"},
+    "latin": "Petroselinum crispum",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Seguro en las cantidades de los alimentos. En dosis medicinales puede actuar como diurético, alterar el azúcar en sangre y no se recomienda en enfermedad renal ni en el embarazo; el aceite esencial es tóxico. Información orientativa; consulte a un profesional de salud.",
+      "en": "Safe in food amounts. In medicinal doses it may act as a diuretic and affect blood sugar, and it is not recommended in kidney disease or pregnancy; the essential oil is toxic. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Enfermedad renal o inflamación renal", "Retención de líquidos por enfermedad cardiaca o renal; presión arterial alta", "Precaución en diabetes", "Alergia al perejil", "Suspender al menos 2 semanas antes de una cirugía"],
+      "en": ["Kidney disease or kidney inflammation", "Fluid retention due to heart or kidney disease; high blood pressure", "Caution in diabetes", "Parsley allergy", "Stop at least 2 weeks before surgery"]
+    },
+    "embarazo_lactancia": {
+      "es": "En dosis medicinales probablemente no es seguro en el embarazo (posible efecto abortivo); en la lactancia limitarse a las cantidades de los alimentos.",
+      "en": "In medicinal doses it is likely unsafe in pregnancy (possible abortifacient effect); during breastfeeding keep to food amounts."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "Grandes cantidades de hoja de perejil podrían favorecer la coagulación y reducir el efecto de la warfarina.", "en": "Large amounts of parsley leaf may promote clotting and reduce warfarin's effect."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/parsley/supplements.htm"},
+      {"farmaco": {"es": "Diuréticos (furosemida, hidroclorotiazida)", "en": "Diuretics (furosemide, hydrochlorothiazide)"},
+       "clase": "diureticos",
+       "efecto": {"es": "El perejil podría actuar como diurético y sumar pérdida de líquidos, con mareo y presión baja.", "en": "Parsley may act as a diuretic and add to fluid loss, causing dizziness and low blood pressure."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/parsley/supplements.htm"},
+      {"farmaco": {"es": "Antidiabéticos (insulina, glibenclamida, glimepirida, pioglitazona)", "en": "Antidiabetic drugs (insulin, glyburide, glimepiride, pioglitazone)"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "El perejil podría bajar el azúcar; junto con estos fármacos podría bajarlo demasiado.", "en": "Parsley may lower blood sugar; with these drugs it could drop too low."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/parsley/supplements.htm"},
+      {"farmaco": {"es": "Pentobarbital", "en": "Pentobarbital"},
+       "clase": "sedantes",
+       "efecto": {"es": "El jugo de perejil podría prolongar la permanencia del pentobarbital en el cuerpo y aumentar sus efectos.", "en": "Parsley juice may prolong how long pentobarbital stays in the body and increase its effects."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/parsley/supplements.htm"},
+      {"farmaco": {"es": "Ácido acetilsalicílico (aspirina)", "en": "Aspirin"},
+       "clase": "analgesicos",
+       "efecto": {"es": "En un caso, la aspirina aumentó la reacción alérgica al perejil en una persona alérgica.", "en": "In one case, aspirin increased the allergic reaction to parsley in an allergic person."},
+       "severidad": "baja", "evidencia": "casos", "fuente": "https://www.rxlist.com/parsley/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.rxlist.com/parsley/supplements.htm", "https://www.rxlist.com/parsley/generic-drug.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Regaliz (raíz, uso occidental)", "en": "Licorice root (Western use)"},
+    "latin": "Glycyrrhiza glabra",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Los suplementos con glicirricina, sobre todo en uso prolongado o en dosis altas, pueden subir la presión arterial, bajar el potasio y retener sodio, con riesgo de arritmias. Las formas desglicirricinadas (DGL) tienen menos efectos adversos. Información orientativa; consulte a un profesional de salud.",
+      "en": "Supplements containing glycyrrhizin, especially with prolonged or high-dose use, can raise blood pressure, lower potassium and cause sodium retention, with a risk of arrhythmias. Deglycyrrhizinated forms (DGL) have fewer side effects. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Hipertensión arterial", "Potasio bajo o arritmias cardiacas", "Tratamiento con digoxina, diuréticos, antihipertensivos o cortisol", "Uso prolongado de dosis altas"],
+      "en": ["High blood pressure", "Low potassium or heart rhythm disorders", "Treatment with digoxin, diuretics, blood pressure drugs or cortisol", "Prolonged high-dose use"]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay una recomendación específica, pero el consumo elevado de regaliz se ha asociado a partos prematuros; se aconseja evitar los suplementos durante el embarazo y consultar al médico en la lactancia.",
+      "en": "No specific recommendation is given, but heavy licorice intake has been linked to preterm birth; avoiding supplements during pregnancy and consulting a doctor while breastfeeding is advised."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Digoxina y otros glucósidos cardiacos", "en": "Digoxin and other cardiac glycosides"},
+       "clase": "cardiacos",
+       "efecto": {"es": "Puede aumentar su toxicidad (por la bajada de potasio). Evitar la combinación.", "en": "May increase their toxicity (through lowered potassium). Avoid the combination."},
+       "severidad": "alta", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Diuréticos", "en": "Diuretics"},
+       "clase": "diureticos",
+       "efecto": {"es": "Aumenta el riesgo de potasio bajo. Evitar la combinación.", "en": "Increases the risk of low potassium. Avoid the combination."},
+       "severidad": "alta", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Antihipertensivos", "en": "Blood pressure medications"},
+       "clase": "antihipertensivos",
+       "efecto": {"es": "El regaliz sube la presión arterial y puede reducir la eficacia de estos fármacos.", "en": "Licorice raises blood pressure and may reduce the effectiveness of these drugs."},
+       "severidad": "alta", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Corticosteroides (acetato de cortisol)", "en": "Corticosteroids (cortisol acetate)"},
+       "clase": "hormonas",
+       "efecto": {"es": "Puede aumentar los niveles de cortisol y sus efectos adversos.", "en": "May increase cortisol levels and side effects."},
+       "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Anticoagulantes (warfarina, fenprocumón)", "en": "Anticoagulants (warfarin, phenprocoumon)"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "En ratas aumentó la eliminación de la warfarina; se describió un caso de caída brusca del INR con fenprocumón.", "en": "In rats it increased warfarin clearance; one case of a sudden INR drop with phenprocoumon has been reported."},
+       "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Ciclosporina", "en": "Cyclosporine"},
+       "clase": "inmunosupresores",
+       "efecto": {"es": "Redujo mucho la biodisponibilidad oral de la ciclosporina por activación de P-gp y CYP3A4; relevancia clínica desconocida.", "en": "Greatly reduced oral bioavailability of cyclosporine via P-gp and CYP3A4 activation; clinical relevance unknown."},
+       "severidad": "teorica", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Antidiabéticos (metformina, insulina)", "en": "Antidiabetic drugs (metformin, insulin)"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "En ratas redujo la eficacia de la metformina y aumentó la sensibilidad a la insulina; relevancia clínica desconocida.", "en": "In rats it reduced metformin's efficacy and increased insulin sensitivity; clinical relevance unknown."},
+       "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Antidepresivos IMAO", "en": "MAO inhibitor antidepressants"},
+       "clase": "antidepresivos",
+       "efecto": {"es": "Componentes del regaliz podrían potenciar su acción; relevancia clínica desconocida.", "en": "Licorice constituents may potentiate their action; clinical relevance unknown."},
+       "severidad": "teorica", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP3A4/CYP2D6 o transportados por P-gp (p. ej. daunorrubicina)", "en": "Drugs metabolized by CYP3A4/CYP2D6 or transported by P-gp (e.g. daunorubicin)"},
+       "clase": "cyp450",
+       "efecto": {"es": "La glicirricina puede inducir CYP3A y CYP2D6 y otros componentes inhibirlos o inhibir la P-gp; un extracto estandarizado no mostró interacciones CYP clínicamente relevantes.", "en": "Glycyrrhizin may induce CYP3A and CYP2D6 while other constituents inhibit them or P-gp; a standardized extract showed no clinically relevant CYP interactions."},
+       "severidad": "baja", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/licorice"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "5-HTP (5-hidroxitriptófano)", "en": "5-HTP (5-hydroxytryptophan)"},
+    "latin": "5-hydroxytryptophan",
+    "grupo": "suplemento",
+    "resumen": {
+      "es": "Precursor de la serotonina. Suele causar molestias digestivas leves; el riesgo principal es el síndrome serotoninérgico si se combina con antidepresivos u otros fármacos que suben la serotonina. Se han descrito casos de síndrome de eosinofilia-mialgia con productos contaminados. Información orientativa; consulte a un profesional de salud.",
+      "en": "Serotonin precursor. It commonly causes mild digestive upset; the main risk is serotonin syndrome when combined with antidepressants or other serotonin-raising drugs. Cases of eosinophilia-myalgia syndrome have been linked to contaminated products. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Tratamiento con antidepresivos (ISRS, tricíclicos, IMAO) u otros fármacos serotoninérgicos", "Análisis de 5-HIAA en orina (para tumores carcinoides): puede alterar el resultado", "Suspender al menos 2 semanas antes de una cirugía"],
+      "en": ["Treatment with antidepressants (SSRIs, tricyclics, MAOIs) or other serotonergic drugs", "Urine 5-HIAA test (for carcinoid tumors): it may distort the result", "Stop at least 2 weeks before surgery"]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay información fiable sobre su seguridad; se recomienda evitarlo en el embarazo y la lactancia.",
+      "en": "There is no reliable safety information; avoiding it during pregnancy and breastfeeding is advised."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Antidepresivos ISRS y tricíclicos (fluoxetina, paroxetina, sertralina, amitriptilina, imipramina)", "en": "SSRI and tricyclic antidepressants (fluoxetine, paroxetine, sertraline, amitriptyline, imipramine)"},
+       "clase": "antidepresivos",
+       "efecto": {"es": "Ambos suben la serotonina; riesgo de síndrome serotoninérgico (problemas cardiacos, temblores, ansiedad). No combinar.", "en": "Both raise serotonin; risk of serotonin syndrome (heart problems, shivering, anxiety). Do not combine."},
+       "severidad": "alta", "evidencia": "teorica", "fuente": "https://www.rxlist.com/5-htp/supplements.htm"},
+      {"farmaco": {"es": "Antidepresivos IMAO (fenelzina, tranilcipromina)", "en": "MAOI antidepressants (phenelzine, tranylcypromine)"},
+       "clase": "antidepresivos",
+       "efecto": {"es": "Riesgo de exceso de serotonina; se describió un caso de manía. No combinar.", "en": "Risk of excess serotonin; one case of mania has been reported. Do not combine."},
+       "severidad": "alta", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/5-htp-01"},
+      {"farmaco": {"es": "Linezolid (antibiótico con acción IMAO)", "en": "Linezolid (antibiotic with MAOI activity)"},
+       "clase": "otros",
+       "efecto": {"es": "Se describió un caso de síndrome serotoninérgico.", "en": "One case of serotonin syndrome has been reported."},
+       "severidad": "alta", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/5-htp-01"},
+      {"farmaco": {"es": "Carbidopa", "en": "Carbidopa"},
+       "clase": "otros",
+       "efecto": {"es": "Se describió una enfermedad tipo esclerodermia en un caso; también puede aumentar ansiedad, habla acelerada y agresividad.", "en": "A scleroderma-like illness was reported in one case; it may also increase anxiety, rapid speech and aggressiveness."},
+       "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/5-htp-01"},
+      {"farmaco": {"es": "Analgésicos opioides serotoninérgicos (tramadol, meperidina, pentazocina) y dextrometorfano", "en": "Serotonergic opioid analgesics (tramadol, meperidine, pentazocine) and dextromethorphan"},
+       "clase": "analgesicos",
+       "efecto": {"es": "Ambos suben la serotonina; pueden causar confusión, temblores, rigidez muscular y problemas cardiacos.", "en": "Both raise serotonin; they may cause confusion, shivering, muscle stiffness and heart problems."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/5-htp/supplements.htm"},
+      {"farmaco": {"es": "Sedantes (clonazepam, lorazepam, fenobarbital, zolpidem)", "en": "Sedatives (clonazepam, lorazepam, phenobarbital, zolpidem)"},
+       "clase": "sedantes",
+       "efecto": {"es": "Puede sumar somnolencia excesiva.", "en": "May add to excessive drowsiness."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/5-htp/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/5-htp-01", "https://www.rxlist.com/5-htp/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Melatonina", "en": "Melatonin"},
+    "latin": "Melatonin",
+    "grupo": "suplemento",
+    "resumen": {
+      "es": "A corto plazo parece segura para la mayoría de los adultos; puede causar somnolencia, dolor de cabeza, mareo o náuseas. Faltan datos de seguridad a largo plazo, el contenido de los productos puede no coincidir con la etiqueta y debe guardarse fuera del alcance de los niños. Información orientativa; consulte a un profesional de salud.",
+      "en": "Short-term use appears safe for most adults; it can cause drowsiness, headache, dizziness or nausea. Long-term safety data are lacking, product content may not match the label, and it should be kept out of children's reach. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Trastornos de la coagulación o tratamiento anticoagulante (bajo supervisión médica)", "Epilepsia (bajo supervisión médica)", "Receptores de trasplante en tratamiento inmunosupresor", "Cáncer sensible a hormonas (mama, próstata): consultar al médico", "Demencia en personas mayores; niños pequeños sin indicación pediátrica", "No conducir hasta conocer cómo le afecta"],
+      "en": ["Bleeding disorders or anticoagulant treatment (under medical supervision)", "Epilepsy (under medical supervision)", "Transplant recipients on immunosuppressants", "Hormone-sensitive cancer (breast, prostate): consult a doctor", "Dementia in older adults; young children without pediatric advice", "Do not drive until you know how it affects you"]
+    },
+    "embarazo_lactancia": {
+      "es": "Faltan estudios de seguridad en el embarazo y la lactancia; se recomienda evitarla y consultar al médico.",
+      "en": "Safety studies in pregnancy and breastfeeding are lacking; avoiding it and consulting a doctor is advised."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Sedantes y depresores del sistema nervioso (benzodiazepinas, zolpidem y similares)", "en": "Sedatives and CNS depressants (benzodiazepines, zolpidem and similar)"},
+       "clase": "sedantes",
+       "efecto": {"es": "Ambos causan somnolencia; juntos pueden causar sueño excesivo.", "en": "Both cause drowsiness; together they may cause excessive sleepiness."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Anticoagulantes y antiagregantes (warfarina y otros)", "en": "Anticoagulants and antiplatelet drugs (warfarin and others)"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "La melatonina se ha asociado a menor factor VIII y fibrinógeno, lo que podría aumentar el riesgo de sangrado.", "en": "Melatonin has been linked to lower factor VIII and fibrinogen levels, which could increase bleeding risk."},
+       "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/melatonin"},
+      {"farmaco": {"es": "Nifedipino", "en": "Nifedipine"},
+       "clase": "antihipertensivos",
+       "efecto": {"es": "En pacientes hipertensos se observó aumento de la presión arterial y la frecuencia cardiaca.", "en": "Increased blood pressure and heart rate were observed in hypertensive patients."},
+       "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/melatonin"},
+      {"farmaco": {"es": "Fluvoxamina", "en": "Fluvoxamine"},
+       "clase": "antidepresivos",
+       "efecto": {"es": "Aumenta los niveles de melatonina y puede intensificar sus efectos.", "en": "Raises melatonin levels and may intensify its effects."},
+       "severidad": "moderada", "evidencia": "clinica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/melatonin"},
+      {"farmaco": {"es": "Fármacos metabolizados por CYP1A2 o CYP2C19 (clozapina, teofilina, omeprazol, diazepam, fenitoína)", "en": "Drugs metabolized by CYP1A2 or CYP2C19 (clozapine, theophylline, omeprazole, diazepam, phenytoin)"},
+       "clase": "cyp450",
+       "efecto": {"es": "La melatonina podría frenar su metabolismo y aumentar sus efectos.", "en": "Melatonin may slow their breakdown and increase their effects."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Inmunosupresores", "en": "Immunosuppressants"},
+       "clase": "inmunosupresores",
+       "efecto": {"es": "Podría estimular el sistema inmunitario y reducir su eficacia.", "en": "May stimulate the immune system and reduce their effectiveness."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Antidiabéticos", "en": "Antidiabetic drugs"},
+       "clase": "antidiabeticos",
+       "efecto": {"es": "Puede subir o bajar el azúcar en sangre y alterar el control de la diabetes.", "en": "May raise or lower blood sugar and affect diabetes control."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Anticonvulsivos y fármacos que bajan el umbral convulsivo", "en": "Anticonvulsants and drugs that lower the seizure threshold"},
+       "clase": "otros",
+       "efecto": {"es": "Podría aumentar la frecuencia de convulsiones en algunas personas, sobre todo niños con trastornos neurológicos.", "en": "May increase seizure frequency in some people, especially children with neurological disorders."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Anticonceptivos orales", "en": "Oral contraceptives"},
+       "clase": "hormonas",
+       "efecto": {"es": "Aumentan los niveles de melatonina; juntos pueden producir exceso de melatonina.", "en": "They raise melatonin levels; together they may cause too much melatonin."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"},
+      {"farmaco": {"es": "Verapamilo", "en": "Verapamil"},
+       "clase": "antihipertensivos",
+       "efecto": {"es": "Puede acelerar la eliminación de la melatonina y reducir su efecto.", "en": "May speed melatonin elimination and reduce its effect."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/melatonin/supplements.htm"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/melatonin", "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know", "https://www.rxlist.com/melatonin/supplements.htm"]
+  },
+  {
+    "ref": null,
+    "nombre": {"es": "Aceite de pescado (omega-3 EPA/DHA)", "en": "Fish oil (omega-3 EPA/DHA)"},
+    "latin": "Omega-3 fatty acids (EPA/DHA)",
+    "grupo": "suplemento",
+    "resumen": {
+      "es": "En general seguro; puede causar sabor a pescado, eructos, náuseas o diarrea. Las dosis altas (más de 3 g al día) pueden prolongar el tiempo de sangrado y se ha asociado a fibrilación auricular. Información orientativa; consulte a un profesional de salud.",
+      "en": "Generally safe; it may cause fishy taste, belching, nausea or diarrhea. High doses (over 3 g a day) may prolong bleeding time, and it has been linked to atrial fibrillation. For general guidance only; consult a health professional."
+    },
+    "contraindicaciones": {
+      "es": ["Alergia al pescado o al marisco", "Tratamiento anticoagulante o antiagregante sin supervisión médica", "Desfibrilador implantado o antecedentes de arritmias (fibrilación o flúter auricular)", "Enfermedad hepática con cirrosis (más riesgo de sangrado)", "Precaución en trastorno bipolar, depresión y diabetes con dosis altas"],
+      "en": ["Fish or shellfish allergy", "Anticoagulant or antiplatelet treatment without medical supervision", "Implanted defibrillator or history of arrhythmias (atrial fibrillation or flutter)", "Liver disease with cirrhosis (higher bleeding risk)", "Caution in bipolar disorder, depression and diabetes at high doses"]
+    },
+    "embarazo_lactancia": {
+      "es": "Probablemente seguro en el embarazo y la lactancia; conviene evitar pescados con mucho mercurio (tiburón, pez espada, caballa real, blanquillo).",
+      "en": "Likely safe in pregnancy and breastfeeding; avoid high-mercury fish (shark, swordfish, king mackerel, tilefish)."
+    },
+    "interacciones": [
+      {"farmaco": {"es": "Warfarina", "en": "Warfarin"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "Se han descrito aumento del INR y sangrados (incluido un hematoma subdural con dosis altas); los datos son contradictorios. Vigilar el INR.", "en": "Increased INR and bleeding (including a subdural hematoma at high doses) have been reported; data are conflicting. Monitor INR."},
+       "severidad": "moderada", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/omega-3"},
+      {"farmaco": {"es": "Otros anticoagulantes y antiagregantes (aspirina, clopidogrel, heparina, apixabán, rivaroxabán)", "en": "Other anticoagulants and antiplatelet drugs (aspirin, clopidogrel, heparin, apixaban, rivaroxaban)"},
+       "clase": "anticoagulantes",
+       "efecto": {"es": "Puede aumentar el riesgo de sangrado.", "en": "May increase bleeding risk."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/omega-3"},
+      {"farmaco": {"es": "Antihipertensivos", "en": "Blood pressure medications"},
+       "clase": "antihipertensivos",
+       "efecto": {"es": "El aceite de pescado puede bajar la presión arterial; junto con estos fármacos podría bajarla demasiado.", "en": "Fish oil can lower blood pressure; with these drugs it may drop too low."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/fish_oil/supplements.htm"},
+      {"farmaco": {"es": "Glucocorticoides (cortisona, hidrocortisona, dexametasona)", "en": "Glucocorticoids (cortisone, hydrocortisone, dexamethasone)"},
+       "clase": "hormonas",
+       "efecto": {"es": "En ratones el omega-3 potenció algunos efectos adversos de los glucocorticoides; relevancia clínica desconocida.", "en": "In mice omega-3 potentiated some glucocorticoid side effects; clinical relevance unknown."},
+       "severidad": "moderada", "evidencia": "in_vitro_animal", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/omega-3"},
+      {"farmaco": {"es": "Orlistat", "en": "Orlistat"},
+       "clase": "absorcion",
+       "efecto": {"es": "El orlistat puede impedir la absorción de los ácidos grasos del aceite de pescado; separar las tomas al menos 2 horas.", "en": "Orlistat may prevent absorption of fish oil fatty acids; take them at least 2 hours apart."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/fish_oil/supplements.htm"},
+      {"farmaco": {"es": "Anticonceptivos orales", "en": "Oral contraceptives"},
+       "clase": "hormonas",
+       "efecto": {"es": "Pueden reducir el efecto del aceite de pescado para bajar los triglicéridos.", "en": "They may reduce fish oil's triglyceride-lowering effect."},
+       "severidad": "moderada", "evidencia": "teorica", "fuente": "https://www.rxlist.com/fish_oil/supplements.htm"},
+      {"farmaco": {"es": "Quimioterapia (p. ej. pazopanib)", "en": "Chemotherapy (e.g. pazopanib)"},
+       "clase": "quimioterapia",
+       "efecto": {"es": "Un caso de llagas en la boca con pazopanib y un suplemento con omega-3; algunos productos contienen un ácido graso que en teoría podría interferir con ciertos quimioterápicos, aunque en cantidad probablemente insuficiente.", "en": "One case of mouth sores with pazopanib and an omega-3 supplement; some products contain a fatty acid that could theoretically interfere with certain chemotherapy drugs, although likely in too small an amount."},
+       "severidad": "baja", "evidencia": "casos", "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/omega-3"}
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": ["https://www.mskcc.org/cancer-care/integrative-medicine/herbs/omega-3", "https://www.rxlist.com/fish_oil/supplements.htm"]
+  }
+]

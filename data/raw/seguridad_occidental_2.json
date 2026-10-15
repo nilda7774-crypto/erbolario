@@ -1,0 +1,1331 @@
+[
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Melón amargo (cundeamor)",
+      "en": "Bitter melon"
+    },
+    "latin": "Momordica charantia",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Como alimento suele tolerarse bien, pero las semillas, los extractos y grandes cantidades de jugo se han asociado a molestias digestivas y a casos aislados de efectos graves. Puede bajar el azúcar en sangre y sumarse al efecto de los medicamentos para la diabetes. Información orientativa: consulte a su profesional de salud.",
+      "en": "As a food it is usually well tolerated, but the seeds, extracts and large amounts of juice have been linked to digestive upset and isolated cases of serious effects. It can lower blood sugar and add to the effect of diabetes medicines. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo.",
+        "Personas con déficit de G6PD (las semillas contienen vicina, que puede causar favismo)."
+      ],
+      "en": [
+        "Pregnancy.",
+        "People with G6PD deficiency (the seeds contain vicine, which can cause favism)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo: estudios en animales sugieren que puede causar malformaciones. No hay datos sobre la lactancia.",
+      "en": "Avoid during pregnancy: animal studies suggest it may cause birth defects. There are no data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Insulina y antidiabéticos orales (metformina, sulfonilureas, etc.)",
+          "en": "Insulin and oral diabetes drugs (metformin, sulfonylureas, etc.)"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede sumarse a su efecto y bajar demasiado el azúcar en sangre; vigile la glucosa.",
+          "en": "May add to their effect and lower blood sugar too much; monitor glucose."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos transportados por la glicoproteína P (p. ej. vinblastina, paclitaxel)",
+          "en": "P-glycoprotein substrate drugs (e.g. vinblastine, paclitaxel)"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En laboratorio inhibe la glicoproteína P, lo que podría aumentar la concentración y la toxicidad de estos fármacos. Relevancia clínica no determinada.",
+          "en": "In the lab it inhibits P-glycoprotein, which could raise the concentration and toxicity of these drugs. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP2C9",
+          "en": "Drugs metabolized by CYP2C9"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "El extracto inhibe CYP2C9 en laboratorio y podría alterar el metabolismo de estos fármacos. Relevancia clínica no determinada.",
+          "en": "The extract inhibits CYP2C9 in the lab and could alter the metabolism of these drugs. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+      },
+      {
+        "farmaco": {
+          "es": "Algunos quimioterápicos",
+          "en": "Some chemotherapy drugs"
+        },
+        "clase": "quimioterapia",
+        "efecto": {
+          "es": "Estudios de laboratorio sugieren que podría aumentar su biodisponibilidad y efecto. Relevancia clínica no determinada; consulte a su oncólogo.",
+          "en": "Lab studies suggest it may increase their bioavailability and effect. Clinical relevance not determined; check with your oncologist."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bitter-melon"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Garra del diablo",
+      "en": "Devil's claw"
+    },
+    "latin": "Harpagophytum procumbens",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Suele tolerarse bien en adultos; los efectos más comunes son digestivos (diarrea, náuseas, dolor abdominal), dolor de cabeza y reacciones alérgicas. Está contraindicada si hay úlcera de estómago o duodeno. Las interacciones con fármacos tienen poca evidencia clínica. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is usually well tolerated in adults; the most common effects are digestive (diarrhea, nausea, abdominal pain), headache and allergic reactions. It should not be used with an active stomach or duodenal ulcer. Drug interactions have little clinical evidence. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Úlcera gástrica o duodenal activa.",
+        "Alergia a la planta.",
+        "Menores de 18 años (falta de datos).",
+        "Si tiene cálculos biliares, consulte al médico antes de usarla."
+      ],
+      "en": [
+        "Active gastric or duodenal ulcer.",
+        "Allergy to the plant.",
+        "Under 18 years of age (lack of data).",
+        "If you have gallstones, see a doctor before using it."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se ha establecido su seguridad; no se recomienda durante el embarazo ni la lactancia.",
+      "en": "Safety has not been established; not recommended during pregnancy or breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina y anticoagulantes similares",
+          "en": "Warfarin and related anticoagulants"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Se describió un caso de púrpura (moretones) con el uso conjunto; podría aumentar el efecto anticoagulante (posible inhibición de CYP2C9 o de las plaquetas). La evidencia es limitada; vigile el INR.",
+          "en": "One case of purpura (bruising) was reported with combined use; it might increase the anticoagulant effect (possible CYP2C9 or platelet inhibition). Evidence is limited; monitor INR."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-harpagophytum-procumbens-dc-andor-harpagophytum-zeyheri-decne-radix_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2, 2C8, 2C9, 2C19, 2D6 y 3A4",
+          "en": "Drugs metabolized by CYP1A2, 2C8, 2C9, 2C19, 2D6 and 3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "La raíz inhibe estas enzimas en laboratorio y podría alterar los niveles de esos fármacos; datos contradictorios sugieren que quizá no sea clínicamente relevante.",
+          "en": "The root inhibits these enzymes in the lab and could alter levels of those drugs; conflicting data suggest it may not be clinically relevant."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/herb/devil-claw"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos transportados por la glicoproteína P",
+          "en": "P-glycoprotein substrate drugs"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Modifica la actividad y la expresión de la glicoproteína P en laboratorio, lo que podría afectar el transporte de estos fármacos. Relevancia clínica desconocida.",
+          "en": "It changes P-glycoprotein activity and expression in the lab, which could affect transport of these drugs. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/herb/devil-claw"
+      },
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Estudios preclínicos sugieren que podría bajar la presión, pero un caso clínico mostró lo contrario (subida de presión). Se sabe demasiado poco para hacer recomendaciones.",
+          "en": "Preclinical studies suggest it might lower blood pressure, but a clinical case showed the opposite (a rise in blood pressure). Too little is known to make recommendations."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-harpagophytum-procumbens-dc-andor-harpagophytum-zeyheri-decne-radix_en.pdf"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/herb/devil-claw",
+      "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-harpagophytum-procumbens-dc-andor-harpagophytum-zeyheri-decne-radix_en.pdf",
+      "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-harpagophytum-procumbens-dc-andor-harpagophytum-zeyheri-decne-radix_en.pdf"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Corteza de sauce blanco",
+      "en": "White willow bark"
+    },
+    "latin": "Salix alba",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Contiene salicina, un pariente natural de la aspirina. Suele causar solo molestias digestivas o alergias leves, pero no deben usarla quienes son alérgicos a la aspirina o tienen úlcera, problemas de coagulación o enfermedad grave del hígado o riñón. Información orientativa: consulte a su profesional de salud.",
+      "en": "It contains salicin, a natural relative of aspirin. It usually causes only digestive upset or mild allergies, but it should not be used by people allergic to aspirin or with ulcers, bleeding disorders or severe liver or kidney disease. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia o sensibilidad a los salicilatos (aspirina) u otros antiinflamatorios (AINE).",
+        "Asma inducida por salicilatos.",
+        "Úlcera gástrica activa.",
+        "Insuficiencia hepática o renal grave.",
+        "Trastornos de la coagulación.",
+        "Déficit de G6PD.",
+        "Niños y adolescentes."
+      ],
+      "en": [
+        "Allergy or sensitivity to salicylates (aspirin) or other NSAIDs.",
+        "Salicylate-induced asthma.",
+        "Active stomach ulcer.",
+        "Severe liver or kidney impairment.",
+        "Bleeding disorders.",
+        "G6PD deficiency.",
+        "Children and adolescents."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Contraindicada en el tercer trimestre del embarazo; no se recomienda en el primer y segundo trimestre ni durante la lactancia, porque los salicilatos atraviesan la placenta y pasan a la leche.",
+      "en": "Contraindicated in the third trimester of pregnancy; not recommended in the first and second trimesters or while breastfeeding, because salicylates cross the placenta and pass into breast milk."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina y otros anticoagulantes (cumarínicos)",
+          "en": "Warfarin and other anticoagulants (coumarins)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede aumentar el efecto anticoagulante y el riesgo de sangrado.",
+          "en": "May increase the anticoagulant effect and the risk of bleeding."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-salix-various-species-including-s-purpurea-l-s-daphnoides-vill-s-fragilis-l-cortex_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Antiinflamatorios no esteroideos (AINE: ibuprofeno, naproxeno, etc.)",
+          "en": "Nonsteroidal anti-inflammatory drugs (NSAIDs: ibuprofen, naproxen, etc.)"
+        },
+        "clase": "analgesicos",
+        "efecto": {
+          "es": "Su uso conjunto podría aumentar el riesgo de daño y sangrado en el estómago y el intestino.",
+          "en": "Combined use may increase the risk of stomach and intestinal damage and bleeding."
+        },
+        "severidad": "moderada",
+        "evidencia": "teorica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/willow-bark"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/willow-bark",
+      "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex",
+      "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-salix-various-species-including-s-purpurea-l-s-daphnoides-vill-s-fragilis-l-cortex_en.pdf"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Matricaria (tanaceto, feverfew)",
+      "en": "Feverfew"
+    },
+    "latin": "Tanacetum parthenium",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "No se han descrito efectos graves; puede causar náuseas, molestias digestivas, llagas en la boca al masticar la hoja fresca y dermatitis. Al dejarla tras un uso prolongado pueden aparecer rigidez, ansiedad y dolor. Puede retrasar la coagulación. Información orientativa: consulte a su profesional de salud.",
+      "en": "No serious side effects have been reported; it may cause nausea, digestive upset, mouth sores from chewing fresh leaves, and dermatitis. Stopping after long-term use may cause stiffness, anxiety and pain. It may slow blood clotting. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la ambrosía, crisantemos, caléndulas u otras plantas de la familia de las compuestas.",
+        "Embarazo.",
+        "Suspender al menos 2 semanas antes de una cirugía programada."
+      ],
+      "en": [
+        "Allergy to ragweed, chrysanthemums, marigolds or other plants of the daisy (Compositae) family.",
+        "Pregnancy.",
+        "Stop at least 2 weeks before scheduled surgery."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Evitar en el embarazo porque puede afectar las contracciones del útero. Se sabe poco sobre su seguridad en la lactancia.",
+      "en": "Avoid during pregnancy because it may affect uterine contractions. Little is known about its safety while breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, clopidogrel, aspirina)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, clopidogrel, aspirin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede inhibir las plaquetas y sumarse a estos fármacos, aumentando el riesgo de sangrado. Hay un caso de alteración de la coagulación con sangrado. Relevancia clínica no conocida.",
+          "en": "It may inhibit platelets and add to these drugs, raising the risk of bleeding. There is one case of altered clotting with bleeding. Clinical relevance unknown."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/feverfew"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2, 2C8, 2C9, 2C19, 2D6 y 3A4",
+          "en": "Drugs metabolized by CYP1A2, 2C8, 2C9, 2C19, 2D6 and 3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En laboratorio afecta a estas enzimas y podría alterar los niveles de esos fármacos. Relevancia clínica no conocida.",
+          "en": "In the lab it affects these enzymes and could alter levels of those drugs. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/feverfew"
+      },
+      {
+        "farmaco": {
+          "es": "Medicamentos para la migraña",
+          "en": "Migraine medicines"
+        },
+        "clase": "analgesicos",
+        "efecto": {
+          "es": "Puede interactuar con algunos medicamentos, incluidos los usados para la migraña; consulte antes de combinarlos.",
+          "en": "It may interact with some medicines, including those used for migraine; ask before combining them."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.nccih.nih.gov/health/feverfew"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/feverfew",
+      "https://www.nccih.nih.gov/health/feverfew"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Manzanilla",
+      "en": "Chamomile"
+    },
+    "latin": "Matricaria chamomilla",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "En infusión suele ser segura; los efectos adversos son poco frecuentes (náuseas, mareo) pero puede causar alergias, a veces graves, en personas sensibles a plantas de la familia de las margaritas. Puede interactuar con la warfarina y la ciclosporina. Información orientativa: consulte a su profesional de salud.",
+      "en": "As a tea it is usually safe; side effects are uncommon (nausea, dizziness) but it can cause allergies, sometimes severe, in people sensitive to daisy-family plants. It may interact with warfarin and cyclosporine. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la ambrosía, crisantemos, caléndulas, margaritas u otras compuestas.",
+        "Alergia al polen de artemisa (reacciones cruzadas).",
+        "Precaución en enfermedades sensibles a estrógenos (como cáncer de mama o de útero), por posibles efectos de tipo estrogénico."
+      ],
+      "en": [
+        "Allergy to ragweed, chrysanthemums, marigolds, daisies or other Compositae.",
+        "Mugwort pollen allergy (cross-reactions).",
+        "Caution with estrogen-sensitive conditions (such as breast or uterine cancer), because of possible estrogen-like effects."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se sabe poco sobre su seguridad en el embarazo y la lactancia. Hay un caso de cierre prematuro del conducto arterioso del feto tras el consumo de té de manzanilla en el embarazo.",
+      "en": "Little is known about its safety during pregnancy and breastfeeding. There is one case of premature closure of the fetal ductus arteriosus after chamomile tea use during pregnancy."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina y otros anticoagulantes o antiagregantes",
+          "en": "Warfarin and other anticoagulants or antiplatelet drugs"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede aumentar el efecto anticoagulante; hay un caso de hemorragias internas en una paciente que tomaba manzanilla con warfarina.",
+          "en": "May increase the anticoagulant effect; there is one case of internal bleeding in a patient taking chamomile with warfarin."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chamomile-german"
+      },
+      {
+        "farmaco": {
+          "es": "Ciclosporina",
+          "en": "Cyclosporine"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "Su uso conjunto se asoció a un aumento de los niveles de ciclosporina en sangre; vigile los niveles.",
+          "en": "Combined use was associated with higher blood levels of cyclosporine; monitor levels."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chamomile-german"
+      },
+      {
+        "farmaco": {
+          "es": "Sedantes (benzodiacepinas, somníferos)",
+          "en": "Sedatives (benzodiazepines, sleep medicines)"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "Podría aumentar el efecto sedante.",
+          "en": "May increase the sedative effect."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.nccih.nih.gov/health/chamomile"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2, 2C9, 2D6 y 3A4",
+          "en": "Drugs metabolized by CYP1A2, 2C9, 2D6 and 3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En laboratorio inhibe estas enzimas y podría alterar los niveles de esos fármacos. Relevancia clínica no determinada.",
+          "en": "In the lab it inhibits these enzymes and could alter levels of those drugs. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chamomile-german"
+      },
+      {
+        "farmaco": {
+          "es": "Anticonceptivos orales",
+          "en": "Birth control pills"
+        },
+        "clase": "hormonas",
+        "efecto": {
+          "es": "Estudios preliminares sugieren que podría reducir su efecto.",
+          "en": "Preliminary studies suggest it may reduce their effect."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.nccih.nih.gov/health/chamomile"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chamomile-german",
+      "https://www.nccih.nih.gov/health/chamomile"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Diente de león",
+      "en": "Dandelion"
+    },
+    "latin": "Taraxacum officinale",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "En cantidades de alimento se considera probablemente seguro; puede causar acidez, molestias de estómago y dermatitis de contacto. Se sabe poco de dosis altas. Tiene efecto diurético y puede bajar el azúcar. Información orientativa: consulte a su profesional de salud.",
+      "en": "In food amounts it is considered likely safe; it may cause heartburn, stomach upset and contact dermatitis. Little is known about large doses. It has a diuretic effect and may lower blood sugar. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Posible alergia en personas sensibles a la ambrosía, crisantemos, caléndulas o margaritas (la evidencia es contradictoria).",
+        "Uso tópico: puede causar alergia en personas con eczema (dermatitis atópica)."
+      ],
+      "en": [
+        "Possible allergy in people sensitive to ragweed, chrysanthemums, marigolds or daisies (evidence is conflicting).",
+        "Topical use: may cause allergy in people with eczema (atopic dermatitis)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se desconoce la seguridad de cantidades mayores que las de los alimentos durante el embarazo y la lactancia.",
+      "en": "The safety of amounts larger than those in food is unknown during pregnancy and breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Inmunosupresores (p. ej. tacrolimus, ciclosporina) y otros fármacos metabolizados por CYP3A4",
+          "en": "Immunosuppressants (e.g. tacrolimus, cyclosporine) and other drugs metabolized by CYP3A4"
+        },
+        "clase": "inmunosupresores",
+        "efecto": {
+          "es": "Inhibe CYP3A4 en laboratorio; un paciente con trasplante de riñón tuvo niveles tóxicos de su inmunosupresor tras tomar un té con diente de león.",
+          "en": "It inhibits CYP3A4 in the lab; a kidney transplant patient had toxic levels of his immunosuppressant after drinking a tea containing dandelion."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Diuréticos",
+          "en": "Diuretics (water pills)"
+        },
+        "clase": "diureticos",
+        "efecto": {
+          "es": "Por su efecto diurético puede sumarse al de estos fármacos.",
+          "en": "Because of its diuretic effect it may add to these drugs."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Antidiabéticos",
+          "en": "Diabetes medicines"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Puede bajar el azúcar y sumarse a su efecto.",
+          "en": "May lower blood sugar and add to their effect."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes",
+          "en": "Anticoagulants and antiplatelet drugs"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Existe una preocupación teórica de interacción.",
+          "en": "There is a theoretical concern about an interaction."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.nccih.nih.gov/health/dandelion"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2 o por enzimas UGT",
+          "en": "Drugs metabolized by CYP1A2 or UGT enzymes"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En animales inhibió CYP1A2 y modificó la actividad de UGT, lo que podría alterar los niveles de estos fármacos.",
+          "en": "In animals it inhibited CYP1A2 and changed UGT activity, which could alter levels of these drugs."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dandelion",
+      "https://www.nccih.nih.gov/health/dandelion"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Espino blanco (majuelo)",
+      "en": "Hawthorn"
+    },
+    "latin": "Crataegus spp.",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Suele tolerarse bien a corto plazo (hasta 16 semanas estudiadas); puede causar mareo, náuseas y molestias digestivas o cardiacas leves. Como actúa sobre el corazón, quien tome medicamentos cardiacos debe usarlo solo con control médico. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is usually well tolerated in the short term (up to 16 weeks studied); it may cause dizziness, nausea and mild digestive or heart complaints. Because it acts on the heart, people taking heart medicines should use it only under medical supervision. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo (precaución de la medicina tradicional).",
+        "Insuficiencia cardiaca en tratamiento: solo con vigilancia estrecha del médico.",
+        "Evite productos de 'raíz de tejocote': algunos estaban contaminados con adelfa amarilla, una planta tóxica."
+      ],
+      "en": [
+        "Pregnancy (traditional medicine caution).",
+        "Heart failure under treatment: only with close medical monitoring.",
+        "Avoid 'tejocote root' products: some were contaminated with yellow oleander, a toxic plant."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se sabe poco sobre su seguridad; la medicina tradicional aconseja evitarlo en el embarazo. No hay datos sobre la lactancia.",
+      "en": "Little is known about its safety; traditional medicine advises avoiding it during pregnancy. There are no data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Digoxina",
+          "en": "Digoxin"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "Contiene compuestos de estructura parecida a la digoxina y podría interferir con ella; un pequeño ensayo en voluntarios sanos no encontró problemas con la dosis estudiada. Use bajo control médico.",
+          "en": "It contains compounds structurally similar to digoxin and might interfere with it; a small trial in healthy volunteers found no problems at the dose studied. Use under medical supervision."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn"
+      },
+      {
+        "farmaco": {
+          "es": "Medicamentos para la insuficiencia cardiaca y otros fármacos cardiacos",
+          "en": "Heart failure medicines and other heart drugs"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "En un estudio con pacientes cardiacos, un preparado de espino se asoció a un empeoramiento temprano de la insuficiencia cardiaca; se sospecha una interacción con sus otros fármacos, aunque la causa no está clara.",
+          "en": "In a study of heart patients, a hawthorn preparation was linked to early worsening of heart failure; an interaction with their other drugs is suspected, though the cause is unclear."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.nccih.nih.gov/health/hawthorn"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes",
+          "en": "Anticoagulants and antiplatelet drugs"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Podría aumentar sus efectos secundarios al inhibir el tromboxano A2. Relevancia clínica no determinada.",
+          "en": "It might increase their side effects by inhibiting thromboxane A2. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Podría inducir CYP3A4 y alterar el metabolismo de estos fármacos. Relevancia clínica no determinada.",
+          "en": "It might induce CYP3A4 and alter the metabolism of these drugs. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+      "https://www.nccih.nih.gov/health/hawthorn"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Rusco (brusco)",
+      "en": "Butcher's broom"
+    },
+    "latin": "Ruscus aculeatus",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Se considera seguro a las dosis tradicionales, aunque los datos de seguridad son escasos. Se han descrito diarrea y colitis con productos combinados, y dermatitis con cremas. La Agencia Europea del Medicamento no ha registrado interacciones con fármacos. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is considered safe at traditional doses, although safety data are scarce. Diarrhea and colitis have been reported with combination products, and dermatitis with creams. The European Medicines Agency has not recorded any drug interactions. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la planta.",
+        "Enfermedad grave del riñón o del corazón (p. ej. insuficiencia renal o cardiaca).",
+        "Niños y adolescentes (falta de datos)."
+      ],
+      "en": [
+        "Allergy to the plant.",
+        "Severe kidney or heart disease (e.g. kidney or heart failure).",
+        "Children and adolescents (lack of data)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se ha establecido su seguridad; no se recomienda durante el embarazo y debe evitarse en la lactancia.",
+      "en": "Safety has not been established; not recommended during pregnancy and should be avoided while breastfeeding."
+    },
+    "interacciones": [],
+    "sin_interacciones_documentadas": true,
+    "fuentes": [
+      "https://ema.europa.eu/en/documents/herbal-report/final-assessment-report-ruscus-aculeatus-l-rhizoma-revision-1_en.pdf"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Guggul",
+      "en": "Guggul"
+    },
+    "latin": "Commiphora mukul",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "En los ensayos causó sobre todo dolor de cabeza, náuseas leves, eructos, heces blandas y erupciones; hay casos aislados de daño hepático con productos combinados. Puede reducir la eficacia de algunos fármacos al acelerar su metabolismo. Información orientativa: consulte a su profesional de salud.",
+      "en": "In trials it mainly caused headache, mild nausea, belching, loose stools and rashes; there are isolated cases of liver injury with combination products. It may make some drugs less effective by speeding up their metabolism. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Uso de fármacos metabolizados por CYP3A4 (puede restarles eficacia).",
+        "Precaución en enfermedades del tiroides: se ha descrito que altera las pruebas tiroideas (TSH, T3, T4)."
+      ],
+      "en": [
+        "Use of drugs metabolized by CYP3A4 (it may make them less effective).",
+        "Caution with thyroid disease: it has been reported to alter thyroid tests (TSH, T3, T4)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Las fuentes consultadas no ofrecen datos sobre el embarazo o la lactancia; por falta de información, consulte antes de usarlo.",
+      "en": "The sources consulted give no data on pregnancy or breastfeeding; given the lack of information, ask before using it."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Propranolol y diltiazem",
+          "en": "Propranolol and diltiazem"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "En voluntarios sanos, una dosis de gugulípido redujo de forma significativa la cantidad de estos fármacos en sangre, lo que podría disminuir su eficacia.",
+          "en": "In healthy volunteers, a dose of gugulipid significantly reduced blood levels of these drugs, which could lower their effectiveness."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://pubmed.ncbi.nlm.nih.gov/7852226/"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4",
+          "en": "Drugs metabolized by CYP3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Puede inducir CYP3A4 (activando el receptor PXR) y reducir los niveles y la eficacia de estos fármacos.",
+          "en": "It may induce CYP3A4 (by activating the PXR receptor) and lower the levels and effectiveness of these drugs."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/guggul"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/guggul",
+      "https://pubmed.ncbi.nlm.nih.gov/7852226/"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Boswellia (incienso indio)",
+      "en": "Boswellia (Indian frankincense)"
+    },
+    "latin": "Boswellia serrata",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Por vía oral se considera probablemente segura y suele tolerarse bien; se han descrito alergias en la piel con productos tópicos. Sus posibles interacciones proceden de estudios de laboratorio. Información orientativa: consulte a su profesional de salud.",
+      "en": "Taken by mouth it is considered likely safe and is usually well tolerated; skin allergies have been reported with topical products. Its possible interactions come from laboratory studies. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la planta.",
+        "Si tiene asma, no la use en lugar de su tratamiento y consulte antes de añadirla."
+      ],
+      "en": [
+        "Allergy to the plant.",
+        "If you have asthma, do not use it in place of your treatment and ask before adding it."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Las cantidades presentes en los alimentos probablemente son seguras; se sabe poco de las dosis medicinales en el embarazo y la lactancia.",
+      "en": "Amounts found in food are likely safe; little is known about medicinal doses during pregnancy and breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (p. ej. warfarina)",
+          "en": "Anticoagulants and antiplatelet drugs (e.g. warfarin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Los extractos inhiben la agregación de plaquetas en laboratorio, lo que podría aumentar el riesgo de sangrado. Relevancia clínica no determinada.",
+          "en": "Extracts inhibit platelet aggregation in the lab, which could raise the risk of bleeding. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/boswellia"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos transportados por la glicoproteína P, OATP1B3 o MRP2",
+          "en": "Drugs carried by P-glycoprotein, OATP1B3 or MRP2"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Los ácidos boswélicos modifican estos transportadores en laboratorio y podrían alterar los niveles de esos fármacos. Relevancia clínica no conocida.",
+          "en": "Boswellic acids alter these transporters in the lab and could change levels of those drugs. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/boswellia"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/boswellia",
+      "https://www.nccih.nih.gov/health/boswellia"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Andrographis (hierba amarga, chuan xin lian)",
+      "en": "Andrographis"
+    },
+    "latin": "Andrographis paniculata",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Puede causar dolor de cabeza, cansancio, mareo, erupciones, náuseas, vómitos, diarrea y alteración del gusto; se han descrito reacciones alérgicas graves (anafilaxia) y puede elevar las enzimas del hígado. Puede bajar la presión arterial. Información orientativa: consulte a su profesional de salud.",
+      "en": "It may cause headache, fatigue, dizziness, rash, nausea, vomiting, diarrhea and altered taste; severe allergic reactions (anaphylaxis) have been reported and it may raise liver enzymes. It may lower blood pressure. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Antecedentes de alergia a la planta.",
+        "Precaución si toma medicamentos para la presión, anticoagulantes o quimioterapia."
+      ],
+      "en": [
+        "History of allergy to the plant.",
+        "Caution if you take blood pressure medicines, anticoagulants or chemotherapy."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Las fuentes consultadas no ofrecen datos sobre el embarazo o la lactancia, y la Agencia Europea del Medicamento no pudo establecer una monografía por falta de datos de seguridad; consulte antes de usarla.",
+      "en": "The sources consulted give no data on pregnancy or breastfeeding, and the European Medicines Agency could not establish a monograph for lack of safety data; ask before using it."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antihipertensivos",
+          "en": "Blood pressure medicines"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Puede sumarse a su efecto y bajar demasiado la presión; en voluntarios sanos causó descensos pasajeros de la presión.",
+          "en": "It may add to their effect and lower blood pressure too much; in healthy volunteers it caused temporary drops in blood pressure."
+        },
+        "severidad": "moderada",
+        "evidencia": "clinica",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes",
+          "en": "Anticoagulants and antiplatelet drugs"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Inhibe la agregación de plaquetas en laboratorio; un estudio en ratas no encontró interacción con la warfarina. Consulte a su médico.",
+          "en": "It inhibits platelet aggregation in the lab; a rat study found no interaction with warfarin. Check with your doctor."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+      },
+      {
+        "farmaco": {
+          "es": "Aminofilina / teofilina y otros fármacos metabolizados por CYP1A2, 2C9 y 3A4",
+          "en": "Aminophylline / theophylline and other drugs metabolized by CYP1A2, 2C9 and 3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Puede inhibir estas enzimas y aumentar los niveles y efectos secundarios de la aminofilina (estudio en ratas). Relevancia clínica no determinada.",
+          "en": "It may inhibit these enzymes and raise levels and side effects of aminophylline (rat study). Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+      },
+      {
+        "farmaco": {
+          "es": "Quimioterápicos",
+          "en": "Chemotherapy drugs"
+        },
+        "clase": "quimioterapia",
+        "efecto": {
+          "es": "Sus efectos antioxidantes podrían interferir con algunos quimioterápicos (datos de laboratorio).",
+          "en": "Its antioxidant effects might interfere with some chemotherapy drugs (laboratory data)."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por UGT2B7",
+          "en": "Drugs metabolized by UGT2B7"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Derivados del andrografólido podrían inhibir UGT2B7 y aumentar los efectos secundarios de esos fármacos (datos de laboratorio).",
+          "en": "Andrographolide derivatives might inhibit UGT2B7 and increase side effects of those drugs (laboratory data)."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/andrographis",
+      "https://www.ema.europa.eu/en/documents/public-statement/final-public-statement-andrographis-paniculata-nees-folium-first-version_en.pdf"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Saw palmetto (palmito salvaje)",
+      "en": "Saw palmetto"
+    },
+    "latin": "Serenoa repens",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Se tolera bien y se ha usado en estudios hasta 3 años; los efectos secundarios son leves (molestias digestivas, dolor de cabeza, mareo). Hay reportes aislados de sangrado, sobre todo junto con anticoagulantes. No altera el PSA. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is well tolerated and has been used in studies for up to 3 years; side effects are mild (digestive upset, headache, dizziness). There are isolated reports of bleeding, mainly together with anticoagulants. It does not affect PSA. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Embarazo y lactancia.",
+        "Uso de anticoagulantes, antiagregantes o AINE sin supervisión médica.",
+        "Informe a su médico antes de una cirugía (se han descrito sangrados durante operaciones) y consulte si recibe radioterapia."
+      ],
+      "en": [
+        "Pregnancy and breastfeeding.",
+        "Use of anticoagulants, antiplatelet drugs or NSAIDs without medical supervision.",
+        "Tell your doctor before surgery (bleeding during operations has been reported) and ask if you are receiving radiation therapy."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Puede no ser seguro durante el embarazo o la lactancia.",
+      "en": "It may be unsafe during pregnancy or breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, rivaroxabán, clopidogrel)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, rivaroxaban, clopidogrel)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede sumarse a su efecto y aumentar el riesgo de moretones y sangrado; hay reportes de casos.",
+          "en": "It may add to their effect and raise the risk of bruising and bleeding; there are case reports."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/saw-palmetto"
+      },
+      {
+        "farmaco": {
+          "es": "Antiinflamatorios no esteroideos (AINE)",
+          "en": "Nonsteroidal anti-inflammatory drugs (NSAIDs)"
+        },
+        "clase": "analgesicos",
+        "efecto": {
+          "es": "Podría aumentar el riesgo de efectos secundarios como el sangrado (un reporte de caso).",
+          "en": "It may increase the risk of side effects such as bleeding (one case report)."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/saw-palmetto"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP3A4, 2D6 y 2C9 o por enzimas UGT",
+          "en": "Drugs metabolized by CYP3A4, 2D6 and 2C9 or by UGT enzymes"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "En laboratorio afecta a estas enzimas y podría alterar los niveles de esos fármacos. Relevancia clínica no conocida.",
+          "en": "In the lab it affects these enzymes and could alter levels of those drugs. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/saw-palmetto"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/saw-palmetto",
+      "https://www.nccih.nih.gov/health/saw-palmetto"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Ortiga",
+      "en": "Stinging nettle"
+    },
+    "latin": "Urtica dioica",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "La hoja y la raíz se consideran seguras a las dosis habituales y bien toleradas; pueden causar molestias digestivas leves o alergia. La Agencia Europea del Medicamento no ha registrado interacciones con fármacos; algunas obras de referencia señalan posibles efectos aditivos teóricos. Información orientativa: consulte a su profesional de salud.",
+      "en": "The leaf and root are considered safe at usual doses and well tolerated; they may cause mild digestive upset or allergy. The European Medicines Agency has not recorded any drug interactions; some reference texts note possible theoretical additive effects. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la ortiga.",
+        "Hoja: situaciones en las que se recomienda reducir la ingesta de líquidos (p. ej. enfermedad grave del corazón o del riñón).",
+        "Menores de 12 años (hoja), por falta de datos.",
+        "Raíz para síntomas de próstata: consulte al médico si hay fiebre, sangre en la orina, dolor al orinar o retención de orina."
+      ],
+      "en": [
+        "Allergy to nettle.",
+        "Leaf: conditions where reduced fluid intake is advised (e.g. severe heart or kidney disease).",
+        "Children under 12 (leaf), for lack of data.",
+        "Root for prostate symptoms: see a doctor if there is fever, blood in the urine, painful urination or urinary retention."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se ha establecido la seguridad de la hoja; no se recomienda durante el embarazo ni la lactancia.",
+      "en": "Safety of the leaf has not been established; it is not recommended during pregnancy or breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Antidiabéticos",
+          "en": "Diabetes medicines"
+        },
+        "clase": "antidiabeticos",
+        "efecto": {
+          "es": "Según una obra de referencia, el uso excesivo podría interferir con el tratamiento de la diabetes; la Agencia Europea no lo consideró una interacción establecida.",
+          "en": "According to a reference text, excessive use might interfere with diabetes treatment; the European agency did not consider it an established interaction."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.ema.europa.eu/documents/herbal-report/assessment-report-urtica-dioica-l-urtica-urens-l-herba_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Medicamentos para la presión arterial (alta o baja)",
+          "en": "Blood pressure medicines (for high or low pressure)"
+        },
+        "clase": "antihipertensivos",
+        "efecto": {
+          "es": "Según una obra de referencia, el uso excesivo podría interferir con estos tratamientos; no es una interacción establecida.",
+          "en": "According to a reference text, excessive use might interfere with these treatments; it is not an established interaction."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.ema.europa.eu/documents/herbal-report/assessment-report-urtica-dioica-l-urtica-urens-l-herba_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Depresores del sistema nervioso central (sedantes)",
+          "en": "Central nervous system depressants (sedatives)"
+        },
+        "clase": "sedantes",
+        "efecto": {
+          "es": "Según una obra de referencia, el uso excesivo podría potenciar su efecto; no es una interacción establecida.",
+          "en": "According to a reference text, excessive use might strengthen their effect; it is not an established interaction."
+        },
+        "severidad": "teorica",
+        "evidencia": "teorica",
+        "fuente": "https://www.ema.europa.eu/documents/herbal-report/assessment-report-urtica-dioica-l-urtica-urens-l-herba_en.pdf"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.ema.europa.eu/documents/herbal-report/assessment-report-urtica-dioica-l-urtica-urens-l-herba_en.pdf",
+      "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-urtica-dioica-l-urtica-urens-l-radix-revision-1_en.pdf"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Trébol rojo",
+      "en": "Red clover"
+    },
+    "latin": "Trifolium pratense",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Los extractos parecen bien tolerados en estudios de hasta 2 años. Contiene isoflavonas de acción parecida a los estrógenos, por lo que no se recomienda en cánceres sensibles a hormonas. Hay casos aislados de sangrado. Información orientativa: consulte a su profesional de salud.",
+      "en": "Extracts appear well tolerated in studies lasting up to 2 years. It contains isoflavones with estrogen-like action, so it is not recommended with hormone-sensitive cancers. There are isolated cases of bleeding. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Cánceres sensibles a hormonas (por su actividad estrogénica).",
+        "Embarazo y lactancia.",
+        "Uso de anticoagulantes o metotrexato sin supervisión médica."
+      ],
+      "en": [
+        "Hormone-sensitive cancers (because of its estrogenic activity).",
+        "Pregnancy and breastfeeding.",
+        "Use of anticoagulants or methotrexate without medical supervision."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Los suplementos de trébol rojo pueden no ser seguros durante el embarazo o la lactancia; evítelos.",
+      "en": "Red clover supplements may be unsafe during pregnancy or breastfeeding; avoid them."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Metotrexato",
+          "en": "Methotrexate"
+        },
+        "clase": "quimioterapia",
+        "efecto": {
+          "es": "Se describió toxicidad (vómitos intensos y dolor de estómago) en un paciente que recibía metotrexato inyectado para la psoriasis.",
+          "en": "Toxicity (severe vomiting and stomach pain) was reported in a patient receiving methotrexate injections for psoriasis."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-clover"
+      },
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (p. ej. warfarina)",
+          "en": "Anticoagulants and antiplatelet drugs (e.g. warfarin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Estudios preclínicos sugieren que puede aumentar su efecto y el riesgo de sangrado. Relevancia clínica no determinada.",
+          "en": "Preclinical studies suggest it may increase their effect and the risk of bleeding. Clinical relevance not determined."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-clover"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por CYP1A2, 2C8, 2C9, 2C19, 2D6 y 3A4",
+          "en": "Drugs metabolized by CYP1A2, 2C8, 2C9, 2C19, 2D6 and 3A4"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Estudios preclínicos sugieren que inhibe estas enzimas y podría alterar los niveles de esos fármacos. Relevancia clínica no determinada.",
+          "en": "Preclinical studies suggest it inhibits these enzymes and could alter levels of those drugs. Clinical relevance not determined."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-clover"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/red-clover",
+      "https://www.nccih.nih.gov/health/red-clover"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Pau d'arco (lapacho, taheebo)",
+      "en": "Pau d'arco"
+    },
+    "latin": "Tabebuia impetiginosa",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Puede causar náuseas, vómitos y orina de color distinto. En animales, dosis altas y prolongadas de lapachol (su componente principal) causaron anemia y efectos tóxicos sobre el feto. Puede aumentar el efecto de los anticoagulantes. Información orientativa: consulte a su profesional de salud.",
+      "en": "It may cause nausea, vomiting and discolored urine. In animals, high, prolonged doses of lapachol (its main component) caused anemia and toxic effects on the fetus. It may increase the effect of anticoagulants. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Uso de anticoagulantes o antiagregantes.",
+        "Embarazo (efectos tóxicos en el feto en estudios con animales)."
+      ],
+      "en": [
+        "Use of anticoagulants or antiplatelet drugs.",
+        "Pregnancy (toxic effects on the fetus in animal studies)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No hay datos en personas, pero el lapachol fue tóxico para el feto en ratas; mejor evitarlo en el embarazo. No hay datos sobre la lactancia.",
+      "en": "There are no human data, but lapachol was toxic to the fetus in rats; best avoided during pregnancy. There are no data on breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Anticoagulantes y antiagregantes (warfarina, clopidogrel, aspirina)",
+          "en": "Anticoagulants and antiplatelet drugs (warfarin, clopidogrel, aspirin)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Puede aumentar su actividad y el riesgo de sangrado. Relevancia clínica no conocida.",
+          "en": "It may increase their activity and the risk of bleeding. Clinical relevance unknown."
+        },
+        "severidad": "moderada",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/pau-d-arco"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/pau-d-arco"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Alfalfa",
+      "en": "Alfalfa"
+    },
+    "latin": "Medicago sativa",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Como alimento suele tolerarse bien; en suplemento puede causar heces blandas, diarrea y gases. Se han descrito brotes de lupus con tabletas de alfalfa. Por su contenido en vitamina K debe evitarse con warfarina. Información orientativa: consulte a su profesional de salud.",
+      "en": "As a food it is usually well tolerated; as a supplement it may cause loose stools, diarrhea and gas. Lupus flares have been reported with alfalfa tablets. Because of its vitamin K content it should be avoided with warfarin. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Lupus eritematoso sistémico (incluso latente): se han descrito recaídas.",
+        "Gota, por su alto contenido de purinas.",
+        "Embarazo y lactancia (efectos hormonales).",
+        "Uso de warfarina."
+      ],
+      "en": [
+        "Systemic lupus erythematosus (even latent): relapses have been reported.",
+        "Gout, because of its high purine content.",
+        "Pregnancy and breastfeeding (hormonal effects).",
+        "Use of warfarin."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "Se aconseja evitarla en el embarazo y la lactancia por sus efectos hormonales. Aunque se promociona para aumentar la leche, no hay ensayos válidos que lo respalden ni datos de seguridad en lactantes.",
+      "en": "It is best avoided during pregnancy and breastfeeding because of its hormonal effects. Although it is marketed to boost milk supply, no valid trials support this and there are no safety data in nursing infants."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Warfarina (y otros antagonistas de la vitamina K)",
+          "en": "Warfarin (and other vitamin K antagonists)"
+        },
+        "clase": "anticoagulantes",
+        "efecto": {
+          "es": "Por su contenido de vitamina K puede reducir el efecto de la warfarina; debe evitarse en quienes la toman.",
+          "en": "Because of its vitamin K content it may reduce the effect of warfarin; it should be avoided by people taking it."
+        },
+        "severidad": "alta",
+        "evidencia": "teorica",
+        "fuente": "https://www.ncbi.nlm.nih.gov/books/NBK501830/"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/alfalfa",
+      "https://www.ncbi.nlm.nih.gov/books/NBK501830/"
+    ]
+  },
+  {
+    "ref": null,
+    "nombre": {
+      "es": "Kelp / fucus (sargazo vejigoso, yodo)",
+      "en": "Kelp / bladderwrack (iodine)"
+    },
+    "latin": "Fucus vesiculosus",
+    "grupo": "occidental",
+    "resumen": {
+      "es": "Es rico en yodo, que en dosis altas puede ser tóxico y alterar el tiroides (cambios en la TSH, palpitaciones, temblor, cambios de presión). Las algas de aguas contaminadas pueden contener metales pesados que dañan el riñón. No debe combinarse con medicamentos para el tiroides ni con otros productos con yodo. Información orientativa: consulte a su profesional de salud.",
+      "en": "It is rich in iodine, which at high doses can be toxic and disturb the thyroid (TSH changes, palpitations, tremor, blood pressure changes). Seaweed from polluted waters may contain heavy metals that harm the kidneys. It should not be combined with thyroid medicines or other iodine products. This is general guidance: talk to your health care provider."
+    },
+    "contraindicaciones": {
+      "es": [
+        "Alergia a la planta.",
+        "Tratamiento con medicamentos para el tiroides o con preparados de yodo.",
+        "Menores de 18 años.",
+        "No supere la dosis recomendada (exceso de yodo)."
+      ],
+      "en": [
+        "Allergy to the plant.",
+        "Treatment with thyroid medicines or iodine preparations.",
+        "Under 18 years of age.",
+        "Do not exceed the recommended dose (excess iodine)."
+      ]
+    },
+    "embarazo_lactancia": {
+      "es": "No se ha establecido su seguridad; no se recomienda durante el embarazo ni la lactancia.",
+      "en": "Safety has not been established; not recommended during pregnancy or breastfeeding."
+    },
+    "interacciones": [
+      {
+        "farmaco": {
+          "es": "Medicamentos para el tiroides (levotiroxina, antitiroideos) y preparados de yodo",
+          "en": "Thyroid medicines (levothyroxine, antithyroid drugs) and iodine preparations"
+        },
+        "clase": "tiroides",
+        "efecto": {
+          "es": "Su yodo puede alterar la función tiroidea y el efecto de estos tratamientos; la Agencia Europea indica no tomarlos a la vez.",
+          "en": "Its iodine can disturb thyroid function and the effect of these treatments; the European agency advises not taking them together."
+        },
+        "severidad": "alta",
+        "evidencia": "teorica",
+        "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-fucus-vesiculosus-l-thallus_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Litio",
+          "en": "Lithium"
+        },
+        "clase": "litio",
+        "efecto": {
+          "es": "Se publicó un caso de hipertiroidismo en un paciente con trastorno bipolar tratado con litio que tomaba fucus.",
+          "en": "A case of hyperthyroidism was published in a patient with bipolar disorder treated with lithium who was taking bladderwrack."
+        },
+        "severidad": "moderada",
+        "evidencia": "casos",
+        "fuente": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-fucus-vesiculosus-l-thallus_en.pdf"
+      },
+      {
+        "farmaco": {
+          "es": "Amiodarona",
+          "en": "Amiodarone"
+        },
+        "clase": "cardiacos",
+        "efecto": {
+          "es": "En un estudio con ratas redujo la biodisponibilidad de la amiodarona. Relevancia clínica no conocida.",
+          "en": "In a rat study it reduced the bioavailability of amiodarone. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bladder-wrack"
+      },
+      {
+        "farmaco": {
+          "es": "Fármacos metabolizados por enzimas CYP450",
+          "en": "Drugs metabolized by CYP450 enzymes"
+        },
+        "clase": "cyp450",
+        "efecto": {
+          "es": "Datos de laboratorio sugieren que podría alterar los niveles de estos fármacos. Relevancia clínica no conocida.",
+          "en": "Laboratory data suggest it could alter levels of these drugs. Clinical relevance unknown."
+        },
+        "severidad": "teorica",
+        "evidencia": "in_vitro_animal",
+        "fuente": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bladder-wrack"
+      }
+    ],
+    "sin_interacciones_documentadas": false,
+    "fuentes": [
+      "https://www.ema.europa.eu/en/medicines/herbal/fucus",
+      "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-fucus-vesiculosus-l-thallus_en.pdf",
+      "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/bladder-wrack"
+    ]
+  }
+]

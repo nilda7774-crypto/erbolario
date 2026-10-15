@@ -109,6 +109,10 @@ def preferencia_de_tipo(terms):
         enfoque["formula_tcm"] = enfoque.get("formula_tcm", 1.0) * 1.6
     if t & {"hierba", "planta", "raiz"}:
         enfoque["hierba_tcm"] = enfoque.get("hierba_tcm", 1.0) * 1.6
+    seguridad = ("interaccion", "farmaco", "medicamento", "medicina", "pastilla", "seguro", "segura", "seguridad",
+                 "contraindicacion", "embarazo", "warfarina", "aspirina", "metformina", "anticoagulante")
+    if any(x == w or x.startswith(w) for x in t for w in seguridad):
+        enfoque["seguridad"] = 2.0
     return enfoque
 
 
@@ -133,7 +137,10 @@ de cada país manda. Los precios son de referencia (tienda de EE. UU., septiembr
 Si el documento incluye la ficha oficial, puedes ofrecer el enlace.
 Para las fórmulas chinas [TCM-xxx], las hierbas chinas [HRB-xxx] y el modelo energético [MOD-xx]: explica la polaridad
 (positiva/yang o negativa/yin), el órgano, el elemento, los síntomas y la fórmula clásica cuando el documento los dé,
-y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados."""
+y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados.
+Para la seguridad y las interacciones con medicamentos [SEG-xxx]: indica la gravedad y el nivel de evidencia,
+nunca digas que una combinación es segura solo porque no hay datos, recomienda siempre consultar al médico o
+farmacéutico y nunca sugieras suspender o cambiar un medicamento."""
 
 
 def construir_contexto(resultados):

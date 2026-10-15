@@ -170,6 +170,38 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
 footer { font-size: 0.85rem; color: var(--muted); max-width: 80ch; display: grid; gap: 6px; }
 footer p { margin: 0; }
 @media (prefers-reduced-motion: no-preference) { .card { transition: border-color .2s, box-shadow .2s; } }
+/* Seguridad e interacciones */
+.seguridad { display: grid; gap: 14px; }
+.alerta { border: 1px solid var(--warn); border-left-width: 5px; border-radius: 8px; padding: 12px 14px; background: var(--surface); display: grid; gap: 4px; }
+.alerta strong { color: var(--warn); }
+.alerta p { margin: 0; font-size: 0.92rem; }
+.seg-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; min-width: 0; }
+.seg-card.flash { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
+.seg-card .cab { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.seg-card .lat { font-style: italic; color: var(--muted); font-size: 0.85rem; }
+.seg-card > p { margin: 0; font-size: 0.93rem; }
+.tabla-int { overflow-x: auto; }
+.tabla-int table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 520px; }
+.tabla-int th { text-align: left; font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+.tabla-int td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tabla-int tr:last-child td { border-bottom: 0; }
+.sev { display: inline-block; font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+.sev.alta { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
+.sev.moderada { background: color-mix(in srgb, var(--sun) 18%, transparent); color: var(--sun); }
+.sev.baja, .sev.teorica { background: var(--line); color: var(--muted); }
+.evid { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
+.sin-int { font-size: 0.9rem; color: var(--muted); margin: 0; }
+.fuentes a { font-size: 0.8rem; color: var(--muted); overflow-wrap: anywhere; }
+.grid-seg { display: grid; gap: 12px; }
+@media (max-width: 700px) {
+  .tabla-int table { min-width: 0; }
+  .tabla-int thead { display: none; }
+  .tabla-int tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .tabla-int td { border: 0; padding: 0; }
+  .tabla-int td:nth-child(1) { font-weight: 600; }
+  .tabla-int td:nth-child(3) { grid-column: 1 / -1; }
+  .tabla-int td:nth-child(2) { grid-row: 1; grid-column: 2; }
+}
 /* "Ver más" en listas largas */
 .mas { justify-self: center; }
 /* Barra inferior: solo en teléfono */
@@ -206,7 +238,7 @@ footer p { margin: 0; }
   #f-pol .chip { flex: 0 0 auto; }
   .contacto { padding: 16px; }
   /* Barra inferior fija */
-  .nav-movil { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+  .nav-movil { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
     background: var(--surface); border-top: 1px solid var(--line); padding: 6px 4px calc(6px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -4px 18px rgba(0,0,0,.06); }
   .nav-movil a { display: grid; justify-items: center; gap: 2px; padding: 4px 2px; text-decoration: none; color: var(--muted); font-size: 0.7rem; min-width: 0; }
   .nav-movil a:active, .nav-movil a:focus-visible { color: var(--leaf); }
@@ -313,6 +345,27 @@ footer p { margin: 0; }
     <button class="btn ghost mas" id="mas-hie" type="button" hidden></button>
   </section>
 
+  <section class="seguridad" id="seguridad" data-i18n-aria="seg_h2" aria-label="Seguridad e interacciones">
+    <div>
+      <span class="label" data-i18n="seg_label">Seguridad</span>
+      <h2 data-i18n="seg_h2">Seguridad e interacciones con medicamentos</h2>
+    </div>
+    <div class="alerta" role="note">
+      <strong data-i18n="seg_alerta_t">Información orientativa, no sustituye a tu médico o farmacéutico.</strong>
+      <p data-i18n="seg_alerta_p">Si tomas medicamentos, estás embarazada o en lactancia, o vas a operarte, consulta antes de tomar cualquier hierba o suplemento. No suspendas ni cambies un medicamento por tu cuenta.</p>
+    </div>
+    <div class="cat-head">
+      <p class="note" id="cuenta-seg"></p>
+      <div class="filters">
+        <input id="f-seg" type="search" data-i18n-ph="seg_ph" placeholder="Busca una hierba o un medicamento (p. ej. warfarina)" data-i18n-aria="seg_ph" aria-label="Buscar">
+        <select id="f-clase" data-i18n-aria="seg_clase" aria-label="Tipo de medicamento"></select>
+        <select id="f-sev" data-i18n-aria="seg_sev" aria-label="Gravedad"></select>
+      </div>
+    </div>
+    <div class="grid-seg" id="grid-seg"></div>
+    <button class="btn ghost mas" id="mas-seg" type="button" hidden></button>
+  </section>
+
   <section class="contacto" id="contacto" data-i18n-aria="contacto" aria-label="Contacto">
     <div class="intro">
       <span class="label" data-i18n="contacto">Contacto</span>
@@ -350,6 +403,7 @@ footer p { margin: 0; }
     <a href="#consulta"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span data-i18n="nav_preguntar">Preguntar</span></a>
     <a href="#catalogo"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg><span data-i18n="catalogo">Catálogo</span></a>
     <a href="#tcm"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19l8-8"/></svg><span data-i18n="formulas">Fórmulas</span></a>
+    <a href="#seguridad"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M12 8v5"/><path d="M12 16v.5"/></svg><span data-i18n="seg_label">Seguridad</span></a>
     <a href="#contacto"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span data-i18n="contacto">Contacto</span></a>
     <a class="wa" href="https://wa.me/17084905878" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M5 19l1.2-3.6A8 8 0 1 1 9 18.5z"/><path d="M9.5 9.5c.5 2 2 3.5 4 4l1-1 2 1"/></svg><span>WhatsApp</span></a>
   </nav>
@@ -434,9 +488,28 @@ footer p { margin: 0; }
       error_gen: "No se pudo completar la respuesta por un fallo temporal. Vuelve a intentarlo.",
       bienvenida: "Hola. Pregúntame por un síntoma, un ingrediente o un producto del catálogo y te respondo con las fichas oficiales, citando cada una. Toca una sugerencia para empezar.",
       sugerencias: ["¿Qué me ayuda a dormir mejor?", "Tengo dolor de rodillas", "¿Qué diferencia hay entre las fórmulas chinas positivas y negativas?", "¿Qué fórmula china es para el hígado?", "¿Para qué sirve el astrágalo?", "Defensas para el invierno"],
-      ejemplo: "dolor de rodillas", pregunta: "Pregunta",
+      ejemplo: "dolor de rodillas", pregunta: "Pregunta", seg_doc: "Seguridad e interacciones", seg_int: "Interacciones con medicamentos", seg_gravedad: "gravedad", seg_evid: "evidencia", seg_resumen: "Resumen", seg_ninguna: "ninguna documentada en las fuentes consultadas",
       nav_aria: "Secciones", nav_preguntar: "Preguntar", ver_mas: (n) => `Ver ${n} más`,
-      tipos: { producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china" },
+      seg_label: "Seguridad", seg_h2: "Seguridad e interacciones con medicamentos",
+      seg_alerta_t: "Información orientativa, no sustituye a tu médico o farmacéutico.",
+      seg_alerta_p: "Si tomas medicamentos, estás embarazada o en lactancia, o vas a operarte, consulta antes de tomar cualquier hierba o suplemento. No suspendas ni cambies un medicamento por tu cuenta.",
+      seg_ph: "Busca una hierba o un medicamento (p. ej. warfarina)", seg_clase: "Tipo de medicamento", seg_sev: "Gravedad",
+      todas_clases: "Todos los medicamentos", todas_sev: "Todas las gravedades",
+      cuenta_seg: (a, b, c) => `${a} de ${b} hierbas y suplementos · ${c} interacciones documentadas`,
+      ninguna_seg: "Nada coincide con esa búsqueda.",
+      th_farmaco: "Medicamento", th_gravedad: "Gravedad", th_efecto: "Qué puede pasar",
+      contraindicaciones: "No usar si…", embarazo: "Embarazo y lactancia", fuentes: "Fuentes",
+      sin_int: "No se encontraron interacciones documentadas con medicamentos en las fuentes consultadas. Eso no garantiza que no existan.",
+      ver_seguridad: "Seguridad e interacciones",
+      grupos: { china: "Hierba china", occidental: "Hierba occidental", suplemento: "Suplemento" },
+      sev: { alta: "Alta", moderada: "Moderada", baja: "Baja", teorica: "Teórica" },
+      evid: { clinica: "Estudios en personas", casos: "Reportes de casos", in_vitro_animal: "Laboratorio o animales", teorica: "Teórica" },
+      clases: { anticoagulantes: "Anticoagulantes y antiagregantes", antidiabeticos: "Antidiabéticos", antihipertensivos: "Para la presión arterial",
+        cardiacos: "Medicamentos para el corazón", diureticos: "Diuréticos", antidepresivos: "Antidepresivos", sedantes: "Sedantes y para dormir",
+        inmunosupresores: "Inmunosupresores", hormonas: "Hormonas y anticonceptivos", tiroides: "Tiroides", cyp450: "Fármacos metabolizados por el hígado (CYP450)",
+        quimioterapia: "Quimioterapia", analgesicos: "Analgésicos y antiinflamatorios", litio: "Litio", absorcion: "Absorción de medicamentos orales",
+        hepatotoxicos: "Fármacos que afectan al hígado", otros: "Otros" },
+      tipos: { producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
     },
     en: {
       consultor_aria: "Your consultant", idioma_aria: "Language",
@@ -498,9 +571,28 @@ footer p { margin: 0; }
       error_gen: "The answer could not be completed because of a temporary error. Please try again.",
       bienvenida: "Hi! Ask me about a symptom, an ingredient or a product in the catalog and I'll answer with the official records, citing each one. Tap a suggestion to start.",
       sugerencias: ["What helps me sleep better?", "I have knee pain", "What is the difference between positive and negative Chinese formulas?", "Which Chinese formula is for the liver?", "What is astragalus used for?", "Immune support for winter"],
-      ejemplo: "knee pain", pregunta: "Question",
+      ejemplo: "knee pain", pregunta: "Question", seg_doc: "Safety and interactions", seg_int: "Drug interactions", seg_gravedad: "severity", seg_evid: "evidence", seg_resumen: "Summary", seg_ninguna: "none documented in the sources consulted",
       nav_aria: "Sections", nav_preguntar: "Ask", ver_mas: (n) => `Show ${n} more`,
-      tipos: { producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb" },
+      seg_label: "Safety", seg_h2: "Safety and drug interactions",
+      seg_alerta_t: "For information only; it does not replace your doctor or pharmacist.",
+      seg_alerta_p: "If you take medications, are pregnant or breastfeeding, or are about to have surgery, ask before taking any herb or supplement. Never stop or change a medication on your own.",
+      seg_ph: "Search an herb or a medication (e.g. warfarin)", seg_clase: "Type of medication", seg_sev: "Severity",
+      todas_clases: "All medications", todas_sev: "All severities",
+      cuenta_seg: (a, b, c) => `${a} of ${b} herbs and supplements · ${c} documented interactions`,
+      ninguna_seg: "Nothing matches that search.",
+      th_farmaco: "Medication", th_gravedad: "Severity", th_efecto: "What can happen",
+      contraindicaciones: "Do not use if…", embarazo: "Pregnancy and breastfeeding", fuentes: "Sources",
+      sin_int: "No documented drug interactions were found in the sources consulted. That does not guarantee there are none.",
+      ver_seguridad: "Safety and interactions",
+      grupos: { china: "Chinese herb", occidental: "Western herb", suplemento: "Supplement" },
+      sev: { alta: "High", moderada: "Moderate", baja: "Low", teorica: "Theoretical" },
+      evid: { clinica: "Human studies", casos: "Case reports", in_vitro_animal: "Lab or animal studies", teorica: "Theoretical" },
+      clases: { anticoagulantes: "Blood thinners and antiplatelets", antidiabeticos: "Diabetes medications", antihipertensivos: "Blood pressure medications",
+        cardiacos: "Heart medications", diureticos: "Diuretics", antidepresivos: "Antidepressants", sedantes: "Sedatives and sleep aids",
+        inmunosupresores: "Immunosuppressants", hormonas: "Hormones and birth control", tiroides: "Thyroid", cyp450: "Drugs processed by the liver (CYP450)",
+        quimioterapia: "Chemotherapy", analgesicos: "Pain relievers and anti-inflammatories", litio: "Lithium", absorcion: "Absorption of oral medications",
+        hepatotoxicos: "Drugs that affect the liver", otros: "Other" },
+      tipos: { producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
     },
   };
 
@@ -540,6 +632,7 @@ Si los documentos no contienen la respuesta, dilo claramente en lugar de inventa
 Son suplementos alimenticios: no diagnostiques ni prometas curar enfermedades, menciona las precauciones relevantes y recomienda consultar a un profesional de la salud cuando haya embarazo, niños, medicamentos o una condición médica.
 El modo de uso proviene de la web oficial de EE. UU.; recuerda que la etiqueta de cada país manda. Los precios son de referencia (tienda de EE. UU., septiembre de 2026) y pueden variar.
 Para las fórmulas chinas [TCM-xxx], las hierbas chinas [HRB-xxx] y el modelo energético [MOD-xx]: explica la polaridad (positiva/yang o negativa/yin), el órgano, el elemento, los síntomas y la fórmula clásica cuando el documento los dé, y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados.
+Para la seguridad y las interacciones con medicamentos [SEG-xxx]: indica la gravedad y el nivel de evidencia, nunca digas que una combinación es segura solo porque no hay datos, recomienda siempre consultar al médico o farmacéutico y nunca sugieras suspender o cambiar un medicamento.
 Usa párrafos cortos y listas con guiones. No uses tablas ni encabezados.`,
     en: `You are an expert assistant for the Nature's Sunshine Products catalog.
 Answer in English, clearly and briefly, using ONLY the information in the documents provided inside <documentos>.
@@ -548,6 +641,7 @@ If the documents do not contain the answer, say so clearly instead of making som
 These are dietary supplements: do not diagnose or promise to cure diseases, mention the relevant cautions, and recommend consulting a health professional for pregnancy, children, medications or a medical condition.
 Suggested use comes from the official US website; remind the reader that the label in their country takes precedence. Prices are for reference (US store, September 2026) and may vary.
 For Chinese formulas [TCM-xxx], Chinese herbs [HRB-xxx] and the energetic model [MOD-xx]: explain the polarity (positive/yang or negative/yin), the organ, the element, the symptoms and the classical formula when the document provides them, and make clear this is traditional Chinese medicine use, not proven medical treatment.
+For safety and drug interactions [SEG-xxx]: state the severity and level of evidence, never call a combination safe just because there is no data, always recommend checking with a doctor or pharmacist, and never suggest stopping or changing a medication.
 Use short paragraphs and bulleted lists with hyphens. Do not use tables or headings.`,
   };
 
@@ -612,6 +706,10 @@ product products take recommend something thing feel feeling hi hello please use
     if (hay(...china)) for (const x of ["formula", "hierba", "modelo"]) e[x] = 1.2;
     if (hay(...formula)) e.formula = (e.formula || 1) * 1.6;
     if (hay(...hierba)) e.hierba = (e.hierba || 1) * 1.6;
+    const seg = lang === "es"
+      ? ["interaccion", "farmaco", "medicamento", "medicina", "pastilla", "seguro", "segura", "seguridad", "contraindicacion", "embarazo", "warfarina", "aspirina", "metformina", "anticoagulante"]
+      : ["interaction", "drug", "medication", "medicine", "pill", "safe", "safety", "contraindication", "pregnancy", "warfarin", "aspirin", "metformin", "blood"];
+    if (terms.some((x) => seg.some((w) => x === w || x.startsWith(w)))) e.seguridad = 2;
     return e;
   }
 
@@ -673,6 +771,20 @@ product products take recommend something thing feel feeling hi hello please use
       ...tcm.formulas.map((f) => ({ id: f.id, titulo: f.nombre, texto: textoFormula(f), tipo: "formula" })),
       ...tcm.hierbas.map((h) => ({ id: h.id, titulo: [h.pinyin, h.nombre_es].filter(Boolean).join(" · ") || h.id, texto: textoHierba(h), tipo: "hierba" })),
     ];
+    const seguridad = DATOS.seguridad || [];
+    const tx = (o) => (o && (o[lang] ?? o.es)) || "";
+    const UIl = UI[lang];
+    for (const g of seguridad) {
+      const ints = g.interacciones || [];
+      docs.push({ id: g.id, titulo: tx(g.nombre), tipo: "seguridad", g, texto: [
+        `${UIl.seg_doc}: ${tx(g.nombre)}${g.latin ? " (" + g.latin + ")" : ""} [ID ${g.id}]${g.ref ? " · " + g.ref : ""}`,
+        `${UIl.seg_resumen}: ${tx(g.resumen)}`,
+        `${UIl.seg_int}: ${ints.length ? ints.map((i) => `${tx(i.farmaco)} (${UIl.clases[i.clase] || i.clase}; ${UIl.seg_gravedad} ${UIl.sev[i.severidad] || i.severidad}; ${UIl.seg_evid} ${UIl.evid[i.evidencia] || i.evidencia}): ${tx(i.efecto)}`).join(" | ") : UIl.seg_ninguna}`,
+        `${UIl.contraindicaciones} ${(tx(g.contraindicaciones) || []).join("; ") || "—"}`,
+        `${UIl.embarazo}: ${tx(g.embarazo_lactancia) || "—"}`,
+      ].join("\n") });
+    }
+    const segPorRef = Object.fromEntries(seguridad.filter((g) => g.ref).map((g) => [g.ref, g.id]));
     const porId = Object.fromEntries(docs.map((d) => [d.id, d]));
     const tfs = docs.map((d) => {
       const m = new Map();
@@ -707,14 +819,14 @@ product products take recommend something thing feel feeling hi hello please use
       }
       return elegidos;
     }
-    return (MUNDOS[lang] = { productos, empresa, tcm, hierbaPorId, formulaPorId, docs, porId, buscar });
+    return (MUNDOS[lang] = { productos, empresa, tcm, hierbaPorId, formulaPorId, docs, porId, buscar, seguridad, segPorRef, tx });
   }
 
   // ================= Estado =================
   let lang = "es", W = null, T = UI.es;
   try { const g = localStorage.getItem("herbolario-idioma"); if (g === "es" || g === "en") lang = g; } catch {}
   let filtroPol = "";
-  const LIM0 = { cat: 12, tcm: 8, hie: 12 };
+  const LIM0 = { cat: 12, tcm: 8, hie: 12, seg: 10 };
   const lim = { ...LIM0 };
   function botonMas(id, total, clave) {
     const b = $(id), resto = total - lim[clave];
@@ -785,6 +897,7 @@ product products take recommend something thing feel feeling hi hello please use
         ${h.uso_historico ? `<div><dt>${T.uso_hist}</dt><dd>${esc(h.uso_historico)}</dd></div>` : ""}
         <div><dt>${T.precauciones}</dt><dd>${esc(h.precauciones || "—")}</dd></div>
       </dl></details>
+      ${W.segPorRef[h.id] ? `<div class="herbs"><button type="button" class="herb-chip" data-id="${W.segPorRef[h.id]}">${T.ver_seguridad}</button></div>` : ""}
       ${h.formulas?.length ? `<div class="kv"><b>${T.en_formulas}</b><div class="herbs">${h.formulas.filter((i) => W.formulaPorId[i]).map((i) => `<button type="button" class="herb-chip" data-id="${i}">${esc(W.formulaPorId[i].nombre)}</button>`).join("")}</div></div>` : ""}
     </article>`;
   }
@@ -810,6 +923,53 @@ product products take recommend something thing feel feeling hi hello please use
       .map((v) => `<button type="button" class="chip" data-v="${v}" aria-pressed="${v === filtroPol}">${esc(T.pol_plural[v])}</button>`).join("");
     const organos = [...new Set(W.tcm.formulas.flatMap((f) => f.organos || []))].sort((a, b) => a.localeCompare(b, lang));
     $("f-organo").innerHTML = `<option value="">${esc(T.todos_organos)}</option>` + organos.map((o) => `<option>${esc(o)}</option>`).join("");
+  }
+
+  function tarjetaSeg(g) {
+    const tx = W.tx, ints = g.interacciones || [];
+    const orden = { alta: 0, moderada: 1, baja: 2, teorica: 3 };
+    const filas = [...ints].sort((a, b) => (orden[a.severidad] ?? 9) - (orden[b.severidad] ?? 9)).map((i) => `<tr>
+        <td>${esc(tx(i.farmaco))}<span class="evid">${esc(T.clases[i.clase] || i.clase)}</span></td>
+        <td><span class="sev ${esc(i.severidad)}">${esc(T.sev[i.severidad] || i.severidad)}</span></td>
+        <td>${esc(tx(i.efecto))}<span class="evid">${esc(T.evid[i.evidencia] || i.evidencia)}${i.fuente ? ` · <a href="${esc(i.fuente)}" target="_blank" rel="noopener">${esc(T.fuentes.toLowerCase())}</a>` : ""}</span></td>
+      </tr>`).join("");
+    const contra = tx(g.contraindicaciones) || [];
+    return `<article class="seg-card" id="card-${g.id}">
+      <div class="cab"><h3>${esc(tx(g.nombre))}</h3>${g.latin ? `<span class="lat">${esc(g.latin)}</span>` : ""}<span class="tag">${esc(T.grupos[g.grupo] || g.grupo)}</span>${g.ref ? `<button type="button" class="herb-chip" data-id="${g.ref}">${g.ref}</button>` : ""}</div>
+      <p>${esc(tx(g.resumen))}</p>
+      ${ints.length ? `<div class="tabla-int"><table><thead><tr><th>${T.th_farmaco}</th><th>${T.th_gravedad}</th><th>${T.th_efecto}</th></tr></thead><tbody>${filas}</tbody></table></div>` : `<p class="sin-int">${T.sin_int}</p>`}
+      <details><summary>${T.ficha_completa}</summary><dl>
+        ${contra.length ? `<div><dt>${T.contraindicaciones}</dt><dd>${esc(contra.join("; "))}</dd></div>` : ""}
+        <div><dt>${T.embarazo}</dt><dd>${esc(tx(g.embarazo_lactancia) || "—")}</dd></div>
+        <div class="fuentes"><dt>${T.fuentes}</dt><dd>${(g.fuentes || []).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 70))}</a>`).join("<br>")}</dd></div>
+      </dl></details>
+    </article>`;
+  }
+  function pintarSeguridad() {
+    const tx = W.tx;
+    const q = normalizar($("f-seg").value, lang).filter((t) => !t.startsWith("~"));
+    const clase = $("f-clase").value, sev = $("f-sev").value;
+    const orden = { alta: 0, moderada: 1, baja: 2, teorica: 3 };
+    const peor = (g) => Math.min(9, ...(g.interacciones || []).map((i) => orden[i.severidad] ?? 9));
+    const lista = W.seguridad.filter((g) => {
+      const ints = g.interacciones || [];
+      if (clase && !ints.some((i) => i.clase === clase)) return false;
+      if (sev && !ints.some((i) => i.severidad === sev)) return false;
+      if (!q.length) return true;
+      const toks = normalizar(W.porId[g.id].texto, lang);
+      return q.every((t) => toks.some((x) => x.startsWith(t)));
+    }).sort((a, b) => peor(a) - peor(b) || tx(a.nombre).localeCompare(tx(b.nombre), lang));
+    $("grid-seg").innerHTML = lista.slice(0, lim.seg).map(tarjetaSeg).join("") || `<p class="note">${T.ninguna_seg}</p>`;
+    botonMas("mas-seg", lista.length, "seg");
+    const total = W.seguridad.reduce((n, g) => n + (g.interacciones || []).length, 0);
+    $("cuenta-seg").textContent = T.cuenta_seg(lista.length, W.seguridad.length, total);
+  }
+  function prepararFiltrosSeg() {
+    const usadas = new Set(W.seguridad.flatMap((g) => (g.interacciones || []).map((i) => i.clase)));
+    $("f-clase").innerHTML = `<option value="">${esc(T.todas_clases)}</option>` +
+      Object.keys(T.clases).filter((c) => usadas.has(c)).map((c) => `<option value="${c}">${esc(T.clases[c])}</option>`).join("");
+    $("f-sev").innerHTML = `<option value="">${esc(T.todas_sev)}</option>` +
+      ["alta", "moderada", "baja", "teorica"].map((v) => `<option value="${v}">${esc(T.sev[v])}</option>`).join("");
   }
 
   function tarjeta(p) {
@@ -871,6 +1031,7 @@ product products take recommend something thing feel feeling hi hello please use
       if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
       if (d.tipo === "formula") { lim.tcm = Infinity; filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
       if (d.tipo === "hierba") { $("f-hierba").value = ""; lim.hie = Infinity; pintarHierbas(); }
+      if (d.tipo === "seguridad") { $("f-seg").value = ""; $("f-clase").value = ""; $("f-sev").value = ""; lim.seg = Infinity; pintarSeguridad(); }
     }
     const el = document.getElementById("card-" + id);
     if (!el) return;
@@ -910,7 +1071,7 @@ product products take recommend something thing feel feeling hi hello please use
   function inline(s) {
     return s
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
+      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
       .replace(/(https:\/\/www\.naturessunshine\.com\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   }
   function addMsg(rol, html) {
@@ -965,11 +1126,13 @@ product products take recommend something thing feel feeling hi hello please use
     if (!primera && ocupado) ctl?.abort();
     lang = nuevo; T = UI[lang]; W = mundo(lang);
     try { localStorage.setItem("herbolario-idioma", lang); } catch {}
-    filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; Object.assign(lim, LIM0);
+    filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; $("f-seg").value = ""; Object.assign(lim, LIM0);
     pintarEstaticos();
     prepararCategorias(); pintarCatalogo();
     if (W.tcm.formulas.length) { $("tcm").hidden = false; prepararFiltrosTcm(); pintarModelo(); pintarTcm(); pintarHierbas(); }
     else $("tcm").hidden = true;
+    if (W.seguridad.length) { $("seguridad").hidden = false; prepararFiltrosSeg(); pintarSeguridad(); }
+    else $("seguridad").hidden = true;
     pintarGaleria();
     // La conversación empieza de nuevo en el idioma elegido.
     turnos.length = 0;
@@ -985,6 +1148,11 @@ product products take recommend something thing feel feeling hi hello please use
   $("mas-cat").addEventListener("click", () => { lim.cat += 24; pintarCatalogo(); });
   $("mas-tcm").addEventListener("click", () => { lim.tcm = Infinity; pintarTcm(); });
   $("mas-hie").addEventListener("click", () => { lim.hie += 24; pintarHierbas(); });
+  $("mas-seg").addEventListener("click", () => { lim.seg += 20; pintarSeguridad(); });
+  $("f-seg").addEventListener("input", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("f-clase").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("f-sev").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
   $("f-pol").addEventListener("click", (e) => {
     const b = e.target.closest(".chip"); if (!b) return;
     filtroPol = b.dataset.v; lim.tcm = LIM0.tcm;
