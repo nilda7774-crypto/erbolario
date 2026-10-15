@@ -1,0 +1,23 @@
+{
+ "name": "Herbolario Consultor",
+ "short_name": "Herbolario",
+ "lang": "es",
+ "description": "Catálogo de Nature's Sunshine, fórmulas chinas y hierbas.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f2f4ee",
+ "theme_color": "#2d6a4c",
+ "icons": [
+  {
+   "src": "img/icono-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "img/icono-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

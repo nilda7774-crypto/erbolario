@@ -47,9 +47,24 @@ def main():
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
         '<meta name="description" content="Herbolario Consultor: catálogo de productos de '
         'Nature\'s Sunshine, fórmulas chinas y hierbas, en español e inglés.">\n'
+        '<meta name="theme-color" content="#2d6a4c">\n'
+        '<link rel="manifest" href="manifest.webmanifest">\n'
+        '<link rel="icon" type="image/png" sizes="192x192" href="img/icono-192.png">\n'
+        '<link rel="apple-touch-icon" href="img/icono-180.png">\n'
+        '<meta name="apple-mobile-web-app-capable" content="yes">\n'
+        '<meta name="apple-mobile-web-app-title" content="Herbolario">\n'
         '<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
         '</head>\n<body>\n' + pagina + '\n</body>\n</html>\n',
         encoding="utf-8")
+    # Para instalar el sitio en el teléfono como una app.
+    (sitio / "manifest.webmanifest").write_text(json.dumps({
+        "name": "Herbolario Consultor", "short_name": "Herbolario", "lang": "es",
+        "description": "Catálogo de Nature's Sunshine, fórmulas chinas y hierbas.",
+        "start_url": "./", "scope": "./", "display": "standalone",
+        "background_color": "#f2f4ee", "theme_color": "#2d6a4c",
+        "icons": [{"src": "img/icono-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": "img/icono-512.png", "sizes": "512x512", "type": "image/png"}],
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Página generada en {salida.relative_to(BASE)} y {(sitio / 'index.html').relative_to(BASE)} "
           f"({len(productos)} productos).")
 

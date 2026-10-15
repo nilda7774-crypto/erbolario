@@ -170,6 +170,50 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
 footer { font-size: 0.85rem; color: var(--muted); max-width: 80ch; display: grid; gap: 6px; }
 footer p { margin: 0; }
 @media (prefers-reduced-motion: no-preference) { .card { transition: border-color .2s, box-shadow .2s; } }
+/* "Ver más" en listas largas */
+.mas { justify-self: center; }
+/* Barra inferior: solo en teléfono */
+.nav-movil { display: none; }
+@media (max-width: 700px) {
+  body { font-size: 15px; }
+  .wrap { padding-inline: 14px; padding-block: 12px calc(84px + env(safe-area-inset-bottom, 0px)); gap: 26px; }
+  /* Barra superior compacta: tienda e idioma; el resto va en la barra inferior */
+  .consultor { padding: 10px 12px; gap: 8px; flex-wrap: nowrap; }
+  .consultor .rol { font-size: 0.78rem; line-height: 1.3; }
+  .consultor .acciones { flex-wrap: nowrap; flex-shrink: 0; }
+  .consultor .acciones > a:not(:first-child) { display: none; }
+  .consultor .acciones .btn { padding: 8px 12px; font-size: 0.88rem; }
+  .idioma button { padding: 8px 10px; }
+  /* Portada más baja */
+  header { min-height: 0; padding: 26px 18px 20px; gap: 10px; border-radius: 12px; }
+  header h1 { font-size: 2rem; }
+  header p { font-size: 0.95rem; }
+  .stats { font-size: 0.78rem; gap: 4px 14px; }
+  .stats span:last-child { display: none; }
+  /* Consulta */
+  .panel { padding: 14px; }
+  .chat { max-height: 55vh; }
+  form.ask .btn { flex: 1 1 auto; }
+  #sugerencias { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scroll-snap-type: x proximity; }
+  #sugerencias .chip { flex: 0 0 auto; scroll-snap-align: start; }
+  /* Galería deslizable */
+  .galeria { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 6px; }
+  .planta { flex: 0 0 72%; scroll-snap-align: start; }
+  /* Fichas a una columna, filtros a lo ancho */
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .filters, .filters input, .filters select { width: 100%; }
+  #f-pol { flex-wrap: nowrap; overflow-x: auto; }
+  #f-pol .chip { flex: 0 0 auto; }
+  .contacto { padding: 16px; }
+  /* Barra inferior fija */
+  .nav-movil { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    background: var(--surface); border-top: 1px solid var(--line); padding: 6px 4px calc(6px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -4px 18px rgba(0,0,0,.06); }
+  .nav-movil a { display: grid; justify-items: center; gap: 2px; padding: 4px 2px; text-decoration: none; color: var(--muted); font-size: 0.7rem; min-width: 0; }
+  .nav-movil a:active, .nav-movil a:focus-visible { color: var(--leaf); }
+  .nav-movil svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .nav-movil a.wa { color: var(--leaf); }
+  section[id], header { scroll-margin-top: 10px; }
+}
 </style>
 
 <div class="wrap">
@@ -197,7 +241,7 @@ footer p { margin: 0; }
     <div class="stats" id="stats"></div>
   </header>
 
-  <section class="workbench" data-i18n-aria="consulta" aria-label="Consulta">
+  <section class="workbench" id="consulta" data-i18n-aria="consulta" aria-label="Consulta">
     <div class="panel">
       <h2 data-i18n="consulta">Consulta</h2>
       <div class="chat" id="chat" aria-live="polite"></div>
@@ -229,7 +273,7 @@ footer p { margin: 0; }
     <div class="galeria" id="galeria"></div>
   </section>
 
-  <section data-i18n-aria="catalogo" aria-label="Catálogo" style="display:grid;gap:14px">
+  <section id="catalogo" data-i18n-aria="catalogo" aria-label="Catálogo" style="display:grid;gap:14px">
     <div class="cat-head">
       <h2 data-i18n="catalogo">Catálogo</h2>
       <div class="filters">
@@ -239,6 +283,7 @@ footer p { margin: 0; }
     </div>
     <p class="note" id="cuenta"></p>
     <div class="grid" id="grid"></div>
+    <button class="btn ghost mas" id="mas-cat" type="button" hidden></button>
   </section>
 
   <section class="tcm" id="tcm" data-i18n-aria="tcm_h2" aria-label="Fórmulas chinas">
@@ -256,6 +301,7 @@ footer p { margin: 0; }
       </div>
     </div>
     <div class="grid" id="grid-tcm"></div>
+    <button class="btn ghost mas" id="mas-tcm" type="button" hidden></button>
     <div class="cat-head">
       <h3 data-i18n="hierbas_chinas">Hierbas chinas</h3>
       <div class="filters">
@@ -264,6 +310,7 @@ footer p { margin: 0; }
     </div>
     <p class="note" id="cuenta-hierbas"></p>
     <div class="grid" id="grid-hierbas"></div>
+    <button class="btn ghost mas" id="mas-hie" type="button" hidden></button>
   </section>
 
   <section class="contacto" id="contacto" data-i18n-aria="contacto" aria-label="Contacto">
@@ -298,6 +345,14 @@ footer p { margin: 0; }
       <div class="dato"><dt>Wellness Partner</dt><dd>naturessunshine.com/account/wellness-partner/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/account/wellness-partner/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
     </dl>
   </section>
+
+  <nav class="nav-movil" data-i18n-aria="nav_aria" aria-label="Secciones">
+    <a href="#consulta"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span data-i18n="nav_preguntar">Preguntar</span></a>
+    <a href="#catalogo"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg><span data-i18n="catalogo">Catálogo</span></a>
+    <a href="#tcm"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19l8-8"/></svg><span data-i18n="formulas">Fórmulas</span></a>
+    <a href="#contacto"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span data-i18n="contacto">Contacto</span></a>
+    <a class="wa" href="https://wa.me/17084905878" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M5 19l1.2-3.6A8 8 0 1 1 9 18.5z"/><path d="M9.5 9.5c.5 2 2 3.5 4 4l1-1 2 1"/></svg><span>WhatsApp</span></a>
+  </nav>
 
   <footer>
     <p data-i18n="footer1">Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.</p>
@@ -380,6 +435,7 @@ footer p { margin: 0; }
       bienvenida: "Hola. Pregúntame por un síntoma, un ingrediente o un producto del catálogo y te respondo con las fichas oficiales, citando cada una. Toca una sugerencia para empezar.",
       sugerencias: ["¿Qué me ayuda a dormir mejor?", "Tengo dolor de rodillas", "¿Qué diferencia hay entre las fórmulas chinas positivas y negativas?", "¿Qué fórmula china es para el hígado?", "¿Para qué sirve el astrágalo?", "Defensas para el invierno"],
       ejemplo: "dolor de rodillas", pregunta: "Pregunta",
+      nav_aria: "Secciones", nav_preguntar: "Preguntar", ver_mas: (n) => `Ver ${n} más`,
       tipos: { producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china" },
     },
     en: {
@@ -443,6 +499,7 @@ footer p { margin: 0; }
       bienvenida: "Hi! Ask me about a symptom, an ingredient or a product in the catalog and I'll answer with the official records, citing each one. Tap a suggestion to start.",
       sugerencias: ["What helps me sleep better?", "I have knee pain", "What is the difference between positive and negative Chinese formulas?", "Which Chinese formula is for the liver?", "What is astragalus used for?", "Immune support for winter"],
       ejemplo: "knee pain", pregunta: "Question",
+      nav_aria: "Sections", nav_preguntar: "Ask", ver_mas: (n) => `Show ${n} more`,
       tipos: { producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb" },
     },
   };
@@ -657,6 +714,13 @@ product products take recommend something thing feel feeling hi hello please use
   let lang = "es", W = null, T = UI.es;
   try { const g = localStorage.getItem("herbolario-idioma"); if (g === "es" || g === "en") lang = g; } catch {}
   let filtroPol = "";
+  const LIM0 = { cat: 12, tcm: 8, hie: 12 };
+  const lim = { ...LIM0 };
+  function botonMas(id, total, clave) {
+    const b = $(id), resto = total - lim[clave];
+    b.hidden = resto <= 0;
+    if (resto > 0) b.textContent = T.ver_mas(resto);
+  }
   const turnos = [];
   let sample = null, ctl = null, ocupado = false, sampleListo = false;
 
@@ -727,7 +791,8 @@ product products take recommend something thing feel feeling hi hello please use
   function pintarTcm() {
     const org = $("f-organo").value;
     const lista = W.tcm.formulas.filter((f) => (!filtroPol || polaridad(f.polaridad) === filtroPol) && (!org || (f.organos || []).includes(org)));
-    $("grid-tcm").innerHTML = lista.map(tarjetaFormula).join("") || `<p class="note">${T.ninguna_formula}</p>`;
+    $("grid-tcm").innerHTML = lista.slice(0, lim.tcm).map(tarjetaFormula).join("") || `<p class="note">${T.ninguna_formula}</p>`;
+    botonMas("mas-tcm", lista.length, "tcm");
   }
   function pintarHierbas() {
     const terms = normalizar($("f-hierba").value, lang).filter((t) => !t.startsWith("~"));
@@ -736,7 +801,8 @@ product products take recommend something thing feel feeling hi hello please use
       const toks = normalizar(W.porId[h.id].texto, lang);
       return terms.every((t) => toks.some((x) => x.startsWith(t)));
     });
-    $("grid-hierbas").innerHTML = lista.map(tarjetaHierba).join("");
+    $("grid-hierbas").innerHTML = lista.slice(0, lim.hie).map(tarjetaHierba).join("");
+    botonMas("mas-hie", lista.length, "hie");
     $("cuenta-hierbas").textContent = T.cuenta_hierbas(lista.length, W.tcm.hierbas.length);
   }
   function prepararFiltrosTcm() {
@@ -773,7 +839,8 @@ product products take recommend something thing feel feeling hi hello please use
       const toks = normalizar(W.porId[p.id].texto, lang);
       return terms.every((t) => toks.some((x) => x.startsWith(t)));
     });
-    $("grid").innerHTML = lista.map(tarjeta).join("");
+    $("grid").innerHTML = lista.slice(0, lim.cat).map(tarjeta).join("");
+    botonMas("mas-cat", lista.length, "cat");
     $("cuenta").textContent = T.cuenta_prod(lista.length, W.productos.length);
   }
   function prepararCategorias() {
@@ -801,9 +868,9 @@ product products take recommend something thing feel feeling hi hello please use
     const d = W.porId[id];
     if (!d || d.tipo === "empresa") return;
     if (!document.getElementById("card-" + id)) {
-      if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; pintarCatalogo(); }
-      if (d.tipo === "formula") { filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
-      if (d.tipo === "hierba") { $("f-hierba").value = ""; pintarHierbas(); }
+      if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
+      if (d.tipo === "formula") { lim.tcm = Infinity; filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
+      if (d.tipo === "hierba") { $("f-hierba").value = ""; lim.hie = Infinity; pintarHierbas(); }
     }
     const el = document.getElementById("card-" + id);
     if (!el) return;
@@ -898,7 +965,7 @@ product products take recommend something thing feel feeling hi hello please use
     if (!primera && ocupado) ctl?.abort();
     lang = nuevo; T = UI[lang]; W = mundo(lang);
     try { localStorage.setItem("herbolario-idioma", lang); } catch {}
-    filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = "";
+    filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; Object.assign(lim, LIM0);
     pintarEstaticos();
     prepararCategorias(); pintarCatalogo();
     if (W.tcm.formulas.length) { $("tcm").hidden = false; prepararFiltrosTcm(); pintarModelo(); pintarTcm(); pintarHierbas(); }
@@ -913,16 +980,19 @@ product products take recommend something thing feel feeling hi hello please use
 
   // ================= Eventos (una sola vez) =================
   document.querySelectorAll(".idioma button").forEach((b) => b.addEventListener("click", () => { if (b.dataset.lang !== lang) aplicarIdioma(b.dataset.lang); }));
-  $("filtro").addEventListener("input", pintarCatalogo);
-  $("categoria").addEventListener("change", pintarCatalogo);
+  $("filtro").addEventListener("input", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
+  $("categoria").addEventListener("change", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
+  $("mas-cat").addEventListener("click", () => { lim.cat += 24; pintarCatalogo(); });
+  $("mas-tcm").addEventListener("click", () => { lim.tcm = Infinity; pintarTcm(); });
+  $("mas-hie").addEventListener("click", () => { lim.hie += 24; pintarHierbas(); });
   $("f-pol").addEventListener("click", (e) => {
     const b = e.target.closest(".chip"); if (!b) return;
-    filtroPol = b.dataset.v;
+    filtroPol = b.dataset.v; lim.tcm = LIM0.tcm;
     $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === b)));
     pintarTcm();
   });
-  $("f-organo").addEventListener("change", pintarTcm);
-  $("f-hierba").addEventListener("input", pintarHierbas);
+  $("f-organo").addEventListener("change", () => { lim.tcm = LIM0.tcm; pintarTcm(); });
+  $("f-hierba").addEventListener("input", () => { lim.hie = LIM0.hie; pintarHierbas(); });
   $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
   $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
   $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id); });
