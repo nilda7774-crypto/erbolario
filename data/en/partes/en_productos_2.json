@@ -1,0 +1,1568 @@
+[
+ {
+  "id": "NSP-044",
+  "slug": "chamomile",
+  "url": "https://www.naturessunshine.com/product/chamomile",
+  "nombre": "Chamomile",
+  "nombre_es": "Chamomile",
+  "sku": "190",
+  "precio_usd": 38.1,
+  "presentacion": "100 vegetarian capsules, 100 servings (50 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "chamomile flowers"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal twice daily.",
+  "descripcion": "Chamomile in capsules, a traditional calming herbal aid that contains flavonoids, coumarin and volatile oil. Supports the nervous system and digestion.",
+  "beneficios": [
+   "Helps calm stress",
+   "Promotes restful sleep",
+   "Supports the nervous system",
+   "Helps soothe digestion"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "chamomile",
+   "stress",
+   "insomnia",
+   "calming",
+   "digestion",
+   "nerves"
+  ]
+ },
+ {
+  "id": "NSP-045",
+  "slug": "melatonin-extra-3mg",
+  "url": "https://www.naturessunshine.com/product/melatonin-extra-3mg",
+  "nombre": "Melatonin Extra® 3mg Sleep Support Supplement",
+  "nombre_es": "Melatonin Extra® 3mg Sleep Support Supplement",
+  "sku": "2830",
+  "precio_usd": 30.55,
+  "presentacion": "60 vegetarian capsules, 60 servings (60 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "melatonin 3 mg",
+   "vitamin E",
+   "ginkgo leaf and leaf extract (standardized to 24% flavone glycosides)",
+   "eleuthero root"
+  ],
+  "modo_de_uso": "Take 1 capsule 30 minutes before bedtime.",
+  "descripcion": "Sleep formula that combines melatonin, the hormone that regulates sleep patterns and the body's internal clock, with vitamin E and herbs. It aims to support the natural sleep rhythm.",
+  "beneficios": [
+   "Promotes the body's natural sleep rhythm",
+   "Supports energy cycles after restful sleep"
+  ],
+  "precauciones": "Melatonin should not be taken during the day; it may cause drowsiness. Not recommended for children, teenagers, or pregnant or breastfeeding women. Do not take this product while driving a vehicle or operating machinery.",
+  "palabras_clave": [
+   "insomnia",
+   "sleep",
+   "melatonin",
+   "trouble sleeping",
+   "jet lag",
+   "rest"
+  ]
+ },
+ {
+  "id": "NSP-046",
+  "slug": "mind-max",
+  "url": "https://www.naturessunshine.com/product/mind-max",
+  "nombre": "Mind-Max® Memory & Concentration Support Supplement",
+  "nombre_es": "Mind-Max® Memory & Concentration Support Supplement",
+  "sku": "3134",
+  "precio_usd": 57.0,
+  "presentacion": "90 vegetarian capsules, 30 servings (15 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "magnesium L-threonate",
+   "gotu kola aerial parts",
+   "bacopa leaf extract",
+   "ginkgo leaf"
+  ],
+  "modo_de_uso": "Take 3 capsules before breakfast and 3 capsules before bed.",
+  "descripcion": "Combines magnesium L-threonate, a highly absorbable form that crosses the blood-brain barrier, with traditional plants such as bacopa and ginkgo. It is designed to support synaptic connections in the face of age-related cognitive decline.",
+  "beneficios": [
+   "Supports proper brain function",
+   "Supports memory and concentration",
+   "Supports synaptic connections"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "memory",
+   "concentration",
+   "focus",
+   "brain",
+   "brain fog",
+   "cognitive decline"
+  ]
+ },
+ {
+  "id": "NSP-047",
+  "slug": "stress-j-capsules",
+  "url": "https://www.naturessunshine.com/product/stress-j-capsules",
+  "nombre": "Stress-J Herbal Calming Dietary Supplement",
+  "nombre_es": "Stress-J Herbal Calming Dietary Supplement",
+  "sku": "1084",
+  "precio_usd": 24.85,
+  "presentacion": "100 capsules, 33 servings (33 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "passionflower aerial parts",
+   "fennel seeds",
+   "feverfew aerial parts",
+   "hops flowers",
+   "chamomile flower extract",
+   "marshmallow root extract"
+  ],
+  "modo_de_uso": "Take 2–3 capsules with a meal three times daily.",
+  "descripcion": "Traditional herbal formula with passionflower, hops and chamomile to provide natural calming support. Helps the body cope with occasional stress and supports healthy nervous system function.",
+  "beneficios": [
+   "Relieves occasional stress",
+   "Promotes a feeling of calm",
+   "Supports nervous system function"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "stress",
+   "anxiety",
+   "nerves",
+   "calm",
+   "tension",
+   "relaxation"
+  ]
+ },
+ {
+  "id": "NSP-048",
+  "slug": "blood-sugar-formula",
+  "url": "https://www.naturessunshine.com/product/blood-sugar-formula",
+  "nombre": "Blood Sugar Formula",
+  "nombre_es": "Blood Sugar Formula",
+  "sku": "1298",
+  "precio_usd": 52.85,
+  "presentacion": "100 vegetarian capsules, 50 servings (16-day supply)",
+  "categoria": "Glandular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "Gymnema sylvestre leaf extract",
+   "Momordica charantia (bitter melon) fruit rind extract",
+   "Pterocarpus marsupium gum extract",
+   "Aegle marmelos leaf extract",
+   "Enicostemma littorale herb extract",
+   "Andrographis paniculata herb extract",
+   "Curcuma longa (turmeric) rhizome extract",
+   "Syzygium cumini seed extract",
+   "Azadirachta indica (neem) leaf extract",
+   "Picrorhiza kurroa root extract",
+   "Trigonella foenum-graecum (fenugreek) seed extract",
+   "Cyperus rotundus tuber extract"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times daily.",
+  "descripcion": "Ayurvedic formula with traditional herbs from India used for metabolic wellness. Supports pancreas health and blood sugar levels already within the normal range.",
+  "beneficios": [
+   "Supports pancreas and glandular health",
+   "Supports normal blood sugar levels",
+   "Traditional Ayurvedic herbs"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "blood sugar",
+   "glucose",
+   "pancreas",
+   "metabolism",
+   "ayurvedic",
+   "sugar cravings"
+  ]
+ },
+ {
+  "id": "NSP-049",
+  "slug": "master-gland",
+  "url": "https://www.naturessunshine.com/product/master-gland",
+  "nombre": "Master Gland®",
+  "nombre_es": "Master Gland®",
+  "sku": "3040",
+  "precio_usd": 34.15,
+  "presentacion": "120 capsules, 60 servings (30 days)",
+  "categoria": "Glandular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "vitamin A",
+   "vitamin C",
+   "vitamin E",
+   "pantothenic acid",
+   "zinc",
+   "manganese",
+   "potassium",
+   "licorice root",
+   "alfalfa aerial parts",
+   "asparagus stem extract",
+   "black walnut hulls",
+   "parsley leaves",
+   "thyme leaves",
+   "dandelion root",
+   "dong quai root",
+   "eleuthero root",
+   "kelp leaves and stem",
+   "lemon bioflavonoids",
+   "schisandra fruit",
+   "marshmallow root extract",
+   "uva ursi leaf",
+   "soy lecithin"
+  ],
+  "modo_de_uso": "Take 2 capsules with breakfast and 2 capsules with lunch daily.",
+  "descripcion": "Formula with vitamins A, C and E, minerals, electrolytes and herbs to nourish the glandular system throughout the body. It also supports energy metabolism.",
+  "beneficios": [
+   "Helps maintain the glands",
+   "Provides nutrients and antioxidants",
+   "Supports energy metabolism"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "glands",
+   "hormones",
+   "fatigue",
+   "energy",
+   "metabolism",
+   "glandular support"
+  ]
+ },
+ {
+  "id": "NSP-050",
+  "slug": "adrenal-support-60",
+  "url": "https://www.naturessunshine.com/product/adrenal-support-60",
+  "nombre": "Adrenal Support Dietary Supplement",
+  "nombre_es": "Adrenal Support Dietary Supplement",
+  "sku": "1507",
+  "precio_usd": 34.15,
+  "presentacion": "60 capsules, 60 servings (30 days)",
+  "categoria": "Glandular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "vitamin C 25 mg",
+   "thiamin 10 mg",
+   "riboflavin 5 mg",
+   "vitamin B6 5 mg",
+   "pantothenic acid 45 mg",
+   "magnesium 10 mg",
+   "zinc 5 mg",
+   "potassium 5 mg",
+   "bovine adrenal substance",
+   "schisandra fruit",
+   "borage seed oil",
+   "licorice root",
+   "protease blend"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal twice daily.",
+  "descripcion": "Combines adaptogenic herbs, vitamins, minerals and adrenal glandular substance. It is designed to support adrenal gland function and the balance of stress hormones.",
+  "beneficios": [
+   "Supports healthy adrenal function",
+   "Helps keep stress hormones balanced",
+   "Supports nervous system balance"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "adrenal fatigue",
+   "stress",
+   "exhaustion",
+   "cortisol",
+   "burnout",
+   "low energy"
+  ]
+ },
+ {
+  "id": "NSP-051",
+  "slug": "thyroid-support",
+  "url": "https://www.naturessunshine.com/product/thyroid-support",
+  "nombre": "Thyroid Support Dietary Supplement",
+  "nombre_es": "Thyroid Support Dietary Supplement",
+  "sku": "1228",
+  "precio_usd": 34.15,
+  "presentacion": "60 capsules, 60 servings (30 days)",
+  "categoria": "Glandular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "vitamin B6",
+   "zinc",
+   "copper",
+   "manganese",
+   "L-tyrosine",
+   "kelp leaves and stems",
+   "thyroid substance",
+   "nettle leaves",
+   "protease blend",
+   "pituitary substance",
+   "hypothalamus substance"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal twice daily.",
+  "descripcion": "Combines glandular extracts, enzymes and nutrients to support the thyroid and metabolism. Includes wild North Atlantic kelp, a source of iodine for thyroid hormone production.",
+  "beneficios": [
+   "Supports a healthy metabolism",
+   "Promotes healthy thyroid function",
+   "Provides iodine from kelp"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "thyroid",
+   "metabolism",
+   "iodine",
+   "fatigue",
+   "slow metabolism",
+   "weight gain"
+  ]
+ },
+ {
+  "id": "NSP-052",
+  "slug": "capsicum",
+  "url": "https://www.naturessunshine.com/product/capsicum",
+  "nombre": "Capsicum",
+  "nombre_es": "Capsicum",
+  "sku": "160",
+  "precio_usd": 22.75,
+  "presentacion": "100 capsules, 100 servings (25 days)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "capsicum fruit"
+  ],
+  "modo_de_uso": "Take 1 capsule four times daily with food.",
+  "descripcion": "Capsicum fruit capsules, a warming herb often used as a catalyst in herbal formulas. Supports digestion and blood flow.",
+  "beneficios": [
+   "Digestive support",
+   "Cardiovascular support",
+   "Stimulates digestion",
+   "Promotes blood flow"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "circulation",
+   "cold hands",
+   "cold feet",
+   "digestion",
+   "cayenne",
+   "blood flow"
+  ]
+ },
+ {
+  "id": "NSP-053",
+  "slug": "cardioxldl",
+  "url": "https://www.naturessunshine.com/product/cardioxldl",
+  "nombre": "CardioxLDL",
+  "nombre_es": "CardioxLDL",
+  "sku": "1195",
+  "precio_usd": 70.45,
+  "presentacion": "60 capsules, 30 servings (30 days)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "bergamot fruit extract (Citrus bergamia Risso)",
+   "turmeric extract",
+   "green tea extract",
+   "grape seed extract",
+   "mangosteen fruit extract"
+  ],
+  "modo_de_uso": "Take 2 capsules with dinner.",
+  "descripcion": "Natural formula with bergamot and other plant extracts to support healthy cholesterol management. It works by modulating the oxidation of LDL cholesterol.",
+  "beneficios": [
+   "Supports healthy cholesterol",
+   "Reduces cardiometabolic risk",
+   "Fights LDL cholesterol oxidation",
+   "Supports blood vessel function and circulation"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "cholesterol",
+   "ldl",
+   "heart",
+   "circulation",
+   "triglycerides",
+   "cardiovascular"
+  ]
+ },
+ {
+  "id": "NSP-054",
+  "slug": "olive-leaf-extract-concentrate",
+  "url": "https://www.naturessunshine.com/product/olive-leaf-extract-concentrate",
+  "nombre": "Olive Leaf Extract Concentrate",
+  "nombre_es": "Olive Leaf Extract Concentrate",
+  "sku": "204",
+  "precio_usd": 35.2,
+  "presentacion": "60 capsules, 60 servings (25-day supply)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "olive leaf extract standardized to 12% oleuropein"
+  ],
+  "modo_de_uso": "Take 1 to 3 capsules daily with a meal.",
+  "descripcion": "Concentrated olive leaf extract of Spanish Mediterranean origin, standardized for oleuropein. It is aimed at cardiovascular wellness and antioxidant protection.",
+  "beneficios": [
+   "Supports cardiovascular wellness",
+   "Protects against LDL cholesterol oxidation",
+   "Supports normal blood pressure and blood sugar levels",
+   "Provides antioxidant protection"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "olive leaf",
+   "heart",
+   "blood pressure",
+   "cholesterol",
+   "antioxidant",
+   "blood sugar"
+  ]
+ },
+ {
+  "id": "NSP-055",
+  "slug": "hawthorn-berries-extract",
+  "url": "https://www.naturessunshine.com/product/hawthorn-berries-extract",
+  "nombre": "Hawthorn Berries Extract",
+  "nombre_es": "Hawthorn Berries Extract",
+  "sku": "1760",
+  "precio_usd": 35.2,
+  "presentacion": "2 fl oz (59 ml), 59 servings (30 days)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "hawthorn berries (liquid extract)"
+  ],
+  "modo_de_uso": "Take 15 to 20 drops with water twice daily.",
+  "descripcion": "Liquid extract of hawthorn berries, a plant used traditionally for almost 2,000 years. It is used to support the circulatory system and provides antioxidants.",
+  "beneficios": [
+   "Traditional support for the circulatory system",
+   "Provides antioxidant benefits",
+   "Contains compounds that promote circulatory health"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "hawthorn",
+   "heart",
+   "circulation",
+   "blood pressure",
+   "antioxidant",
+   "palpitations"
+  ]
+ },
+ {
+  "id": "NSP-056",
+  "slug": "butchers-broom",
+  "url": "https://www.naturessunshine.com/product/butchers-broom",
+  "nombre": "Butcher's Broom",
+  "nombre_es": "Butcher's Broom",
+  "sku": "135",
+  "precio_usd": 29.5,
+  "presentacion": "100 capsules, 50 servings (25 days)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "butcher's broom root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice daily.",
+  "descripcion": "Butcher's broom root, an herb used in European folk medicine for nearly 2,000 years. It contains flavonoids such as rutin and saponins that support circulation.",
+  "beneficios": [
+   "Supports the circulatory system",
+   "Strengthens capillary walls",
+   "Supports overall wellness"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "varicose veins",
+   "circulation",
+   "heavy legs",
+   "hemorrhoids",
+   "capillaries",
+   "swollen ankles"
+  ]
+ },
+ {
+  "id": "NSP-057",
+  "slug": "super-omega-3-epa",
+  "url": "https://www.naturessunshine.com/product/super-omega-3-epa",
+  "nombre": "Super Omega-3 EPA",
+  "nombre_es": "Super Omega-3 EPA",
+  "sku": "1515",
+  "precio_usd": 42.45,
+  "presentacion": "60 softgels, 60 servings (20 days)",
+  "categoria": "Circulatory & Cardiovascular System",
+  "tipo": "Softgels",
+  "ingredientes": [
+   "fish oil (anchovy, sardine and mackerel) approx. 1,000 mg per softgel",
+   "EPA 380 mg",
+   "DHA 190 mg",
+   "natural lemon flavor"
+  ],
+  "modo_de_uso": "Take 1 softgel with a meal two or three times daily.",
+  "descripcion": "Cold-water fish oil concentrate rich in EPA and DHA. It has a natural lemon flavor to improve taste and reduce fishy aftertaste.",
+  "beneficios": [
+   "Supports circulatory health",
+   "Supports brain health",
+   "Lemon flavor that reduces fishy aftertaste"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "omega 3",
+   "fish oil",
+   "heart",
+   "brain",
+   "cholesterol",
+   "triglycerides"
+  ]
+ },
+ {
+  "id": "NSP-058",
+  "slug": "coral-calcium",
+  "url": "https://www.naturessunshine.com/product/coral-calcium",
+  "nombre": "Coral Calcium",
+  "nombre_es": "Coral Calcium",
+  "sku": "1873",
+  "precio_usd": 52.85,
+  "presentacion": "75 g powder, 50 servings (50 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Powder",
+  "ingredientes": [
+   "calcium 325 mg (33% DV)",
+   "magnesium 163 mg (41% DV)",
+   "marine coral",
+   "montmorillonite (volcanic clay)"
+  ],
+  "modo_de_uso": "Mix 1 heaping scoop (included) with 8 oz (240 ml) of water or another beverage.",
+  "descripcion": "Powdered marine coral calcium supplement with montmorillonite, a volcanic clay that provides more than 65 trace minerals. It is designed to support the structural system.",
+  "beneficios": [
+   "Supports the structural system",
+   "Helps counter body acidity and maintain pH",
+   "Supports strong bones and teeth",
+   "Provides trace minerals and clay for digestive cleansing"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "calcium",
+   "bones",
+   "osteoporosis",
+   "acidity",
+   "teeth",
+   "minerals"
+  ]
+ },
+ {
+  "id": "NSP-059",
+  "slug": "natures-sea-calcium",
+  "url": "https://www.naturessunshine.com/product/natures-sea-calcium",
+  "nombre": "Nature's Sea Calcium",
+  "nombre_es": "Nature's Sea Calcium",
+  "sku": "1577",
+  "precio_usd": 34.15,
+  "presentacion": "120 capsules, 120 servings (30 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "calcium (from lithothamnium seaweed)",
+   "magnesium",
+   "short-chain fructooligosaccharides",
+   "up to 70 naturally occurring trace minerals (including boron, copper and zinc)"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three to four times daily.",
+  "descripcion": "Calcium obtained from lithothamnium red seaweed, harvested off the Irish coast, with naturally occurring trace minerals. Includes fructooligosaccharides that promote calcium absorption.",
+  "beneficios": [
+   "Supports structural and joint health",
+   "Helps maintain normal pH levels",
+   "High bioavailability thanks to the seaweed's porous structure",
+   "Fructooligosaccharides that promote calcium absorption"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "calcium",
+   "bones",
+   "osteoporosis",
+   "joints",
+   "bone density",
+   "minerals"
+  ]
+ },
+ {
+  "id": "NSP-060",
+  "slug": "collatrim",
+  "url": "https://www.naturessunshine.com/product/collatrim",
+  "nombre": "Collatrim",
+  "nombre_es": "Collatrim",
+  "sku": "3065",
+  "precio_usd": 43.0,
+  "presentacion": "180 capsules, 60 servings (20 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "hydrolyzed collagen"
+  ],
+  "modo_de_uso": "Take 3 capsules 3 times daily.",
+  "descripcion": "Hydrolyzed collagen capsules that provide peptides for building connective tissue. Collagen is the main structural protein of tendons, ligaments, cartilage, bone and skin.",
+  "beneficios": [
+   "Supports the structural system",
+   "Promotes joint health",
+   "Promotes skin health",
+   "Provides peptides for connective tissue"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "collagen",
+   "joints",
+   "skin",
+   "wrinkles",
+   "tendons",
+   "ligaments"
+  ]
+ },
+ {
+  "id": "NSP-061",
+  "slug": "chondroitin",
+  "url": "https://www.naturessunshine.com/product/chondroitin",
+  "nombre": "Chondroitin",
+  "nombre_es": "Chondroitin",
+  "sku": "1811",
+  "precio_usd": 56.45,
+  "presentacion": "60 capsules, 30 servings (15 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "chondroitin sulfate"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice daily. Drink 8 oz (240 ml) of water with the capsules.",
+  "descripcion": "Chondroitin sulfate supplement to nourish, protect and strengthen cartilage. Helps offset the natural decline in chondroitin that occurs with age.",
+  "beneficios": [
+   "Supports mobility and flexibility",
+   "Helps nourish, protect and strengthen cartilage",
+   "Draws joint fluid to cushion impact",
+   "Maintains connective tissue strength"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "joints",
+   "cartilage",
+   "joint pain",
+   "knees",
+   "stiffness",
+   "mobility"
+  ]
+ },
+ {
+  "id": "NSP-062",
+  "slug": "turmeric-curcumin",
+  "url": "https://www.naturessunshine.com/product/turmeric-curcumin",
+  "nombre": "Turmeric Curcumin",
+  "nombre_es": "Turmeric Curcumin",
+  "sku": "238",
+  "precio_usd": 59.95,
+  "presentacion": "60 vegetarian capsules, 30 servings (30 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "turmeric root extract 1,100 mg",
+   "curcuminoids 1,000 mg",
+   "black pepper extract (Piper nigrum)"
+  ],
+  "modo_de_uso": "Take 2 vegetarian capsules daily with water.",
+  "descripcion": "Concentrated turmeric extract that provides 1,000 mg of curcuminoids per serving, equivalent to about 32 g of whole root. Includes black pepper to improve curcumin absorption.",
+  "beneficios": [
+   "Supports joint, gut and immune health",
+   "Supports cardiovascular function",
+   "Supports the natural immune response",
+   "Black pepper for better absorption"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "turmeric",
+   "inflammation",
+   "joint pain",
+   "arthritis",
+   "immune",
+   "curcumin"
+  ]
+ },
+ {
+  "id": "NSP-063",
+  "slug": "devils-claw",
+  "url": "https://www.naturessunshine.com/product/devils-claw",
+  "nombre": "Devil's Claw",
+  "nombre_es": "Devil's Claw",
+  "sku": "255",
+  "precio_usd": 43.85,
+  "presentacion": "100 vegetarian capsules, 50 servings (16 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "devil's claw root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times daily.",
+  "descripcion": "Devil's claw root capsules, considered by herbalists to be nutritional support for the structural system. It is aimed at joint health and function.",
+  "beneficios": [
+   "Nutritional support for the structural system",
+   "Supports joint health",
+   "Supports joint function"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "joint pain",
+   "arthritis",
+   "back pain",
+   "joints",
+   "stiffness",
+   "inflammation"
+  ]
+ },
+ {
+  "id": "NSP-064",
+  "slug": "joint-health",
+  "url": "https://www.naturessunshine.com/product/joint-health",
+  "nombre": "Joint Health, Ayurvedic",
+  "nombre_es": "Joint Health, Ayurvedic",
+  "sku": "1296",
+  "precio_usd": 52.85,
+  "presentacion": "100 capsules, 50 servings (16 days)",
+  "categoria": "Structural (Bones & Joints)",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "Withania somnifera (ashwagandha) root",
+   "Commiphora mukul gum extract",
+   "Smilax china root",
+   "Boswellia serrata gum",
+   "Holarrhena antidysenterica bark",
+   "Paederia foetida leaf extract",
+   "Vitex negundo leaf extract",
+   "Tinospora cordifolia stem",
+   "Cyperus rotundus tuber",
+   "Apium graveolens (celery) seed",
+   "Boerhaavia diffusa root",
+   "Trachyspermum ammi fruit",
+   "Tribulus terrestris fruit",
+   "Trigonella foenum-graecum (fenugreek) seed"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times daily.",
+  "descripcion": "Formula of traditional herbs from India based on the Ayurvedic philosophy of bodily balance. It is intended to provide nutritional support for the structural system.",
+  "beneficios": [
+   "Nutritional support for the structural system",
+   "May support joint health",
+   "May support flexibility"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "joints",
+   "joint pain",
+   "ayurvedic",
+   "flexibility",
+   "stiffness",
+   "arthritis"
+  ]
+ },
+ {
+  "id": "NSP-065",
+  "slug": "aloe-vera-gel",
+  "url": "https://www.naturessunshine.com/product/aloe-vera-gel",
+  "nombre": "Aloe Vera Gel",
+  "nombre_es": "Aloe Vera Gel",
+  "sku": "1679",
+  "precio_usd": 26.55,
+  "presentacion": "8 oz (237 ml)",
+  "categoria": "Structural (Skin, Hair & Nails)",
+  "tipo": "Topical gel",
+  "ingredientes": [
+   "aloe vera gel",
+   "xanthan gum",
+   "citric acid",
+   "potassium sorbate",
+   "sodium benzoate"
+  ],
+  "modo_de_uso": "Apply aloe vera gel to the skin as desired to moisturize.",
+  "descripcion": "Topical gel made with potency-tested aloe vera inner leaf gel. Hydrates and refreshes the skin without leaving a sticky feeling.",
+  "beneficios": [
+   "Moisturizes and refreshes the skin",
+   "Softens the appearance of dry skin",
+   "Hydrates without a sticky feeling",
+   "Ingredients tested for safety and potency"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "aloe vera",
+   "dry skin",
+   "sunburn",
+   "moisturizer",
+   "skin irritation",
+   "skin care"
+  ]
+ },
+ {
+  "id": "NSP-066",
+  "slug": "collagen-2",
+  "url": "https://www.naturessunshine.com/product/collagen-2",
+  "nombre": "Collagen Powder Supplement",
+  "nombre_es": "Collagen Powder Supplement",
+  "sku": "22336",
+  "precio_usd": 67.45,
+  "presentacion": "18 oz (510 g), 30 servings (30 days)",
+  "categoria": "Structural (Skin, Hair & Nails)",
+  "tipo": "Powder",
+  "ingredientes": [
+   "bovine collagen peptides",
+   "sea salt",
+   "trace mineral blend",
+   "potassium chloride"
+  ],
+  "modo_de_uso": "Mix 1 scoop into any beverage (coffee, tea, water, fruit juice, etc.) or add it to your favorite recipes. Use daily for best results.",
+  "descripcion": "Collagen powder from grass-fed cows, odorless and easy to mix into hot or cold drinks or foods. Provides structural amino acids such as glycine, proline and hydroxyproline.",
+  "beneficios": [
+   "Supports youthful-looking hair, skin and nails",
+   "Supports joints and bones",
+   "Supports gut health",
+   "Promotes skin elasticity and hydration"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "collagen",
+   "skin",
+   "hair",
+   "nails",
+   "wrinkles",
+   "joints"
+  ]
+ },
+ {
+  "id": "NSP-067",
+  "slug": "cornsilk",
+  "url": "https://www.naturessunshine.com/product/cornsilk",
+  "nombre": "Cornsilk",
+  "nombre_es": "Cornsilk",
+  "sku": "235",
+  "precio_usd": 35.2,
+  "presentacion": "100 capsules, 100 servings (33-day supply)",
+  "categoria": "Urinary System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "corn silk"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three times daily.",
+  "descripcion": "Corn silk supplement, the silky threads inside the ear of corn, widely used in Chinese herbalism. Offers toning and soothing support for urinary tissues.",
+  "beneficios": [
+   "supports the urinary system",
+   "tones and soothes urinary tissues",
+   "traditionally used to ease urinary discomfort"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "urinary",
+   "bladder",
+   "frequent urination",
+   "urinary discomfort",
+   "bladder irritation",
+   "fluid retention"
+  ]
+ },
+ {
+  "id": "NSP-068",
+  "slug": "juniper-berries",
+  "url": "https://www.naturessunshine.com/product/juniper-berries",
+  "nombre": "Juniper Berries",
+  "nombre_es": "Juniper Berries",
+  "sku": "400",
+  "precio_usd": 39.8,
+  "presentacion": "100 capsules, 50 servings (25-day supply)",
+  "categoria": "Urinary System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "juniper berry cones"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice daily.",
+  "descripcion": "Juniper berry supplement with traditional gastrointestinal support. Its compounds, such as quercetin, proanthocyanidins and volatile oils, support the urinary system and provide antioxidants.",
+  "beneficios": [
+   "traditional gastrointestinal support",
+   "supports the urinary system",
+   "provides antioxidant benefits"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "urinary",
+   "kidneys",
+   "bladder",
+   "fluid retention",
+   "digestion",
+   "antioxidant"
+  ]
+ },
+ {
+  "id": "NSP-069",
+  "slug": "kidney-drainage",
+  "url": "https://www.naturessunshine.com/product/kidney-drainage",
+  "nombre": "Kidney Drainage",
+  "nombre_es": "Kidney Drainage",
+  "sku": "3168",
+  "precio_usd": 43.0,
+  "presentacion": "2 fl oz (59 ml), 59 servings (30-day supply)",
+  "categoria": "Urinary System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "asparagus tips",
+   "plantain leaves",
+   "juniper berries",
+   "goldenrod aerial parts",
+   "glycerin base"
+  ],
+  "modo_de_uso": "Take 1 ml (about 15-20 drops or ¼ teaspoon) in water twice daily.",
+  "descripcion": "Liquid form of herbs traditionally used to support the kidneys. It aims to promote proper waste elimination through nutritional support.",
+  "beneficios": [
+   "supports kidney function",
+   "supports the urinary system",
+   "promotes proper waste elimination"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "kidneys",
+   "kidney detox",
+   "fluid retention",
+   "urinary",
+   "swelling",
+   "cleanse"
+  ]
+ },
+ {
+  "id": "NSP-070",
+  "slug": "urinary-maintenance",
+  "url": "https://www.naturessunshine.com/product/urinary-maintenance",
+  "nombre": "Urinary Maintenance",
+  "nombre_es": "Urinary Maintenance",
+  "sku": "2884",
+  "precio_usd": 30.55,
+  "presentacion": "120 capsules, 120 servings (40-day supply)",
+  "categoria": "Urinary System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "asparagus stem",
+   "dandelion leaf",
+   "corn silk",
+   "hydrangea root",
+   "magnesium",
+   "potassium",
+   "parsley leaf",
+   "watermelon seed",
+   "dong quai root",
+   "horsetail stem and strobilus",
+   "uva ursi leaves",
+   "eleuthero root",
+   "schisandra fruit"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three times daily.",
+  "descripcion": "Plant-based formula that supports the body's fluid maintenance and mineral balance. Contains herbs traditionally used as diuretics and for kidney support.",
+  "beneficios": [
+   "promotes healthy urinary function",
+   "supports fluid maintenance",
+   "supports mineral balance",
+   "traditional kidney-support herbs"
+  ],
+  "precauciones": "Pregnant or breastfeeding women should consult their health care professional before taking this supplement.",
+  "palabras_clave": [
+   "urinary",
+   "kidneys",
+   "bladder",
+   "fluid retention",
+   "diuretic",
+   "urinary tract"
+  ]
+ },
+ {
+  "id": "NSP-071",
+  "slug": "parsley",
+  "url": "https://www.naturessunshine.com/product/parsley",
+  "nombre": "Parsley",
+  "nombre_es": "Parsley",
+  "sku": "490",
+  "precio_usd": 30.0,
+  "presentacion": "100 vegetarian capsules, 50 servings (25-day supply)",
+  "categoria": "Urinary System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "parsley leaves"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice daily.",
+  "descripcion": "Parsley leaf capsules that support the kidneys and nourish the urinary system. They may promote urine flow without loss of electrolytes.",
+  "beneficios": [
+   "supports the kidneys",
+   "nourishes and supports the urinary system",
+   "may promote urine flow without loss of electrolytes",
+   "helps strengthen and tone urinary tissues"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "parsley",
+   "kidneys",
+   "fluid retention",
+   "urinary",
+   "bloating",
+   "diuretic"
+  ]
+ },
+ {
+  "id": "NSP-072",
+  "slug": "dong-quai",
+  "url": "https://www.naturessunshine.com/product/dong-quai",
+  "nombre": "Dong Quai",
+  "nombre_es": "Dong Quai",
+  "sku": "258",
+  "precio_usd": 40.4,
+  "presentacion": "100 capsules, 50 servings (16-day supply)",
+  "categoria": "Women's Health",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "dong quai root"
+  ],
+  "modo_de_uso": "Take 1–2 capsules with a meal three times daily.",
+  "descripcion": "Traditional Chinese herb with natural phytoestrogens, intended to support women's health at every stage. It stands out especially during menopause and for menstrual effects.",
+  "beneficios": [
+   "Promotes circulation",
+   "Helps regulate menstruation",
+   "Calms the nerves",
+   "Support during menopause"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "menopause",
+   "menstrual cramps",
+   "irregular periods",
+   "hot flashes",
+   "women's health",
+   "pms"
+  ]
+ },
+ {
+  "id": "NSP-073",
+  "slug": "menstrual-reg",
+  "url": "https://www.naturessunshine.com/product/menstrual-reg",
+  "nombre": "Menstrual Reg",
+  "nombre_es": "Menstrual Reg",
+  "sku": "1125",
+  "precio_usd": 35.2,
+  "presentacion": "100 vegetarian capsules, 33 servings (15-day supply)",
+  "categoria": "Women's Health",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "lady's mantle aerial parts",
+   "shepherd's purse aerial parts",
+   "yarrow aerial parts and leaf and flower extract",
+   "black haw (viburnum) root",
+   "nettle leaves",
+   "sarsaparilla root",
+   "chaste tree (vitex) fruit concentrate"
+  ],
+  "modo_de_uso": "Take 2–3 capsules with a meal three times daily. For faster results, larger amounts may be taken every two hours for several days. Best results are obtained by taking the formula for several months.",
+  "descripcion": "Herbal formula with natural antihemorrhagic herbs that aims for a more comfortable menstrual cycle. Supports the female glandular system and hormonal balance.",
+  "beneficios": [
+   "More comfortable menstrual cycle",
+   "Helps with heavy menstruation",
+   "Supports the female glandular system",
+   "Helps regulate flow and hormonal balance"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "heavy periods",
+   "menstrual cramps",
+   "pms",
+   "irregular periods",
+   "hormonal balance",
+   "menstrual cycle"
+  ]
+ },
+ {
+  "id": "NSP-074",
+  "slug": "x-action-women",
+  "url": "https://www.naturessunshine.com/product/x-action-women",
+  "nombre": "X-Action® (Women)",
+  "nombre_es": "X-Action® (Women)",
+  "sku": "1121",
+  "precio_usd": 34.15,
+  "presentacion": "100 vegetarian capsules, 50 servings (16-day supply)",
+  "categoria": "Women's Health",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "maca root extract",
+   "L-arginine",
+   "eleuthero root",
+   "oat straw extract",
+   "red raspberry leaves",
+   "damiana leaves",
+   "licorice root",
+   "sarsaparilla root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times daily.",
+  "descripcion": "Herbal blend for female vitality that aims to improve energy and circulation to the reproductive area. It also provides glandular and nervous system support.",
+  "beneficios": [
+   "Boosts energy and vitality",
+   "Supports sexual desire",
+   "Supports stress resistance",
+   "Support for the glandular and nervous systems"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "low libido",
+   "women's vitality",
+   "energy",
+   "fatigue",
+   "stress",
+   "sexual desire"
+  ]
+ },
+ {
+  "id": "NSP-075",
+  "slug": "mens-formula-w-lycopene",
+  "url": "https://www.naturessunshine.com/product/mens-formula-w-lycopene",
+  "nombre": "Men's Formula Prostate Support Supplement",
+  "nombre_es": "Men's Formula Prostate Support Supplement",
+  "sku": "3112",
+  "precio_usd": 40.4,
+  "presentacion": "60 capsules, 20 servings (20-day supply)",
+  "categoria": "Men's Health",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "zinc 15 mg",
+   "saw palmetto fruit extract",
+   "pumpkin seeds",
+   "gotu kola aerial parts",
+   "lycopene concentrate",
+   "nettle root extract"
+  ],
+  "modo_de_uso": "Intensive use: take 3 capsules twice daily with morning and evening meals. Maintenance: take 2 capsules daily with a meal.",
+  "descripcion": "Herbal supplement for men age 40 and older that supports and protects the prostate gland. Combines saw palmetto, traditionally used for the prostate, with lycopene and zinc.",
+  "beneficios": [
+   "Supports and protects the prostate",
+   "Supports male glandular health",
+   "Lycopene with a protective effect on prostate function"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "prostate",
+   "men's health",
+   "frequent urination",
+   "saw palmetto",
+   "nighttime urination",
+   "enlarged prostate"
+  ]
+ },
+ {
+  "id": "NSP-076",
+  "slug": "alfalfa",
+  "url": "https://www.naturessunshine.com/product/alfalfa",
+  "nombre": "Alfalfa",
+  "nombre_es": "Alfalfa",
+  "sku": "30",
+  "precio_usd": 24.85,
+  "presentacion": "100 capsules, 50 servings (16-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "alfalfa aerial parts"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times daily.",
+  "descripcion": "Herbal superfood used for more than 2,000 years, whose deep roots reach nutrient-rich soils. Herbalists consider it useful for building the blood.",
+  "beneficios": [
+   "Provides vital nutrients and trace minerals",
+   "Contributes to energy and endurance",
+   "Supports overall wellness"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "alfalfa",
+   "minerals",
+   "energy",
+   "fatigue",
+   "nutrition",
+   "anemia"
+  ]
+ },
+ {
+  "id": "NSP-077",
+  "slug": "vitamin-b-complex",
+  "url": "https://www.naturessunshine.com/product/vitamin-b-complex",
+  "nombre": "Vitamin B Complex",
+  "nombre_es": "Vitamin B Complex",
+  "sku": "1778",
+  "precio_usd": 27.95,
+  "presentacion": "100 vegetarian capsules, 100 servings (33-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "thiamin",
+   "riboflavin",
+   "niacinamide",
+   "vitamin B6",
+   "folic acid",
+   "vitamin B12",
+   "biotin",
+   "pantothenic acid",
+   "choline",
+   "inositol",
+   "lemon bioflavonoid extract",
+   "PABA",
+   "rutin",
+   "wheat germ",
+   "rose hips extract",
+   "acerola fruit extract"
+  ],
+  "modo_de_uso": "Take 1 vegetarian capsule with a meal three times daily.",
+  "descripcion": "Formula of B-complex vitamins combined with natural sources of vitamin C (rose hips and acerola) and lemon bioflavonoids to improve absorption. Aimed at supporting the nervous system and energy.",
+  "beneficios": [
+   "Supports nervous system function",
+   "May improve mood",
+   "Essential B vitamins for energy",
+   "Support for circulation, hormones and cognitive function"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "b vitamins",
+   "energy",
+   "fatigue",
+   "stress",
+   "mood",
+   "nerves"
+  ]
+ },
+ {
+  "id": "NSP-078",
+  "slug": "maca",
+  "url": "https://www.naturessunshine.com/product/maca",
+  "nombre": "Maca",
+  "nombre_es": "Maca",
+  "sku": "1117",
+  "precio_usd": 39.35,
+  "presentacion": "90 capsules, 90 servings (30-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "maca root extract"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three times daily.",
+  "descripcion": "Adaptogenic herb from the Andes, also called Peruvian ginseng, with flavones and flavonoid glycosides. It has been used traditionally to support the reproductive system.",
+  "beneficios": [
+   "Promotes physical endurance",
+   "Helps reduce fatigue",
+   "Traditional support for the reproductive system",
+   "Adaptogenic herb"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "maca",
+   "energy",
+   "fatigue",
+   "libido",
+   "endurance",
+   "fertility"
+  ]
+ },
+ {
+  "id": "NSP-079",
+  "slug": "natures-harvest",
+  "url": "https://www.naturessunshine.com/product/natures-harvest",
+  "nombre": "Nature's Harvest",
+  "nombre_es": "Nature's Harvest",
+  "sku": "3090",
+  "precio_usd": 60.05,
+  "presentacion": "465 g powder, 15 servings (1 heaping scoop = 30 g)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Powder",
+  "ingredientes": [
+   "pea protein concentrate",
+   "sunflower oil",
+   "amaranth",
+   "brown rice",
+   "flaxseed",
+   "spirulina",
+   "quinoa",
+   "chia seed",
+   "chlorella",
+   "matcha",
+   "spinach",
+   "kale",
+   "broccoli",
+   "blueberry",
+   "cranberry",
+   "grape seed extract",
+   "vitamins A, B complex, C, D, biotin and folic acid",
+   "minerals: zinc, selenium, chromium, manganese, copper, molybdenum and iodine"
+  ],
+  "modo_de_uso": "Mix 1 heaping scoop of powder (30 g) into about 8 oz of water, or to taste. Shake vigorously and enjoy.",
+  "descripcion": "Nutrient-rich powdered drink that combines whole foods, greens, herbs, enzymes and plant protein. Provides 80% of the daily value of 16 essential vitamins and minerals.",
+  "beneficios": [
+   "Provides 80% of the daily value of 16 vitamins and minerals",
+   "Plant-based protein",
+   "Includes greens and whole foods",
+   "Contains enzymes and herbs"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "protein shake",
+   "meal replacement",
+   "nutrition",
+   "greens",
+   "vitamins",
+   "energy"
+  ]
+ },
+ {
+  "id": "NSP-080",
+  "slug": "super-algae",
+  "url": "https://www.naturessunshine.com/product/super-algae",
+  "nombre": "Super Algae",
+  "nombre_es": "Super Algae",
+  "sku": "1056",
+  "precio_usd": 50.75,
+  "presentacion": "100 vegetarian capsules, 33 servings",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "spirulina",
+   "Klamath Lake blue-green algae",
+   "Chlorella vulgaris"
+  ],
+  "modo_de_uso": "Take 2–4 capsules with a meal three times daily.",
+  "descripcion": "Combination of three algae: spirulina, rich in protein and carotenoids; chlorella, a source of chlorophyll; and Klamath Lake algae, which provides minerals. It aims to boost nutrition and the immune system.",
+  "beneficios": [
+   "Stimulates the immune system",
+   "Provides essential minerals",
+   "Source of protein and carotenoid antioxidants",
+   "Provides chlorophyll"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "spirulina",
+   "chlorella",
+   "immune",
+   "energy",
+   "nutrition",
+   "detox"
+  ]
+ },
+ {
+  "id": "NSP-081",
+  "slug": "super-supplemental-vitamin-mineral-without-iron",
+  "url": "https://www.naturessunshine.com/product/super-supplemental-vitamin-mineral-without-iron",
+  "nombre": "Super Supplemental Vitamin & Mineral (without Iron)",
+  "nombre_es": "Super Supplemental Vitamin & Mineral (without Iron)",
+  "sku": "1379",
+  "precio_usd": 32.35,
+  "presentacion": "120 tablets, 30 servings (30-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "vitamins A, C, D3, E, B1, B2, niacin, B6, folate, B12, biotin, pantothenic acid and choline",
+   "minerals: calcium, phosphorus, iodine, magnesium, zinc, selenium, copper, manganese, chromium and potassium",
+   "inositol",
+   "PABA",
+   "fruit blend",
+   "vegetable extracts",
+   "bioflavonoids",
+   "lutein",
+   "lycopene",
+   "cranberry",
+   "mangosteen",
+   "açaí",
+   "pomegranate",
+   "amino acids (9 types)",
+   "chlorophyllin"
+  ],
+  "modo_de_uso": "Take four tablets daily with a meal. They may be taken separately with meals and at bedtime.",
+  "descripcion": "Multivitamin that combines 23 vitamins and minerals with amino acids, herbs and fruit and vegetable powders, without iron. It aims to fill nutritional gaps common in diets of processed foods.",
+  "beneficios": [
+   "Complete nutritional support",
+   "Provides 23 vitamins and minerals",
+   "Antioxidant support with lutein and lycopene",
+   "Helps fill nutritional gaps"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "multivitamin",
+   "vitamins",
+   "minerals",
+   "nutrition",
+   "fatigue",
+   "iron free"
+  ]
+ },
+ {
+  "id": "NSP-082",
+  "slug": "thai-go",
+  "url": "https://www.naturessunshine.com/product/thai-go",
+  "nombre": "Thai-Go®",
+  "nombre_es": "Thai-Go®",
+  "sku": "K4195",
+  "precio_usd": 99.44,
+  "presentacion": "48 oz (1.42 L) total, 48 servings (24-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "mangosteen fruit concentrate and pericarp extract",
+   "Concord grape concentrate",
+   "red grape concentrate",
+   "blueberry concentrate",
+   "red raspberry concentrate",
+   "red grape skin extract",
+   "goji fruit extract",
+   "açaí concentrate",
+   "pomegranate juice concentrate",
+   "sea buckthorn extract",
+   "red grape seed extract",
+   "green tea leaf extract",
+   "apple extract"
+  ],
+  "modo_de_uso": "Take 1 ounce (2 tablespoons) twice daily.",
+  "descripcion": "Antioxidant drink based on mangosteen, which contains xanthones and bioflavonoids, along with other antioxidant fruits. It has a high ORAC value to counter free radicals.",
+  "beneficios": [
+   "Supports immune and cardiovascular health",
+   "Promotes energy and wellness",
+   "High antioxidant power (ORAC)",
+   "Helps counter free radicals"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "antioxidant",
+   "mangosteen",
+   "immune",
+   "energy",
+   "free radicals",
+   "juice"
+  ]
+ },
+ {
+  "id": "NSP-083",
+  "slug": "vitamin-d3",
+  "url": "https://www.naturessunshine.com/product/vitamin-d3",
+  "nombre": "Vitamin D3",
+  "nombre_es": "Vitamin D3",
+  "sku": "1155",
+  "precio_usd": 18.65,
+  "presentacion": "60 tablets, 30 servings (30-day supply)",
+  "categoria": "Energy & General Nutrition",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "vitamin D3 100 mcg (per 2 tablets)"
+  ],
+  "modo_de_uso": "Take 1–2 tablets daily with a meal.",
+  "descripcion": "Vitamin D3 supplement, a more bioactive form than D2, that helps maintain normal blood levels of calcium and phosphorus. Supports bones, immunity and a balanced mood.",
+  "beneficios": [
+   "Supports immune function",
+   "Contributes to bone health and mineralization",
+   "May help support a balanced mood",
+   "Helps maintain normal calcium and phosphorus levels"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "vitamin d",
+   "bones",
+   "immune",
+   "mood",
+   "winter blues",
+   "calcium absorption"
+  ]
+ },
+ {
+  "id": "NSP-084",
+  "slug": "dieters-cleanse",
+  "url": "https://www.naturessunshine.com/product/dieters-cleanse",
+  "nombre": "Dieter's Cleanse®",
+  "nombre_es": "Dieter's Cleanse®",
+  "sku": "3220",
+  "precio_usd": 68.4,
+  "presentacion": "Box of 42 packets (14 AM, 14 NOON, 14 PM), 28 servings (14-day supply)",
+  "categoria": "Weight Management",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "Bowel Detox (1 capsule, AM and NOON)",
+   "Master Gland (1 capsule, AM and NOON)",
+   "Enviro-Detox (1 capsule, AM and NOON)",
+   "Liver Cleanse Formula (1 capsule, AM and NOON)",
+   "LBS II (3 capsules, PM)",
+   "SF (2 capsules, PM)",
+   "Chromium (1 capsule, PM)"
+  ],
+  "modo_de_uso": "Take 1 AM packet with breakfast, 1 NOON packet with lunch and 1 PM packet with dinner for two weeks.",
+  "descripcion": "14-day cleansing program intended as the first step in a weight management plan or for adults seeking a periodic cleanse. Combines several formulas in packets for morning, noon and evening.",
+  "beneficios": [
+   "supports digestion and elimination",
+   "supports healthy liver function",
+   "promotes a healthy colon environment",
+   "first step in weight management programs"
+  ],
+  "precauciones": "Contains cascara sagrada, buckthorn and Turkish rhubarb. Not for long-term use. Consult a health care professional if you are pregnant, breastfeeding, have a medical condition or take medications. Avoid in case of diarrhea, loose stools or abdominal pain.",
+  "palabras_clave": [
+   "cleanse",
+   "detox",
+   "weight loss",
+   "constipation",
+   "liver",
+   "colon"
+  ]
+ },
+ {
+  "id": "NSP-085",
+  "slug": "fat-grabbers",
+  "url": "https://www.naturessunshine.com/product/fat-grabbers",
+  "nombre": "Fat Grabbers Intestinal Health Support Supplement",
+  "nombre_es": "Fat Grabbers Intestinal Health Support Supplement",
+  "sku": "3028",
+  "precio_usd": 48.7,
+  "presentacion": "180 vegetarian capsules, 45 servings (15-day supply)",
+  "categoria": "Weight Management",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "guar gum",
+   "psyllium hulls",
+   "chickweed leaf extract",
+   "lecithin"
+  ],
+  "modo_de_uso": "Take 4 capsules with a meal three times daily. Drink 8 oz of pure water with the capsules, followed by another glass of water.",
+  "descripcion": "Formula of natural psyllium and guar gum fibers that supports proper elimination and bowel regularity. It also helps reduce fat absorption during digestion.",
+  "beneficios": [
+   "Supports bowel regularity",
+   "Helps eliminate fat through waste",
+   "Helps keep cholesterol within the normal range",
+   "Reduces digestive absorption of lipids"
+  ],
+  "precauciones": "NOTE: May cause an allergic reaction in people sensitive to inhaled or ingested psyllium.",
+  "palabras_clave": [
+   "weight loss",
+   "fiber",
+   "fat absorption",
+   "cholesterol",
+   "constipation",
+   "appetite"
+  ]
+ },
+ {
+  "id": "NSP-086",
+  "slug": "metabomax-free",
+  "url": "https://www.naturessunshine.com/product/metabomax-free",
+  "nombre": "MetaboMax® Free",
+  "nombre_es": "MetaboMax® Free",
+  "sku": "3074",
+  "precio_usd": 72.5,
+  "presentacion": "120 capsules, 60 servings (20-day supply)",
+  "categoria": "Weight Management",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "decaffeinated green tea leaf extract",
+   "capsicum fruit (hot pepper)",
+   "ginger rhizome",
+   "bitter orange fruit extract",
+   "guggulipid",
+   "chickweed aerial parts"
+  ],
+  "modo_de_uso": "Take 1–2 capsules three times daily with food.",
+  "descripcion": "Caffeine-free version of a formula for natural weight management. It aims to promote calorie burning, control appetite and reduce fat stores.",
+  "beneficios": [
+   "Helps burn calories",
+   "Helps control appetite",
+   "Promotes fat loss",
+   "Boosts metabolism and energy"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "weight loss",
+   "metabolism",
+   "appetite",
+   "fat burning",
+   "caffeine free",
+   "cravings"
+  ]
+ }
+]

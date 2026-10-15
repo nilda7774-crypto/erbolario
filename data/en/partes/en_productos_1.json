@@ -1,0 +1,1618 @@
+[
+ {
+  "id": "NSP-001",
+  "slug": "chlorophyll-liquid",
+  "url": "https://www.naturessunshine.com/product/chlorophyll-liquid",
+  "nombre": "Chlorophyll, Liquid",
+  "nombre_es": "Chlorophyll, Liquid",
+  "sku": "P1601",
+  "precio_usd": 22.95,
+  "presentacion": "16 oz (473 ml), 15 servings",
+  "categoria": "Digestive System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "sodium copper chlorophyllin",
+   "spearmint aerial parts oil"
+  ],
+  "modo_de_uso": "Take 2 tablespoons (30 ml) in an 8 oz (240 ml) glass of cold water daily.",
+  "descripcion": "Mint-flavored liquid chlorophyll that supports digestive and immune health at the cellular level. It helps with intestinal detoxification and acts as a natural internal deodorant.",
+  "beneficios": [
+   "Supports digestive health",
+   "Supports immune health at the cellular level",
+   "Helps with intestinal detoxification",
+   "Natural internal deodorant that neutralizes body odors"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "chlorophyll",
+   "liquid chlorophyll",
+   "detox",
+   "body odor",
+   "bad breath",
+   "digestion",
+   "intestinal cleanse"
+  ]
+ },
+ {
+  "id": "NSP-002",
+  "slug": "chlorophyll-es-liquid",
+  "url": "https://www.naturessunshine.com/product/chlorophyll-es-liquid",
+  "nombre": "Liquid Chlorophyll Extra Strength",
+  "nombre_es": "Liquid Chlorophyll Extra Strength",
+  "sku": "P1599",
+  "precio_usd": 24.95,
+  "presentacion": "16 oz (473 ml), 30 servings",
+  "categoria": "Digestive System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "sodium copper chlorophyllin",
+   "spearmint aerial parts oil",
+   "vegetable glycerin"
+  ],
+  "modo_de_uso": "Take 1 tablespoon (15 ml) in an 8 oz (240 ml) glass of cold water daily.",
+  "descripcion": "A concentrated version of liquid chlorophyll, with more than twice the chlorophyllin per serving of the regular formula and a spearmint flavor. It supports intestinal and cellular health and contains no parabens.",
+  "beneficios": [
+   "Supports intestinal health",
+   "Supports intestinal function and cellular well-being",
+   "More than twice the chlorophyllin per serving of the regular version",
+   "Natural internal deodorant"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "chlorophyll",
+   "extra strength chlorophyll",
+   "detox",
+   "body odor",
+   "gut health",
+   "digestion"
+  ]
+ },
+ {
+  "id": "NSP-003",
+  "slug": "psyllium-hulls-combination",
+  "url": "https://www.naturessunshine.com/product/psyllium-hulls-combination",
+  "nombre": "Psyllium Hulls Combination Supplement",
+  "nombre_es": "Psyllium Hulls Combination Supplement",
+  "sku": "1376",
+  "precio_usd": 36.25,
+  "presentacion": "11 oz (312 g) powder, 45 servings",
+  "categoria": "Digestive System",
+  "tipo": "Powder",
+  "ingredientes": [
+   "psyllium seed husk",
+   "hibiscus flowers",
+   "licorice root"
+  ],
+  "modo_de_uso": "Adults: mix 2 teaspoons in a glass of water or juice. Not formulated for children.",
+  "descripcion": "A soluble fiber supplement that combines psyllium hulls with hibiscus and licorice root. It eases the natural elimination of waste and supports intestinal health.",
+  "beneficios": [
+   "Provides soluble fiber",
+   "Eases the natural elimination of waste",
+   "Supports intestinal health",
+   "Supports cholesterol levels already within the normal range"
+  ],
+  "precauciones": "May cause an allergic reaction in people sensitive to inhaled or ingested psyllium.",
+  "palabras_clave": [
+   "psyllium",
+   "soluble fiber",
+   "constipation",
+   "cholesterol",
+   "bowel regularity",
+   "colon cleanse"
+  ]
+ },
+ {
+  "id": "NSP-004",
+  "slug": "stomach-comfort",
+  "url": "https://www.naturessunshine.com/product/stomach-comfort",
+  "nombre": "Stomach Comfort - Digestive System Support Supplement",
+  "nombre_es": "Stomach Comfort",
+  "sku": "1820",
+  "precio_usd": 22.75,
+  "presentacion": "60 chewable tablets, 30 servings",
+  "categoria": "Digestive System",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "calcium carbonate",
+   "plant prebiotic fiber",
+   "sodium alginate from brown seaweed",
+   "papaya fruit concentrate",
+   "guar gum",
+   "slippery elm bark",
+   "ginger rhizome",
+   "licorice root extract"
+  ],
+  "modo_de_uso": "Chew 1 or 2 tablets up to three times a day for fast, temporary digestive relief.",
+  "descripcion": "Chewable tablets that help neutralize stomach acid and relieve occasional digestive discomfort. They combine slippery elm to coat the digestive tract with ginger, papaya and licorice.",
+  "beneficios": [
+   "Relieves occasional digestive discomfort",
+   "Neutralizes stomach acid",
+   "Coats the digestive tract",
+   "Supports digestion"
+  ],
+  "precauciones": "Digestive problems may be a sign of more serious health issues.",
+  "palabras_clave": [
+   "acidity",
+   "heartburn",
+   "acid reflux",
+   "upset stomach",
+   "indigestion",
+   "stomach ache",
+   "natural antacid"
+  ]
+ },
+ {
+  "id": "NSP-005",
+  "slug": "bowel-detox",
+  "url": "https://www.naturessunshine.com/product/bowel-detox",
+  "nombre": "Bowel Detox Dietary Supplement",
+  "nombre_es": "Bowel Detox Dietary Supplement",
+  "sku": "3020",
+  "precio_usd": 35.2,
+  "presentacion": "120 capsules, 40 servings",
+  "categoria": "Digestive System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "psyllium hulls",
+   "cascara sagrada bark",
+   "pancreatin",
+   "activated charcoal",
+   "bile salts",
+   "pepsin",
+   "algin",
+   "apple pectin",
+   "ginger",
+   "bentonite clay"
+  ],
+  "modo_de_uso": "Take 3 capsules twice a day.",
+  "descripcion": "A digestive support formula that combines fibers, herbs, detoxifiers and enzymes. It helps promote regular elimination of waste and the function of the gastrointestinal tract.",
+  "beneficios": [
+   "Helps promote regular elimination of waste",
+   "Supports the function of the gastrointestinal tract",
+   "Combines fibers, herbs, detoxifiers and enzymes"
+  ],
+  "precauciones": "Consult a health care professional before use if you are pregnant, nursing or taking medication. Do not use if you have diarrhea, loose stools or abdominal pain. Not for long-term use. May cause allergic reactions in people sensitive to psyllium.",
+  "palabras_clave": [
+   "bowel detox",
+   "colon cleanse",
+   "constipation",
+   "detox",
+   "elimination",
+   "activated charcoal"
+  ]
+ },
+ {
+  "id": "NSP-006",
+  "slug": "eleven-elevated",
+  "url": "https://www.naturessunshine.com/product/eleven-elevated",
+  "nombre": "Eleven Elevated™",
+  "nombre_es": "Eleven Elevated™",
+  "sku": "1514",
+  "precio_usd": 65.25,
+  "presentacion": "60 veggie capsules, 30 servings",
+  "categoria": "Digestive System",
+  "tipo": "Probiotic",
+  "ingredientes": [
+   "30 billion CFU from 11 strains per serving",
+   "Lactobacillus rhamnosus",
+   "Lactobacillus acidophilus",
+   "Lactobacillus brevis",
+   "Lactobacillus bulgaricus",
+   "Lactobacillus plantarum",
+   "Lactobacillus casei",
+   "Lactobacillus salivarius",
+   "Bifidobacterium bifidum",
+   "Bifidobacterium infantis",
+   "Bifidobacterium longum",
+   "Streptococcus thermophilus",
+   "prebiotic blend: inulin, FOS and plant fiber"
+  ],
+  "modo_de_uso": "Take two capsules daily with a meal. An initial 30-day regimen with Eleven Elevated is suggested, followed by Probiotic Eleven for daily maintenance, or use it periodically to boost your regimen.",
+  "descripcion": "A high-potency probiotic with 30 billion CFU from 11 strains per serving, in delayed-release veggie capsules. It supports a healthy intestinal environment and a diverse microbiome.",
+  "beneficios": [
+   "Supports a healthy intestinal environment",
+   "Promotes a diverse microbiome",
+   "66% more potency than Probiotic Eleven",
+   "Includes a prebiotic blend"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "probiotics",
+   "gut flora",
+   "microbiome",
+   "gut health",
+   "digestion",
+   "good bacteria"
+  ]
+ },
+ {
+  "id": "NSP-007",
+  "slug": "food-enzymes",
+  "url": "https://www.naturessunshine.com/product/food-enzymes",
+  "nombre": "Food Enzymes - Digestive Relief & Support Dietary Supplement",
+  "nombre_es": "Food Enzymes - Digestive Relief & Support Dietary Supplement",
+  "sku": "1836",
+  "precio_usd": 35.95,
+  "presentacion": "120 capsules, 60 servings",
+  "categoria": "Digestive System",
+  "tipo": "Enzymes",
+  "ingredientes": [
+   "betaine HCl",
+   "bile salts",
+   "bromelain",
+   "lipase",
+   "alpha amylase",
+   "pancreatin",
+   "papain",
+   "pepsin"
+  ],
+  "modo_de_uso": "Take 1 to 2 capsules with a meal three times a day.",
+  "descripcion": "A combination of digestive enzymes that helps break down the proteins, fats and carbohydrates in meals. According to the manufacturer, one capsule helps digest at least 30 g of protein, 30 g of carbohydrates and 20 g of fat.",
+  "beneficios": [
+   "Helps break down meals",
+   "Supports the digestion of proteins, fats and carbohydrates",
+   "Helps relieve occasional indigestion"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "digestive enzymes",
+   "indigestion",
+   "feeling heavy after eating",
+   "digestion",
+   "gas",
+   "poor digestion"
+  ]
+ },
+ {
+  "id": "NSP-008",
+  "slug": "lower-bowel-stimulator-100-vegi",
+  "url": "https://www.naturessunshine.com/product/lower-bowel-stimulator-100-vegi",
+  "nombre": "Lower Bowel Stimulator (Vegitabs®)",
+  "nombre_es": "Lower Bowel Stimulator (Vegitabs®)",
+  "sku": "P1598",
+  "precio_usd": 27.99,
+  "presentacion": "100 Vegitabs, 25 servings",
+  "categoria": "Digestive System",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "cascara sagrada bark",
+   "buckthorn bark",
+   "licorice root",
+   "capsicum fruit",
+   "ginger rhizome",
+   "Oregon grape root and rhizome",
+   "turkey rhubarb root",
+   "couch grass rhizome",
+   "red clover flowers"
+  ],
+  "modo_de_uso": "Take 2 to 4 vegitabs daily with a meal.",
+  "descripcion": "An herbal formula offering advanced support for the lower bowel. It helps maintain bowel regularity by promoting healthy function and elimination.",
+  "beneficios": [
+   "Advanced support for the lower bowel",
+   "Helps maintain bowel regularity",
+   "Promotes healthy bowel function and elimination"
+  ],
+  "precauciones": "Consult a health care professional if you are pregnant, nursing or taking medication. Not for long-term use. Do not use if you have or develop diarrhea, loose stools or abdominal pain.",
+  "palabras_clave": [
+   "constipation",
+   "natural laxative",
+   "bowel regularity",
+   "lower bowel",
+   "cascara sagrada",
+   "colon"
+  ]
+ },
+ {
+  "id": "NSP-009",
+  "slug": "everybodys-fiber",
+  "url": "https://www.naturessunshine.com/product/everybodys-fiber",
+  "nombre": "Everybody's Fiber",
+  "nombre_es": "Everybody's Fiber",
+  "sku": "1336",
+  "precio_usd": 42.7,
+  "presentacion": "4.6 oz (130 g) powder, 26 servings",
+  "categoria": "Digestive System",
+  "tipo": "Powder",
+  "ingredientes": [
+   "dietary fiber 2 g per serving",
+   "apple pectin",
+   "slippery elm bark",
+   "short-chain fructooligosaccharides",
+   "chamomile flowers",
+   "flaxseed meal",
+   "fennel seed",
+   "malic acid",
+   "marshmallow root",
+   "peppermint leaves",
+   "stevia leaf extract",
+   "asparagus stem",
+   "cat's claw inner bark",
+   "natural peach, apricot and plum flavors"
+  ],
+  "modo_de_uso": "Mix 1 scoop of powder (5 grams) into 4 ounces (120 ml) of water or juice and drink once a day.",
+  "descripcion": "A fiber powder with soothing herbs and prebiotics for digestive well-being. It aims to soothe the intestinal tract and support overall intestinal health.",
+  "beneficios": [
+   "Soothes the intestinal tract",
+   "Supports intestinal health with prebiotics",
+   "May help with occasional constipation, gas and bloating"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "fiber",
+   "prebiotics",
+   "constipation",
+   "gas",
+   "bloating",
+   "abdominal swelling",
+   "digestion"
+  ]
+ },
+ {
+  "id": "NSP-010",
+  "slug": "gall-bladder-formula",
+  "url": "https://www.naturessunshine.com/product/gall-bladder-formula",
+  "nombre": "Gall Bladder Formula",
+  "nombre_es": "Gall Bladder Formula",
+  "sku": "1202",
+  "precio_usd": 27.95,
+  "presentacion": "100 veggie capsules, 50 servings (16-day supply)",
+  "categoria": "Digestive System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "Oregon grape root and rhizome",
+   "ginger rhizome",
+   "cramp bark",
+   "fennel seeds",
+   "peppermint leaves",
+   "wild yam root",
+   "catnip leaves"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times a day.",
+  "descripcion": "A traditional herbal combination to support the digestive system, liver and gallbladder. It includes plants such as ginger, fennel, peppermint and catnip to promote digestion.",
+  "beneficios": [
+   "supports the gallbladder",
+   "supports the liver",
+   "soothes digestive function",
+   "promotes digestion"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "gallbladder",
+   "bile",
+   "digestion",
+   "liver",
+   "indigestion",
+   "heaviness after eating"
+  ]
+ },
+ {
+  "id": "NSP-011",
+  "slug": "l-glutamine",
+  "url": "https://www.naturessunshine.com/product/l-glutamine",
+  "nombre": "L-Glutamine",
+  "nombre_es": "L-Glutamine",
+  "sku": "1776",
+  "precio_usd": 27.95,
+  "presentacion": "30 capsules, 15 servings",
+  "categoria": "Digestive System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "L-glutamine"
+  ],
+  "modo_de_uso": "Take 1 to 2 capsules daily with a meal.",
+  "descripcion": "A supplement of the amino acid L-glutamine in veggie capsules. It supports gastrointestinal, immune and cognitive function, as well as growth, energy and cellular repair.",
+  "beneficios": [
+   "Supports gastrointestinal function",
+   "Supports immune and cognitive function",
+   "Promotes growth, energy and cellular repair",
+   "May help with exercise-related muscle discomfort"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "glutamine",
+   "amino acid",
+   "gut health",
+   "muscle recovery",
+   "muscle soreness",
+   "intestines"
+  ]
+ },
+ {
+  "id": "NSP-012",
+  "slug": "loclo",
+  "url": "https://www.naturessunshine.com/product/loclo",
+  "nombre": "LOCLO®",
+  "nombre_es": "LOCLO®",
+  "sku": "1348",
+  "precio_usd": 47.65,
+  "presentacion": "11 oz (312 g) powder, 33 servings",
+  "categoria": "Digestive System",
+  "tipo": "Powder",
+  "ingredientes": [
+   "psyllium hulls",
+   "apple fiber",
+   "cassia cinnamon bark",
+   "acacia gum",
+   "flaxseed",
+   "fructose",
+   "guar gum",
+   "oat bran",
+   "citric acid",
+   "malic acid",
+   "stevia leaf extract",
+   "broccoli flowers",
+   "turmeric root",
+   "rosemary leaf",
+   "red beet root",
+   "tomato fruit",
+   "carrot root",
+   "cabbage leaf",
+   "hesperidin",
+   "grapefruit bioflavonoid extract",
+   "orange bioflavonoid extract"
+  ],
+  "modo_de_uso": "Add about 1 level scoop to 8 ounces (240 ml) of cold water once a day. Shake or stir vigorously and drink immediately.",
+  "descripcion": "A powdered dietary fiber blend enriched with fruit and vegetable ingredients, designed for people who do not get enough fiber. It helps improve digestion.",
+  "beneficios": [
+   "Provides healthy dietary fiber",
+   "Improves digestion",
+   "Enriched with fruit and vegetable ingredients"
+  ],
+  "precauciones": "Avoid use if you have ever had narrowing of the esophagus or difficulty swallowing. May cause an allergic reaction in people sensitive to inhaled or ingested psyllium. Drinking enough water is essential.",
+  "palabras_clave": [
+   "fiber",
+   "loclo",
+   "constipation",
+   "digestion",
+   "psyllium",
+   "soluble fiber",
+   "bowel regularity"
+  ]
+ },
+ {
+  "id": "NSP-013",
+  "slug": "acidophilus",
+  "url": "https://www.naturessunshine.com/product/acidophilus",
+  "nombre": "L. Acidophilus Probiotic",
+  "nombre_es": "L. Acidophilus Probiotic",
+  "sku": "1666",
+  "precio_usd": 33.15,
+  "presentacion": "90 capsules, 30 servings",
+  "categoria": "Digestive System",
+  "tipo": "Probiotic",
+  "ingredientes": [
+   "L. acidophilus 250 million CFU per serving (minimum 100 million organisms per capsule)"
+  ],
+  "modo_de_uso": "Take 1 to 2 capsules twice a day with a meal.",
+  "descripcion": "A freeze-dried L. acidophilus probiotic in a delayed-release veggie capsule that protects the organisms from stomach acid. It is non-GMO and vegan-friendly; storing it in the refrigerator or freezer is recommended.",
+  "beneficios": [
+   "Provides beneficial bacteria for intestinal health",
+   "Delayed-release capsule that reaches the intestines",
+   "Freeze-dried to maintain viability",
+   "Non-GMO and vegan-friendly"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "acidophilus",
+   "probiotics",
+   "gut flora",
+   "gut health",
+   "digestion",
+   "good bacteria"
+  ]
+ },
+ {
+  "id": "NSP-014",
+  "slug": "protease-plus",
+  "url": "https://www.naturessunshine.com/product/protease-plus",
+  "nombre": "Protease Plus",
+  "nombre_es": "Protease Plus",
+  "sku": "1841",
+  "precio_usd": 48.7,
+  "presentacion": "90 capsules, 30 servings",
+  "categoria": "Digestive System",
+  "tipo": "Enzymes",
+  "ingredientes": [
+   "protease 60,000 HUT",
+   "beet root fiber",
+   "trace mineral concentrate"
+  ],
+  "modo_de_uso": "Take 1 to 3 capsules with meals or between meals.",
+  "descripcion": "A protease enzyme that helps break down proteins when taken with meals. Taken between meals, it is presented as support for the immune system.",
+  "beneficios": [
+   "Breaks down proteins into smaller amino acids",
+   "Boosts digestion",
+   "Supports the digestive and immune systems",
+   "Supports immunity when taken between meals"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "protease",
+   "enzymes",
+   "protein digestion",
+   "indigestion",
+   "immune defenses",
+   "immune system"
+  ]
+ },
+ {
+  "id": "NSP-015",
+  "slug": "burdock",
+  "url": "https://www.naturessunshine.com/product/burdock",
+  "nombre": "Burdock",
+  "nombre_es": "Burdock",
+  "sku": "140",
+  "precio_usd": 36.25,
+  "presentacion": "100 capsules, 50 servings (25-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "burdock root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice a day.",
+  "descripcion": "Burdock root capsules with traditional support for the digestive system. According to Traditional Chinese Medicine, its compounds help cleanse the Blood and promote healthy circulation.",
+  "beneficios": [
+   "traditional support for the digestive system",
+   "helps cleanse the blood",
+   "promotes healthy circulation"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "burdock",
+   "blood cleanse",
+   "detox",
+   "detoxification",
+   "digestion",
+   "circulation"
+  ]
+ },
+ {
+  "id": "NSP-016",
+  "slug": "cellular-detox",
+  "url": "https://www.naturessunshine.com/product/cellular-detox",
+  "nombre": "Cellular Detox",
+  "nombre_es": "Cellular Detox",
+  "sku": "1072",
+  "precio_usd": 31.6,
+  "presentacion": "100 capsules, 50 servings (16-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "gentian root",
+   "cascara sagrada bark",
+   "fenugreek seeds",
+   "slippery elm bark",
+   "safflower flowers",
+   "black walnut hulls",
+   "myrrh gum",
+   "yellow dock root",
+   "dandelion root",
+   "Oregon grape root and rhizome",
+   "catnip leaves",
+   "chickweed leaf extract",
+   "parthenium root",
+   "uva ursi leaf extract",
+   "goldenseal root extract"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times a day.",
+  "descripcion": "An herbal blend with cascara sagrada designed to promote bowel function and the elimination of toxins. It helps the colon work efficiently to eliminate waste.",
+  "beneficios": [
+   "promotes proper bowel function",
+   "promotes the elimination of toxins",
+   "supports digestive and intestinal function",
+   "helps eliminate waste from the colon"
+  ],
+  "precauciones": "Contains cascara sagrada. Do not use if you have diarrhea, loose stools or abdominal pain. Consult a health care professional if you are pregnant, nursing or taking medication. Not intended for long-term use.",
+  "palabras_clave": [
+   "detox",
+   "detoxification",
+   "colon",
+   "constipation",
+   "intestinal cleanse",
+   "toxins",
+   "bowel movements"
+  ]
+ },
+ {
+  "id": "NSP-017",
+  "slug": "dandelion",
+  "url": "https://www.naturessunshine.com/product/dandelion",
+  "nombre": "Dandelion",
+  "nombre_es": "Dandelion",
+  "sku": "250",
+  "precio_usd": 24.85,
+  "presentacion": "100 capsules, 50 servings (25-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "dandelion root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice a day.",
+  "descripcion": "Dandelion root capsules from a nutrient-rich plant. Traditionally used to support digestive, urinary and liver health, as well as detoxification.",
+  "beneficios": [
+   "supports digestive health",
+   "supports urinary health",
+   "supports liver health",
+   "supports detoxification",
+   "supports women's well-being"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "dandelion",
+   "liver",
+   "detox",
+   "digestion",
+   "urinary tract",
+   "detoxification"
+  ]
+ },
+ {
+  "id": "NSP-018",
+  "slug": "liver-cleanse-formula",
+  "url": "https://www.naturessunshine.com/product/liver-cleanse-formula",
+  "nombre": "Liver Cleanse Formula",
+  "nombre_es": "Liver Cleanse Formula",
+  "sku": "1010",
+  "precio_usd": 27.95,
+  "presentacion": "100 capsules, 100 servings (33-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "red beet root",
+   "dandelion root",
+   "yellow dock root",
+   "angelica root",
+   "parsley leaves",
+   "horsetail stem and strobilus",
+   "black cohosh root",
+   "birch leaves",
+   "blessed thistle aerial parts",
+   "chamomile flowers",
+   "gentian root",
+   "goldenrod aerial parts"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three times a day.",
+  "descripcion": "A formula of traditional herbs to support the vital functions of the liver. It nourishes this organ and aids its detoxification.",
+  "beneficios": [
+   "supports liver functions",
+   "helps detoxify the liver",
+   "supports digestion",
+   "promotes detoxification"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "liver",
+   "liver cleanse",
+   "detox",
+   "detoxification",
+   "digestion",
+   "fatty liver"
+  ]
+ },
+ {
+  "id": "NSP-019",
+  "slug": "liquid-cleanse",
+  "url": "https://www.naturessunshine.com/product/liquid-cleanse",
+  "nombre": "Liquid Cleanse",
+  "nombre_es": "Liquid Cleanse",
+  "sku": "3193",
+  "precio_usd": 36.25,
+  "presentacion": "16 fl oz (473 ml), 16 servings (15-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "aloe vera inner leaf juice concentrate",
+   "red raspberry fruit concentrate",
+   "senna leaves",
+   "natural raspberry flavor",
+   "cassia cinnamon bark",
+   "trace minerals",
+   "barberry root bark",
+   "xanthan gum",
+   "fennel seeds",
+   "stevia leaf extract",
+   "corn silk",
+   "ginger rhizome",
+   "dandelion root",
+   "capsicum (pepper) fruit"
+  ],
+  "modo_de_uso": "Take 1 ounce (30 ml) daily as part of your personal cleansing program. Not intended for long-term use.",
+  "descripcion": "A liquid formula that supports bowel function and digestive health. It combines aloe vera, senna and herbs such as ginger and capsicum, along with components that support the liver and kidneys.",
+  "beneficios": [
+   "supports healthy bowel function",
+   "aloe vera to soothe the digestive tract",
+   "senna to keep stools soft and promote bowel movements",
+   "stimulates digestive secretions",
+   "supports liver and kidney function"
+  ],
+  "precauciones": "Consult a health care professional if you are pregnant, nursing, have a medical condition or are taking medication. Do not use if you have diarrhea, loose stools or abdominal pain. Contains senna; not for long-term use.",
+  "palabras_clave": [
+   "cleanse",
+   "liquid detox",
+   "constipation",
+   "colon",
+   "aloe vera",
+   "digestion",
+   "natural laxative"
+  ]
+ },
+ {
+  "id": "NSP-020",
+  "slug": "liv-j",
+  "url": "https://www.naturessunshine.com/product/liv-j",
+  "nombre": "LIV-J",
+  "nombre_es": "LIV-J",
+  "sku": "1011",
+  "precio_usd": 31.6,
+  "presentacion": "100 capsules, 50 servings (16-day supply)",
+  "categoria": "Detox & Cleansing",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "dandelion root",
+   "rose hips",
+   "barberry root bark",
+   "fennel seeds",
+   "parsley leaves",
+   "red beet root",
+   "horseradish root"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times a day and at bedtime.",
+  "descripcion": "An herbal blend traditionally used to support digestion and cleanse the digestive system. It also nourishes the liver and spleen.",
+  "beneficios": [
+   "supports the digestive system",
+   "supports the hepatic system",
+   "nourishes the liver and spleen",
+   "helps cleanse the digestive system"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "liver",
+   "liver cleanse",
+   "digestion",
+   "detox",
+   "spleen",
+   "herbs for the liver"
+  ]
+ },
+ {
+  "id": "NSP-021",
+  "slug": "garlic-oil",
+  "url": "https://www.naturessunshine.com/product/garlic-oil",
+  "nombre": "Garlic Oil",
+  "nombre_es": "Garlic Oil",
+  "sku": "1694",
+  "precio_usd": 31.75,
+  "presentacion": "60 softgels, 60 servings (20-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Softgels",
+  "ingredientes": [
+   "garlic bulb oil (each softgel is equivalent to 1000 mg of fresh garlic cloves)",
+   "soybean oil"
+  ],
+  "modo_de_uso": "Take 1 softgel with a meal three times a day.",
+  "descripcion": "Garlic oil softgels with sulfur compounds such as allicin to support the body's defenses. They offer a convenient, odorless way to take garlic.",
+  "beneficios": [
+   "Supports the immune system",
+   "Odorless softgel format",
+   "Each softgel is equivalent to 1000 mg of fresh garlic"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "garlic oil",
+   "odorless garlic",
+   "allicin",
+   "immune defenses",
+   "immune system",
+   "softgels"
+  ]
+ },
+ {
+  "id": "NSP-022",
+  "slug": "garlic",
+  "url": "https://www.naturessunshine.com/product/garlic",
+  "nombre": "Garlic",
+  "nombre_es": "Garlic",
+  "sku": "290",
+  "precio_usd": 25.9,
+  "presentacion": "100 capsules, 100 servings (50-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "garlic bulb"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal twice a day.",
+  "descripcion": "Garlic bulb capsules whose sulfur compounds, especially allicin, are the main active component. They provide antioxidants for immune function and promote healthy circulation.",
+  "beneficios": [
+   "Provides antioxidants that support immune function",
+   "Promotes healthy circulation",
+   "Contains allicin as its active compound"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "garlic",
+   "allicin",
+   "immune defenses",
+   "immune system",
+   "circulation",
+   "antioxidant"
+  ]
+ },
+ {
+  "id": "NSP-023",
+  "slug": "una-de-gato-cats-claw",
+  "url": "https://www.naturessunshine.com/product/una-de-gato-cats-claw",
+  "nombre": "Cat's Claw Combination",
+  "nombre_es": "Cat's Claw Combination",
+  "sku": "175",
+  "precio_usd": 35.2,
+  "presentacion": "100 capsules, 100 servings (100-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "cat's claw inner bark",
+   "astragalus root",
+   "Echinacea purpurea root"
+  ],
+  "modo_de_uso": "Take 1 capsule daily with a meal.",
+  "descripcion": "An herbal blend that combines cat's claw from the Peruvian rainforest with Chinese astragalus and echinacea. It is based on traditional uses for immune and respiratory support.",
+  "beneficios": [
+   "Provides properties that strengthen the immune system",
+   "Helps the body adapt to stress",
+   "Traditionally used for immune and respiratory support"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "cat's claw",
+   "astragalus",
+   "echinacea",
+   "immune defenses",
+   "immune system",
+   "stress",
+   "respiratory"
+  ]
+ },
+ {
+  "id": "NSP-024",
+  "slug": "lymphatic-drainage",
+  "url": "https://www.naturessunshine.com/product/lymphatic-drainage",
+  "nombre": "Lymphatic Drainage™",
+  "nombre_es": "Lymphatic Drainage™",
+  "sku": "3171",
+  "precio_usd": 37.95,
+  "presentacion": "2 fl oz (59 ml), 59 servings (30-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "cleavers",
+   "red clover flower",
+   "red root",
+   "prickly ash bark",
+   "vegetable glycerin and water"
+  ],
+  "modo_de_uso": "Take 1 ml (about 15-20 drops or ¼ teaspoon) in water twice a day.",
+  "descripcion": "A liquid herbal blend that supports the function and flow of the lymphatic system. It helps balance tissue fluids and remove cellular waste.",
+  "beneficios": [
+   "supports lymphatic function and flow",
+   "promotes healthy circulation of tissue fluids",
+   "helps eliminate cellular waste",
+   "supports detoxification and immune function",
+   "may reduce the appearance of swelling"
+  ],
+  "precauciones": "Consult a health care professional if you are pregnant, nursing, have a medical condition or are taking medication.",
+  "palabras_clave": [
+   "lymphatic system",
+   "lymphatic drainage",
+   "fluid retention",
+   "swelling",
+   "swollen lymph nodes",
+   "immune defenses",
+   "detox"
+  ]
+ },
+ {
+  "id": "NSP-025",
+  "slug": "echinacea-purpurea",
+  "url": "https://www.naturessunshine.com/product/echinacea-purpurea",
+  "nombre": "Echinacea Purpurea",
+  "nombre_es": "Echinacea Purpurea",
+  "sku": "263",
+  "precio_usd": 51.8,
+  "presentacion": "180 capsules, 90 servings (30-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "echinacea aerial parts and root (Echinacea purpurea)"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times a day.",
+  "descripcion": "An echinacea supplement made from the aerial parts and root of the plant to strengthen immune function year-round. Its active compounds include polysaccharides, glycoproteins, alkamides, volatile oils and flavonoids.",
+  "beneficios": [
+   "Supports the immune system",
+   "Creates an unfavorable environment for unwanted bacteria",
+   "Provides antioxidant properties"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "echinacea",
+   "immune defenses",
+   "immune system",
+   "common cold",
+   "flu",
+   "bacteria",
+   "antioxidant"
+  ]
+ },
+ {
+  "id": "NSP-026",
+  "slug": "ultimate-echinacea",
+  "url": "https://www.naturessunshine.com/product/ultimate-echinacea",
+  "nombre": "Ultimate Echinacea",
+  "nombre_es": "Ultimate Echinacea",
+  "sku": "3181",
+  "precio_usd": 34.15,
+  "presentacion": "2 fl oz (59 ml), 59 servings (20-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "Echinacea purpurea, E. angustifolia and E. pallida root extract",
+   "banana and orange flavor",
+   "vegetable glycerin",
+   "water"
+  ],
+  "modo_de_uso": "Adults: take 15-20 drops (1 ml) in water with meals three times a day. This product was not formulated for children; consult your health care professional.",
+  "descripcion": "A liquid extract that combines three species of echinacea, with echinacosides, glycoproteins, isobutylamides and polysaccharides. It is designed to strengthen the body's defenses and help you feel better faster.",
+  "beneficios": [
+   "Strengthens the immune system",
+   "Provides antioxidant activity",
+   "Combines three species of echinacea"
+  ],
+  "precauciones": "Not formulated for children; consult your health care professional before giving it to children.",
+  "palabras_clave": [
+   "liquid echinacea",
+   "immune defenses",
+   "immune system",
+   "common cold",
+   "flu",
+   "drops",
+   "antioxidant"
+  ]
+ },
+ {
+  "id": "NSP-027",
+  "slug": "immune-stimulator",
+  "url": "https://www.naturessunshine.com/product/immune-stimulator",
+  "nombre": "Immune Stimulator",
+  "nombre_es": "Immune Stimulator",
+  "sku": "1839",
+  "precio_usd": 60.1,
+  "presentacion": "90 capsules, 90 servings (45-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "beta-glucans",
+   "arabinogalactan",
+   "colostrum",
+   "cordyceps mycelium",
+   "reishi mushroom mycelium",
+   "whole maitake mushroom"
+  ],
+  "modo_de_uso": "For maintenance, take 1 capsule between meals two or three times a day. During periods of immune system stress, take 6 to 10 capsules a day.",
+  "descripcion": "A formula with polysaccharides, colostrum and mushrooms such as reishi, maitake and cordyceps that stimulates the body's immune response. According to the product page, it activates cells such as macrophages, T cells and natural killer cells.",
+  "beneficios": [
+   "Stimulates the body's immune response",
+   "Provides antioxidant protection",
+   "Combines traditional mushrooms with beta-glucans and colostrum"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "immune stimulator",
+   "beta-glucans",
+   "mushrooms",
+   "reishi",
+   "maitake",
+   "weak immune system",
+   "immune system"
+  ]
+ },
+ {
+  "id": "NSP-028",
+  "slug": "pau-darco-extract",
+  "url": "https://www.naturessunshine.com/product/pau-darco-extract",
+  "nombre": "Pau D'Arco Extract",
+  "nombre_es": "Pau D'Arco Extract",
+  "sku": "1774",
+  "precio_usd": 34.05,
+  "presentacion": "2 fl oz (59 ml), 23 servings (8-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "pau d'arco inner bark (liquid extract)"
+  ],
+  "modo_de_uso": "Take 1/2 teaspoon with water three times a day.",
+  "descripcion": "A liquid extract of the inner bark of the Brazilian pau d'arco tree, which contains lapachol. Traditionally used to support the body's defenses and detoxification.",
+  "beneficios": [
+   "Supports immune health",
+   "Provides detoxification support",
+   "Traditionally used to fight harmful organisms"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "pau d'arco",
+   "lapachol",
+   "immune defenses",
+   "fungal overgrowth",
+   "detoxification",
+   "immune system"
+  ]
+ },
+ {
+  "id": "NSP-029",
+  "slug": "golden-seal-parthenium-extract",
+  "url": "https://www.naturessunshine.com/product/golden-seal-parthenium-extract",
+  "nombre": "Golden Seal/Parthenium Extract",
+  "nombre_es": "Golden Seal/Parthenium Extract",
+  "sku": "1781",
+  "precio_usd": 62.9,
+  "presentacion": "2 fl oz (59 ml), 59 servings (30-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Liquid",
+  "ingredientes": [
+   "goldenseal root extract",
+   "parthenium root extract",
+   "water",
+   "alcohol"
+  ],
+  "modo_de_uso": "Adults: use 20-25 drops twice a day. One ml is equivalent to one goldenseal capsule and one parthenium capsule.",
+  "descripcion": "A concentrated, fast-absorbing liquid extract that provides the alkaloids hydrastine and berberine from goldenseal and sesquiterpene esters from parthenium. It offers traditional immune support.",
+  "beneficios": [
+   "Supports the mucous membranes",
+   "Traditional support for the immune system",
+   "Concentrated, fast-absorbing formula"
+  ],
+  "precauciones": "Not formulated for children; consult a health care professional before giving it to children.",
+  "palabras_clave": [
+   "golden seal",
+   "goldenseal",
+   "parthenium",
+   "berberine",
+   "mucous membranes",
+   "immune defenses",
+   "drops"
+  ]
+ },
+ {
+  "id": "NSP-030",
+  "slug": "my-immune-defense",
+  "url": "https://www.naturessunshine.com/product/my-immune-defense",
+  "nombre": "MY-Immune Defense",
+  "nombre_es": "MY-Immune Defense (mushroom immune defense)",
+  "sku": "22470",
+  "precio_usd": 56.45,
+  "presentacion": "90 g powder, 30 servings (30-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Powder",
+  "ingredientes": [
+   "cordyceps mushroom (mycelium)",
+   "reishi mushroom (fruiting body and mycelium)",
+   "turkey tail mushroom (mycelium)",
+   "chaga mushroom (mycelium)",
+   "shiitake mushroom (fruiting body and mycelium)",
+   "agaricus mushroom (fruiting body)"
+  ],
+  "modo_de_uso": "Mix one scoop (3 g) into your favorite smoothie, juice or recipe. Use daily for best results.",
+  "descripcion": "A powder of six organic mushrooms that mixes into drinks or recipes to support the body's defenses. The mushrooms naturally provide beta-glucans and vitamin D.",
+  "beneficios": [
+   "Provides powerful support for the immune system",
+   "Supports physical endurance and fights fatigue",
+   "Natural source of beta-glucans and vitamin D",
+   "Antioxidant benefits"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "medicinal mushrooms",
+   "immune defenses",
+   "immune system",
+   "fatigue",
+   "tiredness",
+   "beta-glucans",
+   "powder"
+  ]
+ },
+ {
+  "id": "NSP-031",
+  "slug": "sinus-support-ef",
+  "url": "https://www.naturessunshine.com/product/sinus-support-ef",
+  "nombre": "Sinus Support®",
+  "nombre_es": "Sinus Support®",
+  "sku": "1250",
+  "precio_usd": 31.6,
+  "presentacion": "100 veggie capsules, 50 servings (16-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "burdock root",
+   "goldenseal root and rhizome extract",
+   "marshmallow root",
+   "yerba santa leaf",
+   "capsicum fruit",
+   "parsley leaf",
+   "horehound leaf and flower",
+   "bitter orange fruit extract"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal three times a day.",
+  "descripcion": "An herbal respiratory support supplement focused on clearing the sinuses and protecting their tissues. It includes synephrine from unripe orange peel.",
+  "beneficios": [
+   "Provides targeted respiratory support",
+   "Supports healthy nasal passages",
+   "Helpful during seasonal changes"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "sinusitis",
+   "sinuses",
+   "nasal congestion",
+   "stuffy nose",
+   "respiratory",
+   "seasonal allergies"
+  ]
+ },
+ {
+  "id": "NSP-032",
+  "slug": "colostrum",
+  "url": "https://www.naturessunshine.com/product/colostrum",
+  "nombre": "Colostrum Dietary Supplement",
+  "nombre_es": "Colostrum Dietary Supplement",
+  "sku": "1828",
+  "precio_usd": 39.35,
+  "presentacion": "90 capsules, 90 servings (22-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "milk colostrum"
+  ],
+  "modo_de_uso": "Take 1 capsule four times a day, one hour before meals and at bedtime, with 8 oz (240 ml) of water.",
+  "descripcion": "A colostrum supplement, which naturally contains immunoglobulins to strengthen the body's defenses. It also supports gastrointestinal and muscle health.",
+  "beneficios": [
+   "Supports immunity",
+   "Supports gastrointestinal health",
+   "Provides antioxidant benefits",
+   "Promotes muscle health"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "colostrum",
+   "immunoglobulins",
+   "immune defenses",
+   "immune system",
+   "gut health",
+   "muscles"
+  ]
+ },
+ {
+  "id": "NSP-033",
+  "slug": "trigger-immune-chinese",
+  "url": "https://www.naturessunshine.com/product/trigger-immune-chinese",
+  "nombre": "Trigger Immune® (Chinese)",
+  "nombre_es": "Trigger Immune® (Chinese)",
+  "sku": "1889",
+  "precio_usd": 41.45,
+  "presentacion": "100 veggie capsules, 50 servings (16-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Chinese Formula (TCM)",
+  "ingredientes": [
+   "astragalus root",
+   "ginseng root",
+   "epimedium leaf",
+   "eucommia bark",
+   "ganoderma mushroom",
+   "lycium fruit",
+   "rehmannia root tuber",
+   "achyranthes root",
+   "tang-kuei root",
+   "atractylodes rhizome",
+   "citrus peel",
+   "hoelen sclerotium",
+   "ligustrum fruit",
+   "ophiopogon root tuber",
+   "peeled peony root",
+   "polygala root",
+   "schizandra fruit",
+   "licorice root"
+  ],
+  "modo_de_uso": "Take 2 veggie capsules with a meal twice a day.",
+  "descripcion": "A Traditional Chinese Medicine formula that supports natural immunity by nourishing Qi to power the body's vital processes. Its Chinese name translates as \"generate the pulse.\"",
+  "beneficios": [
+   "Supports natural immunity",
+   "Nourishes the body's Qi",
+   "Strengthens a weakened energetic constitution"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "trigger immune",
+   "chinese medicine",
+   "qi",
+   "immune defenses",
+   "immune system",
+   "low energy",
+   "astragalus"
+  ]
+ },
+ {
+  "id": "NSP-034",
+  "slug": "vitamin-c-ascorbates",
+  "url": "https://www.naturessunshine.com/product/vitamin-c-ascorbates",
+  "nombre": "Vitamin C Ascorbates",
+  "nombre_es": "Vitamin C Ascorbates",
+  "sku": "1606",
+  "precio_usd": 58.55,
+  "presentacion": "9 oz (255 g) powder, 57 servings",
+  "categoria": "Immune System",
+  "tipo": "Powder",
+  "ingredientes": [
+   "vitamin C 1800 mg (per 4.5 g serving)",
+   "calcium ascorbate",
+   "potassium ascorbate",
+   "magnesium ascorbate",
+   "acerola fruit extract",
+   "rutin and hesperidin bioflavonoid extract"
+  ],
+  "modo_de_uso": "Add about 1 slightly heaping teaspoon (4.5 g) to a glass of liquid and stir vigorously. Take once a day.",
+  "descripcion": "Buffered vitamin C powder with mineral ascorbates, gentler on the stomach than regular ascorbic acid. It supports immunity and collagen production.",
+  "beneficios": [
+   "Supports immune health",
+   "Supports collagen production",
+   "Gentler on the stomach",
+   "Contributes to iron absorption"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "vitamin c",
+   "immune defenses",
+   "common cold",
+   "collagen",
+   "immunity",
+   "vitamin c powder",
+   "antioxidant"
+  ]
+ },
+ {
+  "id": "NSP-035",
+  "slug": "vs-c-liquid",
+  "url": "https://www.naturessunshine.com/product/vs-c-liquid",
+  "nombre": "VS-C® Liquid",
+  "nombre_es": "VS-C® Liquid",
+  "sku": "3167",
+  "precio_usd": 31.6,
+  "presentacion": "2 fl oz (59 ml), 29 servings (7-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Chinese Formula (TCM)",
+  "ingredientes": [
+   "dandelion (whole plant)",
+   "purslane (top parts)",
+   "indigo leaves and root",
+   "thlaspi (whole plant)",
+   "bupleurum root",
+   "scute root",
+   "typhonium rhizome",
+   "cinnamon twig",
+   "licorice root",
+   "ginseng root"
+  ],
+  "modo_de_uso": "Take 30 to 40 drops two to four times a day.",
+  "descripcion": "A liquid herbal formula based on Traditional Chinese Medicine to strengthen the body's \"Metal\" constitution. It supports the immune system and Lung function.",
+  "beneficios": [
+   "Supports immune system function",
+   "Promotes healthy lung function",
+   "Convenient liquid form"
+  ],
+  "precauciones": "Women who are pregnant or nursing should consult their health care professional before taking this supplement.",
+  "palabras_clave": [
+   "vs-c",
+   "chinese medicine",
+   "immune defenses",
+   "lungs",
+   "immune system",
+   "common cold",
+   "drops"
+  ]
+ },
+ {
+  "id": "NSP-036",
+  "slug": "zinc-25mg",
+  "url": "https://www.naturessunshine.com/product/zinc-25mg",
+  "nombre": "Zinc (25mg)",
+  "nombre_es": "Zinc (25mg)",
+  "sku": "1657",
+  "precio_usd": 21.75,
+  "presentacion": "150 tablets, 150 servings (150-day supply)",
+  "categoria": "Immune System",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "zinc 25 mg",
+   "calcium",
+   "phosphorus",
+   "kelp (leaves and stem)",
+   "thyme leaves",
+   "alfalfa aerial parts"
+  ],
+  "modo_de_uso": "Take 1 tablet daily with a meal.",
+  "descripcion": "A zinc supplement with a proprietary herbal blend. Zinc is involved in hundreds of body functions, such as metabolism, growth and energy production.",
+  "beneficios": [
+   "Supports immunity",
+   "Involved in metabolism and energy production",
+   "Supports growth and development",
+   "Includes a complementary herbal blend"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "zinc",
+   "immune defenses",
+   "immunity",
+   "metabolism",
+   "energy",
+   "minerals",
+   "common cold"
+  ]
+ },
+ {
+  "id": "NSP-037",
+  "slug": "5-htp-power",
+  "url": "https://www.naturessunshine.com/product/5-htp-power",
+  "nombre": "5-HTP Power",
+  "nombre_es": "5-HTP Power",
+  "sku": "2806",
+  "precio_usd": 37.3,
+  "presentacion": "60 veggie capsules, 60 servings (20 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "5-HTP 35 mg",
+   "vitamin B6",
+   "zinc",
+   "eleuthero root",
+   "ashwagandha root",
+   "suma bark"
+  ],
+  "modo_de_uso": "Take one capsule with a meal three times a day.",
+  "descripcion": "Combines 5-HTP, a serotonin precursor, with adaptogenic herbs to support nerve function. It is designed to help with mood, appetite and sleep, and with the body's adaptation to stress.",
+  "beneficios": [
+   "Supports a healthy mood",
+   "Supports a healthy appetite",
+   "Promotes restful sleep",
+   "Helps the body adapt to stress"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "5-htp",
+   "serotonin",
+   "mood",
+   "insomnia",
+   "food cravings",
+   "stress",
+   "adaptogens"
+  ]
+ },
+ {
+  "id": "NSP-038",
+  "slug": "ashwagandha",
+  "url": "https://www.naturessunshine.com/product/ashwagandha",
+  "nombre": "Ashwagandha - Dietary Supplement for Occasional Stress & Anxiety Support",
+  "nombre_es": "Ashwagandha - Dietary Supplement for Occasional Stress & Anxiety Support",
+  "sku": "22385",
+  "precio_usd": 40.95,
+  "presentacion": "60 veggie capsules, 30 servings (30 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "ashwagandha root extract (standardized to 5% withanolides)",
+   "bacopa leaf extract",
+   "black pepper fruit extract",
+   "schisandra fruit extract",
+   "rhodiola extract"
+  ],
+  "modo_de_uso": "Take 2 veggie capsules daily.",
+  "descripcion": "An adaptogenic herbal blend led by ashwagandha to support stress management and cognitive function. It also supports physical endurance and the immune and nervous systems.",
+  "beneficios": [
+   "Helps stabilize the stress response",
+   "Improves resilience to occasional anxiety",
+   "Supports memory and cognitive performance with age",
+   "Supports endurance and muscle strength (with training)"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "ashwagandha",
+   "stress",
+   "anxiety",
+   "adaptogen",
+   "memory",
+   "tiredness",
+   "energy"
+  ]
+ },
+ {
+  "id": "NSP-039",
+  "slug": "nerve-control",
+  "url": "https://www.naturessunshine.com/product/nerve-control",
+  "nombre": "Nerve Control",
+  "nombre_es": "Nerve Control",
+  "sku": "1242",
+  "precio_usd": 27.95,
+  "presentacion": "100 capsules, 50 servings (25 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "black cohosh root",
+   "valerian root",
+   "capsicum fruit",
+   "passionflower aerial parts",
+   "catnip leaf",
+   "hops flower",
+   "wood betony aerial parts"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice a day.",
+  "descripcion": "A relaxing herbal blend with herbs that support the central nervous system. It aims to help calm irritable nerves and muscle tension.",
+  "beneficios": [
+   "Helps relax irritable nerves",
+   "May help relax muscle tension",
+   "Supports the central nervous system"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "nerves",
+   "muscle tension",
+   "relaxation",
+   "stress",
+   "valerian",
+   "irritability"
+  ]
+ },
+ {
+  "id": "NSP-040",
+  "slug": "focus-attention",
+  "url": "https://www.naturessunshine.com/product/focus-attention",
+  "nombre": "Focus Attention Herbal Dietary Supplement",
+  "nombre_es": "Focus Attention Herbal Dietary Supplement",
+  "sku": "1833",
+  "precio_usd": 44.0,
+  "presentacion": "90 veggie capsules, 45 servings (15 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "slippery elm bark",
+   "L-glutamine",
+   "DMAE (dimethylaminoethanol)",
+   "lemon balm leaf extract",
+   "grape seed extract",
+   "ginkgo leaf extract"
+  ],
+  "modo_de_uso": "Take 2 capsules with a meal twice a day.",
+  "descripcion": "A formula with herbal nutrients that nourish the nervous system and the brain. It includes DMAE for memory and learning, ginkgo for circulation and lemon balm to calm the nervous system.",
+  "beneficios": [
+   "Nourishes the nervous system and the brain",
+   "Supports memory and learning",
+   "Supports blood circulation to the brain",
+   "Provides antioxidant protection"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "attention",
+   "concentration",
+   "memory",
+   "learning",
+   "focus",
+   "ginkgo",
+   "studying"
+  ]
+ },
+ {
+  "id": "NSP-041",
+  "slug": "natures-cortisol-formula",
+  "url": "https://www.naturessunshine.com/product/natures-cortisol-formula",
+  "nombre": "Nature's Cortisol Formula®",
+  "nombre_es": "Nature's Cortisol Formula®",
+  "sku": "3209",
+  "precio_usd": 44.99,
+  "presentacion": "90 capsules (30 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "vitamin C 60 mg",
+   "chromium 100 mcg",
+   "Relora® (proprietary blend of magnolia bark and phellodendron bark extracts)",
+   "holy basil leaf extract",
+   "green tea leaf extract",
+   "banaba leaf extract",
+   "L-theanine",
+   "DHEA",
+   "vanadium"
+  ],
+  "modo_de_uso": "Take 1 capsule with a meal three times a day. Combine with a sensible diet and exercise program. Allow two to three months for best results.",
+  "descripcion": "A formula to help the body manage stress and support cortisol and glucose levels already within normal ranges. The product page links cortisol to indicators of weight management.",
+  "beneficios": [
+   "Helps the body manage stress",
+   "Supports cortisol management",
+   "Supports normal blood glucose levels"
+  ],
+  "precauciones": "NOT suitable for anyone under 18 years of age.",
+  "palabras_clave": [
+   "cortisol",
+   "stress",
+   "belly fat",
+   "weight management",
+   "blood sugar",
+   "anxiety"
+  ]
+ },
+ {
+  "id": "NSP-042",
+  "slug": "gaba-plus",
+  "url": "https://www.naturessunshine.com/product/gaba-plus",
+  "nombre": "GABA Plus",
+  "nombre_es": "GABA Plus",
+  "sku": "1823",
+  "precio_usd": 27.95,
+  "presentacion": "60 veggie capsules, 30 servings (15 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Capsules",
+  "ingredientes": [
+   "GABA",
+   "L-glutamine",
+   "passionflower aerial parts",
+   "taurine",
+   "spirulina algae"
+  ],
+  "modo_de_uso": "Take 1–2 capsules with a meal twice a day.",
+  "descripcion": "Combines GABA, an inhibitory neurotransmitter, with selected nutrients and plants to support the brain and nervous system. It may help calm mental activity in people with an overstimulated nervous system or difficulty concentrating.",
+  "beneficios": [
+   "Supports the brain and nervous system",
+   "May help calm mental activity",
+   "Helpful for overstimulation or difficulty concentrating"
+  ],
+  "precauciones": "Consult a health care professional before use if you are pregnant, nursing, taking medication or have a medical condition.",
+  "palabras_clave": [
+   "gaba",
+   "calm mind",
+   "nerves",
+   "anxiety",
+   "concentration",
+   "stress",
+   "racing thoughts"
+  ]
+ },
+ {
+  "id": "NSP-043",
+  "slug": "magnesium",
+  "url": "https://www.naturessunshine.com/product/magnesium",
+  "nombre": "Magnesium",
+  "nombre_es": "Magnesium",
+  "sku": "1786",
+  "precio_usd": 23.8,
+  "presentacion": "180 tablets, 180 servings (180 days)",
+  "categoria": "Nervous System & Stress",
+  "tipo": "Tablets",
+  "ingredientes": [
+   "magnesium 250 mg (magnesium oxide and magnesium amino acid chelate)",
+   "licorice root",
+   "kelp leaf and stem",
+   "peppermint leaves",
+   "white willow bark"
+  ],
+  "modo_de_uso": "Take 1 tablet daily with a meal.",
+  "descripcion": "Magnesium tablets with supporting herbs; magnesium is a mineral involved in more than 300 enzymatic reactions in the body. It supports muscle relaxation, the nervous system and energy production.",
+  "beneficios": [
+   "Supports muscle relaxation",
+   "Supports nervous system function",
+   "Supports energy production",
+   "Supports bone, heart and kidney health"
+  ],
+  "precauciones": "The official page does not list specific warnings; check the label.",
+  "palabras_clave": [
+   "magnesium",
+   "muscle cramps",
+   "stress",
+   "muscle relaxation",
+   "nerves",
+   "energy",
+   "bones"
+  ]
+ }
+]

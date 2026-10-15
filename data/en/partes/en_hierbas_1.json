@@ -1,0 +1,2372 @@
+[
+ {
+  "pinyin": "ba ji tian",
+  "chino": "巴戟天",
+  "latin": "Morinda officinalis How (Radix Morindae Officinalis)",
+  "nombre_es": "morinda root",
+  "nombre_en": "morinda root",
+  "parte": "root",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "sweet"
+  ],
+  "meridianos": [
+   "Kidney",
+   "Liver"
+  ],
+  "categoria_mtc": "tonifies Yang",
+  "acciones": [
+   "tonifies Kidney Yang",
+   "strengthens the sinews and bones",
+   "dispels Wind-Dampness",
+   "nourishes Essence and Blood"
+  ],
+  "indicaciones_tradicionales": [
+   "impotence and premature ejaculation due to Kidney Yang deficiency",
+   "infertility due to Cold in the uterus or Yang deficiency",
+   "low back pain and weak knees",
+   "joint pain from Wind-Dampness with Kidney deficiency",
+   "irregular menstruation with Cold and lower abdominal pain",
+   "incontinence or frequent urination due to Kidney deficiency"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb for severe Wind and for strengthening the Kidney in cases of impotence. It is traditionally used in formulas that tonify Kidney Yang.",
+  "precauciones": "Contraindicated in Yin deficiency with rising Fire, excess ministerial Fire, Heat patterns, and Phlegm-Heat. Theoretical caution with hormonal, antihypertensive, and serotonergic medications (no documented clinical interactions).",
+  "nota": "Not to be confused with noni (Morinda citrifolia).",
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/ba-ji-tian"
+  ],
+  "etiquetas": [
+   "morinda root"
+  ],
+  "id": "HRB-001",
+  "formulas": [
+   "TCM-010"
+  ]
+ },
+ {
+  "pinyin": "bai bian dou",
+  "chino": "白扁豆",
+  "latin": "Lablab purpureus (L.) Sweet (syn. Dolichos lablab L.) (Semen Lablab Album)",
+  "nombre_es": "white hyacinth bean (lablab bean)",
+  "nombre_en": "white hyacinth bean",
+  "parte": "seed",
+  "naturaleza": "warm",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "strengthens the Spleen and transforms Dampness",
+   "harmonizes the Middle Jiao",
+   "clears Summer-Heat",
+   "stops diarrhea",
+   "astringes vaginal discharge"
+  ],
+  "indicaciones_tradicionales": [
+   "chronic diarrhea due to Spleen deficiency",
+   "poor appetite and weak digestion",
+   "excessive vaginal discharge due to Spleen deficiency with Dampness",
+   "nausea, vomiting, and diarrhea due to Summer-Heat-Dampness",
+   "abdominal bloating due to Dampness"
+  ],
+  "uso_historico": "First appears in the Ming Yi Bie Lu as a middle-grade substance. Li Shizhen called it \"the grain of the Spleen\" for its affinity with digestion; it is also eaten as food in porridges and soups.",
+  "precauciones": "Do not eat raw or undercooked (contains toxic lectins). Avoid during active invasion by external pathogens; excess use may cause Qi stagnation. Use caution in constipation due to Yin deficiency.",
+  "nota": "Taken here as \"warm\" in nature (slightly warm according to the source).",
+  "fuentes": [
+   "https://www.meandqi.com/herb-database/hyacinth-beans"
+  ],
+  "etiquetas": [
+   "hyacinth bean"
+  ],
+  "id": "HRB-002",
+  "formulas": [
+   "TCM-013"
+  ]
+ },
+ {
+  "pinyin": "bai fu zi (yu bai fu)",
+  "chino": "白附子",
+  "latin": "Rhizoma Typhonii (Typhonium giganteum)",
+  "nombre_es": "typhonium rhizome (giant typhonium)",
+  "nombre_en": "typhonium rhizome (giant typhonium)",
+  "parte": "rhizome (processed)",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "sweet"
+  ],
+  "meridianos": [
+   "Stomach",
+   "Liver"
+  ],
+  "categoria_mtc": "warms and transforms Cold-Phlegm",
+  "acciones": [
+   "expels Wind-Phlegm from the channels and the head",
+   "stops convulsions and calms internal Wind",
+   "resolves toxins and reduces swelling (external use)"
+  ],
+  "indicaciones_tradicionales": [
+   "facial paralysis with deviation of the mouth and eye",
+   "aftereffects of Wind-stroke with hemiplegia",
+   "one-sided headache (migraine) due to Wind-Phlegm",
+   "tetanus",
+   "childhood convulsions and epilepsy due to Wind-Phlegm",
+   "scrofula (external use)",
+   "snakebites and stubborn ulcers (external use)"
+  ],
+  "uso_historico": "The name bai fu zi appears in the Ming Yi Bie Lu, although in ancient texts it probably referred to Aconitum coreanum (guan bai fu); the use of Typhonium giganteum became widespread later. It is the chief herb of the formula Qian Zheng San for facial paralysis.",
+  "precauciones": "Toxic when raw: used only in processed form (zhi bai fu zi) and at controlled doses (3-6 g). Contraindicated in pregnancy and in Wind due to Yin or Blood deficiency. Use only under professional supervision.",
+  "nota": "Bai fu zi can also refer to guan bai fu (Aconitum coreanum), which is more toxic; the label specifies Typhonium, so this is yu bai fu.",
+  "fuentes": [
+   "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/bai-fu-zi.php"
+  ],
+  "etiquetas": [
+   "typhonium rhizome"
+  ],
+  "id": "HRB-003",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-004",
+   "TCM-005",
+   "TCM-006",
+   "TCM-011",
+   "TCM-013",
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "bai shao",
+  "chino": "白芍",
+  "latin": "Paeonia lactiflora Pall. (Radix Paeoniae Alba)",
+  "nombre_es": "white peony root",
+  "nombre_en": "white peony root",
+  "parte": "peeled root",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter",
+   "sour"
+  ],
+  "meridianos": [
+   "Liver",
+   "Spleen"
+  ],
+  "categoria_mtc": "tonifies Blood",
+  "acciones": [
+   "nourishes Blood and regulates menstruation",
+   "softens the Liver and relieves pain",
+   "preserves Yin and stops sweating",
+   "calms Liver Yang"
+  ],
+  "indicaciones_tradicionales": [
+   "irregular menstruation, painful periods, and uterine bleeding due to Blood deficiency",
+   "pallor and fatigue due to Blood deficiency",
+   "muscle cramps and spasms",
+   "spasmodic abdominal pain",
+   "pain in the flanks due to Liver Qi stagnation",
+   "headache and dizziness due to rising Liver Yang",
+   "spontaneous sweating and night sweats"
+  ],
+  "uso_historico": "The Shen Nong Ben Cao Jing describes shao yao for abdominal pain caused by pathogenic factors and for Blood obstruction; the formal distinction between bai shao (white, peeled) and chi shao (red) was established around the Song dynasty. Zhang Zhongjing's Shao Yao Gan Cao Tang is the classic antispasmodic formula.",
+  "precauciones": "Avoid in internal Cold patterns with Yang deficiency; it may retain external pathogens. Incompatible with Li Lu (Veratrum) according to traditional rules.",
+  "nota": "\"Peony root without bark\" corresponds to bai shao (peeled root); with the bark it would be chi shao. Some sources classify it as slightly cold.",
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/bai-shao"
+  ],
+  "etiquetas": [
+   "peony root without bark (Chinese peony root without bark)"
+  ],
+  "id": "HRB-004",
+  "formulas": [
+   "TCM-003",
+   "TCM-004",
+   "TCM-005",
+   "TCM-008",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "bai zhu",
+  "chino": "白术",
+  "latin": "Atractylodes macrocephala Koidz. (Atractylodis Macrocephalae Rhizoma)",
+  "nombre_es": "white atractylodes rhizome",
+  "nombre_en": "white atractylodes rhizome / bai-zhu atractylodes",
+  "parte": "rhizome",
+  "naturaleza": "warm",
+  "sabor": [
+   "bitter",
+   "sweet"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "tonifies the Spleen and augments Qi",
+   "dries Dampness and promotes water metabolism",
+   "stabilizes the exterior and stops sweating",
+   "calms the fetus"
+  ],
+  "indicaciones_tradicionales": [
+   "fatigue and poor appetite due to Spleen Qi deficiency",
+   "loose stools or diarrhea due to Spleen deficiency",
+   "abdominal bloating due to Spleen deficiency with Dampness",
+   "edema and fluid retention",
+   "spontaneous sweating due to Qi deficiency",
+   "restless fetus (threatened miscarriage) due to Spleen deficiency"
+  ],
+  "uso_historico": "'Zhu' is listed in the Shen Nong Ben Cao Jing; the distinction between bai zhu and cang zhu was made later. It is a core ingredient of classic formulas such as Si Jun Zi Tang and Shen Ling Bai Zhu San.",
+  "precauciones": "Avoid in Yin deficiency with Heat, intense thirst from injured fluids, and Qi stagnation with bloating. May potentiate omeprazole; use caution with anticoagulants and diuretics.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/BaiZhu.html"
+  ],
+  "etiquetas": [
+   "atractylodes rhizome (bai-zhu atractylodes)"
+  ],
+  "id": "HRB-005",
+  "formulas": [
+   "TCM-001",
+   "TCM-004",
+   "TCM-005",
+   "TCM-008",
+   "TCM-010",
+   "TCM-011",
+   "TCM-013",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "bai zi ren",
+  "chino": "柏子仁",
+  "latin": "Platycladus orientalis (L.) Franco = Biota orientalis (Platycladi Semen)",
+  "nombre_es": "biota seed (oriental arborvitae seed)",
+  "nombre_en": "biota seed / arborvitae seed",
+  "parte": "seed",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Kidney",
+   "Large Intestine"
+  ],
+  "categoria_mtc": "nourishes the Heart and calms the spirit",
+  "acciones": [
+   "nourishes the Heart and calms the Shen",
+   "moistens the intestines and eases bowel movements",
+   "stops sweating due to Yin deficiency"
+  ],
+  "indicaciones_tradicionales": [
+   "palpitations and anxiety due to Heart Blood and Yin deficiency",
+   "insomnia and restless dreams",
+   "poor memory",
+   "being easily startled at night",
+   "constipation from intestinal dryness in the elderly or after childbirth",
+   "night sweats due to Yin deficiency"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-class tonic. It is an ingredient of the classic formula Tian Wang Bu Xin Dan for insomnia and palpitations due to Yin deficiency.",
+  "precauciones": "Avoid with loose stools or diarrhea, copious Phlegm, and Stomach deficiency with a tendency toward nausea. May cause nausea; defatted seeds are better tolerated.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/BaiZiRen.html"
+  ],
+  "etiquetas": [
+   "biota seed"
+  ],
+  "id": "HRB-006",
+  "formulas": [
+   "TCM-012"
+  ]
+ },
+ {
+  "pinyin": "bei sha shen",
+  "chino": "北沙参",
+  "latin": "Glehnia littoralis Fr. Schmidt ex Miq. (Radix Glehniae)",
+  "nombre_es": "glehnia root (beach silvertop)",
+  "nombre_en": "glehnia root (coastal glehnia, beach silvertop)",
+  "parte": "root",
+  "naturaleza": "cool",
+  "sabor": [
+   "sweet",
+   "bitter"
+  ],
+  "meridianos": [
+   "Lung",
+   "Stomach"
+  ],
+  "categoria_mtc": "tonifies Yin",
+  "acciones": [
+   "nourishes Lung Yin and clears Lung Heat",
+   "nourishes Stomach Yin and generates fluids",
+   "moistens dryness and calms cough"
+  ],
+  "indicaciones_tradicionales": [
+   "dry, unproductive cough or cough with scanty phlegm due to Heat injuring Lung Yin",
+   "dry throat and hoarse voice",
+   "dry mouth and persistent thirst",
+   "Stomach Yin deficiency or depleted fluids after febrile illnesses",
+   "poor appetite with a red, dry tongue",
+   "irritability from Heat with injured fluids"
+  ],
+  "uso_historico": "The term sha shen appears in the Shen Nong Ben Cao Jing, but there it probably refers to the southern species (nan sha shen, Adenophora); bei sha shen (Glehnia) was distinguished as a separate herb in later materia medica (Ming-Qing dynasties). It is traditionally used for chronic dry cough and thirst due to Lung and Stomach Yin deficiency.",
+  "precauciones": "Contraindicated in cough due to Wind-Cold, in Cold from Lung and Stomach deficiency, and in accumulation of Phlegm-Dampness. Incompatible with Li Lu (Veratrum) according to traditional rules. There is no solid clinical evidence of efficacy in humans (MSKCC).",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/herb-database/glehnia-root",
+   "https://asante-academy.com/encyclopedia/sha-shen/",
+   "https://www.mskcc.org/cancer-care/herb/glehnia"
+  ],
+  "etiquetas": [
+   "glehnia root"
+  ],
+  "id": "HRB-007",
+  "formulas": [
+   "TCM-009"
+  ]
+ },
+ {
+  "pinyin": "chai hu",
+  "chino": "柴胡",
+  "latin": "Bupleurum chinense DC. / B. scorzonerifolium Willd. (Bupleuri Radix)",
+  "nombre_es": "bupleurum root (hare's ear root)",
+  "nombre_en": "bupleurum root / hare's ear root",
+  "parte": "root",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter",
+   "pungent"
+  ],
+  "meridianos": [
+   "Liver",
+   "Gallbladder",
+   "Pericardium",
+   "San Jiao"
+  ],
+  "categoria_mtc": "releases the exterior: pungent and cool (disperses Wind-Heat)",
+  "acciones": [
+   "harmonizes the Shao Yang level and reduces fever",
+   "spreads Liver Qi and relieves stagnation",
+   "raises the clear Yang (Qi)"
+  ],
+  "indicaciones_tradicionales": [
+   "alternating chills and fever (Shao Yang syndrome)",
+   "bitter taste in the mouth and dizziness",
+   "pain and distension in the flanks due to Liver Qi stagnation",
+   "irregular menstruation and painful periods due to Liver Qi stagnation",
+   "chest tightness and irritability",
+   "uterine or rectal prolapse due to sinking Qi",
+   "chronic diarrhea due to sinking Spleen Qi",
+   "fever due to Wind-Heat"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing as a superior-class herb. It is the chief herb of classic formulas such as Xiao Chai Hu Tang (Shang Han Lun) and Xiao Yao San.",
+  "precauciones": "Contraindicated in cough due to Yin deficiency, severe Yin or fluid deficiency, and Liver Fire with rising Yang. May cause nausea at high doses; avoid prolonged use as a single herb.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/ChaiHu.html"
+  ],
+  "etiquetas": [
+   "bupleurum root"
+  ],
+  "id": "HRB-008",
+  "formulas": [
+   "TCM-002",
+   "TCM-003",
+   "TCM-005",
+   "TCM-006",
+   "TCM-008",
+   "TCM-011",
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "che qian zi",
+  "chino": "车前子",
+  "latin": "Semen Plantaginis (Plantago asiatica / Plantago depressa)",
+  "nombre_es": "plantain seed (plantago seed)",
+  "nombre_en": "plantago seed (plantain seed)",
+  "parte": "seed",
+  "naturaleza": "cold",
+  "sabor": [
+   "sweet",
+   "bland"
+  ],
+  "meridianos": [
+   "Bladder",
+   "Kidney",
+   "Liver",
+   "Lung"
+  ],
+  "categoria_mtc": "drains Dampness (diuretic)",
+  "acciones": [
+   "promotes urination and clears Damp-Heat",
+   "firms the stools in diarrhea",
+   "clears Liver Heat and brightens the eyes",
+   "expels Phlegm and stops cough"
+  ],
+  "indicaciones_tradicionales": [
+   "edema and scanty urination",
+   "painful, difficult urination due to Damp-Heat in the Lower Jiao",
+   "watery diarrhea due to Dampness or Summer-Heat with Dampness",
+   "red, swollen, painful eyes due to Liver Heat",
+   "blurred vision",
+   "cough with yellow phlegm due to Lung Heat"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb. It has classically been used for lin syndrome (painful urination) and for diarrhea, following the principle of 'promoting urination to firm the stools.'",
+  "precauciones": "Avoid if there is no Dampness or Damp-Heat. Use caution in pregnancy, in spermatorrhea or excessive urination due to Kidney deficiency, and in states of exhaustion. May potentiate diuretics and interact with lithium.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/CheQianZi.html"
+  ],
+  "etiquetas": [
+   "plantago seed"
+  ],
+  "id": "HRB-009",
+  "formulas": [
+   "TCM-004"
+  ]
+ },
+ {
+  "pinyin": "chen pi",
+  "chino": "陈皮",
+  "latin": "Citrus reticulata Blanco (Citri Reticulatae Pericarpium)",
+  "nombre_es": "aged tangerine peel (citrus peel)",
+  "nombre_en": "citrus peel / aged tangerine peel",
+  "parte": "ripe pericarp (aged)",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "bitter"
+  ],
+  "meridianos": [
+   "Lung",
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "regulates Qi",
+  "acciones": [
+   "regulates Qi and harmonizes the Middle Jiao",
+   "dries Dampness and transforms Phlegm",
+   "directs rebellious Qi downward"
+  ],
+  "indicaciones_tradicionales": [
+   "epigastric and abdominal distension and fullness",
+   "belching, nausea, and vomiting",
+   "poor appetite and sluggish digestion",
+   "loose stools due to Dampness in the Spleen",
+   "cough with copious phlegm and chest tightness",
+   "prevention of the stagnation caused by tonics"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing (as ju pi). Its quality is considered to improve with aging, and it is a component of classic formulas such as Er Chen Tang and Bu Zhong Yi Qi Tang.",
+  "precauciones": "Contraindicated in dry cough due to Yin or Qi deficiency and in nausea due to Stomach Fire. Use caution with excess Heat or fluid deficiency; prolonged use may injure the original Qi (yuan qi).",
+  "nota": "'Citrus peel' was interpreted as chen pi (Citri Reticulatae Pericarpium), as in Sun Ten-style formulas; it is the same herb as 'tangerine mature fruit rind.'",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/ChenPi.html",
+   "https://www.lhasaoms.com/sun-ten-ginseng-cardamon-combination-345-granules"
+  ],
+  "etiquetas": [
+   "citrus peel",
+   "tangerine mature fruit rind"
+  ],
+  "id": "HRB-010",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-004",
+   "TCM-011",
+   "TCM-013",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "chuan bei mu",
+  "chino": "川贝母",
+  "latin": "Bulbus Fritillariae Cirrhosae (Fritillaria cirrhosa D. Don)",
+  "nombre_es": "fritillaria bulb (Sichuan fritillary bulb)",
+  "nombre_en": "fritillaria bulb, Sichuan fritillary bulb",
+  "parte": "bulb",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter",
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Lung"
+  ],
+  "categoria_mtc": "cools and transforms Phlegm-Heat",
+  "acciones": [
+   "clears Heat and transforms Phlegm",
+   "moistens the Lung and stops cough",
+   "dissipates nodules and reduces abscesses"
+  ],
+  "indicaciones_tradicionales": [
+   "chronic dry cough due to Lung Yin deficiency",
+   "cough with scanty sputum that is hard to expectorate",
+   "blood-streaked sputum",
+   "cough due to Phlegm-Heat",
+   "chest tightness due to Qi stagnation with Phlegm",
+   "Phlegm-Fire nodules and scrofula",
+   "breast and lung abscesses"
+  ],
+  "uso_historico": "Bei Mu appears in the Shen Nong Ben Cao Jing; the distinction between Chuan Bei Mu and Zhe Bei Mu was established in Ming-Qing dynasty texts (e.g., Ben Cao Gang Mu Shi Yi). It has traditionally been used for chronic dry cough, often powdered and taken with pear.",
+  "precauciones": "Not indicated for Phlegm-Cold, Phlegm-Dampness, or Phlegm-Wind. Use with caution in pregnancy and in digestive weakness (Deficiency-Cold of the Spleen and Stomach). Incompatible with Wu Tou and Fu Zi (aconite).",
+  "nota": "The label says only 'fritillaria bulb'; Chuan Bei Mu (Fritillaria cirrhosa) is assumed, as it is the form most commonly used for chronic cough. It could also be Zhe Bei Mu (Fritillaria thunbergii), which is cold in nature and better suited to acute Phlegm-Heat and nodules.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/ChuanBeiMu.html"
+  ],
+  "etiquetas": [
+   "fritillaria bulb"
+  ],
+  "id": "HRB-011",
+  "formulas": [
+   "TCM-002"
+  ]
+ },
+ {
+  "pinyin": "chuan xiong",
+  "chino": "川芎",
+  "latin": "Rhizoma Chuanxiong (Ligusticum chuanxiong Hort.; sin. Ligusticum wallichii)",
+  "nombre_es": "Szechuan lovage rhizome (chuan xiong)",
+  "nombre_en": "Szechuan lovage rhizome",
+  "parte": "rhizome",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Liver",
+   "Gallbladder",
+   "Pericardium"
+  ],
+  "categoria_mtc": "invigorates Blood and removes stasis",
+  "acciones": [
+   "invigorates Blood and promotes the movement of Qi",
+   "expels Wind and relieves pain"
+  ],
+  "indicaciones_tradicionales": [
+   "painful periods due to Blood stasis",
+   "absent and irregular menstruation",
+   "postpartum abdominal pain due to stasis",
+   "chest and flank pain due to Qi and Blood stagnation",
+   "headache due to Wind-Cold, Wind-Heat, or Blood stasis",
+   "Bi syndrome (joint pain due to Wind-Dampness)",
+   "pain from traumatic injury",
+   "skin disorders due to Wind"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing. Traditionally considered a key herb for headaches and a gynecological mainstay as a component of the formula Si Wu Tang for regulating Blood and menstruation.",
+  "precauciones": "Avoid in Yin deficiency with Heat signs and in headaches due to rising Liver Yang or Qi deficiency. Use with caution in pregnancy, heavy menstruation, and bleeding disorders. Possible interaction with anticoagulants and antiplatelet drugs.",
+  "nota": "On Nature's Sunshine labels, 'cnidium rhizome' and 'Ligusticum wallichii rhizome' refer to the same herb, chuan xiong (Ligusticum chuanxiong), not She Chuang Zi (Cnidium monnieri).",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/ChuanXiong.html"
+  ],
+  "etiquetas": [
+   "cnidium rhizome"
+  ],
+  "id": "HRB-012",
+  "formulas": [
+   "TCM-003",
+   "TCM-006",
+   "TCM-008"
+  ]
+ },
+ {
+  "pinyin": "da qing ye / ban lan gen",
+  "chino": "大青叶 / 板蓝根",
+  "latin": "Isatis indigotica Fort. (syn. Isatis tinctoria L.) (Folium Isatidis / Radix Isatidis)",
+  "nombre_es": "isatis leaf and root (woad)",
+  "nombre_en": "isatis leaf and root (woad, indigo leaf/root)",
+  "parte": "leaf and root",
+  "naturaleza": "cold",
+  "sabor": [
+   "bitter",
+   "salty"
+  ],
+  "meridianos": [
+   "Heart",
+   "Stomach",
+   "Liver"
+  ],
+  "categoria_mtc": "clears Heat and resolves toxicity",
+  "acciones": [
+   "clears Heat and resolves toxicity",
+   "cools the Blood",
+   "benefits the throat"
+  ],
+  "indicaciones_tradicionales": [
+   "high fever in acute febrile illnesses due to toxic Heat",
+   "sore, inflamed throat, pharyngitis, and tonsillitis",
+   "mumps",
+   "flu and respiratory infections due to Wind-Heat",
+   "skin rashes and macules due to Heat in the Blood",
+   "mouth ulcers",
+   "jaundice and hepatitis due to toxic Heat",
+   "dysentery due to Heat"
+  ],
+  "uso_historico": "Da qing ye first appears in the Ming Yi Bie Lu; the name ban lan gen for the root is recorded in Li Shizhen's Ben Cao Gang Mu, although the plant appeared in earlier texts. Both are traditionally used in febrile epidemics; the root gained modern notoriety as a preventive during the 1988 hepatitis A epidemic in Shanghai.",
+  "precauciones": "Very cold: avoid in Cold due to Spleen and Stomach deficiency, in cold constitutions without a true Heat pattern, and in Wind-Cold colds. Avoid if allergic to Isatis products; use caution in aspirin sensitivity according to the source.",
+  "nota": "The label \"indigo leaves and root\" is interpreted as the combination of the leaf (da qing ye) and the root (ban lan gen) of Isatis indigotica, which share the same nature and actions; the leaf is salty and bitter and also enters the Liver, while the root is only bitter (Heart, Stomach). Not to be confused with qing dai (indigo powder).",
+  "fuentes": [
+   "https://www.meandqi.com/herb-database/isatis-leaves",
+   "https://www.meandqi.com/knowledge-base/herbs/ban-lan-gen"
+  ],
+  "etiquetas": [
+   "indigo leaves and root"
+  ],
+  "id": "HRB-013",
+  "formulas": [
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "dan shen",
+  "chino": "丹参",
+  "latin": "Radix et Rhizoma Salviae Miltiorrhizae (Salvia miltiorrhiza)",
+  "nombre_es": "Chinese salvia root (red sage root, dan shen)",
+  "nombre_en": "Chinese salvia root (red sage root)",
+  "parte": "root and rhizome",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter"
+  ],
+  "meridianos": [
+   "Heart",
+   "Pericardium",
+   "Liver"
+  ],
+  "categoria_mtc": "invigorates Blood and removes stasis",
+  "acciones": [
+   "invigorates Blood and removes stasis",
+   "cools the Blood and reduces abscesses",
+   "clears Heart Heat and calms the spirit",
+   "nourishes Blood"
+  ],
+  "indicaciones_tradicionales": [
+   "irregular, painful, or absent menstruation due to Blood stasis",
+   "chest pain and tightness due to Blood stasis (chest bi)",
+   "flank pain and abdominal masses",
+   "pain from traumatic injury",
+   "abscesses and mastitis",
+   "irritability, palpitations, and insomnia due to Heat",
+   "rashes due to Heat at the nutritive level"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb. A classic saying holds that 'dan shen alone is equal to the formula Si Wu Tang,' because it can both move and nourish the Blood.",
+  "precauciones": "Contraindicated in pregnancy and in the absence of Blood stasis; use caution in bleeding disorders or heavy menstruation. May potentiate anticoagulants (warfarin) and antiplatelet drugs (aspirin, clopidogrel) and interfere with digoxin measurements. Traditionally incompatible with li lu (Veratrum).",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/DanShen.html",
+   "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5394393/"
+  ],
+  "etiquetas": [
+   "salvia root & rhizome (Chinese salvia)"
+  ],
+  "id": "HRB-014",
+  "formulas": [
+   "TCM-008"
+  ]
+ },
+ {
+  "pinyin": "dang gui",
+  "chino": "当归",
+  "latin": "Radix Angelicae Sinensis (Angelica sinensis)",
+  "nombre_es": "Chinese angelica root (dong quai)",
+  "nombre_en": "Chinese angelica root (dong quai, tang-kuei)",
+  "parte": "root",
+  "naturaleza": "warm",
+  "sabor": [
+   "sweet",
+   "pungent",
+   "bitter"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver",
+   "Spleen"
+  ],
+  "categoria_mtc": "tonifies Blood",
+  "acciones": [
+   "tonifies and harmonizes Blood",
+   "regulates menstruation",
+   "invigorates Blood and disperses Cold to relieve pain",
+   "moistens the intestines and eases bowel movements",
+   "reduces swelling, expels pus, and regenerates tissue"
+  ],
+  "indicaciones_tradicionales": [
+   "pallor, dizziness, blurred vision, and palpitations due to Blood deficiency",
+   "irregular, absent, or painful menstruation",
+   "postpartum abdominal pain due to Cold and stasis",
+   "pain from traumatic injury and from Blood stasis",
+   "joint pain due to Wind-Dampness (bi)",
+   "constipation from intestinal dryness in the elderly or after childbirth",
+   "abscesses and sores (to reduce swelling and regenerate tissue)"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a middle-grade herb. It is the most important gynecological herb in the Chinese tradition and is part of Si Wu Tang, Dang Gui Bu Xue Tang, and many other formulas.",
+  "precauciones": "Avoid with diarrhea or abdominal bloating due to Dampness, Yin deficiency with Heat, and in the early stages of a cold. May potentiate anticoagulants and antiplatelet drugs (warfarin, heparin, aspirin, clopidogrel). Use caution in pregnancy and in hormone-sensitive cancers.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/DangGui.html"
+  ],
+  "etiquetas": [
+   "tang-kuei root (dang gui / dong quai)"
+  ],
+  "id": "HRB-015",
+  "formulas": [
+   "TCM-003",
+   "TCM-005",
+   "TCM-006",
+   "TCM-008",
+   "TCM-010",
+   "TCM-011",
+   "TCM-012",
+   "TCM-013",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "di gu pi",
+  "chino": "地骨皮",
+  "latin": "Lycium chinense Mill. o Lycium barbarum L. (Cortex Lycii)",
+  "nombre_es": "lycium root bark (goji root bark)",
+  "nombre_en": "lycium root bark, wolfberry root bark",
+  "parte": "root bark",
+  "naturaleza": "cold",
+  "sabor": [
+   "sweet",
+   "bland"
+  ],
+  "meridianos": [
+   "Lung",
+   "Liver",
+   "Kidney"
+  ],
+  "categoria_mtc": "clears deficiency Heat",
+  "acciones": [
+   "nourishes Yin and clears deficiency Heat",
+   "clears Lung Heat and drains Lung Fire",
+   "cools the Blood and stops bleeding",
+   "generates fluids and relieves thirst"
+  ],
+  "indicaciones_tradicionales": [
+   "afternoon fever or low-grade fever in waves due to Yin deficiency (\"steaming bones\")",
+   "night sweats",
+   "cough with wheezing due to Lung Heat",
+   "wasting-thirst (xiao ke)",
+   "bleeding due to Heat in the Blood (nosebleeds, coughing up blood, blood in the urine)",
+   "high blood pressure with Yin deficiency (modern use)"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing (under the entry for gou qi) for Heat in the center and wasting-thirst. It is an ingredient of Xie Bai San, together with Sang Bai Pi, for cough due to Lung Heat.",
+  "precauciones": "Avoid in Cold due to Spleen and Stomach deficiency with loose stools and in exterior Wind-Cold patterns or fever from external attack. Use with caution in pregnancy (uterotonic activity has been reported).",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/di-gu-pi"
+  ],
+  "etiquetas": [
+   "lycium root bark"
+  ],
+  "id": "HRB-016",
+  "formulas": [
+   "TCM-011"
+  ]
+ },
+ {
+  "pinyin": "du zhong",
+  "chino": "杜仲",
+  "latin": "Cortex Eucommiae (Eucommia ulmoides Oliv.)",
+  "nombre_es": "eucommia bark",
+  "nombre_en": "eucommia bark",
+  "parte": "bark",
+  "naturaleza": "warm",
+  "sabor": [
+   "sweet",
+   "pungent"
+  ],
+  "meridianos": [
+   "Liver",
+   "Kidney"
+  ],
+  "categoria_mtc": "tonifies Yang",
+  "acciones": [
+   "tonifies the Liver and Kidney",
+   "strengthens the sinews and bones",
+   "calms the fetus",
+   "lowers high blood pressure due to rising Liver Yang"
+  ],
+  "indicaciones_tradicionales": [
+   "low back and knee pain and weakness due to Kidney deficiency",
+   "weakness of the limbs",
+   "impotence",
+   "frequent urination",
+   "threatened miscarriage and bleeding during pregnancy",
+   "dizziness and vertigo due to rising Liver Yang",
+   "high blood pressure"
+  ],
+  "uso_historico": "Classified as a superior herb in the Shen Nong Ben Cao Jing. It is traditionally used as a chief herb for low back pain due to Kidney deficiency and to stabilize pregnancy.",
+  "precauciones": "Contraindicated in Yin deficiency with Heat. Antagonizes Xuan Shen. Use caution with antihypertensives due to an additive blood-pressure-lowering effect.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/DuZhong.html"
+  ],
+  "etiquetas": [
+   "eucommia bark"
+  ],
+  "id": "HRB-017",
+  "formulas": [
+   "TCM-009",
+   "TCM-010",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "fang feng",
+  "chino": "防风",
+  "latin": "Radix Saposhnikoviae (Saposhnikovia divaricata; sin. Ledebouriella seseloides, Siler divaricatum)",
+  "nombre_es": "siler root (saposhnikovia root)",
+  "nombre_en": "siler root (saposhnikovia root)",
+  "parte": "root",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "sweet"
+  ],
+  "meridianos": [
+   "Bladder",
+   "Liver",
+   "Spleen",
+   "Lung"
+  ],
+  "categoria_mtc": "releases the exterior (pungent and warm)",
+  "acciones": [
+   "releases the exterior and expels Wind",
+   "expels Wind-Dampness and relieves pain",
+   "expels internal Wind and stops spasms",
+   "stops diarrhea and bleeding (dry-fried or charred)"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Cold colds with headache, chills, and body aches",
+   "joint pain due to Wind-Dampness (Wind-predominant bi)",
+   "hives and itchy skin due to Wind",
+   "tremors, spasms, and tetanus due to Wind",
+   "painful diarrhea due to Liver-Spleen disharmony",
+   "intestinal bleeding (bloody stools) due to 'intestinal Wind'",
+   "migraine"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb. Its name means 'guards against Wind,' and it is considered the quintessential remedy against Wind; it is part of Yu Ping Feng San and Tong Xie Yao Fang.",
+  "precauciones": "Contraindicated in spasms due to Blood deficiency, Yin deficiency with Heat, headache due to rising Liver Yang, and sweating due to Qi deficiency.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/FangFeng.html"
+  ],
+  "etiquetas": [
+   "siler root"
+  ],
+  "id": "HRB-018",
+  "formulas": [
+   "TCM-003",
+   "TCM-004"
+  ]
+ },
+ {
+  "pinyin": "fu ling",
+  "chino": "茯苓",
+  "latin": "Wolfiporia extensa (syn. Poria cocos (Schw.) Wolf) (Poria)",
+  "nombre_es": "poria (hoelen, fu ling mushroom)",
+  "nombre_en": "poria, hoelen",
+  "parte": "fungal sclerotium",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet",
+   "bland"
+  ],
+  "meridianos": [
+   "Heart",
+   "Lung",
+   "Spleen",
+   "Kidney"
+  ],
+  "categoria_mtc": "promotes urination and drains Dampness",
+  "acciones": [
+   "promotes urination and drains Dampness",
+   "strengthens the Spleen",
+   "transforms Phlegm",
+   "calms the Heart and quiets the spirit"
+  ],
+  "indicaciones_tradicionales": [
+   "edema and fluid retention",
+   "scanty urine",
+   "loose stools or diarrhea due to Spleen deficiency with Dampness",
+   "poor appetite and abdominal bloating",
+   "dizziness and palpitations due to accumulation of Phlegm-fluids",
+   "insomnia",
+   "anxiety and mild palpitations"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb suitable for long-term use. It is one of the most widely used substances in the Chinese pharmacopeia, surpassed in frequency only by licorice.",
+  "precauciones": "Non-toxic. Use with caution in excessive urination or urinary incontinence, dehydration, profuse sweating, and Yin deficiency with depleted fluids. Use caution if taken together with pharmaceutical diuretics.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/fu-ling"
+  ],
+  "etiquetas": [
+   "hoelen sclerotium"
+  ],
+  "id": "HRB-019",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-004",
+   "TCM-006",
+   "TCM-008",
+   "TCM-009",
+   "TCM-010",
+   "TCM-012",
+   "TCM-013",
+   "TCM-014"
+  ]
+ },
+ {
+  "pinyin": "fu shen",
+  "chino": "茯神",
+  "latin": "Poria Sclerotium Pararadicis (Poria cocos (Schw.) Wolf, porción con raíz de pino)",
+  "nombre_es": "poria with pine root (fu shen)",
+  "nombre_en": "poria with pine root, fushen",
+  "parte": "fungal sclerotium with the pine root included",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet",
+   "bland"
+  ],
+  "meridianos": [
+   "Heart",
+   "Spleen"
+  ],
+  "categoria_mtc": "nourishes the Heart and calms the spirit",
+  "acciones": [
+   "calms the spirit (Shen)",
+   "strengthens the Spleen",
+   "drains Dampness"
+  ],
+  "indicaciones_tradicionales": [
+   "insomnia",
+   "palpitations",
+   "anxiety with poor sleep",
+   "restlessness and excessive worry",
+   "poor appetite with mental fatigue",
+   "poor memory and forgetfulness due to Heart and Spleen deficiency"
+  ],
+  "uso_historico": "Fu Ling appears in the Shen Nong Ben Cao Jing; Fu Shen was distinguished as a separate portion in the Ming Yi Bie Lu. It is traditionally used in formulas such as Gui Pi Tang to calm the spirit in patterns of Heart and Spleen deficiency.",
+  "precauciones": "Considered very safe, with no major contraindications. Use with caution in excessive urination or Yin deficiency without Dampness.",
+  "nota": null,
+  "fuentes": [
+   "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/fu-shen.php"
+  ],
+  "etiquetas": [
+   "fushen sclerotium with root"
+  ],
+  "id": "HRB-020",
+  "formulas": [
+   "TCM-005",
+   "TCM-007"
+  ]
+ },
+ {
+  "pinyin": "gan cao",
+  "chino": "甘草",
+  "latin": "Glycyrrhiza uralensis Fisch. (Radix et Rhizoma Glycyrrhizae)",
+  "nombre_es": "Chinese licorice root",
+  "nombre_en": "Chinese licorice root",
+  "parte": "root and rhizome",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Lung",
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "tonifies the Spleen and augments Qi",
+   "clears Heat and resolves toxicity",
+   "expels Phlegm and stops cough",
+   "relaxes spasms and relieves pain",
+   "harmonizes the other herbs in a formula"
+  ],
+  "indicaciones_tradicionales": [
+   "fatigue and poor appetite due to Spleen Qi deficiency",
+   "loose stools due to digestive weakness",
+   "palpitations and irregular pulse due to Heart Qi deficiency",
+   "cough with or without phlegm",
+   "sore throat",
+   "sores, boils, and poisonings (traditional use as an antidote)",
+   "spasms and pain of the abdomen or limbs"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb. Called \"Guo Lao\" (the Elder of the State) for its harmonizing function, it is the most frequently used herb in classic Chinese formulas.",
+  "precauciones": "Glycyrrhizin can cause pseudoaldosteronism (sodium and water retention, potassium loss, high blood pressure) at high doses or with prolonged use; in severe cases, arrhythmias. Avoid in high blood pressure, low potassium, edema, heart failure, and severe kidney disease. Interacts with digoxin and other cardiac glycosides, diuretics, antihypertensives, corticosteroids, anticoagulants, and CYP3A4 substrates. High intake during pregnancy is associated with preterm birth (NCCIH). Traditionally incompatible with Gan Sui, Da Ji, Yuan Hua, and Hai Zao.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/gan-cao",
+   "https://www.nccih.nih.gov/health/licorice-root"
+  ],
+  "etiquetas": [
+   "licorice root (Chinese licorice root)"
+  ],
+  "id": "HRB-021",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-003",
+   "TCM-004",
+   "TCM-005",
+   "TCM-006",
+   "TCM-007",
+   "TCM-009",
+   "TCM-011",
+   "TCM-013",
+   "TCM-014",
+   "TCM-015",
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "gao liang jiang",
+  "chino": "高良姜",
+  "latin": "Rhizoma Alpiniae Officinarum (Alpinia officinarum Hance)",
+  "nombre_es": "lesser galangal",
+  "nombre_en": "lesser galangal",
+  "parte": "rhizome",
+  "naturaleza": "hot",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "warms the interior and expels Cold",
+  "acciones": [
+   "warms the Middle Jiao and disperses Cold",
+   "relieves pain",
+   "stops vomiting"
+  ],
+  "indicaciones_tradicionales": [
+   "epigastric and abdominal pain due to Cold",
+   "vomiting due to Cold in the Stomach",
+   "hiccups due to Cold",
+   "diarrhea due to Cold in the Middle Jiao",
+   "acid regurgitation due to Stomach Cold"
+  ],
+  "uso_historico": "Recorded in the Ming Yi Bie Lu. It has traditionally been used for stomach pain due to Cold, for example together with Xiang Fu in the formula Liang Fu Wan.",
+  "precauciones": "Contraindicated in Yin deficiency with Heat, excess Heat, vomiting due to Stomach Fire, and diarrhea due to Heat. In weak constitutions, combine with tonics to reduce its irritating effect.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/GaoLiangJiang.html"
+  ],
+  "etiquetas": [
+   "galangal rhizome"
+  ],
+  "id": "HRB-022",
+  "formulas": [
+   "TCM-013"
+  ]
+ },
+ {
+  "pinyin": "ge gen",
+  "chino": "葛根",
+  "latin": "Pueraria lobata (Willd.) Ohwi (syn. P. montana var. lobata) (Radix Puerariae Lobatae)",
+  "nombre_es": "kudzu root (pueraria root)",
+  "nombre_en": "kudzu root, pueraria root",
+  "parte": "root",
+  "naturaleza": "cool",
+  "sabor": [
+   "sweet",
+   "pungent"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach",
+   "Lung"
+  ],
+  "categoria_mtc": "releases the exterior (pungent and cool)",
+  "acciones": [
+   "releases the muscle layer and clears Heat",
+   "generates fluids and relieves thirst",
+   "vents rashes",
+   "raises Yang and stops diarrhea",
+   "unblocks the channels and collaterals",
+   "relieves alcohol intoxication"
+  ],
+  "indicaciones_tradicionales": [
+   "cold or flu with fever and stiffness and pain in the neck and upper back",
+   "thirst due to Heat or wasting disease (xiao ke)",
+   "measles with incomplete rash",
+   "diarrhea or dysentery due to Heat or sinking Spleen Yang",
+   "hangover and alcohol intoxication",
+   "headache and neck stiffness associated with high blood pressure (modern use)"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing for wasting-thirst and for resolving all kinds of toxins. It is the chief herb of Ge Gen Tang from the Shang Han Lun for neck stiffness with external attack.",
+  "precauciones": "Avoid in Cold due to Spleen and Stomach deficiency, exterior deficiency with excessive sweating, marked Yin deficiency, and vomiting due to Stomach Cold. Possible interactions with anticoagulants (warfarin), diabetes medications (additive effect), CYP450 substrates, and methotrexate.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/ge-gen"
+  ],
+  "etiquetas": [
+   "kudzu root (pueraria root)"
+  ],
+  "id": "HRB-023",
+  "formulas": [
+   "TCM-009"
+  ]
+ },
+ {
+  "pinyin": "gou qi zi",
+  "chino": "枸杞子",
+  "latin": "Lycium barbarum L. (Fructus Lycii)",
+  "nombre_es": "goji berry (lycium fruit, wolfberry)",
+  "nombre_en": "lycium fruit, goji berry, wolfberry",
+  "parte": "fruit",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Liver",
+   "Kidney",
+   "Lung"
+  ],
+  "categoria_mtc": "tonifies Yin",
+  "acciones": [
+   "nourishes Liver and Kidney Yin",
+   "benefits Essence and fills the marrow",
+   "brightens the eyes",
+   "nourishes Blood",
+   "moistens the Lung"
+  ],
+  "indicaciones_tradicionales": [
+   "blurred vision, dry eyes, and declining eyesight due to Liver and Kidney deficiency",
+   "dizziness and vertigo",
+   "low back and knee pain and weakness",
+   "ringing in the ears",
+   "impotence and infertility due to Essence deficiency",
+   "premature graying of hair",
+   "fatigue due to Blood and Essence deficiency",
+   "dry cough due to Yin deficiency (traditional use)"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb suitable for long-term use. In the Ben Cao Gang Mu, Li Shizhen noted that the best medicinal berries came from Ningxia; it is part of Qi Ju Di Huang Wan for the eyes.",
+  "precauciones": "Avoid with warfarin (documented cases of increased INR and bleeding). Use caution with blood-sugar-lowering medications. Avoid during acute febrile illnesses with an exterior pattern and in Spleen deficiency with loose stools. High in potassium: use caution in kidney failure.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/gou-qi-zi"
+  ],
+  "etiquetas": [
+   "lycium fruit"
+  ],
+  "id": "HRB-024",
+  "formulas": [
+   "TCM-008",
+   "TCM-010",
+   "TCM-011",
+   "TCM-012",
+   "TCM-014",
+   "TCM-015"
+  ]
+ },
+ {
+  "pinyin": "gou teng",
+  "chino": "钩藤",
+  "latin": "Ramulus Uncariae cum Uncis (Uncaria rhynchophylla (Miq.) Jacks. y especies afines)",
+  "nombre_es": "uncaria stem with hooks (gambir, gou teng)",
+  "nombre_en": "uncaria stem with hooks, gambir",
+  "parte": "stem with hooks",
+  "naturaleza": "cool",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Liver",
+   "Pericardium",
+   "Heart"
+  ],
+  "categoria_mtc": "extinguishes Wind and stops tremors",
+  "acciones": [
+   "extinguishes Wind and relieves spasms",
+   "clears Liver Heat and calms Liver Yang",
+   "releases the exterior (Wind-Heat)"
+  ],
+  "indicaciones_tradicionales": [
+   "tremors, spasms, and convulsions due to Liver Heat generating Wind",
+   "febrile convulsions in children",
+   "eclampsia",
+   "headache and dizziness due to rising Liver Yang",
+   "irritability and red eyes due to Liver Fire",
+   "high blood pressure",
+   "fever and headache due to Wind-Heat"
+  ],
+  "uso_historico": "Recorded in the Ming Yi Bie Lu, initially for childhood convulsions. It is the chief herb, together with Tian Ma, of the formula Tian Ma Gou Teng Yin (sold commercially as 'Gambir Formula') for rising Liver Yang.",
+  "precauciones": "Use with caution if there is no true Heat or Liver Wind. Do not boil for more than 20 minutes (add near the end of the decoction). May potentiate antihypertensives and sedatives.",
+  "nota": "'Gambir' on these labels corresponds to Gou Teng (Uncaria rhynchophylla), not Uncaria gambir (gambier from Indonesia/Malaysia, used as an astringent). The commercial 'Gambir Formula' is Tian Ma Gou Teng Yin.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/GouTeng.html",
+   "https://asante-academy.com/encyclopedia/gou-teng/",
+   "https://www.lhasaoms.com/st-f-gam-gr-ld1"
+  ],
+  "etiquetas": [
+   "gambir stem"
+  ],
+  "id": "HRB-025",
+  "formulas": [
+   "TCM-006"
+  ]
+ },
+ {
+  "pinyin": "gu sui bu",
+  "chino": "骨碎补",
+  "latin": "Rhizoma Drynariae (Drynaria fortunei (Kunze) J. Sm.)",
+  "nombre_es": "drynaria rhizome",
+  "nombre_en": "drynaria rhizome",
+  "parte": "rhizome",
+  "naturaleza": "warm",
+  "sabor": [
+   "bitter"
+  ],
+  "meridianos": [
+   "Kidney",
+   "Liver"
+  ],
+  "categoria_mtc": "tonifies Yang",
+  "acciones": [
+   "tonifies Kidney Yang and strengthens the sinews and bones",
+   "promotes the healing of sinews and bones",
+   "invigorates Blood and relieves pain",
+   "stimulates hair growth (external use)"
+  ],
+  "indicaciones_tradicionales": [
+   "low back and knee pain and weakness due to Kidney deficiency",
+   "tinnitus and hearing loss due to Kidney deficiency",
+   "loose or painful teeth and bleeding gums due to Kidney deficiency",
+   "chronic diarrhea due to Kidney deficiency",
+   "fractures, bruises, and sprains",
+   "pain and swelling due to traumatic stasis",
+   "hair loss (topical application)"
+  ],
+  "uso_historico": "First recorded in the Yao Xing Lun (Tang dynasty). Its name means 'mender of broken bones,' reflecting its traditional use in traumatology for fractures and tendon injuries.",
+  "precauciones": "Avoid in Yin deficiency with Heat, Blood deficiency without stasis, and Wind-Dryness. Use with caution in pregnancy.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/GuSuiBu.html"
+  ],
+  "etiquetas": [
+   "drynaria rhizome"
+  ],
+  "id": "HRB-026",
+  "formulas": [
+   "TCM-010"
+  ]
+ },
+ {
+  "pinyin": "gu ya (dao ya)",
+  "chino": "稻芽",
+  "latin": "Oryza sativa L. (Fructus Oryzae Germinatus)",
+  "nombre_es": "rice sprout (germinated rice)",
+  "nombre_en": "rice sprout, germinated rice",
+  "parte": "germinated and dried fruit (grain)",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "relieves food stagnation (digestive)",
+  "acciones": [
+   "promotes digestion and relieves food stagnation",
+   "strengthens the Spleen and stimulates the appetite",
+   "harmonizes the Middle Jiao"
+  ],
+  "indicaciones_tradicionales": [
+   "food stagnation, especially from too much starchy food or grains",
+   "poor appetite",
+   "indigestion with abdominal bloating and fullness",
+   "digestive weakness due to Spleen deficiency",
+   "weak digestion in children and the elderly"
+  ],
+  "uso_historico": "The germinated grain appears in the Ming Yi Bie Lu under the name nie mi; the Ben Cao Gang Mu records its use. The Ben Jing Feng Yuan (Qing) notes that, unlike Mai Ya, it can supplement the Middle Jiao, making it gentler for delicate digestion.",
+  "precauciones": "Avoid prolonged use without true food stagnation. Some sources indicate it may reduce breast milk production, so it is not recommended while breastfeeding. No drug interactions are known.",
+  "nota": "\"Oryza fruit\" is interpreted as germinated rice (dao ya, Oryza sativa), called gu ya in Western literature. In the mainland Chinese pharmacopeia, gu ya refers to germinated millet (Setaria italica), which is warm in nature; dao ya (rice) is neutral. Sources differ on the first classical text (Ming Yi Bie Lu vs. Ben Cao Gang Mu).",
+  "fuentes": [
+   "https://acupuncturetoday.com/herbs-and-botanicals/oryza-gu-ya",
+   "https://en.5000yan.com/chinese-herbs/other-plant-parts/rice-sprout.html",
+   "https://www.meandqi.com/knowledge-base/herbs/gu-ya"
+  ],
+  "etiquetas": [
+   "oryza fruit"
+  ],
+  "id": "HRB-027",
+  "formulas": [
+   "TCM-001"
+  ]
+ },
+ {
+  "pinyin": "gui zhi",
+  "chino": "桂枝",
+  "latin": "Cinnamomum cassia (L.) J. Presl (Cinnamomi Ramulus)",
+  "nombre_es": "cinnamon twig (cassia twig)",
+  "nombre_en": "cinnamon twig / cassia twig",
+  "parte": "twig",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Lung",
+   "Bladder"
+  ],
+  "categoria_mtc": "releases the exterior: pungent and warm (disperses Wind-Cold)",
+  "acciones": [
+   "releases the exterior and harmonizes the Ying and Wei levels",
+   "warms the channels and relieves pain",
+   "unblocks Yang and transforms Qi (water metabolism)",
+   "supports Heart Yang and promotes the circulation of Qi and Blood"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Cold colds with chills and mild sweating",
+   "joint pain due to Wind-Cold-Dampness, especially in the shoulders and arms",
+   "palpitations due to Heart Yang deficiency",
+   "chest tightness and pain due to blocked Yang",
+   "edema and fluid retention due to Yang deficiency",
+   "painful or absent periods due to Cold",
+   "abdominal masses due to Cold and stasis"
+  ],
+  "uso_historico": "Cinnamon (gui) is recorded in the Shen Nong Ben Cao Jing; the use of the twig appears in the formulas of Zhang Zhongjing's Shang Han Lun, such as Gui Zhi Tang. It is one of the most widely used herbs in the classical tradition.",
+  "precauciones": "Contraindicated in febrile illnesses due to Heat and in Yin deficiency with Heat. Use caution in pregnancy and with heavy menstruation. May interact with diuretics.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/GuiZhi.html"
+  ],
+  "etiquetas": [
+   "cinnamon twig"
+  ],
+  "id": "HRB-028",
+  "formulas": [
+   "TCM-004",
+   "TCM-005",
+   "TCM-007",
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "he huan pi",
+  "chino": "合欢皮",
+  "latin": "Albizia julibrissin Durazz. (Albiziae Cortex)",
+  "nombre_es": "albizia bark (silk tree bark, mimosa tree bark)",
+  "nombre_en": "albizia bark / silk tree bark / mimosa tree bark",
+  "parte": "bark",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver"
+  ],
+  "categoria_mtc": "nourishes the Heart and calms the spirit",
+  "acciones": [
+   "calms the Shen and relieves emotional constraint",
+   "invigorates and harmonizes Blood and stops pain",
+   "reduces swelling and abscesses"
+  ],
+  "indicaciones_tradicionales": [
+   "irritability and depression due to repressed emotions",
+   "insomnia",
+   "poor memory",
+   "pain and swelling from traumatic injuries and fractures",
+   "painful abscesses and boils",
+   "lung abscesses"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing, where it is said to calm the five organs and lift the mood. It has traditionally been used for insomnia and sadness due to emotional constraint.",
+  "precauciones": "Use with caution during pregnancy.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HeHuanPi.html"
+  ],
+  "etiquetas": [
+   "albizzia bark"
+  ],
+  "id": "HRB-029",
+  "formulas": [
+   "TCM-007"
+  ]
+ },
+ {
+  "pinyin": "he shou wu",
+  "chino": "何首乌",
+  "latin": "Radix Polygoni Multiflori (Polygonum multiflorum Thunb.; sin. Reynoutria multiflora)",
+  "nombre_es": "fo-ti (he shou wu, Chinese knotweed root)",
+  "nombre_en": "fo-ti, Chinese knotweed root, flowery knotweed",
+  "parte": "tuberous root",
+  "naturaleza": "warm",
+  "sabor": [
+   "bitter",
+   "sweet",
+   "astringent"
+  ],
+  "meridianos": [
+   "Liver",
+   "Kidney"
+  ],
+  "categoria_mtc": "tonifies Blood",
+  "acciones": [
+   "tonifies the Liver and Kidney and nourishes Blood and Essence (prepared form)",
+   "darkens the hair and strengthens the sinews and bones",
+   "moistens the intestines and moves the stools (raw form)",
+   "resolves toxins and relieves itching due to Wind (raw form)",
+   "treats chronic malaria (raw form)"
+  ],
+  "indicaciones_tradicionales": [
+   "dizziness and blurred vision due to Blood deficiency",
+   "premature graying of hair",
+   "insomnia due to Blood deficiency",
+   "low back and knee weakness due to Liver and Kidney deficiency",
+   "spermatorrhea and vaginal discharge due to deficiency",
+   "constipation from intestinal dryness (raw form)",
+   "itchy rashes and toxic sores (raw form)",
+   "chronic malaria (raw form)"
+  ],
+  "uso_historico": "First appears in Tang dynasty literature and was included in the Kai Bao Ben Cao (Song dynasty). The legend of Mr. He, whose gray hair turned black again, made it famous as a tonic for longevity and the hair.",
+  "precauciones": "Contraindicated in Spleen deficiency with Phlegm or Dampness and in diarrhea or loose stools. Documented risk of liver toxicity (acute liver injury, sometimes severe or fatal); contraindicated in liver disease; monitor liver function and do not reintroduce after a reaction. Traditionally avoided with onion, chives, garlic, and turnip.",
+  "nota": "Fo-ti is the trade name for He Shou Wu; the label does not indicate whether it is raw (sheng) or prepared (zhi).",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HeShouWu.html",
+   "https://www.ncbi.nlm.nih.gov/books/NBK548795/"
+  ],
+  "etiquetas": [
+   "fo-ti root tuber"
+  ],
+  "id": "HRB-030",
+  "formulas": [
+   "TCM-008"
+  ]
+ },
+ {
+  "pinyin": "hong hua",
+  "chino": "红花",
+  "latin": "Carthamus tinctorius L. (Carthami Flos)",
+  "nombre_es": "safflower",
+  "nombre_en": "safflower",
+  "parte": "flower",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver"
+  ],
+  "categoria_mtc": "invigorates Blood and removes stasis",
+  "acciones": [
+   "invigorates Blood and disperses stasis",
+   "opens the channels and unblocks menstruation",
+   "relieves pain"
+  ],
+  "indicaciones_tradicionales": [
+   "absent menstruation due to Blood stasis",
+   "painful periods",
+   "postpartum abdominal pain due to stasis and retained lochia",
+   "abdominal masses due to stasis",
+   "chest pain due to Blood stasis",
+   "bruises and pain from traumatic injury",
+   "sores and swellings due to stasis",
+   "measles rash that does not come out fully (due to stasis and Heat)"
+  ],
+  "uso_historico": "Mentioned as hong lan hua in the Jin Gui Yao Lue (Han dynasty) and formally recorded in the Kai Bao Ben Cao. In small doses it is considered to harmonize the Blood, and in large doses to break up stasis.",
+  "precauciones": "Contraindicated in pregnancy. Avoid in bleeding disorders, excessive menstruation, and peptic ulcer; overdose may cause continuous bleeding. Use caution with anticoagulants (heparin, warfarin) and antiplatelet drugs (aspirin, clopidogrel).",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HongHua.html"
+  ],
+  "etiquetas": [
+   "carthamus flowers"
+  ],
+  "id": "HRB-031",
+  "formulas": [
+   "TCM-003"
+  ]
+ },
+ {
+  "pinyin": "hou po",
+  "chino": "厚朴",
+  "latin": "Magnolia officinalis Rehd. et Wils. (Cortex Magnoliae Officinalis)",
+  "nombre_es": "magnolia bark",
+  "nombre_en": "magnolia bark",
+  "parte": "bark (of the trunk, branches, and root)",
+  "naturaleza": "warm",
+  "sabor": [
+   "bitter",
+   "pungent"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach",
+   "Lung",
+   "Large Intestine"
+  ],
+  "categoria_mtc": "aromatic herb that transforms Dampness",
+  "acciones": [
+   "dries Dampness and transforms Phlegm",
+   "directs Qi downward and relieves distension",
+   "moves Qi and resolves stagnation",
+   "calms wheezing"
+  ],
+  "indicaciones_tradicionales": [
+   "abdominal distension and fullness due to Dampness or Qi stagnation",
+   "food stagnation with constipation",
+   "nausea and vomiting due to Dampness in the Middle Jiao",
+   "poor appetite with a feeling of heaviness in the upper abdomen",
+   "cough and asthma with copious phlegm and chest tightness",
+   "feeling of a lump in the throat (plum-pit Qi)"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing. Zhang Zhongjing used it extensively in formulas such as Da Cheng Qi Tang and Ban Xia Hou Po Tang, the latter for the sensation of a foreign body in the throat.",
+  "precauciones": "Avoid in pregnancy, Yin deficiency with Heat, Qi or Blood deficiency, diarrhea due to Heat, and postpartum Blood deficiency. May potentiate sedatives.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/herb-database/houpu-magnolia-bark"
+  ],
+  "etiquetas": [
+   "magnolia bark"
+  ],
+  "id": "HRB-032",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-004",
+   "TCM-013"
+  ]
+ },
+ {
+  "pinyin": "hu po",
+  "chino": "琥珀",
+  "latin": "Succinum",
+  "nombre_es": "amber",
+  "nombre_en": "amber",
+  "parte": "fossilized resin of ancient pines",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver",
+   "Bladder",
+   "Small Intestine"
+  ],
+  "categoria_mtc": "heavy substances that anchor and calm the spirit (Shen)",
+  "acciones": [
+   "calms the spirit and stops palpitations",
+   "invigorates Blood and removes stasis",
+   "promotes urination",
+   "reduces swelling and promotes healing"
+  ],
+  "indicaciones_tradicionales": [
+   "anxiety, insomnia, palpitations, and disturbed dreams",
+   "childhood convulsions and epilepsy",
+   "absent menstruation and abdominal pain due to Blood stasis",
+   "abdominal masses",
+   "urinary retention and painful or bloody urination (lin syndrome)",
+   "sores and skin ulcers (external use)"
+  ],
+  "uso_historico": "First recorded in the Ming Yi Bie Lu. It has traditionally been used in powder form to calm the spirit and for painful urination with blood or stones.",
+  "precauciones": "Contraindicated in Yin deficiency with Heat and in frequent urination without stasis or Dampness. Do not decoct: it is taken as a powder or in pills (1.5-3 g). May potentiate the sedative effect of barbiturates.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuPo.html"
+  ],
+  "etiquetas": [
+   "succinum amber"
+  ],
+  "id": "HRB-033",
+  "formulas": [
+   "TCM-012"
+  ]
+ },
+ {
+  "pinyin": "hua jiao (chuan jiao)",
+  "chino": "花椒",
+  "latin": "Pericarpium Zanthoxyli (Zanthoxylum bungeanum / Zanthoxylum schinifolium)",
+  "nombre_es": "Sichuan pepper (zanthoxylum pericarp, prickly ash peel)",
+  "nombre_en": "Sichuan pepper (zanthoxylum pericarp, prickly ash peel)",
+  "parte": "pericarp (fruit husk)",
+  "naturaleza": "hot",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Stomach",
+   "Kidney"
+  ],
+  "categoria_mtc": "warms the interior",
+  "acciones": [
+   "warms the Middle Jiao and relieves pain",
+   "expels intestinal parasites",
+   "relieves itching (external use)",
+   "dries Dampness"
+  ],
+  "indicaciones_tradicionales": [
+   "epigastric and abdominal pain due to Cold",
+   "vomiting due to Cold in the Stomach",
+   "diarrhea due to Cold or Cold-Dampness",
+   "abdominal pain due to roundworms (intestinal parasites)",
+   "eczema and itchy skin (in external washes)",
+   "vulvar itching (external washes)"
+  ],
+  "uso_historico": "The Shen Nong Ben Cao Jing records varieties of this pepper (qin jiao and shu jiao). It is classically used in Da Jian Zhong Tang for abdominal pain due to Cold and in Wu Mei Wan for parasites.",
+  "precauciones": "Contraindicated in Yin deficiency with internal Heat and in Heat or Fire patterns. Avoid in pregnancy. Mildly toxic: overdose may cause nausea, dizziness, and convulsions.",
+  "nota": "Its nature is given as warm in some sources (Me & Qi) and hot in others (Bensky, Chinese Pharmacopoeia).",
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/hua-jiao",
+   "https://www.attiliodalberto.com/chinese-herbal-medicine/herbs/chuan-jiao.php"
+  ],
+  "etiquetas": [
+   "zanthoxylum hull of seed"
+  ],
+  "id": "HRB-034",
+  "formulas": [
+   "TCM-013"
+  ]
+ },
+ {
+  "pinyin": "huang bai",
+  "chino": "黄柏",
+  "latin": "Cortex Phellodendri (Phellodendron amurense / Phellodendron chinense)",
+  "nombre_es": "phellodendron bark (Amur cork tree bark)",
+  "nombre_en": "phellodendron bark (Amur cork tree bark)",
+  "parte": "stem bark",
+  "naturaleza": "cold",
+  "sabor": [
+   "bitter"
+  ],
+  "meridianos": [
+   "Kidney",
+   "Bladder",
+   "Large Intestine"
+  ],
+  "categoria_mtc": "clears Heat and dries Dampness",
+  "acciones": [
+   "drains Damp-Heat, especially from the Lower Jiao",
+   "drains Kidney Fire and clears deficiency Heat",
+   "resolves Fire toxicity and reduces skin inflammation"
+  ],
+  "indicaciones_tradicionales": [
+   "yellow, foul-smelling vaginal discharge due to Damp-Heat",
+   "foul-smelling diarrhea and dysentery due to Damp-Heat",
+   "painful, cloudy urination (lin syndrome due to Damp-Heat)",
+   "jaundice due to Damp-Heat",
+   "red, hot, swollen leg joints",
+   "night sweats and afternoon fever due to Yin deficiency with Fire",
+   "spermatorrhea due to Kidney deficiency Fire",
+   "sores, toxic ulcers, and oozing skin lesions (internal and external use)"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing under the name bo mu (檗木). It is traditionally used as a chief herb for Damp-Heat in the Lower Jiao and, combined with zhi mu, for Kidney deficiency Fire (e.g., in Zhi Bai Di Huang Wan).",
+  "precauciones": "Contraindicated in deficiency and Cold of the Spleen and Stomach, Yang deficiency, and diarrhea without Heat. Very bitter and cold: prolonged use may injure the Stomach. Contains berberine, so interactions with drugs metabolized by liver enzymes are possible.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuangBai.html"
+  ],
+  "etiquetas": [
+   "phellodendron stem bark"
+  ],
+  "id": "HRB-035",
+  "formulas": [
+   "TCM-003",
+   "TCM-009"
+  ]
+ },
+ {
+  "pinyin": "huang jing",
+  "chino": "黄精",
+  "latin": "Rhizoma Polygonati (Polygonatum sibiricum / Polygonatum kingianum / Polygonatum cyrtonema)",
+  "nombre_es": "polygonatum rhizome (Siberian Solomon's seal)",
+  "nombre_en": "polygonatum rhizome (Siberian Solomon's seal)",
+  "parte": "rhizome",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Lung",
+   "Kidney"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "tonifies Spleen Qi and nourishes Stomach Yin",
+   "moistens the Lung and nourishes Lung Yin",
+   "tonifies the Kidney and strengthens Essence (Jing)"
+  ],
+  "indicaciones_tradicionales": [
+   "fatigue and poor appetite due to Spleen Qi deficiency",
+   "dry mouth and poor appetite due to Stomach Yin deficiency",
+   "dry cough due to Lung Yin deficiency",
+   "low back and knee pain and weakness due to Kidney deficiency",
+   "dizziness and premature graying due to Essence deficiency",
+   "thirst and wasting (xiao ke)"
+  ],
+  "uso_historico": "First recorded in the Ming Yi Bie Lu, which classifies it as a superior-grade herb. In the Taoist tradition it was eaten as a tonic food to prolong life and as a substitute for grains.",
+  "precauciones": "Being rich and moist, it favors Dampness: contraindicated with excess Dampness, diarrhea due to Cold, fullness in the Middle Jiao, and cough with Phlegm-Heat or copious phlegm.",
+  "nota": "Ambiguous name: Polygonatum can also refer to yu zhu (玉竹, Polygonatum odoratum). Huang jing was chosen because it is the Polygonatum rhizome most commonly used as a tonic in commercial formulas.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuangJing.html"
+  ],
+  "etiquetas": [
+   "polygonatum rhizome"
+  ],
+  "id": "HRB-036",
+  "formulas": [
+   "TCM-007",
+   "TCM-012"
+  ]
+ },
+ {
+  "pinyin": "huang lian",
+  "chino": "黄连",
+  "latin": "Rhizoma Coptidis (Coptis chinensis Franch.)",
+  "nombre_es": "coptis rhizome (Chinese goldthread)",
+  "nombre_en": "coptis rhizome, Chinese goldthread",
+  "parte": "rhizome",
+  "naturaleza": "cold",
+  "sabor": [
+   "bitter"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver",
+   "Stomach",
+   "Large Intestine",
+   "Gallbladder",
+   "Spleen"
+  ],
+  "categoria_mtc": "clears Heat and dries Dampness",
+  "acciones": [
+   "clears Heat and dries Dampness",
+   "purges Fire and resolves toxins",
+   "drains Heart Fire",
+   "drains Stomach Fire",
+   "stops bleeding due to Heat"
+  ],
+  "indicaciones_tradicionales": [
+   "dysentery and diarrhea due to Damp-Heat",
+   "vomiting due to Stomach Heat",
+   "high fever with irritability or delirium",
+   "insomnia and irritability due to Heart Fire",
+   "mouth ulcers and sore gums",
+   "red, inflamed eyes",
+   "boils, abscesses, and toxic skin lesions",
+   "bleeding (nosebleeds, vomiting blood) due to Heat in the Blood"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing. It is one of the most bitter and cold herbs in the materia medica, classically used for Damp-Heat dysentery and to drain Heart and Stomach Fire (e.g., in Huang Lian Jie Du Tang).",
+  "precauciones": "Contraindicated in Yang deficiency, Cold patterns, Qi or Blood deficiency, and Cold due to Spleen and Stomach deficiency. Prolonged use or high doses may injure the Spleen, Stomach, and Yin. Contains berberine: possible interactions with drugs metabolized by CYP450 and with cyclosporine; avoid in pregnancy and in newborns (risk of kernicterus).",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuangLian.html"
+  ],
+  "etiquetas": [
+   "coptis rhizome"
+  ],
+  "id": "HRB-037",
+  "formulas": [
+   "TCM-003",
+   "TCM-006",
+   "TCM-007"
+  ]
+ },
+ {
+  "pinyin": "huang qi",
+  "chino": "黄芪",
+  "latin": "Astragalus membranaceus (Fisch.) Bunge / A. mongholicus (Astragali Radix)",
+  "nombre_es": "astragalus root (milk-vetch root)",
+  "nombre_en": "astragalus root / milk-vetch root",
+  "parte": "root",
+  "naturaleza": "warm",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Lung",
+   "Spleen"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "tonifies Spleen and Lung Qi",
+   "raises Spleen Yang (Qi)",
+   "strengthens defensive Qi (Wei Qi) and stabilizes the exterior",
+   "promotes urination and reduces edema",
+   "drains pus and regenerates flesh",
+   "tonifies Qi to generate Blood"
+  ],
+  "indicaciones_tradicionales": [
+   "fatigue and poor appetite due to Spleen Qi deficiency",
+   "chronic diarrhea due to Spleen deficiency",
+   "organ prolapse (uterus, rectum, stomach) due to sinking Qi",
+   "spontaneous sweating due to defensive Qi deficiency",
+   "frequent colds",
+   "edema due to deficiency",
+   "chronic ulcers that do not heal",
+   "numbness and pain due to Qi and Blood deficiency"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing as a superior-class tonic. It is the foundation of classic formulas such as Bu Zhong Yi Qi Tang, Yu Ping Feng San, and Dang Gui Bu Xue Tang.",
+  "precauciones": "Contraindicated in the early stages of sores, lesions with toxic Heat, exterior excess, Qi stagnation, Yin deficiency with Heat, excess Heat, and obstruction by Dampness. Use caution in late pregnancy. May interact with immunosuppressants.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuangQi.html"
+  ],
+  "etiquetas": [
+   "astragalus root"
+  ],
+  "id": "HRB-038",
+  "formulas": [
+   "TCM-004",
+   "TCM-008",
+   "TCM-010",
+   "TCM-011",
+   "TCM-012",
+   "TCM-013",
+   "TCM-014",
+   "TCM-015"
+  ]
+ },
+ {
+  "pinyin": "huang qin",
+  "chino": "黄芩",
+  "latin": "Radix Scutellariae (Scutellaria baicalensis)",
+  "nombre_es": "Baikal skullcap root (scute)",
+  "nombre_en": "Baikal skullcap root (scute)",
+  "parte": "root",
+  "naturaleza": "cold",
+  "sabor": [
+   "bitter"
+  ],
+  "meridianos": [
+   "Lung",
+   "Stomach",
+   "Gallbladder",
+   "Large Intestine",
+   "Heart",
+   "Small Intestine",
+   "Liver"
+  ],
+  "categoria_mtc": "clears Heat and dries Dampness",
+  "acciones": [
+   "clears Heat and dries Dampness",
+   "drains Fire and resolves toxins",
+   "cools the Blood and stops bleeding",
+   "clears Heat and calms the fetus",
+   "calms rising Liver Yang"
+  ],
+  "indicaciones_tradicionales": [
+   "diarrhea and dysentery due to Damp-Heat",
+   "jaundice due to Damp-Heat",
+   "painful urination due to Damp-Heat",
+   "high fever with thirst and cough with thick yellow phlegm due to Lung Heat",
+   "alternating fever and chills (Shao Yang pattern)",
+   "bleeding due to Heat (nosebleeds, coughing up blood, blood in the stool, uterine bleeding)",
+   "restless fetus (threatened miscarriage) due to Heat",
+   "boils and toxic inflammations",
+   "headache, irritability, and red eyes due to rising Liver Yang"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a middle-grade herb. It is a core component of classic Shang Han Lun formulas such as Xiao Chai Hu Tang and Huang Qin Tang.",
+  "precauciones": "Avoid in deficiency Cold and diarrhea due to Cold; use caution in Blood deficiency, edema due to Spleen deficiency, or loose stools due to Kidney deficiency. Traditionally considered to be antagonized by mu dan pi and li lu. Cases of liver injury have been reported with products containing skullcap.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuangQin.html"
+  ],
+  "etiquetas": [
+   "scute root"
+  ],
+  "id": "HRB-039",
+  "formulas": [
+   "TCM-003",
+   "TCM-005",
+   "TCM-016"
+  ]
+ },
+ {
+  "pinyin": "huo xiang",
+  "chino": "藿香",
+  "latin": "Agastache rugosa / Pogostemon cablin (Agastaches seu Pogostemonis Herba)",
+  "nombre_es": "agastache (Korean mint) / patchouli",
+  "nombre_en": "agastache / patchouli",
+  "parte": "aerial parts (tops)",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Lung",
+   "Spleen",
+   "Stomach"
+  ],
+  "categoria_mtc": "aromatic herb that transforms Dampness",
+  "acciones": [
+   "aromatically transforms Dampness",
+   "releases the exterior and clears Summer-Heat",
+   "harmonizes the Middle Jiao and stops vomiting"
+  ],
+  "indicaciones_tradicionales": [
+   "epigastric distension and poor appetite due to turbid Dampness in the Middle Jiao",
+   "nausea and vomiting due to Dampness",
+   "morning sickness in pregnancy",
+   "summer colds with Damp-Heat (fever, heaviness, diarrhea)",
+   "diarrhea due to Dampness",
+   "fungal infections of the hands and feet (topical use)"
+  ],
+  "uso_historico": "Recorded since the Ming Yi Bie Lu. It is one of the classic aromatic herbs for Summer-Dampness and digestive upsets with nausea and diarrhea.",
+  "precauciones": "Contraindicated in Yin deficiency with signs of Heat and in Stomach Fire.",
+  "nota": "In TCM, the name huo xiang covers both Pogostemon cablin (guang huo xiang) and Agastache rugosa (tu huo xiang); 'agastache tops' corresponds to Agastache rugosa.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/HuoXiang.html"
+  ],
+  "etiquetas": [
+   "agastache tops"
+  ],
+  "id": "HRB-040",
+  "formulas": [
+   "TCM-001"
+  ]
+ },
+ {
+  "pinyin": "jiao gu lan",
+  "chino": "绞股蓝",
+  "latin": "Gynostemma pentaphyllum (Thunb.) Makino (Herba Gynostemmatis)",
+  "nombre_es": "gynostemma (jiaogulan, southern ginseng)",
+  "nombre_en": "gynostemma, jiaogulan, southern ginseng",
+  "parte": "whole plant / aerial parts (extract)",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter",
+   "sweet"
+  ],
+  "meridianos": [
+   "Lung",
+   "Spleen",
+   "Kidney"
+  ],
+  "categoria_mtc": "tonifies Qi",
+  "acciones": [
+   "tonifies Qi and strengthens the Spleen",
+   "transforms Phlegm and stops cough",
+   "clears Heat and resolves toxicity",
+   "transforms turbidity",
+   "calms the spirit",
+   "generates fluids"
+  ],
+  "indicaciones_tradicionales": [
+   "fatigue and tiredness due to Qi deficiency",
+   "poor appetite due to Spleen Qi deficiency",
+   "cough with phlegm and chronic bronchitis",
+   "insomnia and agitation",
+   "elevated blood lipids (modern use)",
+   "elevated blood sugar (modern use)",
+   "high blood pressure (modern use)"
+  ],
+  "uso_historico": "First recorded in the Jiu Huang Ben Cao (1406) as a famine food; its medicinal use is documented in the Ben Cao Gang Mu (1578). It became popular as a tonic tea in southern China and came to be called \"southern ginseng\" after Japanese studies in the 1970s found saponins similar to those in ginseng.",
+  "precauciones": "Avoid in Cold due to Spleen and Stomach deficiency with diarrhea and in pregnancy. Use caution with anticoagulants, antihypertensives, and blood-sugar-lowering medications due to possible additive effects.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/jiao-gu-lan"
+  ],
+  "etiquetas": [
+   "gynostemma whole plant extract"
+  ],
+  "id": "HRB-041",
+  "formulas": [
+   "TCM-015"
+  ]
+ },
+ {
+  "pinyin": "jie geng",
+  "chino": "桔梗",
+  "latin": "Radix Platycodonis (Platycodon grandiflorum)",
+  "nombre_es": "platycodon root (balloon flower root)",
+  "nombre_en": "platycodon root (balloon flower root)",
+  "parte": "root",
+  "naturaleza": "neutral",
+  "sabor": [
+   "bitter",
+   "pungent"
+  ],
+  "meridianos": [
+   "Lung"
+  ],
+  "categoria_mtc": "transforms Phlegm and stops cough",
+  "acciones": [
+   "opens and disperses Lung Qi",
+   "expels Phlegm and benefits the throat",
+   "expels pus from abscesses",
+   "directs the action of other herbs to the upper body"
+  ],
+  "indicaciones_tradicionales": [
+   "cough with copious phlegm or phlegm that is hard to expectorate (due to Cold or Heat)",
+   "sore throat",
+   "hoarseness or loss of voice",
+   "feeling of tightness in the chest",
+   "lung abscess with purulent sputum",
+   "throat abscesses"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing. It is considered the 'messenger' herb that carries other substances to the chest; it is the basis of the classic formula Jie Geng Tang (with gan cao) from the Shang Han Lun for sore throat.",
+  "precauciones": "Avoid in chronic cough due to Yin deficiency, in coughing up blood, and in rising Qi (nausea, vomiting). High doses may cause nausea and vomiting; its saponins have a hemolytic effect if injected.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/JieGeng.html"
+  ],
+  "etiquetas": [
+   "platycodon root"
+  ],
+  "id": "HRB-042",
+  "formulas": [
+   "TCM-001",
+   "TCM-002",
+   "TCM-003",
+   "TCM-006",
+   "TCM-011"
+  ]
+ },
+ {
+  "pinyin": "jin yin hua",
+  "chino": "金银花",
+  "latin": "Lonicera japonica Thunb. (Flos Lonicerae Japonicae)",
+  "nombre_es": "honeysuckle flower (lonicera flower)",
+  "nombre_en": "honeysuckle flower, lonicera flower",
+  "parte": "flower bud",
+  "naturaleza": "cold",
+  "sabor": [
+   "sweet"
+  ],
+  "meridianos": [
+   "Lung",
+   "Heart",
+   "Stomach",
+   "Large Intestine"
+  ],
+  "categoria_mtc": "clears Heat and resolves toxicity",
+  "acciones": [
+   "clears Heat and resolves toxicity",
+   "disperses Wind-Heat",
+   "cools the Blood and stops dysentery",
+   "clears Summer-Heat"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Heat colds and flu with fever",
+   "early stages of febrile illnesses due to Heat",
+   "sore, inflamed throat",
+   "abscesses, boils, and skin sores due to toxic Heat",
+   "mastitis",
+   "bloody dysentery due to toxic Heat",
+   "Summer-Heat conditions"
+  ],
+  "uso_historico": "Appears in the Ming Yi Bie Lu under the name Ren Dong (忍冬), classified as superior grade; the name jin yin hua (\"gold and silver flower\") became widespread in the Ming era and appears in the Ben Cao Gang Mu. It is the chief herb of Yin Qiao San for Wind-Heat.",
+  "precauciones": "Avoid in Spleen and Stomach Yang deficiency, Wind-Cold patterns, and Qi deficiency with thin, watery pus; do not use long-term without signs of Heat.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/jin-yin-hua"
+  ],
+  "etiquetas": [
+   "lonicera flower bud"
+  ],
+  "id": "HRB-043",
+  "formulas": [
+   "TCM-003"
+  ]
+ },
+ {
+  "pinyin": "jing jie (jing jie sui)",
+  "chino": "荆芥",
+  "latin": "Herba / Spica Schizonepetae (Schizonepeta tenuifolia)",
+  "nombre_es": "schizonepeta (Japanese catnip)",
+  "nombre_en": "schizonepeta (Japanese catnip)",
+  "parte": "flower spike (jing jie sui) / aerial parts",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent"
+  ],
+  "meridianos": [
+   "Lung",
+   "Liver"
+  ],
+  "categoria_mtc": "releases the exterior (pungent and warm)",
+  "acciones": [
+   "releases the exterior and expels Wind",
+   "vents rashes and relieves itching",
+   "stops bleeding (charred)",
+   "expels Wind and relieves spasms"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Cold or Wind-Heat colds with fever, chills, and headache",
+   "sore throat with Wind invasion",
+   "early-stage measles with incomplete rash",
+   "hives and itchy skin due to Wind",
+   "early-stage boils with chills and fever",
+   "bleeding (nosebleeds, bloody stools, uterine bleeding) when used charred",
+   "postpartum spasms"
+  ],
+  "uso_historico": "Appears in the Shen Nong Ben Cao Jing under the name jia su (假苏). It is valued as a gentle exterior-releasing herb, useful for both Wind-Cold and Wind-Heat, and is part of formulas such as Jing Fang Bai Du San and Yin Qiao San.",
+  "precauciones": "Avoid when measles has fully erupted, with open sores, spontaneous sweating, or headache due to Yin deficiency or internal Wind. Do not use in the absence of pathogenic Wind. Do not boil for a long time (volatile oils).",
+  "nota": "The flower spike (jing jie sui) is considered more potent than the stem for expelling Wind from the exterior.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/JingJie.html"
+  ],
+  "etiquetas": [
+   "schizonepeta flower"
+  ],
+  "id": "HRB-044",
+  "formulas": [
+   "TCM-003"
+  ]
+ },
+ {
+  "pinyin": "ju hua",
+  "chino": "菊花",
+  "latin": "Chrysanthemum morifolium Ramat. (Chrysanthemi Flos)",
+  "nombre_es": "chrysanthemum flower",
+  "nombre_en": "chrysanthemum flower",
+  "parte": "flower",
+  "naturaleza": "cool",
+  "sabor": [
+   "sweet",
+   "bitter",
+   "pungent"
+  ],
+  "meridianos": [
+   "Lung",
+   "Liver"
+  ],
+  "categoria_mtc": "releases the exterior: pungent and cool (disperses Wind-Heat)",
+  "acciones": [
+   "disperses Wind and clears Heat",
+   "calms the Liver and brightens the eyes",
+   "moderates Liver Yang and extinguishes Wind",
+   "clears Heat and resolves toxins"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Heat colds with fever and headache",
+   "red, swollen, sore eyes",
+   "dry eyes and blurred vision due to Liver and Kidney Yin deficiency",
+   "dizziness and headache due to rising Liver Yang",
+   "high blood pressure with headache (modern use)",
+   "boils and toxic swellings"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-class herb. It is traditionally taken as a tea; the white variety is preferred for nourishing the Liver and brightening the eyes, and the yellow variety for dispersing Wind-Heat.",
+  "precauciones": "Avoid high doses in Qi deficiency, poor appetite, Stomach Cold, or diarrhea. Contraindicated in Yang deficiency or Cold patterns. Possible allergy in people sensitive to the Asteraceae (daisy) family.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/JuHua.html"
+  ],
+  "etiquetas": [
+   "chrysanthemum flowers"
+  ],
+  "id": "HRB-045",
+  "formulas": [
+   "TCM-003"
+  ]
+ },
+ {
+  "pinyin": "kuan dong hua",
+  "chino": "款冬花",
+  "latin": "Flos Farfarae (Tussilago farfara)",
+  "nombre_es": "coltsfoot flower (tussilago)",
+  "nombre_en": "coltsfoot flower (tussilago)",
+  "parte": "flower buds",
+  "naturaleza": "warm",
+  "sabor": [
+   "pungent",
+   "sweet"
+  ],
+  "meridianos": [
+   "Lung"
+  ],
+  "categoria_mtc": "relieves cough and wheezing",
+  "acciones": [
+   "moistens the Lung and directs Qi downward",
+   "stops cough",
+   "transforms Phlegm"
+  ],
+  "indicaciones_tradicionales": [
+   "acute or chronic cough of any kind, especially due to Cold",
+   "wheezing and chronic asthma",
+   "chronic bronchitis",
+   "smoker's cough",
+   "cough with blood-tinged sputum (in combination, with caution)",
+   "lung abscess with purulent sputum"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a middle-grade herb. It is traditionally used honey-toasted to moisten the Lung and is often combined with zi wan for chronic cough.",
+  "precauciones": "Avoid in cough due to Heat or Yin deficiency; use caution with bloody or purulent cough. Contraindicated in pregnancy and breastfeeding. Contains pyrrolizidine alkaloids that are potentially toxic to the liver: avoid prolonged use or high doses. High doses may cause fainting and apnea.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/KuanDongHua.html"
+  ],
+  "etiquetas": [
+   "tussilago flower buds"
+  ],
+  "id": "HRB-046",
+  "formulas": [
+   "TCM-002"
+  ]
+ },
+ {
+  "pinyin": "lian qiao",
+  "chino": "连翘",
+  "latin": "Fructus Forsythiae (Forsythia suspensa (Thunb.) Vahl)",
+  "nombre_es": "forsythia fruit",
+  "nombre_en": "forsythia fruit",
+  "parte": "fruit",
+  "naturaleza": "cool",
+  "sabor": [
+   "bitter",
+   "pungent"
+  ],
+  "meridianos": [
+   "Heart",
+   "Lung",
+   "Gallbladder",
+   "Liver",
+   "San Jiao"
+  ],
+  "categoria_mtc": "clears Heat and resolves toxins",
+  "acciones": [
+   "clears Heat and resolves toxins",
+   "reduces abscesses and dissipates nodules",
+   "disperses Wind-Heat",
+   "clears Heart Heat",
+   "promotes urination"
+  ],
+  "indicaciones_tradicionales": [
+   "Wind-Heat colds with fever and sore throat",
+   "early stages of febrile illnesses",
+   "boils, carbuncles, and abscesses",
+   "erysipelas",
+   "swollen lymph nodes and scrofula",
+   "irritability and fever due to Heat in the Heart",
+   "painful urination and blood in the urine due to Heat"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing. It is traditionally called 'the sacred herb for sores' and is a key component, together with Jin Yin Hua, of Yin Qiao San for Wind-Heat infections.",
+  "precauciones": "Contraindicated in Spleen and Stomach deficiency with loose stools, in open sores that have already drained, and in patterns of Yin deficiency with Heat.",
+  "nota": null,
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/LianQiao.html"
+  ],
+  "etiquetas": [
+   "forsythia fruit"
+  ],
+  "id": "HRB-047",
+  "formulas": [
+   "TCM-003"
+  ]
+ },
+ {
+  "pinyin": "lian zi",
+  "chino": "莲子",
+  "latin": "Nelumbo nucifera Gaertn. (Semen Nelumbinis)",
+  "nombre_es": "lotus seed",
+  "nombre_en": "lotus seed",
+  "parte": "seed",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet",
+   "astringent"
+  ],
+  "meridianos": [
+   "Spleen",
+   "Kidney",
+   "Heart"
+  ],
+  "categoria_mtc": "stabilizes and binds (astringent)",
+  "acciones": [
+   "strengthens the Spleen and stops diarrhea",
+   "benefits the Kidney and secures Essence",
+   "nourishes the Heart and calms the spirit",
+   "astringes to stop vaginal discharge"
+  ],
+  "indicaciones_tradicionales": [
+   "chronic diarrhea and poor appetite due to Spleen deficiency",
+   "seminal emissions and premature ejaculation due to Kidney deficiency",
+   "excessive vaginal discharge",
+   "frequent urination",
+   "insomnia, palpitations, and restlessness due to Heart-Kidney disharmony",
+   "anxiety"
+  ],
+  "uso_historico": "Recorded in the Shen Nong Ben Cao Jing as a superior-grade herb; the name lian zi appears in Tao Hongjing's Ben Cao Jing Ji Zhu. It is a key ingredient of Shen Ling Bai Zhu San for diarrhea due to Spleen deficiency and is also eaten as food.",
+  "precauciones": "Avoid in constipation or dry stools, food stagnation, acute Heat patterns, and Yin deficiency with dryness.",
+  "nota": null,
+  "fuentes": [
+   "https://www.meandqi.com/knowledge-base/herbs/lian-zi"
+  ],
+  "etiquetas": [
+   "lotus seed"
+  ],
+  "id": "HRB-048",
+  "formulas": [
+   "TCM-012",
+   "TCM-013"
+  ]
+ },
+ {
+  "pinyin": "ling zhi",
+  "chino": "灵芝",
+  "latin": "Ganoderma (Ganoderma lucidum (Leyss. ex Fr.) Karst.)",
+  "nombre_es": "reishi mushroom (ganoderma)",
+  "nombre_en": "reishi mushroom, ganoderma",
+  "parte": "fruiting body (the label 'reishi mushroom mycelia' refers to the mycelium)",
+  "naturaleza": "neutral",
+  "sabor": [
+   "sweet",
+   "bitter"
+  ],
+  "meridianos": [
+   "Heart",
+   "Liver",
+   "Lung",
+   "Kidney",
+   "Spleen"
+  ],
+  "categoria_mtc": "nourishes the Heart and calms the spirit",
+  "acciones": [
+   "tonifies Heart Qi and Blood and calms the spirit",
+   "transforms Phlegm and stops cough and wheezing",
+   "tonifies Qi and nourishes Blood"
+  ],
+  "indicaciones_tradicionales": [
+   "insomnia due to Heart deficiency",
+   "palpitations",
+   "poor memory and forgetfulness",
+   "anxiety and restlessness",
+   "chronic cough and wheezing due to deficiency or Phlegm-Dampness",
+   "fatigue and weakness due to consumptive deficiency",
+   "shortness of breath and poor appetite due to deficiency"
+  ],
+  "uso_historico": "Classified as a superior substance in the Shen Nong Ben Cao Jing, which describes six types according to color. It was traditionally called the 'mushroom of immortality' and used as a tonic for longevity and to calm the spirit.",
+  "precauciones": "Use with caution in excess patterns. May cause skin rashes, diarrhea, dry mouth, or flushing. May potentiate anticoagulants/antiplatelet drugs, antihypertensives, and immunosuppressants; cases of liver toxicity have been reported with powdered preparations. Traditionally incompatible with Chang Shan and Yin Chen Hao.",
+  "nota": "This entry also covers 'reishi mushroom mycelia'; the traditional information refers to the fruiting body, and the mycelium may differ in composition.",
+  "fuentes": [
+   "https://www.americandragon.com/Individualherbsupdate/LingZhi.html",
+   "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom"
+  ],
+  "etiquetas": [
+   "ganoderma mushroom (fruiting body)"
+  ],
+  "id": "HRB-049",
+  "formulas": [
+   "TCM-008",
+   "TCM-014",
+   "TCM-015"
+  ]
+ }
+]

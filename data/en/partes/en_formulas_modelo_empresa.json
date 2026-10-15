@@ -1,0 +1,2358 @@
+{
+ "modelo": [
+  {
+   "titulo": "Overview of Nature's Sunshine's Chinese system",
+   "texto": "Nature's Sunshine's (NSP) Chinese formula system is a commercial, simplified adaptation of Traditional Chinese Medicine (TCM) for Western distributors. Each formula is described according to the Five Elements (Wood, Fire, Earth, Metal, Water) and according to whether it addresses a 'stressed constitution' (excess; a 'reducing' formula, e.g. 'wood-reducing', 'earth reducing', 'calm a stressed fire constitution') or a 'weakened constitution' (deficiency; an 'enhancing/tonifying' formula, e.g. 'enhance earth', 'strengthen a weakened wood constitution'). There are also formulas for Qi (Mood Elevator for 'sagging'/stagnant Qi, Trigger Immune for deficient Qi) and for Heat/Dryness (IF-C for excess Yang/Heat, HY-C for Yin deficiency). NSP groups 14 TCM concentrates into two packs: the Chinese Positive Pack (+, 'yang') with Anti-Gas, IF-C, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator and Breathe Activator; and the Chinese Negative Pack (-, 'yin') with Lung Support, Blood Stimulator, HY-C, KB-C, Nervous Fatigue, Spleen Activator and Trigger Immune. When these packs are cross-referenced with NSP's descriptions and with the Tree of Light (Steven Horne) constitutional questionnaire, the seven '+' formulas match the EXCESS categories (excess Wood, Fire, Earth, Metal, Water, excess Yang and sagging Qi) and the seven '-' formulas match the DEFICIENCY categories (deficient Wood, Fire, Earth, Metal, Water, Yin deficiency and deficient Qi). This correspondence is the compiler's synthesis based on the sources; no source found publishes the complete table explicitly. VS-C and Mineral-Chi Tonic do not belong to either pack. Traditional use according to Chinese medicine and NSP distributor literature; this is not a proven medical treatment and does not replace professional advice.",
+   "id": "MOD-01"
+  },
+  {
+   "titulo": "Positive (Yang) formulas",
+   "texto": "'Positive' (+) = 'yang'. NSP describes the Positive Pack as 'yang-building' / 'Build yang energy with 7 concentrated blends' (current marketing text). However, judging by their content, the '+' formulas are the REDUCING / CLEANSING formulas for excess conditions or a 'stressed constitution': Liver Balance ('wood-reducing', stressed Wood), Anti-Gas ('earth reducing'), Kidney Activator ('water-reducing', 'clear the dampness'), Breathe Activator ('stressed metal constitution', 'ventilate the lungs'), IF-C ('qing re', 'clear the heat'; labeled 'Yang formula' in Canada), Stress Relief ('an shen', 'fire-reducing', 'calm a stressed fire constitution') and Mood Elevator ('jie yu', regulates/releases 'trapped' Qi). Steven Horne classifies most of them as 'Cleansers': Kidney Activator ('Cleanser'), Anti-Gas ('cleansing'), Stress Relief ('cleanser... Reducing action'), IF-C ('cleanses'). The interpretation most consistent with the sources: '+' indicates formulas for yang/excess patterns (Heat, congestion, stagnation, retained Dampness), that is, formulas that reduce or disperse; the marketing phrase 'build yang energy' partly contradicts this reading and is recorded as a discrepancy. In addition, an NSP product sheet for Stress Relief 100 capsules marks it 'Stress Relief (-)', and the one for Mood Elevator calls it 'fire-enhancing' even though it is in the positive pack: further inconsistencies in NSP's own material.",
+   "id": "MOD-02"
+  },
+  {
+   "titulo": "Negative (Yin) formulas",
+   "texto": "'Negative' (-) = 'yin'. NSP describes the Negative Pack as 'Seven yin-building Chinese formulas' and says it promotes 'yin, or negative energy'; in TCM, Yin represents what cools, moistens and nourishes. Judging by their content, the '-' formulas are TONIFYING / BUILDING formulas for deficiency or a 'weakened constitution': Blood Stimulator ('bu xue', 'strengthen a weakened wood constitution'), Nervous Fatigue ('yang xin', 'fire-enhancing'), Spleen Activator ('wen zhong', 'Enhance Earth', 'supports a weak earth element'), Lung Support ('fu lei', 'weakened metal constitution'), KB-C ('jian gu', 'strengthen the water element', nourishes Kidney Yang), HY-C ('bu yin', nourishes Yin / 'reduce fire and strengthen water') and Trigger Immune ('sheng mai', 'strengthen a weakened energy constitution'). Steven Horne calls them 'Builders' (KB-C: 'Builder - works on weakened Kidneys'; Spleen Activator: 'building'; Nervous Fatigue: 'builder'; Lung Support and Trigger Immune: tonics). Note: 'negative' does not strictly mean 'cold': KB-C nourishes Kidney Yang and Spleen Activator 'warms the center', but both are tonics for deficiency.",
+   "id": "MOD-03"
+  },
+  {
+   "titulo": "The Five Elements and the organs",
+   "texto": "Correspondences used by NSP/Tree of Light (synthesis): WOOD (Liver/Gallbladder; detoxification, Blood): excess/stressed -> Liver Balance (+, 'tiao he', Wood-reducing); deficient/weakened -> Blood Stimulator (-, 'bu xue', Blood tonic). FIRE (Heart; NSP: governs emotional states, mood and blood circulation): excess/stressed -> Stress Relief (+, 'an shen') and IF-C (+, 'qing re', Heat/acute inflammation); deficient -> Nervous Fatigue (-, 'yang xin', Fire-enhancing). EARTH (Spleen, pancreas, Stomach; digestion): excess -> Anti-Gas (+, 'xiao dao', Earth-reducing); deficient -> Spleen Activator (-, 'wen zhong', Earth-enhancing). METAL (Lungs and Large Intestine): excess/stressed -> Breathe Activator (+, 'xuan fei'); deficient/weakened -> Lung Support (-, 'fu lei'); VS-C is described as 'metal enhancing' (outside the packs). WATER (Kidneys, Bladder, adrenals, bones; NSP: 'reservoir of life'): excess (Dampness/fluid retention) -> Kidney Activator (+, 'qu shi', Water-reducing); deficient -> KB-C (-, 'jian gu'). Cross-cutting categories in the Tree of Light questionnaire: Excess Yang -> IF-C (+); Yin Deficiency -> HY-C (-); sagging/stagnant Qi ('Sagging Qi') -> Mood Elevator (+); deficient Qi -> Trigger Immune (-). Mineral-Chi Tonic is described as balancing the 12 meridians and energizing the five constitutional types. The formula-to-category assignment for the questionnaire is the compiler's deduction based on descriptions from NSP and Steven Horne; the questionnaire itself does not name products.",
+   "id": "MOD-04"
+  },
+  {
+   "titulo": "How to choose between the positive and the negative formula",
+   "texto": "1) Determine which element is most out of balance and whether it is in excess ('stressed') or deficiency ('weakened'). Tree of Light offers the questionnaire 'What is Your Chinese Constitutional Type?': 14 lists of 14 symptoms (Wood/Fire/Earth/Metal/Water in excess and in deficiency, Excess Yang, Yin Deficiency, sagging Qi, deficient Qi), each symptom scored 0 (never), 1 (past/mild), 2 (current/moderate) or 3 (severe); the result shows the element with the highest total score and whether excess or deficiency predominates. The lists include tongue signs (red tip, thick coating, teeth marks, pale tongue, dry red tongue, trembling tongue). 2) If excess/acute signs predominate (congestion, heat, gas, fluid retention, tension, irritability), choose the element's '+' formula (reducing/cleansing); if deficiency/chronic signs predominate (weakness, paleness, fatigue, dryness, exhaustion), choose the '-' formula (tonifying/building). Examples from Steven Horne: digestion with gas, foul-smelling belching and acute indigestion -> Anti-Gas (cleansing); a pale, thin person who cannot gain weight -> Spleen Activator (building); fluid retention -> Kidney Activator ('Cleanser'); weak kidneys with low back pain, weak knees/ankles, osteoporosis -> KB-C ('Builder'); acute stress -> Stress Relief; adrenal exhaustion/'burnout' -> Nervous Fatigue; acute inflammation and heat -> IF-C ('cleanses'); chronic inflammation/low-grade viruses -> VS-C ('builds'). Horne notes that children tend to have more acute 'stressed' conditions than chronic ones. 3) Horne's general principle ('Yin and Yang in Diagnosis'): assess hot vs. cold and damp vs. dry before choosing remedies, and use remedies with energetics opposite to the imbalance. 4) The complete packs (+ or -) are taken as 1 capsule from each bottle daily for 30 days, for three consecutive months (NSP directions). No NSP sources were found that teach pulse diagnosis for choosing these formulas. The 'TCM' concentrates are equivalent to about 5 capsules of the regular version (according to the distributor Four Winds/webnat).",
+   "id": "MOD-05"
+  },
+  {
+   "titulo": "History of the system",
+   "texto": "Nature's Sunshine Products (Utah, USA) has marketed Chinese formulas since the mid-1980s. NSP states that it has worked with the same herb supplier in China for more than 35 years. VS-C was developed in the mid-1980s with Dr. Wenwei Xie, a TCM physician from Beijing who came to the US on a research project on Chinese remedies for immunity; Xie is also the author of HRP-C (a Canadian yin-yang balancing formula). According to the Steven Horne article published by Four Winds Nutrition, Liver Balance was designed by 'a Chinese herbal doctor' (unnamed), and Horne spent three weeks in mainland China when NSP was launching its Chinese line. Steven Horne (registered herbalist, former president of the American Herbalists Guild, founder of Tree of Light Publishing) was an NSP consultant and formulator and popularized these formulas with a body-systems approach ('Builder'/'Cleanser'), in 'The Comprehensive Guide to Nature's Sunshine Products' and in the Tree of Light Chinese constitutional questionnaire; his references cite, among others, the materia medica by Bensky and Gamble and 'Oriental Materia Medica' by Hong-Yen Hsu (as bibliography, not as the author of the formulas). The formulas have Chinese names that are therapeutic principles (tiao he, bu xue, xiao dao, wen zhong, yang xin, an shen, qing re, bu yin, jian gu, qu shi, fu lei, xuan fei, jie yu, sheng mai). They are sold in a regular version (100 capsules) and as a 'TCM Concentrate' (30 capsules, concentrated extract). In Canada several carry '-C' codes (e.g. HS-C ~ Nervous Fatigue, LH-C = Lung Support, STR-C ~ Stress Relief). Documented former names: Blood Stimulator = 'Blood Build'; Breathe Activator = 'Breathe E-Z'; Stress Relief = 'STR-C'. Jake Fratkin (Chinese Herbal Patent Formulas) includes an appendix of NSP products with names such as 'Tiao He - Bupleurum and Peony 12 Combination', 'Bu Xue - Dang Gui and Peony 16 Formula' and 'Yang Xin - Biota and Zizyphus 18 Formula' (seen only in a search summary; the text could not be opened). It was not found who originally designed the element-pair scheme, nor the exact launch dates of each formula; no old NSP manuals were found on archive.org either.",
+   "id": "MOD-06"
+  },
+  {
+   "titulo": "Energetics of the positive pack (+)",
+   "texto": "Pack of 7 TCM concentrates (Anti-Gas, IF-C, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator, Breathe Activator). NSP: 'Build yang energy'; 'each herb supports an energy level in one of six major organs; a seventh product supports overall energy function'. Judging by their content, they are reducing/cleansing formulas for excess.\nPatterns: Excess / yang patterns\nTraditional use: circulatory, urinary, liver, nervous, digestive and respiratory support\nNot indicated for: Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Use: 1 capsule from each bottle daily for 30 days, for three consecutive months.",
+   "id": "MOD-07"
+  },
+  {
+   "titulo": "Energetics of the negative pack (−)",
+   "texto": "Pack of 7 TCM concentrates (Lung Support, Blood Stimulator/Blood Build, HY-C, KB-C, Nervous Fatigue, Spleen Activator, Trigger Immune). NSP: 'Seven yin-building Chinese formulas'; promotes 'yin, or negative energy'. Judging by their content, they are tonifying formulas for deficiency.\nPatterns: Deficiency / yin patterns\nSymptoms: restlessness, dryness, fatigue or difficulty staying calm (symptoms of depleted yin cited by a distributor)\nTraditional use: respiratory, circulatory, structural, nervous and immune support\nNot indicated for: Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Use: 1 capsule from each bottle daily for 30 days, for three consecutive months.",
+   "id": "MOD-08"
+  },
+  {
+   "titulo": "Chinese Positive Pack TCM",
+   "texto": "7 yang-building Chinese formulas, concentrated blends from Traditional Chinese Medicine. Supports the circulatory, urinary, hepatic, nervous, digestive and respiratory systems, and the function of the heart, kidneys, liver, lungs, pancreas and spleen. Each herb in this pack supports a corresponding energy level in one of the six major organs; a seventh product supports the body's overall energy function. Directions: take 1 capsule from each bottle daily for 30 days, for three consecutive months.\nType: positive/yang. Formulas included: Anti-Gas, IF-C, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator, Breathe Activator TCM. Code 13343. Reference price: 379.0 USD. Official product page: https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+   "id": "MOD-09"
+  },
+  {
+   "titulo": "Chinese Negative Pack, TCM",
+   "texto": "A powerful combination of Chinese formulas that supports the energy levels of six major organs, plus a seventh formula that supports overall energy throughout the body. Supports the respiratory, circulatory, structural, nervous and immune systems, and the function of the heart, kidneys, liver, lungs, pancreas and spleen. Directions: take 1 capsule from each bottle daily for 30 days, for three consecutive months.\nType: negative/yin. Formulas included: Lung Support, Blood Stimulator, HY-C, KB-C, Nervous Fatigue, Spleen Activator, Trigger Immune. Code 13344. Reference price: 379.0 USD. Official product page: https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+   "id": "MOD-10"
+  },
+  {
+   "titulo": "Build Yang/Positive (stack)",
+   "texto": "Includes 1 TCM Positive Pack and a free 16 oz Chlorophyll. Seven products that support energy levels in six major organs, with yang-building formulations rooted in Traditional Chinese Medicine. Supports the circulatory, urinary, hepatic, nervous, digestive and respiratory systems, and the function of the heart, kidneys, liver, lungs, pancreas and spleen. Strengthens warmth, vitality and drive; supports energetic balance and overall resilience; together with the chlorophyll, it gently detoxifies and provides antioxidant protection.\nType: positive/yang. Formulas included: Anti-Gas, Kidney Activator, Liver Balance, Stress Relief, Mood Elevator, Breathe Activator, IF-C, (+ free 16 oz Chlorophyll). Code K424. Reference price: 245.0 USD. Official product page: https://www.naturessunshine.com/product/build-yang-positive2",
+   "id": "MOD-11"
+  },
+  {
+   "titulo": "Build Yin/Negative (stack)",
+   "texto": "Includes 1 TCM Negative Pack and a free 16 oz Chlorophyll. Restores balance and calm: seven herbal products, each supporting the energy levels of major organs, with yin-stabilizing formulations guided by Traditional Chinese Medicine. Supports the respiratory, circulatory, structural, nervous and immune systems, and the function of the heart, kidneys, liver, lungs, pancreas and spleen. Nurtures a cooling, grounding energy; supports balance, resilience and inner peace.\nType: negative/yin. Formulas included: Blood Stimulator, Trigger Immune, HY-C, Lung Support, Nervous Fatigue, Spleen Activator, KB-C, (+ free 16 oz Chlorophyll). Code K425. Reference price: 245.0 USD. Official product page: https://www.naturessunshine.com/product/build-yin-negative2",
+   "id": "MOD-12"
+  }
+ ],
+ "formulas": [
+  {
+   "nombre": "Anti-Gas",
+   "nombres_anteriores": [
+    "Chinese Anti-Gas",
+    "Anti Gas Formula (Chinese)",
+    "Xiao Dao"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Earth (excess; 'earth reducing')",
+   "organos": [
+    "Stomach",
+    "Spleen",
+    "pancreas",
+    "intestines",
+    "urinary system"
+   ],
+   "meridianos": [
+    "Stomach",
+    "Spleen"
+   ],
+   "accion_energetica": "Earth-reducing; Chinese name 'xiao dao' = 'clear the congestion'. According to NSP it 'moves chi toward the head' and supports the elimination of excess Dampness and toxins. Horne: a cleanser ('cleansing') that expels gas and undigested food.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): the composition (agastache/huo xiang, magnolia, citrus peel, atractylodes, hoelen, ginger, licorice, platycodon, crataegus/shan zha, shen qu) resembles Huo Xiang Zheng Qi San combined with herbs from Bao He Wan (food stagnation).",
+   "patrones_mtc": [
+    "Excess Earth",
+    "Food congestion/stagnation (inferred from 'clear the congestion')",
+    "Dampness in the Middle Jiao (inferred from 'elimination of excess Dampness')"
+   ],
+   "sintomas": [
+    "intestinal gas and bloating",
+    "foul-smelling belching",
+    "acute indigestion",
+    "bad breath",
+    "bad taste in the mouth",
+    "heartburn or reflux",
+    "nausea",
+    "thick tongue coating",
+    "chronic worry ('Excess Earth' symptoms from the questionnaire)"
+   ],
+   "condiciones_tradicionales": [
+    "occasional indigestion",
+    "acute digestive upset",
+    "detoxification support",
+    "urinary system support"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Because of its cleansing nature it is aimed at acute/excess conditions; for weak digestion due to deficiency, Horne recommends Spleen Activator.",
+   "descripcion_oficial": "According to Chinese philosophy, this super-concentrated formula helps move extra chi toward the head and supports the natural elimination of Dampness and toxins. It is considered 'earth reducing' in Chinese herbalism; its Chinese name translates as 'clear the congestion'.",
+   "energetica_oficial": "'Earth-reducing' formula; moves chi toward the head; eliminates Dampness.",
+   "beneficios_oficiales": [
+    "Supports the digestive, intestinal and urinary systems",
+    "Honored in TCM as 'earth reducing'"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1018",
+     "precio_usd": 56.45,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $42.30)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/anti-gas-tcm-conc"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1869",
+     "precio_usd": 45.05,
+     "presentacion": "100 veggie capsules; 33 servings; 16-day supply (subscription: $33.75)",
+     "modo_de_uso": "Take 3 veggie capsules with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/anti-gas-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-040",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-068",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-032",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-027",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-070",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-077",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-066",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-042",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-anti-gas-100-caps/",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/anti-gas-chinese",
+    "https://www.naturessunshine.com/product/anti-gas-tcm-conc",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-001"
+  },
+  {
+   "nombre": "Breathe Activator",
+   "nombres_anteriores": [
+    "Breathe E-Z TCM",
+    "Breath Activator"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Metal (excess; 'stressed metal constitution')",
+   "organos": [
+    "Lungs",
+    "bronchi",
+    "sinuses",
+    "respiratory tract"
+   ],
+   "meridianos": [
+    "Lung"
+   ],
+   "accion_energetica": "'xuan fei' = 'ventilate the lungs' (ventilate/open the Lungs). Mobilizes mucus to cleanse toxins and clear debris from the Lungs; citrus and schisandra 'enhance the energy of the lungs'. A cleanser for stressed Metal.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): citrus peel, typhonium/pinellia, hoelen and licorice form the core of Er Chen Tang; perilla, apricot seed, magnolia, morus, tussilago, fritillaria and platycodon are classic herbs for descending Lung Qi and transforming Phlegm.",
+   "patrones_mtc": [
+    "Excess Metal",
+    "Phlegm/congestion in the Lung (inferred)"
+   ],
+   "sintomas": [
+    "lung and sinus congestion",
+    "cough",
+    "wheezing",
+    "feeling of fullness in the chest",
+    "white or pale mucus",
+    "thick white tongue coating",
+    "excessive sadness or grief ('Excess Metal' questionnaire)"
+   ],
+   "condiciones_tradicionales": [
+    "bronchial and lung health",
+    "sinus/nasal congestion",
+    "seasonal respiratory support",
+    "asthma, bronchitis, allergies (listed under 'Excess Metal')"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "Its Chinese name translates as 'ventilate the lungs'. It is a formula for a stressed metal constitution. The blend aims to help the bronchioles clear debris and maintain lung health, and it stimulates mucus production to help cleanse the respiratory tract. Citrus peel and schizandra support the body's efforts to eliminate debris from the respiratory system and increase energy in the lungs.",
+   "energetica_oficial": "Stressed Metal constitution; 'ventilate the lungs'. Lungs.",
+   "beneficios_oficiales": [
+    "Helps the bronchioles clear debris",
+    "Maintains lung health",
+    "Helps cleanse the respiratory tract"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1036",
+     "precio_usd": 54.9,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $41.15)",
+     "modo_de_uso": "Take 1 capsule daily with a meal.",
+     "url": "https://www.naturessunshine.com/product/breathe-activator"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-094",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-011",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-096",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-042",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-083",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-032",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-065",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-046",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/breathe-ez-tcm",
+    "https://inttherapy.com/products.json",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/breathe-activator",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-002"
+  },
+  {
+   "nombre": "IF-C",
+   "nombres_anteriores": [
+    "Qing Re"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Fire (stressed fire constitution); Excess Yang category",
+   "organos": [
+    "immune system",
+    "structural system (joints)",
+    "circulation"
+   ],
+   "meridianos": [
+    "Heart (Fire)"
+   ],
+   "accion_energetica": "'qing re' = 'clear the heat'. Cooling; clears Heat and toxins: 'quenches the fire element and restores balance by clearing toxins' (Canadian label, which labels it a 'Yang formula'). Horne: a cleanser for acute inflammation and excess Heat.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): scute, coptis, phellodendron and gardenia make up the complete Huang Lian Jie Du Tang; lonicera, forsythia, arctium, schizonepeta, platycodon and licorice come from Yin Qiao San.",
+   "patrones_mtc": [
+    "Excess Yang",
+    "Toxic Heat/Fire (inferred)",
+    "Stressed Fire"
+   ],
+   "sintomas": [
+    "fever or fever with chills",
+    "sore throat",
+    "earache",
+    "irritated or bleeding gums",
+    "red eyes",
+    "acute skin eruptions",
+    "nosebleeds",
+    "feeling of heat or burning",
+    "facial redness",
+    "bright red tongue",
+    "rapid pulse/heartbeat"
+   ],
+   "condiciones_tradicionales": [
+    "acute inflammatory response",
+    "immune support",
+    "joint function",
+    "muscle soreness after exercise"
+   ],
+   "no_indicado_para": "The sources do not list specific contraindications. Horne reserves it for acute Heat/inflammation; for chronic low-grade inflammation he recommends VS-C (an inference about use, not a contraindication).",
+   "descripcion_oficial": "Nourishes the structural, immune and circulatory systems. Helps eliminate toxic metabolic waste. Stimulates blood flow to support waste removal and promote a sense of well-being. Contains the same herbs as IF-C in concentrated form, based on the theories of Traditional Chinese Medicine.",
+   "energetica_oficial": "Calms a stressed Fire constitution; qing re = 'clear the heat'.",
+   "beneficios_oficiales": [
+    "Nourishes the structural, immune and circulatory systems",
+    "Helps eliminate toxic metabolic waste",
+    "Stimulates blood flow",
+    "May promote a sense of well-being"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1007",
+     "precio_usd": 56.45,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $42.30)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/if-c-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1875",
+     "precio_usd": 41.45,
+     "presentacion": "100 veggie capsules; 50 servings; 25-day supply (subscription: $31.05)",
+     "modo_de_uso": "Take 2 veggie capsules with a meal twice daily.",
+     "url": "https://www.naturessunshine.com/product/if-c-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-043",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-047",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-012",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-045",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-093",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-004",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-042",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-044",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-039",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-057",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-035",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-018",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-053",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-031",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-037",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://healthy-sunshine.com/chinese-if-c-100-caps/",
+    "https://lecapucin.ca/en/Product-16209-Nature-s-Sunshine-IF-C-100-caps",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.naturessunshine.com/product/if-c-chinese",
+    "https://www.naturessunshine.com/product/if-c-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-003"
+  },
+  {
+   "nombre": "Kidney Activator",
+   "nombres_anteriores": [
+    "Chinese Kidney Activator",
+    "Qu Shi"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Water (excess; 'water-reducing')",
+   "organos": [
+    "Kidneys",
+    "Bladder",
+    "urinary tract",
+    "lymphatic system"
+   ],
+   "meridianos": [
+    "Kidney",
+    "Bladder"
+   ],
+   "accion_energetica": "'qu shi' = 'clear the dampness' / 'eliminate moisture'. Drains Dampness and retained fluids (morus, hoelen, alisma, astragalus). Horne: 'Cleanser - for water retention where the kidneys need to be stimulated to flush fluid out'.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): hoelen, polyporus, alisma, atractylodes and cinnamon twig make up the complete Wu Ling San; with magnolia and citrus peel it resembles Wei Ling Tang; astragalus and siler evoke Fang Ji Huang Qi Tang.",
+   "patrones_mtc": [
+    "Excess Water",
+    "Dampness / fluid retention"
+   ],
+   "sintomas": [
+    "edema or fluid retention",
+    "scanty or clear urine",
+    "feeling of heaviness and sluggishness (especially in the afternoon)",
+    "back pain",
+    "leg, neck or shoulder pain",
+    "moist tongue with white coating",
+    "teeth marks on the tongue",
+    "shyness and indecision"
+   ],
+   "condiciones_tradicionales": [
+    "water retention",
+    "urinary and lymphatic support",
+    "joint health",
+    "bladder infections and burning urination (listed under 'Excess Water')"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). A distributor's product sheet warns of a possible allergy in people sensitive to psyllium. Horne notes that it may irritate inflamed kidneys (nephritis); in that case he prefers KB-C.",
+   "descripcion_oficial": "Its Chinese name, qu shi, translates as 'eliminate moisture'. It provides traditional support for the urinary system and kidneys and contains herbs traditionally used to eliminate retained water. Hoelen was historically used to 'drain dampness', and alisma helps promote the flow of moisture in TCM for bladder and urinary tract support. Astragalus may help eliminate retained water from the body.",
+   "energetica_oficial": "Qu shi = 'eliminate moisture'. Kidneys, bladder.",
+   "beneficios_oficiales": [
+    "Traditional support for the urinary system and kidneys",
+    "Helps eliminate retained water"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1040",
+     "precio_usd": 47.65,
+     "presentacion": "30 veggie capsules; 30 servings; 30-day supply (subscription: $35.70)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/kidney-activator-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1872",
+     "precio_usd": 37.3,
+     "presentacion": "100 veggie capsules; 100 servings; 100-day supply (subscription: $27.95)",
+     "modo_de_uso": "Take 1 veggie capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/kidney-activator-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-018",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-055",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-065",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-089",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-009",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-004",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-032",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-095",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-028",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-kidney-activator-100-caps/",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.naturessunshine.com/product/kidney-activator-chinese",
+    "https://www.naturessunshine.com/product/kidney-activator-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-004"
+  },
+  {
+   "nombre": "Liver Balance",
+   "nombres_anteriores": [
+    "Chinese Liver Balance",
+    "Tiao He",
+    "Bupleurum and Peony 12 Combination (apéndice de Fratkin, según resumen de búsqueda)"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Wood (excess; 'wood-reducing', 'stressed wood constitution')",
+   "organos": [
+    "Liver",
+    "Gallbladder",
+    "digestive system",
+    "nervous system"
+   ],
+   "meridianos": [
+    "Liver",
+    "Gallbladder"
+   ],
+   "accion_energetica": "'tiao he' = 'harmonizing' (Horne: 'mediate harmony'). Cools ('cool') a stressed Liver; bupleurum is 'the most important cooling herb', which strengthens against stress by promoting the flow of chi. The basis of the Tiao He Cleanse program.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): bupleurum, scute, ginseng, typhonium/pinellia, licorice, ginger, cinnamon and peony correspond almost completely to Chai Hu Gui Zhi Tang; dang gui, atractylodes and fushen/hoelen add the core of Xiao Yao San, and zhishi that of Si Ni San.",
+   "patrones_mtc": [
+    "Excess Wood",
+    "Stressed Liver / Liver Qi stagnation (inferred from 'harmonizing' and bupleurum)",
+    "Liver Heat ('cool a stressed liver')"
+   ],
+   "sintomas": [
+    "irritability or anger",
+    "stress and tension",
+    "migraines",
+    "discomfort under the right ribs",
+    "poor fat digestion",
+    "morning tiredness",
+    "poor sleep and brain fog (Horne)",
+    "feeling of a lump in the throat",
+    "acne or rashes",
+    "PMS"
+   ],
+   "condiciones_tradicionales": [
+    "liver detoxification support",
+    "occasional stress and irritability",
+    "upper digestion during times of tension",
+    "gallbladder problems",
+    "hypoglycemia",
+    "allergies",
+    "skin problems"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "This formula optimizes liver health while supporting the digestive and nervous systems during times of tension. It is traditionally used to support liver function, reduce stress and restore vigor, and it supports healthy digestion. The concentrated blend represents a 'wood-reducing' formula according to the philosophy of Traditional Chinese Medicine, designed to support both the digestive and nervous systems in the face of stress-related concerns.",
+   "energetica_oficial": "'Wood-reducing' formula. Liver.",
+   "beneficios_oficiales": [
+    "Optimizes liver health",
+    "Supports the digestive and nervous systems",
+    "Helps reduce stress and restore vigor",
+    "Supports healthy digestion"
+   ],
+   "precauciones": null,
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1008",
+     "precio_usd": 44.55,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $33.40)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/liver-balance-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "22204",
+     "precio_usd": 35.2,
+     "presentacion": "100 veggie capsules; 20 servings; 20-day supply (subscription: $26.40)",
+     "modo_de_uso": "Take 5 veggie capsules with a meal once daily.",
+     "url": "https://www.naturessunshine.com/product/liver-balance-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-004",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-028",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-020",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-039",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-092",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html",
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-liver-balance-100-caps/",
+    "https://herbshopga.com/products/liver-balance-chinese-100",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.naturessunshine.com/product/liver-balance-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp",
+    "https://www.naturessunshine.com/product/liver-balance-chinese"
+   ],
+   "id": "TCM-005"
+  },
+  {
+   "nombre": "Mood Elevator",
+   "nombres_anteriores": [
+    "Jie Yu"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Fire according to NSP ('fire-enhancing'); acts on the Liver (Wood) and Qi. 'Sagging Qi' category in the questionnaire (deduction).",
+   "organos": [
+    "Liver",
+    "digestive system",
+    "nervous system",
+    "Lungs (mucus)",
+    "lymphatic system",
+    "glands (pancreas, adrenals, reproductive)"
+   ],
+   "meridianos": [
+    "Liver"
+   ],
+   "accion_energetica": "'jie yu' = 'regulate chi' / 'relieve depression'; 'regulates and releases trapped chi'. Horne: relieves 'sagging chi' and disperses stagnant Qi; expels Wind (constriction and spasm) and Dampness (excess fluids). Discrepancy: NSP calls it 'fire-enhancing', but it is in the positive pack.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): perilla, cyperus and citrus recall Xiang Su San; bupleurum, cyperus, cnidium (chuan xiong), zhishi and citrus, Chai Hu Shu Gan San; hoelen, pinellia/typhonium, zhishi, bamboo and licorice, Wen Dan Tang.",
+   "patrones_mtc": [
+    "Sagging Qi",
+    "Liver Qi stagnation",
+    "Wind and Dampness (Horne)"
+   ],
+   "sintomas": [
+    "depression and sadness",
+    "heaviness and lethargy",
+    "fatigue",
+    "insomnia and restless dreams",
+    "anxiety and nervous tension",
+    "feeling of a lump in the throat",
+    "chest tightness or pain",
+    "wandering pains",
+    "prolapse of the colon or uterus",
+    "abdominal bloating and pain",
+    "muscle spasms"
+   ],
+   "condiciones_tradicionales": [
+    "depression, fatigue, insomnia, neurosis, tinnitus, postpartum depression, dysmenorrhea, morning sickness, menopause, lung congestion and PMS (Chinese uses cited by Horne)",
+    "liver and lymphatic congestion"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Horne: if taking antidepressants, do not stop them abruptly; taper them gradually under professional supervision. It may temporarily release suppressed hostility.",
+   "descripcion_oficial": "Supports mood and the nervous system; provides traditional support for the nervous system and strengthens the glandular system, which can influence mood. Supports vitality, mood and occasional sleeplessness while encouraging an overall sense of well-being. Described as a 'fire-enhancing' combination designed to regulate and 'un-trap' chi (vitality). Its Chinese name, jie yu, translates as 'relieve anxiety and tension'. According to TCM, optimal liver function supports the maintenance of mood, since the liver filters the blood that is distributed throughout the body.",
+   "energetica_oficial": "'Fire-enhancing' combination; regulates and releases chi; jie yu. Liver.",
+   "beneficios_oficiales": [
+    "Supports mood and the nervous system",
+    "Strengthens the glandular system",
+    "Supports vitality and occasional sleeplessness",
+    "Encourages an overall sense of well-being"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1035",
+     "precio_usd": 54.9,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $41.15)",
+     "modo_de_uso": "Take 1 or 2 capsules with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/mood-elevator-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1878",
+     "precio_usd": 40.4,
+     "presentacion": "100 veggie capsules; 100 servings; 100-day supply (subscription: $30.30)",
+     "modo_de_uso": "Take 1 veggie capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/mood-elevator-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-096",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-082",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-092",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-090",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-094",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-012",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-025",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-042",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-037",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://fourwindsnutrition.net/products.json",
+    "https://fourwindsnutrition.net/products/mood-elevator-100-caps",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.naturessunshine.com/product/mood-elevator-chinese",
+    "https://www.naturessunshine.com/product/mood-elevator-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-006"
+  },
+  {
+   "nombre": "Stress Relief",
+   "nombres_anteriores": [
+    "STR-C (Canadá; un distribuidor lo da como nombre anterior y Horne como fórmula 'muy similar')",
+    "An Shen"
+   ],
+   "polaridad": "positiva",
+   "elemento": "Fire (excess; 'fire-reducing', 'stressed fire constitution')",
+   "organos": [
+    "Heart",
+    "nervous system",
+    "Stomach",
+    "circulation"
+   ],
+   "meridianos": [
+    "Heart"
+   ],
+   "accion_energetica": "'an shen' = 'to pacify the spirit' (calm the spirit). Calms with heavy substances (oyster shell, abalone shell) and nervines (polygala, jujube seed, albizzia). Horne: 'cleanser... Reducing action', activates the parasympathetic nervous system. Discrepancy: it is in the positive pack, yet an NSP product sheet marks it '(-)'.",
+   "formula_clasica_base": null,
+   "patrones_mtc": [
+    "Excess Fire",
+    "Agitated Shen (inferred from 'an shen')"
+   ],
+   "sintomas": [
+    "nervous or hurried personality",
+    "restlessness",
+    "irritability",
+    "anxiety or panic attacks",
+    "tension headaches",
+    "muscle tension",
+    "palpitations",
+    "difficulty falling asleep",
+    "red tongue tip"
+   ],
+   "condiciones_tradicionales": [
+    "acute stress",
+    "emotional balance",
+    "gastric function",
+    "circulatory health"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Consult a professional if taking medications (distributor product sheet).",
+   "descripcion_oficial": "The formula aims to calm a stressed fire constitution and 'pacify the spirit'. It is traditionally used to nourish the nervous system and optimize gastric function, and it provides adaptogenic herbs to support the body against occasional stress. Contains the same 14 herbs as the non-concentrated version.",
+   "energetica_oficial": "Calms a stressed Fire constitution; 'pacify the spirit'.",
+   "beneficios_oficiales": [
+    "Nourishes the nervous system",
+    "Optimizes gastric function",
+    "Adaptogenic herbs for occasional stress"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1033",
+     "precio_usd": 75.65,
+     "presentacion": "30 veggie capsules; 30 servings; 30-day supply (subscription: $56.70)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1863",
+     "precio_usd": 43.0,
+     "presentacion": "100 veggie capsules; 100 servings; 33-day supply (subscription: $32.25)",
+     "modo_de_uso": "Take 1 veggie capsule with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate-2"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-056",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-029",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-036",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-074",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-020",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-073",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-087",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-075",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-088",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-037",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-028",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/stress-relief-tcm",
+    "https://fourwindsnutrition.net/products.json",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-positive-pack-tcm",
+    "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate",
+    "https://www.naturessunshine.com/product/stress-relief-tcm-concentrate-2",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-007"
+  },
+  {
+   "nombre": "Blood Stimulator",
+   "nombres_anteriores": [
+    "Blood Build (Chinese)",
+    "Bu Xue",
+    "Dang Gui and Peony 16 Formula (nombre en el apéndice de Fratkin, según resumen de búsqueda)"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Wood (deficiency; 'weakened wood constitution')",
+   "organos": [
+    "Liver",
+    "Blood",
+    "glands",
+    "circulation"
+   ],
+   "meridianos": [
+    "Liver"
+   ],
+   "accion_energetica": "Blood tonic; 'bu xue' = 'nurture the blood'. Strengthens a weakened Wood constitution; the chief tonic is ganoderma (reishi), a Shen tonic and adaptogen according to Horne.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): it contains dang gui, rehmannia and peony (the core of Si Wu Tang) plus astragalus, ginseng, ganoderma, turmeric and bupleurum; it does not correspond exactly to any classical formula.",
+   "patrones_mtc": [
+    "Wood Deficiency",
+    "Blood Deficiency (Liver)"
+   ],
+   "sintomas": [
+    "anemia",
+    "scanty menstruation or long cycle",
+    "general fatigue",
+    "paleness",
+    "blurred vision and dry eyes",
+    "dry skin around the eyes",
+    "discouragement or hopelessness"
+   ],
+   "condiciones_tradicionales": [
+    "anemia",
+    "menstrual problems and PMS",
+    "skin problems",
+    "migraines",
+    "chronic liver problems",
+    "immune support",
+    "blood quality and circulation"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "This concentrated herbal blend applies the theory of Traditional Chinese Medicine to support the blood, liver, glands and circulation. The Chinese call this formula bu xue, which translates as 'nurture the blood'. It strengthens a weakened wood constitution and has 'adaptogenic' properties that normalize hormone production.",
+   "energetica_oficial": "Bu xue = 'nurture the blood'; strengthens a weakened Wood constitution.",
+   "beneficios_oficiales": [
+    "Supports healthy circulation and improves blood quality",
+    "Strengthens the immune system while calming nerves and muscles",
+    "Helps eliminate toxins and prevent their buildup"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1005",
+     "precio_usd": 66.3,
+     "presentacion": "30 capsules; 30 servings (subscription: $49.70)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/blood-stimulator-tcm-conc"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-049",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-004",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-069",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-087",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-014",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-058",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-012",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-030",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-059",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-071",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-082",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/blood-build-tcm",
+    "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html",
+    "https://healthy-sunshine.com/chinese-tcm-yin-pack/",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturesbesthealthstore.com/products/blood-stimulator-chinese-100-caps",
+    "https://www.naturessunshine.com/product/blood-stimulator-tcm-conc",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-008"
+  },
+  {
+   "nombre": "HY-C",
+   "nombres_anteriores": [
+    "Bu Yin"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Water/Fire ('reduce fire and strengthen water'); Yin Deficiency category",
+   "organos": [
+    "Kidneys",
+    "pancreas (blood sugar)",
+    "Lungs",
+    "glandular system",
+    "circulation"
+   ],
+   "meridianos": [
+    "Kidney",
+    "Lung"
+   ],
+   "accion_energetica": "'bu yin' = nourish/supplement Yin (Yin understood as moisture/fluid). Moistens and cools: supports the body to 'reduce fire and strengthen water'. NSP considers it 'fire-reducing'; Horne calls it a 'Balancer' that helps cells hydrate.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): rehmannia, cornus, moutan, alisma, hoelen, anemarrhena and phellodendron are nearly all of Zhi Bai Di Huang Wan (dioscorea is missing); trichosanthes (tian hua fen), pueraria (ge gen) and ophiopogon evoke classical formulas for 'xiao ke' (thirst and wasting).",
+   "patrones_mtc": [
+    "Yin Deficiency",
+    "Deficiency Heat (inferred from 'reduce fire')",
+    "Dryness"
+   ],
+   "sintomas": [
+    "constant thirst",
+    "frequent urination",
+    "dry mouth, eyes and skin",
+    "night sweats",
+    "ringing in the ears",
+    "dry cough",
+    "burning sensation in the hands and feet",
+    "constipation with dry stools",
+    "dry red tongue"
+   ],
+   "condiciones_tradicionales": [
+    "maintaining blood sugar levels already within the normal range",
+    "tendency toward hyperglycemia/early diabetes according to Horne",
+    "insulin resistance (Horne)",
+    "glandular and respiratory support"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). The sources give no other contraindications; because of its moistening/cooling nature it is not described for Cold or Dampness conditions (inference).",
+   "descripcion_oficial": "A concentrated Chinese blend that traditionally supports blood sugar levels within the normal range. This formula helps nourish Yin or 'strengthen water'. According to TCM, the formula is called bu yin ('supplement the yin'), where Yin represents moisture. These herbs support the body in its effort to reduce fire and strengthen water.",
+   "energetica_oficial": "Bu yin = 'supplement/nourish the yin' (yin = moisture); reduce Fire and strengthen Water.",
+   "beneficios_oficiales": [
+    "Supports blood sugar levels within the normal range",
+    "Supports the circulatory and glandular systems",
+    "Rehmannia root helps maintain normal blood sugar",
+    "Eucommia supports liver, kidney, muscle, lung and cardiovascular function",
+    "Ophiopogon supports Yin and lung function"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1006",
+     "precio_usd": 53.85,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $40.35)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/hy-c-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1886",
+     "precio_usd": 45.0,
+     "presentacion": "100 veggie capsules; 50 servings; 16-day supply (subscription: $33.75)",
+     "modo_de_uso": "Take 2 veggie capsules with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/hy-c-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-017",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-007",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-071",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-023",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-076",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-058",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-091",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-089",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-078",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-054",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-069",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-035",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://healthy-sunshine.com/chinese-hy-c-100-caps/",
+    "https://inttherapy.com/products.json",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/hy-c-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp",
+    "https://www.naturessunshine.com/product/hy-c-chinese"
+   ],
+   "id": "TCM-009"
+  },
+  {
+   "nombre": "KB-C",
+   "nombres_anteriores": [
+    "Jian Gu"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Water (deficiency; 'strengthen the water element')",
+   "organos": [
+    "Kidneys",
+    "Bladder",
+    "bones",
+    "tendons and ligaments",
+    "Liver",
+    "urinary system"
+   ],
+   "meridianos": [
+    "Kidney",
+    "Bladder"
+   ],
+   "accion_energetica": "'jian gu' = 'strengthen the bones'. Tonifies Water and 'nourishes Kidney Yang' (eucommia, achyranthes); strengthens the Kidneys, bones and tendons and eliminates excess water. Horne: 'Builder - works on weakened Kidneys'; he calls it an 'herbal chiropractor'.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): it combines herbs from Liu Wei Di Huang Wan (rehmannia, cornus, dioscorea, hoelen) with Kidney Yang tonics (eucommia, cistanche, morinda, epimedium) and bone herbs (drynaria, dipsacus, achyranthes); it is not a single classical formula.",
+   "patrones_mtc": [
+    "Water Deficiency",
+    "Kidney Yang deficiency (NSP: 'nourish kidney yang')"
+   ],
+   "sintomas": [
+    "low back pain",
+    "weak knees or ankles",
+    "weak or brittle bones",
+    "frequent and urgent urination, dribbling",
+    "ringing in the ears",
+    "graying hair",
+    "chiropractic adjustments that do not hold",
+    "rigidity, fear, lack of 'backbone' (Horne)"
+   ],
+   "condiciones_tradicionales": [
+    "osteoporosis",
+    "arthritis",
+    "chronic back pain",
+    "tendency toward kidney stones and uric acid",
+    "chronic kidney failure and nephritis (Horne)",
+    "chronic urinary tract infections",
+    "prostate problems",
+    "nocturia"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). Horne prefers it over Kidney Activator when the kidneys are inflamed, because formulas such as Kidney Activator can irritate them.",
+   "descripcion_oficial": "Herbal support for the urinary system, designed to nourish the kidneys and strengthen the bones. Supports the structural system, specifically the bones, and is traditionally used to strengthen the urinary system. Its Chinese name, jian gu, translates as 'strengthen the bones'; it is designed for the water element. Traditional uses: supporting the kidneys and nourishing the urinary and structural systems.",
+   "energetica_oficial": "Water element (jian gu = 'strengthen the bones'). Kidneys.",
+   "beneficios_oficiales": [
+    "Urinary system support",
+    "Nourishes the kidneys",
+    "Supports the structural system, specifically the bones"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1016",
+     "precio_usd": 50.75,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $38.05)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/kb-c-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1883",
+     "precio_usd": 44.0,
+     "presentacion": "100 veggie capsules; 100 servings; 33-day supply (out of stock on the page)",
+     "modo_de_uso": "Take 1 veggie capsule with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/kb-c-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-017",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-064",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-058",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-084",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-026",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-001",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-071",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-069",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-067",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-086",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-059",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-050",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-kb-c-100-caps/",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/kb-c-chinese",
+    "https://www.naturessunshine.com/product/kb-c-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-010"
+  },
+  {
+   "nombre": "Lung Support",
+   "nombres_anteriores": [
+    "LH-C (Canadá; 'Lung Support, Chinese (LH-C)')",
+    "Fu Lei"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Metal (deficiency; 'weakened metal constitution')",
+   "organos": [
+    "Lungs",
+    "Large Intestine",
+    "sinuses",
+    "mucous membranes",
+    "immune system"
+   ],
+   "meridianos": [
+    "Lung",
+    "Large Intestine"
+   ],
+   "accion_energetica": "'fu lei' = 'strengthen the weak and thin'. A Qi tonic for the Lung (astragalus as the chief tonic; anemarrhena, aster, bupleurum); moistens the mucous membranes. Horne: 'qi tonic'.",
+   "formula_clasica_base": null,
+   "patrones_mtc": [
+    "Metal Deficiency",
+    "Lung Qi Deficiency (Horne: 'qi tonic')"
+   ],
+   "sintomas": [
+    "chronic lung infections",
+    "frequent colds and flu",
+    "dry cough",
+    "chest tightness",
+    "shortness of breath",
+    "general weakness and fatigue",
+    "paleness (or paleness with flushed cheeks)",
+    "weak voice",
+    "excessive or night sweating",
+    "thinness and weight loss",
+    "suppressed grief"
+   ],
+   "condiciones_tradicionales": [
+    "chronic emphysema, tuberculosis, asthma or bronchitis (Horne)",
+    "lungs damaged by smoking",
+    "occasional fatigue and weight loss",
+    "immune support"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "This concentrated botanical blend optimizes the human 'metal', according to TCM tradition. Unobstructed airflow strengthens the metal element of health. The formula aims to 'strengthen the weak and thin' (fu lei), serving as a lung tonic. It traditionally supports respiratory health and may help those experiencing occasional fatigue or weight loss.",
+   "energetica_oficial": "Metal element; fu lei = 'strengthen the weak and thin'. Lungs.",
+   "beneficios_oficiales": [
+    "Lung tonic",
+    "Supports respiratory health",
+    "May help with occasional fatigue or weight loss"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1004",
+     "precio_usd": 48.7,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $36.50)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/lung-support-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1887",
+     "precio_usd": 39.35,
+     "presentacion": "100 veggie capsules; 50 servings; 16-day supply (subscription: $29.50)",
+     "modo_de_uso": "Take 2 veggie capsules with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/lung-support-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-097",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-061",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-042",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-091",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-016",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-062",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/lung-support",
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-lung-support-lh-c-100-caps/",
+    "https://lecapucin.ca/en/Product-16243-Nature-s-Sunshine-LH-C-30-caps",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/lung-support-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp",
+    "https://www.naturessunshine.com/product/lung-support-chinese"
+   ],
+   "id": "TCM-011"
+  },
+  {
+   "nombre": "Nervous Fatigue",
+   "nombres_anteriores": [
+    "Yang Xin",
+    "HS-C (Canadá; mismo nombre chino 'yang xin' e ingredientes similares)",
+    "Biota and Zizyphus 18 Formula (apéndice de Fratkin, según resumen de búsqueda)"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Fire (deficiency; 'fire-enhancing')",
+   "organos": [
+    "Heart",
+    "nervous system",
+    "adrenals",
+    "circulation",
+    "digestion"
+   ],
+   "meridianos": [
+    "Heart"
+   ],
+   "accion_energetica": "'yang xin' = 'nurture the heart'. A tonic that enhances the Shen or Heart energy; schisandra is a tonic for Qi, Shen and Jing; calms the Shen and promotes sleep. Horne: 'builder'.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): rehmannia, ophiopogon, biota, jujube seed, schisandra, dang gui, ginseng, hoelen and polygala make up most of Tian Wang Bu Xin Dan.",
+   "patrones_mtc": [
+    "Fire Deficiency",
+    "Shen disturbed by deficiency (inferred)"
+   ],
+   "sintomas": [
+    "extreme exhaustion with restless sleep",
+    "waking during the night",
+    "disturbing dreams",
+    "night sweats",
+    "feeling overwhelmed or 'burned out'",
+    "trembling or nervous exhaustion",
+    "vulnerability, 'broken heart'",
+    "confused thinking and poor memory",
+    "loss of sex drive",
+    "dark circles under the eyes",
+    "palpitations"
+   ],
+   "condiciones_tradicionales": [
+    "adrenal exhaustion (burnout)",
+    "occasional stress",
+    "insomnia from waking during the night",
+    "circulatory and nervous support"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning). The Canadian HS-C label advises consulting a professional in cases of diabetes, peptic ulcer, autoimmune disorders, high blood pressure, cardiovascular disease, hypokalemia, or use of anticoagulants, antidepressants, immunosuppressants or hormones.",
+   "descripcion_oficial": "Promotes healthy, balanced sleep. Supports digestion, circulation and the nervous system. It is a 'fire-enhancing' formula; its Chinese name, yang xin, means 'nurture the heart'. Weakness in the fire element often shows up in the digestive, cardiovascular or reproductive systems.",
+   "energetica_oficial": "'Fire-enhancing' formula; yang xin = 'nurture the heart'. Heart.",
+   "beneficios_oficiales": [
+    "Promotes healthy, balanced sleep",
+    "Supports digestion, circulation and the nervous system"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1017",
+     "precio_usd": 47.65,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $35.70)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/nervous-fatigue-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1884",
+     "precio_usd": 39.35,
+     "presentacion": "100 veggie capsules; 25 servings; 13-day supply (subscription: $29.50)",
+     "modo_de_uso": "Take 4 veggie capsules with a meal twice daily.",
+     "url": "https://www.naturessunshine.com/product/nervous-fatigue-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-006",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-064",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-079",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-033",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-073",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-067",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-048",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-088",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-036",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-075",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-071",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/nervous-fatigue-form",
+    "https://dokumen.pub/chinese-herbal-patent-formulas-2nd-printingnbsped-0962607827-9780962607820.html",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.ca/product/hs-c",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/nervous-fatigue-chinese",
+    "https://www.naturessunshine.com/product/nervous-fatigue-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-012"
+  },
+  {
+   "nombre": "Spleen Activator",
+   "nombres_anteriores": [
+    "Wen Zhong"
+   ],
+   "polaridad": "negativa",
+   "elemento": "Earth (deficiency; 'Enhance Earth')",
+   "organos": [
+    "Spleen",
+    "pancreas",
+    "Stomach",
+    "digestive system"
+   ],
+   "meridianos": [
+    "Spleen",
+    "Stomach"
+   ],
+   "accion_energetica": "'wen zhong' = 'warm the center'; 'Enhance Earth'. Tonifies and warms digestion (ginseng, astragalus, atractylodes, licorice). Horne: 'activates the energy of the digestive system' in Spleen deficiency (building).",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): ginseng, atractylodes, hoelen, dioscorea, lotus seed, dolichos/hyacinth bean, cardamom and licorice match most of Shen Ling Bai Zhu San, plus warming herbs (ginger, galangal, zanthoxylum) that fit 'wen zhong'.",
+   "patrones_mtc": [
+    "Earth Deficiency",
+    "Spleen Deficiency (Horne)",
+    "Cold in the center (inferred from 'warm the center')"
+   ],
+   "sintomas": [
+    "paleness, thinness, inability to gain weight",
+    "general weakness and poor muscle tone",
+    "poor protein digestion",
+    "food sitting heavy in the stomach",
+    "stomach pain that worsens with cold",
+    "poor appetite",
+    "intestinal cramps",
+    "pale tongue with a moist white coating",
+    "occasional nighttime leg cramps"
+   ],
+   "condiciones_tradicionales": [
+    "digestive weakness and poor assimilation",
+    "loss of muscle mass in older adults",
+    "hiatal hernia (distributors)",
+    "blood sugar balance",
+    "immune support"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "Chinese herbs for digestive support, based on the theories of Traditional Chinese Medicine. The formula is described as wen zhong ('enhance Earth') and specifically targets the Earth element, which encompasses the spleen, pancreas and stomach. It is traditionally used to support the digestive and immune systems and to nourish spleen function. Digestion and a good intestinal makeup are crucial to feeling well.",
+   "energetica_oficial": "Wen zhong = 'enhance Earth'; Earth element (spleen, pancreas, stomach).",
+   "beneficios_oficiales": [
+    "Digestive and immune support",
+    "Nourishes spleen function"
+   ],
+   "precauciones": null,
+   "presentaciones": [
+    {
+     "formato": "capsules",
+     "sku": "1880",
+     "precio_usd": 47.15,
+     "presentacion": "100 veggie capsules; 50 servings; 16-day supply",
+     "modo_de_uso": "Take 2 veggie capsules with a meal three times daily.",
+     "url": "https://www.naturessunshine.com/product/spleen-activator-chinese"
+    },
+    {
+     "formato": "TCM concentrate",
+     "sku": "1070",
+     "precio_usd": 61.1,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $45.80)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/spleen-activator"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-067",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-048",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-055",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-022",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-002",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-032",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-066",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-034",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/spleen-activator",
+    "https://fourwindsnutrition.net/products.json",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/spleen-activator",
+    "https://www.naturessunshine.com/product/spleen-activator-chinese",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-013"
+  },
+  {
+   "nombre": "Trigger Immune",
+   "nombres_anteriores": [
+    "Sheng Mai"
+   ],
+   "polaridad": "negativa",
+   "elemento": "None specific: Qi/overall energy ('weakened energy constitution'); deficient Qi category (deduction)",
+   "organos": [
+    "immune system",
+    "Blood",
+    "circulation"
+   ],
+   "meridianos": [],
+   "accion_energetica": "'sheng mai' = 'generate the pulse' (also translated 'generate chi'). A major Qi and Blood tonic that also benefits Shen and Jing (Horne); strengthens a weakened energy constitution.",
+   "formula_clasica_base": "Compiler's observation (NSP sources do not state this): the name matches Sheng Mai San (ginseng, ophiopogon, schisandra) and all three herbs are present, but the NSP formula has 18 herbs (astragalus, epimedium, eucommia, ganoderma, lycium, rehmannia, dang gui, etc.); NSP does not say it is based on Sheng Mai San.",
+   "patrones_mtc": [
+    "Qi Deficiency",
+    "Qi and Blood Deficiency (Horne)"
+   ],
+   "sintomas": [
+    "extreme or chronic fatigue",
+    "general weakness",
+    "shortness of breath",
+    "cold, pale skin",
+    "frequent chills",
+    "slow recovery",
+    "frequent illness",
+    "poor appetite",
+    "weak legs",
+    "pale tongue"
+   ],
+   "condiciones_tradicionales": [
+    "exhaustion from stress or chronic illness",
+    "low resistance to illness",
+    "recovery after surgery, injury or chemotherapy/radiation therapy (Horne)",
+    "older or debilitated people"
+   ],
+   "no_indicado_para": "Pregnancy or breastfeeding: consult a healthcare professional before use (NSP warning).",
+   "descripcion_oficial": "This formula, known by the Chinese name sheng mai (which translates as 'generate the pulse'), works by nourishing your chi to support natural immunity. According to the theory of Traditional Chinese Medicine, it strengthens a weakened energy constitution and promotes balance of the vital elements.",
+   "energetica_oficial": "Sheng mai = 'generate the pulse'; nourishes chi; strengthens a weakened energy constitution.",
+   "beneficios_oficiales": [
+    "Supports the immune system",
+    "Contributes to overall well-being"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "1034",
+     "precio_usd": 54.9,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $41.15)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/trigger-immune-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "1889",
+     "precio_usd": 41.45,
+     "presentacion": "100 veggie capsules; 50 servings; 16-day supply",
+     "modo_de_uso": "Take 2 veggie capsules with a meal twice daily.",
+     "url": "https://www.naturessunshine.com/product/trigger-immune-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-086",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-017",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-049",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-071",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-058",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-015",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-005",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-010",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-019",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-059",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-052",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-004",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-088",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/trigger-immune",
+    "https://fourwindsnutrition.net/products.json",
+    "https://treelite.com/quizzes/chinese-constitutional-quiz/chinese-constitutional-quiz.js",
+    "https://www.naturessunshine.com/product/chinese-negative-pack-tcm",
+    "https://www.naturessunshine.com/product/trigger-immune-tcm-concentrate",
+    "https://www.webnat.com/articles/ChineseFormulas.asp",
+    "https://www.naturessunshine.com/product/trigger-immune-chinese"
+   ],
+   "id": "TCM-014"
+  },
+  {
+   "nombre": "Mineral-Chi Tonic",
+   "nombres_anteriores": [],
+   "polaridad": null,
+   "elemento": "None specific ('energize all five constitutional types')",
+   "organos": [
+    "adrenal glands"
+   ],
+   "meridianos": [
+    "all 12 meridians (according to Horne/distributors)"
+   ],
+   "accion_energetica": "A liquid tonic with Chinese herbs (lycium, schisandra, gynostemma, reishi, astragalus, ginkgo, DGL licorice, ginger) and trace minerals. Horne: nourishes the adrenals, balances the 12 meridians and energizes the five constitutional types; a stimulating and adaptogenic tonic. It does not belong to either +/- pack, which is why its polarity is null.",
+   "formula_clasica_base": null,
+   "patrones_mtc": [
+    "General Qi/energy deficiency (inferred from 'tonic')"
+   ],
+   "sintomas": [
+    "nervousness",
+    "stress",
+    "depression",
+    "low energy",
+    "poor concentration"
+   ],
+   "condiciones_tradicionales": [
+    "adrenal support",
+    "energy and physical stamina",
+    "stress management"
+   ],
+   "no_indicado_para": null,
+   "descripcion_oficial": "Helps enhance and maintain the balance of the body's energy system and supports the glandular system. The page mentions the TCM meridians and nourishment of the adrenal glands: gynostemma feeds the adrenals; lycium and schizandra berries balance the meridians; astragalus strengthens immunity; licorice root supports adrenal and pituitary function; reishi mushroom helps the stress response and immunity; ginkgo improves mental energy and concentration.",
+   "energetica_oficial": "Mentions meridians (lycium and schizandra balance the meridians) and the adrenal glands.",
+   "beneficios_oficiales": [
+    "Energy system balance",
+    "Supports the glandular system"
+   ],
+   "precauciones": null,
+   "presentaciones": [
+    {
+     "formato": "liquid",
+     "sku": "1818",
+     "precio_usd": 60.1,
+     "presentacion": "32 fl oz bottle; 63 servings; 31-day supply (subscription: $45.05)",
+     "modo_de_uso": "Take 1 tablespoon in the morning and 1 tablespoon in the evening daily. Mix with water or juice if desired.",
+     "url": "https://www.naturessunshine.com/product/mineral-chi-tonic-chinese"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-024",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-080",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-041",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-072",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-049",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-038",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-085",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://caringsunshine.com/product/natures-sunshine/mineral-chi-tonic",
+    "https://inttherapy.com/products.json",
+    "https://www.naturessunshine.com/product/mineral-chi-tonic-chinese",
+    "https://www.webnat.com/articles/ChineseFormulas.asp"
+   ],
+   "id": "TCM-015"
+  },
+  {
+   "nombre": "VS-C",
+   "nombres_anteriores": [],
+   "polaridad": null,
+   "elemento": "Metal ('metal enhancing')",
+   "organos": [
+    "Lungs",
+    "Large Intestine",
+    "Liver",
+    "immune system"
+   ],
+   "meridianos": [
+    "Lung (Fei)",
+    "Large Intestine (Da Chang)"
+   ],
+   "accion_energetica": "'Metal enhancing'; NSP says it helps maintain yin-yang balance and supports detoxification. Horne: 'builds', for chronic inflammation and Heat. It does not belong to either +/- pack, which is why its polarity is null.",
+   "formula_clasica_base": "NSP: developed with Dr. Wenwei Xie 'based on classical TCM formulations for the immune system' (without naming the formula). Compiler's observation (NSP sources do not state this): bupleurum, scute, typhonium/pinellia, ginseng and licorice are the core of Xiao Chai Hu Tang, with herbs that clear Toxic Heat (dandelion, purslane, indigo/isatis, thlaspi) and cinnamon twig.",
+   "patrones_mtc": [
+    "Chronic Heat / chronic inflammation (Horne)",
+    "Metal (Lung-Large Intestine)"
+   ],
+   "sintomas": [
+    "cold sores",
+    "canker sores",
+    "low-grade viral infections"
+   ],
+   "condiciones_tradicionales": [
+    "herpes simplex",
+    "flu",
+    "infectious hepatitis",
+    "Epstein-Barr",
+    "chronic immune deficiency and antibiotic overuse (Dr. Xie's view cited by Horne)",
+    "respiratory and immune support"
+   ],
+   "no_indicado_para": null,
+   "descripcion_oficial": "Supports the immune and respiratory systems based on TCM theory and is traditionally used to support detoxification. The formula is a 'metal-enhancing' blend designed to promote connection and purity, nourishing the lungs and large intestine. It is framed within the theory of the five elements (Fire, Earth, Metal, Water and Wood) and supports yin-yang balance.",
+   "energetica_oficial": "'Metal-enhancing' blend; lungs and large intestine; yin-yang balance.",
+   "beneficios_oficiales": [
+    "Supports the immune and respiratory systems",
+    "Supports detoxification"
+   ],
+   "precauciones": "Pregnant or nursing women should consult their healthcare professional before taking this supplement.",
+   "presentaciones": [
+    {
+     "formato": "TCM concentrate",
+     "sku": "949",
+     "precio_usd": 43.5,
+     "presentacion": "30 capsules; 30 servings; 30-day supply (subscription: $32.60)",
+     "modo_de_uso": "Take 1 capsule with a meal daily.",
+     "url": "https://www.naturessunshine.com/product/vs-c-tcm-concentrate"
+    },
+    {
+     "formato": "capsules",
+     "sku": "937",
+     "precio_usd": 29.0,
+     "presentacion": "100 veggie capsules; 100 servings; 25-day supply (subscription: $21.75)",
+     "modo_de_uso": "Take 1 veggie capsule with a meal up to four times daily.",
+     "url": "https://www.naturessunshine.com/product/vs-c-vegcapsules"
+    },
+    {
+     "formato": "liquid",
+     "sku": "3167",
+     "precio_usd": 31.6,
+     "presentacion": "2 fl oz; 29 servings; 7-day supply (subscription: $23.70)",
+     "modo_de_uso": "Take 30–40 drops two to four times daily.",
+     "url": "https://www.naturessunshine.com/product/vs-c-liquid"
+    }
+   ],
+   "hierbas": [
+    {
+     "hierba_id": "HRB-060",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-051",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-013",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-081",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-008",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-039",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-003",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-028",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-021",
+     "cantidad": null
+    },
+    {
+     "hierba_id": "HRB-063",
+     "cantidad": null
+    }
+   ],
+   "fuentes": [
+    "https://fourwindsnutrition.net/products.json",
+    "https://healthy-sunshine.com/chinese-vs-c-100-caps/",
+    "https://www.naturessunshine.com/product/vs-c-tcm-concentrate",
+    "https://www.naturessunshine.com/product/vs-c-vegcapsules",
+    "https://www.webnat.com/articles/ChineseFormulas.asp",
+    "https://www.naturessunshine.com/product/vs-c-liquid"
+   ],
+   "id": "TCM-016"
+  }
+ ],
+ "empresa": [
+  {
+   "id": "EMP-01",
+   "titulo": "History of Nature's Sunshine",
+   "texto": "Nature's Sunshine Products was founded in 1972 in Utah (United States) by Gene and Kristine Hughes. Its first product was encapsulated cayenne pepper (capsicum): the company pioneered selling herbs in capsules. Milestones: 1974, creation of the Quality Assurance department; 1978, public listing on NASDAQ (symbol NATR); 1979-1981, start of international expansion; 1985, tripled the size of its manufacturing plant; 2015, opening of the Hughes Center for Research & Innovation; 2023-2024, plant powered by 100% solar energy and TRUE Zero-Waste Gold certification. Source: naturessunshine.com (About Us)."
+  },
+  {
+   "id": "EMP-02",
+   "titulo": "Business model and presence",
+   "texto": "Nature's Sunshine sells through direct sales via independent consultants and also through its online store. It has been listed on NASDAQ under the symbol NATR since 1978. Its products are available in more than 40 countries. Source: naturessunshine.com (About Us)."
+  },
+  {
+   "id": "EMP-03",
+   "titulo": "Quality, supply chain and certifications",
+   "texto": "The company manufactures in its own plant in Utah and states that every batch undergoes rigorous quality testing. It works with about 850 raw materials, 300 different botanicals and 170 suppliers from 30 countries. Certifications it reports: ISO 9001:2015, ISO/IEC 17025:2017, USDA, NSF, cGMP, Kosher, TGA and Halal. Source: naturessunshine.com (About Us)."
+  },
+  {
+   "id": "EMP-04",
+   "titulo": "Product categories",
+   "texto": "The catalog is organized by body system: Digestive System, Detox and Cleansing, Immune System, Nervous System and Stress, Glandular System, Circulatory and Cardiovascular System, Structural (bones, joints, skin, hair and nails), Urinary System, Women's Health, Men's Health, Energy and General Nutrition, and Weight Management. It includes single herbs, herbal combinations, Chinese (TCM) formulas, vitamins and minerals, enzymes, probiotics, fibers and liquids."
+  },
+  {
+   "id": "EMP-05",
+   "titulo": "Legal notice about supplements",
+   "texto": "Nature's Sunshine products are dietary supplements. Their statements have not been evaluated by the FDA (or equivalent health authority) and are not intended to diagnose, treat, cure or prevent any disease. Before taking them, especially during pregnancy or breastfeeding, for children, with chronic illnesses or when taking medications, a healthcare professional should be consulted. The correct dose is the one indicated on the product label for each country."
+  }
+ ]
+}

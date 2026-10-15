@@ -9,11 +9,18 @@ BASE = Path(__file__).parent
 
 
 def main():
-    productos = json.loads((BASE / "data" / "productos.json").read_text(encoding="utf-8"))
-    empresa = json.loads((BASE / "data" / "empresa.json").read_text(encoding="utf-8"))
-    tcm_path = BASE / "data" / "tcm.json"
-    tcm = json.loads(tcm_path.read_text(encoding="utf-8")) if tcm_path.exists() else None
-    datos = json.dumps({"productos": productos, "empresa": empresa, "tcm": tcm}, ensure_ascii=False)
+    def cargar(carpeta):
+        leer = lambda n: json.loads((carpeta / n).read_text(encoding="utf-8")) if (carpeta / n).exists() else None
+        return {"productos": leer("productos.json"), "empresa": leer("empresa.json"), "tcm": leer("tcm.json")}
+
+    es = cargar(BASE / "data")
+    productos = es["productos"]
+    idiomas = {"es": es}
+    # Traducción al inglés (data/en/); lo que falte se muestra en español.
+    en = cargar(BASE / "data" / "en")
+    if en["productos"]:
+        idiomas["en"] = {k: en[k] or es[k] for k in es}
+    datos = json.dumps(idiomas, ensure_ascii=False)
     # Evita que un "</script>" dentro de los datos cierre la etiqueta antes de tiempo.
     datos = datos.replace("</", "<\\/")
     plantilla = (BASE / "web" / "plantilla.html").read_text(encoding="utf-8")
@@ -38,8 +45,8 @@ def main():
     (sitio / "index.html").write_text(
         '<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
-        '<meta name="description" content="Herbolario Consultor de Nilda Esparza, consultor independiente de '
-        'Nature\'s Sunshine Products: catálogo, fórmulas chinas y hierbas.">\n'
+        '<meta name="description" content="Herbolario Consultor: catálogo de productos de '
+        'Nature\'s Sunshine, fórmulas chinas y hierbas, en español e inglés.">\n'
         '<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
         '</head>\n<body>\n' + pagina + '\n</body>\n</html>\n',
         encoding="utf-8")
