@@ -67,6 +67,21 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; }
 .idioma { display: inline-flex; border: 1px solid var(--leaf); border-radius: 8px; overflow: hidden; }
 .idioma button { border: 0; background: transparent; color: var(--leaf); font-family: var(--f-mono); font-weight: 500; padding: 10px 12px; cursor: pointer; }
 .idioma button[aria-pressed="true"] { background: var(--leaf); color: var(--surface); }
+/* Buscador de nombres en la barra superior (fija al bajar) */
+.consultor { position: sticky; top: 8px; z-index: 15; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
+.consultor .quien { flex: 1 1 220px; }
+.buscador { position: relative; flex: 1 1 100%; }
+.buscador svg { position: absolute; left: 11px; top: 50%; translate: 0 -50%; width: 18px; height: 18px; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
+.buscador input { width: 100%; padding: 10px 12px 10px 36px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+.buscador input:focus { border-color: var(--leaf); }
+#buscar-lista { position: absolute; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 4px; list-style: none; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,.14); max-height: min(60vh, 420px); overflow-y: auto; }
+#buscar-lista li { display: grid; gap: 1px; padding: 8px 10px; border-radius: 6px; cursor: pointer; }
+#buscar-lista li[aria-selected="true"], #buscar-lista li:hover { background: var(--leaf-soft); }
+#buscar-lista .t { font-weight: 600; overflow-wrap: anywhere; }
+#buscar-lista .t mark { background: none; color: var(--leaf); }
+#buscar-lista .m { font-size: 0.8rem; color: var(--muted); overflow-wrap: anywhere; }
+#buscar-lista li.vacio { cursor: default; color: var(--muted); background: none; }
 .tienda-nota { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 0.88rem; color: var(--muted); }
 
 /* Cabecera */
@@ -210,7 +225,9 @@ footer p { margin: 0; }
   body { font-size: 15px; }
   .wrap { padding-inline: 14px; padding-block: 12px calc(84px + env(safe-area-inset-bottom, 0px)); gap: 26px; }
   /* Barra superior compacta: tienda e idioma; el resto va en la barra inferior */
-  .consultor { padding: 10px 12px; gap: 8px; flex-wrap: nowrap; }
+  .consultor { padding: 10px 12px; gap: 8px; top: 6px; }
+  .consultor .quien { flex-basis: 0; }
+  .buscador input { padding-block: 9px; }
   .consultor .rol { font-size: 0.78rem; line-height: 1.3; }
   .consultor .acciones { flex-wrap: nowrap; flex-shrink: 0; }
   .consultor .acciones > a:not(:first-child) { display: none; }
@@ -263,6 +280,12 @@ footer p { margin: 0; }
         <button type="button" data-lang="es" aria-pressed="true" title="Español">ES</button>
         <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
       </div>
+    </div>
+    <div class="buscador" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="buscar" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="buscar-lista" aria-autocomplete="list"
+        data-i18n-ph="buscar_ph" placeholder="Buscar hierba, suplemento o producto" data-i18n-aria="buscar_ph" aria-label="Buscar hierba, suplemento o producto">
+      <ul id="buscar-lista" role="listbox" hidden></ul>
     </div>
   </div>
 
@@ -491,6 +514,7 @@ footer p { margin: 0; }
   const UI = {
     es: {
       consultor_aria: "Tu consultor", idioma_aria: "Idioma",
+      buscar_ph: "Buscar hierba, suplemento o producto", sin_nombres: "Ningún nombre coincide. Prueba en «Consulta» con un síntoma o un ingrediente.",
       rol: "Consultor independiente de Nature's Sunshine Products",
       btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_wp: "Hazte Wellness Partner", btn_contacto: "Contacto",
       hero_label: "Asistente RAG · catálogo de Nature's Sunshine",
@@ -574,6 +598,7 @@ footer p { margin: 0; }
     },
     en: {
       consultor_aria: "Your consultant", idioma_aria: "Language",
+      buscar_ph: "Search an herb, supplement or product", sin_nombres: "No name matches. Try “Ask” with a symptom or an ingredient.",
       rol: "Independent Nature's Sunshine Products Consultant",
       btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_wp: "Become a Wellness Partner", btn_contacto: "Contact",
       hero_label: "RAG assistant · Nature's Sunshine catalog",
@@ -1096,11 +1121,80 @@ product products take recommend something thing feel feeling hi hello please use
     }
     const el = document.getElementById("card-" + id);
     if (!el) return;
-    el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+    // Se abre antes de desplazar para que la ficha quede bien colocada; arriba queda espacio para la barra fija.
     const det = el.tagName === "DETAILS" ? el : el.querySelector("details");
     if (det) det.open = true;
+    el.style.scrollMarginTop = document.querySelector(".consultor").offsetHeight + 24 + "px";
+    el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
     el.classList.add("flash");
     setTimeout(() => el.classList.remove("flash"), 1600);
+  }
+
+  // ================= Buscador de nombres (barra superior) =================
+  const plano = (s) => String(s ?? "").toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "");
+  const mayus = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  function indiceNombres() {
+    if (W.nombres) return W.nombres;
+    const out = [], tx = W.tx;
+    const add = (id, nombre, otros, tipo) => {
+      otros = [...new Set(otros.filter((o) => o && o !== nombre))];
+      out.push({ id, nombre, otros, tipo, claves: [nombre, ...otros].map(plano) });
+    };
+    for (const p of W.productos) add(p.id, p.nombre_es, [p.nombre], mayus(T.tipos.producto));
+    for (const f of W.tcm.formulas) add(f.id, f.nombre, f.nombres_anteriores || [], mayus(T.tipos.formula));
+    for (const h of W.tcm.hierbas) add(h.id, h.pinyin || h.nombre_es, [h.nombre_es, h.latin], mayus(T.tipos.hierba));
+    // Las hierbas chinas ya están arriba (su ficha enlaza a la de seguridad); aquí entran las occidentales y los suplementos.
+    for (const g of W.seguridad) if (!g.ref) add(g.id, tx(g.nombre), [g.latin], T.grupos[g.grupo] || mayus(T.tipos.seguridad));
+    return (W.nombres = out);
+  }
+  function buscarNombres(texto) {
+    const q = plano(texto).trim().replace(/\s+/g, " ");
+    if (!q) return [];
+    // ¿Aparece q al principio de alguna palabra de k?
+    const inicioPalabra = (k) => {
+      for (let i = k.indexOf(q); i >= 0; i = k.indexOf(q, i + 1)) if (i === 0 || !/[a-z0-9]/.test(k[i - 1])) return true;
+      return false;
+    };
+    const res = [];
+    for (const e of indiceNombres()) {
+      let s = 0;
+      e.claves.forEach((k, i) => {
+        const v = k.startsWith(q) ? 3 : inicioPalabra(k) ? 2 : k.includes(q) ? 1 : 0;
+        s = Math.max(s, v - (i ? 0.5 : 0));
+      });
+      if (s > 0) res.push({ e, s });
+    }
+    return res.sort((a, b) => b.s - a.s || a.e.nombre.length - b.e.nombre.length).slice(0, 10).map((r) => r.e);
+  }
+  // Resalta la parte del nombre que coincide (sin depender de los acentos).
+  function resaltar(nombre, texto) {
+    const q = plano(texto).trim(), base = plano(nombre);
+    const i = q ? base.indexOf(q) : -1;
+    if (i < 0 || base.length !== nombre.length) return esc(nombre);
+    return esc(nombre.slice(0, i)) + "<mark>" + esc(nombre.slice(i, i + q.length)) + "</mark>" + esc(nombre.slice(i + q.length));
+  }
+  let activo = -1, resultados = [];
+  function cerrarBuscador() {
+    $("buscar-lista").hidden = true; $("buscar").setAttribute("aria-expanded", "false");
+    $("buscar").removeAttribute("aria-activedescendant"); activo = -1;
+  }
+  function pintarBuscador() {
+    const texto = $("buscar").value;
+    resultados = buscarNombres(texto); activo = resultados.length ? 0 : -1;
+    if (!texto.trim()) return cerrarBuscador();
+    $("buscar-lista").innerHTML = resultados.map((e, i) => `<li role="option" id="bn-${i}" data-id="${e.id}" aria-selected="${i === activo}">
+        <span class="t">${resaltar(e.nombre, texto)}</span>
+        <span class="m">${esc([e.tipo, ...e.otros].join(" · "))}</span></li>`).join("") || `<li class="vacio">${esc(T.sin_nombres)}</li>`;
+    $("buscar-lista").hidden = false; $("buscar").setAttribute("aria-expanded", "true");
+    marcarActivo();
+  }
+  function marcarActivo() {
+    $("buscar-lista").querySelectorAll("li[role=option]").forEach((li, i) => li.setAttribute("aria-selected", String(i === activo)));
+    if (activo >= 0) { $("buscar").setAttribute("aria-activedescendant", "bn-" + activo); $("bn-" + activo).scrollIntoView({ block: "nearest" }); }
+  }
+  function elegirNombre(id) {
+    cerrarBuscador(); $("buscar").value = ""; $("buscar").blur();
+    irAFicha(id);
   }
 
   function pintarHits(consulta, hits, ejemplo) {
@@ -1187,6 +1281,7 @@ product products take recommend something thing feel feeling hi hello please use
     if (!primera && ocupado) ctl?.abort();
     lang = nuevo; T = UI[lang]; W = mundo(lang);
     try { localStorage.setItem("herbolario-idioma", lang); } catch {}
+    $("buscar").value = ""; cerrarBuscador();
     filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; $("f-seg").value = ""; Object.assign(lim, LIM0);
     pintarEstaticos();
     prepararCategorias(); pintarCatalogo();
@@ -1204,6 +1299,23 @@ product products take recommend something thing feel feeling hi hello please use
 
   // ================= Eventos (una sola vez) =================
   document.querySelectorAll(".idioma button").forEach((b) => b.addEventListener("click", () => { if (b.dataset.lang !== lang) aplicarIdioma(b.dataset.lang); }));
+  $("buscar").addEventListener("input", pintarBuscador);
+  $("buscar").addEventListener("focus", () => { if ($("buscar").value.trim()) pintarBuscador(); });
+  $("buscar").addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { if ($("buscar-lista").hidden) $("buscar").value = ""; cerrarBuscador(); return; }
+    if (!resultados.length) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      if ($("buscar-lista").hidden) pintarBuscador();
+      activo = (activo + (e.key === "ArrowDown" ? 1 : -1) + resultados.length) % resultados.length; marcarActivo();
+    } else if (e.key === "Enter") { e.preventDefault(); elegirNombre(resultados[Math.max(activo, 0)].id); }
+  });
+  $("buscar-lista").addEventListener("mousedown", (e) => e.preventDefault());
+  $("buscar-lista").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) elegirNombre(li.dataset.id); });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".buscador")) cerrarBuscador(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !e.ctrlKey && !e.metaKey && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "")) { e.preventDefault(); $("buscar").focus(); }
+  });
   $("filtro").addEventListener("input", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
   $("categoria").addEventListener("change", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
   $("mas-cat").addEventListener("click", () => { lim.cat += 24; pintarCatalogo(); });
