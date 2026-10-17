@@ -214,6 +214,29 @@ footer p { margin: 0; }
   .tabla-int td:nth-child(3) { grid-column: 1 / -1; }
   .tabla-int td:nth-child(2) { grid-row: 1; grid-column: 2; }
 }
+/* Sistemas del cuerpo */
+section[id] { scroll-margin-top: 140px; }
+.sistemas { display: grid; gap: 14px; }
+.sistemas > div > p { margin: 6px 0 0; color: var(--muted); max-width: 70ch; }
+#sis-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.sis-card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: grid; gap: 16px; min-width: 0; }
+.sis-card.flash { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
+.sis-card .cab { display: grid; gap: 4px; }
+.sis-card .partes { font-size: 0.9rem; color: var(--muted); }
+.sis-card .resumen { margin: 0; max-width: 75ch; }
+.sis-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.sis-cols > div { background: var(--bg); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
+.sis-cols ul { margin: 0; padding-left: 1.2em; display: grid; gap: 3px; font-size: 0.93rem; }
+.sis-medico { margin: 0; font-size: 0.9rem; border-left: 4px solid var(--warn); padding: 8px 12px; background: var(--bg); border-radius: 0 8px 8px 0; }
+.sis-medico strong { color: var(--warn); }
+.sis-grupo { display: grid; gap: 6px; }
+.sis-grupo .herb-chip { font-size: 0.86rem; padding: 3px 10px; }
+@media (max-width: 700px) {
+  .sis-cols { grid-template-columns: minmax(0, 1fr); }
+  .sis-card { padding: 14px; }
+  #sis-tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  #sis-tabs .chip { flex: 0 0 auto; }
+}
 /* "Ver más" en listas largas */
 .mas { justify-self: center; }
 /* Barra inferior: solo en teléfono */
@@ -258,7 +281,7 @@ footer p { margin: 0; }
   .nav-movil a:active, .nav-movil a:focus-visible { color: var(--leaf); }
   .nav-movil svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
   .nav-movil a.wa { color: var(--leaf); }
-  section[id], header { scroll-margin-top: 10px; }
+  section[id], header { scroll-margin-top: 120px; }
 }
 </style>
 
@@ -322,6 +345,16 @@ footer p { margin: 0; }
     </div>
     <p data-i18n="plantas_p">Algunas de las plantas que contienen los productos y las fórmulas chinas de Nature's Sunshine. Toca un nombre para ver la ficha.</p>
     <div class="galeria" id="galeria"></div>
+  </section>
+
+  <section class="sistemas" id="sistemas" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo">
+    <div>
+      <span class="label" data-i18n="sis_label">Guía por sistemas</span>
+      <h2 data-i18n="sis_h2">Sistemas del cuerpo</h2>
+      <p data-i18n="sis_p">Elige un sistema para ver qué hace, señales de que puede necesitar apoyo, hábitos que lo cuidan y los productos, fórmulas chinas y hierbas relacionadas.</p>
+    </div>
+    <div class="chips" id="sis-tabs" role="group" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo"></div>
+    <div id="sis-ficha"></div>
   </section>
 
   <section id="catalogo" data-i18n-aria="catalogo" aria-label="Catálogo" style="display:grid;gap:14px">
@@ -438,6 +471,11 @@ footer p { margin: 0; }
   const UI = {
     es: {
       consultor_aria: "Tu consultor", idioma_aria: "Idioma",
+      sis_label: "Guía por sistemas", sis_h2: "Sistemas del cuerpo",
+      sis_p: "Elige un sistema para ver qué hace, señales de que puede necesitar apoyo, hábitos que lo cuidan y los productos, fórmulas chinas y hierbas relacionadas.",
+      sis_partes: "Incluye", sis_senales: "Puede necesitar apoyo si notas…", sis_habitos: "Hábitos que lo cuidan", sis_medico: "Cuándo consultar al médico:",
+      sis_productos: "Productos", sis_formulas: "Fórmulas chinas", sis_hierbas: "Hierbas y suplementos", sis_doc: "Sistema del cuerpo",
+      sis_nota: "Información general y orientativa. Toca un nombre para ver su ficha y sus precauciones.",
       buscar_ph: "Buscar hierba, suplemento o producto", sin_nombres: "Ningún nombre coincide. Prueba en «Consulta» con un síntoma o un ingrediente.",
       rol: "Consultor independiente de Nature's Sunshine Products",
       btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_contacto: "Contacto",
@@ -512,10 +550,15 @@ footer p { margin: 0; }
         inmunosupresores: "Inmunosupresores", hormonas: "Hormonas y anticonceptivos", tiroides: "Tiroides", cyp450: "Fármacos metabolizados por el hígado (CYP450)",
         quimioterapia: "Quimioterapia", analgesicos: "Analgésicos y antiinflamatorios", litio: "Litio", absorcion: "Absorción de medicamentos orales",
         hepatotoxicos: "Fármacos que afectan al hígado", otros: "Otros" },
-      tipos: { producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
+      tipos: { sistema: "sistema del cuerpo", producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
     },
     en: {
       consultor_aria: "Your consultant", idioma_aria: "Language",
+      sis_label: "Guide by body system", sis_h2: "Body systems",
+      sis_p: "Choose a system to see what it does, signs it may need support, habits that help it, and the related products, Chinese formulas and herbs.",
+      sis_partes: "Includes", sis_senales: "It may need support if you notice…", sis_habitos: "Habits that help", sis_medico: "When to see a doctor:",
+      sis_productos: "Products", sis_formulas: "Chinese formulas", sis_hierbas: "Herbs and supplements", sis_doc: "Body system",
+      sis_nota: "General information for guidance only. Tap a name to see its record and cautions.",
       buscar_ph: "Search an herb, supplement or product", sin_nombres: "No name matches. Try “Ask” with a symptom or an ingredient.",
       rol: "Independent Nature's Sunshine Products Consultant",
       btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_contacto: "Contact",
@@ -590,7 +633,7 @@ footer p { margin: 0; }
         inmunosupresores: "Immunosuppressants", hormonas: "Hormones and birth control", tiroides: "Thyroid", cyp450: "Drugs processed by the liver (CYP450)",
         quimioterapia: "Chemotherapy", analgesicos: "Pain relievers and anti-inflammatories", litio: "Lithium", absorcion: "Absorption of oral medications",
         hepatotoxicos: "Drugs that affect the liver", otros: "Other" },
-      tipos: { producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
+      tipos: { sistema: "body system", producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
     },
   };
 
@@ -630,6 +673,7 @@ Si los documentos no contienen la respuesta, dilo claramente en lugar de inventa
 Son suplementos alimenticios: no diagnostiques ni prometas curar enfermedades, menciona las precauciones relevantes y recomienda consultar a un profesional de la salud cuando haya embarazo, niños, medicamentos o una condición médica.
 El modo de uso proviene de la web oficial de EE. UU.; recuerda que la etiqueta de cada país manda. Los precios son de referencia (tienda de EE. UU., septiembre de 2026) y pueden variar.
 Para las fórmulas chinas [TCM-xxx], las hierbas chinas [HRB-xxx] y el modelo energético [MOD-xx]: explica la polaridad (positiva/yang o negativa/yin), el órgano, el elemento, los síntomas y la fórmula clásica cuando el documento los dé, y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados.
+Para los sistemas del cuerpo [SIS-xx]: explica en qué consiste el sistema y menciona los productos, fórmulas y hierbas relacionados citando su ID.
 Para la seguridad y las interacciones con medicamentos [SEG-xxx]: indica la gravedad y el nivel de evidencia, nunca digas que una combinación es segura solo porque no hay datos, recomienda siempre consultar al médico o farmacéutico y nunca sugieras suspender o cambiar un medicamento.
 Usa párrafos cortos y listas con guiones. No uses tablas ni encabezados.`,
     en: `You are an expert assistant for the Nature's Sunshine Products catalog.
@@ -639,6 +683,7 @@ If the documents do not contain the answer, say so clearly instead of making som
 These are dietary supplements: do not diagnose or promise to cure diseases, mention the relevant cautions, and recommend consulting a health professional for pregnancy, children, medications or a medical condition.
 Suggested use comes from the official US website; remind the reader that the label in their country takes precedence. Prices are for reference (US store, September 2026) and may vary.
 For Chinese formulas [TCM-xxx], Chinese herbs [HRB-xxx] and the energetic model [MOD-xx]: explain the polarity (positive/yang or negative/yin), the organ, the element, the symptoms and the classical formula when the document provides them, and make clear this is traditional Chinese medicine use, not proven medical treatment.
+For body systems [SIS-xx]: explain what the system does and mention the related products, formulas and herbs, citing their IDs.
 For safety and drug interactions [SEG-xxx]: state the severity and level of evidence, never call a combination safe just because there is no data, always recommend checking with a doctor or pharmacist, and never suggest stopping or changing a medication.
 Use short paragraphs and bulleted lists with hyphens. Do not use tables or headings.`,
   };
@@ -782,6 +827,22 @@ product products take recommend something thing feel feeling hi hello please use
         `${UIl.embarazo}: ${tx(g.embarazo_lactancia) || "—"}`,
       ].join("\n") });
     }
+    const sistemas = DATOS.sistemas || [];
+    const tituloDoc = Object.fromEntries(docs.map((d) => [d.id, d.titulo]));
+    const nombreDe = (id) => (tituloDoc[id] ? `${tituloDoc[id]} [${id}]` : id);
+    for (const s of sistemas) {
+      docs.push({ id: s.id, titulo: tx(s.nombre), tipo: "sistema", s, texto: [
+        `${UIl.sis_doc}: ${tx(s.nombre)} [ID ${s.id}]`,
+        `${UIl.sis_partes}: ${tx(s.partes)}`,
+        tx(s.resumen),
+        `${UIl.sis_senales} ${(tx(s.senales) || []).join("; ")}`,
+        `${UIl.sis_habitos}: ${(tx(s.habitos) || []).join("; ")}`,
+        `${UIl.sis_medico} ${tx(s.medico)}`,
+        `${UIl.sis_productos}: ${s.productos.map(nombreDe).join(", ")}`,
+        `${UIl.sis_formulas}: ${s.formulas.map(nombreDe).join(", ")}`,
+        `${UIl.sis_hierbas}: ${s.hierbas.map(nombreDe).join(", ")}`,
+      ].join("\n") });
+    }
     const segPorRef = Object.fromEntries(seguridad.filter((g) => g.ref).map((g) => [g.ref, g.id]));
     const porId = Object.fromEntries(docs.map((d) => [d.id, d]));
     const tfs = docs.map((d) => {
@@ -817,7 +878,7 @@ product products take recommend something thing feel feeling hi hello please use
       }
       return elegidos;
     }
-    return (MUNDOS[lang] = { productos, empresa, tcm, hierbaPorId, formulaPorId, docs, porId, buscar, seguridad, segPorRef, tx });
+    return (MUNDOS[lang] = { productos, empresa, tcm, hierbaPorId, formulaPorId, docs, porId, buscar, seguridad, segPorRef, sistemas, tx });
   }
 
   // ================= Estado =================
@@ -970,6 +1031,32 @@ product products take recommend something thing feel feeling hi hello please use
       ["alta", "moderada", "baja", "teorica"].map((v) => `<option value="${v}">${esc(T.sev[v])}</option>`).join("");
   }
 
+  let sistemaActual = "SIS-01";
+  function pintarSistemas() {
+    const tx = W.tx;
+    const etiqueta = (s) => { const n = tx(s.nombre).replace(/^Sistema /, "").replace(/ system$/, ""); return n.charAt(0).toUpperCase() + n.slice(1); };
+    $("sis-tabs").innerHTML = W.sistemas.map((s) => `<button type="button" class="chip" data-id="${s.id}" aria-pressed="${s.id === sistemaActual}">${esc(etiqueta(s))}</button>`).join("");
+    const s = W.sistemas.find((x) => x.id === sistemaActual) || W.sistemas[0];
+    if (!s) { $("sis-ficha").innerHTML = ""; return; }
+    const corto = (d) => d.titulo.split(" · ")[0].replace(/ - .*/, "");
+    const chips = (ids) => ids.filter((id) => W.porId[id]).map((id) => `<button type="button" class="herb-chip" data-id="${id}">${esc(corto(W.porId[id]))}</button>`).join("");
+    const lista = (xs) => `<ul>${(xs || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    const grupo = (ids, titulo) => (ids.length ? `<div class="sis-grupo"><b class="label">${titulo}</b><div class="herbs">${chips(ids)}</div></div>` : "");
+    $("sis-ficha").innerHTML = `<article class="sis-card" id="card-${s.id}">
+      <div class="cab"><span class="label">${s.id}</span><h3>${esc(tx(s.nombre))}</h3><span class="partes">${T.sis_partes}: ${esc(tx(s.partes))}</span></div>
+      <p class="resumen">${esc(tx(s.resumen))}</p>
+      <div class="sis-cols">
+        <div><b class="label">${T.sis_senales}</b>${lista(tx(s.senales))}</div>
+        <div><b class="label">${T.sis_habitos}</b>${lista(tx(s.habitos))}</div>
+      </div>
+      ${grupo(s.productos, T.sis_productos)}
+      ${grupo(s.formulas, T.sis_formulas)}
+      ${grupo(s.hierbas, T.sis_hierbas)}
+      <p class="sis-medico"><strong>${T.sis_medico}</strong> ${esc(tx(s.medico))}</p>
+      <p class="note">${T.sis_nota}</p>
+    </article>`;
+  }
+
   function tarjeta(p) {
     return `<article class="card" id="card-${p.id}">
       <div class="top"><span>${p.id}${p.sku ? " · #" + esc(p.sku) : ""}</span><span class="price">${p.precio_usd != null ? "US$ " + Number(p.precio_usd).toFixed(2) : ""}</span></div>
@@ -1046,6 +1133,7 @@ product products take recommend something thing feel feeling hi hello please use
     if (!d || d.tipo === "empresa") return;
     if (!desdeHistorial) guardarPaso(id, origen);
     if (!document.getElementById("card-" + id)) {
+      if (d.tipo === "sistema") { sistemaActual = id; pintarSistemas(); }
       if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
       if (d.tipo === "formula") { lim.tcm = Infinity; filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
       if (d.tipo === "hierba") { $("f-hierba").value = ""; lim.hie = Infinity; pintarHierbas(); }
@@ -1072,6 +1160,7 @@ product products take recommend something thing feel feeling hi hello please use
       otros = [...new Set(otros.filter((o) => o && o !== nombre))];
       out.push({ id, nombre, otros, tipo, claves: [nombre, ...otros].map(plano) });
     };
+    for (const s of W.sistemas) add(s.id, tx(s.nombre), [], mayus(T.tipos.sistema));
     for (const p of W.productos) add(p.id, p.nombre_es, [p.nombre], mayus(T.tipos.producto));
     for (const f of W.tcm.formulas) add(f.id, f.nombre, f.nombres_anteriores || [], mayus(T.tipos.formula));
     for (const h of W.tcm.hierbas) add(h.id, h.pinyin || h.nombre_es, [h.nombre_es, h.latin], mayus(T.tipos.hierba));
@@ -1158,7 +1247,7 @@ product products take recommend something thing feel feeling hi hello please use
   function inline(s) {
     return s
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
+      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG|SIS)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
       .replace(/(https:\/\/www\.naturessunshine\.com\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   }
   function addMsg(rol, html) {
@@ -1221,6 +1310,8 @@ product products take recommend something thing feel feeling hi hello please use
     else $("tcm").hidden = true;
     if (W.seguridad.length) { $("seguridad").hidden = false; prepararFiltrosSeg(); pintarSeguridad(); }
     else $("seguridad").hidden = true;
+    if (W.sistemas.length) { $("sistemas").hidden = false; pintarSistemas(); }
+    else $("sistemas").hidden = true;
     pintarGaleria();
     // La conversación empieza de nuevo en el idioma elegido.
     turnos.length = 0;
@@ -1267,6 +1358,11 @@ product products take recommend something thing feel feeling hi hello please use
   $("f-organo").addEventListener("change", () => { lim.tcm = LIM0.tcm; pintarTcm(); });
   $("f-hierba").addEventListener("input", () => { lim.hie = LIM0.hie; pintarHierbas(); });
   $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
+  $("sis-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b || b.dataset.id === sistemaActual) return;
+    sistemaActual = b.dataset.id; pintarSistemas();
+  });
+  $("sis-ficha").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
   $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
   $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id, b); });
   $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id, b); });

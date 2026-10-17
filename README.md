@@ -10,6 +10,7 @@ Base de datos SQLite con productos de Nature's Sunshine y un asistente RAG (bús
 | `data/empresa.json` | 5 fichas sobre la empresa: historia, modelo de negocio, calidad, categorías y aviso legal |
 | `data/raw/` | Lotes extraídos tal cual de la web y el primer borrador sin verificar (no se usa) |
 | `data/tcm.json` | 16 fórmulas chinas (polaridad Positiva/Negativa, elemento, órganos, síntomas, uso tradicional, hierbas), 97 hierbas chinas (naturaleza, sabor, meridianos, acciones, indicaciones) y 12 fichas del modelo energético. Lo genera `build_tcm.py` a partir de `data/raw/tcm_*.json` y `data/raw/hierbas_*.json` |
+| `data/sistemas.json` | 8 sistemas del cuerpo (estructural, linfático, nervioso, circulatorio, glandular, urinario, reproductor femenino y masculino), en español e inglés: qué hace, señales, hábitos, cuándo ir al médico y los productos, fórmulas y hierbas relacionados. Texto propio, no copiado de ningún libro. Lo usa `build_web.py` |
 | `build_db.py` | Crea `naturessunshine.db` (tablas normalizadas y la tabla `documentos` que usa el RAG) |
 | `rag.py` | Recupera los 5 documentos más relevantes y pide a Claude una respuesta con citas `[NSP-xxx]` |
 | `build_web.py` + `web/plantilla.html` | Generan `web/herbolario.html`, la versión web (mismo buscador en JavaScript; en claude.ai responde con la cuenta del usuario) |

@@ -24,6 +24,10 @@ def main():
     seg = BASE / "data" / "seguridad.json"
     if seg.exists():
         idiomas["seguridad"] = json.loads(seg.read_text(encoding="utf-8"))
+    # Sistemas del cuerpo (bilingüe dentro de cada ficha).
+    sis = BASE / "data" / "sistemas.json"
+    if sis.exists():
+        idiomas["sistemas"] = json.loads(sis.read_text(encoding="utf-8"))
     datos = json.dumps(idiomas, ensure_ascii=False)
     # Evita que un "</script>" dentro de los datos cierre la etiqueta antes de tiempo.
     datos = datos.replace("</", "<\\/")
