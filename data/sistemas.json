@@ -1,194 +1,656 @@
 [
   {
     "id": "SIS-01",
-    "nombre": {"es": "Sistema estructural", "en": "Structural system"},
-    "partes": {"es": "Huesos, articulaciones, cartílago, músculos, tendones, ligamentos, piel, cabello y uñas", "en": "Bones, joints, cartilage, muscles, tendons, ligaments, skin, hair and nails"},
+    "nombre": {
+      "es": "Sistema estructural",
+      "en": "Structural system"
+    },
+    "partes": {
+      "es": "Huesos, articulaciones, cartílago, músculos, tendones, ligamentos, piel, cabello y uñas",
+      "en": "Bones, joints, cartilage, muscles, tendons, ligaments, skin, hair and nails"
+    },
     "resumen": {
       "es": "Es el armazón del cuerpo: sostiene, protege los órganos y permite el movimiento. Los huesos además guardan minerales como el calcio y el magnesio, y el colágeno da firmeza a cartílagos, tendones y piel.",
       "en": "It is the body's framework: it supports us, protects the organs and makes movement possible. Bones also store minerals such as calcium and magnesium, and collagen gives firmness to cartilage, tendons and skin."
     },
     "senales": {
-      "es": ["Rigidez o molestias en rodillas, cadera o espalda", "Calambres o tensión muscular", "Huesos o uñas débiles", "Piel seca o con menos firmeza", "Recuperación lenta después del ejercicio"],
-      "en": ["Stiffness or discomfort in knees, hips or back", "Cramps or muscle tension", "Weak bones or nails", "Dry skin or skin losing firmness", "Slow recovery after exercise"]
+      "es": [
+        "Rigidez o molestias en rodillas, cadera o espalda",
+        "Calambres o tensión muscular",
+        "Huesos o uñas débiles",
+        "Piel seca o con menos firmeza",
+        "Recuperación lenta después del ejercicio"
+      ],
+      "en": [
+        "Stiffness or discomfort in knees, hips or back",
+        "Cramps or muscle tension",
+        "Weak bones or nails",
+        "Dry skin or skin losing firmness",
+        "Slow recovery after exercise"
+      ]
     },
     "habitos": {
-      "es": ["Caminar y hacer ejercicio de fuerza con regularidad", "Tomar sol con moderación (vitamina D)", "Comer verduras de hoja verde, semillas y pescado", "Cuidar la postura y mantener un peso saludable"],
-      "en": ["Walk and do strength exercise regularly", "Get moderate sun exposure (vitamin D)", "Eat leafy greens, seeds and fish", "Watch your posture and keep a healthy weight"]
+      "es": [
+        "Caminar y hacer ejercicio de fuerza con regularidad",
+        "Tomar sol con moderación (vitamina D)",
+        "Comer verduras de hoja verde, semillas y pescado",
+        "Cuidar la postura y mantener un peso saludable"
+      ],
+      "en": [
+        "Walk and do strength exercise regularly",
+        "Get moderate sun exposure (vitamin D)",
+        "Eat leafy greens, seeds and fish",
+        "Watch your posture and keep a healthy weight"
+      ]
     },
     "medico": {
       "es": "Consulta al médico si una articulación está hinchada, roja o caliente, si el dolor no te deja dormir o después de una caída.",
       "en": "See a doctor if a joint is swollen, red or warm, if pain keeps you awake, or after a fall."
     },
-    "productos": ["NSP-058", "NSP-059", "NSP-060", "NSP-061", "NSP-062", "NSP-063", "NSP-064", "NSP-066", "NSP-043", "NSP-083"],
-    "formulas": ["TCM-010", "TCM-003"],
-    "hierbas": ["SEG-007", "SEG-012", "SEG-021", "SEG-010", "SEG-003", "HRB-017", "HRB-084", "HRB-058", "HRB-026"]
+    "productos": [
+      "NSP-058",
+      "NSP-059",
+      "NSP-060",
+      "NSP-061",
+      "NSP-062",
+      "NSP-063",
+      "NSP-064",
+      "NSP-066",
+      "NSP-043",
+      "NSP-083"
+    ],
+    "formulas": [
+      "TCM-010",
+      "TCM-003"
+    ],
+    "hierbas": [
+      "SEG-007",
+      "SEG-012",
+      "SEG-021",
+      "SEG-010",
+      "SEG-003",
+      "HRB-017",
+      "HRB-084",
+      "HRB-058",
+      "HRB-026"
+    ]
   },
   {
     "id": "SIS-02",
-    "nombre": {"es": "Sistema linfático", "en": "Lymphatic system"},
-    "partes": {"es": "Vasos y ganglios linfáticos, bazo, timo y amígdalas", "en": "Lymph vessels and nodes, spleen, thymus and tonsils"},
+    "nombre": {
+      "es": "Sistema linfático",
+      "en": "Lymphatic system"
+    },
+    "partes": {
+      "es": "Vasos y ganglios linfáticos, bazo, timo y amígdalas",
+      "en": "Lymph vessels and nodes, spleen, thymus and tonsils"
+    },
     "resumen": {
       "es": "Es una red de vasos y ganglios que recoge el líquido sobrante de los tejidos y lo devuelve a la sangre, filtrándolo por el camino. Trabaja de la mano con las defensas: en los ganglios se reúnen las células que reconocen virus y bacterias.",
       "en": "It is a network of vessels and nodes that collects excess fluid from the tissues and returns it to the blood, filtering it along the way. It works hand in hand with the immune system: the nodes are where the cells that recognize viruses and bacteria gather."
     },
     "senales": {
-      "es": ["Sensación de hinchazón o retención de líquidos", "Pesadez en piernas al final del día", "Resfriados frecuentes", "Sensación de cuerpo cargado o lento"],
-      "en": ["A swollen feeling or fluid retention", "Heavy legs at the end of the day", "Frequent colds", "Feeling sluggish or weighed down"]
+      "es": [
+        "Sensación de hinchazón o retención de líquidos",
+        "Pesadez en piernas al final del día",
+        "Resfriados frecuentes",
+        "Sensación de cuerpo cargado o lento"
+      ],
+      "en": [
+        "A swollen feeling or fluid retention",
+        "Heavy legs at the end of the day",
+        "Frequent colds",
+        "Feeling sluggish or weighed down"
+      ]
     },
     "habitos": {
-      "es": ["Moverse: la linfa no tiene bomba propia y avanza con el movimiento de los músculos", "Respirar profundo varias veces al día", "Beber suficiente agua", "Masajes suaves o cepillado en seco hacia el corazón"],
-      "en": ["Move: lymph has no pump of its own and flows with muscle movement", "Breathe deeply several times a day", "Drink enough water", "Gentle massage or dry brushing toward the heart"]
+      "es": [
+        "Moverse: la linfa no tiene bomba propia y avanza con el movimiento de los músculos",
+        "Respirar profundo varias veces al día",
+        "Beber suficiente agua",
+        "Masajes suaves o cepillado en seco hacia el corazón"
+      ],
+      "en": [
+        "Move: lymph has no pump of its own and flows with muscle movement",
+        "Breathe deeply several times a day",
+        "Drink enough water",
+        "Gentle massage or dry brushing toward the heart"
+      ]
     },
     "medico": {
       "es": "Consulta al médico si notas un ganglio que crece, está duro o dura más de dos semanas, o si la hinchazón aparece en una sola pierna o brazo.",
       "en": "See a doctor if a lymph node grows, feels hard or lasts more than two weeks, or if swelling appears in only one leg or arm."
     },
-    "productos": ["NSP-024", "NSP-025", "NSP-026", "NSP-029", "NSP-028", "NSP-034"],
-    "formulas": ["TCM-004", "TCM-006", "TCM-003"],
-    "hierbas": ["SEG-016", "SEG-045", "SEG-043", "SEG-036", "HRB-019"]
+    "productos": [
+      "NSP-024",
+      "NSP-025",
+      "NSP-026",
+      "NSP-029",
+      "NSP-028",
+      "NSP-034"
+    ],
+    "formulas": [
+      "TCM-004",
+      "TCM-006",
+      "TCM-003"
+    ],
+    "hierbas": [
+      "SEG-016",
+      "SEG-045",
+      "SEG-043",
+      "SEG-036",
+      "HRB-019"
+    ]
+  },
+  {
+    "id": "SIS-09",
+    "nombre": {
+      "es": "Sistema inmunológico",
+      "en": "Immune system"
+    },
+    "partes": {
+      "es": "Glóbulos blancos, anticuerpos, médula ósea, timo, bazo, ganglios, mucosas y flora intestinal",
+      "en": "White blood cells, antibodies, bone marrow, thymus, spleen, lymph nodes, mucous membranes and gut flora"
+    },
+    "resumen": {
+      "es": "Son las defensas del cuerpo: reconocen y eliminan virus, bacterias y hongos, y recuerdan a los que ya conocieron para responder más rápido la próxima vez. La piel, las mucosas y la flora intestinal son la primera barrera, y gran parte de las defensas vive en el intestino.",
+      "en": "These are the body's defenses: they recognize and remove viruses, bacteria and fungi, and remember the ones they have met so they can respond faster next time. Skin, mucous membranes and gut flora are the first barrier, and much of the immune system lives in the gut."
+    },
+    "senales": {
+      "es": [
+        "Resfriados o infecciones frecuentes",
+        "Tardar mucho en recuperarse de una gripe",
+        "Heridas que sanan despacio",
+        "Cansancio que aparece con los cambios de estación",
+        "Épocas de mucho estrés o poco sueño"
+      ],
+      "en": [
+        "Frequent colds or infections",
+        "Taking a long time to recover from the flu",
+        "Slow-healing cuts",
+        "Tiredness that comes with the change of seasons",
+        "Times of high stress or little sleep"
+      ]
+    },
+    "habitos": {
+      "es": [
+        "Dormir de 7 a 9 horas: las defensas se reparan de noche",
+        "Comer frutas y verduras de colores, ajo y alimentos fermentados",
+        "Lavarse las manos y mantenerse al día con las vacunas",
+        "Moverse a diario, tomar sol con moderación y manejar el estrés"
+      ],
+      "en": [
+        "Sleep 7 to 9 hours: the immune system repairs itself at night",
+        "Eat colorful fruit and vegetables, garlic and fermented foods",
+        "Wash your hands and stay up to date on vaccines",
+        "Move every day, get moderate sun and manage stress"
+      ]
+    },
+    "medico": {
+      "es": "Consulta al médico si hay fiebre alta o de más de tres días, dificultad para respirar o infecciones que se repiten. Si tienes una enfermedad autoinmune, un trasplante o tomas inmunosupresores, pregunta antes de usar equinácea, astrágalo, uña de gato u otros estimulantes de las defensas.",
+      "en": "See a doctor for a high fever or one lasting more than three days, trouble breathing or infections that keep coming back. If you have an autoimmune disease or a transplant, or take immunosuppressants, ask before using echinacea, astragalus, cat's claw or other immune stimulants."
+    },
+    "productos": [
+      "NSP-027",
+      "NSP-030",
+      "NSP-023",
+      "NSP-025",
+      "NSP-026",
+      "NSP-034",
+      "NSP-036",
+      "NSP-021",
+      "NSP-022",
+      "NSP-032",
+      "NSP-028",
+      "NSP-029",
+      "NSP-031",
+      "NSP-033",
+      "NSP-035",
+      "NSP-013",
+      "NSP-083"
+    ],
+    "formulas": [
+      "TCM-014",
+      "TCM-011",
+      "TCM-016",
+      "TCM-003"
+    ],
+    "hierbas": [
+      "SEG-016",
+      "SEG-046",
+      "SEG-005",
+      "SEG-043",
+      "SEG-002",
+      "SEG-036",
+      "HRB-038",
+      "HRB-039"
+    ]
   },
   {
     "id": "SIS-03",
-    "nombre": {"es": "Sistema nervioso", "en": "Nervous system"},
-    "partes": {"es": "Cerebro, médula espinal y nervios", "en": "Brain, spinal cord and nerves"},
+    "nombre": {
+      "es": "Sistema nervioso",
+      "en": "Nervous system"
+    },
+    "partes": {
+      "es": "Cerebro, médula espinal y nervios",
+      "en": "Brain, spinal cord and nerves"
+    },
     "resumen": {
       "es": "Es la red de comunicación del cuerpo: recibe la información de los sentidos, la interpreta y envía órdenes a músculos y órganos. También regula el sueño, el estado de ánimo, la memoria y la respuesta al estrés.",
       "en": "It is the body's communication network: it receives information from the senses, interprets it and sends orders to muscles and organs. It also regulates sleep, mood, memory and the stress response."
     },
     "senales": {
-      "es": ["Estrés, nervios o irritabilidad", "Dificultad para dormir o sueño poco reparador", "Falta de concentración u olvidos", "Tensión muscular", "Cansancio mental"],
-      "en": ["Stress, nerves or irritability", "Trouble sleeping or unrefreshing sleep", "Poor focus or forgetfulness", "Muscle tension", "Mental fatigue"]
+      "es": [
+        "Estrés, nervios o irritabilidad",
+        "Dificultad para dormir o sueño poco reparador",
+        "Falta de concentración u olvidos",
+        "Tensión muscular",
+        "Cansancio mental"
+      ],
+      "en": [
+        "Stress, nerves or irritability",
+        "Trouble sleeping or unrefreshing sleep",
+        "Poor focus or forgetfulness",
+        "Muscle tension",
+        "Mental fatigue"
+      ]
     },
     "habitos": {
-      "es": ["Dormir a horarios regulares y apagar pantallas antes de acostarse", "Hacer pausas y respirar despacio durante el día", "Comer alimentos con vitaminas del grupo B y magnesio", "Limitar la cafeína y el alcohol"],
-      "en": ["Sleep on a regular schedule and turn off screens before bed", "Take breaks and breathe slowly during the day", "Eat foods rich in B vitamins and magnesium", "Limit caffeine and alcohol"]
+      "es": [
+        "Dormir a horarios regulares y apagar pantallas antes de acostarse",
+        "Hacer pausas y respirar despacio durante el día",
+        "Comer alimentos con vitaminas del grupo B y magnesio",
+        "Limitar la cafeína y el alcohol"
+      ],
+      "en": [
+        "Sleep on a regular schedule and turn off screens before bed",
+        "Take breaks and breathe slowly during the day",
+        "Eat foods rich in B vitamins and magnesium",
+        "Limit caffeine and alcohol"
+      ]
     },
     "medico": {
       "es": "Consulta al médico si la tristeza o la ansiedad duran semanas o afectan tu vida diaria, y antes de combinar hierbas calmantes con antidepresivos o medicamentos para dormir.",
       "en": "See a doctor if sadness or anxiety last for weeks or affect your daily life, and before combining calming herbs with antidepressants or sleep medications."
     },
-    "productos": ["NSP-039", "NSP-047", "NSP-042", "NSP-043", "NSP-044", "NSP-045", "NSP-037", "NSP-038", "NSP-040", "NSP-046", "NSP-077"],
-    "formulas": ["TCM-007", "TCM-012", "TCM-005", "TCM-006", "TCM-015"],
-    "hierbas": ["SEG-047", "SEG-035", "SEG-029", "SEG-031", "SEG-006", "SEG-040", "SEG-024", "SEG-027", "SEG-048", "SEG-050", "HRB-075", "HRB-088", "HRB-080"]
+    "productos": [
+      "NSP-039",
+      "NSP-047",
+      "NSP-042",
+      "NSP-043",
+      "NSP-044",
+      "NSP-045",
+      "NSP-037",
+      "NSP-038",
+      "NSP-040",
+      "NSP-046",
+      "NSP-077"
+    ],
+    "formulas": [
+      "TCM-007",
+      "TCM-012",
+      "TCM-005",
+      "TCM-006",
+      "TCM-015"
+    ],
+    "hierbas": [
+      "SEG-047",
+      "SEG-035",
+      "SEG-029",
+      "SEG-031",
+      "SEG-006",
+      "SEG-040",
+      "SEG-024",
+      "SEG-027",
+      "SEG-048",
+      "SEG-050",
+      "HRB-075",
+      "HRB-088",
+      "HRB-080"
+    ]
   },
   {
     "id": "SIS-04",
-    "nombre": {"es": "Sistema circulatorio", "en": "Circulatory system"},
-    "partes": {"es": "Corazón, arterias, venas, capilares y sangre", "en": "Heart, arteries, veins, capillaries and blood"},
+    "nombre": {
+      "es": "Sistema circulatorio",
+      "en": "Circulatory system"
+    },
+    "partes": {
+      "es": "Corazón, arterias, venas, capilares y sangre",
+      "en": "Heart, arteries, veins, capillaries and blood"
+    },
     "resumen": {
       "es": "El corazón bombea la sangre por arterias, venas y capilares para llevar oxígeno y nutrientes a cada célula y recoger los desechos. Unas paredes de los vasos flexibles y un buen equilibrio de grasas en la sangre ayudan a que todo fluya.",
       "en": "The heart pumps blood through arteries, veins and capillaries to carry oxygen and nutrients to every cell and collect waste. Flexible vessel walls and a good balance of fats in the blood help everything flow."
     },
     "senales": {
-      "es": ["Manos y pies fríos", "Piernas cansadas o várices", "Colesterol o presión arterial que conviene vigilar", "Poca energía al hacer esfuerzo"],
-      "en": ["Cold hands and feet", "Tired legs or varicose veins", "Cholesterol or blood pressure worth keeping an eye on", "Low energy during exertion"]
+      "es": [
+        "Manos y pies fríos",
+        "Piernas cansadas o várices",
+        "Colesterol o presión arterial que conviene vigilar",
+        "Poca energía al hacer esfuerzo"
+      ],
+      "en": [
+        "Cold hands and feet",
+        "Tired legs or varicose veins",
+        "Cholesterol or blood pressure worth keeping an eye on",
+        "Low energy during exertion"
+      ]
     },
     "habitos": {
-      "es": ["Caminar a diario y evitar pasar muchas horas sentado", "Comer pescado, aceite de oliva, nueces, frutas y verduras", "Reducir la sal, los azúcares y no fumar", "Revisar la presión y el colesterol con regularidad"],
-      "en": ["Walk every day and avoid sitting for long hours", "Eat fish, olive oil, nuts, fruit and vegetables", "Cut down on salt and sugar, and don't smoke", "Check your blood pressure and cholesterol regularly"]
+      "es": [
+        "Caminar a diario y evitar pasar muchas horas sentado",
+        "Comer pescado, aceite de oliva, nueces, frutas y verduras",
+        "Reducir la sal, los azúcares y no fumar",
+        "Revisar la presión y el colesterol con regularidad"
+      ],
+      "en": [
+        "Walk every day and avoid sitting for long hours",
+        "Eat fish, olive oil, nuts, fruit and vegetables",
+        "Cut down on salt and sugar, and don't smoke",
+        "Check your blood pressure and cholesterol regularly"
+      ]
     },
     "medico": {
       "es": "Busca atención urgente ante dolor en el pecho, falta de aire o una pierna hinchada y dolorosa. Si tomas anticoagulantes o medicamentos para la presión, consulta antes de usar ajo, ginkgo, omega-3 u otras hierbas.",
       "en": "Seek urgent care for chest pain, shortness of breath or a swollen, painful leg. If you take blood thinners or blood pressure medication, ask before using garlic, ginkgo, omega-3 or other herbs."
     },
-    "productos": ["NSP-052", "NSP-053", "NSP-054", "NSP-055", "NSP-056", "NSP-057", "NSP-022"],
-    "formulas": ["TCM-008", "TCM-007", "TCM-014"],
-    "hierbas": ["SEG-017", "SEG-024", "SEG-041", "SEG-002", "SEG-049", "SEG-026", "HRB-014", "HRB-012"]
+    "productos": [
+      "NSP-052",
+      "NSP-053",
+      "NSP-054",
+      "NSP-055",
+      "NSP-056",
+      "NSP-057",
+      "NSP-022"
+    ],
+    "formulas": [
+      "TCM-008",
+      "TCM-007",
+      "TCM-014"
+    ],
+    "hierbas": [
+      "SEG-017",
+      "SEG-024",
+      "SEG-041",
+      "SEG-002",
+      "SEG-049",
+      "SEG-026",
+      "HRB-014",
+      "HRB-012"
+    ]
   },
   {
     "id": "SIS-05",
-    "nombre": {"es": "Sistema glandular", "en": "Glandular system"},
-    "partes": {"es": "Tiroides, suprarrenales, páncreas, hipófisis, ovarios y testículos", "en": "Thyroid, adrenals, pancreas, pituitary, ovaries and testes"},
+    "nombre": {
+      "es": "Sistema glandular",
+      "en": "Glandular system"
+    },
+    "partes": {
+      "es": "Tiroides, suprarrenales, páncreas, hipófisis, ovarios y testículos",
+      "en": "Thyroid, adrenals, pancreas, pituitary, ovaries and testes"
+    },
     "resumen": {
       "es": "Las glándulas producen hormonas, los mensajeros químicos que regulan el metabolismo, la energía, el azúcar en la sangre, la respuesta al estrés y la reproducción. Trabajan en equipo: cuando una se desequilibra, las demás lo notan.",
       "en": "The glands make hormones, the chemical messengers that regulate metabolism, energy, blood sugar, the stress response and reproduction. They work as a team: when one is out of balance, the others feel it."
     },
     "senales": {
-      "es": ["Cansancio que no mejora con el descanso", "Metabolismo lento o cambios de peso", "Altibajos de energía o antojos de dulce", "Sensación de agotamiento por estrés prolongado"],
-      "en": ["Tiredness that doesn't improve with rest", "Slow metabolism or weight changes", "Energy swings or sugar cravings", "Feeling burned out from long-term stress"]
+      "es": [
+        "Cansancio que no mejora con el descanso",
+        "Metabolismo lento o cambios de peso",
+        "Altibajos de energía o antojos de dulce",
+        "Sensación de agotamiento por estrés prolongado"
+      ],
+      "en": [
+        "Tiredness that doesn't improve with rest",
+        "Slow metabolism or weight changes",
+        "Energy swings or sugar cravings",
+        "Feeling burned out from long-term stress"
+      ]
     },
     "habitos": {
-      "es": ["Comer a horarios regulares, con proteína y fibra en cada comida", "Dormir lo suficiente: muchas hormonas se regulan de noche", "Manejar el estrés con pausas, ejercicio y tiempo al aire libre", "Incluir alimentos con yodo, zinc y selenio (algas, mariscos, semillas)"],
-      "en": ["Eat at regular times, with protein and fiber at every meal", "Get enough sleep: many hormones are regulated at night", "Manage stress with breaks, exercise and time outdoors", "Include foods with iodine, zinc and selenium (seaweed, seafood, seeds)"]
+      "es": [
+        "Comer a horarios regulares, con proteína y fibra en cada comida",
+        "Dormir lo suficiente: muchas hormonas se regulan de noche",
+        "Manejar el estrés con pausas, ejercicio y tiempo al aire libre",
+        "Incluir alimentos con yodo, zinc y selenio (algas, mariscos, semillas)"
+      ],
+      "en": [
+        "Eat at regular times, with protein and fiber at every meal",
+        "Get enough sleep: many hormones are regulated at night",
+        "Manage stress with breaks, exercise and time outdoors",
+        "Include foods with iodine, zinc and selenium (seaweed, seafood, seeds)"
+      ]
     },
     "medico": {
       "es": "Los problemas de tiroides y de azúcar en la sangre se confirman con análisis. Si tomas medicamentos para la tiroides o la diabetes, consulta antes de usar kelp, gimnema, melón amargo u otras hierbas, porque pueden cambiar su efecto.",
       "en": "Thyroid and blood sugar problems are confirmed with lab tests. If you take thyroid or diabetes medication, ask before using kelp, gymnema, bitter melon or other herbs, because they can change how the medication works."
     },
-    "productos": ["NSP-049", "NSP-050", "NSP-051", "NSP-048", "NSP-041", "NSP-038"],
-    "formulas": ["TCM-009", "TCM-015", "TCM-012", "TCM-006"],
-    "hierbas": ["SEG-028", "SEG-023", "SEG-033", "SEG-019", "SEG-039", "SEG-014", "SEG-006", "HRB-063", "HRB-067"]
+    "productos": [
+      "NSP-049",
+      "NSP-050",
+      "NSP-051",
+      "NSP-048",
+      "NSP-041",
+      "NSP-038"
+    ],
+    "formulas": [
+      "TCM-009",
+      "TCM-015",
+      "TCM-012",
+      "TCM-006"
+    ],
+    "hierbas": [
+      "SEG-028",
+      "SEG-023",
+      "SEG-033",
+      "SEG-019",
+      "SEG-039",
+      "SEG-014",
+      "SEG-006",
+      "HRB-063",
+      "HRB-067"
+    ]
   },
   {
     "id": "SIS-06",
-    "nombre": {"es": "Sistema urinario", "en": "Urinary system"},
-    "partes": {"es": "Riñones, uréteres, vejiga y uretra", "en": "Kidneys, ureters, bladder and urethra"},
+    "nombre": {
+      "es": "Sistema urinario",
+      "en": "Urinary system"
+    },
+    "partes": {
+      "es": "Riñones, uréteres, vejiga y uretra",
+      "en": "Kidneys, ureters, bladder and urethra"
+    },
     "resumen": {
       "es": "Los riñones filtran la sangre día y noche: eliminan desechos por la orina y ajustan el agua, las sales y la presión arterial. La vejiga guarda la orina hasta que se expulsa.",
       "en": "The kidneys filter the blood day and night: they remove waste in the urine and adjust water, salts and blood pressure. The bladder stores urine until it is released."
     },
     "senales": {
-      "es": ["Retención de líquidos o hinchazón", "Orina escasa o muy concentrada", "Molestias leves al orinar", "Ganas de orinar con frecuencia"],
-      "en": ["Fluid retention or swelling", "Scant or very concentrated urine", "Mild discomfort when urinating", "Needing to urinate often"]
+      "es": [
+        "Retención de líquidos o hinchazón",
+        "Orina escasa o muy concentrada",
+        "Molestias leves al orinar",
+        "Ganas de orinar con frecuencia"
+      ],
+      "en": [
+        "Fluid retention or swelling",
+        "Scant or very concentrated urine",
+        "Mild discomfort when urinating",
+        "Needing to urinate often"
+      ]
     },
     "habitos": {
-      "es": ["Beber agua repartida durante el día", "No aguantar las ganas de orinar", "Reducir la sal y los alimentos ultraprocesados", "Vigilar la presión arterial y el azúcar, que también cuidan los riñones"],
-      "en": ["Drink water throughout the day", "Don't hold in the urge to urinate", "Cut down on salt and ultra-processed foods", "Keep blood pressure and sugar in check; it protects the kidneys too"]
+      "es": [
+        "Beber agua repartida durante el día",
+        "No aguantar las ganas de orinar",
+        "Reducir la sal y los alimentos ultraprocesados",
+        "Vigilar la presión arterial y el azúcar, que también cuidan los riñones"
+      ],
+      "en": [
+        "Drink water throughout the day",
+        "Don't hold in the urge to urinate",
+        "Cut down on salt and ultra-processed foods",
+        "Keep blood pressure and sugar in check; it protects the kidneys too"
+      ]
     },
     "medico": {
       "es": "Consulta al médico si hay ardor fuerte, fiebre, sangre en la orina, dolor en la espalda baja o si tienes una enfermedad de los riñones. Las hierbas diuréticas no deben usarse con diuréticos, litio u otros medicamentos sin preguntar.",
       "en": "See a doctor if there is strong burning, fever, blood in the urine, lower back pain, or if you have kidney disease. Diuretic herbs should not be combined with diuretics, lithium or other medications without asking first."
     },
-    "productos": ["NSP-069", "NSP-070", "NSP-067", "NSP-068", "NSP-071", "NSP-017"],
-    "formulas": ["TCM-004", "TCM-010"],
-    "hierbas": ["SEG-022", "SEG-015", "SEG-037", "SEG-013", "SEG-034", "HRB-009", "HRB-089", "HRB-019"]
+    "productos": [
+      "NSP-069",
+      "NSP-070",
+      "NSP-067",
+      "NSP-068",
+      "NSP-071",
+      "NSP-017"
+    ],
+    "formulas": [
+      "TCM-004",
+      "TCM-010"
+    ],
+    "hierbas": [
+      "SEG-022",
+      "SEG-015",
+      "SEG-037",
+      "SEG-013",
+      "SEG-034",
+      "HRB-009",
+      "HRB-089",
+      "HRB-019"
+    ]
   },
   {
     "id": "SIS-07",
-    "nombre": {"es": "Sistema reproductor femenino", "en": "Female reproductive system"},
-    "partes": {"es": "Ovarios, útero y mamas, regulados por las hormonas", "en": "Ovaries, uterus and breasts, regulated by hormones"},
+    "nombre": {
+      "es": "Sistema reproductor femenino",
+      "en": "Female reproductive system"
+    },
+    "partes": {
+      "es": "Ovarios, útero y mamas, regulados por las hormonas",
+      "en": "Ovaries, uterus and breasts, regulated by hormones"
+    },
     "resumen": {
       "es": "Los ovarios producen estrógenos y progesterona, que marcan el ciclo menstrual y acompañan cada etapa de la vida de la mujer: la adolescencia, el embarazo y la menopausia. Estas hormonas también influyen en los huesos, la piel y el estado de ánimo.",
       "en": "The ovaries make estrogen and progesterone, which set the menstrual cycle and accompany every stage of a woman's life: adolescence, pregnancy and menopause. These hormones also affect bones, skin and mood."
     },
     "senales": {
-      "es": ["Cólicos o ciclos irregulares", "Menstruaciones abundantes", "Bochornos y cambios de ánimo en la menopausia", "Poca energía o deseo"],
-      "en": ["Cramps or irregular cycles", "Heavy periods", "Hot flashes and mood changes in menopause", "Low energy or desire"]
+      "es": [
+        "Cólicos o ciclos irregulares",
+        "Menstruaciones abundantes",
+        "Bochornos y cambios de ánimo en la menopausia",
+        "Poca energía o deseo"
+      ],
+      "en": [
+        "Cramps or irregular cycles",
+        "Heavy periods",
+        "Hot flashes and mood changes in menopause",
+        "Low energy or desire"
+      ]
     },
     "habitos": {
-      "es": ["Comer suficiente hierro, calcio y vitamina D", "Hacer ejercicio con regularidad, que alivia cólicos y bochornos", "Llevar un registro del ciclo", "Hacerse las revisiones ginecológicas y mamografías que correspondan"],
-      "en": ["Get enough iron, calcium and vitamin D", "Exercise regularly; it helps with cramps and hot flashes", "Keep track of your cycle", "Get the gynecological checkups and mammograms you're due for"]
+      "es": [
+        "Comer suficiente hierro, calcio y vitamina D",
+        "Hacer ejercicio con regularidad, que alivia cólicos y bochornos",
+        "Llevar un registro del ciclo",
+        "Hacerse las revisiones ginecológicas y mamografías que correspondan"
+      ],
+      "en": [
+        "Get enough iron, calcium and vitamin D",
+        "Exercise regularly; it helps with cramps and hot flashes",
+        "Keep track of your cycle",
+        "Get the gynecological checkups and mammograms you're due for"
+      ]
     },
     "medico": {
       "es": "Consulta antes de tomar cualquier hierba si estás embarazada, en lactancia, buscando embarazo o con tratamiento hormonal. Un sangrado muy abundante, entre reglas o después de la menopausia debe revisarlo un médico.",
       "en": "Ask before taking any herb if you are pregnant, breastfeeding, trying to conceive or on hormone therapy. Very heavy bleeding, bleeding between periods or after menopause should be checked by a doctor."
     },
-    "productos": ["NSP-072", "NSP-073", "NSP-074", "NSP-059", "NSP-083"],
-    "formulas": ["TCM-008", "TCM-006"],
-    "hierbas": ["SEG-009", "SEG-045", "SEG-030", "HRB-015", "HRB-004", "HRB-024"]
+    "productos": [
+      "NSP-072",
+      "NSP-073",
+      "NSP-074",
+      "NSP-059",
+      "NSP-083"
+    ],
+    "formulas": [
+      "TCM-008",
+      "TCM-006"
+    ],
+    "hierbas": [
+      "SEG-009",
+      "SEG-045",
+      "SEG-030",
+      "HRB-015",
+      "HRB-004",
+      "HRB-024"
+    ]
   },
   {
     "id": "SIS-08",
-    "nombre": {"es": "Sistema reproductor masculino", "en": "Male reproductive system"},
-    "partes": {"es": "Testículos y próstata, regulados por la testosterona", "en": "Testes and prostate, regulated by testosterone"},
+    "nombre": {
+      "es": "Sistema reproductor masculino",
+      "en": "Male reproductive system"
+    },
+    "partes": {
+      "es": "Testículos y próstata, regulados por la testosterona",
+      "en": "Testes and prostate, regulated by testosterone"
+    },
     "resumen": {
       "es": "Los testículos producen testosterona, que influye en la energía, la masa muscular, los huesos y el deseo. La próstata rodea la uretra, por eso cuando crece con la edad puede cambiar la forma de orinar.",
       "en": "The testes make testosterone, which affects energy, muscle mass, bones and desire. The prostate surrounds the urethra, so when it grows with age it can change how a man urinates."
     },
     "senales": {
-      "es": ["Orinar con frecuencia, sobre todo de noche", "Chorro de orina débil", "Poca energía o vitalidad", "Menor deseo"],
-      "en": ["Urinating often, especially at night", "A weak urine stream", "Low energy or vitality", "Lower desire"]
+      "es": [
+        "Orinar con frecuencia, sobre todo de noche",
+        "Chorro de orina débil",
+        "Poca energía o vitalidad",
+        "Menor deseo"
+      ],
+      "en": [
+        "Urinating often, especially at night",
+        "A weak urine stream",
+        "Low energy or vitality",
+        "Lower desire"
+      ]
     },
     "habitos": {
-      "es": ["Mantener un peso saludable y hacer ejercicio de fuerza", "Comer tomate cocido, semillas de calabaza y alimentos con zinc", "Moderar el alcohol y la cafeína por la noche", "Hacerse la revisión de próstata a partir de la edad que indique tu médico"],
-      "en": ["Keep a healthy weight and do strength exercise", "Eat cooked tomatoes, pumpkin seeds and zinc-rich foods", "Go easy on alcohol and caffeine at night", "Get prostate checkups from the age your doctor recommends"]
+      "es": [
+        "Mantener un peso saludable y hacer ejercicio de fuerza",
+        "Comer tomate cocido, semillas de calabaza y alimentos con zinc",
+        "Moderar el alcohol y la cafeína por la noche",
+        "Hacerse la revisión de próstata a partir de la edad que indique tu médico"
+      ],
+      "en": [
+        "Keep a healthy weight and do strength exercise",
+        "Eat cooked tomatoes, pumpkin seeds and zinc-rich foods",
+        "Go easy on alcohol and caffeine at night",
+        "Get prostate checkups from the age your doctor recommends"
+      ]
     },
     "medico": {
       "es": "Los síntomas de próstata pueden parecerse a los de otras enfermedades: consulta al médico antes de tratarlos por tu cuenta, sobre todo si hay dolor, sangre en la orina o no puedes orinar.",
       "en": "Prostate symptoms can look like those of other conditions: see a doctor before treating them on your own, especially if there is pain, blood in the urine or you cannot urinate."
     },
-    "productos": ["NSP-075", "NSP-078", "NSP-036", "NSP-077"],
-    "formulas": ["TCM-010", "TCM-004"],
-    "hierbas": ["SEG-042", "SEG-034", "SEG-030", "HRB-001", "HRB-064", "HRB-079"]
+    "productos": [
+      "NSP-075",
+      "NSP-078",
+      "NSP-036",
+      "NSP-077"
+    ],
+    "formulas": [
+      "TCM-010",
+      "TCM-004"
+    ],
+    "hierbas": [
+      "SEG-042",
+      "SEG-034",
+      "SEG-030",
+      "HRB-001",
+      "HRB-064",
+      "HRB-079"
+    ]
   }
 ]
