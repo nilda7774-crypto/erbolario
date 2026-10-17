@@ -1098,9 +1098,29 @@ product products take recommend something thing feel feeling hi hello please use
     }).join("");
   }
 
-  function irAFicha(id) {
+  // Historial: cada salto a una ficha crea una entrada, así la flecha de regresar vuelve a donde estabas.
+  const origenes = {};
+  function guardarPaso(id, origen) {
+    const n = history.state?.n ?? 0;
+    origenes[n] = origen || null;
+    try {
+      history.replaceState({ ...(history.state || {}), n, y: scrollY }, "");
+      history.pushState({ n: n + 1, ficha: id }, "");
+    } catch {}
+  }
+  addEventListener("popstate", (e) => {
+    const st = e.state;
+    if (st?.y != null) {
+      const o = origenes[st.n];
+      if (o?.isConnected && o.offsetParent) o.scrollIntoView({ block: "center" });
+      else scrollTo(0, st.y);
+    } else if (st?.ficha) irAFicha(st.ficha, null, true);
+  });
+
+  function irAFicha(id, origen, desdeHistorial) {
     const d = W.porId[id];
     if (!d || d.tipo === "empresa") return;
+    if (!desdeHistorial) guardarPaso(id, origen);
     if (!document.getElementById("card-" + id)) {
       if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
       if (d.tipo === "formula") { lim.tcm = Infinity; filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
@@ -1313,7 +1333,7 @@ product products take recommend something thing feel feeling hi hello please use
   $("f-seg").addEventListener("input", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
   $("f-clase").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
   $("f-sev").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
-  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
   $("f-pol").addEventListener("click", (e) => {
     const b = e.target.closest(".chip"); if (!b) return;
     filtroPol = b.dataset.v; lim.tcm = LIM0.tcm;
@@ -1322,10 +1342,10 @@ product products take recommend something thing feel feeling hi hello please use
   });
   $("f-organo").addEventListener("change", () => { lim.tcm = LIM0.tcm; pintarTcm(); });
   $("f-hierba").addEventListener("input", () => { lim.hie = LIM0.hie; pintarHierbas(); });
-  $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
-  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
-  $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id); });
-  $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id); });
+  $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
+  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
+  $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id, b); });
+  $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id, b); });
   $("ask").addEventListener("submit", (e) => { e.preventDefault(); const q = $("q").value; $("q").value = ""; preguntar(q); });
   $("stop").addEventListener("click", () => ctl?.abort());
   $("sugerencias").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) preguntar(b.textContent); });
