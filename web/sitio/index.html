@@ -76,9 +76,6 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; }
 .copiar { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 3px 9px; font-size: 0.8rem; cursor: pointer; }
 .copiar:hover { border-color: var(--leaf); color: var(--leaf); }
 @media (max-width: 460px) { .dato { grid-template-columns: minmax(0, 1fr) auto; } .dato dt { grid-column: 1 / -1; } }
-.ventajas { display: grid; gap: 6px; margin-top: 6px; padding: 14px 16px; border-radius: 8px; background: var(--leaf-soft); }
-.ventajas h3 { font-size: 1rem; }
-.ventajas ul { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; font-size: 0.92rem; }
 .idioma { display: inline-flex; border: 1px solid var(--leaf); border-radius: 8px; overflow: hidden; }
 .idioma button { border: 0; background: transparent; color: var(--leaf); font-family: var(--f-mono); font-weight: 500; padding: 10px 12px; cursor: pointer; }
 .idioma button[aria-pressed="true"] { background: var(--leaf); color: var(--surface); }
@@ -288,7 +285,6 @@ footer p { margin: 0; }
     <div class="acciones">
       <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_tienda">Visita la tienda</a>
       <a class="btn ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
-      <a class="btn ghost" href="https://www.naturessunshine.com/account/wellness-partner/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_wp">Hazte Wellness Partner</a>
       <a class="btn ghost" href="https://wa.me/17084905878" target="_blank" rel="noopener">WhatsApp</a>
       <a class="btn ghost" href="#contacto" data-i18n="btn_contacto">Contacto</a>
       <div class="idioma" role="group" data-i18n-aria="idioma_aria" aria-label="Idioma">
@@ -408,21 +404,11 @@ footer p { margin: 0; }
     <div class="intro">
       <span class="label" data-i18n="contacto">Contacto</span>
       <h2 data-i18n="contacto_h2">Escríbeme</h2>
-      <p data-i18n="contacto_p">Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar. También puedes unirte como Wellness Partner.</p>
+      <p data-i18n="contacto_p">Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar.</p>
       <div class="acciones">
         <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="comprar">Comprar en mi tienda</a>
         <a class="btn ghost" href="https://wa.me/17084905878" target="_blank" rel="noopener" data-i18n="escribir_wa">Escribir por WhatsApp</a>
         <a class="btn ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
-      </div>
-      <div class="ventajas">
-        <h3 data-i18n="ventajas_h3">Ventajas de ser Wellness Partner</h3>
-        <ul>
-          <li data-i18n="ventaja1">No hay tarifas ni aprobación necesaria para registrarte; puedes crear tu cuenta en minutos.</li>
-          <li data-i18n="ventaja2">Recibes un enlace personal para compartir y ganar un 15% de comisión en cada venta, incluidas las recompras.</li>
-          <li data-i18n="ventaja3">No hay cuotas ni contenido obligatorio; solo compartes lo que te interesa.</li>
-          <li data-i18n="ventaja4">No necesitas tener muchos seguidores ni ser un experto en salud: solo te debe interesar el bienestar y compartir productos reales.</li>
-        </ul>
-        <div class="acciones"><a class="btn" href="https://www.naturessunshine.com/account/wellness-partner/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="crear_wp">Crear mi cuenta de Wellness Partner</a></div>
       </div>
     </div>
     <dl class="datos">
@@ -433,7 +419,6 @@ footer p { margin: 0; }
       <div class="dato"><dt data-i18n="correo">Correo</dt><dd>nilda7774@gmail.com</dd><button class="copiar" type="button" data-copiar="nilda7774@gmail.com" data-i18n="copiar">Copiar</button></div>
       <div class="dato"><dt data-i18n="mi_tienda">Mi tienda</dt><dd>naturessunshine.com/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
       <div class="dato"><dt data-i18n="btn_consultor">Hazte consultor</dt><dd>naturessunshine.com/share-with-network/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
-      <div class="dato"><dt>Wellness Partner</dt><dd>naturessunshine.com/account/wellness-partner/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/account/wellness-partner/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
     </dl>
   </section>
 
@@ -531,7 +516,7 @@ footer p { margin: 0; }
       consultor_aria: "Tu consultor", idioma_aria: "Idioma",
       buscar_ph: "Buscar hierba, suplemento o producto", sin_nombres: "Ningún nombre coincide. Prueba en «Consulta» con un síntoma o un ingrediente.",
       rol: "Consultor independiente de Nature's Sunshine Products",
-      btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_wp: "Hazte Wellness Partner", btn_contacto: "Contacto",
+      btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_contacto: "Contacto",
       hero_label: "Asistente RAG · catálogo de Nature's Sunshine",
       hero_p: "Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y Claude responde usando solo esas fichas, con sus referencias.",
       consulta: "Consulta", q_ph: "Ej.: ¿Qué me ayuda a dormir mejor?", q_aria: "Tu pregunta", preguntar: "Preguntar", detener: "Detener",
@@ -545,14 +530,8 @@ footer p { margin: 0; }
       tcm_label: "Medicina tradicional china", tcm_h2: "Fórmulas chinas: modelo Positivo y Negativo",
       formulas: "Fórmulas", polaridad: "Polaridad", organo: "Órgano", hierbas_chinas: "Hierbas chinas", f_hierba_ph: "Buscar hierba, órgano o síntoma",
       contacto: "Contacto", contacto_h2: "Escríbeme", nombre: "Nombre",
-      contacto_p: "Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar. También puedes unirte como Wellness Partner.",
+      contacto_p: "Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar.",
       comprar: "Comprar en mi tienda", escribir_wa: "Escribir por WhatsApp",
-      ventajas_h3: "Ventajas de ser Wellness Partner",
-      ventaja1: "No hay tarifas ni aprobación necesaria para registrarte; puedes crear tu cuenta en minutos.",
-      ventaja2: "Recibes un enlace personal para compartir y ganar un 15% de comisión en cada venta, incluidas las recompras.",
-      ventaja3: "No hay cuotas ni contenido obligatorio; solo compartes lo que te interesa.",
-      ventaja4: "No necesitas tener muchos seguidores ni ser un experto en salud: solo te debe interesar el bienestar y compartir productos reales.",
-      crear_wp: "Crear mi cuenta de Wellness Partner",
       telefono: "Teléfono", correo: "Correo", mi_tienda: "Mi tienda", copiar: "Copiar", abrir: "Abrir", copiado: "Copiado", seleccionado: "Seleccionado",
       footer1: "Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.",
       footer2: "Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.",
@@ -615,7 +594,7 @@ footer p { margin: 0; }
       consultor_aria: "Your consultant", idioma_aria: "Language",
       buscar_ph: "Search an herb, supplement or product", sin_nombres: "No name matches. Try “Ask” with a symptom or an ingredient.",
       rol: "Independent Nature's Sunshine Products Consultant",
-      btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_wp: "Become a Wellness Partner", btn_contacto: "Contact",
+      btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_contacto: "Contact",
       hero_label: "RAG assistant · Nature's Sunshine catalog",
       hero_p: "Ask about a symptom, an ingredient or a product. The search engine picks the most relevant records in the catalog and Claude answers using only those records, with references.",
       consulta: "Ask", q_ph: "E.g.: What helps me sleep better?", q_aria: "Your question", preguntar: "Ask", detener: "Stop",
@@ -629,14 +608,8 @@ footer p { margin: 0; }
       tcm_label: "Traditional Chinese Medicine", tcm_h2: "Chinese formulas: the Positive and Negative model",
       formulas: "Formulas", polaridad: "Polarity", organo: "Organ", hierbas_chinas: "Chinese herbs", f_hierba_ph: "Search herb, organ or symptom",
       contacto: "Contact", contacto_h2: "Get in touch", nombre: "Name",
-      contacto_p: "Independent Nature's Sunshine Products Consultant. Message me if you'd like help choosing a product or placing your order. If you're interested in becoming an independent consultant, I can also help you get started. You can also join as a Wellness Partner.",
+      contacto_p: "Independent Nature's Sunshine Products Consultant. Message me if you'd like help choosing a product or placing your order. If you're interested in becoming an independent consultant, I can also help you get started.",
       comprar: "Shop in my store", escribir_wa: "Message me on WhatsApp",
-      ventajas_h3: "Benefits of becoming a Wellness Partner",
-      ventaja1: "No fees and no approval needed to sign up; you can create your account in minutes.",
-      ventaja2: "You get a personal link to share and earn a 15% commission on every sale, including repeat purchases.",
-      ventaja3: "No quotas and no required content; you only share what interests you.",
-      ventaja4: "You don't need a big following or to be a health expert: you just need to care about wellness and sharing real products.",
-      crear_wp: "Create my Wellness Partner account",
       telefono: "Phone", correo: "Email", mi_tienda: "My store", copiar: "Copy", abrir: "Open", copiado: "Copied", seleccionado: "Selected",
       footer1: "Tool created by an Independent Nature's Sunshine Products Consultant. This is not an official company website. Records taken from naturessunshine.com (US store) on September 30, 2026. Prices are for reference and may have changed.",
       footer2: "These are dietary supplements: they are not intended to diagnose, treat, cure or prevent any disease. Consult a health professional and follow the label in your country.",
