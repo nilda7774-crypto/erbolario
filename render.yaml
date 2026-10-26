@@ -6,3 +6,19 @@ services:
     runtime: static
     buildCommand: echo "Sitio ya generado en web/sitio"
     staticPublishPath: ./web/sitio
+
+  # Asistente con Gemini (plan gratuito). La clave GEMINI_API_KEY se escribe en el panel de Render, nunca aquí.
+  - type: web
+    name: herbolario-api
+    runtime: python
+    plan: free
+    buildCommand: echo "Sin dependencias"
+    startCommand: python servidor/app.py
+    healthCheckPath: /api/salud
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: ALLOWED_ORIGINS
+        value: https://herbolario-consultor.onrender.com,http://localhost:8765

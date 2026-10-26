@@ -3,6 +3,7 @@
 Uso:  python build_web.py
 """
 import json
+import os
 from pathlib import Path
 
 BASE = Path(__file__).parent
@@ -38,7 +39,10 @@ def main():
 
     # Versión para claude.ai (el publicador añade <!doctype>, <head> y <body>).
     salida = BASE / "web" / "herbolario.html"
-    salida.write_text(pagina, encoding="utf-8")
+    # Esta versión responde con Claude dentro de claude.ai; no usa servidor.
+    salida.write_text(pagina.replace("__API_URL__", ""), encoding="utf-8")
+    # El sitio de Render responde con el servidor de Gemini (servidor/app.py).
+    api_url = os.environ.get("HERBOLARIO_API_URL", "https://herbolario-api.onrender.com").rstrip("/")
 
     # Versión independiente para Render u otro hosting estático.
     sitio = BASE / "web" / "sitio"
@@ -62,7 +66,7 @@ def main():
         '<meta name="apple-mobile-web-app-capable" content="yes">\n'
         '<meta name="apple-mobile-web-app-title" content="Herbolario">\n'
         '<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>\n'
-        '</head>\n<body>\n' + pagina + '\n</body>\n</html>\n',
+        '</head>\n<body>\n' + pagina.replace("__API_URL__", api_url) + '\n</body>\n</html>\n',
         encoding="utf-8")
     # Para instalar el sitio en el teléfono como una app.
     (sitio / "manifest.webmanifest").write_text(json.dumps({

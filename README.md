@@ -68,3 +68,12 @@ Para tener respuestas de Claude hace falta un servidor con una clave de API de A
 Cada interacción lleva su gravedad, su nivel de evidencia y la URL de la fuente. Las instrucciones que siguió
 la investigación están en `data/raw/seguridad_INSTRUCCIONES.md`.
 Orden para regenerar todo: `python build_seguridad.py`, `python build_db.py`, `python build_web.py`.
+
+## Asistente con Gemini (Render, gratis)
+
+`servidor/app.py` es un servidor sin dependencias que recibe la pregunta y las fichas encontradas por la página
+y pide la respuesta a Gemini. Se publica en Render como servicio web gratuito `herbolario-api` (ver `render.yaml`).
+En Render hay que definir la variable `GEMINI_API_KEY` (la clave nunca va en el código). Opcionales:
+`GEMINI_MODEL` (por defecto `gemini-2.5-flash`) y `ALLOWED_ORIGINS`.
+La página despierta el servicio al cargar (`/api/salud`) y, si no está disponible, muestra solo las fichas encontradas.
+Límites por visitante: 6 preguntas por minuto y 60 por día.
