@@ -43,6 +43,8 @@
       sis_partes: "Incluye", sis_senales: "Puede necesitar apoyo si notas…", sis_habitos: "Hábitos que lo cuidan", sis_medico: "Cuándo consultar al médico:",
       sis_productos: "Productos", sis_formulas: "Fórmulas chinas", sis_hierbas: "Hierbas y suplementos", sis_doc: "Sistema del cuerpo",
       sis_nota: "Información general y orientativa. Toca un nombre para ver su ficha y sus precauciones.",
+      portada_ph: "¿Qué te gustaría mejorar? Ej.: dormir mejor",
+      muestra_ev: "Evidencia científica", muestra_seg: "Seguridad con medicamentos", muestra_prod: "Ficha del catálogo", ver_ficha: "Ver ficha →",
       saltar: "Saltar al contenido", nav_inicio: "Inicio", nav_sistemas: "Sistemas", nav_evidencia: "Evidencia", nav_mtc: "Medicina china",
       nav_mas: "Más", privacidad: "Privacidad", terminos: "Términos", tema: "Cambiar tema claro u oscuro", consulta_h1: "Haz tu consulta",
       sin_productos: "Ningún producto coincide con ese filtro. Prueba con otra palabra o elige «Todas las categorías».",
@@ -150,6 +152,8 @@
       sis_partes: "Includes", sis_senales: "It may need support if you notice…", sis_habitos: "Habits that help", sis_medico: "When to see a doctor:",
       sis_productos: "Products", sis_formulas: "Chinese formulas", sis_hierbas: "Herbs and supplements", sis_doc: "Body system",
       sis_nota: "General information for guidance only. Tap a name to see its record and cautions.",
+      portada_ph: "What would you like to improve? E.g.: better sleep",
+      muestra_ev: "Scientific evidence", muestra_seg: "Safety with medications", muestra_prod: "Catalog record", ver_ficha: "See record →",
       saltar: "Skip to content", nav_inicio: "Home", nav_sistemas: "Systems", nav_evidencia: "Evidence", nav_mtc: "Chinese medicine",
       nav_mas: "More", privacidad: "Privacy", terminos: "Terms", tema: "Switch light or dark theme", consulta_h1: "Ask a question",
       sin_productos: "No product matches that filter. Try another word or choose “All categories”.",
@@ -539,7 +543,7 @@ product products take recommend something thing feel feeling hi hello please use
     $("ai-note").textContent = notaIA();
     pintarPedido();
     const cats = new Set(W.productos.map((p) => p.categoria));
-    $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
+    if ($("stats")) $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
       s: W.sistemas.length, e: (DATOS.evidencia?.plantas || []).length, g: W.seguridad.length });
     $("creditos").innerHTML = esc(T.creditos) + " " + Object.values(CREDITOS).map((c) =>
       `<a href="${esc(c.pagina)}" target="_blank" rel="noopener">${esc(c.autor || T.autor_desconocido)}</a> (${esc(c.licencia)})`).join(", ") + ".";
@@ -1158,6 +1162,46 @@ product products take recommend something thing feel feeling hi hello please use
       <div class="d-panel" role="tabpanel">${cuerpo}</div>`;
   }
 
+  // ================= Portada =================
+  // Lleva la pregunta directo a «Consulta» y la responde.
+  function consultar(texto) {
+    const q = limpio(texto).slice(0, 600);
+    if (!q) { $("portada-q").focus(); return; }
+    navegar("#/consulta");
+    setTimeout(() => preguntar(q), 60);
+  }
+  function pintarInicio() {
+    const D = DATOS.evidencia;
+    if (D) $("n-plantas").textContent = D.plantas.length;
+    $("n-interacciones").textContent = W.seguridad.reduce((n, g) => n + (g.interacciones || []).length, 0);
+    const tiles = [];
+    // Evidencia: la planta con la evidencia más sólida
+    const plantas = W.docs.filter((d) => d.tipo === "planta");
+    const dp = plantas.find((d) => d.pl.id === "menta") || plantas.sort((a, b) => maxEv(b.pl) - maxEv(a.pl))[0];
+    if (dp) {
+      const e = [...dp.pl.evidencia].sort((a, b) => b.l - a.l)[0];
+      tiles.push(`<button type="button" class="muestra" data-id="${dp.id}"><span class="tipo">${T.muestra_ev}</span>
+        <h3>${esc(tl(dp.pl.nombre))}</h3>${medidor(e.l)}<p>${esc(nomCond(e.c))}: ${esc(tl(e.t))}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    // Seguridad: una interacción de gravedad alta
+    const g = W.seguridad.find((x) => (x.interacciones || []).some((i) => i.severidad === "alta") && /hyperic/i.test(x.latin || ""))
+      || W.seguridad.find((x) => (x.interacciones || []).some((i) => i.severidad === "alta"));
+    if (g) {
+      const i = g.interacciones.find((x) => x.severidad === "alta");
+      tiles.push(`<button type="button" class="muestra" data-id="${g.id}"><span class="tipo">${T.muestra_seg}</span>
+        <h3>${esc(W.tx(g.nombre))}</h3><span class="sev alta">${esc(T.sev.alta)}</span>
+        <p><b>${esc(W.tx(i.farmaco))}:</b> ${esc(W.tx(i.efecto))}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    // Catálogo: un producto
+    const pr = W.porId["NSP-025"]?.p || W.productos[0];
+    if (pr) {
+      tiles.push(`<button type="button" class="muestra" data-id="${pr.id}"><span class="tipo">${T.muestra_prod}</span>
+        <h3>${esc(pr.nombre_es)}</h3><span class="tag">${esc(pr.categoria)}</span>
+        <p>${esc(pr.descripcion.length > 170 ? pr.descripcion.slice(0, 170).replace(/\s+\S*$/, "") + "…" : pr.descripcion)}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    $("muestras").innerHTML = tiles.join("");
+  }
+
   // ================= Formulario de WhatsApp =================
   function pintarPedido() {
     const sel = $("p-tema"), previo = sel.value;
@@ -1288,6 +1332,7 @@ product products take recommend something thing feel feeling hi hello please use
     if (W.seguridad.length) { prepararFiltrosSeg(); pintarSeguridad(); }
     if (W.sistemas.length) pintarSistemas();
     pintarGaleria();
+    pintarInicio();
     if (vistaActual === "evidencia") pintarEvidencia(true);
     if ($("evi-ficha").open) pintarPlanta();
     if (vistaActual) document.title = vistaActual === "inicio" ? T.titulos.inicio : `${T.titulos[vistaActual]} · Herbolario Consultor`;
@@ -1425,6 +1470,23 @@ product products take recommend something thing feel feeling hi hello please use
   // Escape: el navegador cerraría el diálogo por su cuenta; se cierra con cerrarPlanta para actualizar la dirección.
   $("evi-ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarPlanta(false); });
   $("evi-ficha").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.preventDefault(); cerrarPlanta(false); } });
+
+  // Portada
+  $("portada-busca").addEventListener("submit", (e) => { e.preventDefault(); const q = $("portada-q").value; $("portada-q").value = ""; consultar(q); });
+  document.querySelector(".inicio").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-p-es]");
+    if (b) { consultar(b.dataset[lang === "en" ? "pEn" : "pEs"]); return; }
+    const m = e.target.closest(".muestra[data-id]");
+    if (m) irAFicha(m.dataset.id);
+  });
+  // Aparición suave de las secciones al bajar; sin IntersectionObserver, todo se ve desde el principio.
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.documentElement.classList.add("js-animar");
+    const obs = new IntersectionObserver((entradas) => entradas.forEach((en) => {
+      if (en.isIntersecting) { en.target.classList.add("visto"); obs.unobserve(en.target); }
+    }), { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".revelar").forEach((el) => obs.observe(el));
+  }
 
   // Formulario de WhatsApp
   $("p-mensaje").addEventListener("input", () => { $("p-contador").textContent = `${$("p-mensaje").value.length}/500`; });

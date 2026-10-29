@@ -76,8 +76,8 @@ html:not([lang="en"]) [data-solo="en"], html[lang="en"] [data-solo="es"] { displ
 .marca { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--f-display); font-size: 1.12rem; white-space: nowrap; }
 .marca img { border-radius: 9px; }
 .marca b { color: var(--leaf); }
-.menu { display: flex; flex-wrap: wrap; gap: 2px; justify-content: center; }
-.menu a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 0.94rem; padding: 7px 10px; border-radius: 8px; }
+.menu { display: flex; flex-wrap: nowrap; gap: 0; justify-content: center; }
+.menu a { text-decoration: none; color: var(--muted); font-weight: 600; font-size: 0.92rem; padding: 7px 9px; border-radius: 8px; white-space: nowrap; }
 .menu a:hover { color: var(--ink); background: var(--leaf-soft); }
 .menu a[aria-current="page"] { color: var(--leaf); background: var(--leaf-soft); }
 .herramientas { display: flex; align-items: center; gap: 8px; }
@@ -99,7 +99,7 @@ html:not([lang="en"]) [data-solo="en"], html[lang="en"] [data-solo="es"] { displ
 #buscar-lista .t mark { background: none; color: var(--leaf); }
 #buscar-lista .m { font-size: 0.8rem; color: var(--muted); overflow-wrap: anywhere; }
 #buscar-lista li.vacio { cursor: default; color: var(--muted); background: none; }
-@media (max-width: 1080px) { .menu { display: none; } .barra-in { grid-template-columns: auto minmax(0, 1fr); } .herramientas { justify-content: end; } }
+@media (max-width: 1240px) { .menu { display: none; } .barra-in { grid-template-columns: auto minmax(0, 1fr); } .herramientas { justify-content: end; } }
 
 /* ===== Estados de carga y error ===== */
 .aviso-js { max-width: var(--ancho); margin: 20px auto; padding: 14px 18px; background: var(--warn-soft); border-radius: 10px; }
@@ -440,6 +440,136 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
 /* "Ver más" en listas largas */
 .mas { justify-self: center; }
 
+/* ===================== Portada (inicio) ===================== */
+.inicio { gap: clamp(48px, 7vw, 88px); }
+.centro { text-align: center; justify-items: center; margin-inline: auto; }
+.bloque-cab.centro p { max-width: 60ch; }
+.bloque-cab h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); letter-spacing: -0.015em; }
+
+/* 1. Portada */
+.portada { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); align-items: center;
+  padding: clamp(28px, 5vw, 56px) clamp(20px, 4vw, 48px); border-radius: 28px; position: relative; overflow: hidden;
+  background: radial-gradient(120% 120% at 0% 0%, var(--leaf-soft) 0%, transparent 55%),
+              radial-gradient(90% 90% at 100% 100%, var(--sun-soft) 0%, transparent 60%), var(--surface);
+  border: 1px solid var(--line); }
+.portada-txt { display: grid; gap: 18px; align-content: center; }
+.pastilla { justify-self: start; display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px;
+  background: var(--surface); border: 1px solid var(--line); font-size: 0.85rem; font-weight: 600; color: var(--leaf); }
+.pastilla .punto { width: 8px; height: 8px; border-radius: 50%; background: var(--leaf); box-shadow: 0 0 0 4px var(--leaf-soft); }
+.portada h1 { font-size: clamp(2.1rem, 4.4vw, 3.15rem); line-height: 1.04; letter-spacing: -0.03em; }
+.portada h1 em { font-style: normal; color: var(--leaf); background: linear-gradient(transparent 62%, var(--sun-soft) 62%); padding-inline: 2px; }
+.entrada { font-size: clamp(1.02rem, 1.6vw, 1.18rem); color: var(--muted); max-width: 54ch; }
+.portada-busca { position: relative; display: flex; gap: 8px; padding: 6px; background: var(--surface); border: 1.5px solid var(--line);
+  border-radius: 16px; box-shadow: var(--sombra); max-width: 580px; }
+.portada-busca:focus-within { border-color: var(--leaf); }
+.portada-busca svg { position: absolute; left: 18px; top: 31px; translate: 0 -50%; width: 20px; height: 20px; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; }
+.portada-busca input { flex: 1; min-width: 0; border: 0; background: transparent; padding: 12px 10px 12px 42px; font-size: 1.02rem; outline: none; }
+.portada-busca .btn { border-radius: 12px; padding: 12px 20px; }
+.portada-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip-sug { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 14px; font-weight: 600; font-size: 0.92rem; cursor: pointer; }
+.chip-sug:hover { border-color: var(--leaf); color: var(--leaf); background: var(--leaf-soft); }
+.garantias { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.9rem; color: var(--muted); }
+.garantias li { display: inline-flex; align-items: center; gap: 6px; }
+.garantias li::before { content: "✓"; color: var(--leaf); font-weight: 700; }
+.collage { position: relative; aspect-ratio: 1 / 1; max-width: 520px; width: 100%; justify-self: center; }
+.collage img { position: absolute; object-fit: cover; border-radius: 22px; box-shadow: 0 18px 40px rgba(20, 40, 28, .18); border: 4px solid var(--surface); }
+.collage .c1 { inset: 0 26% 30% 0; }
+.collage .c2 { inset: 44% 3% 3% 32%; }
+.collage .c3 { inset: 5% 3% 62% 60%; }
+.insignia { position: absolute; display: grid; gap: 0; padding: 12px 16px; border-radius: 16px; background: var(--surface); box-shadow: var(--sombra);
+  border: 1px solid var(--line); max-width: 210px; font-size: 0.86rem; line-height: 1.3; color: var(--muted); }
+.insignia b { font-family: var(--f-display); font-size: 1.6rem; color: var(--leaf); line-height: 1.1; }
+.insignia.i1 { left: 0; bottom: 8%; }
+.insignia.i2 { right: 0; top: 40%; }
+.insignia.i2 b { color: var(--sun); }
+
+/* 2. Confianza */
+.confianza { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.confianza li { display: flex; gap: 12px; align-items: flex-start; padding: 18px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
+.confianza svg { flex: none; width: 34px; height: 34px; padding: 6px; border-radius: 10px; background: var(--leaf-soft); fill: none; stroke: var(--leaf); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.confianza div { display: grid; gap: 2px; }
+.confianza span { font-size: 0.88rem; color: var(--muted); }
+
+/* 3. Necesidades */
+.necesidades { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.necesidad { position: relative; overflow: hidden; border: 0; padding: 0; border-radius: 20px; cursor: pointer; aspect-ratio: 4 / 3; text-align: left; color: #fff; background: #1d2a22; }
+.necesidad img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.necesidad::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,20,14,0) 35%, rgba(10,20,14,.82) 100%); }
+.nec-txt { position: absolute; left: 18px; right: 56px; bottom: 16px; z-index: 1; display: grid; gap: 2px; }
+.nec-txt b { font-family: var(--f-display); font-size: 1.3rem; }
+.nec-txt span { font-size: 0.92rem; opacity: .9; }
+.necesidad .flecha { position: absolute; right: 16px; bottom: 16px; z-index: 1; width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(255,255,255,.92); color: var(--leaf-deep, #1f4d37); font-weight: 700; }
+@media (prefers-reduced-motion: no-preference) {
+  .necesidad img { transition: transform .5s ease; }
+  .necesidad:hover img, .necesidad:focus-visible img { transform: scale(1.06); }
+  .necesidad .flecha { transition: transform .25s ease; }
+  .necesidad:hover .flecha { transform: translateX(3px); }
+}
+
+/* 4. Pasos (restyle) */
+.pasos .pasos-lista li { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
+
+/* 5. Muestras con datos reales */
+.muestras { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.muestra { display: grid; gap: 10px; align-content: start; text-align: left; padding: 20px; border-radius: 18px; border: 1px solid var(--line);
+  background: var(--surface); cursor: pointer; color: var(--ink); box-shadow: 0 1px 0 rgba(0,0,0,.02); }
+.muestra:hover { border-color: var(--leaf); box-shadow: var(--sombra); }
+.muestra .tipo { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.muestra h3 { font-size: 1.15rem; }
+.muestra p { font-size: 0.92rem; color: var(--muted); }
+.muestra .ver { color: var(--leaf); font-weight: 600; font-size: 0.92rem; }
+
+/* 6. Nilda */
+.nilda { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: clamp(20px, 4vw, 40px); align-items: center; padding: clamp(24px, 4vw, 44px);
+  border-radius: 24px; background: var(--leaf-soft); }
+.avatar { width: clamp(96px, 14vw, 150px); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; font-family: var(--f-display);
+  font-size: clamp(2rem, 4vw, 3rem); color: #fff; background: linear-gradient(135deg, var(--leaf), #4f8f6c); box-shadow: 0 0 0 6px var(--surface); }
+.nilda-txt { display: grid; gap: 12px; }
+.nilda-txt p { max-width: 62ch; font-size: 1.05rem; }
+
+/* 8. Consultor y 10. Cierre */
+.cta-tarjeta.sol { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: center; justify-content: space-between; }
+.cta-tarjeta.sol > div { display: grid; gap: 8px; max-width: 60ch; }
+.cta-tarjeta.sol .btn { background: var(--sun); border-color: var(--sun); color: #fff; }
+.cierre { display: grid; gap: 14px; justify-items: center; text-align: center; padding: clamp(36px, 7vw, 72px) 20px; border-radius: 28px; color: #fff;
+  background: linear-gradient(180deg, rgba(12,22,16,.55), rgba(12,22,16,.85)), #1d2a22 url("img/bosque.webp") center / cover no-repeat; }
+.cierre h2 { font-size: clamp(1.7rem, 4vw, 2.6rem); max-width: 22ch; }
+.cierre p { opacity: .9; }
+.cierre .acciones { justify-content: center; }
+.btn.claro-relleno { background: #fff; color: var(--leaf-deep, #1f4d37); border-color: #fff; }
+.btn.claro-relleno:hover { background: #eef5ef; }
+.cierre .btn.claro, .portada .btn.claro { color: #fff; border-color: rgba(255,255,255,.75); }
+
+/* Aparición suave al bajar (solo si el usuario no pidió reducir el movimiento) */
+@media (prefers-reduced-motion: no-preference) {
+  .js-animar .revelar { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+  .js-animar .revelar.visto { opacity: 1; transform: none; }
+}
+
+@media (max-width: 960px) {
+  .portada { grid-template-columns: minmax(0, 1fr); }
+  .collage { max-width: 440px; }
+  .confianza { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .necesidades, .muestras { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .portada { padding: 22px 16px; border-radius: 22px; }
+  .portada-busca { flex-wrap: wrap; }
+  .portada-busca .btn { flex: 1 1 100%; }
+  .portada-chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; margin-inline: -4px; padding-inline: 4px; }
+  .chip-sug { flex: 0 0 auto; }
+  .collage { max-width: 340px; }
+  .insignia { max-width: 170px; padding: 10px 12px; font-size: 0.78rem; }
+  .insignia b { font-size: 1.3rem; }
+  .confianza { grid-template-columns: minmax(0, 1fr); }
+  .confianza li { padding: 14px; }
+  .necesidades { grid-template-columns: minmax(0, 1fr); }
+  .necesidad { aspect-ratio: 16 / 9; }
+  .muestras { grid-template-columns: minmax(0, 1fr); }
+  .nilda { grid-template-columns: minmax(0, 1fr); justify-items: start; }
+}
+
 /* ===== Teléfono ===== */
 .nav-movil { display: none; }
 @media (max-width: 700px) {
@@ -530,86 +660,147 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
 <main id="principal" tabindex="-1" hidden>
 
   <!-- ============ INICIO ============ -->
-  <section class="vista" data-vista="inicio" data-i18n-aria="nav_inicio" aria-label="Inicio">
-    <div class="hero">
-      <div class="hero-txt">
-        <span class="label" data-solo="es">Consultoría independiente · Nature's Sunshine</span>
-        <span class="label" data-solo="en">Independent consultant · Nature's Sunshine</span>
-        <h1 data-solo="es">Elige tus suplementos con información clara, no con promesas</h1>
-        <h1 data-solo="en">Choose your supplements with clear information, not promises</h1>
-        <p data-solo="es">Pregunta por un síntoma, una planta o un producto. Te muestro las fichas oficiales del catálogo, lo que dice la ciencia, el uso tradicional y las precauciones con tus medicamentos, todo en un mismo lugar y en tu idioma.</p>
-        <p data-solo="en">Ask about a symptom, a plant or a product. You'll see the official catalog records, what the science says, traditional use and cautions with your medications, all in one place and in your language.</p>
-        <div class="acciones">
-          <a class="btn grande" href="#/consulta"><span data-solo="es">Haz tu consulta gratis</span><span data-solo="en">Ask for free</span></a>
-          <a class="btn grande ghost claro" href="#/contacto"><span data-solo="es">Pide una recomendación personal</span><span data-solo="en">Get a personal recommendation</span></a>
+  <section class="vista inicio" data-vista="inicio" data-i18n-aria="nav_inicio" aria-label="Inicio">
+
+    <!-- 1. Portada: propuesta de valor + acción principal (preguntar) -->
+    <div class="portada">
+      <div class="portada-txt">
+        <span class="pastilla"><span class="punto" aria-hidden="true"></span>
+          <span data-solo="es">Consultora independiente · Nature's Sunshine</span><span data-solo="en">Independent consultant · Nature's Sunshine</span></span>
+        <h1 data-solo="es">El suplemento correcto para ti, <em>con información clara</em></h1>
+        <h1 data-solo="en">The right supplement for you, <em>with clear information</em></h1>
+        <p class="entrada" data-solo="es">Cuéntame qué necesitas y te muestro las opciones del catálogo, lo que dice la ciencia y las precauciones con tus medicamentos. Gratis, sin registro y en tu idioma.</p>
+        <p class="entrada" data-solo="en">Tell me what you need and you'll see the catalog options, what the science says and the cautions with your medications. Free, no sign-up, in your language.</p>
+        <form class="portada-busca" id="portada-busca" role="search">
+          <label class="sr" for="portada-q" data-i18n="q_aria">Tu pregunta</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+          <input id="portada-q" type="text" autocomplete="off" maxlength="600" data-i18n-ph="portada_ph" placeholder="¿Qué te gustaría mejorar? Ej.: dormir mejor">
+          <button class="btn" type="submit"><span data-solo="es">Preguntar</span><span data-solo="en">Ask</span></button>
+        </form>
+        <div class="portada-chips" aria-label="Sugerencias">
+          <button type="button" class="chip-sug" data-p-es="¿Qué me ayuda a dormir mejor?" data-p-en="What helps me sleep better?">🌙 <span data-solo="es">Dormir mejor</span><span data-solo="en">Better sleep</span></button>
+          <button type="button" class="chip-sug" data-p-es="¿Qué me ayuda a fortalecer mis defensas?" data-p-en="What helps strengthen my immune system?">🛡️ <span data-solo="es">Defensas</span><span data-solo="en">Immunity</span></button>
+          <button type="button" class="chip-sug" data-p-es="Tengo dolor en las rodillas y articulaciones" data-p-en="I have knee and joint pain">🦴 <span data-solo="es">Articulaciones</span><span data-solo="en">Joints</span></button>
+          <button type="button" class="chip-sug" data-p-es="¿Qué me ayuda con la digestión y la inflamación abdominal?" data-p-en="What helps with digestion and bloating?">🌿 <span data-solo="es">Digestión</span><span data-solo="en">Digestion</span></button>
+          <button type="button" class="chip-sug" data-p-es="Me siento sin energía, ¿qué me recomiendas?" data-p-en="I feel low on energy, what do you recommend?">⚡ <span data-solo="es">Energía</span><span data-solo="en">Energy</span></button>
         </div>
-        <div class="stats" id="stats"></div>
+        <ul class="garantias">
+          <li><span data-solo="es">Gratis</span><span data-solo="en">Free</span></li>
+          <li><span data-solo="es">Sin registro</span><span data-solo="en">No sign-up</span></li>
+          <li><span data-solo="es">Español e inglés</span><span data-solo="en">Spanish and English</span></li>
+          <li><span data-solo="es">Funciona sin conexión</span><span data-solo="en">Works offline</span></li>
+        </ul>
+      </div>
+      <div class="collage" aria-hidden="true">
+        <img class="c1" src="img/equinacea.webp" alt="" width="800" height="533" fetchpriority="high">
+        <img class="c2" src="img/curcuma.webp" alt="" width="800" height="450">
+        <img class="c3" src="img/manzanilla.webp" alt="" width="800" height="533">
+        <div class="insignia i1"><b id="n-plantas">38</b><span data-solo="es">plantas con evidencia científica</span><span data-solo="en">plants with scientific evidence</span></div>
+        <div class="insignia i2"><b id="n-interacciones">401</b><span data-solo="es">interacciones con medicamentos revisadas</span><span data-solo="en">drug interactions reviewed</span></div>
       </div>
     </div>
 
-    <div class="bloque">
-      <div class="bloque-cab">
-        <span class="label" data-solo="es">Todo lo que necesitas para decidir</span>
-        <span class="label" data-solo="en">Everything you need to decide</span>
-        <h2 data-solo="es">Una guía completa, gratuita y sin registro</h2>
-        <h2 data-solo="en">A complete guide, free and with no sign-up</h2>
+    <!-- 2. Confianza -->
+    <ul class="confianza revelar">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11l3 3v13H5z"/><path d="M9 9h6M9 13h6M9 17h4"/></svg>
+        <div><b data-solo="es">Fichas oficiales</b><b data-solo="en">Official records</b>
+        <span data-solo="es">Ingredientes, modo de uso y precauciones de cada producto</span><span data-solo="en">Ingredients, use and cautions for every product</span></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M10 20V6M15 20v-8M20 20V4"/></svg>
+        <div><b data-solo="es">Evidencia científica</b><b data-solo="en">Scientific evidence</b>
+        <span data-solo="es">Qué tan sólido es el respaldo de cada planta</span><span data-solo="en">How strong the support for each plant is</span></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <div><b data-solo="es">Seguridad primero</b><b data-solo="en">Safety first</b>
+        <span data-solo="es">Interacciones con medicamentos, con su fuente</span><span data-solo="en">Drug interactions, with their source</span></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+        <div><b data-solo="es">Asesoría personal</b><b data-solo="en">Personal guidance</b>
+        <span data-solo="es">Una persona real te responde por WhatsApp</span><span data-solo="en">A real person answers you on WhatsApp</span></div></li>
+    </ul>
+
+    <!-- 3. Entrada por necesidad -->
+    <div class="bloque revelar">
+      <div class="bloque-cab centro">
+        <span class="label" data-solo="es">Empieza por lo que sientes</span><span class="label" data-solo="en">Start with how you feel</span>
+        <h2 data-solo="es">¿En qué te gustaría sentirte mejor?</h2><h2 data-solo="en">What would you like to feel better about?</h2>
+        <p data-solo="es">Toca una opción y te muestro al instante los productos, las plantas y las precauciones que corresponden.</p>
+        <p data-solo="en">Tap an option and you'll instantly see the matching products, plants and cautions.</p>
       </div>
-      <div class="funciones">
-        <a class="funcion" href="#/consulta">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
-          <h3 data-solo="es">Asistente de consulta</h3><h3 data-solo="en">Question assistant</h3>
-          <p data-solo="es">Escribe lo que buscas y recibe una respuesta basada solo en las fichas del catálogo, con sus referencias.</p>
-          <p data-solo="en">Type what you're looking for and get an answer based only on the catalog records, with references.</p>
-        </a>
-        <a class="funcion" href="#/catalogo">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>
-          <h3 data-solo="es">Catálogo de productos</h3><h3 data-solo="en">Product catalog</h3>
-          <p data-solo="es">Ingredientes, modo de uso, beneficios, precauciones y precio de referencia de cada producto.</p>
-          <p data-solo="en">Ingredients, suggested use, benefits, cautions and reference price for every product.</p>
-        </a>
-        <a class="funcion" href="#/sistemas">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="6" r="3"/><path d="M12 9v6M8 21l4-6 4 6M6 12h12"/></svg>
-          <h3 data-solo="es">Guía por sistemas</h3><h3 data-solo="en">Guide by body system</h3>
-          <p data-solo="es">Nervioso, inmunológico, circulatorio, glandular y más: qué hace cada uno y qué lo apoya.</p>
-          <p data-solo="en">Nervous, immune, circulatory, glandular and more: what each one does and what supports it.</p>
-        </a>
-        <a class="funcion" href="#/evidencia">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M10 20V6M15 20v-8M20 20V4"/></svg>
-          <h3 data-solo="es">Evidencia científica</h3><h3 data-solo="en">Scientific evidence</h3>
-          <p data-solo="es">Qué tan fuerte es la evidencia de cada planta por padecimiento, el extracto estudiado y la dosis de los ensayos.</p>
-          <p data-solo="en">How strong the evidence is for each plant by condition, the extract studied and the dose used in trials.</p>
-        </a>
-        <a class="funcion" href="#/mtc">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19l8-8"/></svg>
-          <h3 data-solo="es">Medicina tradicional china</h3><h3 data-solo="en">Traditional Chinese medicine</h3>
-          <p data-solo="es">Fórmulas positivas y negativas, órganos, síntomas y las hierbas chinas que las componen.</p>
-          <p data-solo="en">Positive and negative formulas, organs, symptoms and the Chinese herbs that make them up.</p>
-        </a>
-        <a class="funcion" href="#/seguridad">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M12 8v5"/><path d="M12 16v.5"/></svg>
-          <h3 data-solo="es">Seguridad e interacciones</h3><h3 data-solo="en">Safety and interactions</h3>
-          <p data-solo="es">Interacciones documentadas con medicamentos, con su gravedad, su nivel de evidencia y su fuente.</p>
-          <p data-solo="en">Documented interactions with medications, with their severity, level of evidence and source.</p>
-        </a>
+      <div class="necesidades">
+        <button type="button" class="necesidad" data-p-es="¿Qué me ayuda con el estrés y a dormir mejor?" data-p-en="What helps with stress and sleep?">
+          <img src="img/manzanilla.webp" alt="" width="800" height="533" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Estrés y sueño</b><b data-solo="en">Stress and sleep</b>
+          <span data-solo="es">Calma, descanso y buen ánimo</span><span data-solo="en">Calm, rest and a good mood</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
+        <button type="button" class="necesidad" data-p-es="¿Qué me ayuda a fortalecer mis defensas?" data-p-en="What helps strengthen my immune system?">
+          <img src="img/equinacea.webp" alt="" width="800" height="533" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Defensas</b><b data-solo="en">Immune support</b>
+          <span data-solo="es">Para los cambios de estación</span><span data-solo="en">For the change of seasons</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
+        <button type="button" class="necesidad" data-p-es="Tengo dolor en las rodillas y articulaciones" data-p-en="I have knee and joint pain">
+          <img src="img/curcuma.webp" alt="" width="800" height="450" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Articulaciones</b><b data-solo="en">Joints</b>
+          <span data-solo="es">Movilidad y flexibilidad</span><span data-solo="en">Mobility and flexibility</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
+        <button type="button" class="necesidad" data-p-es="¿Qué me ayuda con la digestión y la inflamación abdominal?" data-p-en="What helps with digestion and bloating?">
+          <img src="img/menta.webp" alt="" width="800" height="612" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Digestión</b><b data-solo="en">Digestion</b>
+          <span data-solo="es">Ligereza después de comer</span><span data-solo="en">Feeling light after meals</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
+        <button type="button" class="necesidad" data-p-es="Me siento sin energía, ¿qué me recomiendas?" data-p-en="I feel low on energy, what do you recommend?">
+          <img src="img/astragalo.webp" alt="" width="800" height="800" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Energía y vitalidad</b><b data-solo="en">Energy and vitality</b>
+          <span data-solo="es">Para el cansancio del día a día</span><span data-solo="en">For everyday tiredness</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
+        <button type="button" class="necesidad" data-p-es="¿Qué me ayuda a cuidar y limpiar el hígado?" data-p-en="What helps support and cleanse the liver?">
+          <img src="img/diente-de-leon.webp" alt="" width="800" height="533" loading="lazy">
+          <span class="nec-txt"><b data-solo="es">Hígado y limpieza</b><b data-solo="en">Liver and cleansing</b>
+          <span data-solo="es">Apoyo para depurar</span><span data-solo="en">Support for detox</span></span>
+          <span class="flecha" aria-hidden="true">→</span></button>
       </div>
     </div>
 
-    <div class="bloque pasos">
-      <div class="bloque-cab">
-        <span class="label" data-solo="es">Cómo funciona</span><span class="label" data-solo="en">How it works</span>
+    <!-- 4. Cómo funciona -->
+    <div class="bloque pasos revelar">
+      <div class="bloque-cab centro">
+        <span class="label" data-solo="es">Así de fácil</span><span class="label" data-solo="en">It's that easy</span>
         <h2 data-solo="es">Tres pasos para elegir con confianza</h2><h2 data-solo="en">Three steps to choose with confidence</h2>
       </div>
       <ol class="pasos-lista">
-        <li><b>1</b><div><h3 data-solo="es">Cuéntame qué buscas</h3><h3 data-solo="en">Tell me what you need</h3>
-          <p data-solo="es">Un síntoma, un ingrediente, una planta o el nombre de un producto.</p><p data-solo="en">A symptom, an ingredient, a plant or a product name.</p></div></li>
-        <li><b>2</b><div><h3 data-solo="es">Compara y revisa</h3><h3 data-solo="en">Compare and review</h3>
-          <p data-solo="es">Lee las fichas, la evidencia y las precauciones. Guarda tus favoritas.</p><p data-solo="en">Read the records, the evidence and the cautions. Save your favorites.</p></div></li>
-        <li><b>3</b><div><h3 data-solo="es">Pide con asesoría</h3><h3 data-solo="en">Order with guidance</h3>
-          <p data-solo="es">Compra en la tienda oficial o escríbeme por WhatsApp y te ayudo a elegir.</p><p data-solo="en">Buy from the official store or message me on WhatsApp and I'll help you choose.</p></div></li>
+        <li><b>1</b><div><h3 data-solo="es">Pregunta</h3><h3 data-solo="en">Ask</h3>
+          <p data-solo="es">Un síntoma, una planta o el nombre de un producto. Como se lo dirías a una amiga.</p><p data-solo="en">A symptom, a plant or a product name. Just as you'd tell a friend.</p></div></li>
+        <li><b>2</b><div><h3 data-solo="es">Compara</h3><h3 data-solo="en">Compare</h3>
+          <p data-solo="es">Revisa las fichas, la fuerza de la evidencia y las precauciones. Guarda tus favoritas.</p><p data-solo="en">Review the records, the strength of the evidence and the cautions. Save your favorites.</p></div></li>
+        <li><b>3</b><div><h3 data-solo="es">Decide con apoyo</h3><h3 data-solo="en">Decide with support</h3>
+          <p data-solo="es">Compra en la tienda oficial o escríbeme y lo vemos juntas.</p><p data-solo="en">Buy from the official store or message me and we'll go over it together.</p></div></li>
       </ol>
     </div>
 
-    <section class="plantas bloque" data-i18n-aria="plantas_h2" aria-label="Plantas de nuestros productos">
+    <!-- 5. Muestra real de lo que se encuentra (con datos del catálogo) -->
+    <div class="bloque revelar">
+      <div class="bloque-cab centro">
+        <span class="label" data-solo="es">Mira lo que vas a encontrar</span><span class="label" data-solo="en">See what you'll find</span>
+        <h2 data-solo="es">Información que normalmente está dispersa, reunida en un lugar</h2>
+        <h2 data-solo="en">Information that's usually scattered, together in one place</h2>
+      </div>
+      <div class="muestras" id="muestras"></div>
+    </div>
+
+    <!-- 6. La consultora -->
+    <div class="nilda revelar">
+      <div class="avatar" aria-hidden="true">NE</div>
+      <div class="nilda-txt">
+        <span class="label" data-solo="es">Tu consultora</span><span class="label" data-solo="en">Your consultant</span>
+        <h2 data-solo="es">Hola, soy Nilda</h2><h2 data-solo="en">Hi, I'm Nilda</h2>
+        <p data-solo="es">Soy consultora independiente de Nature's Sunshine. Creé esta guía para que puedas comparar con calma, entender qué estás tomando y por qué, y elegir sin presiones. Si tienes dudas, escríbeme: te respondo personalmente.</p>
+        <p data-solo="en">I'm an independent Nature's Sunshine consultant. I built this guide so you can compare calmly, understand what you're taking and why, and choose without pressure. If you have questions, message me: I'll answer you personally.</p>
+        <div class="acciones">
+          <a class="btn grande" href="https://wa.me/17084905878" target="_blank" rel="noopener"><span data-solo="es">Escríbeme por WhatsApp</span><span data-solo="en">Message me on WhatsApp</span></a>
+          <a class="btn grande ghost" href="#/contacto"><span data-solo="es">Pedir una recomendación</span><span data-solo="en">Ask for a recommendation</span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Plantas -->
+    <section class="plantas bloque revelar" data-i18n-aria="plantas_h2" aria-label="Plantas de nuestros productos">
       <div class="bloque-cab">
         <span class="label" data-i18n="plantas_label">De la naturaleza a tu bienestar</span>
         <h2 data-i18n="plantas_h2">Plantas de nuestros productos</h2>
@@ -618,23 +809,19 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
       <div class="galeria" id="galeria"></div>
     </section>
 
-    <div class="bloque cta-doble">
-      <div class="cta-tarjeta">
-        <h2 data-solo="es">¿Prefieres que te oriente en persona?</h2><h2 data-solo="en">Would you rather get personal guidance?</h2>
-        <p data-solo="es">Cuéntame qué necesitas y te respondo por WhatsApp con opciones del catálogo. Sin costo y sin compromiso.</p>
-        <p data-solo="en">Tell me what you need and I'll reply on WhatsApp with options from the catalog. Free, with no obligation.</p>
-        <a class="btn grande" href="#/contacto"><span data-solo="es">Pedir recomendación</span><span data-solo="en">Ask for a recommendation</span></a>
-      </div>
-      <div class="cta-tarjeta sol">
+    <!-- 8. Consultor -->
+    <div class="cta-tarjeta sol revelar">
+      <div>
         <h2 data-solo="es">Comparte el bienestar y genera ingresos</h2><h2 data-solo="en">Share wellness and earn income</h2>
         <p data-solo="es">Si te gustan los productos, puedes registrarte como consultor independiente. Te acompaño en tus primeros pasos.</p>
         <p data-solo="en">If you like the products, you can sign up as an independent consultant. I'll walk you through your first steps.</p>
-        <a class="btn grande ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
       </div>
+      <a class="btn grande" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
     </div>
 
-    <div class="bloque faq">
-      <div class="bloque-cab">
+    <!-- 9. Preguntas frecuentes -->
+    <div class="bloque faq revelar">
+      <div class="bloque-cab centro">
         <span class="label" data-solo="es">Preguntas frecuentes</span><span class="label" data-solo="en">Frequently asked questions</span>
         <h2 data-solo="es">Lo que suelen preguntarme</h2><h2 data-solo="en">What people usually ask me</h2>
       </div>
@@ -651,8 +838,19 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
         <p data-solo="es">No guardamos tus preguntas ni pedimos datos personales. Tus favoritas, el idioma y el tema se guardan solo en tu dispositivo. Los detalles están en el <a href="#/privacidad">aviso de privacidad</a>.</p>
         <p data-solo="en">We don't keep your questions or ask for personal data. Your favorites, language and theme are stored only on your device. Details are in the <a href="#/privacidad">privacy notice</a>.</p></details>
       <details><summary><span data-solo="es">¿Puedo usarla en mi teléfono como una app?</span><span data-solo="en">Can I use it on my phone like an app?</span></summary>
-        <p data-solo="es">Sí. En Android abre el menú del navegador y elige «Instalar app»; en iPhone toca Compartir y luego «Agregar a pantalla de inicio». Después de abrirla una vez, también funciona sin conexión (el asistente con IA necesita internet).</p>
-        <p data-solo="en">Yes. On Android, open the browser menu and choose "Install app"; on iPhone, tap Share and then "Add to Home Screen". After opening it once, it also works offline (the AI assistant needs internet).</p></details>
+        <p data-solo="es">Sí. En Android abre el menú del navegador y elige «Instalar app»; en iPhone toca Compartir y luego «Agregar a pantalla de inicio». Después de abrirla una vez, también funciona sin conexión (el asistente necesita internet).</p>
+        <p data-solo="en">Yes. On Android, open the browser menu and choose "Install app"; on iPhone, tap Share and then "Add to Home Screen". After opening it once, it also works offline (the assistant needs internet).</p></details>
+    </div>
+
+    <!-- 10. Cierre -->
+    <div class="cierre revelar">
+      <h2 data-solo="es">Tu bienestar empieza con una buena pregunta</h2><h2 data-solo="en">Your well-being starts with a good question</h2>
+      <p data-solo="es">Pregunta gratis ahora o visita la tienda oficial cuando estés lista.</p>
+      <p data-solo="en">Ask for free now or visit the official store when you're ready.</p>
+      <div class="acciones">
+        <a class="btn grande claro-relleno" href="#/consulta"><span data-solo="es">Hacer mi consulta</span><span data-solo="en">Ask my question</span></a>
+        <a class="btn grande ghost claro" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_tienda">Visita la tienda</a>
+      </div>
     </div>
   </section>
 
@@ -1038,6 +1236,8 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
       sis_partes: "Incluye", sis_senales: "Puede necesitar apoyo si notas…", sis_habitos: "Hábitos que lo cuidan", sis_medico: "Cuándo consultar al médico:",
       sis_productos: "Productos", sis_formulas: "Fórmulas chinas", sis_hierbas: "Hierbas y suplementos", sis_doc: "Sistema del cuerpo",
       sis_nota: "Información general y orientativa. Toca un nombre para ver su ficha y sus precauciones.",
+      portada_ph: "¿Qué te gustaría mejorar? Ej.: dormir mejor",
+      muestra_ev: "Evidencia científica", muestra_seg: "Seguridad con medicamentos", muestra_prod: "Ficha del catálogo", ver_ficha: "Ver ficha →",
       saltar: "Saltar al contenido", nav_inicio: "Inicio", nav_sistemas: "Sistemas", nav_evidencia: "Evidencia", nav_mtc: "Medicina china",
       nav_mas: "Más", privacidad: "Privacidad", terminos: "Términos", tema: "Cambiar tema claro u oscuro", consulta_h1: "Haz tu consulta",
       sin_productos: "Ningún producto coincide con ese filtro. Prueba con otra palabra o elige «Todas las categorías».",
@@ -1145,6 +1345,8 @@ form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px 
       sis_partes: "Includes", sis_senales: "It may need support if you notice…", sis_habitos: "Habits that help", sis_medico: "When to see a doctor:",
       sis_productos: "Products", sis_formulas: "Chinese formulas", sis_hierbas: "Herbs and supplements", sis_doc: "Body system",
       sis_nota: "General information for guidance only. Tap a name to see its record and cautions.",
+      portada_ph: "What would you like to improve? E.g.: better sleep",
+      muestra_ev: "Scientific evidence", muestra_seg: "Safety with medications", muestra_prod: "Catalog record", ver_ficha: "See record →",
       saltar: "Skip to content", nav_inicio: "Home", nav_sistemas: "Systems", nav_evidencia: "Evidence", nav_mtc: "Chinese medicine",
       nav_mas: "More", privacidad: "Privacy", terminos: "Terms", tema: "Switch light or dark theme", consulta_h1: "Ask a question",
       sin_productos: "No product matches that filter. Try another word or choose “All categories”.",
@@ -1534,7 +1736,7 @@ product products take recommend something thing feel feeling hi hello please use
     $("ai-note").textContent = notaIA();
     pintarPedido();
     const cats = new Set(W.productos.map((p) => p.categoria));
-    $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
+    if ($("stats")) $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
       s: W.sistemas.length, e: (DATOS.evidencia?.plantas || []).length, g: W.seguridad.length });
     $("creditos").innerHTML = esc(T.creditos) + " " + Object.values(CREDITOS).map((c) =>
       `<a href="${esc(c.pagina)}" target="_blank" rel="noopener">${esc(c.autor || T.autor_desconocido)}</a> (${esc(c.licencia)})`).join(", ") + ".";
@@ -2153,6 +2355,46 @@ product products take recommend something thing feel feeling hi hello please use
       <div class="d-panel" role="tabpanel">${cuerpo}</div>`;
   }
 
+  // ================= Portada =================
+  // Lleva la pregunta directo a «Consulta» y la responde.
+  function consultar(texto) {
+    const q = limpio(texto).slice(0, 600);
+    if (!q) { $("portada-q").focus(); return; }
+    navegar("#/consulta");
+    setTimeout(() => preguntar(q), 60);
+  }
+  function pintarInicio() {
+    const D = DATOS.evidencia;
+    if (D) $("n-plantas").textContent = D.plantas.length;
+    $("n-interacciones").textContent = W.seguridad.reduce((n, g) => n + (g.interacciones || []).length, 0);
+    const tiles = [];
+    // Evidencia: la planta con la evidencia más sólida
+    const plantas = W.docs.filter((d) => d.tipo === "planta");
+    const dp = plantas.find((d) => d.pl.id === "menta") || plantas.sort((a, b) => maxEv(b.pl) - maxEv(a.pl))[0];
+    if (dp) {
+      const e = [...dp.pl.evidencia].sort((a, b) => b.l - a.l)[0];
+      tiles.push(`<button type="button" class="muestra" data-id="${dp.id}"><span class="tipo">${T.muestra_ev}</span>
+        <h3>${esc(tl(dp.pl.nombre))}</h3>${medidor(e.l)}<p>${esc(nomCond(e.c))}: ${esc(tl(e.t))}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    // Seguridad: una interacción de gravedad alta
+    const g = W.seguridad.find((x) => (x.interacciones || []).some((i) => i.severidad === "alta") && /hyperic/i.test(x.latin || ""))
+      || W.seguridad.find((x) => (x.interacciones || []).some((i) => i.severidad === "alta"));
+    if (g) {
+      const i = g.interacciones.find((x) => x.severidad === "alta");
+      tiles.push(`<button type="button" class="muestra" data-id="${g.id}"><span class="tipo">${T.muestra_seg}</span>
+        <h3>${esc(W.tx(g.nombre))}</h3><span class="sev alta">${esc(T.sev.alta)}</span>
+        <p><b>${esc(W.tx(i.farmaco))}:</b> ${esc(W.tx(i.efecto))}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    // Catálogo: un producto
+    const pr = W.porId["NSP-025"]?.p || W.productos[0];
+    if (pr) {
+      tiles.push(`<button type="button" class="muestra" data-id="${pr.id}"><span class="tipo">${T.muestra_prod}</span>
+        <h3>${esc(pr.nombre_es)}</h3><span class="tag">${esc(pr.categoria)}</span>
+        <p>${esc(pr.descripcion.length > 170 ? pr.descripcion.slice(0, 170).replace(/\s+\S*$/, "") + "…" : pr.descripcion)}</p><span class="ver">${T.ver_ficha}</span></button>`);
+    }
+    $("muestras").innerHTML = tiles.join("");
+  }
+
   // ================= Formulario de WhatsApp =================
   function pintarPedido() {
     const sel = $("p-tema"), previo = sel.value;
@@ -2283,6 +2525,7 @@ product products take recommend something thing feel feeling hi hello please use
     if (W.seguridad.length) { prepararFiltrosSeg(); pintarSeguridad(); }
     if (W.sistemas.length) pintarSistemas();
     pintarGaleria();
+    pintarInicio();
     if (vistaActual === "evidencia") pintarEvidencia(true);
     if ($("evi-ficha").open) pintarPlanta();
     if (vistaActual) document.title = vistaActual === "inicio" ? T.titulos.inicio : `${T.titulos[vistaActual]} · Herbolario Consultor`;
@@ -2420,6 +2663,23 @@ product products take recommend something thing feel feeling hi hello please use
   // Escape: el navegador cerraría el diálogo por su cuenta; se cierra con cerrarPlanta para actualizar la dirección.
   $("evi-ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarPlanta(false); });
   $("evi-ficha").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.preventDefault(); cerrarPlanta(false); } });
+
+  // Portada
+  $("portada-busca").addEventListener("submit", (e) => { e.preventDefault(); const q = $("portada-q").value; $("portada-q").value = ""; consultar(q); });
+  document.querySelector(".inicio").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-p-es]");
+    if (b) { consultar(b.dataset[lang === "en" ? "pEn" : "pEs"]); return; }
+    const m = e.target.closest(".muestra[data-id]");
+    if (m) irAFicha(m.dataset.id);
+  });
+  // Aparición suave de las secciones al bajar; sin IntersectionObserver, todo se ve desde el principio.
+  if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.documentElement.classList.add("js-animar");
+    const obs = new IntersectionObserver((entradas) => entradas.forEach((en) => {
+      if (en.isIntersecting) { en.target.classList.add("visto"); obs.unobserve(en.target); }
+    }), { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".revelar").forEach((el) => obs.observe(el));
+  }
 
   // Formulario de WhatsApp
   $("p-mensaje").addEventListener("input", () => { $("p-contador").textContent = `${$("p-mensaje").value.length}/500`; });
