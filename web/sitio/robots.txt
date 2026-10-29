@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /500.html
+
+Sitemap: https://herbolario-consultor.onrender.com/sitemap.xml

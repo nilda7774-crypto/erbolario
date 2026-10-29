@@ -1,466 +1,33 @@
-<title>Herbolario Consultor</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<style>
-/* Layout: cabecera con cifras del catálogo · dos columnas (consulta | documentos recuperados) · catálogo navegable debajo */
-:root {
-  --bg: #f2f4ee;
-  --surface: #fbfcf8;
-  --ink: #1d2a22;
-  --muted: #5d6b61;
-  --line: #d5dccf;
-  --leaf: #2d6a4c;
-  --leaf-soft: #e0ebe2;
-  --sun: #a8650f;
-  --warn: #9a3b2a;
-  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
-  --f-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
-  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #141a16; --surface: #1b231e; --ink: #e4ebe3; --muted: #9aa99e; --line: #2f3b33;
-    --leaf: #7cc39d; --leaf-soft: #22352a; --sun: #e0a54d; --warn: #e48b77; color-scheme: dark;
+(async () => {
+  // ================= Carga de datos =================
+  // Versión de un solo archivo: datos incrustados en <script id="data">. Sitio: datos.json (ruta en <meta name="datos">).
+  async function cargarDatos() {
+    const incrustado = document.getElementById("data");
+    if (incrustado) return JSON.parse(incrustado.textContent);
+    const url = document.querySelector('meta[name="datos"]')?.content || "datos.json";
+    const r = await fetch(url, { credentials: "same-origin" });
+    if (!r.ok) throw new Error("datos " + r.status);
+    return r.json();
   }
-}
-:root[data-theme="dark"] {
-  --bg: #141a16; --surface: #1b231e; --ink: #e4ebe3; --muted: #9aa99e; --line: #2f3b33;
-  --leaf: #7cc39d; --leaf-soft: #22352a; --sun: #e0a54d; --warn: #e48b77; color-scheme: dark;
-}
-* { box-sizing: border-box; }
-body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; }
-.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 28px 64px; display: grid; gap: 36px; }
-h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: 1.15; }
-h1 { font-size: clamp(2rem, 4.5vw, 3.1rem); font-weight: 700; letter-spacing: -0.02em; }
-h2 { font-size: 1.35rem; font-weight: 700; }
-h3 { font-size: 1.05rem; font-weight: 500; }
-.label { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
-a { color: var(--leaf); }
-button, input, select { font: inherit; color: inherit; }
-:focus-visible { outline: 2px solid var(--leaf); outline-offset: 2px; }
-
-/* Consultor: barra superior y bloque de contacto */
-.consultor { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px;
-  background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
-.consultor .quien { display: grid; gap: 2px; min-width: 0; }
-.consultor .nombre { font-family: var(--f-display); font-weight: 700; font-size: 1.15rem; }
-.consultor .rol { font-size: 0.9rem; color: var(--muted); }
-.acciones { display: flex; flex-wrap: wrap; gap: 8px; }
-a.btn { text-decoration: none; display: inline-flex; align-items: center; }
-.contacto { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 24px; background: var(--surface);
-  border: 1px solid var(--line); border-radius: 10px; padding: 22px; }
-@media (max-width: 760px) { .contacto { grid-template-columns: minmax(0, 1fr); } }
-.contacto .intro { display: grid; gap: 10px; align-content: start; }
-.contacto .intro p { margin: 0; color: var(--muted); max-width: 48ch; }
-.datos { display: grid; gap: 0; margin: 0; }
-.dato { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; padding-block: 10px; border-bottom: 1px solid var(--line); }
-.dato:last-child { border-bottom: 0; }
-.dato dt { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.dato dd { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; user-select: all; }
-.copiar { border: 1px solid var(--line); background: transparent; border-radius: 6px; padding: 3px 9px; font-size: 0.8rem; cursor: pointer; }
-.copiar:hover { border-color: var(--leaf); color: var(--leaf); }
-@media (max-width: 460px) { .dato { grid-template-columns: minmax(0, 1fr) auto; } .dato dt { grid-column: 1 / -1; } }
-.idioma { display: inline-flex; border: 1px solid var(--leaf); border-radius: 8px; overflow: hidden; }
-.idioma button { border: 0; background: transparent; color: var(--leaf); font-family: var(--f-mono); font-weight: 500; padding: 10px 12px; cursor: pointer; }
-.idioma button[aria-pressed="true"] { background: var(--leaf); color: var(--surface); }
-/* Buscador de nombres en la barra superior (fija al bajar) */
-.consultor { position: sticky; top: 8px; z-index: 15; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
-.consultor .quien { flex: 1 1 220px; }
-.buscador { position: relative; flex: 1 1 100%; }
-.buscador svg { position: absolute; left: 11px; top: 50%; translate: 0 -50%; width: 18px; height: 18px; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
-.buscador input { width: 100%; padding: 10px 12px 10px 36px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
-.buscador input:focus { border-color: var(--leaf); }
-#buscar-lista { position: absolute; left: 0; right: 0; top: calc(100% + 6px); margin: 0; padding: 4px; list-style: none; background: var(--surface);
-  border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 10px 28px rgba(0,0,0,.14); max-height: min(60vh, 420px); overflow-y: auto; }
-#buscar-lista li { display: grid; gap: 1px; padding: 8px 10px; border-radius: 6px; cursor: pointer; }
-#buscar-lista li[aria-selected="true"], #buscar-lista li:hover { background: var(--leaf-soft); }
-#buscar-lista .t { font-weight: 600; overflow-wrap: anywhere; }
-#buscar-lista .t mark { background: none; color: var(--leaf); }
-#buscar-lista .m { font-size: 0.8rem; color: var(--muted); overflow-wrap: anywhere; }
-#buscar-lista li.vacio { cursor: default; color: var(--muted); background: none; }
-.tienda-nota { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 0.88rem; color: var(--muted); }
-
-/* Cabecera */
-header { display: grid; gap: 14px; position: relative; overflow: hidden; border-radius: 14px;
-  padding: clamp(28px, 6vw, 64px) clamp(20px, 5vw, 48px); color: #f3f6f0; min-height: 300px; align-content: end;
-  background: #1d2a22 url("img/bosque.jpg") center 40% / cover no-repeat; }
-header::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(12,22,16,.15) 0%, rgba(12,22,16,.55) 45%, rgba(12,22,16,.88) 100%); }
-header > * { position: relative; }
-header .label { color: #cfe3d4; }
-header h1 { color: #ffffff; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
-header p { margin: 0; max-width: 64ch; color: #e3ebe2; }
-header .stats b { color: #ffd38a; }
-header .stats { color: #e3ebe2; }
-.plantas { display: grid; gap: 14px; }
-.plantas > p { margin: 0; color: var(--muted); max-width: 70ch; }
-.galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-.planta { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: grid; grid-template-rows: auto 1fr; min-width: 0; }
-.planta img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: var(--leaf-soft); }
-.planta .txt { padding: 10px 12px 12px; display: grid; gap: 4px; align-content: start; }
-.planta h3 { font-size: 1rem; }
-.planta .lat { font-style: italic; font-size: 0.82rem; color: var(--muted); }
-.planta p { margin: 0; font-size: 0.86rem; }
-.creditos { font-size: 0.75rem; }
-.creditos a { color: var(--muted); }
-@media (prefers-reduced-motion: no-preference) { .planta img { transition: transform .4s ease; } .planta:hover img { transform: scale(1.04); } }
-.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--f-mono); font-size: 0.85rem; font-variant-numeric: tabular-nums; }
-.stats b { font-weight: 500; color: var(--leaf); }
-
-/* Consulta + recuperación */
-.workbench { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 20px; align-items: start; }
-@media (max-width: 860px) { .workbench { grid-template-columns: minmax(0, 1fr); } }
-.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
-.chat { display: grid; gap: 14px; max-height: 560px; overflow-y: auto; padding-right: 4px; }
-.msg { display: grid; gap: 4px; min-width: 0; }
-.msg .who { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.msg.user .body { background: var(--leaf-soft); border-radius: 8px; padding: 10px 12px; justify-self: start; }
-.msg.bot .body { overflow-wrap: anywhere; }
-.msg .body p { margin: 0 0 0.6em; }
-.msg .body p:last-child { margin-bottom: 0; }
-.msg .body ul { margin: 0 0 0.6em; padding-left: 1.2em; }
-.msg.err .body { color: var(--warn); }
-.cite { font-family: var(--f-mono); font-size: 0.8em; background: var(--leaf-soft); color: var(--leaf); border: 0; border-radius: 4px; padding: 0 4px; cursor: pointer; }
-.thinking { color: var(--muted); font-style: italic; }
-form.ask { display: flex; gap: 8px; flex-wrap: wrap; }
-form.ask input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
-.btn { border: 1px solid var(--leaf); background: var(--leaf); color: var(--surface); padding: 10px 16px; border-radius: 8px; cursor: pointer; font-weight: 600; }
-.btn.ghost { background: transparent; color: var(--leaf); }
-.btn:disabled { opacity: 0.5; cursor: default; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 4px 11px; font-size: 0.88rem; cursor: pointer; }
-.chip:hover, .chip[aria-pressed="true"] { border-color: var(--leaf); color: var(--leaf); }
-.note { font-size: 0.85rem; color: var(--muted); margin: 0; }
-
-.hits { display: grid; gap: 8px; }
-.hit { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; padding: 9px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); cursor: pointer; text-align: left; }
-.hit:hover { border-color: var(--leaf); }
-.hit .score { grid-row: span 2; font-family: var(--f-mono); font-size: 0.8rem; font-variant-numeric: tabular-nums; color: var(--leaf); align-self: center; width: 3.2em; }
-.hit .t { font-weight: 600; overflow-wrap: anywhere; }
-.hit .m { font-size: 0.82rem; color: var(--muted); }
-.bar { height: 3px; background: var(--leaf-soft); border-radius: 2px; grid-column: 2; }
-.bar i { display: block; height: 100%; background: var(--leaf); border-radius: 2px; }
-
-/* Catálogo */
-.cat-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; justify-content: space-between; }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.filters input, .filters select { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); min-width: 0; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; align-content: start; min-width: 0; }
-.card.flash { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
-.card .top { display: flex; justify-content: space-between; gap: 8px; font-family: var(--f-mono); font-size: 0.75rem; color: var(--muted); }
-.card .price { color: var(--sun); font-variant-numeric: tabular-nums; }
-.card .en { font-size: 0.85rem; color: var(--muted); margin-top: -4px; }
-.card p { margin: 0; font-size: 0.93rem; }
-.card details summary { cursor: pointer; color: var(--leaf); font-size: 0.9rem; }
-.card dl { margin: 8px 0 0; display: grid; gap: 6px; font-size: 0.88rem; }
-.card dt { font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-.card dd { margin: 0; overflow-wrap: anywhere; }
-.tag { display: inline-block; font-size: 0.75rem; padding: 1px 8px; border-radius: 999px; background: var(--leaf-soft); color: var(--leaf); justify-self: start; }
-/* Medicina china */
-.tcm { display: grid; gap: 16px; }
-.polos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-@media (max-width: 700px) { .polos { grid-template-columns: minmax(0, 1fr); } }
-.polo { border-radius: 10px; padding: 14px 16px; border: 1px solid var(--line); background: var(--surface); display: grid; gap: 6px; min-width: 0; }
-.polo.yang { border-top: 4px solid var(--sun); }
-.polo.yin { border-top: 4px solid var(--leaf); }
-.polo p { margin: 0; font-size: 0.93rem; }
-.modelo { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 4px 16px; }
-.modelo details { border-bottom: 1px solid var(--line); padding-block: 10px; }
-.modelo details:last-child { border-bottom: 0; }
-.modelo summary { cursor: pointer; font-weight: 600; }
-.modelo p { margin: 8px 0 0; max-width: 75ch; font-size: 0.94rem; white-space: pre-line; }
-.pol { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; padding: 1px 8px; border-radius: 999px; justify-self: start; }
-.pol.positiva { background: color-mix(in srgb, var(--sun) 18%, transparent); color: var(--sun); }
-.pol.negativa { background: var(--leaf-soft); color: var(--leaf); }
-.pol.neutra { background: var(--line); color: var(--muted); }
-.herbs { display: flex; flex-wrap: wrap; gap: 4px; }
-.herb-chip { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 1px 8px; font-size: 0.8rem; cursor: pointer; }
-.herb-chip:hover { border-color: var(--leaf); color: var(--leaf); }
-.kv { font-size: 0.88rem; display: grid; gap: 2px; }
-.kv b { font-family: var(--f-mono); font-size: 0.7rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-footer { font-size: 0.85rem; color: var(--muted); max-width: 80ch; display: grid; gap: 6px; }
-footer p { margin: 0; }
-@media (prefers-reduced-motion: no-preference) { .card { transition: border-color .2s, box-shadow .2s; } }
-/* Seguridad e interacciones */
-.seguridad { display: grid; gap: 14px; }
-.alerta { border: 1px solid var(--warn); border-left-width: 5px; border-radius: 8px; padding: 12px 14px; background: var(--surface); display: grid; gap: 4px; }
-.alerta strong { color: var(--warn); }
-.alerta p { margin: 0; font-size: 0.92rem; }
-.seg-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px; display: grid; gap: 8px; min-width: 0; }
-.seg-card.flash { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
-.seg-card .cab { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-.seg-card .lat { font-style: italic; color: var(--muted); font-size: 0.85rem; }
-.seg-card > p { margin: 0; font-size: 0.93rem; }
-.tabla-int { overflow-x: auto; }
-.tabla-int table { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 520px; }
-.tabla-int th { text-align: left; font-family: var(--f-mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding: 6px 8px; border-bottom: 1px solid var(--line); }
-.tabla-int td { padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-.tabla-int tr:last-child td { border-bottom: 0; }
-.sev { display: inline-block; font-family: var(--f-mono); font-size: 0.7rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
-.sev.alta { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
-.sev.moderada { background: color-mix(in srgb, var(--sun) 18%, transparent); color: var(--sun); }
-.sev.baja, .sev.teorica { background: var(--line); color: var(--muted); }
-.evid { display: block; font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
-.sin-int { font-size: 0.9rem; color: var(--muted); margin: 0; }
-.fuentes a { font-size: 0.8rem; color: var(--muted); overflow-wrap: anywhere; }
-.grid-seg { display: grid; gap: 12px; }
-@media (max-width: 700px) {
-  .tabla-int table { min-width: 0; }
-  .tabla-int thead { display: none; }
-  .tabla-int tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
-  .tabla-int td { border: 0; padding: 0; }
-  .tabla-int td:nth-child(1) { font-weight: 600; }
-  .tabla-int td:nth-child(3) { grid-column: 1 / -1; }
-  .tabla-int td:nth-child(2) { grid-row: 1; grid-column: 2; }
-}
-/* Sistemas del cuerpo */
-section[id] { scroll-margin-top: 140px; }
-.sistemas { display: grid; gap: 14px; }
-.sistemas > div > p { margin: 6px 0 0; color: var(--muted); max-width: 70ch; }
-#sis-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
-.sis-card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; display: grid; gap: 16px; min-width: 0; }
-.sis-card.flash { border-color: var(--leaf); box-shadow: 0 0 0 3px var(--leaf-soft); }
-.sis-card .cab { display: grid; gap: 4px; }
-.sis-card .partes { font-size: 0.9rem; color: var(--muted); }
-.sis-card .resumen { margin: 0; max-width: 75ch; }
-.sis-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-.sis-cols > div { background: var(--bg); border-radius: 8px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
-.sis-cols ul { margin: 0; padding-left: 1.2em; display: grid; gap: 3px; font-size: 0.93rem; }
-.sis-medico { margin: 0; font-size: 0.9rem; border-left: 4px solid var(--warn); padding: 8px 12px; background: var(--bg); border-radius: 0 8px 8px 0; }
-.sis-medico strong { color: var(--warn); }
-.sis-grupo { display: grid; gap: 6px; }
-.sis-grupo .herb-chip { font-size: 0.86rem; padding: 3px 10px; }
-@media (max-width: 700px) {
-  .sis-cols { grid-template-columns: minmax(0, 1fr); }
-  .sis-card { padding: 14px; }
-  #sis-tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
-  #sis-tabs .chip { flex: 0 0 auto; }
-}
-/* "Ver más" en listas largas */
-.mas { justify-self: center; }
-/* Barra inferior: solo en teléfono */
-.nav-movil { display: none; }
-@media (max-width: 700px) {
-  body { font-size: 15px; }
-  .wrap { padding-inline: 14px; padding-block: 12px calc(84px + env(safe-area-inset-bottom, 0px)); gap: 26px; }
-  /* Barra superior compacta: tienda e idioma; el resto va en la barra inferior */
-  .consultor { padding: 10px 12px; gap: 8px; top: 6px; }
-  .consultor .quien { flex-basis: 0; }
-  .buscador input { padding-block: 9px; }
-  .consultor .rol { font-size: 0.78rem; line-height: 1.3; }
-  .consultor .acciones { flex-wrap: nowrap; flex-shrink: 0; }
-  .consultor .acciones > a:not(:first-child) { display: none; }
-  .consultor .acciones .btn { padding: 8px 12px; font-size: 0.88rem; }
-  .idioma button { padding: 8px 10px; }
-  /* Portada más baja */
-  header { min-height: 0; padding: 26px 18px 20px; gap: 10px; border-radius: 12px; }
-  header h1 { font-size: 2rem; }
-  header p { font-size: 0.95rem; }
-  .stats { font-size: 0.78rem; gap: 4px 14px; }
-  .stats span:last-child { display: none; }
-  /* Consulta */
-  .panel { padding: 14px; }
-  .chat { max-height: 55vh; }
-  form.ask .btn { flex: 1 1 auto; }
-  #sugerencias { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scroll-snap-type: x proximity; }
-  #sugerencias .chip { flex: 0 0 auto; scroll-snap-align: start; }
-  /* Galería deslizable */
-  .galeria { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 6px; }
-  .planta { flex: 0 0 72%; scroll-snap-align: start; }
-  /* Fichas a una columna, filtros a lo ancho */
-  .grid { grid-template-columns: minmax(0, 1fr); }
-  .filters, .filters input, .filters select { width: 100%; }
-  #f-pol { flex-wrap: nowrap; overflow-x: auto; }
-  #f-pol .chip { flex: 0 0 auto; }
-  .contacto { padding: 16px; }
-  /* Barra inferior fija */
-  .nav-movil { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-    background: var(--surface); border-top: 1px solid var(--line); padding: 6px 4px calc(6px + env(safe-area-inset-bottom, 0px)); box-shadow: 0 -4px 18px rgba(0,0,0,.06); }
-  .nav-movil a { display: grid; justify-items: center; gap: 2px; padding: 4px 2px; text-decoration: none; color: var(--muted); font-size: 0.7rem; min-width: 0; }
-  .nav-movil a:active, .nav-movil a:focus-visible { color: var(--leaf); }
-  .nav-movil svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-  .nav-movil a.wa { color: var(--leaf); }
-  section[id], header { scroll-margin-top: 120px; }
-}
-</style>
-
-<div class="wrap">
-  <div class="consultor" data-i18n-aria="consultor_aria" aria-label="Tu consultor">
-    <div class="quien">
-      <span class="rol" data-i18n="rol">Consultor independiente de Nature's Sunshine Products</span>
-    </div>
-    <div class="acciones">
-      <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_tienda">Visita la tienda</a>
-      <a class="btn ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
-      <a class="btn ghost" href="https://wa.me/17084905878" target="_blank" rel="noopener">WhatsApp</a>
-      <a class="btn ghost" href="#contacto" data-i18n="btn_contacto">Contacto</a>
-      <div class="idioma" role="group" data-i18n-aria="idioma_aria" aria-label="Idioma">
-        <button type="button" data-lang="es" aria-pressed="true" title="Español">ES</button>
-        <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
-      </div>
-    </div>
-    <div class="buscador" role="search">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-      <input id="buscar" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="buscar-lista" aria-autocomplete="list"
-        data-i18n-ph="buscar_ph" placeholder="Buscar hierba, suplemento o producto" data-i18n-aria="buscar_ph" aria-label="Buscar hierba, suplemento o producto">
-      <ul id="buscar-lista" role="listbox" hidden></ul>
-    </div>
-  </div>
-
-  <header>
-    <span class="label" data-i18n="hero_label">Asistente RAG · catálogo de Nature's Sunshine</span>
-    <h1>Herbolario Consultor</h1>
-    <p data-i18n="hero_p">Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y Claude responde usando solo esas fichas, con sus referencias.</p>
-    <div class="stats" id="stats"></div>
-  </header>
-
-  <section class="workbench" id="consulta" data-i18n-aria="consulta" aria-label="Consulta">
-    <div class="panel">
-      <h2 data-i18n="consulta">Consulta</h2>
-      <div class="chat" id="chat" aria-live="polite"></div>
-      <div class="chips" id="sugerencias"></div>
-      <form class="ask" id="ask">
-        <input id="q" type="text" autocomplete="off" data-i18n-ph="q_ph" placeholder="Ej.: ¿Qué me ayuda a dormir mejor?" data-i18n-aria="q_aria" aria-label="Tu pregunta">
-        <button class="btn" id="send" type="submit" data-i18n="preguntar">Preguntar</button>
-        <button class="btn ghost" id="stop" type="button" hidden data-i18n="detener">Detener</button>
-      </form>
-      <p class="note" id="ai-note"></p>
-    </div>
-
-    <aside class="panel" data-i18n-aria="fichas_rec" aria-label="Fichas recuperadas">
-      <div>
-        <h2 data-i18n="fichas_rec">Fichas recuperadas</h2>
-        <p class="note" id="hits-for"></p>
-      </div>
-      <div class="hits" id="hits"></div>
-      <p class="note" data-i18n="bm25_note">Puntuación BM25: cuanto más alta, más términos de tu pregunta coinciden con la ficha. Toca una para verla en el catálogo.</p>
-    </aside>
-  </section>
-
-  <section class="plantas" data-i18n-aria="plantas_h2" aria-label="Plantas de nuestros productos">
-    <div>
-      <span class="label" data-i18n="plantas_label">De la naturaleza a tu bienestar</span>
-      <h2 data-i18n="plantas_h2">Plantas de nuestros productos</h2>
-    </div>
-    <p data-i18n="plantas_p">Algunas de las plantas que contienen los productos y las fórmulas chinas de Nature's Sunshine. Toca un nombre para ver la ficha.</p>
-    <div class="galeria" id="galeria"></div>
-  </section>
-
-  <section class="sistemas" id="sistemas" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo">
-    <div>
-      <span class="label" data-i18n="sis_label">Guía por sistemas</span>
-      <h2 data-i18n="sis_h2">Sistemas del cuerpo</h2>
-      <p data-i18n="sis_p">Elige un sistema para ver qué hace, señales de que puede necesitar apoyo, hábitos que lo cuidan y los productos, fórmulas chinas y hierbas relacionadas.</p>
-    </div>
-    <div class="chips" id="sis-tabs" role="group" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo"></div>
-    <div id="sis-ficha"></div>
-  </section>
-
-  <section id="catalogo" data-i18n-aria="catalogo" aria-label="Catálogo" style="display:grid;gap:14px">
-    <div class="cat-head">
-      <h2 data-i18n="catalogo">Catálogo</h2>
-      <div class="filters">
-        <input id="filtro" type="search" data-i18n-ph="filtro_ph" placeholder="Filtrar por nombre o ingrediente" data-i18n-aria="filtro_ph" aria-label="Filtrar catálogo">
-        <select id="categoria" data-i18n-aria="categoria" aria-label="Categoría"></select>
-      </div>
-    </div>
-    <p class="note" id="cuenta"></p>
-    <div class="grid" id="grid"></div>
-    <button class="btn ghost mas" id="mas-cat" type="button" hidden></button>
-  </section>
-
-  <section class="tcm" id="tcm" data-i18n-aria="tcm_h2" aria-label="Fórmulas chinas">
-    <div>
-      <span class="label" data-i18n="tcm_label">Medicina tradicional china</span>
-      <h2 data-i18n="tcm_h2">Fórmulas chinas: modelo Positivo y Negativo</h2>
-    </div>
-    <div class="polos" id="polos"></div>
-    <div class="modelo" id="modelo"></div>
-    <div class="cat-head">
-      <h3 data-i18n="formulas">Fórmulas</h3>
-      <div class="filters">
-        <div class="chips" id="f-pol" role="group" data-i18n-aria="polaridad" aria-label="Polaridad"></div>
-        <select id="f-organo" data-i18n-aria="organo" aria-label="Órgano"></select>
-      </div>
-    </div>
-    <div class="grid" id="grid-tcm"></div>
-    <button class="btn ghost mas" id="mas-tcm" type="button" hidden></button>
-    <div class="cat-head">
-      <h3 data-i18n="hierbas_chinas">Hierbas chinas</h3>
-      <div class="filters">
-        <input id="f-hierba" type="search" data-i18n-ph="f_hierba_ph" placeholder="Buscar hierba, órgano o síntoma" data-i18n-aria="f_hierba_ph" aria-label="Buscar hierba">
-      </div>
-    </div>
-    <p class="note" id="cuenta-hierbas"></p>
-    <div class="grid" id="grid-hierbas"></div>
-    <button class="btn ghost mas" id="mas-hie" type="button" hidden></button>
-  </section>
-
-  <section class="seguridad" id="seguridad" data-i18n-aria="seg_h2" aria-label="Seguridad e interacciones">
-    <div>
-      <span class="label" data-i18n="seg_label">Seguridad</span>
-      <h2 data-i18n="seg_h2">Seguridad e interacciones con medicamentos</h2>
-    </div>
-    <div class="alerta" role="note">
-      <strong data-i18n="seg_alerta_t">Información orientativa, no sustituye a tu médico o farmacéutico.</strong>
-      <p data-i18n="seg_alerta_p">Si tomas medicamentos, estás embarazada o en lactancia, o vas a operarte, consulta antes de tomar cualquier hierba o suplemento. No suspendas ni cambies un medicamento por tu cuenta.</p>
-    </div>
-    <div class="cat-head">
-      <p class="note" id="cuenta-seg"></p>
-      <div class="filters">
-        <input id="f-seg" type="search" data-i18n-ph="seg_ph" placeholder="Busca una hierba o un medicamento (p. ej. warfarina)" data-i18n-aria="seg_ph" aria-label="Buscar">
-        <select id="f-clase" data-i18n-aria="seg_clase" aria-label="Tipo de medicamento"></select>
-        <select id="f-sev" data-i18n-aria="seg_sev" aria-label="Gravedad"></select>
-      </div>
-    </div>
-    <div class="grid-seg" id="grid-seg"></div>
-    <button class="btn ghost mas" id="mas-seg" type="button" hidden></button>
-  </section>
-
-  <section class="contacto" id="contacto" data-i18n-aria="contacto" aria-label="Contacto">
-    <div class="intro">
-      <span class="label" data-i18n="contacto">Contacto</span>
-      <h2 data-i18n="contacto_h2">Escríbeme</h2>
-      <p data-i18n="contacto_p">Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar.</p>
-      <div class="acciones">
-        <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="comprar">Comprar en mi tienda</a>
-        <a class="btn ghost" href="https://wa.me/17084905878" target="_blank" rel="noopener" data-i18n="escribir_wa">Escribir por WhatsApp</a>
-        <a class="btn ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
-      </div>
-    </div>
-    <dl class="datos">
-      <div class="dato"><dt data-i18n="nombre">Nombre</dt><dd>Nilda Esparza</dd></div>
-      <div class="dato"><dt data-i18n="telefono">Teléfono</dt><dd>(708) 490-5878</dd><button class="copiar" type="button" data-copiar="(708) 490-5878" data-i18n="copiar">Copiar</button></div>
-      <div class="dato"><dt>WhatsApp</dt><dd>+1 (708) 490-5878</dd><a class="copiar" href="https://wa.me/17084905878" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
-      <div class="dato"><dt>Instagram</dt><dd>@nilda7774</dd><a class="copiar" href="https://www.instagram.com/nilda7774/" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
-      <div class="dato"><dt data-i18n="correo">Correo</dt><dd>nilda7774@gmail.com</dd><button class="copiar" type="button" data-copiar="nilda7774@gmail.com" data-i18n="copiar">Copiar</button></div>
-      <div class="dato"><dt data-i18n="mi_tienda">Mi tienda</dt><dd>naturessunshine.com/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
-      <div class="dato"><dt data-i18n="btn_consultor">Hazte consultor</dt><dd>naturessunshine.com/share-with-network/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
-    </dl>
-  </section>
-
-  <nav class="nav-movil" data-i18n-aria="nav_aria" aria-label="Secciones">
-    <a href="#consulta"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span data-i18n="nav_preguntar">Preguntar</span></a>
-    <a href="#catalogo"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg><span data-i18n="catalogo">Catálogo</span></a>
-    <a href="#tcm"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19l8-8"/></svg><span data-i18n="formulas">Fórmulas</span></a>
-    <a href="#seguridad"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M12 8v5"/><path d="M12 16v.5"/></svg><span data-i18n="seg_label">Seguridad</span></a>
-    <a href="#contacto"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg><span data-i18n="contacto">Contacto</span></a>
-    <a class="wa" href="https://wa.me/17084905878" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M5 19l1.2-3.6A8 8 0 1 1 9 18.5z"/><path d="M9.5 9.5c.5 2 2 3.5 4 4l1-1 2 1"/></svg><span>WhatsApp</span></a>
-  </nav>
-
-  <footer>
-    <p data-i18n="footer1">Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.</p>
-    <p data-i18n="footer2">Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.</p>
-    <p class="creditos" id="creditos"></p>
-  </footer>
-</div>
-
-<script id="data" type="application/json">__DATA__</script>
-<script>
-(() => {
-  const DATOS = JSON.parse(document.getElementById("data").textContent);
-  const CREDITOS = __CREDITOS__;
+  function esperarReintento() {
+    const ingles = (navigator.language || "").startsWith("en");
+    document.getElementById("estado-texto").textContent = ingles
+      ? "We couldn't load the catalog. Check your connection and try again."
+      : "No se pudo cargar el catálogo. Revisa tu conexión e inténtalo de nuevo.";
+    document.getElementById("estado-carga").classList.add("error");
+    const b = document.getElementById("reintentar");
+    b.hidden = false;
+    return new Promise((ok) => b.addEventListener("click", () => {
+      b.hidden = true; document.getElementById("estado-carga").classList.remove("error");
+      document.getElementById("estado-texto").textContent = ingles ? "Loading…" : "Cargando…";
+      ok();
+    }, { once: true }));
+  }
+  let DATOS;
+  for (;;) {
+    try { DATOS = await cargarDatos(); break; } catch { await esperarReintento(); }
+  }
+  const CREDITOS = DATOS.creditos || {};
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const L = (v) => (v && v.length ? v.join(", ") : "—");
@@ -476,11 +43,25 @@ section[id] { scroll-margin-top: 140px; }
       sis_partes: "Incluye", sis_senales: "Puede necesitar apoyo si notas…", sis_habitos: "Hábitos que lo cuidan", sis_medico: "Cuándo consultar al médico:",
       sis_productos: "Productos", sis_formulas: "Fórmulas chinas", sis_hierbas: "Hierbas y suplementos", sis_doc: "Sistema del cuerpo",
       sis_nota: "Información general y orientativa. Toca un nombre para ver su ficha y sus precauciones.",
+      saltar: "Saltar al contenido", nav_inicio: "Inicio", nav_sistemas: "Sistemas", nav_evidencia: "Evidencia", nav_mtc: "Medicina china",
+      nav_mas: "Más", privacidad: "Privacidad", terminos: "Términos", tema: "Cambiar tema claro u oscuro", consulta_h1: "Haz tu consulta",
+      sin_productos: "Ningún producto coincide con ese filtro. Prueba con otra palabra o elige «Todas las categorías».",
+      sin_hierbas: "Ninguna hierba coincide con esa búsqueda.", error_general: "Algo salió mal. Recarga la página e inténtalo de nuevo.",
+      sin_conexion: "Estás sin conexión: puedes seguir consultando las fichas, pero el asistente necesita internet.",
+      titulos: { inicio: "Herbolario Consultor · Guía de suplementos Nature's Sunshine", consulta: "Consulta", catalogo: "Catálogo", sistemas: "Sistemas del cuerpo",
+        evidencia: "Evidencia científica", mtc: "Medicina tradicional china", seguridad: "Seguridad e interacciones", contacto: "Contacto",
+        privacidad: "Aviso de privacidad", terminos: "Términos de uso", "no-encontrado": "Página no encontrada" },
+      temas: ["Elegir un producto", "Digestión", "Defensas", "Estrés y sueño", "Articulaciones", "Energía y peso", "Corazón y circulación",
+        "Salud de la mujer", "Salud del hombre", "Hacer un pedido", "Ser consultor", "Otro tema"],
+      tema_elige: "Elige un tema",
+      err_nombre: "Escribe tu nombre (de 2 a 60 letras).", err_tema: "Elige un tema.", err_mensaje: "Escribe al menos 10 caracteres (máximo 500).",
+      err_acepto: "Marca la casilla para continuar.",
+      wa_mensaje: (n, t, m) => `Hola Nilda, soy ${n}. Me interesa: ${t}.\n${m}\n(Enviado desde Herbolario Consultor)`,
       buscar_ph: "Buscar hierba, suplemento o producto", sin_nombres: "Ningún nombre coincide. Prueba en «Consulta» con un síntoma o un ingrediente.",
       rol: "Consultor independiente de Nature's Sunshine Products",
       btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_contacto: "Contacto",
-      hero_label: "Asistente RAG · catálogo de Nature's Sunshine",
-      hero_p: "Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y Claude responde usando solo esas fichas, con sus referencias.",
+      hero_label: "Asistente · catálogo de Nature's Sunshine",
+      hero_p: "Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y el asistente responde usando solo esas fichas, con sus referencias.",
       consulta: "Consulta", q_ph: "Ej.: ¿Qué me ayuda a dormir mejor?", q_aria: "Tu pregunta", preguntar: "Preguntar", detener: "Detener",
       nota_claude: "Las respuestas usan tu cuenta de Claude; la primera vez se te pedirá permiso.",
       nota_gemini: "Las respuestas las redacta una inteligencia artificial (Gemini) usando solo las fichas del catálogo. Puede equivocarse: revisa las fichas citadas.",
@@ -506,7 +87,7 @@ section[id] { scroll-margin-top: 140px; }
       footer1: "Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.",
       footer2: "Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.",
       creditos: "Fotos de Wikimedia Commons:", autor_desconocido: "autor desconocido",
-      stats: (n) => `<span><b>${n.p}</b> productos</span><span><b>${n.c}</b> categorías</span><span><b>${n.f}</b> fórmulas chinas</span><span><b>${n.h}</b> hierbas chinas</span><span>fuente: naturessunshine.com y textos de medicina china</span>`,
+      stats: (n) => `<span><b>${n.p}</b> productos</span><span><b>${n.s}</b> sistemas del cuerpo</span><span><b>${n.e}</b> plantas con evidencia</span><span><b>${n.f}</b> fórmulas chinas</span><span><b>${n.g}</b> hierbas con datos de seguridad</span>`,
       pol: { positiva: "Positiva · Yang", negativa: "Negativa · Yin", neutra: "Neutra" },
       pol_plural: { "": "Todas", positiva: "Positivas · Yang", negativa: "Negativas · Yin" },
       pol_def: { positiva: "Fórmulas que construyen yang.", negativa: "Fórmulas que construyen yin." },
@@ -558,7 +139,9 @@ section[id] { scroll-margin-top: 140px; }
         inmunosupresores: "Inmunosupresores", hormonas: "Hormonas y anticonceptivos", tiroides: "Tiroides", cyp450: "Fármacos metabolizados por el hígado (CYP450)",
         quimioterapia: "Quimioterapia", analgesicos: "Analgésicos y antiinflamatorios", litio: "Litio", absorcion: "Absorción de medicamentos orales",
         hepatotoxicos: "Fármacos que afectan al hígado", otros: "Otros" },
-      tipos: { sistema: "sistema del cuerpo", producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
+      evi_doc: "Planta medicinal con evidencia científica", evi_origen: "Origen y parte usada", evi_evidencia: "Evidencia por padecimiento",
+      evi_std: "Estandarización", evi_extractos: "Extractos clínicos", evi_dosis: "Dosis en estudios", evi_trad: "Uso tradicional (no comprobado)", evi_inter: "Interacciones:",
+      tipos: { planta: "planta con evidencia", sistema: "sistema del cuerpo", producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
     },
     en: {
       consultor_aria: "Your consultant", idioma_aria: "Language",
@@ -567,11 +150,25 @@ section[id] { scroll-margin-top: 140px; }
       sis_partes: "Includes", sis_senales: "It may need support if you notice…", sis_habitos: "Habits that help", sis_medico: "When to see a doctor:",
       sis_productos: "Products", sis_formulas: "Chinese formulas", sis_hierbas: "Herbs and supplements", sis_doc: "Body system",
       sis_nota: "General information for guidance only. Tap a name to see its record and cautions.",
+      saltar: "Skip to content", nav_inicio: "Home", nav_sistemas: "Systems", nav_evidencia: "Evidence", nav_mtc: "Chinese medicine",
+      nav_mas: "More", privacidad: "Privacy", terminos: "Terms", tema: "Switch light or dark theme", consulta_h1: "Ask a question",
+      sin_productos: "No product matches that filter. Try another word or choose “All categories”.",
+      sin_hierbas: "No herb matches that search.", error_general: "Something went wrong. Reload the page and try again.",
+      sin_conexion: "You're offline: you can keep browsing the records, but the assistant needs internet.",
+      titulos: { inicio: "Herbolario Consultor · Nature's Sunshine supplement guide", consulta: "Ask", catalogo: "Catalog", sistemas: "Body systems",
+        evidencia: "Scientific evidence", mtc: "Traditional Chinese medicine", seguridad: "Safety and interactions", contacto: "Contact",
+        privacidad: "Privacy notice", terminos: "Terms of use", "no-encontrado": "Page not found" },
+      temas: ["Choosing a product", "Digestion", "Immune support", "Stress and sleep", "Joints", "Energy and weight", "Heart and circulation",
+        "Women's health", "Men's health", "Placing an order", "Becoming a consultant", "Something else"],
+      tema_elige: "Choose a topic",
+      err_nombre: "Type your name (2 to 60 letters).", err_tema: "Choose a topic.", err_mensaje: "Type at least 10 characters (500 max).",
+      err_acepto: "Check the box to continue.",
+      wa_mensaje: (n, t, m) => `Hi Nilda, I'm ${n}. I'm interested in: ${t}.\n${m}\n(Sent from Herbolario Consultor)`,
       buscar_ph: "Search an herb, supplement or product", sin_nombres: "No name matches. Try “Ask” with a symptom or an ingredient.",
       rol: "Independent Nature's Sunshine Products Consultant",
       btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_contacto: "Contact",
-      hero_label: "RAG assistant · Nature's Sunshine catalog",
-      hero_p: "Ask about a symptom, an ingredient or a product. The search engine picks the most relevant records in the catalog and Claude answers using only those records, with references.",
+      hero_label: "Assistant · Nature's Sunshine catalog",
+      hero_p: "Ask about a symptom, an ingredient or a product. The search engine picks the most relevant records in the catalog and the assistant answers using only those records, with references.",
       consulta: "Ask", q_ph: "E.g.: What helps me sleep better?", q_aria: "Your question", preguntar: "Ask", detener: "Stop",
       nota_claude: "Answers use your Claude account; you will be asked for permission the first time.",
       nota_gemini: "Answers are written by an AI (Gemini) using only the catalog records. It can make mistakes: check the cited records.",
@@ -597,7 +194,7 @@ section[id] { scroll-margin-top: 140px; }
       footer1: "Tool created by an Independent Nature's Sunshine Products Consultant. This is not an official company website. Records taken from naturessunshine.com (US store) on September 30, 2026. Prices are for reference and may have changed.",
       footer2: "These are dietary supplements: they are not intended to diagnose, treat, cure or prevent any disease. Consult a health professional and follow the label in your country.",
       creditos: "Photos from Wikimedia Commons:", autor_desconocido: "unknown author",
-      stats: (n) => `<span><b>${n.p}</b> products</span><span><b>${n.c}</b> categories</span><span><b>${n.f}</b> Chinese formulas</span><span><b>${n.h}</b> Chinese herbs</span><span>source: naturessunshine.com and Chinese medicine texts</span>`,
+      stats: (n) => `<span><b>${n.p}</b> products</span><span><b>${n.s}</b> body systems</span><span><b>${n.e}</b> plants with evidence</span><span><b>${n.f}</b> Chinese formulas</span><span><b>${n.g}</b> herbs with safety data</span>`,
       pol: { positiva: "Positive · Yang", negativa: "Negative · Yin", neutra: "Neutral" },
       pol_plural: { "": "All", positiva: "Positive · Yang", negativa: "Negative · Yin" },
       pol_def: { positiva: "Yang-building formulas.", negativa: "Yin-building formulas." },
@@ -649,7 +246,9 @@ section[id] { scroll-margin-top: 140px; }
         inmunosupresores: "Immunosuppressants", hormonas: "Hormones and birth control", tiroides: "Thyroid", cyp450: "Drugs processed by the liver (CYP450)",
         quimioterapia: "Chemotherapy", analgesicos: "Pain relievers and anti-inflammatories", litio: "Lithium", absorcion: "Absorption of oral medications",
         hepatotoxicos: "Drugs that affect the liver", otros: "Other" },
-      tipos: { sistema: "body system", producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
+      evi_doc: "Medicinal plant with scientific evidence", evi_origen: "Origin and part used", evi_evidencia: "Evidence by condition",
+      evi_std: "Standardization", evi_extractos: "Clinical extracts", evi_dosis: "Dose in studies", evi_trad: "Traditional use (unproven)", evi_inter: "Interactions:",
+      tipos: { planta: "plant with evidence", sistema: "body system", producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
     },
   };
 
@@ -689,6 +288,7 @@ Si los documentos no contienen la respuesta, dilo claramente en lugar de inventa
 Son suplementos alimenticios: no diagnostiques ni prometas curar enfermedades, menciona las precauciones relevantes y recomienda consultar a un profesional de la salud cuando haya embarazo, niños, medicamentos o una condición médica.
 El modo de uso proviene de la web oficial de EE. UU.; recuerda que la etiqueta de cada país manda. Los precios son de referencia (tienda de EE. UU., septiembre de 2026) y pueden variar.
 Para las fórmulas chinas [TCM-xxx], las hierbas chinas [HRB-xxx] y el modelo energético [MOD-xx]: explica la polaridad (positiva/yang o negativa/yin), el órgano, el elemento, los síntomas y la fórmula clásica cuando el documento los dé, y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados.
+Para las plantas con evidencia científica [EVI-xx]: indica la fuerza de la evidencia por padecimiento, el extracto estudiado y sus precauciones, y aclara que los usos tradicionales no están comprobados.
 Para los sistemas del cuerpo [SIS-xx]: explica en qué consiste el sistema y menciona los productos, fórmulas y hierbas relacionados citando su ID.
 Para la seguridad y las interacciones con medicamentos [SEG-xxx]: indica la gravedad y el nivel de evidencia, nunca digas que una combinación es segura solo porque no hay datos, recomienda siempre consultar al médico o farmacéutico y nunca sugieras suspender o cambiar un medicamento.
 Usa párrafos cortos y listas con guiones. No uses tablas ni encabezados.`,
@@ -699,6 +299,7 @@ If the documents do not contain the answer, say so clearly instead of making som
 These are dietary supplements: do not diagnose or promise to cure diseases, mention the relevant cautions, and recommend consulting a health professional for pregnancy, children, medications or a medical condition.
 Suggested use comes from the official US website; remind the reader that the label in their country takes precedence. Prices are for reference (US store, September 2026) and may vary.
 For Chinese formulas [TCM-xxx], Chinese herbs [HRB-xxx] and the energetic model [MOD-xx]: explain the polarity (positive/yang or negative/yin), the organ, the element, the symptoms and the classical formula when the document provides them, and make clear this is traditional Chinese medicine use, not proven medical treatment.
+For plants with scientific evidence [EVI-xx]: state the strength of the evidence by condition, the extract studied and its cautions, and make clear that traditional uses are unproven.
 For body systems [SIS-xx]: explain what the system does and mention the related products, formulas and herbs, citing their IDs.
 For safety and drug interactions [SEG-xxx]: state the severity and level of evidence, never call a combination safe just because there is no data, always recommend checking with a doctor or pharmacist, and never suggest stopping or changing a medication.
 Use short paragraphs and bulleted lists with hyphens. Do not use tables or headings.`,
@@ -859,6 +460,19 @@ product products take recommend something thing feel feeling hi hello please use
         `${UIl.sis_hierbas}: ${s.hierbas.map(nombreDe).join(", ")}`,
       ].join("\n") });
     }
+    const evi = DATOS.evidencia;
+    if (evi) evi.plantas.forEach((pl, i) => {
+      const id = "EVI-" + String(i + 1).padStart(2, "0");
+      const niv = (l) => tx(evi.niveles[l]);
+      docs.push({ id, titulo: `${tx(pl.nombre)} (${pl.latin})`, tipo: "planta", pl, texto: [
+        `${UIl.evi_doc}: ${tx(pl.nombre)} (${pl.latin}) [ID ${id}]`,
+        `${UIl.evi_origen}: ${tx(pl.origen)} · ${tx(pl.parte)}`,
+        `${UIl.evi_evidencia}: ${pl.evidencia.map((e) => `${tx(evi.padecimientos[e.c])} (${niv(e.l)}): ${tx(e.t)}`).join(" | ")}`,
+        `${UIl.evi_std}: ${tx(pl.estandarizacion)} ${UIl.evi_extractos}: ${pl.extractos}. ${UIl.evi_dosis}: ${tx(pl.dosis)}`,
+        `${UIl.evi_trad}: ${tx(pl.tradicion)}`,
+        `${UIl.precauciones}: ${tx(pl.seguridad)} ${UIl.evi_inter}: ${tx(pl.interacciones)}`,
+      ].join("\n") });
+    });
     const segPorRef = Object.fromEntries(seguridad.filter((g) => g.ref).map((g) => [g.ref, g.id]));
     const porId = Object.fromEntries(docs.map((d) => [d.id, d]));
     const tfs = docs.map((d) => {
@@ -911,7 +525,7 @@ product products take recommend something thing feel feeling hi hello please use
   const turnos = [];
   let sample = null, ctl = null, ocupado = false, sampleListo = false;
   // Servidor propio con Gemini (sitio de Render). Vacío = sin servidor.
-  const API_URL = "__API_URL__".startsWith("__") ? "" : "__API_URL__";
+  const API_URL = (document.querySelector('meta[name="api"]')?.content || "").replace(/\/+$/, "");
   let apiListo = false;
   const notaIA = () => (sample ? T.nota_claude : apiListo ? T.nota_gemini : T.nota_sin_ia);
 
@@ -923,8 +537,10 @@ product products take recommend something thing feel feeling hi hello please use
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", T[el.dataset.i18nAria]); });
     document.querySelectorAll(".idioma button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     $("ai-note").textContent = notaIA();
+    pintarPedido();
     const cats = new Set(W.productos.map((p) => p.categoria));
-    $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length });
+    $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
+      s: W.sistemas.length, e: (DATOS.evidencia?.plantas || []).length, g: W.seguridad.length });
     $("creditos").innerHTML = esc(T.creditos) + " " + Object.values(CREDITOS).map((c) =>
       `<a href="${esc(c.pagina)}" target="_blank" rel="noopener">${esc(c.autor || T.autor_desconocido)}</a> (${esc(c.licencia)})`).join(", ") + ".";
     $("sugerencias").innerHTML = T.sugerencias.map((s) => `<button type="button" class="chip">${esc(s)}</button>`).join("");
@@ -993,7 +609,7 @@ product products take recommend something thing feel feeling hi hello please use
       const toks = normalizar(W.porId[h.id].texto, lang);
       return terms.every((t) => toks.some((x) => x.startsWith(t)));
     });
-    $("grid-hierbas").innerHTML = lista.slice(0, lim.hie).map(tarjetaHierba).join("");
+    $("grid-hierbas").innerHTML = lista.slice(0, lim.hie).map(tarjetaHierba).join("") || `<p class="vacio">${T.sin_hierbas}</p>`;
     botonMas("mas-hie", lista.length, "hie");
     $("cuenta-hierbas").textContent = T.cuenta_hierbas(lista.length, W.tcm.hierbas.length);
   }
@@ -1104,7 +720,7 @@ product products take recommend something thing feel feeling hi hello please use
       const toks = normalizar(W.porId[p.id].texto, lang);
       return terms.every((t) => toks.some((x) => x.startsWith(t)));
     });
-    $("grid").innerHTML = lista.slice(0, lim.cat).map(tarjeta).join("");
+    $("grid").innerHTML = lista.slice(0, lim.cat).map(tarjeta).join("") || `<p class="vacio">${T.sin_productos}</p>`;
     botonMas("mas-cat", lista.length, "cat");
     $("cuenta").textContent = T.cuenta_prod(lista.length, W.productos.length);
   }
@@ -1118,7 +734,7 @@ product products take recommend something thing feel feeling hi hello please use
       const [nombre, nota] = pl[lang] || pl.es;
       return `
     <article class="planta">
-      <img src="img/${pl.img}.jpg" alt="${esc(nombre)} (${esc(pl.latin)})" loading="lazy" width="960" height="720">
+      <img src="img/${pl.img}.webp" alt="${esc(nombre)} (${esc(pl.latin)})" loading="lazy" width="960" height="720">
       <div class="txt">
         <h3>${esc(nombre)}</h3>
         <span class="lat">${esc(pl.latin)}</span>
@@ -1129,29 +745,61 @@ product products take recommend something thing feel feeling hi hello please use
     }).join("");
   }
 
-  // Historial: cada salto a una ficha crea una entrada, así la flecha de regresar vuelve a donde estabas.
-  const origenes = {};
-  function guardarPaso(id, origen) {
-    const n = history.state?.n ?? 0;
-    origenes[n] = origen || null;
-    try {
-      history.replaceState({ ...(history.state || {}), n, y: scrollY }, "");
-      history.pushState({ n: n + 1, ficha: id }, "");
-    } catch {}
+  // ================= Rutas =================
+  // Cada vista tiene su dirección (#/catalogo) y cada ficha la suya (#/catalogo/NSP-001), así se pueden compartir
+  // y la flecha de regresar vuelve a la vista y a la posición anteriores.
+  const VISTAS = ["inicio", "consulta", "catalogo", "sistemas", "evidencia", "mtc", "seguridad", "contacto", "privacidad", "terminos"];
+  const VISTA_DE_TIPO = { producto: "catalogo", formula: "mtc", hierba: "mtc", modelo: "mtc", seguridad: "seguridad", sistema: "sistemas", planta: "evidencia" };
+  const ANTIGUAS = { consulta: "consulta", catalogo: "catalogo", sistemas: "sistemas", tcm: "mtc", seguridad: "seguridad", contacto: "contacto" };
+  let vistaActual = "";
+  function navegar(hash) {
+    try { history.replaceState({ ...(history.state || {}), y: scrollY }, ""); } catch {}
+    if (location.hash === hash) mostrarRuta(); else location.hash = hash;
   }
-  addEventListener("popstate", (e) => {
-    const st = e.state;
-    if (st?.y != null) {
-      const o = origenes[st.n];
-      if (o?.isConnected && o.offsetParent) o.scrollIntoView({ block: "center" });
-      else scrollTo(0, st.y);
-    } else if (st?.ficha) irAFicha(st.ficha, null, true);
-  });
-
-  function irAFicha(id, origen, desdeHistorial) {
+  function irAFicha(id) {
     const d = W.porId[id];
     if (!d || d.tipo === "empresa") return;
-    if (!desdeHistorial) guardarPaso(id, origen);
+    navegar(`#/${VISTA_DE_TIPO[d.tipo]}/${id}`);
+  }
+  function mostrarRuta() {
+    let h = location.hash;
+    let vista = "inicio", id = "";
+    if (h.startsWith("#/")) {
+      const m = h.match(/^#\/([a-z-]*)\/?([A-Za-z0-9-]{0,20})$/);
+      vista = m ? (m[1] || "inicio") : "no-encontrado";
+      id = m ? m[2] : "";
+      if (!VISTAS.includes(vista)) vista = "no-encontrado";
+    } else if (h && h !== "#") {
+      const vieja = ANTIGUAS[h.slice(1)];
+      if (vieja) { history.replaceState(null, "", "#/" + vieja); vista = vieja; h = location.hash; }
+      else if (document.getElementById(h.slice(1))) return;   // ancla interna (p. ej. «Saltar al contenido»)
+      else vista = "no-encontrado";
+    }
+    const cambio = vista !== vistaActual;
+    vistaActual = vista;
+    document.querySelectorAll(".vista").forEach((v) => { v.hidden = v.dataset.vista !== vista; });
+    document.querySelectorAll("[data-ruta]").forEach((a) => {
+      if (a.dataset.ruta === vista) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    cerrarMas();
+    document.title = vista === "inicio" ? T.titulos.inicio : `${T.titulos[vista]} · Herbolario Consultor`;
+    if (vista === "evidencia") pintarEvidencia(false);
+    if (vista !== "evidencia" || !id) cerrarPlanta(true);
+    const d = id && W.porId[id];
+    // Se espera a que la vista se dibuje; si mientras tanto cambió la dirección, no se hace nada.
+    if (d && VISTA_DE_TIPO[d.tipo] === vista) { setTimeout(() => { if (location.hash === h) mostrarFicha(id); }, 0); return; }
+    const y = history.state?.y;
+    setTimeout(() => {
+      if (location.hash !== h) return;
+      scrollTo(0, y != null ? y : 0);
+      if (cambio && y == null) $("principal").focus({ preventScroll: true });
+    });
+  }
+  addEventListener("hashchange", mostrarRuta);
+
+  function mostrarFicha(id) {
+    const d = W.porId[id];
+    if (d.tipo === "planta") { abrirPlanta(id); return; }
     if (!document.getElementById("card-" + id)) {
       if (d.tipo === "sistema") { sistemaActual = id; pintarSistemas(); }
       if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
@@ -1164,11 +812,14 @@ product products take recommend something thing feel feeling hi hello please use
     // Se abre antes de desplazar para que la ficha quede bien colocada; arriba queda espacio para la barra fija.
     const det = el.tagName === "DETAILS" ? el : el.querySelector("details");
     if (det) det.open = true;
-    el.style.scrollMarginTop = document.querySelector(".consultor").offsetHeight + 24 + "px";
+    el.style.scrollMarginTop = $("barra").offsetHeight + 24 + "px";
     el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
     el.classList.add("flash");
     setTimeout(() => el.classList.remove("flash"), 1600);
   }
+
+  // Menú «Más» del teléfono
+  function cerrarMas() { $("mas-menu").hidden = true; $("mas-btn").setAttribute("aria-expanded", "false"); }
 
   // ================= Buscador de nombres (barra superior) =================
   const plano = (s) => String(s ?? "").toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "");
@@ -1181,6 +832,7 @@ product products take recommend something thing feel feeling hi hello please use
       out.push({ id, nombre, otros, tipo, claves: [nombre, ...otros].map(plano) });
     };
     for (const s of W.sistemas) add(s.id, tx(s.nombre), [], mayus(T.tipos.sistema));
+    for (const d of W.docs) if (d.tipo === "planta") add(d.id, tx(d.pl.nombre), [d.pl.latin], mayus(T.tipos.planta));
     for (const p of W.productos) add(p.id, p.nombre_es, [p.nombre], mayus(T.tipos.producto));
     for (const f of W.tcm.formulas) add(f.id, f.nombre, f.nombres_anteriores || [], mayus(T.tipos.formula));
     for (const h of W.tcm.hierbas) add(h.id, h.pinyin || h.nombre_es, [h.nombre_es, h.latin], mayus(T.tipos.hierba));
@@ -1247,8 +899,290 @@ product products take recommend something thing feel feeling hi hello please use
         <span class="score">${h.score.toFixed(2)}</span>
         <span class="t">${esc(h.doc.titulo)}</span>
         <span class="m">${h.doc.id} · ${esc(h.doc.p ? h.doc.p.categoria : T.tipos[h.doc.tipo])}</span>
-        <span class="bar"><i style="width:${Math.max(4, (h.score / max) * 100)}%"></i></span>
+        <span class="bar"><i data-w="${Math.round(Math.max(4, (h.score / max) * 100))}"></i></span>
       </button>`).join("");
+    $("hits").querySelectorAll("i[data-w]").forEach((i) => { i.style.width = i.dataset.w + "%"; });
+  }
+
+  // ================= Evidencia científica (herbario clínico) =================
+  const EV_UI = {
+    es: {
+      buscar: "¿Qué planta o padecimiento buscas?", buscar_ph: "Ej.: ansiedad, cúrcuma, Rhodiola, hígado…", filtros: "Filtros",
+      padecimiento: "Padecimiento", todos: "Todos", minima: "Evidencia mínima", cualquiera: "Cualquiera", limitada: "Limitada o mejor",
+      moderada: "Moderada o mejor", solida: "Solo sólida", region: "Región de origen", ordenar: "Ordenar", por_ev: "Por evidencia", az: "Alfabético",
+      limpiar: "Limpiar filtros", n_plantas: (n, c) => `${n} plantas${c ? " para " + c.toLowerCase() : ""}`,
+      barras: (c) => `Barras = fuerza de la evidencia ${c ? "para este padecimiento" : "en su mejor uso"}`,
+      vacio: "No hay plantas con esos filtros. Prueba bajar la evidencia mínima o quitar regiones.",
+      std: "Estandarización", guardar: "Guardar", quitar: "Quitar de guardadas", guardada: "★ Guardada", guardar_b: "☆ Guardar",
+      elegir: "Elige un padecimiento y compara qué plantas tienen mejor respaldo",
+      orden_ev: "Ordenadas de mayor a menor evidencia científica. Toca una planta para ver el extracto estudiado, la dosis de los ensayos, sus usos tradicionales y las precauciones.",
+      sin_guardadas: "Aún no guardas plantas. Toca la estrella ☆ de cualquier ficha para tenerla aquí y comparar.", ir_plantas: "Ver plantas",
+      guardadas_h: "Plantas guardadas", solo_aqui: "Se guardan solo en este dispositivo.",
+      tabs: { ev: "Evidencia", std: "Estandarización y dosis", trad: "Usos tradicionales", safe: "Seguridad" },
+      nota_ev: "Los resultados corresponden a los extractos estandarizados estudiados, no a cualquier producto con esta planta.",
+      etiqueta: "Qué buscar en la etiqueta", extractos: "Extractos clínicos", parte: "Parte usada", dosis: "Dosis en estudios", origen: "Origen",
+      nota_dosis: "La dosis descrita es la usada en investigación, no una indicación personal. Pregunta a tu médico o farmacéutico cuál es adecuada para ti.",
+      trad_t: "Tradición y experiencias de usuarios",
+      nota_trad: "Estos usos provienen de sistemas médicos tradicionales, folclore y relatos personales. Tienen valor histórico y cultural, pero no demuestran eficacia.",
+      precauciones: "Precauciones", interacciones: "Interacciones con medicamentos",
+      nota_safe: "Consulta con tu médico antes de usarla, sobre todo si tomas medicamentos, estás embarazada o en lactancia, o tienes una enfermedad crónica.",
+      en_nsp: "En el catálogo de Nature's Sunshine", ver_seg: "Ficha de seguridad", cerrar: "Cerrar ficha",
+    },
+    en: {
+      buscar: "Which plant or condition are you looking for?", buscar_ph: "E.g.: anxiety, turmeric, Rhodiola, liver…", filtros: "Filters",
+      padecimiento: "Condition", todos: "All", minima: "Minimum evidence", cualquiera: "Any", limitada: "Limited or better",
+      moderada: "Moderate or better", solida: "Strong only", region: "Region of origin", ordenar: "Sort", por_ev: "By evidence", az: "A to Z",
+      limpiar: "Clear filters", n_plantas: (n, c) => `${n} plants${c ? " for " + c.toLowerCase() : ""}`,
+      barras: (c) => `Bars = strength of the evidence ${c ? "for this condition" : "for its best use"}`,
+      vacio: "No plants match those filters. Try lowering the minimum evidence or removing regions.",
+      std: "Standardization", guardar: "Save", quitar: "Remove from saved", guardada: "★ Saved", guardar_b: "☆ Save",
+      elegir: "Choose a condition and compare which plants have the best support",
+      orden_ev: "Sorted from strongest to weakest scientific evidence. Tap a plant to see the extract studied, the trial dose, its traditional uses and its cautions.",
+      sin_guardadas: "You haven't saved any plants yet. Tap the ☆ star on any record to keep it here and compare.", ir_plantas: "See plants",
+      guardadas_h: "Saved plants", solo_aqui: "They are saved only on this device.",
+      tabs: { ev: "Evidence", std: "Standardization and dose", trad: "Traditional uses", safe: "Safety" },
+      nota_ev: "Results apply to the standardized extracts studied, not to any product containing this plant.",
+      etiqueta: "What to look for on the label", extractos: "Clinical extracts", parte: "Part used", dosis: "Dose in studies", origen: "Origin",
+      nota_dosis: "The dose described is the one used in research, not personal advice. Ask your doctor or pharmacist which dose is right for you.",
+      trad_t: "Tradition and user experiences",
+      nota_trad: "These uses come from traditional medical systems, folklore and personal accounts. They have historical and cultural value, but they don't prove effectiveness.",
+      precauciones: "Cautions", interacciones: "Interactions with medications",
+      nota_safe: "Talk to your doctor before using it, especially if you take medications, are pregnant or breastfeeding, or have a chronic illness.",
+      en_nsp: "In the Nature's Sunshine catalog", ver_seg: "Safety record", cerrar: "Close record",
+    },
+  };
+  const GUIA = {
+    es: `<h2>Cómo reconocer un suplemento botánico de calidad</h2>
+      <p>Dos frascos con el mismo nombre de planta pueden ser productos completamente distintos. El resultado de un estudio solo aplica al extracto que se probó, no a la planta en general.</p>
+      <h3>Qué significa cada nivel de evidencia</h3>
+      <div class="leyenda">
+        <div>__M4__<span>Varios ensayos controlados de buena calidad o revisiones sistemáticas consistentes. Suele figurar en guías clínicas.</span></div>
+        <div>__M3__<span>Ensayos controlados favorables, pero pequeños, de corta duración o con posibles conflictos de interés.</span></div>
+        <div>__M2__<span>Pocos estudios, resultados mixtos o metodología débil. Prometedor, no confirmado.</span></div>
+        <div>__M1__<span>Sin estudios suficientes o con resultados negativos. Se basa sobre todo en la tradición.</span></div>
+      </div>
+      <h3>Lista de verificación antes de comprar</h3>
+      <ol>
+        <li><strong>Estandarización declarada.</strong> La etiqueta debe decir el porcentaje del compuesto activo. Un "extracto 10:1" solo indica concentración, no contenido de activos.</li>
+        <li><strong>Extracto con nombre clínico.</strong> Busca el extracto usado en los estudios para que la dosis y el efecto sean comparables.</li>
+        <li><strong>Parte de la planta correcta.</strong> Raíz, hoja o semilla tienen composiciones distintas.</li>
+        <li><strong>Certificación de terceros.</strong> Sellos como USP Verified o NSF Certified confirman identidad, dosis y ausencia de contaminantes.</li>
+        <li><strong>Análisis de contaminantes.</strong> Metales pesados, pesticidas, microorganismos y adulterantes.</li>
+        <li><strong>Certificado de análisis (COA).</strong> Las marcas serias lo entregan por lote al pedirlo.</li>
+        <li><strong>Evita las "mezclas patentadas" sin cantidades.</strong> Si la etiqueta no dice cuántos miligramos hay de cada ingrediente, no puedes saber si la dosis es efectiva.</li>
+        <li><strong>Desconfía de las promesas de curación.</strong> "Cura", "sin efectos secundarios" o "100% natural, por eso seguro" son señales de alerta.</li>
+      </ol>
+      <h3>Seguridad primero</h3>
+      <p>"Natural" no significa inocuo. La hierba de San Juan reduce la eficacia de anticonceptivos y muchos otros fármacos; la kava y el petasites se han asociado a daño hepático; ginkgo, ajo y cúrcuma aumentan el riesgo de sangrado. Informa siempre a tu médico y farmacéutico de lo que tomas, y suspende los suplementos al menos dos semanas antes de una cirugía salvo indicación contraria.</p>
+      <p>Busca atención médica si notas coloración amarilla de piel u ojos, orina oscura, sangrado inusual, reacciones alérgicas o empeoramiento del ánimo.</p>`,
+    en: `<h2>How to recognize a quality botanical supplement</h2>
+      <p>Two bottles with the same plant name can be completely different products. A study's result applies only to the extract that was tested, not to the plant in general.</p>
+      <h3>What each level of evidence means</h3>
+      <div class="leyenda">
+        <div>__M4__<span>Several good-quality controlled trials or consistent systematic reviews. Often included in clinical guidelines.</span></div>
+        <div>__M3__<span>Favorable controlled trials, but small, short or with possible conflicts of interest.</span></div>
+        <div>__M2__<span>Few studies, mixed results or weak methods. Promising, not confirmed.</span></div>
+        <div>__M1__<span>Not enough studies, or negative results. Based mostly on tradition.</span></div>
+      </div>
+      <h3>Checklist before you buy</h3>
+      <ol>
+        <li><strong>Declared standardization.</strong> The label should state the percentage of the active compound. A "10:1 extract" only tells you the concentration, not the active content.</li>
+        <li><strong>An extract with a clinical name.</strong> Look for the extract used in studies so the dose and effect are comparable.</li>
+        <li><strong>The right part of the plant.</strong> Root, leaf and seed have different compositions.</li>
+        <li><strong>Third-party certification.</strong> Seals such as USP Verified or NSF Certified confirm identity, dose and absence of contaminants.</li>
+        <li><strong>Contaminant testing.</strong> Heavy metals, pesticides, microbes and adulterants.</li>
+        <li><strong>Certificate of analysis (COA).</strong> Serious brands provide one per batch on request.</li>
+        <li><strong>Avoid "proprietary blends" without amounts.</strong> If the label doesn't list the milligrams of each ingredient, you can't know whether the dose works.</li>
+        <li><strong>Be wary of cure claims.</strong> "Cures", "no side effects" or "100% natural, so it's safe" are warning signs.</li>
+      </ol>
+      <h3>Safety first</h3>
+      <p>"Natural" doesn't mean harmless. St. John's wort makes birth control and many other drugs less effective; kava and butterbur have been linked to liver damage; ginkgo, garlic and turmeric raise the risk of bleeding. Always tell your doctor and pharmacist what you take, and stop supplements at least two weeks before surgery unless told otherwise.</p>
+      <p>Seek medical care if you notice yellowing of the skin or eyes, dark urine, unusual bleeding, allergic reactions or a worsening mood.</p>`,
+  };
+  const evi = { tab: "plantas", q: "", cond: "", regiones: new Set(), min: 0, orden: "ev", favs: new Set(), dTab: "ev", actual: "" };
+  try { JSON.parse(localStorage.getItem("herbolario-guardadas") || "[]").forEach((x) => typeof x === "string" && evi.favs.add(x)); } catch {}
+  const EVD = () => DATOS.evidencia || { plantas: [], padecimientos: {}, regiones: {}, niveles: {} };
+  const EU = () => EV_UI[lang];
+  const tl = (o) => (o && (o[lang] ?? o.es)) || "";
+  const maxEv = (p) => Math.max(0, ...p.evidencia.map((e) => e.l));
+  const evPara = (p, c) => p.evidencia.find((e) => e.c === c)?.l || 0;
+  const nomCond = (c) => tl(EVD().padecimientos[c]);
+  const medidor = (l) => `<span class="medidor" data-l="${l}"><span class="barras" aria-hidden="true"><i></i><i></i><i></i><i></i></span>${esc(tl(EVD().niveles[l]) || "—")}</span>`;
+  const docDePlanta = (pl) => "EVI-" + String(EVD().plantas.indexOf(pl) + 1).padStart(2, "0");
+  function guardarFavs() {
+    try { localStorage.setItem("herbolario-guardadas", JSON.stringify([...evi.favs])); } catch {}
+    $("evi-favs").textContent = evi.favs.size;
+  }
+  function plantasFiltradas() {
+    const q = plano(evi.q.trim());
+    const lista = EVD().plantas.filter((p) => {
+      if (q) {
+        const texto = plano([tl(p.nombre), p.latin, tl(p.origen), p.extractos, ...p.evidencia.map((e) => nomCond(e.c))].join(" "));
+        if (!texto.includes(q)) return false;
+      }
+      if (evi.cond && !p.evidencia.some((e) => e.c === evi.cond)) return false;
+      if (evi.regiones.size && !p.regiones.some((r) => evi.regiones.has(r))) return false;
+      return (evi.cond ? evPara(p, evi.cond) : maxEv(p)) >= evi.min;
+    });
+    const nivelDe = (p) => (evi.cond ? evPara(p, evi.cond) : maxEv(p));
+    return lista.sort((a, b) => (evi.orden === "az" ? 0 : nivelDe(b) - nivelDe(a)) || tl(a.nombre).localeCompare(tl(b.nombre), lang));
+  }
+  function tarjetaPlanta(p) {
+    const l = evi.cond ? evPara(p, evi.cond) : maxEv(p), fav = evi.favs.has(p.id), u = EU(), id = docDePlanta(p);
+    const top = [...p.evidencia].sort((a, b) => b.l - a.l).slice(0, 3).map((e) => `<span class="tag">${esc(nomCond(e.c))}</span>`).join("");
+    return `<article class="spec" id="card-${id}">
+      <button type="button" class="fav" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? u.quitar : u.guardar}: ${esc(tl(p.nombre))}">${fav ? "★" : "☆"}</button>
+      <button type="button" class="spec-abrir" data-planta="${id}">
+        <span class="latin">${esc(p.latin)}</span>
+        <span class="comun">${esc(tl(p.nombre))}</span>
+        <span class="origen">${esc(tl(p.origen))} · ${esc(tl(p.parte))}</span>
+        ${medidor(l)}
+        <span class="tags">${top}</span>
+        <span class="stdline"><b>${u.std}:</b> ${esc(tl(p.estandarizacion).split(". ")[0].replace(/\.$/, ""))}.</span>
+      </button>
+    </article>`;
+  }
+  function pintarEvidencia(forzar) {
+    if (!DATOS.evidencia) return;
+    const cuerpo = $("evi-cuerpo");
+    if (!forzar && cuerpo.dataset.tab === evi.tab && cuerpo.dataset.lang === lang) return;
+    cuerpo.dataset.tab = evi.tab; cuerpo.dataset.lang = lang;
+    $("evi-tabs").querySelectorAll("[data-evi]").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.evi === evi.tab)));
+    $("evi-favs").textContent = evi.favs.size;
+    const u = EU(), D = EVD();
+    if (evi.tab === "plantas") {
+      const conds = Object.keys(D.padecimientos).filter((c) => D.plantas.some((p) => p.evidencia.some((e) => e.c === c)))
+        .sort((a, b) => nomCond(a).localeCompare(nomCond(b), lang));
+      const rapidos = ["estres", "sueno", "animo", "articular", "memoria", "digestion", "glucosa", "presion", "inmune"].filter((c) => D.padecimientos[c]);
+      cuerpo.innerHTML = `
+        <div class="finder">
+          <label class="q" for="evi-q">${u.buscar}</label>
+          <input id="evi-q" type="search" maxlength="80" autocomplete="off" placeholder="${esc(u.buscar_ph)}" value="${esc(evi.q)}">
+          <div class="chips" id="evi-rapidos" role="group" aria-label="${esc(u.padecimiento)}">${rapidos.map((c) => `<button type="button" class="chip" data-cond="${c}" aria-pressed="${evi.cond === c}">${esc(nomCond(c))}</button>`).join("")}</div>
+        </div>
+        <div class="evi-layout">
+          <details class="evi-filtros" id="evi-filtros">
+            <summary>${u.filtros}</summary>
+            <label>${u.padecimiento}<select id="evi-cond"><option value="">${u.todos}</option>${conds.map((c) => `<option value="${c}"${evi.cond === c ? " selected" : ""}>${esc(nomCond(c))}</option>`).join("")}</select></label>
+            <label>${u.minima}<select id="evi-min">${[[0, u.cualquiera], [2, u.limitada], [3, u.moderada], [4, u.solida]].map(([v, t]) => `<option value="${v}"${evi.min === v ? " selected" : ""}>${t}</option>`).join("")}</select></label>
+            <fieldset><legend>${u.region}</legend>${Object.keys(D.regiones).map((r) => `<label class="check"><input type="checkbox" data-reg="${r}"${evi.regiones.has(r) ? " checked" : ""}> ${esc(tl(D.regiones[r]))}</label>`).join("")}</fieldset>
+            <label>${u.ordenar}<select id="evi-orden"><option value="ev"${evi.orden === "ev" ? " selected" : ""}>${u.por_ev}</option><option value="az"${evi.orden === "az" ? " selected" : ""}>${u.az}</option></select></label>
+            <button type="button" class="linkbtn" id="evi-limpiar">${u.limpiar}</button>
+          </details>
+          <div><div class="resultbar" id="evi-barra"></div><div class="grid" id="evi-grid"></div></div>
+        </div>`;
+      if (matchMedia("(min-width: 861px)").matches) $("evi-filtros").open = true;
+      pintarPlantasRes();
+    } else if (evi.tab === "padecimiento") {
+      const conds = Object.keys(D.padecimientos).map((c) => ({ c, n: D.plantas.filter((p) => p.evidencia.some((e) => e.c === c)).length }))
+        .filter((x) => x.n).sort((a, b) => nomCond(a.c).localeCompare(nomCond(b.c), lang));
+      const cur = evi.cond && conds.some((x) => x.c === evi.cond) ? evi.cond : "estres";
+      const filas = D.plantas.filter((p) => p.evidencia.some((e) => e.c === cur)).map((p) => ({ p, e: p.evidencia.find((e) => e.c === cur) })).sort((a, b) => b.e.l - a.e.l);
+      cuerpo.innerHTML = `
+        <div class="finder"><p class="q">${u.elegir}</p>
+          <div class="chips" id="evi-conds">${conds.map(({ c, n }) => `<button type="button" class="chip" data-cond="${c}" aria-pressed="${cur === c}">${esc(nomCond(c))} (${n})</button>`).join("")}</div></div>
+        <h2 class="condhead">${esc(nomCond(cur))}</h2>
+        <p class="condsub">${u.orden_ev}</p>
+        <div class="rank">${filas.map(({ p, e }) => `
+          <button type="button" class="rank-row" data-planta="${docDePlanta(p)}">
+            <span class="nm"><em>${esc(p.latin)}</em><small>${esc(tl(p.nombre))} · ${esc(p.extractos.split(",")[0])}</small></span>
+            ${medidor(e.l)}
+            <span class="nt">${esc(tl(e.t))}</span>
+          </button>`).join("")}</div>`;
+    } else if (evi.tab === "calidad") {
+      cuerpo.innerHTML = `<div class="guia">${GUIA[lang].replace(/__M(\d)__/g, (m, l) => medidor(+l))}</div>`;
+    } else {
+      const lista = D.plantas.filter((p) => evi.favs.has(p.id));
+      cuerpo.innerHTML = lista.length
+        ? `<h2 class="condhead">${u.guardadas_h}</h2><p class="condsub">${u.solo_aqui}</p><div class="grid">${lista.map(tarjetaPlanta).join("")}</div>`
+        : `<div class="vacio grande">${u.sin_guardadas}<br><br><button type="button" class="btn" data-evi-ir="plantas">${u.ir_plantas}</button></div>`;
+    }
+  }
+  function pintarPlantasRes() {
+    const u = EU(), lista = plantasFiltradas();
+    $("evi-barra").innerHTML = `<span>${esc(u.n_plantas(lista.length, evi.cond ? nomCond(evi.cond) : ""))}</span><span>${esc(u.barras(evi.cond))}</span>`;
+    $("evi-grid").innerHTML = lista.length ? lista.map(tarjetaPlanta).join("")
+      : `<div class="vacio grande">${u.vacio}<br><br><button type="button" class="linkbtn" id="evi-limpiar2">${u.limpiar}</button></div>`;
+    $("evi-rapidos")?.querySelectorAll("[data-cond]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.cond === evi.cond)));
+    if ($("evi-cond")) $("evi-cond").value = evi.cond;
+  }
+  function limpiarEvi() {
+    evi.q = ""; evi.cond = ""; evi.regiones.clear(); evi.min = 0;
+    pintarEvidencia(true);
+  }
+  function abrirPlanta(id) {
+    const d = W.porId[id];
+    if (!d || d.tipo !== "planta") return;
+    evi.actual = id; evi.dTab = evi.dTab || "ev";
+    pintarPlanta();
+    const dlg = $("evi-ficha");
+    if (!dlg.open) { dlg.showModal(); dlg.querySelector(".cerrar").focus(); }
+  }
+  // Cierra la ficha. Sin «silencio» (✕, Escape o clic fuera), la dirección vuelve a #/evidencia sin añadir otra entrada al historial.
+  function cerrarPlanta(silencio) {
+    const dlg = $("evi-ficha");
+    if (!dlg.open) return;
+    dlg.close();
+    evi.dTab = "ev";
+    if (!silencio && /^#\/evidencia\/EVI-/.test(location.hash)) history.replaceState(history.state, "", "#/evidencia");
+    document.getElementById("card-" + evi.actual)?.querySelector(".spec-abrir")?.focus({ preventScroll: true });
+  }
+  function pintarPlanta() {
+    const d = W.porId[evi.actual];
+    if (!d) return;
+    const p = d.pl, u = EU(), fav = evi.favs.has(p.id), D = EVD();
+    let cuerpo;
+    if (evi.dTab === "ev") {
+      cuerpo = `<table class="evtable"><tbody>${[...p.evidencia].sort((a, b) => b.l - a.l).map((e) => `<tr><td>${esc(nomCond(e.c))}</td><td>${medidor(e.l)}</td><td>${esc(tl(e.t))}</td></tr>`).join("")}</tbody></table>
+        <p class="note">${u.nota_ev}</p>`;
+    } else if (evi.dTab === "std") {
+      cuerpo = `<div class="caja std"><strong>${u.etiqueta}</strong>${esc(tl(p.estandarizacion))}</div>
+        <dl class="dl"><dt>${u.extractos}</dt><dd>${esc(p.extractos)}</dd><dt>${u.parte}</dt><dd>${esc(tl(p.parte))}</dd>
+        <dt>${u.dosis}</dt><dd>${esc(tl(p.dosis))}</dd><dt>${u.origen}</dt><dd>${esc(tl(p.origen))} (${esc(p.regiones.map((r) => tl(D.regiones[r])).join(", "))})</dd></dl>
+        <p class="note">${u.nota_dosis}</p>`;
+    } else if (evi.dTab === "trad") {
+      cuerpo = `<div class="caja anec"><strong>${u.trad_t}</strong>${esc(tl(p.tradicion))}</div><p class="note">${u.nota_trad}</p>`;
+    } else {
+      cuerpo = `<div class="caja warn"><strong>${u.precauciones}</strong>${esc(tl(p.seguridad))}</div>
+        <div class="caja warn"><strong>${u.interacciones}</strong>${esc(tl(p.interacciones))}</div><p class="note">${u.nota_safe}</p>`;
+    }
+    const enlaces = [...(p.nsp || []), ...(p.seg || [])].filter((x) => W.porId[x]);
+    $("evi-ficha").innerHTML = `
+      <button type="button" class="cerrar" aria-label="${u.cerrar}">✕</button>
+      <p class="d-latin" id="evi-titulo">${esc(p.latin)}</p>
+      <p class="d-comun">${esc(tl(p.nombre))}</p>
+      <p class="d-origen">${esc(tl(p.origen))} · ${esc(tl(p.parte))}</p>
+      <button type="button" class="chip" id="evi-dfav" aria-pressed="${fav}">${fav ? u.guardada : u.guardar_b}</button>
+      ${enlaces.length ? `<div class="evi-nsp"><b class="label">${u.en_nsp}</b><div class="herbs">${enlaces.map((x) => `<button type="button" class="herb-chip" data-id="${x}">${esc(W.porId[x].tipo === "seguridad" ? u.ver_seg : W.porId[x].titulo)}</button>`).join("")}</div></div>` : ""}
+      <div class="d-tabs" role="tablist">${Object.entries(u.tabs).map(([k, v]) => `<button type="button" role="tab" data-dt="${k}" aria-selected="${evi.dTab === k}">${v}</button>`).join("")}</div>
+      <div class="d-panel" role="tabpanel">${cuerpo}</div>`;
+  }
+
+  // ================= Formulario de WhatsApp =================
+  function pintarPedido() {
+    const sel = $("p-tema"), previo = sel.value;
+    sel.innerHTML = `<option value="">${esc(T.tema_elige)}</option>` + T.temas.map((t, i) => `<option value="${i}">${esc(t)}</option>`).join("");
+    sel.value = previo;
+  }
+  const limpio = (v) => String(v).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "").replace(/[ \t]+/g, " ").trim();
+  function validarPedido() {
+    const nombre = limpio($("p-nombre").value), tema = $("p-tema").value, mensaje = limpio($("p-mensaje").value);
+    const errores = {
+      nombre: /^[\p{L}][\p{L}\p{M} .'-]{1,59}$/u.test(nombre) ? "" : T.err_nombre,
+      tema: T.temas[+tema] && tema !== "" ? "" : T.err_tema,
+      mensaje: mensaje.length >= 10 && mensaje.length <= 500 ? "" : T.err_mensaje,
+      acepto: $("p-acepto").checked ? "" : T.err_acepto,
+    };
+    let primero = null;
+    for (const [k, v] of Object.entries(errores)) {
+      const campo = $("p-" + k);
+      $("p-" + k + "-error").textContent = v;
+      campo.setAttribute("aria-invalid", String(!!v));
+      if (v) campo.setAttribute("aria-describedby", "p-" + k + "-error"); else campo.removeAttribute("aria-describedby");
+      if (v && !primero) primero = campo;
+    }
+    if (primero) { primero.focus(); return null; }
+    return { nombre, tema: T.temas[+tema], mensaje };
   }
 
   // ================= Chat =================
@@ -1267,7 +1201,7 @@ product products take recommend something thing feel feeling hi hello please use
   function inline(s) {
     return s
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG|SIS)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
+      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG|SIS|EVI)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
       .replace(/(https:\/\/www\.naturessunshine\.com\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
   }
   function addMsg(rol, html) {
@@ -1350,13 +1284,13 @@ product products take recommend something thing feel feeling hi hello please use
     filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; $("f-seg").value = ""; Object.assign(lim, LIM0);
     pintarEstaticos();
     prepararCategorias(); pintarCatalogo();
-    if (W.tcm.formulas.length) { $("tcm").hidden = false; prepararFiltrosTcm(); pintarModelo(); pintarTcm(); pintarHierbas(); }
-    else $("tcm").hidden = true;
-    if (W.seguridad.length) { $("seguridad").hidden = false; prepararFiltrosSeg(); pintarSeguridad(); }
-    else $("seguridad").hidden = true;
-    if (W.sistemas.length) { $("sistemas").hidden = false; pintarSistemas(); }
-    else $("sistemas").hidden = true;
+    if (W.tcm.formulas.length) { prepararFiltrosTcm(); pintarModelo(); pintarTcm(); pintarHierbas(); }
+    if (W.seguridad.length) { prepararFiltrosSeg(); pintarSeguridad(); }
+    if (W.sistemas.length) pintarSistemas();
     pintarGaleria();
+    if (vistaActual === "evidencia") pintarEvidencia(true);
+    if ($("evi-ficha").open) pintarPlanta();
+    if (vistaActual) document.title = vistaActual === "inicio" ? T.titulos.inicio : `${T.titulos[vistaActual]} · Herbolario Consultor`;
     // La conversación empieza de nuevo en el idioma elegido.
     turnos.length = 0;
     $("chat").innerHTML = "";
@@ -1392,7 +1326,7 @@ product products take recommend something thing feel feeling hi hello please use
   $("f-seg").addEventListener("input", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
   $("f-clase").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
   $("f-sev").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
-  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
+  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
   $("f-pol").addEventListener("click", (e) => {
     const b = e.target.closest(".chip"); if (!b) return;
     filtroPol = b.dataset.v; lim.tcm = LIM0.tcm;
@@ -1401,16 +1335,16 @@ product products take recommend something thing feel feeling hi hello please use
   });
   $("f-organo").addEventListener("change", () => { lim.tcm = LIM0.tcm; pintarTcm(); });
   $("f-hierba").addEventListener("input", () => { lim.hie = LIM0.hie; pintarHierbas(); });
-  $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
+  $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
   $("sis-tabs").addEventListener("click", (e) => {
     const b = e.target.closest(".chip"); if (!b || b.dataset.id === sistemaActual) return;
     sistemaActual = b.dataset.id; pintarSistemas();
   });
-  $("sis-ficha").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
-  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id, b); });
-  $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id, b); });
-  $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id, b); });
-  $("ask").addEventListener("submit", (e) => { e.preventDefault(); const q = $("q").value; $("q").value = ""; preguntar(q); });
+  $("sis-ficha").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id); });
+  $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id); });
+  $("ask").addEventListener("submit", (e) => { e.preventDefault(); const q = limpio($("q").value).slice(0, 600); $("q").value = ""; preguntar(q); });
   $("stop").addEventListener("click", () => ctl?.abort());
   $("sugerencias").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) preguntar(b.textContent); });
   document.addEventListener("click", async (e) => {
@@ -1428,7 +1362,120 @@ product products take recommend something thing feel feeling hi hello please use
     setTimeout(() => { b.textContent = T.copiar; }, 1600);
   });
 
+  // Evidencia
+  $("evi-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-evi]"); if (!b) return;
+    evi.tab = b.dataset.evi; pintarEvidencia(true);
+  });
+  $("evi-tabs").addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+    const tabs = [...$("evi-tabs").querySelectorAll("[data-evi]")], i = tabs.indexOf(document.activeElement);
+    if (i < 0) return;
+    const sig = tabs[(i + (e.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length];
+    sig.focus(); sig.click();
+  });
+  $("evi-cuerpo").addEventListener("input", (e) => {
+    if (e.target.id === "evi-q") { evi.q = e.target.value.slice(0, 80); pintarPlantasRes(); }
+  });
+  $("evi-cuerpo").addEventListener("change", (e) => {
+    const t = e.target;
+    if (t.id === "evi-cond") { evi.cond = t.value; pintarPlantasRes(); }
+    else if (t.id === "evi-min") { evi.min = +t.value || 0; pintarPlantasRes(); }
+    else if (t.id === "evi-orden") { evi.orden = t.value === "az" ? "az" : "ev"; pintarPlantasRes(); }
+    else if (t.dataset.reg) { if (t.checked) evi.regiones.add(t.dataset.reg); else evi.regiones.delete(t.dataset.reg); pintarPlantasRes(); }
+  });
+  $("evi-cuerpo").addEventListener("click", (e) => {
+    const fav = e.target.closest("[data-fav]");
+    if (fav) {
+      const id = fav.dataset.fav;
+      if (evi.favs.has(id)) evi.favs.delete(id); else evi.favs.add(id);
+      guardarFavs();
+      if (evi.tab === "guardadas") pintarEvidencia(true); else pintarPlantasRes();
+      return;
+    }
+    const abrir = e.target.closest("[data-planta]");
+    if (abrir) { navegar("#/evidencia/" + abrir.dataset.planta); return; }
+    const c = e.target.closest("[data-cond]");
+    if (c) {
+      if (evi.tab === "padecimiento") { evi.cond = c.dataset.cond; pintarEvidencia(true); }
+      else { evi.cond = evi.cond === c.dataset.cond ? "" : c.dataset.cond; pintarPlantasRes(); }
+      return;
+    }
+    if (e.target.closest("#evi-limpiar, #evi-limpiar2")) { limpiarEvi(); return; }
+    const ir = e.target.closest("[data-evi-ir]");
+    if (ir) { evi.tab = ir.dataset.eviIr; pintarEvidencia(true); }
+  });
+  $("evi-ficha").addEventListener("click", (e) => {
+    const dlg = $("evi-ficha");
+    const r = dlg.getBoundingClientRect();
+    const fuera = e.target === dlg && (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom);
+    if (fuera || e.target.closest(".cerrar")) { cerrarPlanta(false); return; }   // clic en el fondo oscuro o en ✕
+    const t = e.target.closest("[data-dt]");
+    if (t) { evi.dTab = t.dataset.dt; pintarPlanta(); dlg.querySelector(`[data-dt="${evi.dTab}"]`).focus(); return; }
+    if (e.target.closest("#evi-dfav")) {
+      const id = W.porId[evi.actual].pl.id;
+      if (evi.favs.has(id)) evi.favs.delete(id); else evi.favs.add(id);
+      guardarFavs(); pintarPlanta(); pintarEvidencia(true);
+      dlg.querySelector("#evi-dfav").focus();
+      return;
+    }
+    const ch = e.target.closest(".herb-chip");
+    if (ch) { cerrarPlanta(true); irAFicha(ch.dataset.id); }
+  });
+  // Escape: el navegador cerraría el diálogo por su cuenta; se cierra con cerrarPlanta para actualizar la dirección.
+  $("evi-ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarPlanta(false); });
+  $("evi-ficha").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.preventDefault(); cerrarPlanta(false); } });
+
+  // Formulario de WhatsApp
+  $("p-mensaje").addEventListener("input", () => { $("p-contador").textContent = `${$("p-mensaje").value.length}/500`; });
+  $("pedido").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const datos = validarPedido();
+    if (!datos) return;
+    const boton = $("pedido").querySelector("button[type=submit]");
+    boton.disabled = true; setTimeout(() => { boton.disabled = false; }, 5000);   // evita envíos repetidos
+    window.open(WA + "?text=" + encodeURIComponent(T.wa_mensaje(datos.nombre, datos.tema, datos.mensaje)), "_blank", "noopener");
+  });
+
+  // Menú «Más», tema y enlace «Saltar al contenido»
+  $("mas-btn").addEventListener("click", () => {
+    const abrir = $("mas-menu").hidden;
+    $("mas-menu").hidden = !abrir; $("mas-btn").setAttribute("aria-expanded", String(abrir));
+    if (abrir) $("mas-menu").querySelector("a").focus();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("mas-menu").hidden) { cerrarMas(); $("mas-btn").focus(); } });
+  document.addEventListener("click", (e) => { if (!$("mas-menu").hidden && !e.target.closest("#mas-menu, #mas-btn")) cerrarMas(); });
+  document.querySelector(".saltar").addEventListener("click", (e) => { e.preventDefault(); $("principal").focus(); });
+  try { const t = localStorage.getItem("herbolario-tema"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+  $("tema").addEventListener("click", () => {
+    const r = document.documentElement;
+    const oscuro = r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    r.dataset.theme = oscuro ? "light" : "dark";
+    try { localStorage.setItem("herbolario-tema", r.dataset.theme); } catch {}
+  });
+  $("anio").textContent = new Date().getFullYear();
+
+  // Errores inesperados: un aviso sencillo, sin detalles técnicos para el usuario.
+  function aviso(texto) {
+    let t = document.querySelector(".aviso-flotante");
+    if (!t) { t = document.createElement("div"); t.className = "aviso-flotante"; t.setAttribute("role", "alert"); document.body.append(t); }
+    t.textContent = texto; t.hidden = false;
+    clearTimeout(aviso.t); aviso.t = setTimeout(() => { t.hidden = true; }, 6000);
+  }
+  addEventListener("error", (e) => { console.error(e.error || e.message); aviso(T.error_general); });
+  addEventListener("unhandledrejection", (e) => { console.error(e.reason); aviso(T.error_general); });
+  addEventListener("offline", () => aviso(T.sin_conexion));
+
   aplicarIdioma(lang, true);
+  $("estado-carga").hidden = true;
+  $("principal").hidden = false;
+  mostrarRuta();
+
+  // Modo sin conexión: solo en el sitio publicado (no dentro de claude.ai).
+  const SW = document.querySelector('meta[name="sw"]')?.content;
+  if (SW && "serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    navigator.serviceWorker.register(SW).catch(() => {});
+  }
 
   window.claude?.use?.("sample").then((s) => {
     sample = s;
@@ -1443,4 +1490,3 @@ product products take recommend something thing feel feeling hi hello please use
     }).catch(() => {});
   }
 })();
-</script>

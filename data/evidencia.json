@@ -1,0 +1,2483 @@
+{
+ "niveles": {
+  "1": {
+   "es": "Insuficiente",
+   "en": "Insufficient"
+  },
+  "2": {
+   "es": "Limitada",
+   "en": "Limited"
+  },
+  "3": {
+   "es": "Moderada",
+   "en": "Moderate"
+  },
+  "4": {
+   "es": "Sólida",
+   "en": "Strong"
+  }
+ },
+ "regiones": {
+  "as": {
+   "es": "Asia",
+   "en": "Asia"
+  },
+  "eu": {
+   "es": "Europa",
+   "en": "Europe"
+  },
+  "na": {
+   "es": "Norteamérica",
+   "en": "North America"
+  },
+  "sa": {
+   "es": "Sudamérica y Caribe",
+   "en": "South America and the Caribbean"
+  },
+  "af": {
+   "es": "África",
+   "en": "Africa"
+  },
+  "me": {
+   "es": "Medio Oriente",
+   "en": "Middle East"
+  },
+  "oc": {
+   "es": "Oceanía",
+   "en": "Oceania"
+  }
+ },
+ "padecimientos": {
+  "estres": {
+   "es": "Estrés y ansiedad",
+   "en": "Stress and anxiety"
+  },
+  "sueno": {
+   "es": "Sueño e insomnio",
+   "en": "Sleep and insomnia"
+  },
+  "animo": {
+   "es": "Ánimo y depresión leve",
+   "en": "Mood and mild depression"
+  },
+  "memoria": {
+   "es": "Memoria y cognición",
+   "en": "Memory and cognition"
+  },
+  "fatiga": {
+   "es": "Energía y fatiga",
+   "en": "Energy and fatigue"
+  },
+  "articular": {
+   "es": "Articulaciones y dolor",
+   "en": "Joints and pain"
+  },
+  "digestion": {
+   "es": "Digestión y colon irritable",
+   "en": "Digestion and irritable bowel"
+  },
+  "nausea": {
+   "es": "Náuseas",
+   "en": "Nausea"
+  },
+  "estren": {
+   "es": "Estreñimiento",
+   "en": "Constipation"
+  },
+  "higado": {
+   "es": "Hígado",
+   "en": "Liver"
+  },
+  "glucosa": {
+   "es": "Glucosa y metabolismo",
+   "en": "Blood sugar and metabolism"
+  },
+  "colesterol": {
+   "es": "Colesterol",
+   "en": "Cholesterol"
+  },
+  "presion": {
+   "es": "Presión arterial",
+   "en": "Blood pressure"
+  },
+  "venas": {
+   "es": "Circulación venosa",
+   "en": "Venous circulation"
+  },
+  "inmune": {
+   "es": "Resfriado e inmunidad",
+   "en": "Colds and immunity"
+  },
+  "respir": {
+   "es": "Bronquitis y vías respiratorias",
+   "en": "Bronchitis and airways"
+  },
+  "urinaria": {
+   "es": "Vías urinarias",
+   "en": "Urinary tract"
+  },
+  "prostata": {
+   "es": "Próstata",
+   "en": "Prostate"
+  },
+  "menopausia": {
+   "es": "Menopausia",
+   "en": "Menopause"
+  },
+  "libido": {
+   "es": "Libido y salud sexual",
+   "en": "Libido and sexual health"
+  },
+  "migrana": {
+   "es": "Migraña",
+   "en": "Migraine"
+  },
+  "deporte": {
+   "es": "Rendimiento físico",
+   "en": "Athletic performance"
+  },
+  "piel": {
+   "es": "Piel",
+   "en": "Skin"
+  }
+ },
+ "plantas": [
+  {
+   "id": "ashwagandha",
+   "latin": "Withania somnifera",
+   "nombre": {
+    "es": "Ashwagandha",
+    "en": "Ashwagandha"
+   },
+   "origen": {
+    "es": "India, Nepal y Medio Oriente",
+    "en": "India, Nepal, and the Middle East"
+   },
+   "regiones": [
+    "as",
+    "me"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "Withanólidos estandarizados. Extractos de raíz: 5% (KSM-66) a 10% (Sensoril, raíz y hoja).",
+    "en": "Standardized withanolides. Root extracts: 5% (KSM-66) to 10% (Sensoril, root and leaf)."
+   },
+   "extractos": "KSM-66®, Sensoril®, Shoden®",
+   "dosis": {
+    "es": "300–600 mg/día de extracto de raíz estandarizado, por 6–12 semanas en los estudios.",
+    "en": "300–600 mg/day of standardized root extract, for 6–12 weeks in studies."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 3,
+     "t": {
+      "es": "Varios ensayos controlados muestran reducción de estrés percibido y cortisol; estudios pequeños y a menudo financiados por fabricantes.",
+      "en": "Several controlled trials show reductions in perceived stress and cortisol; studies are small and often funded by manufacturers."
+     }
+    },
+    {
+     "c": "sueno",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis (2021) indica mejora modesta en calidad del sueño, mayor con ≥600 mg y ≥8 semanas.",
+      "en": "A meta-analysis (2021) points to a modest improvement in sleep quality, greater with ≥600 mg and ≥8 weeks."
+     }
+    },
+    {
+     "c": "deporte",
+     "l": 2,
+     "t": {
+      "es": "Mejoras pequeñas en fuerza y VO₂máx en ensayos pequeños.",
+      "en": "Small improvements in strength and VO₂max in small trials."
+     }
+    },
+    {
+     "c": "libido",
+     "l": 2,
+     "t": {
+      "es": "Algunos estudios en hombres muestran mejora de parámetros seminales y testosterona; evidencia preliminar.",
+      "en": "Some studies in men show improved semen parameters and testosterone; preliminary evidence."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En Ayurveda es un 'rasayana' (rejuvenecedor) usado por más de 3,000 años para vitalidad, fuerza y longevidad. Su nombre sánscrito alude a 'olor y fuerza de caballo'. Anecdóticamente se reporta calma sin somnolencia diurna y 'sueños vívidos'.",
+    "en": "In Ayurveda it is a 'rasayana' (rejuvenator) used for more than 3,000 years for vitality, strength, and longevity. Its Sanskrit name refers to the 'smell and strength of a horse.' Anecdotally, people report calm without daytime drowsiness and 'vivid dreams.'"
+   },
+   "seguridad": {
+    "es": "Generalmente bien tolerada a corto plazo. Se han reportado casos raros de daño hepático. Evitar en embarazo, hipertiroidismo y enfermedades autoinmunes sin supervisión.",
+    "en": "Generally well tolerated in the short term. Rare cases of liver injury have been reported. Avoid during pregnancy and with hyperthyroidism or autoimmune diseases unless supervised."
+   },
+   "interacciones": {
+    "es": "Hormonas tiroideas (puede elevar T4), sedantes y benzodiacepinas, inmunosupresores, antidiabéticos y antihipertensivos.",
+    "en": "Thyroid hormones (may raise T4), sedatives and benzodiazepines, immunosuppressants, diabetes medications, and blood pressure medications."
+   },
+   "nsp": [
+    "NSP-038"
+   ],
+   "seg": [
+    "SEG-006"
+   ]
+  },
+  {
+   "id": "rhodiola",
+   "latin": "Rhodiola rosea",
+   "nombre": {
+    "es": "Rodiola",
+    "en": "Rhodiola"
+   },
+   "origen": {
+    "es": "Regiones árticas: Siberia, Escandinavia, Alpes",
+    "en": "Arctic regions: Siberia, Scandinavia, the Alps"
+   },
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "3% rosavinas y 1% salidrósido (proporción natural de la raíz).",
+    "en": "3% rosavins and 1% salidroside (the root's natural ratio)."
+   },
+   "extractos": "SHR-5, WS® 1375 (Rhodiolan)",
+   "dosis": {
+    "es": "200–600 mg/día de extracto estandarizado, por la mañana.",
+    "en": "200–600 mg/day of standardized extract, in the morning."
+   },
+   "evidencia": [
+    {
+     "c": "fatiga",
+     "l": 3,
+     "t": {
+      "es": "Ensayos con WS 1375 y SHR-5 muestran reducción de fatiga asociada a estrés y burnout.",
+      "en": "Trials with WS 1375 and SHR-5 show reduced fatigue linked to stress and burnout."
+     }
+    },
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Beneficio probable en síntomas de estrés, con estudios de calidad variable.",
+      "en": "Likely benefit for stress symptoms, with studies of variable quality."
+     }
+    },
+    {
+     "c": "animo",
+     "l": 2,
+     "t": {
+      "es": "Un ensayo comparó favorablemente su tolerabilidad frente a sertralina, con eficacia menor.",
+      "en": "One trial found it better tolerated than sertraline, though less effective."
+     }
+    },
+    {
+     "c": "deporte",
+     "l": 2,
+     "t": {
+      "es": "Resultados mixtos en resistencia física.",
+      "en": "Mixed results for physical endurance."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los vikingos y pueblos siberianos la usaban para resistencia en climas extremos; en Siberia se regalaba a los recién casados para la fertilidad. Soldados soviéticos y cosmonautas la usaron como 'adaptógeno'.",
+    "en": "Vikings and Siberian peoples used it for endurance in extreme climates; in Siberia it was given to newlyweds for fertility. Soviet soldiers and cosmonauts used it as an 'adaptogen.'"
+   },
+   "seguridad": {
+    "es": "Bien tolerada; puede causar insomnio o irritabilidad si se toma tarde. Precaución en trastorno bipolar.",
+    "en": "Well tolerated; may cause insomnia or irritability if taken late in the day. Use caution with bipolar disorder."
+   },
+   "interacciones": {
+    "es": "Antidepresivos, estimulantes, antidiabéticos.",
+    "en": "Antidepressants, stimulants, diabetes medications."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-040"
+   ]
+  },
+  {
+   "id": "curcuma",
+   "latin": "Curcuma longa",
+   "nombre": {
+    "es": "Cúrcuma",
+    "en": "Turmeric"
+   },
+   "origen": {
+    "es": "India y Sudeste Asiático",
+    "en": "India and Southeast Asia"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Rizoma",
+    "en": "Rhizome"
+   },
+   "estandarizacion": {
+    "es": "95% curcuminoides. La curcumina se absorbe mal; buscar formas con biodisponibilidad demostrada.",
+    "en": "95% curcuminoids. Curcumin is poorly absorbed; look for forms with proven bioavailability."
+   },
+   "extractos": "Meriva® (fitosoma), BCM-95®, Theracurmin®, Longvida®",
+   "dosis": {
+    "es": "500–1,500 mg/día de curcuminoides; dosis menores en formas de alta biodisponibilidad.",
+    "en": "500–1,500 mg/day of curcuminoids; lower doses in high-bioavailability forms."
+   },
+   "evidencia": [
+    {
+     "c": "articular",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis en artrosis de rodilla: alivio del dolor comparable a AINEs en algunos ensayos, con mejor tolerancia gástrica.",
+      "en": "Meta-analysis in knee osteoarthritis: pain relief comparable to NSAIDs in some trials, with better stomach tolerance."
+     }
+    },
+    {
+     "c": "digestion",
+     "l": 2,
+     "t": {
+      "es": "Evidencia preliminar en dispepsia y colitis ulcerosa como complemento.",
+      "en": "Preliminary evidence in dyspepsia and as an add-on for ulcerative colitis."
+     }
+    },
+    {
+     "c": "animo",
+     "l": 2,
+     "t": {
+      "es": "Pequeños ensayos como complemento en depresión.",
+      "en": "Small trials as an add-on in depression."
+     }
+    },
+    {
+     "c": "glucosa",
+     "l": 2,
+     "t": {
+      "es": "Efectos modestos y heterogéneos en marcadores metabólicos.",
+      "en": "Modest and inconsistent effects on metabolic markers."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Pilar de la medicina ayurvédica y siddha para inflamación, heridas y digestión; se aplica en pasta sobre la piel y se bebe como 'leche dorada'. En bodas hindúes se usa en el ritual 'haldi' para la piel.",
+    "en": "A mainstay of Ayurvedic and Siddha medicine for inflammation, wounds, and digestion; it is applied to the skin as a paste and drunk as 'golden milk.' At Hindu weddings it is used in the 'haldi' ritual for the skin."
+   },
+   "seguridad": {
+    "es": "Se han reportado casos de daño hepático, sobre todo con formulaciones de alta absorción o con piperina. Evitar con cálculos biliares.",
+    "en": "Cases of liver injury have been reported, especially with high-absorption formulations or those with piperine. Avoid with gallstones."
+   },
+   "interacciones": {
+    "es": "Anticoagulantes y antiagregantes (warfarina, clopidogrel), antidiabéticos. La piperina altera el metabolismo de muchos fármacos.",
+    "en": "Anticoagulants and antiplatelet drugs (warfarin, clopidogrel), diabetes medications. Piperine alters the metabolism of many drugs."
+   },
+   "nsp": [
+    "NSP-062"
+   ],
+   "seg": [
+    "SEG-012"
+   ]
+  },
+  {
+   "id": "ginkgo",
+   "latin": "Ginkgo biloba",
+   "nombre": {
+    "es": "Ginkgo",
+    "en": "Ginkgo"
+   },
+   "origen": {
+    "es": "China",
+    "en": "China"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Hoja",
+    "en": "Leaf"
+   },
+   "estandarizacion": {
+    "es": "24% flavonoides glucósidos, 6% lactonas terpénicas, ácidos ginkgólicos < 5 ppm.",
+    "en": "24% flavonoid glycosides, 6% terpene lactones, ginkgolic acids < 5 ppm."
+   },
+   "extractos": "EGb 761®",
+   "dosis": {
+    "es": "120–240 mg/día de EGb 761.",
+    "en": "120–240 mg/day of EGb 761."
+   },
+   "evidencia": [
+    {
+     "c": "memoria",
+     "l": 2,
+     "t": {
+      "es": "En demencia establecida, EGb 761 a 240 mg muestra beneficio modesto en síntomas. El gran estudio GEM no mostró prevención de demencia en adultos sanos.",
+      "en": "In established dementia, EGb 761 at 240 mg shows a modest benefit on symptoms. The large GEM study showed no prevention of dementia in healthy adults."
+     }
+    },
+    {
+     "c": "venas",
+     "l": 2,
+     "t": {
+      "es": "Beneficio pequeño en claudicación intermitente.",
+      "en": "Small benefit in intermittent claudication."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Uno de los árboles más antiguos del planeta ('fósil viviente'). En la medicina china se usaban principalmente las semillas para asma y tos; el uso de la hoja estandarizada es moderno, desarrollado en Alemania.",
+    "en": "One of the oldest trees on the planet (a 'living fossil'). Traditional Chinese medicine mainly used the seeds for asthma and cough; the use of standardized leaf extract is modern and was developed in Germany."
+   },
+   "seguridad": {
+    "es": "Bien tolerado en general; dolor de cabeza y molestias digestivas. Las semillas crudas son tóxicas.",
+    "en": "Generally well tolerated; headache and digestive upset. Raw seeds are toxic."
+   },
+   "interacciones": {
+    "es": "Riesgo de sangrado con anticoagulantes y antiagregantes; suspender antes de cirugías. Posible interacción con antiepilépticos.",
+    "en": "Bleeding risk with anticoagulants and antiplatelet drugs; stop before surgery. Possible interaction with antiseizure medications."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-024",
+    "SEG-135"
+   ]
+  },
+  {
+   "id": "hiperico",
+   "latin": "Hypericum perforatum",
+   "nombre": {
+    "es": "Hierba de San Juan",
+    "en": "St. John's wort"
+   },
+   "origen": {
+    "es": "Europa y Asia occidental",
+    "en": "Europe and western Asia"
+   },
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "parte": {
+    "es": "Partes aéreas en flor",
+    "en": "Flowering aerial parts"
+   },
+   "estandarizacion": {
+    "es": "0.1–0.3% hipericina y 3–6% hiperforina.",
+    "en": "0.1–0.3% hypericin and 3–6% hyperforin."
+   },
+   "extractos": "WS® 5570, LI 160, Ze 117 (bajo en hiperforina)",
+   "dosis": {
+    "es": "900 mg/día divididos en 3 tomas, en los ensayos.",
+    "en": "900 mg/day divided into 3 doses, in trials."
+   },
+   "evidencia": [
+    {
+     "c": "animo",
+     "l": 4,
+     "t": {
+      "es": "Revisión Cochrane: tan eficaz como antidepresivos estándar en depresión leve a moderada, con menos efectos adversos. No indicada para depresión grave.",
+      "en": "Cochrane review: as effective as standard antidepressants for mild to moderate depression, with fewer side effects. Not indicated for severe depression."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Su nombre viene de la tradición de cosecharla en la noche de San Juan (24 de junio), cuando se colgaba en puertas para 'ahuyentar malos espíritus'. En la Edad Media se usaba en aceite rojo para heridas y quemaduras.",
+    "en": "Its name comes from the tradition of harvesting it on St. John's Eve (June 24), when it was hung on doors to 'ward off evil spirits.' In the Middle Ages it was used as a red oil for wounds and burns."
+   },
+   "seguridad": {
+    "es": "Fotosensibilidad. No sustituir un antidepresivo sin supervisión.",
+    "en": "Sun sensitivity. Do not replace an antidepressant without supervision."
+   },
+   "interacciones": {
+    "es": "IMPORTANTE: induce enzimas hepáticas (CYP3A4) y reduce la eficacia de anticonceptivos, anticoagulantes, antirretrovirales, ciclosporina, digoxina y quimioterapia. Riesgo de síndrome serotoninérgico con antidepresivos y triptanes.",
+    "en": "IMPORTANT: induces liver enzymes (CYP3A4) and reduces the effectiveness of birth control, anticoagulants, antiretrovirals, cyclosporine, digoxin, and chemotherapy. Risk of serotonin syndrome with antidepressants and triptans."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-027"
+   ]
+  },
+  {
+   "id": "valeriana",
+   "latin": "Valeriana officinalis",
+   "nombre": {
+    "es": "Valeriana",
+    "en": "Valerian"
+   },
+   "origen": {
+    "es": "Europa y Asia templada",
+    "en": "Europe and temperate Asia"
+   },
+   "regiones": [
+    "eu",
+    "as"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "0.8% ácido valerénico.",
+    "en": "0.8% valerenic acid."
+   },
+   "extractos": "Extractos etanólicos estandarizados (monografía EMA)",
+   "dosis": {
+    "es": "300–600 mg de extracto 30–120 minutos antes de dormir; mejor efecto tras 2–4 semanas.",
+    "en": "300–600 mg of extract 30–120 minutes before bed; works best after 2–4 weeks."
+   },
+   "evidencia": [
+    {
+     "c": "sueno",
+     "l": 2,
+     "t": {
+      "es": "Resultados contradictorios; algunas revisiones hallan mejora subjetiva de la calidad del sueño, sin efecto claro en mediciones objetivas.",
+      "en": "Conflicting results; some reviews find a subjective improvement in sleep quality, with no clear effect on objective measurements."
+     }
+    },
+    {
+     "c": "estres",
+     "l": 1,
+     "t": {
+      "es": "Datos insuficientes para ansiedad.",
+      "en": "Insufficient data for anxiety."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Hipócrates y Galeno ya la describían; Galeno la prescribía para el insomnio. En la Primera Guerra Mundial se usó en Inglaterra para la 'neurosis de guerra'. Muchos usuarios reportan un olor intenso y desagradable ('calcetines viejos').",
+    "en": "Hippocrates and Galen already described it; Galen prescribed it for insomnia. During World War I it was used in England for 'shell shock.' Many users report a strong, unpleasant smell ('old socks')."
+   },
+   "seguridad": {
+    "es": "Somnolencia, dolor de cabeza. Algunos casos aislados de daño hepático.",
+    "en": "Drowsiness, headache. A few isolated cases of liver injury."
+   },
+   "interacciones": {
+    "es": "Alcohol, benzodiacepinas y otros sedantes.",
+    "en": "Alcohol, benzodiazepines, and other sedatives."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-047"
+   ]
+  },
+  {
+   "id": "serenoa",
+   "latin": "Serenoa repens",
+   "nombre": {
+    "es": "Saw palmetto (palmito salvaje)",
+    "en": "Saw palmetto"
+   },
+   "origen": {
+    "es": "Sureste de Estados Unidos",
+    "en": "Southeastern United States"
+   },
+   "regiones": [
+    "na"
+   ],
+   "parte": {
+    "es": "Fruto",
+    "en": "Fruit"
+   },
+   "estandarizacion": {
+    "es": "85–95% ácidos grasos y esteroles (extracto lipidoesterólico).",
+    "en": "85–95% fatty acids and sterols (liposterolic extract)."
+   },
+   "extractos": "Permixon® (extracto hexánico)",
+   "dosis": {
+    "es": "320 mg/día.",
+    "en": "320 mg/day."
+   },
+   "evidencia": [
+    {
+     "c": "prostata",
+     "l": 1,
+     "t": {
+      "es": "Revisión Cochrane 2023: poco o ningún beneficio en síntomas urinarios de hiperplasia prostática benigna frente a placebo. Algunos datos favorables limitados al extracto hexánico.",
+      "en": "Cochrane review 2023: little or no benefit for urinary symptoms of benign prostatic hyperplasia compared with placebo. Some favorable data limited to the hexane extract."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los pueblos seminolas comían el fruto como alimento y tónico. A inicios del siglo XX era común en Estados Unidos para problemas urinarios y 'vigor masculino'.",
+    "en": "The Seminole people ate the fruit as food and as a tonic. In the early 20th century it was common in the United States for urinary problems and 'male vigor.'"
+   },
+   "seguridad": {
+    "es": "Bien tolerado; molestias digestivas leves.",
+    "en": "Well tolerated; mild digestive upset."
+   },
+   "interacciones": {
+    "es": "Posible riesgo de sangrado con anticoagulantes; puede afectar tratamientos hormonales.",
+    "en": "Possible bleeding risk with anticoagulants; may affect hormone treatments."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-042"
+   ]
+  },
+  {
+   "id": "cardo",
+   "latin": "Silybum marianum",
+   "nombre": {
+    "es": "Cardo mariano",
+    "en": "Milk thistle"
+   },
+   "origen": {
+    "es": "Mediterráneo",
+    "en": "Mediterranean"
+   },
+   "regiones": [
+    "eu",
+    "me"
+   ],
+   "parte": {
+    "es": "Semilla",
+    "en": "Seed"
+   },
+   "estandarizacion": {
+    "es": "70–80% silimarina (silibinina como componente principal).",
+    "en": "70–80% silymarin (silibinin as the main component)."
+   },
+   "extractos": "Legalon®, Siliphos® (fitosoma)",
+   "dosis": {
+    "es": "420 mg/día de silimarina en 2–3 tomas.",
+    "en": "420 mg/day of silymarin in 2–3 doses."
+   },
+   "evidencia": [
+    {
+     "c": "higado",
+     "l": 2,
+     "t": {
+      "es": "Resultados inconsistentes en hígado graso, hepatitis y cirrosis. La silibinina intravenosa se usa en hospitales para intoxicación por hongo Amanita.",
+      "en": "Inconsistent results in fatty liver, hepatitis, and cirrhosis. Intravenous silibinin is used in hospitals for Amanita mushroom poisoning."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Según la leyenda cristiana, las vetas blancas de sus hojas son gotas de leche de la Virgen María. Se usa desde la Grecia antigua para 'purificar la bilis'.",
+    "en": "According to Christian legend, the white veins on its leaves are drops of the Virgin Mary's milk. It has been used since ancient Greece to 'purify bile.'"
+   },
+   "seguridad": {
+    "es": "Bien tolerado; efecto laxante leve. Posible alergia en personas sensibles a la familia de las margaritas.",
+    "en": "Well tolerated; mild laxative effect. Possible allergy in people sensitive to the daisy family."
+   },
+   "interacciones": {
+    "es": "Posible efecto sobre antidiabéticos y algunos fármacos metabolizados por CYP2C9.",
+    "en": "Possible effect on diabetes medications and some drugs metabolized by CYP2C9."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "equinacea",
+   "latin": "Echinacea purpurea",
+   "nombre": {
+    "es": "Equinácea",
+    "en": "Echinacea"
+   },
+   "origen": {
+    "es": "Praderas de Norteamérica",
+    "en": "North American prairies"
+   },
+   "regiones": [
+    "na"
+   ],
+   "parte": {
+    "es": "Partes aéreas y raíz",
+    "en": "Aerial parts and root"
+   },
+   "estandarizacion": {
+    "es": "Estandarización variable (alquilamidas, ácido cichórico). Mejor evidencia con extractos de planta fresca.",
+    "en": "Variable standardization (alkylamides, cichoric acid). The best evidence is for fresh-plant extracts."
+   },
+   "extractos": "Echinaforce®",
+   "dosis": {
+    "es": "Según el extracto; en estudios, 2,400 mg/día de Echinaforce para prevención.",
+    "en": "Depends on the extract; in studies, 2,400 mg/day of Echinaforce for prevention."
+   },
+   "evidencia": [
+    {
+     "c": "inmune",
+     "l": 2,
+     "t": {
+      "es": "Cochrane: posible reducción pequeña del riesgo de resfriado; efecto en la duración poco claro. Mucha variabilidad entre productos.",
+      "en": "Cochrane: possible small reduction in the risk of colds; effect on duration unclear. Products vary a lot."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los pueblos de las Grandes Llanuras (lakota, cheyenne) la usaban para mordeduras de serpiente, heridas, dolor de muelas e infecciones. Era la planta más vendida en EE. UU. antes de los antibióticos.",
+    "en": "Great Plains peoples (Lakota, Cheyenne) used it for snakebites, wounds, toothache, and infections. It was the best-selling plant remedy in the U.S. before antibiotics."
+   },
+   "seguridad": {
+    "es": "Reacciones alérgicas, especialmente en alérgicos a la familia de las margaritas.",
+    "en": "Allergic reactions, especially in people allergic to the daisy family."
+   },
+   "interacciones": {
+    "es": "Inmunosupresores; posible interacción con fármacos metabolizados por CYP3A4.",
+    "en": "Immunosuppressants; possible interaction with drugs metabolized by CYP3A4."
+   },
+   "nsp": [
+    "NSP-025",
+    "NSP-026"
+   ],
+   "seg": [
+    "SEG-016"
+   ]
+  },
+  {
+   "id": "ginseng",
+   "latin": "Panax ginseng",
+   "nombre": {
+    "es": "Ginseng coreano",
+    "en": "Korean ginseng"
+   },
+   "origen": {
+    "es": "Corea, noreste de China",
+    "en": "Korea, northeastern China"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "4–7% ginsenósidos.",
+    "en": "4–7% ginsenosides."
+   },
+   "extractos": "G115®",
+   "dosis": {
+    "es": "200–400 mg/día de extracto estandarizado.",
+    "en": "200–400 mg/day of standardized extract."
+   },
+   "evidencia": [
+    {
+     "c": "fatiga",
+     "l": 2,
+     "t": {
+      "es": "Beneficio modesto en fatiga crónica y relacionada con cáncer en algunos ensayos.",
+      "en": "Modest benefit for chronic fatigue and cancer-related fatigue in some trials."
+     }
+    },
+    {
+     "c": "libido",
+     "l": 3,
+     "t": {
+      "es": "Revisiones sugieren mejora en disfunción eréctil frente a placebo, con estudios pequeños.",
+      "en": "Reviews suggest improvement in erectile dysfunction compared with placebo, from small studies."
+     }
+    },
+    {
+     "c": "memoria",
+     "l": 2,
+     "t": {
+      "es": "Efectos agudos pequeños en rendimiento cognitivo.",
+      "en": "Small short-term effects on cognitive performance."
+     }
+    },
+    {
+     "c": "glucosa",
+     "l": 2,
+     "t": {
+      "es": "Reducción leve de glucosa en ayunas.",
+      "en": "Slight reduction in fasting blood sugar."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Usado por más de 2,000 años en la medicina tradicional china como tónico de la energía vital (qi). Su nombre 'Panax' significa 'cura todo'. La raíz con forma humana era la más valorada.",
+    "en": "Used for more than 2,000 years in traditional Chinese medicine as a tonic for vital energy (qi). Its name 'Panax' means 'cure-all.' Roots shaped like a human body were the most prized."
+   },
+   "seguridad": {
+    "es": "Insomnio, nerviosismo, cambios de presión. Evitar en embarazo.",
+    "en": "Insomnia, nervousness, changes in blood pressure. Avoid during pregnancy."
+   },
+   "interacciones": {
+    "es": "Warfarina, antidiabéticos, IMAO, estimulantes.",
+    "en": "Warfarin, diabetes medications, MAOIs, stimulants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-113"
+   ]
+  },
+  {
+   "id": "bacopa",
+   "latin": "Bacopa monnieri",
+   "nombre": {
+    "es": "Bacopa (brahmi)",
+    "en": "Bacopa (brahmi)"
+   },
+   "origen": {
+    "es": "India y regiones tropicales húmedas",
+    "en": "India and humid tropical regions"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Planta entera",
+    "en": "Whole plant"
+   },
+   "estandarizacion": {
+    "es": "20–55% bacósidos.",
+    "en": "20–55% bacosides."
+   },
+   "extractos": "CDRI-08 (KeenMind®), BacoMind®",
+   "dosis": {
+    "es": "300 mg/día; los efectos aparecen tras 8–12 semanas.",
+    "en": "300 mg/day; effects appear after 8–12 weeks."
+   },
+   "evidencia": [
+    {
+     "c": "memoria",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis muestran mejora en memoria y velocidad de procesamiento en adultos sanos tras 12 semanas.",
+      "en": "Meta-analyses show improved memory and processing speed in healthy adults after 12 weeks."
+     }
+    },
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Reducción leve de ansiedad en algunos estudios.",
+      "en": "Slight reduction in anxiety in some studies."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En Ayurveda se usaba para 'agudizar el intelecto'; se cuenta que estudiantes védicos la tomaban para memorizar largos himnos sagrados.",
+    "en": "In Ayurveda it was used to 'sharpen the intellect'; it is said that Vedic students took it to memorize long sacred hymns."
+   },
+   "seguridad": {
+    "es": "Náuseas, diarrea y calambres; tomar con comida mejora la tolerancia.",
+    "en": "Nausea, diarrhea, and cramps; taking it with food improves tolerance."
+   },
+   "interacciones": {
+    "es": "Hormonas tiroideas, sedantes, anticolinérgicos.",
+    "en": "Thyroid hormones, sedatives, anticholinergics."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "boswellia",
+   "latin": "Boswellia serrata",
+   "nombre": {
+    "es": "Boswellia (incienso indio)",
+    "en": "Boswellia (Indian frankincense)"
+   },
+   "origen": {
+    "es": "India, norte de África, Arabia",
+    "en": "India, North Africa, Arabia"
+   },
+   "regiones": [
+    "as",
+    "af",
+    "me"
+   ],
+   "parte": {
+    "es": "Resina",
+    "en": "Resin"
+   },
+   "estandarizacion": {
+    "es": "Ácidos boswélicos, en especial AKBA 10–30%.",
+    "en": "Boswellic acids, especially AKBA 10–30%."
+   },
+   "extractos": "5-Loxin®, Aflapin®, ApresFlex®",
+   "dosis": {
+    "es": "100–250 mg/día de extractos enriquecidos en AKBA.",
+    "en": "100–250 mg/day of AKBA-enriched extracts."
+   },
+   "evidencia": [
+    {
+     "c": "articular",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis en artrosis: reducción de dolor y rigidez con extractos estandarizados.",
+      "en": "Meta-analysis in osteoarthritis: reduced pain and stiffness with standardized extracts."
+     }
+    },
+    {
+     "c": "digestion",
+     "l": 2,
+     "t": {
+      "es": "Datos preliminares en colitis y colon irritable.",
+      "en": "Preliminary data in colitis and irritable bowel."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "El incienso ('olíbano') se ha comerciado por más de 5,000 años; fue uno de los regalos de los Reyes Magos. En Ayurveda ('shallaki') se usa para dolor articular.",
+    "en": "Frankincense ('olibanum') has been traded for more than 5,000 years; it was one of the gifts of the Three Wise Men. In Ayurveda ('shallaki') it is used for joint pain."
+   },
+   "seguridad": {
+    "es": "Molestias digestivas leves.",
+    "en": "Mild digestive upset."
+   },
+   "interacciones": {
+    "es": "Posibles interacciones con antiinflamatorios y anticoagulantes.",
+    "en": "Possible interactions with anti-inflammatory drugs and anticoagulants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-007"
+   ]
+  },
+  {
+   "id": "jengibre",
+   "latin": "Zingiber officinale",
+   "nombre": {
+    "es": "Jengibre",
+    "en": "Ginger"
+   },
+   "origen": {
+    "es": "Sudeste Asiático",
+    "en": "Southeast Asia"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Rizoma",
+    "en": "Rhizome"
+   },
+   "estandarizacion": {
+    "es": "Gingeroles y shogaoles (a menudo 5% gingeroles).",
+    "en": "Gingerols and shogaols (often 5% gingerols)."
+   },
+   "extractos": "Extractos estandarizados, EV.EXT 77",
+   "dosis": {
+    "es": "1–1.5 g/día de raíz en polvo o equivalente, en varias tomas.",
+    "en": "1–1.5 g/day of powdered root or equivalent, in several doses."
+   },
+   "evidencia": [
+    {
+     "c": "nausea",
+     "l": 3,
+     "t": {
+      "es": "Eficaz para náuseas del embarazo en varios ensayos; útil como complemento en náuseas por quimioterapia y posoperatorias.",
+      "en": "Effective for pregnancy nausea in several trials; useful as an add-on for nausea from chemotherapy and after surgery."
+     }
+    },
+    {
+     "c": "articular",
+     "l": 2,
+     "t": {
+      "es": "Efecto leve en dolor por artrosis.",
+      "en": "Mild effect on osteoarthritis pain."
+     }
+    },
+    {
+     "c": "digestion",
+     "l": 2,
+     "t": {
+      "es": "Acelera el vaciado gástrico en dispepsia.",
+      "en": "Speeds stomach emptying in dyspepsia."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Usado en las medicinas china y ayurvédica para 'calentar' el cuerpo. Los marineros lo masticaban contra el mareo, y en casi todo el mundo se toma en té para resfriados.",
+    "en": "Used in Chinese and Ayurvedic medicine to 'warm' the body. Sailors chewed it against seasickness, and almost everywhere in the world it is drunk as a tea for colds."
+   },
+   "seguridad": {
+    "es": "Acidez y molestias digestivas a dosis altas.",
+    "en": "Heartburn and digestive upset at high doses."
+   },
+   "interacciones": {
+    "es": "Posible potenciación de anticoagulantes a dosis altas.",
+    "en": "May enhance the effect of anticoagulants at high doses."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-122"
+   ]
+  },
+  {
+   "id": "menta",
+   "latin": "Mentha × piperita",
+   "nombre": {
+    "es": "Aceite de menta",
+    "en": "Peppermint oil"
+   },
+   "origen": {
+    "es": "Europa",
+    "en": "Europe"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Aceite esencial de hojas",
+    "en": "Essential oil from the leaves"
+   },
+   "estandarizacion": {
+    "es": "Mentol 30–55%, en cápsulas con recubrimiento entérico.",
+    "en": "Menthol 30–55%, in enteric-coated capsules."
+   },
+   "extractos": "Colpermin®, IBgard®",
+   "dosis": {
+    "es": "180–225 mg de aceite, 2–3 veces al día antes de comer.",
+    "en": "180–225 mg of oil, 2–3 times a day before meals."
+   },
+   "evidencia": [
+    {
+     "c": "digestion",
+     "l": 4,
+     "t": {
+      "es": "Varios metaanálisis confirman alivio del dolor abdominal y síntomas globales en colon irritable. Recomendado en guías clínicas.",
+      "en": "Several meta-analyses confirm relief of abdominal pain and overall symptoms in irritable bowel syndrome. Recommended in clinical guidelines."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En Egipto se han encontrado hojas en tumbas de 1000 a. C. Tradicionalmente se usa en té para cólicos, gases y dolor de cabeza (aplicada en las sienes).",
+    "en": "In Egypt, leaves have been found in tombs dating to 1000 BC. It is traditionally used as a tea for colic, gas, and headache (applied to the temples)."
+   },
+   "seguridad": {
+    "es": "Acidez y reflujo si la cápsula no es entérica.",
+    "en": "Heartburn and reflux if the capsule is not enteric-coated."
+   },
+   "interacciones": {
+    "es": "Antiácidos pueden disolver el recubrimiento antes de tiempo; posible interacción con ciclosporina.",
+    "en": "Antacids can dissolve the coating too early; possible interaction with cyclosporine."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "berberina",
+   "latin": "Berberis spp., Coptis chinensis",
+   "nombre": {
+    "es": "Berberina",
+    "en": "Berberine"
+   },
+   "origen": {
+    "es": "China, India, Europa",
+    "en": "China, India, Europe"
+   },
+   "regiones": [
+    "as",
+    "eu"
+   ],
+   "parte": {
+    "es": "Raíz y corteza",
+    "en": "Root and bark"
+   },
+   "estandarizacion": {
+    "es": "Berberina HCl ≥ 97%.",
+    "en": "Berberine HCl ≥ 97%."
+   },
+   "extractos": "Berberina HCl purificada",
+   "dosis": {
+    "es": "500 mg 2–3 veces al día con comidas.",
+    "en": "500 mg 2–3 times a day with meals."
+   },
+   "evidencia": [
+    {
+     "c": "glucosa",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis muestran reducción de glucosa y HbA1c en diabetes tipo 2, de magnitud similar a algunos fármacos orales.",
+      "en": "Meta-analyses show reductions in blood sugar and HbA1c in type 2 diabetes, similar in size to some oral medications."
+     }
+    },
+    {
+     "c": "colesterol",
+     "l": 3,
+     "t": {
+      "es": "Reducción de LDL y triglicéridos en varios ensayos.",
+      "en": "Reduction in LDL and triglycerides in several trials."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "La 'huang lian' (Coptis) se usa en la medicina china desde hace 3,000 años para diarreas e infecciones. En la India, la cúrcuma de árbol (Berberis aristata) se usaba para ojos y heridas.",
+    "en": "'Huang lian' (Coptis) has been used in Chinese medicine for 3,000 years for diarrhea and infections. In India, tree turmeric (Berberis aristata) was used for the eyes and wounds."
+   },
+   "seguridad": {
+    "es": "Estreñimiento, diarrea, gases. Contraindicada en embarazo, lactancia y recién nacidos.",
+    "en": "Constipation, diarrhea, gas. Not for use during pregnancy, breastfeeding, or in newborns."
+   },
+   "interacciones": {
+    "es": "Inhibe enzimas hepáticas (CYP): ciclosporina, macrólidos, antidiabéticos (riesgo de hipoglucemia), anticoagulantes.",
+    "en": "Inhibits liver enzymes (CYP): cyclosporine, macrolides, diabetes medications (risk of low blood sugar), anticoagulants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-001",
+    "SEG-087"
+   ]
+  },
+  {
+   "id": "lavanda",
+   "latin": "Lavandula angustifolia",
+   "nombre": {
+    "es": "Lavanda (aceite oral)",
+    "en": "Lavender (oral oil)"
+   },
+   "origen": {
+    "es": "Mediterráneo",
+    "en": "Mediterranean"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Aceite esencial de flores",
+    "en": "Essential oil from the flowers"
+   },
+   "estandarizacion": {
+    "es": "Aceite estandarizado en linalol y acetato de linalilo.",
+    "en": "Oil standardized for linalool and linalyl acetate."
+   },
+   "extractos": "Silexan® (Lasea®)",
+   "dosis": {
+    "es": "80–160 mg/día de Silexan.",
+    "en": "80–160 mg/day of Silexan."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 3,
+     "t": {
+      "es": "Varios ensayos controlados en ansiedad generalizada y subclínica muestran eficacia frente a placebo, comparable a paroxetina en uno.",
+      "en": "Several controlled trials in generalized and subclinical anxiety show it works better than placebo, and comparably to paroxetine in one."
+     }
+    },
+    {
+     "c": "sueno",
+     "l": 2,
+     "t": {
+      "es": "Mejora del sueño secundaria a la reducción de la ansiedad.",
+      "en": "Improved sleep as a result of reduced anxiety."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los romanos la añadían a los baños (su nombre viene de 'lavare', lavar). Se colocan bolsitas de lavanda bajo la almohada para dormir, práctica muy difundida.",
+    "en": "The Romans added it to their baths (its name comes from 'lavare,' to wash). Putting lavender sachets under the pillow to sleep is a widespread practice."
+   },
+   "seguridad": {
+    "es": "Eructos con sabor a lavanda, molestias digestivas leves.",
+    "en": "Lavender-flavored burps, mild digestive upset."
+   },
+   "interacciones": {
+    "es": "Sedantes, en teoría.",
+    "en": "Sedatives, in theory."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "azafran",
+   "latin": "Crocus sativus",
+   "nombre": {
+    "es": "Azafrán",
+    "en": "Saffron"
+   },
+   "origen": {
+    "es": "Irán, Mediterráneo",
+    "en": "Iran, Mediterranean"
+   },
+   "regiones": [
+    "me",
+    "eu"
+   ],
+   "parte": {
+    "es": "Estigmas",
+    "en": "Stigmas"
+   },
+   "estandarizacion": {
+    "es": "Safranal, crocinas y picrocrocina (p. ej., 3.5% lepticrosálidos).",
+    "en": "Safranal, crocins, and picrocrocin (e.g., 3.5% Lepticrosalides)."
+   },
+   "extractos": "affron®, Satiereal®",
+   "dosis": {
+    "es": "28–30 mg/día de extracto.",
+    "en": "28–30 mg/day of extract."
+   },
+   "evidencia": [
+    {
+     "c": "animo",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis: mejora en depresión leve a moderada frente a placebo; comparable a algunos antidepresivos en ensayos pequeños, en su mayoría iraníes.",
+      "en": "Meta-analysis: improvement in mild to moderate depression compared with placebo; comparable to some antidepressants in small trials, mostly from Iran."
+     }
+    },
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Reducción de ansiedad en algunos estudios.",
+      "en": "Reduced anxiety in some studies."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En la Persia antigua se tomaba en infusión para la melancolía. Cleopatra supuestamente lo usaba en sus baños. Es la especia más cara del mundo por peso.",
+    "en": "In ancient Persia it was taken as an infusion for melancholy. Cleopatra supposedly used it in her baths. It is the most expensive spice in the world by weight."
+   },
+   "seguridad": {
+    "es": "Seguro a dosis de suplemento. Dosis de más de 5 g son tóxicas. Evitar en embarazo en dosis altas.",
+    "en": "Safe at supplement doses. Doses above 5 g are toxic. Avoid high doses during pregnancy."
+   },
+   "interacciones": {
+    "es": "Antidepresivos, anticoagulantes, antihipertensivos.",
+    "en": "Antidepressants, anticoagulants, blood pressure medications."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "sauco",
+   "latin": "Sambucus nigra",
+   "nombre": {
+    "es": "Saúco",
+    "en": "Elderberry"
+   },
+   "origen": {
+    "es": "Europa",
+    "en": "Europe"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Bayas maduras cocidas",
+    "en": "Ripe, cooked berries"
+   },
+   "estandarizacion": {
+    "es": "Antocianinas estandarizadas.",
+    "en": "Standardized anthocyanins."
+   },
+   "extractos": "Sambucol®, Rubini",
+   "dosis": {
+    "es": "Según el producto; en estudios, jarabe o extracto durante 5 días al inicio de síntomas.",
+    "en": "Depends on the product; in studies, syrup or extract for 5 days starting when symptoms begin."
+   },
+   "evidencia": [
+    {
+     "c": "inmune",
+     "l": 2,
+     "t": {
+      "es": "Pocos ensayos pequeños sugieren menor duración de síntomas de gripe y resfriado; faltan estudios independientes grandes.",
+      "en": "A few small trials suggest shorter flu and cold symptoms; large independent studies are lacking."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Hipócrates lo llamaba su 'botiquín'. En el folclore europeo se creía que protegía de las brujas; los jarabes de saúco caseros se preparan cada invierno.",
+    "en": "Hippocrates called it his 'medicine chest.' In European folklore it was believed to protect against witches; homemade elderberry syrups are prepared every winter."
+   },
+   "seguridad": {
+    "es": "Las bayas crudas, hojas y tallos contienen compuestos tóxicos: usar solo productos preparados.",
+    "en": "Raw berries, leaves, and stems contain toxic compounds: use only prepared products."
+   },
+   "interacciones": {
+    "es": "Inmunosupresores, diuréticos.",
+    "en": "Immunosuppressants, diuretics."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "arandano",
+   "latin": "Vaccinium macrocarpon",
+   "nombre": {
+    "es": "Arándano rojo",
+    "en": "Cranberry"
+   },
+   "origen": {
+    "es": "Noreste de Norteamérica",
+    "en": "Northeastern North America"
+   },
+   "regiones": [
+    "na"
+   ],
+   "parte": {
+    "es": "Fruto",
+    "en": "Fruit"
+   },
+   "estandarizacion": {
+    "es": "Proantocianidinas (PAC) tipo A, medidas por método DMAC; ~36 mg/día.",
+    "en": "Type A proanthocyanidins (PACs), measured by the DMAC method; ~36 mg/day."
+   },
+   "extractos": "Cysticlean®, Pacran®",
+   "dosis": {
+    "es": "Equivalente a 36 mg de PAC al día.",
+    "en": "Equivalent to 36 mg of PACs per day."
+   },
+   "evidencia": [
+    {
+     "c": "urinaria",
+     "l": 3,
+     "t": {
+      "es": "Cochrane 2023: reduce el riesgo de infecciones urinarias recurrentes en mujeres, niños y tras procedimientos. No sirve para tratar una infección activa.",
+      "en": "Cochrane 2023: reduces the risk of recurrent urinary tract infections in women, children, and after medical procedures. It does not treat an active infection."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los pueblos wampanoag y otros pueblos nativos lo usaban como alimento, colorante y en cataplasmas. Los marineros lo llevaban contra el escorbuto.",
+    "en": "The Wampanoag and other Native peoples used it as food, as a dye, and in poultices. Sailors carried it to prevent scurvy."
+   },
+   "seguridad": {
+    "es": "Bien tolerado; molestias digestivas. Precaución si hay antecedentes de cálculos renales de oxalato.",
+    "en": "Well tolerated; digestive upset. Use caution if you have a history of oxalate kidney stones."
+   },
+   "interacciones": {
+    "es": "Posible aumento del efecto de la warfarina.",
+    "en": "May increase the effect of warfarin."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "castano",
+   "latin": "Aesculus hippocastanum",
+   "nombre": {
+    "es": "Castaño de Indias",
+    "en": "Horse chestnut"
+   },
+   "origen": {
+    "es": "Balcanes",
+    "en": "Balkans"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Semilla",
+    "en": "Seed"
+   },
+   "estandarizacion": {
+    "es": "16–20% escina (aescina).",
+    "en": "16–20% escin (aescin)."
+   },
+   "extractos": "Venostasin®",
+   "dosis": {
+    "es": "Equivalente a 50 mg de escina dos veces al día.",
+    "en": "Equivalent to 50 mg of escin twice a day."
+   },
+   "evidencia": [
+    {
+     "c": "venas",
+     "l": 3,
+     "t": {
+      "es": "Revisión Cochrane: mejora dolor, hinchazón y pesadez en insuficiencia venosa crónica, comparable a medias de compresión en un ensayo.",
+      "en": "Cochrane review: improves pain, swelling, and heaviness in chronic venous insufficiency, comparable to compression stockings in one trial."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En Europa se llevaban castañas en el bolsillo contra el reumatismo y las hemorroides. Se daban a caballos con tos, de donde viene su nombre.",
+    "en": "In Europe people carried chestnuts in their pockets against rheumatism and hemorrhoids. They were given to horses with coughs, which is where the name comes from."
+   },
+   "seguridad": {
+    "es": "La semilla cruda es tóxica: usar solo extractos purificados. Molestias digestivas.",
+    "en": "The raw seed is toxic: use only purified extracts. Digestive upset."
+   },
+   "interacciones": {
+    "es": "Anticoagulantes y antidiabéticos.",
+    "en": "Anticoagulants and diabetes medications."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "petasites",
+   "latin": "Petasites hybridus",
+   "nombre": {
+    "es": "Petasites (lampazo)",
+    "en": "Butterbur"
+   },
+   "origen": {
+    "es": "Europa, norte de África, Asia",
+    "en": "Europe, North Africa, Asia"
+   },
+   "regiones": [
+    "eu",
+    "af",
+    "as"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "15% petasinas y libre de alcaloides pirrolizidínicos (PA-free).",
+    "en": "15% petasins and free of pyrrolizidine alkaloids (PA-free)."
+   },
+   "extractos": "Petadolex®",
+   "dosis": {
+    "es": "75 mg dos veces al día.",
+    "en": "75 mg twice a day."
+   },
+   "evidencia": [
+    {
+     "c": "migrana",
+     "l": 3,
+     "t": {
+      "es": "Dos ensayos mostraron reducción de la frecuencia de migrañas; la Academia Americana de Neurología retiró su recomendación en 2015 por riesgo hepático.",
+      "en": "Two trials showed fewer migraines; the American Academy of Neurology withdrew its recommendation in 2015 because of liver risk."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En la Edad Media se usaba contra la peste y la fiebre. Sus hojas enormes se usaban para envolver mantequilla (en inglés 'butterbur').",
+    "en": "In the Middle Ages it was used against the plague and fever. Its huge leaves were used to wrap butter (hence the English name 'butterbur')."
+   },
+   "seguridad": {
+    "es": "Riesgo de daño hepático incluso con productos PA-free; los no estandarizados pueden ser muy tóxicos. Usar solo bajo supervisión médica.",
+    "en": "Risk of liver injury even with PA-free products; non-standardized products can be highly toxic. Use only under medical supervision."
+   },
+   "interacciones": {
+    "es": "Fármacos hepatotóxicos.",
+    "en": "Drugs that are toxic to the liver."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "cimicifuga",
+   "latin": "Actaea racemosa",
+   "nombre": {
+    "es": "Cimicífuga (cohosh negro)",
+    "en": "Black cohosh"
+   },
+   "origen": {
+    "es": "Este de Norteamérica",
+    "en": "Eastern North America"
+   },
+   "regiones": [
+    "na"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "Glucósidos triterpénicos, extracto isopropanólico.",
+    "en": "Triterpene glycosides, isopropanolic extract."
+   },
+   "extractos": "Remifemin®",
+   "dosis": {
+    "es": "20–40 mg/día de extracto.",
+    "en": "20–40 mg/day of extract."
+   },
+   "evidencia": [
+    {
+     "c": "menopausia",
+     "l": 2,
+     "t": {
+      "es": "Resultados contradictorios: Cochrane no encontró beneficio claro en sofocos, pero algunos ensayos con Remifemin muestran mejora.",
+      "en": "Conflicting results: Cochrane found no clear benefit for hot flashes, but some trials with Remifemin show improvement."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los pueblos nativos norteamericanos la usaban para dolor menstrual, parto y mordeduras de serpiente. Fue ingrediente del famoso tónico de Lydia Pinkham en el siglo XIX.",
+    "en": "Native North American peoples used it for menstrual pain, childbirth, and snakebites. It was an ingredient in Lydia Pinkham's famous 19th-century tonic."
+   },
+   "seguridad": {
+    "es": "Casos raros de daño hepático. Vigilar síntomas como ictericia o orina oscura.",
+    "en": "Rare cases of liver injury. Watch for symptoms such as jaundice or dark urine."
+   },
+   "interacciones": {
+    "es": "Fármacos hepatotóxicos; precaución con tamoxifeno.",
+    "en": "Drugs that are toxic to the liver; use caution with tamoxifen."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-009"
+   ]
+  },
+  {
+   "id": "pelargonio",
+   "latin": "Pelargonium sidoides",
+   "nombre": {
+    "es": "Pelargonio africano",
+    "en": "African geranium (Pelargonium)"
+   },
+   "origen": {
+    "es": "Sudáfrica",
+    "en": "South Africa"
+   },
+   "regiones": [
+    "af"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "Extracto etanólico estandarizado EPs 7630.",
+    "en": "Standardized ethanolic extract EPs 7630."
+   },
+   "extractos": "EPs® 7630 (Umckaloabo®, Kaloba®)",
+   "dosis": {
+    "es": "Según el producto; en estudios, 20–30 gotas o 20 mg tres veces al día.",
+    "en": "Depends on the product; in studies, 20–30 drops or 20 mg three times a day."
+   },
+   "evidencia": [
+    {
+     "c": "respir",
+     "l": 3,
+     "t": {
+      "es": "Varios ensayos y revisiones muestran que acorta la bronquitis aguda y reduce síntomas; la calidad de la evidencia es moderada.",
+      "en": "Several trials and reviews show it shortens acute bronchitis and reduces symptoms; the quality of evidence is moderate."
+     }
+    },
+    {
+     "c": "inmune",
+     "l": 2,
+     "t": {
+      "es": "Posible alivio en resfriado común y sinusitis.",
+      "en": "Possible relief for the common cold and sinusitis."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los curanderos zulúes y basotho lo usaban para tos y disentería. Un británico, Charles Stevens, lo llevó a Europa a inicios del siglo XX tras afirmar que le curó la tuberculosis.",
+    "en": "Zulu and Basotho healers used it for cough and dysentery. A British man, Charles Stevens, brought it to Europe in the early 20th century after claiming it cured his tuberculosis."
+   },
+   "seguridad": {
+    "es": "Molestias digestivas; casos raros de daño hepático.",
+    "en": "Digestive upset; rare cases of liver injury."
+   },
+   "interacciones": {
+    "es": "Posible efecto sobre anticoagulantes.",
+    "en": "Possible effect on anticoagulants."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "andrographis",
+   "latin": "Andrographis paniculata",
+   "nombre": {
+    "es": "Andrographis",
+    "en": "Andrographis"
+   },
+   "origen": {
+    "es": "India y Sudeste Asiático",
+    "en": "India and Southeast Asia"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Hojas",
+    "en": "Leaves"
+   },
+   "estandarizacion": {
+    "es": "Andrografólidos 10–30%.",
+    "en": "Andrographolides 10–30%."
+   },
+   "extractos": "Kan Jang®, KalmCold®, ParActin®",
+   "dosis": {
+    "es": "Según el extracto; en estudios, 60–200 mg/día de andrografólidos.",
+    "en": "Depends on the extract; in studies, 60–200 mg/day of andrographolides."
+   },
+   "evidencia": [
+    {
+     "c": "inmune",
+     "l": 2,
+     "t": {
+      "es": "Revisiones sugieren alivio de síntomas de infecciones respiratorias altas, con estudios de calidad variable.",
+      "en": "Reviews suggest relief of upper respiratory infection symptoms, with studies of variable quality."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Llamada el 'rey de los amargos'. En India y Tailandia se usa para fiebres y resfriados; se promovió durante la pandemia de gripe de 1919 en la India.",
+    "en": "Known as the 'king of bitters.' In India and Thailand it is used for fevers and colds; it was promoted during the 1919 flu pandemic in India."
+   },
+   "seguridad": {
+    "es": "Reacciones alérgicas, alteración del gusto. Evitar en embarazo.",
+    "en": "Allergic reactions, altered sense of taste. Avoid during pregnancy."
+   },
+   "interacciones": {
+    "es": "Anticoagulantes, antihipertensivos, inmunosupresores.",
+    "en": "Anticoagulants, blood pressure medications, immunosuppressants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-005"
+   ]
+  },
+  {
+   "id": "ajo",
+   "latin": "Allium sativum",
+   "nombre": {
+    "es": "Ajo",
+    "en": "Garlic"
+   },
+   "origen": {
+    "es": "Asia Central",
+    "en": "Central Asia"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Bulbo",
+    "en": "Bulb"
+   },
+   "estandarizacion": {
+    "es": "Extracto de ajo envejecido (S-alil-cisteína) o polvo con potencial de alicina.",
+    "en": "Aged garlic extract (S-allyl cysteine) or powder with allicin potential."
+   },
+   "extractos": "Kyolic® (ajo envejecido), Kwai®",
+   "dosis": {
+    "es": "600–1,200 mg/día de extracto o polvo estandarizado.",
+    "en": "600–1,200 mg/day of standardized extract or powder."
+   },
+   "evidencia": [
+    {
+     "c": "presion",
+     "l": 3,
+     "t": {
+      "es": "Metaanálisis: reduce la presión sistólica unos 8–10 mmHg en personas con hipertensión.",
+      "en": "Meta-analysis: lowers systolic blood pressure by about 8–10 mmHg in people with high blood pressure."
+     }
+    },
+    {
+     "c": "colesterol",
+     "l": 2,
+     "t": {
+      "es": "Reducción modesta de colesterol total y LDL.",
+      "en": "Modest reduction in total and LDL cholesterol."
+     }
+    },
+    {
+     "c": "inmune",
+     "l": 1,
+     "t": {
+      "es": "Evidencia insuficiente para prevenir resfriados.",
+      "en": "Insufficient evidence for preventing colds."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los constructores de las pirámides egipcias recibían ajo para su fuerza. En Europa se colgaba para protegerse de vampiros y la peste; es remedio casero universal para resfriados.",
+    "en": "The builders of the Egyptian pyramids were given garlic for strength. In Europe it was hung up for protection against vampires and the plague; it is a universal home remedy for colds."
+   },
+   "seguridad": {
+    "es": "Aliento, molestias digestivas.",
+    "en": "Bad breath, digestive upset."
+   },
+   "interacciones": {
+    "es": "Riesgo de sangrado con anticoagulantes; reduce la eficacia de algunos antirretrovirales (saquinavir).",
+    "en": "Bleeding risk with anticoagulants; reduces the effectiveness of some antiretrovirals (saquinavir)."
+   },
+   "nsp": [
+    "NSP-021",
+    "NSP-022"
+   ],
+   "seg": [
+    "SEG-002"
+   ]
+  },
+  {
+   "id": "psyllium",
+   "latin": "Plantago ovata",
+   "nombre": {
+    "es": "Psyllium (ispágula)",
+    "en": "Psyllium (ispaghula)"
+   },
+   "origen": {
+    "es": "India, Irán",
+    "en": "India, Iran"
+   },
+   "regiones": [
+    "as",
+    "me"
+   ],
+   "parte": {
+    "es": "Cáscara de la semilla",
+    "en": "Seed husk"
+   },
+   "estandarizacion": {
+    "es": "Cáscara pura de semilla, ≥ 95% pureza.",
+    "en": "Pure seed husk, ≥ 95% purity."
+   },
+   "extractos": "Metamucil®, genéricos de cáscara pura",
+   "dosis": {
+    "es": "5–10 g/día con abundante agua.",
+    "en": "5–10 g/day with plenty of water."
+   },
+   "evidencia": [
+    {
+     "c": "estren",
+     "l": 4,
+     "t": {
+      "es": "Eficaz para estreñimiento crónico; recomendado en guías.",
+      "en": "Effective for chronic constipation; recommended in guidelines."
+     }
+    },
+    {
+     "c": "colesterol",
+     "l": 4,
+     "t": {
+      "es": "Reduce el LDL; tiene declaración de salud aprobada por la FDA.",
+      "en": "Lowers LDL; it has an FDA-approved health claim."
+     }
+    },
+    {
+     "c": "digestion",
+     "l": 3,
+     "t": {
+      "es": "Útil en colon irritable, sobre todo con estreñimiento.",
+      "en": "Helpful in irritable bowel syndrome, especially with constipation."
+     }
+    },
+    {
+     "c": "glucosa",
+     "l": 3,
+     "t": {
+      "es": "Mejora el control glucémico en diabetes tipo 2.",
+      "en": "Improves blood sugar control in type 2 diabetes."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En la medicina ayurvédica y unani ('isabgol') se usa hace siglos para diarrea y estreñimiento. Su nombre persa significa 'oreja de caballo', por la forma de la semilla.",
+    "en": "In Ayurvedic and Unani medicine ('isabgol') it has been used for centuries for diarrhea and constipation. Its Persian name means 'horse ear,' after the shape of the seed."
+   },
+   "seguridad": {
+    "es": "Gases, hinchazón. Tomar siempre con suficiente agua para evitar obstrucciones.",
+    "en": "Gas, bloating. Always take it with enough water to avoid blockages."
+   },
+   "interacciones": {
+    "es": "Separar 2 horas de otros medicamentos: puede reducir su absorción.",
+    "en": "Take 2 hours apart from other medications: it may reduce their absorption."
+   },
+   "nsp": [
+    "NSP-003"
+   ],
+   "seg": [
+    "SEG-038"
+   ]
+  },
+  {
+   "id": "kava",
+   "latin": "Piper methysticum",
+   "nombre": {
+    "es": "Kava",
+    "en": "Kava"
+   },
+   "origen": {
+    "es": "Islas del Pacífico Sur: Vanuatu, Fiyi, Tonga",
+    "en": "South Pacific islands: Vanuatu, Fiji, Tonga"
+   },
+   "regiones": [
+    "oc"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "30–70% kavalactonas; solo variedades 'noble' y extracto acuoso de raíz.",
+    "en": "30–70% kavalactones; only 'noble' varieties and water-based root extract."
+   },
+   "extractos": "WS® 1490 (retirado en varios países)",
+   "dosis": {
+    "es": "Uso solo bajo supervisión médica.",
+    "en": "Use only under medical supervision."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 3,
+     "t": {
+      "es": "Cochrane: eficaz para ansiedad frente a placebo. Sin embargo, su uso está restringido en varios países por riesgo hepático.",
+      "en": "Cochrane: effective for anxiety compared with placebo. However, its use is restricted in several countries because of liver risk."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Bebida ceremonial central en las culturas del Pacífico, compartida en rituales de bienvenida y reconciliación. Se toma en cuencos de coco y produce relajación con mente clara.",
+    "en": "A central ceremonial drink in Pacific cultures, shared in welcome and reconciliation rituals. It is drunk from coconut-shell bowls and produces relaxation with a clear mind."
+   },
+   "seguridad": {
+    "es": "RIESGO DE DAÑO HEPÁTICO GRAVE, incluidos casos de trasplante. Restringido o prohibido en algunos países. No combinar con alcohol.",
+    "en": "RISK OF SERIOUS LIVER INJURY, including cases requiring transplant. Restricted or banned in some countries. Do not combine with alcohol."
+   },
+   "interacciones": {
+    "es": "Alcohol, sedantes, fármacos hepatotóxicos, levodopa.",
+    "en": "Alcohol, sedatives, drugs that are toxic to the liver, levodopa."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "melisa",
+   "latin": "Melissa officinalis",
+   "nombre": {
+    "es": "Melisa (toronjil)",
+    "en": "Lemon balm"
+   },
+   "origen": {
+    "es": "Mediterráneo y Asia occidental",
+    "en": "Mediterranean and western Asia"
+   },
+   "regiones": [
+    "eu",
+    "me"
+   ],
+   "parte": {
+    "es": "Hojas",
+    "en": "Leaves"
+   },
+   "estandarizacion": {
+    "es": "Ácido rosmarínico.",
+    "en": "Rosmarinic acid."
+   },
+   "extractos": "Cyracos®",
+   "dosis": {
+    "es": "300–600 mg/día de extracto.",
+    "en": "300–600 mg/day of extract."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Ensayos pequeños muestran reducción de ansiedad leve.",
+      "en": "Small trials show reduced mild anxiety."
+     }
+    },
+    {
+     "c": "sueno",
+     "l": 2,
+     "t": {
+      "es": "Mejora del sueño, frecuentemente combinada con valeriana.",
+      "en": "Improved sleep, often combined with valerian."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Paracelso la llamaba 'elixir de la vida'. Los monjes carmelitas elaboran desde 1611 el 'agua del Carmen' con melisa para los nervios.",
+    "en": "Paracelsus called it the 'elixir of life.' Since 1611, Carmelite monks have made 'Carmelite water' with lemon balm for the nerves."
+   },
+   "seguridad": {
+    "es": "Bien tolerada.",
+    "en": "Well tolerated."
+   },
+   "interacciones": {
+    "es": "Sedantes, hormonas tiroideas.",
+    "en": "Sedatives, thyroid hormones."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "pasiflora",
+   "latin": "Passiflora incarnata",
+   "nombre": {
+    "es": "Pasiflora",
+    "en": "Passionflower"
+   },
+   "origen": {
+    "es": "Sureste de EE. UU. y América tropical",
+    "en": "Southeastern U.S. and tropical America"
+   },
+   "regiones": [
+    "na",
+    "sa"
+   ],
+   "parte": {
+    "es": "Partes aéreas",
+    "en": "Aerial parts"
+   },
+   "estandarizacion": {
+    "es": "Flavonoides (a menudo 3.5–4% expresados como vitexina).",
+    "en": "Flavonoids (often 3.5–4% expressed as vitexin)."
+   },
+   "extractos": "Extractos estandarizados (monografía EMA)",
+   "dosis": {
+    "es": "Según el extracto; en estudios, 45 gotas o 400–500 mg/día.",
+    "en": "Depends on the extract; in studies, 45 drops or 400–500 mg/day."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Ensayos pequeños sugieren efecto ansiolítico, incluso antes de cirugías.",
+      "en": "Small trials suggest an anti-anxiety effect, including before surgery."
+     }
+    },
+    {
+     "c": "sueno",
+     "l": 2,
+     "t": {
+      "es": "Evidencia preliminar.",
+      "en": "Preliminary evidence."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los misioneros españoles vieron en su flor símbolos de la Pasión de Cristo. Los pueblos cherokee la usaban para heridas y como calmante.",
+    "en": "Spanish missionaries saw symbols of the Passion of Christ in its flower. The Cherokee people used it for wounds and as a calming remedy."
+   },
+   "seguridad": {
+    "es": "Somnolencia, mareo. Evitar en embarazo.",
+    "en": "Drowsiness, dizziness. Avoid during pregnancy."
+   },
+   "interacciones": {
+    "es": "Sedantes, alcohol, anticoagulantes.",
+    "en": "Sedatives, alcohol, anticoagulants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-035"
+   ]
+  },
+  {
+   "id": "jamaica",
+   "latin": "Hibiscus sabdariffa",
+   "nombre": {
+    "es": "Flor de Jamaica (hibisco)",
+    "en": "Hibiscus (roselle)"
+   },
+   "origen": {
+    "es": "África occidental, cultivada en México y Caribe",
+    "en": "West Africa, grown in Mexico and the Caribbean"
+   },
+   "regiones": [
+    "af",
+    "sa"
+   ],
+   "parte": {
+    "es": "Cálices",
+    "en": "Calyces"
+   },
+   "estandarizacion": {
+    "es": "Antocianinas (delfinidina y cianidina).",
+    "en": "Anthocyanins (delphinidin and cyanidin)."
+   },
+   "extractos": "Extractos estandarizados en antocianinas",
+   "dosis": {
+    "es": "En estudios, 2–3 tazas de infusión al día o extracto equivalente.",
+    "en": "In studies, 2–3 cups of tea a day or an equivalent extract."
+   },
+   "evidencia": [
+    {
+     "c": "presion",
+     "l": 2,
+     "t": {
+      "es": "Metaanálisis: reducción de presión arterial en hipertensión leve; estudios pequeños.",
+      "en": "Meta-analysis: lower blood pressure in mild hypertension; small studies."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En México se bebe como 'agua de Jamaica' y en Egipto como 'karkadé'. Popularmente se usa como diurético y para 'bajar la presión'.",
+    "en": "In Mexico it is drunk as 'agua de Jamaica' and in Egypt as 'karkadé.' It is popularly used as a diuretic and to 'lower blood pressure.'"
+   },
+   "seguridad": {
+    "es": "Bien tolerada.",
+    "en": "Well tolerated."
+   },
+   "interacciones": {
+    "es": "Antihipertensivos, diuréticos, paracetamol, cloroquina.",
+    "en": "Blood pressure medications, diuretics, acetaminophen, chloroquine."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "manzanilla",
+   "latin": "Matricaria chamomilla",
+   "nombre": {
+    "es": "Manzanilla",
+    "en": "Chamomile"
+   },
+   "origen": {
+    "es": "Europa y Asia occidental",
+    "en": "Europe and western Asia"
+   },
+   "regiones": [
+    "eu",
+    "me"
+   ],
+   "parte": {
+    "es": "Flores",
+    "en": "Flowers"
+   },
+   "estandarizacion": {
+    "es": "1.2% apigenina.",
+    "en": "1.2% apigenin."
+   },
+   "extractos": "Extractos estandarizados en apigenina",
+   "dosis": {
+    "es": "En estudios de ansiedad, 500–1,500 mg/día de extracto.",
+    "en": "In anxiety studies, 500–1,500 mg/day of extract."
+   },
+   "evidencia": [
+    {
+     "c": "estres",
+     "l": 2,
+     "t": {
+      "es": "Un ensayo largo mostró reducción de síntomas de ansiedad generalizada.",
+      "en": "A long trial showed reduced symptoms of generalized anxiety."
+     }
+    },
+    {
+     "c": "digestion",
+     "l": 2,
+     "t": {
+      "es": "Tradicionalmente aceptada para molestias digestivas leves (monografía EMA).",
+      "en": "Traditionally accepted for mild digestive complaints (EMA monograph)."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los egipcios la dedicaban al dios Ra. En todo el mundo hispano es el té por excelencia para el estómago, cólicos de bebés y los nervios.",
+    "en": "The Egyptians dedicated it to the god Ra. Throughout the Spanish-speaking world it is the go-to tea for the stomach, colicky babies, and nerves."
+   },
+   "seguridad": {
+    "es": "Alergia en personas sensibles a la familia de las margaritas.",
+    "en": "Allergy in people sensitive to the daisy family."
+   },
+   "interacciones": {
+    "es": "Warfarina, sedantes, ciclosporina.",
+    "en": "Warfarin, sedatives, cyclosporine."
+   },
+   "nsp": [
+    "NSP-044"
+   ],
+   "seg": [
+    "SEG-031"
+   ]
+  },
+  {
+   "id": "pino",
+   "latin": "Pinus pinaster",
+   "nombre": {
+    "es": "Corteza de pino marítimo",
+    "en": "Maritime pine bark"
+   },
+   "origen": {
+    "es": "Costa de Francia",
+    "en": "Coast of France"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Corteza",
+    "en": "Bark"
+   },
+   "estandarizacion": {
+    "es": "65–75% procianidinas.",
+    "en": "65–75% procyanidins."
+   },
+   "extractos": "Pycnogenol®",
+   "dosis": {
+    "es": "100–200 mg/día.",
+    "en": "100–200 mg/day."
+   },
+   "evidencia": [
+    {
+     "c": "venas",
+     "l": 2,
+     "t": {
+      "es": "Posible mejora de insuficiencia venosa crónica; estudios pequeños.",
+      "en": "Possible improvement in chronic venous insufficiency; small studies."
+     }
+    },
+    {
+     "c": "libido",
+     "l": 2,
+     "t": {
+      "es": "Estudios pequeños en disfunción eréctil combinado con L-arginina.",
+      "en": "Small studies in erectile dysfunction, combined with L-arginine."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En 1535 el explorador Jacques Cartier y su tripulación sobrevivieron al escorbuto en Canadá gracias a un té de corteza de pino que les dieron los pueblos iroqueses.",
+    "en": "In 1535, explorer Jacques Cartier and his crew survived scurvy in Canada thanks to a pine bark tea given to them by Iroquois peoples."
+   },
+   "seguridad": {
+    "es": "Bien tolerado.",
+    "en": "Well tolerated."
+   },
+   "interacciones": {
+    "es": "Inmunosupresores, anticoagulantes, antidiabéticos.",
+    "en": "Immunosuppressants, anticoagulants, diabetes medications."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "tongkat",
+   "latin": "Eurycoma longifolia",
+   "nombre": {
+    "es": "Tongkat ali",
+    "en": "Tongkat ali"
+   },
+   "origen": {
+    "es": "Malasia, Indonesia",
+    "en": "Malaysia, Indonesia"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Raíz",
+    "en": "Root"
+   },
+   "estandarizacion": {
+    "es": "Eurycomanona y péptidos glicosaponinas.",
+    "en": "Eurycomanone and glycosaponin peptides."
+   },
+   "extractos": "LJ100®, Physta®",
+   "dosis": {
+    "es": "200–400 mg/día de extracto.",
+    "en": "200–400 mg/day of extract."
+   },
+   "evidencia": [
+    {
+     "c": "libido",
+     "l": 2,
+     "t": {
+      "es": "Ensayos pequeños sugieren mejora de testosterona en hombres con niveles bajos.",
+      "en": "Small trials suggest improved testosterone in men with low levels."
+     }
+    },
+    {
+     "c": "estres",
+     "l": 1,
+     "t": {
+      "es": "Datos muy limitados.",
+      "en": "Very limited data."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En Malasia se usa como 'viagra asiático' y tónico masculino; su nombre significa 'bastón de Ali'.",
+    "en": "In Malaysia it is used as an 'Asian Viagra' and a men's tonic; its name means 'Ali's walking stick.'"
+   },
+   "seguridad": {
+    "es": "Se han encontrado productos contaminados con mercurio y plomo: elegir solo marcas con análisis de metales pesados.",
+    "en": "Products contaminated with mercury and lead have been found: choose only brands tested for heavy metals."
+   },
+   "interacciones": {
+    "es": "Poco estudiadas; precaución con fármacos para el corazón y la diabetes.",
+    "en": "Not well studied; use caution with heart and diabetes medications."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "maca",
+   "latin": "Lepidium meyenii",
+   "nombre": {
+    "es": "Maca",
+    "en": "Maca"
+   },
+   "origen": {
+    "es": "Andes de Perú",
+    "en": "Andes of Peru"
+   },
+   "regiones": [
+    "sa"
+   ],
+   "parte": {
+    "es": "Hipocótilo (raíz)",
+    "en": "Hypocotyl (root)"
+   },
+   "estandarizacion": {
+    "es": "No existe estandarización aceptada; preferir maca gelatinizada con origen de Junín y análisis de metales pesados.",
+    "en": "There is no accepted standardization; choose gelatinized maca sourced from Junín and tested for heavy metals."
+   },
+   "extractos": "Maca gelatinizada de origen verificado",
+   "dosis": {
+    "es": "1.5–3 g/día en estudios.",
+    "en": "1.5–3 g/day in studies."
+   },
+   "evidencia": [
+    {
+     "c": "libido",
+     "l": 2,
+     "t": {
+      "es": "Ensayos pequeños sugieren mejora del deseo sexual; sin efectos en hormonas.",
+      "en": "Small trials suggest improved sexual desire; no effects on hormones."
+     }
+    },
+    {
+     "c": "menopausia",
+     "l": 1,
+     "t": {
+      "es": "Evidencia insuficiente.",
+      "en": "Insufficient evidence."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Cultivada por los incas a más de 4,000 metros; se dice que los guerreros la tomaban antes de las batallas y que los españoles la usaban para la fertilidad de su ganado.",
+    "en": "Grown by the Incas at more than 4,000 meters; it is said that warriors took it before battle and that the Spanish used it for the fertility of their livestock."
+   },
+   "seguridad": {
+    "es": "Bien tolerada como alimento.",
+    "en": "Well tolerated as a food."
+   },
+   "interacciones": {
+    "es": "No se conocen interacciones importantes.",
+    "en": "No significant interactions are known."
+   },
+   "nsp": [
+    "NSP-078"
+   ],
+   "seg": [
+    "SEG-030"
+   ]
+  },
+  {
+   "id": "una",
+   "latin": "Uncaria tomentosa",
+   "nombre": {
+    "es": "Uña de gato",
+    "en": "Cat's claw"
+   },
+   "origen": {
+    "es": "Selva amazónica de Perú",
+    "en": "Amazon rainforest of Peru"
+   },
+   "regiones": [
+    "sa"
+   ],
+   "parte": {
+    "es": "Corteza",
+    "en": "Bark"
+   },
+   "estandarizacion": {
+    "es": "Alcaloides oxindólicos pentacíclicos (POA), libre de alcaloides tetracíclicos (TOA).",
+    "en": "Pentacyclic oxindole alkaloids (POA), free of tetracyclic alkaloids (TOA)."
+   },
+   "extractos": "Extractos libres de TOA",
+   "dosis": {
+    "es": "Según el extracto; en estudios, 60–100 mg/día.",
+    "en": "Depends on the extract; in studies, 60–100 mg/day."
+   },
+   "evidencia": [
+    {
+     "c": "articular",
+     "l": 2,
+     "t": {
+      "es": "Pocos ensayos pequeños en artritis reumatoide y artrosis.",
+      "en": "A few small trials in rheumatoid arthritis and osteoarthritis."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los asháninkas del Amazonas peruano la usan para inflamaciones, heridas y 'limpiar' el cuerpo. Se popularizó mundialmente en los años 90.",
+    "en": "The Asháninka people of the Peruvian Amazon use it for inflammation, wounds, and to 'cleanse' the body. It became popular worldwide in the 1990s."
+   },
+   "seguridad": {
+    "es": "Evitar en embarazo y enfermedades autoinmunes sin supervisión.",
+    "en": "Avoid during pregnancy and with autoimmune diseases unless supervised."
+   },
+   "interacciones": {
+    "es": "Inmunosupresores, antihipertensivos, anticoagulantes.",
+    "en": "Immunosuppressants, blood pressure medications, anticoagulants."
+   },
+   "nsp": [
+    "NSP-023"
+   ],
+   "seg": [
+    "SEG-046"
+   ]
+  },
+  {
+   "id": "alcachofa",
+   "latin": "Cynara cardunculus var. scolymus",
+   "nombre": {
+    "es": "Hoja de alcachofa",
+    "en": "Artichoke leaf"
+   },
+   "origen": {
+    "es": "Mediterráneo",
+    "en": "Mediterranean"
+   },
+   "regiones": [
+    "eu",
+    "af"
+   ],
+   "parte": {
+    "es": "Hojas",
+    "en": "Leaves"
+   },
+   "estandarizacion": {
+    "es": "Ácidos cafeoilquínicos (cinarina).",
+    "en": "Caffeoylquinic acids (cynarin)."
+   },
+   "extractos": "Extractos estandarizados (monografía EMA)",
+   "dosis": {
+    "es": "320–640 mg de extracto tres veces al día.",
+    "en": "320–640 mg of extract three times a day."
+   },
+   "evidencia": [
+    {
+     "c": "digestion",
+     "l": 2,
+     "t": {
+      "es": "Ensayos sugieren alivio de dispepsia funcional.",
+      "en": "Trials suggest relief of functional dyspepsia."
+     }
+    },
+    {
+     "c": "colesterol",
+     "l": 2,
+     "t": {
+      "es": "Reducción modesta de colesterol.",
+      "en": "Modest reduction in cholesterol."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Los griegos y romanos la consideraban un digestivo de lujo. En la tradición europea se usa como 'depurativo' del hígado.",
+    "en": "The Greeks and Romans considered it a luxury digestive aid. In European tradition it is used as a liver 'cleanser.'"
+   },
+   "seguridad": {
+    "es": "Alergia a la familia de las margaritas; evitar con cálculos biliares.",
+    "en": "Allergy to the daisy family; avoid with gallstones."
+   },
+   "interacciones": {
+    "es": "Diuréticos.",
+    "en": "Diuretics."
+   },
+   "nsp": [],
+   "seg": []
+  },
+  {
+   "id": "tefeverfew",
+   "latin": "Tanacetum parthenium",
+   "nombre": {
+    "es": "Matricaria (feverfew)",
+    "en": "Feverfew"
+   },
+   "origen": {
+    "es": "Balcanes",
+    "en": "Balkans"
+   },
+   "regiones": [
+    "eu"
+   ],
+   "parte": {
+    "es": "Hojas",
+    "en": "Leaves"
+   },
+   "estandarizacion": {
+    "es": "0.2% partenólido o extracto CO₂.",
+    "en": "0.2% parthenolide or CO₂ extract."
+   },
+   "extractos": "MIG-99",
+   "dosis": {
+    "es": "50–150 mg/día de hoja en polvo o extracto.",
+    "en": "50–150 mg/day of powdered leaf or extract."
+   },
+   "evidencia": [
+    {
+     "c": "migrana",
+     "l": 2,
+     "t": {
+      "es": "Cochrane: efecto pequeño e inconsistente en prevención de migraña.",
+      "en": "Cochrane: small and inconsistent effect in preventing migraine."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "En la Inglaterra del siglo XVII se comía una hoja diaria para el dolor de cabeza; se usaba para 'bajar fiebres', de donde viene su nombre en inglés.",
+    "en": "In 17th-century England people ate one leaf a day for headaches; it was used to 'bring down fevers,' which is where its English name comes from."
+   },
+   "seguridad": {
+    "es": "Llagas bucales al masticar hojas; síndrome de rebote al suspender.",
+    "en": "Mouth sores from chewing the leaves; rebound syndrome when stopped."
+   },
+   "interacciones": {
+    "es": "Anticoagulantes.",
+    "en": "Anticoagulants."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-032"
+   ]
+  },
+  {
+   "id": "teverde",
+   "latin": "Camellia sinensis",
+   "nombre": {
+    "es": "Té verde (EGCG)",
+    "en": "Green tea (EGCG)"
+   },
+   "origen": {
+    "es": "China y Japón",
+    "en": "China and Japan"
+   },
+   "regiones": [
+    "as"
+   ],
+   "parte": {
+    "es": "Hojas",
+    "en": "Leaves"
+   },
+   "estandarizacion": {
+    "es": "Catequinas y EGCG (p. ej., 45–50%).",
+    "en": "Catechins and EGCG (e.g., 45–50%)."
+   },
+   "extractos": "Extractos descafeinados estandarizados",
+   "dosis": {
+    "es": "Como bebida es lo más seguro; en extracto, no superar 800 mg/día de EGCG.",
+    "en": "As a beverage it is safest; as an extract, do not exceed 800 mg/day of EGCG."
+   },
+   "evidencia": [
+    {
+     "c": "colesterol",
+     "l": 2,
+     "t": {
+      "es": "Reducción pequeña de LDL.",
+      "en": "Small reduction in LDL."
+     }
+    },
+    {
+     "c": "glucosa",
+     "l": 2,
+     "t": {
+      "es": "Efectos pequeños en peso y metabolismo.",
+      "en": "Small effects on weight and metabolism."
+     }
+    }
+   ],
+   "tradicion": {
+    "es": "Según la leyenda, el emperador Shen Nong descubrió el té en 2737 a. C. cuando unas hojas cayeron en su agua caliente. Es la bebida central de la ceremonia japonesa del té.",
+    "en": "According to legend, Emperor Shen Nong discovered tea in 2737 BC when some leaves fell into his hot water. It is the central drink of the Japanese tea ceremony."
+   },
+   "seguridad": {
+    "es": "Los extractos concentrados en ayunas se han asociado a daño hepático. La bebida es segura.",
+    "en": "Concentrated extracts taken on an empty stomach have been linked to liver injury. The beverage is safe."
+   },
+   "interacciones": {
+    "es": "Nadolol, estimulantes; reduce la absorción de hierro.",
+    "en": "Nadolol, stimulants; reduces iron absorption."
+   },
+   "nsp": [],
+   "seg": [
+    "SEG-018"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,508 @@
+<a class="saltar" href="#principal" data-i18n="saltar">Saltar al contenido</a>
+
+<header class="barra" id="barra">
+  <div class="barra-in">
+    <a class="marca" href="#/" aria-label="Herbolario Consultor · Inicio">
+      <img src="img/icono-192.png" alt="" width="36" height="36">
+      <span><b>Herbolario</b> Consultor</span>
+    </a>
+    <nav class="menu" data-i18n-aria="nav_aria" aria-label="Secciones">
+      <a href="#/" data-ruta="inicio" data-i18n="nav_inicio">Inicio</a>
+      <a href="#/consulta" data-ruta="consulta" data-i18n="consulta">Consulta</a>
+      <a href="#/catalogo" data-ruta="catalogo" data-i18n="catalogo">Catálogo</a>
+      <a href="#/sistemas" data-ruta="sistemas" data-i18n="nav_sistemas">Sistemas</a>
+      <a href="#/evidencia" data-ruta="evidencia" data-i18n="nav_evidencia">Evidencia</a>
+      <a href="#/mtc" data-ruta="mtc" data-i18n="nav_mtc">Medicina china</a>
+      <a href="#/seguridad" data-ruta="seguridad" data-i18n="seg_label">Seguridad</a>
+      <a href="#/contacto" data-ruta="contacto" data-i18n="contacto">Contacto</a>
+    </nav>
+    <div class="herramientas">
+      <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_tienda">Visita la tienda</a>
+      <div class="idioma" role="group" data-i18n-aria="idioma_aria" aria-label="Idioma">
+        <button type="button" data-lang="es" aria-pressed="true" title="Español">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false" title="English">EN</button>
+      </div>
+      <button type="button" class="tema" id="tema" data-i18n-aria="tema" aria-label="Cambiar tema claro u oscuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>
+      </button>
+    </div>
+    <div class="buscador" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="buscar" type="search" autocomplete="off" spellcheck="false" maxlength="80" role="combobox" aria-expanded="false" aria-controls="buscar-lista" aria-autocomplete="list"
+        data-i18n-ph="buscar_ph" placeholder="Buscar hierba, suplemento o producto" data-i18n-aria="buscar_ph" aria-label="Buscar hierba, suplemento o producto">
+      <ul id="buscar-lista" role="listbox" hidden></ul>
+    </div>
+  </div>
+</header>
+
+<noscript><p class="aviso-js">Esta aplicación necesita JavaScript. Activa JavaScript en tu navegador para usarla. · This app needs JavaScript enabled.</p></noscript>
+
+<div class="estado-carga" id="estado-carga" role="status">
+  <span class="giro" aria-hidden="true"></span>
+  <span id="estado-texto">Cargando el catálogo… · Loading…</span>
+  <button class="btn" id="reintentar" type="button" hidden>Reintentar · Retry</button>
+</div>
+
+<main id="principal" tabindex="-1" hidden>
+
+  <!-- ============ INICIO ============ -->
+  <section class="vista" data-vista="inicio" data-i18n-aria="nav_inicio" aria-label="Inicio">
+    <div class="hero">
+      <div class="hero-txt">
+        <span class="label" data-solo="es">Consultoría independiente · Nature's Sunshine</span>
+        <span class="label" data-solo="en">Independent consultant · Nature's Sunshine</span>
+        <h1 data-solo="es">Elige tus suplementos con información clara, no con promesas</h1>
+        <h1 data-solo="en">Choose your supplements with clear information, not promises</h1>
+        <p data-solo="es">Pregunta por un síntoma, una planta o un producto. Te muestro las fichas oficiales del catálogo, lo que dice la ciencia, el uso tradicional y las precauciones con tus medicamentos, todo en un mismo lugar y en tu idioma.</p>
+        <p data-solo="en">Ask about a symptom, a plant or a product. You'll see the official catalog records, what the science says, traditional use and cautions with your medications, all in one place and in your language.</p>
+        <div class="acciones">
+          <a class="btn grande" href="#/consulta"><span data-solo="es">Haz tu consulta gratis</span><span data-solo="en">Ask for free</span></a>
+          <a class="btn grande ghost claro" href="#/contacto"><span data-solo="es">Pide una recomendación personal</span><span data-solo="en">Get a personal recommendation</span></a>
+        </div>
+        <div class="stats" id="stats"></div>
+      </div>
+    </div>
+
+    <div class="bloque">
+      <div class="bloque-cab">
+        <span class="label" data-solo="es">Todo lo que necesitas para decidir</span>
+        <span class="label" data-solo="en">Everything you need to decide</span>
+        <h2 data-solo="es">Una guía completa, gratuita y sin registro</h2>
+        <h2 data-solo="en">A complete guide, free and with no sign-up</h2>
+      </div>
+      <div class="funciones">
+        <a class="funcion" href="#/consulta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+          <h3 data-solo="es">Asistente de consulta</h3><h3 data-solo="en">Question assistant</h3>
+          <p data-solo="es">Escribe lo que buscas y recibe una respuesta basada solo en las fichas del catálogo, con sus referencias.</p>
+          <p data-solo="en">Type what you're looking for and get an answer based only on the catalog records, with references.</p>
+        </a>
+        <a class="funcion" href="#/catalogo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>
+          <h3 data-solo="es">Catálogo de productos</h3><h3 data-solo="en">Product catalog</h3>
+          <p data-solo="es">Ingredientes, modo de uso, beneficios, precauciones y precio de referencia de cada producto.</p>
+          <p data-solo="en">Ingredients, suggested use, benefits, cautions and reference price for every product.</p>
+        </a>
+        <a class="funcion" href="#/sistemas">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="6" r="3"/><path d="M12 9v6M8 21l4-6 4 6M6 12h12"/></svg>
+          <h3 data-solo="es">Guía por sistemas</h3><h3 data-solo="en">Guide by body system</h3>
+          <p data-solo="es">Nervioso, inmunológico, circulatorio, glandular y más: qué hace cada uno y qué lo apoya.</p>
+          <p data-solo="en">Nervous, immune, circulatory, glandular and more: what each one does and what supports it.</p>
+        </a>
+        <a class="funcion" href="#/evidencia">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M10 20V6M15 20v-8M20 20V4"/></svg>
+          <h3 data-solo="es">Evidencia científica</h3><h3 data-solo="en">Scientific evidence</h3>
+          <p data-solo="es">Qué tan fuerte es la evidencia de cada planta por padecimiento, el extracto estudiado y la dosis de los ensayos.</p>
+          <p data-solo="en">How strong the evidence is for each plant by condition, the extract studied and the dose used in trials.</p>
+        </a>
+        <a class="funcion" href="#/mtc">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19l8-8"/></svg>
+          <h3 data-solo="es">Medicina tradicional china</h3><h3 data-solo="en">Traditional Chinese medicine</h3>
+          <p data-solo="es">Fórmulas positivas y negativas, órganos, síntomas y las hierbas chinas que las componen.</p>
+          <p data-solo="en">Positive and negative formulas, organs, symptoms and the Chinese herbs that make them up.</p>
+        </a>
+        <a class="funcion" href="#/seguridad">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="M12 8v5"/><path d="M12 16v.5"/></svg>
+          <h3 data-solo="es">Seguridad e interacciones</h3><h3 data-solo="en">Safety and interactions</h3>
+          <p data-solo="es">Interacciones documentadas con medicamentos, con su gravedad, su nivel de evidencia y su fuente.</p>
+          <p data-solo="en">Documented interactions with medications, with their severity, level of evidence and source.</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="bloque pasos">
+      <div class="bloque-cab">
+        <span class="label" data-solo="es">Cómo funciona</span><span class="label" data-solo="en">How it works</span>
+        <h2 data-solo="es">Tres pasos para elegir con confianza</h2><h2 data-solo="en">Three steps to choose with confidence</h2>
+      </div>
+      <ol class="pasos-lista">
+        <li><b>1</b><div><h3 data-solo="es">Cuéntame qué buscas</h3><h3 data-solo="en">Tell me what you need</h3>
+          <p data-solo="es">Un síntoma, un ingrediente, una planta o el nombre de un producto.</p><p data-solo="en">A symptom, an ingredient, a plant or a product name.</p></div></li>
+        <li><b>2</b><div><h3 data-solo="es">Compara y revisa</h3><h3 data-solo="en">Compare and review</h3>
+          <p data-solo="es">Lee las fichas, la evidencia y las precauciones. Guarda tus favoritas.</p><p data-solo="en">Read the records, the evidence and the cautions. Save your favorites.</p></div></li>
+        <li><b>3</b><div><h3 data-solo="es">Pide con asesoría</h3><h3 data-solo="en">Order with guidance</h3>
+          <p data-solo="es">Compra en la tienda oficial o escríbeme por WhatsApp y te ayudo a elegir.</p><p data-solo="en">Buy from the official store or message me on WhatsApp and I'll help you choose.</p></div></li>
+      </ol>
+    </div>
+
+    <section class="plantas bloque" data-i18n-aria="plantas_h2" aria-label="Plantas de nuestros productos">
+      <div class="bloque-cab">
+        <span class="label" data-i18n="plantas_label">De la naturaleza a tu bienestar</span>
+        <h2 data-i18n="plantas_h2">Plantas de nuestros productos</h2>
+        <p data-i18n="plantas_p">Algunas de las plantas que contienen los productos y las fórmulas chinas de Nature's Sunshine. Toca un nombre para ver la ficha.</p>
+      </div>
+      <div class="galeria" id="galeria"></div>
+    </section>
+
+    <div class="bloque cta-doble">
+      <div class="cta-tarjeta">
+        <h2 data-solo="es">¿Prefieres que te oriente en persona?</h2><h2 data-solo="en">Would you rather get personal guidance?</h2>
+        <p data-solo="es">Cuéntame qué necesitas y te respondo por WhatsApp con opciones del catálogo. Sin costo y sin compromiso.</p>
+        <p data-solo="en">Tell me what you need and I'll reply on WhatsApp with options from the catalog. Free, with no obligation.</p>
+        <a class="btn grande" href="#/contacto"><span data-solo="es">Pedir recomendación</span><span data-solo="en">Ask for a recommendation</span></a>
+      </div>
+      <div class="cta-tarjeta sol">
+        <h2 data-solo="es">Comparte el bienestar y genera ingresos</h2><h2 data-solo="en">Share wellness and earn income</h2>
+        <p data-solo="es">Si te gustan los productos, puedes registrarte como consultor independiente. Te acompaño en tus primeros pasos.</p>
+        <p data-solo="en">If you like the products, you can sign up as an independent consultant. I'll walk you through your first steps.</p>
+        <a class="btn grande ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
+      </div>
+    </div>
+
+    <div class="bloque faq">
+      <div class="bloque-cab">
+        <span class="label" data-solo="es">Preguntas frecuentes</span><span class="label" data-solo="en">Frequently asked questions</span>
+        <h2 data-solo="es">Lo que suelen preguntarme</h2><h2 data-solo="en">What people usually ask me</h2>
+      </div>
+      <details><summary><span data-solo="es">¿Usar esta guía tiene algún costo?</span><span data-solo="en">Does this guide cost anything?</span></summary>
+        <p data-solo="es">No. La consulta, el catálogo y todas las secciones son gratuitas y no necesitas crear una cuenta.</p>
+        <p data-solo="en">No. The assistant, the catalog and every section are free, and you don't need an account.</p></details>
+      <details><summary><span data-solo="es">¿El asistente reemplaza a mi médico?</span><span data-solo="en">Does the assistant replace my doctor?</span></summary>
+        <p data-solo="es">No. Es información orientativa sobre suplementos alimenticios, que no diagnostican, tratan ni curan enfermedades. Si tomas medicamentos, estás embarazada o tienes una condición médica, consulta a un profesional antes de usar cualquier suplemento.</p>
+        <p data-solo="en">No. It is general information about dietary supplements, which do not diagnose, treat or cure disease. If you take medications, are pregnant or have a medical condition, talk to a professional before using any supplement.</p></details>
+      <details><summary><span data-solo="es">¿Dónde compro los productos?</span><span data-solo="en">Where do I buy the products?</span></summary>
+        <p data-solo="es">En la tienda oficial de Nature's Sunshine, con el botón «Visita la tienda». Ahí verás los precios actuales y las opciones de envío de tu país. También puedes escribirme y te ayudo con el pedido.</p>
+        <p data-solo="en">In the official Nature's Sunshine store, with the "Visit the store" button. There you'll see current prices and shipping options for your country. You can also message me and I'll help you with your order.</p></details>
+      <details><summary><span data-solo="es">¿Guardan mis preguntas o mis datos?</span><span data-solo="en">Do you keep my questions or my data?</span></summary>
+        <p data-solo="es">No guardamos tus preguntas ni pedimos datos personales. Tus favoritas, el idioma y el tema se guardan solo en tu dispositivo. Los detalles están en el <a href="#/privacidad">aviso de privacidad</a>.</p>
+        <p data-solo="en">We don't keep your questions or ask for personal data. Your favorites, language and theme are stored only on your device. Details are in the <a href="#/privacidad">privacy notice</a>.</p></details>
+      <details><summary><span data-solo="es">¿Puedo usarla en mi teléfono como una app?</span><span data-solo="en">Can I use it on my phone like an app?</span></summary>
+        <p data-solo="es">Sí. En Android abre el menú del navegador y elige «Instalar app»; en iPhone toca Compartir y luego «Agregar a pantalla de inicio». Después de abrirla una vez, también funciona sin conexión (el asistente con IA necesita internet).</p>
+        <p data-solo="en">Yes. On Android, open the browser menu and choose "Install app"; on iPhone, tap Share and then "Add to Home Screen". After opening it once, it also works offline (the AI assistant needs internet).</p></details>
+    </div>
+  </section>
+
+  <!-- ============ CONSULTA ============ -->
+  <section class="vista" data-vista="consulta" data-i18n-aria="consulta" aria-label="Consulta" hidden>
+    <div class="vista-cab">
+      <span class="label" data-i18n="hero_label">Asistente · catálogo de Nature's Sunshine</span>
+      <h1 data-i18n="consulta_h1">Haz tu consulta</h1>
+      <p data-i18n="hero_p">Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y el asistente responde usando solo esas fichas, con sus referencias.</p>
+    </div>
+    <div class="workbench">
+      <div class="panel">
+        <div class="chat" id="chat" aria-live="polite"></div>
+        <div class="chips" id="sugerencias"></div>
+        <form class="ask" id="ask" novalidate>
+          <label class="sr" for="q" data-i18n="q_aria">Tu pregunta</label>
+          <input id="q" type="text" autocomplete="off" maxlength="600" required data-i18n-ph="q_ph" placeholder="Ej.: ¿Qué me ayuda a dormir mejor?">
+          <button class="btn" id="send" type="submit" data-i18n="preguntar">Preguntar</button>
+          <button class="btn ghost" id="stop" type="button" hidden data-i18n="detener">Detener</button>
+        </form>
+        <p class="note" id="ai-note"></p>
+      </div>
+      <aside class="panel" data-i18n-aria="fichas_rec" aria-label="Fichas recuperadas">
+        <div>
+          <h2 data-i18n="fichas_rec">Fichas recuperadas</h2>
+          <p class="note" id="hits-for"></p>
+        </div>
+        <div class="hits" id="hits"></div>
+        <p class="note" data-i18n="bm25_note">Puntuación BM25: cuanto más alta, más términos de tu pregunta coinciden con la ficha. Toca una para verla.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ CATÁLOGO ============ -->
+  <section class="vista catalogo" data-vista="catalogo" id="catalogo" data-i18n-aria="catalogo" aria-label="Catálogo" hidden>
+    <div class="cat-head">
+      <div>
+        <span class="label" data-solo="es">Nature's Sunshine · tienda de EE. UU.</span><span class="label" data-solo="en">Nature's Sunshine · US store</span>
+        <h1 data-i18n="catalogo">Catálogo</h1>
+      </div>
+      <div class="filters">
+        <input id="filtro" type="search" maxlength="80" data-i18n-ph="filtro_ph" placeholder="Filtrar por nombre o ingrediente" data-i18n-aria="filtro_ph" aria-label="Filtrar catálogo">
+        <select id="categoria" data-i18n-aria="categoria" aria-label="Categoría"></select>
+      </div>
+    </div>
+    <p class="note" id="cuenta"></p>
+    <div class="grid" id="grid"></div>
+    <button class="btn ghost mas" id="mas-cat" type="button" hidden></button>
+  </section>
+
+  <!-- ============ SISTEMAS ============ -->
+  <section class="vista sistemas" data-vista="sistemas" id="sistemas" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo" hidden>
+    <div class="vista-cab">
+      <span class="label" data-i18n="sis_label">Guía por sistemas</span>
+      <h1 data-i18n="sis_h2">Sistemas del cuerpo</h1>
+      <p data-i18n="sis_p">Elige un sistema para ver qué hace, señales de que puede necesitar apoyo, hábitos que lo cuidan y los productos, fórmulas chinas y hierbas relacionadas.</p>
+    </div>
+    <div class="chips" id="sis-tabs" role="group" data-i18n-aria="sis_h2" aria-label="Sistemas del cuerpo"></div>
+    <div id="sis-ficha"></div>
+  </section>
+
+  <!-- ============ EVIDENCIA (Herbario clínico) ============ -->
+  <section class="vista evidencia" data-vista="evidencia" id="evidencia" data-i18n-aria="nav_evidencia" aria-label="Evidencia" hidden>
+    <div class="vista-cab">
+      <span class="label" data-solo="es">Herbario clínico</span><span class="label" data-solo="en">Clinical herbarium</span>
+      <h1 data-solo="es">Plantas medicinales y su evidencia científica</h1>
+      <h1 data-solo="en">Medicinal plants and their scientific evidence</h1>
+      <p data-solo="es">Plantas de todo el mundo con el extracto estandarizado que se usó en los estudios, la fuerza real de la evidencia por padecimiento y lo que dice la tradición.</p>
+      <p data-solo="en">Plants from around the world with the standardized extract used in studies, the real strength of the evidence by condition, and what tradition says.</p>
+    </div>
+    <div class="subtabs" role="tablist" id="evi-tabs" data-i18n-aria="nav_evidencia" aria-label="Evidencia">
+      <button type="button" role="tab" data-evi="plantas" aria-selected="true"><span data-solo="es">Plantas</span><span data-solo="en">Plants</span></button>
+      <button type="button" role="tab" data-evi="padecimiento" aria-selected="false"><span data-solo="es">Por padecimiento</span><span data-solo="en">By condition</span></button>
+      <button type="button" role="tab" data-evi="calidad" aria-selected="false"><span data-solo="es">Cómo elegir calidad</span><span data-solo="en">Choosing quality</span></button>
+      <button type="button" role="tab" data-evi="guardadas" aria-selected="false"><span data-solo="es">Guardadas</span><span data-solo="en">Saved</span> <span class="cuenta" id="evi-favs">0</span></button>
+    </div>
+    <div id="evi-cuerpo" role="tabpanel"></div>
+    <p class="note" data-solo="es">Información educativa basada en ensayos clínicos, revisiones sistemáticas y monografías (EMA/HMPC, Comisión E, Cochrane, NCCIH). Los resultados corresponden a los extractos estudiados, no a cualquier producto con la misma planta. Los usos tradicionales no están comprobados científicamente.</p>
+    <p class="note" data-solo="en">Educational information based on clinical trials, systematic reviews and monographs (EMA/HMPC, Commission E, Cochrane, NCCIH). Results apply to the extracts studied, not to any product with the same plant. Traditional uses are not scientifically proven.</p>
+  </section>
+
+  <!-- ============ MEDICINA CHINA ============ -->
+  <section class="vista tcm" data-vista="mtc" id="tcm" data-i18n-aria="tcm_h2" aria-label="Fórmulas chinas" hidden>
+    <div class="vista-cab">
+      <span class="label" data-i18n="tcm_label">Medicina tradicional china</span>
+      <h1 data-i18n="tcm_h2">Fórmulas chinas: modelo Positivo y Negativo</h1>
+    </div>
+    <div class="polos" id="polos"></div>
+    <div class="modelo" id="modelo"></div>
+    <div class="cat-head">
+      <h2 data-i18n="formulas">Fórmulas</h2>
+      <div class="filters">
+        <div class="chips" id="f-pol" role="group" data-i18n-aria="polaridad" aria-label="Polaridad"></div>
+        <select id="f-organo" data-i18n-aria="organo" aria-label="Órgano"></select>
+      </div>
+    </div>
+    <div class="grid" id="grid-tcm"></div>
+    <button class="btn ghost mas" id="mas-tcm" type="button" hidden></button>
+    <div class="cat-head">
+      <h2 data-i18n="hierbas_chinas">Hierbas chinas</h2>
+      <div class="filters">
+        <input id="f-hierba" type="search" maxlength="80" data-i18n-ph="f_hierba_ph" placeholder="Buscar hierba, órgano o síntoma" data-i18n-aria="f_hierba_ph" aria-label="Buscar hierba">
+      </div>
+    </div>
+    <p class="note" id="cuenta-hierbas"></p>
+    <div class="grid" id="grid-hierbas"></div>
+    <button class="btn ghost mas" id="mas-hie" type="button" hidden></button>
+  </section>
+
+  <!-- ============ SEGURIDAD ============ -->
+  <section class="vista seguridad" data-vista="seguridad" id="seguridad" data-i18n-aria="seg_h2" aria-label="Seguridad e interacciones" hidden>
+    <div class="vista-cab">
+      <span class="label" data-i18n="seg_label">Seguridad</span>
+      <h1 data-i18n="seg_h2">Seguridad e interacciones con medicamentos</h1>
+    </div>
+    <div class="alerta" role="note">
+      <strong data-i18n="seg_alerta_t">Información orientativa, no sustituye a tu médico o farmacéutico.</strong>
+      <p data-i18n="seg_alerta_p">Si tomas medicamentos, estás embarazada o en lactancia, o vas a operarte, consulta antes de tomar cualquier hierba o suplemento. No suspendas ni cambies un medicamento por tu cuenta.</p>
+    </div>
+    <div class="cat-head">
+      <p class="note" id="cuenta-seg"></p>
+      <div class="filters">
+        <input id="f-seg" type="search" maxlength="80" data-i18n-ph="seg_ph" placeholder="Busca una hierba o un medicamento (p. ej. warfarina)" data-i18n-aria="seg_ph" aria-label="Buscar">
+        <select id="f-clase" data-i18n-aria="seg_clase" aria-label="Tipo de medicamento"></select>
+        <select id="f-sev" data-i18n-aria="seg_sev" aria-label="Gravedad"></select>
+      </div>
+    </div>
+    <div class="grid-seg" id="grid-seg"></div>
+    <button class="btn ghost mas" id="mas-seg" type="button" hidden></button>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="vista" data-vista="contacto" data-i18n-aria="contacto" aria-label="Contacto" hidden>
+    <div class="contacto" id="contacto">
+      <div class="intro">
+        <span class="label" data-i18n="contacto">Contacto</span>
+        <h1 data-i18n="contacto_h2">Escríbeme</h1>
+        <p data-i18n="contacto_p">Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar.</p>
+        <div class="acciones">
+          <a class="btn" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="comprar">Comprar en mi tienda</a>
+          <a class="btn ghost" href="https://wa.me/17084905878" target="_blank" rel="noopener" data-i18n="escribir_wa">Escribir por WhatsApp</a>
+          <a class="btn ghost" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="btn_consultor">Hazte consultor</a>
+        </div>
+      </div>
+      <dl class="datos">
+        <div class="dato"><dt data-i18n="nombre">Nombre</dt><dd>Nilda Esparza</dd></div>
+        <div class="dato"><dt data-i18n="telefono">Teléfono</dt><dd>(708) 490-5878</dd><button class="copiar" type="button" data-copiar="(708) 490-5878" data-i18n="copiar">Copiar</button></div>
+        <div class="dato"><dt>WhatsApp</dt><dd>+1 (708) 490-5878</dd><a class="copiar" href="https://wa.me/17084905878" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
+        <div class="dato"><dt>Instagram</dt><dd>@nilda7774</dd><a class="copiar" href="https://www.instagram.com/nilda7774/" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
+        <div class="dato"><dt data-i18n="correo">Correo</dt><dd>nilda7774@gmail.com</dd><button class="copiar" type="button" data-copiar="nilda7774@gmail.com" data-i18n="copiar">Copiar</button></div>
+        <div class="dato"><dt data-i18n="mi_tienda">Mi tienda</dt><dd>naturessunshine.com/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
+        <div class="dato"><dt data-i18n="btn_consultor">Hazte consultor</dt><dd>naturessunshine.com/share-with-network/?referrer=60869881</dd><a class="copiar" href="https://www.naturessunshine.com/share-with-network/?referrer=60869881&amp;offer=NSP" target="_blank" rel="noopener" data-i18n="abrir">Abrir</a></div>
+      </dl>
+    </div>
+
+    <form class="pedido" id="pedido" novalidate>
+      <div>
+        <h2 data-solo="es">Pide una recomendación por WhatsApp</h2><h2 data-solo="en">Ask for a recommendation on WhatsApp</h2>
+        <p class="note" data-solo="es">Al enviar se abre WhatsApp con tu mensaje listo; tú decides si lo mandas. Esta página no guarda nada. No incluyas diagnósticos ni datos médicos detallados.</p>
+        <p class="note" data-solo="en">When you submit, WhatsApp opens with your message ready; you decide whether to send it. This page stores nothing. Don't include diagnoses or detailed medical information.</p>
+      </div>
+      <div class="campo">
+        <label for="p-nombre"><span data-solo="es">Tu nombre</span><span data-solo="en">Your name</span></label>
+        <input id="p-nombre" name="nombre" type="text" autocomplete="given-name" maxlength="60" required>
+        <span class="error" id="p-nombre-error" aria-live="polite"></span>
+      </div>
+      <div class="campo">
+        <label for="p-tema"><span data-solo="es">¿Sobre qué quieres ayuda?</span><span data-solo="en">What do you need help with?</span></label>
+        <select id="p-tema" name="tema" required></select>
+        <span class="error" id="p-tema-error" aria-live="polite"></span>
+      </div>
+      <div class="campo ancho">
+        <label for="p-mensaje"><span data-solo="es">Cuéntame un poco más</span><span data-solo="en">Tell me a little more</span></label>
+        <textarea id="p-mensaje" name="mensaje" rows="4" maxlength="500" required></textarea>
+        <span class="contador" id="p-contador" aria-live="polite">0/500</span>
+        <span class="error" id="p-mensaje-error" aria-live="polite"></span>
+      </div>
+      <label class="check ancho"><input type="checkbox" id="p-acepto" required>
+        <span data-solo="es">Leí el <a href="#/privacidad">aviso de privacidad</a> y entiendo que esto no sustituye una consulta médica.</span>
+        <span data-solo="en">I have read the <a href="#/privacidad">privacy notice</a> and understand this does not replace medical advice.</span></label>
+      <span class="error ancho" id="p-acepto-error" aria-live="polite"></span>
+      <button class="btn grande" type="submit"><span data-solo="es">Abrir WhatsApp con mi mensaje</span><span data-solo="en">Open WhatsApp with my message</span></button>
+    </form>
+  </section>
+
+  <!-- ============ PRIVACIDAD ============ -->
+  <section class="vista legal" data-vista="privacidad" aria-label="Privacidad" hidden>
+    <div data-solo="es">
+      <span class="label">Legal</span>
+      <h1>Aviso de privacidad</h1>
+      <p class="note">Última actualización: 28 de octubre de 2026.</p>
+      <h2>Quién es responsable</h2>
+      <p>Este sitio lo mantiene Nilda Esparza, consultora independiente de Nature's Sunshine Products. No es un sitio oficial de Nature's Sunshine. Para cualquier pregunta sobre privacidad escribe a <a href="mailto:nilda7774@gmail.com">nilda7774@gmail.com</a>.</p>
+      <h2>Qué datos tratamos</h2>
+      <ul>
+        <li><b>No hay cuentas ni registro.</b> No pedimos tu nombre, correo ni teléfono para usar la guía.</li>
+        <li><b>No usamos cookies</b> ni herramientas de analítica, publicidad o rastreo.</li>
+        <li><b>Preferencias en tu dispositivo.</b> El idioma, el tema claro u oscuro y tus plantas guardadas se almacenan en el almacenamiento local de tu navegador. Nunca salen de tu dispositivo y puedes borrarlos desde la configuración del navegador.</li>
+        <li><b>Preguntas al asistente.</b> Cuando escribes una pregunta, se envía junto con las fichas del catálogo a nuestro servidor, que la reenvía al servicio de inteligencia artificial Gemini de Google para redactar la respuesta. No guardamos el texto de tus preguntas ni de las respuestas. Google trata esos datos según sus propias condiciones. Por eso te pedimos que no escribas datos personales ni información médica que te identifique.</li>
+        <li><b>Datos técnicos.</b> Para evitar abusos, el servidor guarda en memoria, durante un máximo de 24 horas, la dirección IP y la hora de cada pregunta, y registra datos técnicos (hora, resultado y tamaño de la petición) sin el contenido de la pregunta. El proveedor de alojamiento (Render) también registra datos técnicos de acceso.</li>
+        <li><b>Formulario de WhatsApp.</b> El formulario de contacto solo prepara un mensaje y abre WhatsApp; esta página no lo envía ni lo guarda. Si decides mandarlo, WhatsApp lo trata según su política de privacidad.</li>
+      </ul>
+      <h2>Enlaces externos</h2>
+      <p>Los enlaces a la tienda de Nature's Sunshine, WhatsApp e Instagram te llevan a sitios con sus propias políticas de privacidad. Los enlaces a la tienda incluyen mi código de consultora.</p>
+      <h2>Menores de edad</h2>
+      <p>Este sitio está dirigido a personas adultas. Los menores deben usarlo con un adulto responsable.</p>
+      <h2>Tus derechos</h2>
+      <p>Como no guardamos datos personales, normalmente no hay información tuya que consultar o borrar. Si tienes una duda o una solicitud, escríbenos y te responderemos.</p>
+      <h2>Cambios</h2>
+      <p>Si cambia este aviso, actualizaremos la fecha de arriba.</p>
+    </div>
+    <div data-solo="en">
+      <span class="label">Legal</span>
+      <h1>Privacy notice</h1>
+      <p class="note">Last updated: October 28, 2026.</p>
+      <h2>Who is responsible</h2>
+      <p>This site is run by Nilda Esparza, an independent Nature's Sunshine Products consultant. It is not an official Nature's Sunshine website. For any privacy question, write to <a href="mailto:nilda7774@gmail.com">nilda7774@gmail.com</a>.</p>
+      <h2>What data we handle</h2>
+      <ul>
+        <li><b>No accounts or sign-up.</b> We don't ask for your name, email or phone to use the guide.</li>
+        <li><b>We don't use cookies</b> or analytics, advertising or tracking tools.</li>
+        <li><b>Preferences on your device.</b> Your language, light or dark theme and saved plants are kept in your browser's local storage. They never leave your device and you can delete them in your browser settings.</li>
+        <li><b>Questions to the assistant.</b> When you type a question, it is sent with the catalog records to our server, which forwards it to Google's Gemini AI service to write the answer. We don't keep the text of your questions or the answers. Google handles that data under its own terms. That is why we ask you not to type personal data or medical information that identifies you.</li>
+        <li><b>Technical data.</b> To prevent abuse, the server keeps in memory, for at most 24 hours, the IP address and time of each question, and logs technical data (time, result and request size) without the content of the question. The hosting provider (Render) also logs technical access data.</li>
+        <li><b>WhatsApp form.</b> The contact form only prepares a message and opens WhatsApp; this page doesn't send or store it. If you choose to send it, WhatsApp handles it under its privacy policy.</li>
+      </ul>
+      <h2>External links</h2>
+      <p>Links to the Nature's Sunshine store, WhatsApp and Instagram take you to sites with their own privacy policies. Store links include my consultant code.</p>
+      <h2>Minors</h2>
+      <p>This site is meant for adults. Minors should use it with a responsible adult.</p>
+      <h2>Your rights</h2>
+      <p>Because we don't keep personal data, there is usually no information about you to review or delete. If you have a question or request, write to us and we'll reply.</p>
+      <h2>Changes</h2>
+      <p>If this notice changes, we'll update the date above.</p>
+    </div>
+  </section>
+
+  <!-- ============ TÉRMINOS ============ -->
+  <section class="vista legal" data-vista="terminos" aria-label="Términos" hidden>
+    <div data-solo="es">
+      <span class="label">Legal</span>
+      <h1>Términos de uso</h1>
+      <p class="note">Última actualización: 28 de octubre de 2026.</p>
+      <h2>Qué es este sitio</h2>
+      <p>Herbolario Consultor es una guía informativa creada por una consultora independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Los nombres de productos y marcas pertenecen a sus dueños.</p>
+      <h2>No es consejo médico</h2>
+      <p>El contenido es educativo y orientativo. Los suplementos alimenticios no diagnostican, tratan, curan ni previenen enfermedades. No uses esta información para sustituir la consulta con un profesional de la salud, y no suspendas ni cambies un medicamento por tu cuenta. Ante una emergencia, llama a los servicios de emergencia de tu país.</p>
+      <h2>Asistente con inteligencia artificial</h2>
+      <p>Las respuestas del asistente las redacta una inteligencia artificial a partir de las fichas del catálogo y pueden contener errores u omisiones. Revisa siempre las fichas citadas y la etiqueta del producto.</p>
+      <h2>Precios y disponibilidad</h2>
+      <p>Las fichas se tomaron de la tienda de EE. UU. de Nature's Sunshine el 30 de septiembre de 2026. Los precios son de referencia; los vigentes, las fórmulas y la disponibilidad en tu país son los que indica la tienda oficial y la etiqueta.</p>
+      <h2>Uso aceptable</h2>
+      <p>No intentes dañar el sitio, saturar el asistente, extraer datos de forma automatizada ni usar el asistente para fines distintos a esta guía. Podemos limitar o bloquear el acceso en caso de abuso.</p>
+      <h2>Responsabilidad</h2>
+      <p>El sitio se ofrece tal como está. Hacemos lo posible para que la información sea correcta y esté actualizada, pero no garantizamos que no tenga errores. No somos responsables por decisiones tomadas solo con base en esta información.</p>
+      <h2>Fotos y fuentes</h2>
+      <p>Las fotos de plantas provienen de Wikimedia Commons con las licencias indicadas al pie de la página. Las fuentes de seguridad e interacciones se citan en cada ficha.</p>
+      <h2>Contacto</h2>
+      <p>Para cualquier duda escribe a <a href="mailto:nilda7774@gmail.com">nilda7774@gmail.com</a>.</p>
+    </div>
+    <div data-solo="en">
+      <span class="label">Legal</span>
+      <h1>Terms of use</h1>
+      <p class="note">Last updated: October 28, 2026.</p>
+      <h2>What this site is</h2>
+      <p>Herbolario Consultor is an informational guide created by an independent Nature's Sunshine Products consultant. It is not an official company website. Product names and trademarks belong to their owners.</p>
+      <h2>Not medical advice</h2>
+      <p>The content is educational and for general guidance. Dietary supplements do not diagnose, treat, cure or prevent disease. Don't use this information instead of seeing a health professional, and never stop or change a medication on your own. In an emergency, call your local emergency services.</p>
+      <h2>AI assistant</h2>
+      <p>The assistant's answers are written by an AI from the catalog records and may contain errors or omissions. Always check the cited records and the product label.</p>
+      <h2>Prices and availability</h2>
+      <p>Records were taken from the Nature's Sunshine US store on September 30, 2026. Prices are for reference; current prices, formulas and availability in your country are those shown in the official store and on the label.</p>
+      <h2>Acceptable use</h2>
+      <p>Don't try to harm the site, overload the assistant, scrape data automatically or use the assistant for purposes other than this guide. We may limit or block access in case of abuse.</p>
+      <h2>Liability</h2>
+      <p>The site is provided as is. We do our best to keep the information accurate and up to date, but we don't guarantee it is error-free. We are not responsible for decisions made solely on the basis of this information.</p>
+      <h2>Photos and sources</h2>
+      <p>Plant photos come from Wikimedia Commons under the licenses listed at the bottom of the page. Safety and interaction sources are cited in each record.</p>
+      <h2>Contact</h2>
+      <p>For any question, write to <a href="mailto:nilda7774@gmail.com">nilda7774@gmail.com</a>.</p>
+    </div>
+  </section>
+
+  <!-- ============ NO ENCONTRADO ============ -->
+  <section class="vista no-encontrado" data-vista="no-encontrado" aria-label="404" hidden>
+    <p class="codigo">404</p>
+    <h1 data-solo="es">No encontramos esta página</h1><h1 data-solo="en">We couldn't find this page</h1>
+    <p data-solo="es">Puede que el enlace esté mal escrito o que la página ya no exista.</p>
+    <p data-solo="en">The link may be mistyped or the page may no longer exist.</p>
+    <div class="acciones">
+      <a class="btn grande" href="#/"><span data-solo="es">Volver al inicio</span><span data-solo="en">Back to home</span></a>
+      <a class="btn grande ghost" href="#/consulta"><span data-solo="es">Hacer una consulta</span><span data-solo="en">Ask a question</span></a>
+    </div>
+  </section>
+</main>
+
+<dialog class="ficha-evi" id="evi-ficha" aria-labelledby="evi-titulo"></dialog>
+
+<div class="mas-menu" id="mas-menu" hidden>
+  <nav data-i18n-aria="nav_aria" aria-label="Secciones">
+    <a href="#/sistemas" data-i18n="nav_sistemas">Sistemas</a>
+    <a href="#/mtc" data-i18n="nav_mtc">Medicina china</a>
+    <a href="#/seguridad" data-i18n="seg_label">Seguridad</a>
+    <a href="#/contacto" data-i18n="contacto">Contacto</a>
+    <a href="#/privacidad" data-i18n="privacidad">Privacidad</a>
+    <a href="#/terminos" data-i18n="terminos">Términos</a>
+  </nav>
+</div>
+
+<nav class="nav-movil" data-i18n-aria="nav_aria" aria-label="Secciones">
+  <a href="#/" data-ruta="inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg><span data-i18n="nav_inicio">Inicio</span></a>
+  <a href="#/consulta" data-ruta="consulta"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><span data-i18n="nav_preguntar">Preguntar</span></a>
+  <a href="#/catalogo" data-ruta="catalogo"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg><span data-i18n="catalogo">Catálogo</span></a>
+  <a href="#/evidencia" data-ruta="evidencia"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M10 20V6M15 20v-8M20 20V4"/></svg><span data-i18n="nav_evidencia">Evidencia</span></a>
+  <a class="wa" href="https://wa.me/17084905878" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19l1.2-3.6A8 8 0 1 1 9 18.5z"/><path d="M9.5 9.5c.5 2 2 3.5 4 4l1-1 2 1"/></svg><span>WhatsApp</span></a>
+  <button type="button" id="mas-btn" aria-expanded="false" aria-controls="mas-menu"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span data-i18n="nav_mas">Más</span></button>
+</nav>
+
+<footer class="pie">
+  <div class="pie-in">
+    <div>
+      <a class="marca" href="#/"><img src="img/icono-192.png" alt="" width="32" height="32" loading="lazy"><span><b>Herbolario</b> Consultor</span></a>
+      <p data-i18n="footer1">Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.</p>
+      <p data-i18n="footer2">Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.</p>
+    </div>
+    <nav class="pie-enlaces" data-i18n-aria="nav_aria" aria-label="Secciones">
+      <a href="#/consulta" data-i18n="consulta">Consulta</a>
+      <a href="#/catalogo" data-i18n="catalogo">Catálogo</a>
+      <a href="#/evidencia" data-i18n="nav_evidencia">Evidencia</a>
+      <a href="#/contacto" data-i18n="contacto">Contacto</a>
+      <a href="#/privacidad" data-i18n="privacidad">Privacidad</a>
+      <a href="#/terminos" data-i18n="terminos">Términos</a>
+    </nav>
+  </div>
+  <p class="creditos" id="creditos"></p>
+  <p class="copy">© <span id="anio">2026</span> Nilda Esparza · Herbolario Consultor</p>
+</footer>

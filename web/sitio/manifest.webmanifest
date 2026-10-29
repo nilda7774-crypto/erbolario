@@ -1,23 +1,63 @@
 {
+ "id": "/",
  "name": "Herbolario Consultor",
  "short_name": "Herbolario",
  "lang": "es",
- "description": "Catálogo de Nature's Sunshine, fórmulas chinas y hierbas.",
- "start_url": "./",
- "scope": "./",
+ "description": "Guía de suplementos Nature's Sunshine: consulta, catálogo, evidencia y seguridad.",
+ "start_url": "/",
+ "scope": "/",
  "display": "standalone",
+ "orientation": "any",
  "background_color": "#f2f4ee",
  "theme_color": "#2d6a4c",
+ "categories": [
+  "health",
+  "lifestyle",
+  "education"
+ ],
  "icons": [
   {
-   "src": "img/icono-192.png",
+   "src": "/img/icono-192.png",
    "sizes": "192x192",
    "type": "image/png"
   },
   {
-   "src": "img/icono-512.png",
+   "src": "/img/icono-512.png",
    "sizes": "512x512",
-   "type": "image/png"
+   "type": "image/png",
+   "purpose": "any"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Haz tu consulta",
+   "url": "/#/consulta",
+   "icons": [
+    {
+     "src": "/img/icono-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Catálogo",
+   "url": "/#/catalogo",
+   "icons": [
+    {
+     "src": "/img/icono-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Evidencia científica",
+   "url": "/#/evidencia",
+   "icons": [
+    {
+     "src": "/img/icono-192.png",
+     "sizes": "192x192"
+    }
+   ]
   }
  ]
 }

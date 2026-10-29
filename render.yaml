@@ -1,11 +1,40 @@
-# Render: sitio estático con el Herbolario Consultor.
-# La página ya está generada en web/sitio (se regenera con: python build_web.py).
+# Render: sitio estático (herbolario-consultor) y asistente con Gemini (herbolario-api).
+# El sitio ya está generado en web/sitio (se regenera con: python build_web.py).
+# Render añade por su cuenta HTTPS, Strict-Transport-Security y X-Content-Type-Options: nosniff.
 services:
   - type: web
     name: herbolario-consultor
     runtime: static
     buildCommand: echo "Sitio ya generado en web/sitio"
     staticPublishPath: ./web/sitio
+    headers:
+      # Política de seguridad de contenido: solo scripts y estilos propios (sin código en línea),
+      # fuentes de Google y conexión con el servidor del asistente.
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://herbolario-api.onrender.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+      - path: /*
+        name: Cross-Origin-Opener-Policy
+        value: same-origin
+      # Archivos con versión en el nombre: se pueden guardar un año. El service worker siempre se revisa.
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /img/*
+        name: Cache-Control
+        value: public, max-age=604800
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
 
   # Asistente con Gemini (plan gratuito). La clave GEMINI_API_KEY se escribe en el panel de Render, nunca aquí.
   - type: web
@@ -21,4 +50,6 @@ services:
       - key: GEMINI_MODEL
         value: gemini-2.5-flash
       - key: ALLOWED_ORIGINS
-        value: https://herbolario-consultor.onrender.com,http://localhost:8765
+        value: https://herbolario-consultor.onrender.com
+      - key: TOTAL_POR_DIA
+        value: "1500"

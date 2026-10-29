@@ -1,0 +1,1492 @@
+(async () => {
+  // ================= Carga de datos =================
+  // Versión de un solo archivo: datos incrustados en <script id="data">. Sitio: datos.json (ruta en <meta name="datos">).
+  async function cargarDatos() {
+    const incrustado = document.getElementById("data");
+    if (incrustado) return JSON.parse(incrustado.textContent);
+    const url = document.querySelector('meta[name="datos"]')?.content || "datos.json";
+    const r = await fetch(url, { credentials: "same-origin" });
+    if (!r.ok) throw new Error("datos " + r.status);
+    return r.json();
+  }
+  function esperarReintento() {
+    const ingles = (navigator.language || "").startsWith("en");
+    document.getElementById("estado-texto").textContent = ingles
+      ? "We couldn't load the catalog. Check your connection and try again."
+      : "No se pudo cargar el catálogo. Revisa tu conexión e inténtalo de nuevo.";
+    document.getElementById("estado-carga").classList.add("error");
+    const b = document.getElementById("reintentar");
+    b.hidden = false;
+    return new Promise((ok) => b.addEventListener("click", () => {
+      b.hidden = true; document.getElementById("estado-carga").classList.remove("error");
+      document.getElementById("estado-texto").textContent = ingles ? "Loading…" : "Cargando…";
+      ok();
+    }, { once: true }));
+  }
+  let DATOS;
+  for (;;) {
+    try { DATOS = await cargarDatos(); break; } catch { await esperarReintento(); }
+  }
+  const CREDITOS = DATOS.creditos || {};
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const L = (v) => (v && v.length ? v.join(", ") : "—");
+  const TIENDA = "https://www.naturessunshine.com/?referrer=60869881&offer=NSP";
+  const WA = "https://wa.me/17084905878";
+
+  // ================= Textos de la interfaz =================
+  const UI = {
+    es: {
+      consultor_aria: "Tu consultor", idioma_aria: "Idioma",
+      sis_label: "Guía por sistemas", sis_h2: "Sistemas del cuerpo",
+      sis_p: "Elige un sistema para ver qué hace, señales de que puede necesitar apoyo, hábitos que lo cuidan y los productos, fórmulas chinas y hierbas relacionadas.",
+      sis_partes: "Incluye", sis_senales: "Puede necesitar apoyo si notas…", sis_habitos: "Hábitos que lo cuidan", sis_medico: "Cuándo consultar al médico:",
+      sis_productos: "Productos", sis_formulas: "Fórmulas chinas", sis_hierbas: "Hierbas y suplementos", sis_doc: "Sistema del cuerpo",
+      sis_nota: "Información general y orientativa. Toca un nombre para ver su ficha y sus precauciones.",
+      saltar: "Saltar al contenido", nav_inicio: "Inicio", nav_sistemas: "Sistemas", nav_evidencia: "Evidencia", nav_mtc: "Medicina china",
+      nav_mas: "Más", privacidad: "Privacidad", terminos: "Términos", tema: "Cambiar tema claro u oscuro", consulta_h1: "Haz tu consulta",
+      sin_productos: "Ningún producto coincide con ese filtro. Prueba con otra palabra o elige «Todas las categorías».",
+      sin_hierbas: "Ninguna hierba coincide con esa búsqueda.", error_general: "Algo salió mal. Recarga la página e inténtalo de nuevo.",
+      sin_conexion: "Estás sin conexión: puedes seguir consultando las fichas, pero el asistente necesita internet.",
+      titulos: { inicio: "Herbolario Consultor · Guía de suplementos Nature's Sunshine", consulta: "Consulta", catalogo: "Catálogo", sistemas: "Sistemas del cuerpo",
+        evidencia: "Evidencia científica", mtc: "Medicina tradicional china", seguridad: "Seguridad e interacciones", contacto: "Contacto",
+        privacidad: "Aviso de privacidad", terminos: "Términos de uso", "no-encontrado": "Página no encontrada" },
+      temas: ["Elegir un producto", "Digestión", "Defensas", "Estrés y sueño", "Articulaciones", "Energía y peso", "Corazón y circulación",
+        "Salud de la mujer", "Salud del hombre", "Hacer un pedido", "Ser consultor", "Otro tema"],
+      tema_elige: "Elige un tema",
+      err_nombre: "Escribe tu nombre (de 2 a 60 letras).", err_tema: "Elige un tema.", err_mensaje: "Escribe al menos 10 caracteres (máximo 500).",
+      err_acepto: "Marca la casilla para continuar.",
+      wa_mensaje: (n, t, m) => `Hola Nilda, soy ${n}. Me interesa: ${t}.\n${m}\n(Enviado desde Herbolario Consultor)`,
+      buscar_ph: "Buscar hierba, suplemento o producto", sin_nombres: "Ningún nombre coincide. Prueba en «Consulta» con un síntoma o un ingrediente.",
+      rol: "Consultor independiente de Nature's Sunshine Products",
+      btn_tienda: "Visita la tienda", btn_consultor: "Hazte consultor", btn_contacto: "Contacto",
+      hero_label: "Asistente · catálogo de Nature's Sunshine",
+      hero_p: "Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y el asistente responde usando solo esas fichas, con sus referencias.",
+      consulta: "Consulta", q_ph: "Ej.: ¿Qué me ayuda a dormir mejor?", q_aria: "Tu pregunta", preguntar: "Preguntar", detener: "Detener",
+      nota_claude: "Las respuestas usan tu cuenta de Claude; la primera vez se te pedirá permiso.",
+      nota_gemini: "Las respuestas las redacta una inteligencia artificial (Gemini) usando solo las fichas del catálogo. Puede equivocarse: revisa las fichas citadas.",
+      pensando_api: "Consultando las fichas… (si el asistente estaba en reposo, la primera respuesta puede tardar hasta un minuto)",
+      errores_api: {
+        limite: "Hiciste muchas preguntas seguidas. Espera un minuto y vuelve a intentarlo.",
+        cuota: "El asistente alcanzó su límite gratuito por hoy. Mientras tanto, revisa las fichas de la derecha o escríbeme por WhatsApp.",
+        bloqueada: "El asistente no respondió a esta pregunta. Prueba a formularla de otra manera.",
+        vacia: "El asistente no devolvió respuesta. Prueba a formular la pregunta de otra manera.",
+      },
+      nota_sin_ia: "Escribe un síntoma, un ingrediente o un producto y te muestro las fichas que mejor coinciden. Para una recomendación personal, escríbeme por WhatsApp.",
+      fichas_rec: "Fichas recuperadas",
+      bm25_note: "Puntuación BM25: cuanto más alta, más términos de tu pregunta coinciden con la ficha. Toca una para verla en el catálogo.",
+      plantas_label: "De la naturaleza a tu bienestar", plantas_h2: "Plantas de nuestros productos",
+      plantas_p: "Algunas de las plantas que contienen los productos y las fórmulas chinas de Nature's Sunshine. Toca un nombre para ver la ficha.",
+      catalogo: "Catálogo", filtro_ph: "Filtrar por nombre o ingrediente", categoria: "Categoría", todas_cat: "Todas las categorías",
+      tcm_label: "Medicina tradicional china", tcm_h2: "Fórmulas chinas: modelo Positivo y Negativo",
+      formulas: "Fórmulas", polaridad: "Polaridad", organo: "Órgano", hierbas_chinas: "Hierbas chinas", f_hierba_ph: "Buscar hierba, órgano o síntoma",
+      contacto: "Contacto", contacto_h2: "Escríbeme", nombre: "Nombre",
+      contacto_p: "Consultor independiente de Nature's Sunshine Products. Escríbeme si quieres ayuda para elegir un producto o hacer tu pedido. Si te interesa ser consultor independiente, también puedo ayudarte a empezar.",
+      comprar: "Comprar en mi tienda", escribir_wa: "Escribir por WhatsApp",
+      telefono: "Teléfono", correo: "Correo", mi_tienda: "Mi tienda", copiar: "Copiar", abrir: "Abrir", copiado: "Copiado", seleccionado: "Seleccionado",
+      footer1: "Herramienta creada por un consultor independiente de Nature's Sunshine Products. No es un sitio oficial de la empresa. Fichas extraídas de naturessunshine.com (tienda de EE. UU.) el 30 de septiembre de 2026 y traducidas al español. Los precios son de referencia y pueden haber cambiado.",
+      footer2: "Son suplementos alimenticios: no diagnostican, tratan, curan ni previenen enfermedades. Consulta a un profesional de la salud y sigue la etiqueta de tu país.",
+      creditos: "Fotos de Wikimedia Commons:", autor_desconocido: "autor desconocido",
+      stats: (n) => `<span><b>${n.p}</b> productos</span><span><b>${n.s}</b> sistemas del cuerpo</span><span><b>${n.e}</b> plantas con evidencia</span><span><b>${n.f}</b> fórmulas chinas</span><span><b>${n.g}</b> hierbas con datos de seguridad</span>`,
+      pol: { positiva: "Positiva · Yang", negativa: "Negativa · Yin", neutra: "Neutra" },
+      pol_plural: { "": "Todas", positiva: "Positivas · Yang", negativa: "Negativas · Yin" },
+      pol_def: { positiva: "Fórmulas que construyen yang.", negativa: "Fórmulas que construyen yin." },
+      todos_organos: "Todos los órganos", ninguna_formula: "Ninguna fórmula con ese filtro.",
+      cuenta_hierbas: (a, b) => `${a} de ${b} hierbas`, cuenta_prod: (a, b) => `${a} de ${b} productos`,
+      ficha_completa: "Ficha completa", presentacion: "Presentación", ingredientes: "Ingredientes", beneficios: "Beneficios",
+      modo_uso: "Modo de uso", ver_etiqueta: "Ver etiqueta", precauciones: "Precauciones", ficha_oficial: "Ficha oficial", ficha_oficial_min: "ficha oficial",
+      organos: "Órganos", sintomas: "Síntomas", formula_base: "Fórmula clásica base", accion: "Acción energética", patrones: "Patrones de medicina china",
+      meridianos: "Meridianos", todos_sintomas: "Todos los síntomas", uso_trad: "Uso tradicional", desc_oficial: "Descripción oficial",
+      no_indicada: "No indicada para", consultar: "Consultar la etiqueta y a un profesional.", hierbas: "Hierbas",
+      sabor_merid: "Sabor · meridianos", trata_sola: "Trata por sí sola", acciones: "Acciones", todas_ind: "Todas las indicaciones",
+      uso_hist: "Uso histórico (sin verificar)", en_formulas: "En las fórmulas",
+      ejemplo_para: (q) => `Ejemplo para «${q}»`, para: (q) => `Para «${q}»`,
+      sin_hits: "Ninguna ficha coincide. Prueba con otras palabras (un síntoma, un ingrediente o un nombre).",
+      tu: "Tú", aviso: "Aviso", asistente: "Asistente", pensando: "Consultando las fichas…",
+      cortada: "La respuesta se cortó. Haz una pregunta más concreta.", detenido: "Detenido.",
+      intro_hits: "Estas son las fichas del catálogo que mejor responden a tu pregunta. Toca una para ver su ficha completa:",
+      ninguna: "Ninguna ficha coincide.",
+      nota_tienda: `¿Te interesa algún producto? Pídelo en la <a href="${TIENDA}" target="_blank" rel="noopener">tienda</a> o escríbeme por <a href="${WA}" target="_blank" rel="noopener">WhatsApp</a>.`,
+      errores: {
+        not_granted: "No se dio permiso para usar Claude en esta página. Las fichas recuperadas siguen disponibles a la derecha.",
+        sampling_disabled: "Claude no está disponible para esta cuenta. Las fichas recuperadas siguen disponibles a la derecha.",
+        rate_limited: "Se alcanzó el límite de uso por ahora. Espera un momento y vuelve a preguntar.",
+        session_expired: "Tu sesión expiró. Vuelve a iniciar sesión en claude.ai y pregunta otra vez.",
+        refused: "Claude no respondió a esta pregunta. Prueba a formularla de otra manera.",
+        prompt_too_large: "La conversación es demasiado larga. Recarga la página para empezar una nueva.",
+      },
+      error_gen: "No se pudo completar la respuesta por un fallo temporal. Vuelve a intentarlo.",
+      bienvenida: "Hola. Pregúntame por un síntoma, un ingrediente o un producto del catálogo y te respondo con las fichas oficiales, citando cada una. Toca una sugerencia para empezar.",
+      sugerencias: ["¿Qué me ayuda a dormir mejor?", "Tengo dolor de rodillas", "¿Qué diferencia hay entre las fórmulas chinas positivas y negativas?", "¿Qué fórmula china es para el hígado?", "¿Para qué sirve el astrágalo?", "Defensas para el invierno"],
+      ejemplo: "dolor de rodillas", pregunta: "Pregunta", seg_doc: "Seguridad e interacciones", seg_int: "Interacciones con medicamentos", seg_gravedad: "gravedad", seg_evid: "evidencia", seg_resumen: "Resumen", seg_ninguna: "ninguna documentada en las fuentes consultadas",
+      nav_aria: "Secciones", nav_preguntar: "Preguntar", ver_mas: (n) => `Ver ${n} más`,
+      seg_label: "Seguridad", seg_h2: "Seguridad e interacciones con medicamentos",
+      seg_alerta_t: "Información orientativa, no sustituye a tu médico o farmacéutico.",
+      seg_alerta_p: "Si tomas medicamentos, estás embarazada o en lactancia, o vas a operarte, consulta antes de tomar cualquier hierba o suplemento. No suspendas ni cambies un medicamento por tu cuenta.",
+      seg_ph: "Busca una hierba o un medicamento (p. ej. warfarina)", seg_clase: "Tipo de medicamento", seg_sev: "Gravedad",
+      todas_clases: "Todos los medicamentos", todas_sev: "Todas las gravedades",
+      cuenta_seg: (a, b, c) => `${a} de ${b} hierbas y suplementos · ${c} interacciones documentadas`,
+      ninguna_seg: "Nada coincide con esa búsqueda.",
+      th_farmaco: "Medicamento", th_gravedad: "Gravedad", th_efecto: "Qué puede pasar",
+      contraindicaciones: "No usar si…", embarazo: "Embarazo y lactancia", fuentes: "Fuentes",
+      sin_int: "No se encontraron interacciones documentadas con medicamentos en las fuentes consultadas. Eso no garantiza que no existan.",
+      ver_seguridad: "Seguridad e interacciones",
+      grupos: { china: "Hierba china", occidental: "Hierba occidental", suplemento: "Suplemento" },
+      sev: { alta: "Alta", moderada: "Moderada", baja: "Baja", teorica: "Teórica" },
+      evid: { clinica: "Estudios en personas", casos: "Reportes de casos", in_vitro_animal: "Laboratorio o animales", teorica: "Teórica" },
+      clases: { anticoagulantes: "Anticoagulantes y antiagregantes", antidiabeticos: "Antidiabéticos", antihipertensivos: "Para la presión arterial",
+        cardiacos: "Medicamentos para el corazón", diureticos: "Diuréticos", antidepresivos: "Antidepresivos", sedantes: "Sedantes y para dormir",
+        inmunosupresores: "Inmunosupresores", hormonas: "Hormonas y anticonceptivos", tiroides: "Tiroides", cyp450: "Fármacos metabolizados por el hígado (CYP450)",
+        quimioterapia: "Quimioterapia", analgesicos: "Analgésicos y antiinflamatorios", litio: "Litio", absorcion: "Absorción de medicamentos orales",
+        hepatotoxicos: "Fármacos que afectan al hígado", otros: "Otros" },
+      evi_doc: "Planta medicinal con evidencia científica", evi_origen: "Origen y parte usada", evi_evidencia: "Evidencia por padecimiento",
+      evi_std: "Estandarización", evi_extractos: "Extractos clínicos", evi_dosis: "Dosis en estudios", evi_trad: "Uso tradicional (no comprobado)", evi_inter: "Interacciones:",
+      tipos: { planta: "planta con evidencia", sistema: "sistema del cuerpo", producto: "producto", empresa: "empresa", modelo: "modelo", formula: "fórmula china", hierba: "hierba china", seguridad: "seguridad" },
+    },
+    en: {
+      consultor_aria: "Your consultant", idioma_aria: "Language",
+      sis_label: "Guide by body system", sis_h2: "Body systems",
+      sis_p: "Choose a system to see what it does, signs it may need support, habits that help it, and the related products, Chinese formulas and herbs.",
+      sis_partes: "Includes", sis_senales: "It may need support if you notice…", sis_habitos: "Habits that help", sis_medico: "When to see a doctor:",
+      sis_productos: "Products", sis_formulas: "Chinese formulas", sis_hierbas: "Herbs and supplements", sis_doc: "Body system",
+      sis_nota: "General information for guidance only. Tap a name to see its record and cautions.",
+      saltar: "Skip to content", nav_inicio: "Home", nav_sistemas: "Systems", nav_evidencia: "Evidence", nav_mtc: "Chinese medicine",
+      nav_mas: "More", privacidad: "Privacy", terminos: "Terms", tema: "Switch light or dark theme", consulta_h1: "Ask a question",
+      sin_productos: "No product matches that filter. Try another word or choose “All categories”.",
+      sin_hierbas: "No herb matches that search.", error_general: "Something went wrong. Reload the page and try again.",
+      sin_conexion: "You're offline: you can keep browsing the records, but the assistant needs internet.",
+      titulos: { inicio: "Herbolario Consultor · Nature's Sunshine supplement guide", consulta: "Ask", catalogo: "Catalog", sistemas: "Body systems",
+        evidencia: "Scientific evidence", mtc: "Traditional Chinese medicine", seguridad: "Safety and interactions", contacto: "Contact",
+        privacidad: "Privacy notice", terminos: "Terms of use", "no-encontrado": "Page not found" },
+      temas: ["Choosing a product", "Digestion", "Immune support", "Stress and sleep", "Joints", "Energy and weight", "Heart and circulation",
+        "Women's health", "Men's health", "Placing an order", "Becoming a consultant", "Something else"],
+      tema_elige: "Choose a topic",
+      err_nombre: "Type your name (2 to 60 letters).", err_tema: "Choose a topic.", err_mensaje: "Type at least 10 characters (500 max).",
+      err_acepto: "Check the box to continue.",
+      wa_mensaje: (n, t, m) => `Hi Nilda, I'm ${n}. I'm interested in: ${t}.\n${m}\n(Sent from Herbolario Consultor)`,
+      buscar_ph: "Search an herb, supplement or product", sin_nombres: "No name matches. Try “Ask” with a symptom or an ingredient.",
+      rol: "Independent Nature's Sunshine Products Consultant",
+      btn_tienda: "Visit the store", btn_consultor: "Become a consultant", btn_contacto: "Contact",
+      hero_label: "Assistant · Nature's Sunshine catalog",
+      hero_p: "Ask about a symptom, an ingredient or a product. The search engine picks the most relevant records in the catalog and the assistant answers using only those records, with references.",
+      consulta: "Ask", q_ph: "E.g.: What helps me sleep better?", q_aria: "Your question", preguntar: "Ask", detener: "Stop",
+      nota_claude: "Answers use your Claude account; you will be asked for permission the first time.",
+      nota_gemini: "Answers are written by an AI (Gemini) using only the catalog records. It can make mistakes: check the cited records.",
+      pensando_api: "Checking the records… (if the assistant was idle, the first answer can take up to a minute)",
+      errores_api: {
+        limite: "You asked many questions in a row. Wait a minute and try again.",
+        cuota: "The assistant reached its free limit for today. Meanwhile, check the records on the right or message me on WhatsApp.",
+        bloqueada: "The assistant did not answer this question. Try phrasing it another way.",
+        vacia: "The assistant returned no answer. Try phrasing the question another way.",
+      },
+      nota_sin_ia: "Type a symptom, an ingredient or a product and I'll show you the records that match best. For a personal recommendation, message me on WhatsApp.",
+      fichas_rec: "Retrieved records",
+      bm25_note: "BM25 score: the higher it is, the more words from your question match the record. Tap one to see it in the catalog.",
+      plantas_label: "From nature to your well-being", plantas_h2: "Plants in our products",
+      plantas_p: "Some of the plants found in Nature's Sunshine products and Chinese formulas. Tap a name to see the record.",
+      catalogo: "Catalog", filtro_ph: "Filter by name or ingredient", categoria: "Category", todas_cat: "All categories",
+      tcm_label: "Traditional Chinese Medicine", tcm_h2: "Chinese formulas: the Positive and Negative model",
+      formulas: "Formulas", polaridad: "Polarity", organo: "Organ", hierbas_chinas: "Chinese herbs", f_hierba_ph: "Search herb, organ or symptom",
+      contacto: "Contact", contacto_h2: "Get in touch", nombre: "Name",
+      contacto_p: "Independent Nature's Sunshine Products Consultant. Message me if you'd like help choosing a product or placing your order. If you're interested in becoming an independent consultant, I can also help you get started.",
+      comprar: "Shop in my store", escribir_wa: "Message me on WhatsApp",
+      telefono: "Phone", correo: "Email", mi_tienda: "My store", copiar: "Copy", abrir: "Open", copiado: "Copied", seleccionado: "Selected",
+      footer1: "Tool created by an Independent Nature's Sunshine Products Consultant. This is not an official company website. Records taken from naturessunshine.com (US store) on September 30, 2026. Prices are for reference and may have changed.",
+      footer2: "These are dietary supplements: they are not intended to diagnose, treat, cure or prevent any disease. Consult a health professional and follow the label in your country.",
+      creditos: "Photos from Wikimedia Commons:", autor_desconocido: "unknown author",
+      stats: (n) => `<span><b>${n.p}</b> products</span><span><b>${n.s}</b> body systems</span><span><b>${n.e}</b> plants with evidence</span><span><b>${n.f}</b> Chinese formulas</span><span><b>${n.g}</b> herbs with safety data</span>`,
+      pol: { positiva: "Positive · Yang", negativa: "Negative · Yin", neutra: "Neutral" },
+      pol_plural: { "": "All", positiva: "Positive · Yang", negativa: "Negative · Yin" },
+      pol_def: { positiva: "Yang-building formulas.", negativa: "Yin-building formulas." },
+      todos_organos: "All organs", ninguna_formula: "No formula matches that filter.",
+      cuenta_hierbas: (a, b) => `${a} of ${b} herbs`, cuenta_prod: (a, b) => `${a} of ${b} products`,
+      ficha_completa: "Full details", presentacion: "Size", ingredientes: "Ingredients", beneficios: "Benefits",
+      modo_uso: "Suggested use", ver_etiqueta: "See label", precauciones: "Cautions", ficha_oficial: "Official page", ficha_oficial_min: "official page",
+      organos: "Organs", sintomas: "Symptoms", formula_base: "Classical base formula", accion: "Energetic action", patrones: "TCM patterns",
+      meridianos: "Meridians", todos_sintomas: "All symptoms", uso_trad: "Traditional use", desc_oficial: "Official description",
+      no_indicada: "Not indicated for", consultar: "Check the label and consult a professional.", hierbas: "Herbs",
+      sabor_merid: "Taste · meridians", trata_sola: "Used on its own for", acciones: "Actions", todas_ind: "All indications",
+      uso_hist: "Historical use (unverified)", en_formulas: "In the formulas",
+      ejemplo_para: (q) => `Example for “${q}”`, para: (q) => `For “${q}”`,
+      sin_hits: "No record matches. Try other words (a symptom, an ingredient or a name).",
+      tu: "You", aviso: "Notice", asistente: "Assistant", pensando: "Checking the records…",
+      cortada: "The answer was cut off. Ask a more specific question.", detenido: "Stopped.",
+      intro_hits: "These are the catalog records that best answer your question. Tap one to see its full details:",
+      ninguna: "No record matches.",
+      nota_tienda: `Interested in a product? Order it in the <a href="${TIENDA}" target="_blank" rel="noopener">store</a> or message me on <a href="${WA}" target="_blank" rel="noopener">WhatsApp</a>.`,
+      errores: {
+        not_granted: "Permission to use Claude on this page was not given. The retrieved records are still available on the right.",
+        sampling_disabled: "Claude is not available for this account. The retrieved records are still available on the right.",
+        rate_limited: "The usage limit was reached for now. Wait a moment and ask again.",
+        session_expired: "Your session expired. Sign in to claude.ai again and ask once more.",
+        refused: "Claude did not answer this question. Try phrasing it another way.",
+        prompt_too_large: "The conversation is too long. Reload the page to start a new one.",
+      },
+      error_gen: "The answer could not be completed because of a temporary error. Please try again.",
+      bienvenida: "Hi! Ask me about a symptom, an ingredient or a product in the catalog and I'll answer with the official records, citing each one. Tap a suggestion to start.",
+      sugerencias: ["What helps me sleep better?", "I have knee pain", "What is the difference between positive and negative Chinese formulas?", "Which Chinese formula is for the liver?", "What is astragalus used for?", "Immune support for winter"],
+      ejemplo: "knee pain", pregunta: "Question", seg_doc: "Safety and interactions", seg_int: "Drug interactions", seg_gravedad: "severity", seg_evid: "evidence", seg_resumen: "Summary", seg_ninguna: "none documented in the sources consulted",
+      nav_aria: "Sections", nav_preguntar: "Ask", ver_mas: (n) => `Show ${n} more`,
+      seg_label: "Safety", seg_h2: "Safety and drug interactions",
+      seg_alerta_t: "For information only; it does not replace your doctor or pharmacist.",
+      seg_alerta_p: "If you take medications, are pregnant or breastfeeding, or are about to have surgery, ask before taking any herb or supplement. Never stop or change a medication on your own.",
+      seg_ph: "Search an herb or a medication (e.g. warfarin)", seg_clase: "Type of medication", seg_sev: "Severity",
+      todas_clases: "All medications", todas_sev: "All severities",
+      cuenta_seg: (a, b, c) => `${a} of ${b} herbs and supplements · ${c} documented interactions`,
+      ninguna_seg: "Nothing matches that search.",
+      th_farmaco: "Medication", th_gravedad: "Severity", th_efecto: "What can happen",
+      contraindicaciones: "Do not use if…", embarazo: "Pregnancy and breastfeeding", fuentes: "Sources",
+      sin_int: "No documented drug interactions were found in the sources consulted. That does not guarantee there are none.",
+      ver_seguridad: "Safety and interactions",
+      grupos: { china: "Chinese herb", occidental: "Western herb", suplemento: "Supplement" },
+      sev: { alta: "High", moderada: "Moderate", baja: "Low", teorica: "Theoretical" },
+      evid: { clinica: "Human studies", casos: "Case reports", in_vitro_animal: "Lab or animal studies", teorica: "Theoretical" },
+      clases: { anticoagulantes: "Blood thinners and antiplatelets", antidiabeticos: "Diabetes medications", antihipertensivos: "Blood pressure medications",
+        cardiacos: "Heart medications", diureticos: "Diuretics", antidepresivos: "Antidepressants", sedantes: "Sedatives and sleep aids",
+        inmunosupresores: "Immunosuppressants", hormonas: "Hormones and birth control", tiroides: "Thyroid", cyp450: "Drugs processed by the liver (CYP450)",
+        quimioterapia: "Chemotherapy", analgesicos: "Pain relievers and anti-inflammatories", litio: "Lithium", absorcion: "Absorption of oral medications",
+        hepatotoxicos: "Drugs that affect the liver", otros: "Other" },
+      evi_doc: "Medicinal plant with scientific evidence", evi_origen: "Origin and part used", evi_evidencia: "Evidence by condition",
+      evi_std: "Standardization", evi_extractos: "Clinical extracts", evi_dosis: "Dose in studies", evi_trad: "Traditional use (unproven)", evi_inter: "Interactions:",
+      tipos: { planta: "plant with evidence", sistema: "body system", producto: "product", empresa: "company", modelo: "model", formula: "Chinese formula", hierba: "Chinese herb", seguridad: "safety" },
+    },
+  };
+
+  // Etiquetas de los documentos que lee el buscador y Claude (mismo formato que build_db.py en español).
+  const ETQ = {
+    es: { producto: "Producto", categoria: "Categoría", tipo: "Tipo", codigo: "Código (stock number)", presentacion: "Presentación",
+      precio: "Precio de referencia en la web de EE. UU.", descripcion: "Descripción", ingredientes: "Ingredientes", beneficios: "Beneficios",
+      modo: "Modo de uso", precauciones: "Precauciones", claves: "Palabras clave", oficial: "Ficha oficial",
+      formula: "Fórmula china de Nature's Sunshine", polaridad: "Polaridad en el sistema chino de Nature's Sunshine", no_ind: "no indicada",
+      anteriores: "Nombres anteriores", elemento: "Elemento", organos: "Órganos que trata", meridianos: "Meridianos", accion: "Acción energética",
+      clasica: "Fórmula clásica en la que se basa", patrones: "Patrones de medicina china", sintomas: "Síntomas específicos",
+      condiciones: "Condiciones de salud en las que se ha usado tradicionalmente", desc_oficial: "Descripción oficial", hierbas: "Hierbas",
+      codigo_min: "código", no_indicada: "No indicada para / precauciones", consultar: "consultar la etiqueta y a un profesional",
+      hierba: "Hierba china", naturaleza: "Naturaleza (temperatura)", sabor: "Sabor", merid_org: "Meridianos / órganos",
+      acciones: "Acciones en medicina china", sola: "Condiciones que trata por sí sola (uso tradicional)",
+      historico: "Uso histórico (dato general, no verificado en las fuentes citadas)", en_formulas: "Presente en las fórmulas",
+      modelo: "Modelo energético chino" },
+    en: { producto: "Product", categoria: "Category", tipo: "Type", codigo: "Stock number", presentacion: "Size",
+      precio: "Reference price on the US website", descripcion: "Description", ingredientes: "Ingredients", beneficios: "Benefits",
+      modo: "Suggested use", precauciones: "Cautions", claves: "Keywords", oficial: "Official page",
+      formula: "Nature's Sunshine Chinese formula", polaridad: "Polarity in the Nature's Sunshine Chinese system", no_ind: "not stated",
+      anteriores: "Former names", elemento: "Element", organos: "Organs it addresses", meridianos: "Meridians", accion: "Energetic action",
+      clasica: "Classical formula it is based on", patrones: "TCM patterns", sintomas: "Specific symptoms",
+      condiciones: "Health conditions it has traditionally been used for", desc_oficial: "Official description", hierbas: "Herbs",
+      codigo_min: "stock", no_indicada: "Not indicated for / cautions", consultar: "check the label and consult a professional",
+      hierba: "Chinese herb", naturaleza: "Nature (temperature)", sabor: "Taste", merid_org: "Meridians / organs",
+      acciones: "TCM actions", sola: "Conditions it treats on its own (traditional use)",
+      historico: "Historical use (general information, not verified in the cited sources)", en_formulas: "Found in the formulas",
+      modelo: "Chinese energetic model" },
+  };
+
+  const RULES = {
+    es: `Eres un asistente experto en el catálogo de Nature's Sunshine Products.
+Responde en español, de forma clara y breve, usando ÚNICAMENTE la información de los documentos que se te entregan en <documentos>.
+Cita cada producto o dato con su ID entre corchetes, por ejemplo [NSP-004].
+Si los documentos no contienen la respuesta, dilo claramente en lugar de inventar.
+Son suplementos alimenticios: no diagnostiques ni prometas curar enfermedades, menciona las precauciones relevantes y recomienda consultar a un profesional de la salud cuando haya embarazo, niños, medicamentos o una condición médica.
+El modo de uso proviene de la web oficial de EE. UU.; recuerda que la etiqueta de cada país manda. Los precios son de referencia (tienda de EE. UU., septiembre de 2026) y pueden variar.
+Para las fórmulas chinas [TCM-xxx], las hierbas chinas [HRB-xxx] y el modelo energético [MOD-xx]: explica la polaridad (positiva/yang o negativa/yin), el órgano, el elemento, los síntomas y la fórmula clásica cuando el documento los dé, y deja claro que se trata del uso tradicional de la medicina china, no de tratamientos médicos probados.
+Para las plantas con evidencia científica [EVI-xx]: indica la fuerza de la evidencia por padecimiento, el extracto estudiado y sus precauciones, y aclara que los usos tradicionales no están comprobados.
+Para los sistemas del cuerpo [SIS-xx]: explica en qué consiste el sistema y menciona los productos, fórmulas y hierbas relacionados citando su ID.
+Para la seguridad y las interacciones con medicamentos [SEG-xxx]: indica la gravedad y el nivel de evidencia, nunca digas que una combinación es segura solo porque no hay datos, recomienda siempre consultar al médico o farmacéutico y nunca sugieras suspender o cambiar un medicamento.
+Usa párrafos cortos y listas con guiones. No uses tablas ni encabezados.`,
+    en: `You are an expert assistant for the Nature's Sunshine Products catalog.
+Answer in English, clearly and briefly, using ONLY the information in the documents provided inside <documentos>.
+Cite every product or fact with its ID in square brackets, for example [NSP-004].
+If the documents do not contain the answer, say so clearly instead of making something up.
+These are dietary supplements: do not diagnose or promise to cure diseases, mention the relevant cautions, and recommend consulting a health professional for pregnancy, children, medications or a medical condition.
+Suggested use comes from the official US website; remind the reader that the label in their country takes precedence. Prices are for reference (US store, September 2026) and may vary.
+For Chinese formulas [TCM-xxx], Chinese herbs [HRB-xxx] and the energetic model [MOD-xx]: explain the polarity (positive/yang or negative/yin), the organ, the element, the symptoms and the classical formula when the document provides them, and make clear this is traditional Chinese medicine use, not proven medical treatment.
+For plants with scientific evidence [EVI-xx]: state the strength of the evidence by condition, the extract studied and its cautions, and make clear that traditional uses are unproven.
+For body systems [SIS-xx]: explain what the system does and mention the related products, formulas and herbs, citing their IDs.
+For safety and drug interactions [SEG-xxx]: state the severity and level of evidence, never call a combination safe just because there is no data, always recommend checking with a doctor or pharmacist, and never suggest stopping or changing a medication.
+Use short paragraphs and bulleted lists with hyphens. Do not use tables or headings.`,
+  };
+
+  const PLANTAS = [
+    { img: "equinacea", ids: ["NSP-025", "NSP-026"], latin: "Echinacea purpurea",
+      es: ["Equinácea", "Planta clásica para las defensas."], en: ["Echinacea", "A classic plant for immune support."] },
+    { img: "astragalo", ids: ["HRB-038", "TCM-011", "TCM-013", "TCM-014"], latin: "Astragalus membranaceus",
+      es: ["Astrágalo (huang qi)", "Tónico del Qi en 8 fórmulas chinas."], en: ["Astragalus (huang qi)", "A Qi tonic found in 8 Chinese formulas."] },
+    { img: "goji", ids: ["HRB-024", "TCM-010", "NSP-082"], latin: "Lycium barbarum",
+      es: ["Goji (gou qi zi)", "Nutre la sangre y el yin del hígado y el riñón."], en: ["Goji (gou qi zi)", "Nourishes the Blood and the Yin of the Liver and Kidney."] },
+    { img: "jengibre", ids: ["HRB-072", "TCM-001", "TCM-013"], latin: "Zingiber officinale",
+      es: ["Jengibre (sheng jiang)", "Calienta y ayuda a la digestión."], en: ["Ginger (sheng jiang)", "Warming and supportive of digestion."] },
+    { img: "curcuma", ids: ["NSP-062"], latin: "Curcuma longa",
+      es: ["Cúrcuma", "Raíz dorada de uso milenario."], en: ["Turmeric", "A golden root used for thousands of years."] },
+    { img: "manzanilla", ids: ["NSP-044"], latin: "Matricaria chamomilla",
+      es: ["Manzanilla", "Flor calmante y digestiva."], en: ["Chamomile", "A calming, digestive flower."] },
+    { img: "diente-de-leon", ids: ["NSP-017", "HRB-060", "TCM-016"], latin: "Taraxacum officinale",
+      es: ["Diente de león (pu gong ying)", "Apoya al hígado y la limpieza."], en: ["Dandelion (pu gong ying)", "Supports the liver and cleansing."] },
+    { img: "alfalfa", ids: ["NSP-076"], latin: "Medicago sativa",
+      es: ["Alfalfa", "Rica en minerales y clorofila."], en: ["Alfalfa", "Rich in minerals and chlorophyll."] },
+    { img: "menta", ids: ["NSP-001", "NSP-002"], latin: "Mentha spicata",
+      es: ["Menta verde", "Da sabor y frescura a la Clorofila Líquida."], en: ["Spearmint", "Gives Liquid Chlorophyll its fresh flavor."] },
+  ];
+
+  // ================= Buscador por idioma =================
+  const STOP = {
+    es: new Set(`a al algo algun alguna algunas alguno algunos ante antes como con contra cual cuales cuando de del
+desde donde durante e el ella ellas ellos en entre era es esa esas ese eso esos esta estas este esto estos fue ha hay la las
+le les lo los mas me mi mis mucho muy no nos o otra otro para pero poco por porque que quien se sea ser si sin sobre son su
+sus tambien te tiene tengo tu un una uno unos y ya yo sirve sirven puedo puede tomar producto productos recomiendas
+recomienda mejor tienen estoy siento sentir quiero necesito ayuda ayudar ayude ayudan hola dame dime cosa bueno buena
+estar`.split(/\s+/)),
+    en: new Set(`a an and are as at be been but by can could do does did for from has have having he her his how i if in into
+is it its me my no not of on or our she so some than that the their them then there these they this those to too us was we
+were what when where which who why will with would you your am any about also just get good best help helps need want
+product products take recommend something thing feel feeling hi hello please used use`.split(/\s+/)),
+  };
+  const PESO_RAIZ = 0.4, K1 = 1.5, B = 0.75, BONO_TITULO = 1, MAX_POR_TIPO = 3;
+  function normalizar(texto, lang) {
+    const t = String(texto).toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "");
+    const out = [];
+    for (let w of t.match(/[a-z0-9]+/g) || []) {
+      if (STOP[lang].has(w) || w.length < 2) continue;
+      if (lang === "es") {
+        if (w.length > 5 && w.endsWith("es")) w = w.slice(0, -2);
+        else if (w.length > 3 && w.endsWith("s")) w = w.slice(0, -1);
+      } else {
+        if (w.length > 4 && w.endsWith("ies")) w = w.slice(0, -3) + "y";
+        else if (w.length > 3 && w.endsWith("s") && !w.endsWith("ss")) w = w.slice(0, -1);
+      }
+      out.push(w);
+      if (w.length >= 4 && !/^\d+$/.test(w)) out.push("~" + w.slice(0, 4));
+    }
+    return out;
+  }
+  function preferencia(terms, lang) {
+    const t = new Set(terms), e = {};
+    const hay = (...xs) => xs.some((x) => t.has(x));
+    const china = lang === "es" ? ["china", "chino", "chinas", "mtc", "tcm", "yin", "yang"] : ["chinese", "tcm", "yin", "yang"];
+    const formula = lang === "es" ? ["formula", "formul", "combinacion"] : ["formula", "formul", "blend", "combination"];
+    const hierba = lang === "es" ? ["hierba", "planta", "raiz"] : ["herb", "plant", "root"];
+    if (hay(...china)) for (const x of ["formula", "hierba", "modelo"]) e[x] = 1.2;
+    if (hay(...formula)) e.formula = (e.formula || 1) * 1.6;
+    if (hay(...hierba)) e.hierba = (e.hierba || 1) * 1.6;
+    const seg = lang === "es"
+      ? ["interaccion", "farmaco", "medicamento", "medicina", "pastilla", "seguro", "segura", "seguridad", "contraindicacion", "embarazo", "warfarina", "aspirina", "metformina", "anticoagulante"]
+      : ["interaction", "drug", "medication", "medicine", "pill", "safe", "safety", "contraindication", "pregnancy", "warfarin", "aspirin", "metformin", "blood"];
+    if (terms.some((x) => seg.some((w) => x === w || x.startsWith(w)))) e.seguridad = 2;
+    return e;
+  }
+
+  // Un "mundo" por idioma: datos, documentos e índice BM25. Se construye la primera vez que se usa.
+  const MUNDOS = {};
+  function mundo(lang) {
+    if (MUNDOS[lang]) return MUNDOS[lang];
+    const D = DATOS[lang] || DATOS.es;
+    const productos = D.productos, empresa = D.empresa;
+    const tcm = D.tcm || { modelo: [], formulas: [], hierbas: [] };
+    const E = ETQ[lang];
+    const hierbaPorId = Object.fromEntries(tcm.hierbas.map((h) => [h.id, h]));
+    const formulaPorId = Object.fromEntries(tcm.formulas.map((f) => [f.id, f]));
+    const nombreHierba = (h) => [h.pinyin, h.nombre_es, h.latin].filter(Boolean).join(" / ");
+    const textoProducto = (p) => [
+      `${E.producto}: ${p.nombre_es}${p.nombre_es !== p.nombre ? ` (${p.nombre})` : ""} [ID ${p.id}]`,
+      `${E.categoria}: ${p.categoria}`, `${E.tipo}: ${p.tipo}`,
+      p.sku && `${E.codigo}: ${p.sku}`,
+      p.presentacion && `${E.presentacion}: ${p.presentacion}`,
+      p.precio_usd != null && `${E.precio}: ${p.precio_usd} USD`,
+      `${E.descripcion}: ${p.descripcion}`,
+      `${E.ingredientes}: ${p.ingredientes.join(", ")}`,
+      `${E.beneficios}: ${p.beneficios.join("; ")}`,
+      p.modo_de_uso && `${E.modo}: ${p.modo_de_uso}`,
+      `${E.precauciones}: ${p.precauciones}`,
+      `${E.claves}: ${p.palabras_clave.join(", ")}`,
+      p.url && `${E.oficial}: ${p.url}`,
+    ].filter(Boolean).join("\n");
+    const textoFormula = (f) => [
+      `${E.formula}: ${f.nombre} [ID ${f.id}]`,
+      `${E.polaridad}: ${f.polaridad ? UI[lang].pol[f.polaridad] : E.no_ind}`,
+      f.nombres_anteriores?.length && `${E.anteriores}: ${L(f.nombres_anteriores)}`,
+      f.elemento && `${E.elemento}: ${f.elemento}`,
+      `${E.organos}: ${L(f.organos)}`, `${E.meridianos}: ${L(f.meridianos)}`,
+      `${E.accion}: ${f.accion_energetica || "—"}`,
+      f.formula_clasica_base && `${E.clasica}: ${f.formula_clasica_base}`,
+      `${E.patrones}: ${L(f.patrones_mtc)}`,
+      `${E.sintomas}: ${L(f.sintomas)}`,
+      `${E.condiciones}: ${L(f.condiciones_tradicionales)}`,
+      f.descripcion_oficial && `${E.desc_oficial}: ${f.descripcion_oficial}`,
+      f.hierbas?.length && `${E.hierbas}: ${f.hierbas.map((x) => `${nombreHierba(hierbaPorId[x.hierba_id] || {})} [${x.hierba_id}]${x.cantidad ? " " + x.cantidad : ""}`).join("; ")}`,
+      ...(f.presentaciones || []).map((pr) => `${E.presentacion}: ${[pr.formato, pr.presentacion, pr.sku && E.codigo_min + " " + pr.sku, pr.precio_usd != null && pr.precio_usd + " USD"].filter(Boolean).join(", ")}${pr.modo_de_uso ? ". " + E.modo + ": " + pr.modo_de_uso : ""}${pr.url ? ". " + E.oficial + ": " + pr.url : ""}`),
+      `${E.no_indicada}: ${f.no_indicado_para || f.precauciones || E.consultar}`,
+    ].filter(Boolean).join("\n");
+    const textoHierba = (h) => [
+      `${E.hierba}: ${nombreHierba(h)} [ID ${h.id}]`,
+      `${E.naturaleza}: ${h.naturaleza || "—"}`, `${E.sabor}: ${L(h.sabor)}`,
+      `${E.merid_org}: ${L(h.meridianos)}`, `${E.acciones}: ${L(h.acciones)}`,
+      `${E.sola}: ${L(h.indicaciones_tradicionales)}`,
+      h.uso_historico && `${E.historico}: ${h.uso_historico}`,
+      `${E.precauciones}: ${h.precauciones || "—"}`,
+      `${E.en_formulas}: ${(h.formulas || []).filter((i) => formulaPorId[i]).map((i) => `${formulaPorId[i].nombre} [${i}]`).join(", ") || "—"}`,
+    ].filter(Boolean).join("\n");
+
+    const docs = [
+      ...productos.map((p) => ({ id: p.id, titulo: p.nombre_es, texto: textoProducto(p), p, tipo: "producto" })),
+      ...empresa.map((e) => ({ id: e.id, titulo: e.titulo, texto: `${e.titulo} [ID ${e.id}]\n${e.texto}`, tipo: "empresa" })),
+      ...tcm.modelo.map((m) => ({ id: m.id, titulo: m.titulo, texto: `${E.modelo}: ${m.titulo} [ID ${m.id}]\n${m.texto}`, tipo: "modelo" })),
+      ...tcm.formulas.map((f) => ({ id: f.id, titulo: f.nombre, texto: textoFormula(f), tipo: "formula" })),
+      ...tcm.hierbas.map((h) => ({ id: h.id, titulo: [h.pinyin, h.nombre_es].filter(Boolean).join(" · ") || h.id, texto: textoHierba(h), tipo: "hierba" })),
+    ];
+    const seguridad = DATOS.seguridad || [];
+    const tx = (o) => (o && (o[lang] ?? o.es)) || "";
+    const UIl = UI[lang];
+    for (const g of seguridad) {
+      const ints = g.interacciones || [];
+      docs.push({ id: g.id, titulo: tx(g.nombre), tipo: "seguridad", g, texto: [
+        `${UIl.seg_doc}: ${tx(g.nombre)}${g.latin ? " (" + g.latin + ")" : ""} [ID ${g.id}]${g.ref ? " · " + g.ref : ""}`,
+        `${UIl.seg_resumen}: ${tx(g.resumen)}`,
+        `${UIl.seg_int}: ${ints.length ? ints.map((i) => `${tx(i.farmaco)} (${UIl.clases[i.clase] || i.clase}; ${UIl.seg_gravedad} ${UIl.sev[i.severidad] || i.severidad}; ${UIl.seg_evid} ${UIl.evid[i.evidencia] || i.evidencia}): ${tx(i.efecto)}`).join(" | ") : UIl.seg_ninguna}`,
+        `${UIl.contraindicaciones} ${(tx(g.contraindicaciones) || []).join("; ") || "—"}`,
+        `${UIl.embarazo}: ${tx(g.embarazo_lactancia) || "—"}`,
+      ].join("\n") });
+    }
+    const sistemas = DATOS.sistemas || [];
+    const tituloDoc = Object.fromEntries(docs.map((d) => [d.id, d.titulo]));
+    const nombreDe = (id) => (tituloDoc[id] ? `${tituloDoc[id]} [${id}]` : id);
+    for (const s of sistemas) {
+      docs.push({ id: s.id, titulo: tx(s.nombre), tipo: "sistema", s, texto: [
+        `${UIl.sis_doc}: ${tx(s.nombre)} [ID ${s.id}]`,
+        `${UIl.sis_partes}: ${tx(s.partes)}`,
+        tx(s.resumen),
+        `${UIl.sis_senales} ${(tx(s.senales) || []).join("; ")}`,
+        `${UIl.sis_habitos}: ${(tx(s.habitos) || []).join("; ")}`,
+        `${UIl.sis_medico} ${tx(s.medico)}`,
+        `${UIl.sis_productos}: ${s.productos.map(nombreDe).join(", ")}`,
+        `${UIl.sis_formulas}: ${s.formulas.map(nombreDe).join(", ")}`,
+        `${UIl.sis_hierbas}: ${s.hierbas.map(nombreDe).join(", ")}`,
+      ].join("\n") });
+    }
+    const evi = DATOS.evidencia;
+    if (evi) evi.plantas.forEach((pl, i) => {
+      const id = "EVI-" + String(i + 1).padStart(2, "0");
+      const niv = (l) => tx(evi.niveles[l]);
+      docs.push({ id, titulo: `${tx(pl.nombre)} (${pl.latin})`, tipo: "planta", pl, texto: [
+        `${UIl.evi_doc}: ${tx(pl.nombre)} (${pl.latin}) [ID ${id}]`,
+        `${UIl.evi_origen}: ${tx(pl.origen)} · ${tx(pl.parte)}`,
+        `${UIl.evi_evidencia}: ${pl.evidencia.map((e) => `${tx(evi.padecimientos[e.c])} (${niv(e.l)}): ${tx(e.t)}`).join(" | ")}`,
+        `${UIl.evi_std}: ${tx(pl.estandarizacion)} ${UIl.evi_extractos}: ${pl.extractos}. ${UIl.evi_dosis}: ${tx(pl.dosis)}`,
+        `${UIl.evi_trad}: ${tx(pl.tradicion)}`,
+        `${UIl.precauciones}: ${tx(pl.seguridad)} ${UIl.evi_inter}: ${tx(pl.interacciones)}`,
+      ].join("\n") });
+    });
+    const segPorRef = Object.fromEntries(seguridad.filter((g) => g.ref).map((g) => [g.ref, g.id]));
+    const porId = Object.fromEntries(docs.map((d) => [d.id, d]));
+    const tfs = docs.map((d) => {
+      const m = new Map();
+      for (const t of normalizar(d.titulo + " " + d.texto, lang)) m.set(t, (m.get(t) || 0) + 1);
+      return m;
+    });
+    const lens = tfs.map((m) => [...m.values()].reduce((a, b) => a + b, 0));
+    const avgdl = lens.reduce((a, b) => a + b, 0) / lens.length;
+    const df = new Map();
+    for (const m of tfs) for (const t of m.keys()) df.set(t, (df.get(t) || 0) + 1);
+    const idf = (t) => Math.log(1 + (docs.length - df.get(t) + 0.5) / (df.get(t) + 0.5));
+    const titulos = docs.map((d) => new Set(normalizar(d.texto.split("\n", 1)[0], lang)));
+    function buscar(consulta, k = 6) {
+      const terms = normalizar(consulta, lang);
+      const enfoque = preferencia(terms, lang);
+      const res = [];
+      tfs.forEach((m, i) => {
+        let s = 0;
+        for (const t of terms) {
+          const f = m.get(t);
+          if (!f) continue;
+          s += (t.startsWith("~") ? PESO_RAIZ : 1) * idf(t) * f * (K1 + 1) / (f + K1 * (1 - B + B * lens[i] / avgdl));
+          if (!t.startsWith("~") && titulos[i].has(t)) s += BONO_TITULO * idf(t);
+        }
+        if (s > 0) res.push({ doc: docs[i], score: s * (enfoque[docs[i].tipo] || 1) });
+      });
+      res.sort((a, b) => b.score - a.score);
+      const elegidos = [], porTipo = {};
+      for (const r of res) {
+        if ((porTipo[r.doc.tipo] || 0) < MAX_POR_TIPO) { elegidos.push(r); porTipo[r.doc.tipo] = (porTipo[r.doc.tipo] || 0) + 1; }
+        if (elegidos.length === k) break;
+      }
+      return elegidos;
+    }
+    return (MUNDOS[lang] = { productos, empresa, tcm, hierbaPorId, formulaPorId, docs, porId, buscar, seguridad, segPorRef, sistemas, tx });
+  }
+
+  // ================= Estado =================
+  let lang = "es", W = null, T = UI.es;
+  try { const g = localStorage.getItem("herbolario-idioma"); if (g === "es" || g === "en") lang = g; } catch {}
+  let filtroPol = "";
+  const LIM0 = { cat: 12, tcm: 8, hie: 12, seg: 10 };
+  const lim = { ...LIM0 };
+  function botonMas(id, total, clave) {
+    const b = $(id), resto = total - lim[clave];
+    b.hidden = resto <= 0;
+    if (resto > 0) b.textContent = T.ver_mas(resto);
+  }
+  const turnos = [];
+  let sample = null, ctl = null, ocupado = false, sampleListo = false;
+  // Servidor propio con Gemini (sitio de Render). Vacío = sin servidor.
+  const API_URL = (document.querySelector('meta[name="api"]')?.content || "").replace(/\/+$/, "");
+  let apiListo = false;
+  const notaIA = () => (sample ? T.nota_claude : apiListo ? T.nota_gemini : T.nota_sin_ia);
+
+  // ================= Pintado =================
+  function pintarEstaticos() {
+    document.documentElement.lang = lang;
+    document.querySelectorAll("[data-i18n]").forEach((el) => { const v = T[el.dataset.i18n]; if (typeof v === "string") el.textContent = v; });
+    document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = T[el.dataset.i18nPh]; });
+    document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", T[el.dataset.i18nAria]); });
+    document.querySelectorAll(".idioma button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+    $("ai-note").textContent = notaIA();
+    pintarPedido();
+    const cats = new Set(W.productos.map((p) => p.categoria));
+    $("stats").innerHTML = T.stats({ p: W.productos.length, c: cats.size, f: W.tcm.formulas.length, h: W.tcm.hierbas.length,
+      s: W.sistemas.length, e: (DATOS.evidencia?.plantas || []).length, g: W.seguridad.length });
+    $("creditos").innerHTML = esc(T.creditos) + " " + Object.values(CREDITOS).map((c) =>
+      `<a href="${esc(c.pagina)}" target="_blank" rel="noopener">${esc(c.autor || T.autor_desconocido)}</a> (${esc(c.licencia)})`).join(", ") + ".";
+    $("sugerencias").innerHTML = T.sugerencias.map((s) => `<button type="button" class="chip">${esc(s)}</button>`).join("");
+  }
+
+  const polaridad = (p) => (p && T.pol[p] ? p : "neutra");
+  function pintarModelo() {
+    const modeloPorClave = (re) => W.tcm.modelo.find((m) => re.test(m.titulo));
+    const pos = modeloPorClave(/positiv/i), neg = modeloPorClave(/negativ/i);
+    const lista = (p) => W.tcm.formulas.filter((f) => f.polaridad === p).map((f) => `<button type="button" class="herb-chip" data-id="${f.id}">${esc(f.nombre)}</button>`).join("");
+    const corto = (m, p) => esc(m?.texto?.slice(0, 420) || T.pol_def[p]) + (m?.texto?.length > 420 ? "…" : "");
+    $("polos").innerHTML = `
+      <div class="polo yang"><span class="pol positiva">${esc(T.pol_plural.positiva)}</span><p>${corto(pos, "positiva")}</p><div class="herbs">${lista("positiva")}</div></div>
+      <div class="polo yin"><span class="pol negativa">${esc(T.pol_plural.negativa)}</span><p>${corto(neg, "negativa")}</p><div class="herbs">${lista("negativa")}</div></div>`;
+    $("modelo").innerHTML = W.tcm.modelo.map((m) => `<details id="card-${m.id}"><summary>${esc(m.titulo)} <span class="label">${m.id}</span></summary><p>${esc(m.texto)}</p></details>`).join("");
+  }
+  function tarjetaFormula(f) {
+    const pres = f.presentaciones || [];
+    return `<article class="card" id="card-${f.id}">
+      <div class="top"><span>${f.id}</span><span class="price">${pres.filter((p) => p.precio_usd != null).map((p) => "US$ " + Number(p.precio_usd).toFixed(2)).join(" · ")}</span></div>
+      <h3>${esc(f.nombre)}</h3>
+      <span class="pol ${polaridad(f.polaridad)}">${esc(T.pol[polaridad(f.polaridad)])}${f.elemento ? " · " + esc(f.elemento) : ""}</span>
+      <div class="kv"><b>${T.organos}</b>${esc(L(f.organos))}</div>
+      <div class="kv"><b>${T.sintomas}</b>${esc(L((f.sintomas || []).slice(0, 8)))}</div>
+      <details><summary>${T.ficha_completa}</summary><dl>
+        ${f.formula_clasica_base ? `<div><dt>${T.formula_base}</dt><dd>${esc(f.formula_clasica_base)}</dd></div>` : ""}
+        <div><dt>${T.accion}</dt><dd>${esc(f.accion_energetica || "—")}</dd></div>
+        <div><dt>${T.patrones}</dt><dd>${esc(L(f.patrones_mtc))}</dd></div>
+        <div><dt>${T.meridianos}</dt><dd>${esc(L(f.meridianos))}</dd></div>
+        <div><dt>${T.todos_sintomas}</dt><dd>${esc(L(f.sintomas))}</dd></div>
+        <div><dt>${T.uso_trad}</dt><dd>${esc(L(f.condiciones_tradicionales))}</dd></div>
+        ${f.descripcion_oficial ? `<div><dt>${T.desc_oficial}</dt><dd>${esc(f.descripcion_oficial)}</dd></div>` : ""}
+        ${pres.map((p) => `<div><dt>${esc(p.formato || T.presentacion)}</dt><dd>${esc([p.presentacion, p.sku && "#" + p.sku, p.modo_de_uso].filter(Boolean).join(" · "))}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">${T.ficha_oficial_min}</a>` : ""}</dd></div>`).join("")}
+        <div><dt>${T.no_indicada}</dt><dd>${esc(f.no_indicado_para || f.precauciones || T.consultar)}</dd></div>
+      </dl></details>
+      ${f.hierbas?.length ? `<div class="kv"><b>${T.hierbas}</b><div class="herbs">${f.hierbas.map((x) => `<button type="button" class="herb-chip" data-id="${x.hierba_id}">${esc(W.hierbaPorId[x.hierba_id]?.pinyin || W.hierbaPorId[x.hierba_id]?.nombre_es || x.hierba_id)}</button>`).join("")}</div></div>` : ""}
+    </article>`;
+  }
+  function tarjetaHierba(h) {
+    return `<article class="card" id="card-${h.id}">
+      <div class="top"><span>${h.id}</span><span>${esc(h.naturaleza || "")}</span></div>
+      <h3>${esc(h.pinyin || h.nombre_es)}</h3>
+      <div class="en">${esc([h.nombre_es !== h.pinyin ? h.nombre_es : null, h.latin].filter(Boolean).join(" · "))}</div>
+      <div class="kv"><b>${T.sabor_merid}</b>${esc(L(h.sabor))} · ${esc(L(h.meridianos))}</div>
+      <div class="kv"><b>${T.trata_sola}</b>${esc(L((h.indicaciones_tradicionales || []).slice(0, 6)))}</div>
+      <details><summary>${T.ficha_completa}</summary><dl>
+        <div><dt>${T.acciones}</dt><dd>${esc(L(h.acciones))}</dd></div>
+        <div><dt>${T.todas_ind}</dt><dd>${esc(L(h.indicaciones_tradicionales))}</dd></div>
+        ${h.uso_historico ? `<div><dt>${T.uso_hist}</dt><dd>${esc(h.uso_historico)}</dd></div>` : ""}
+        <div><dt>${T.precauciones}</dt><dd>${esc(h.precauciones || "—")}</dd></div>
+      </dl></details>
+      ${W.segPorRef[h.id] ? `<div class="herbs"><button type="button" class="herb-chip" data-id="${W.segPorRef[h.id]}">${T.ver_seguridad}</button></div>` : ""}
+      ${h.formulas?.length ? `<div class="kv"><b>${T.en_formulas}</b><div class="herbs">${h.formulas.filter((i) => W.formulaPorId[i]).map((i) => `<button type="button" class="herb-chip" data-id="${i}">${esc(W.formulaPorId[i].nombre)}</button>`).join("")}</div></div>` : ""}
+    </article>`;
+  }
+  function pintarTcm() {
+    const org = $("f-organo").value;
+    const lista = W.tcm.formulas.filter((f) => (!filtroPol || polaridad(f.polaridad) === filtroPol) && (!org || (f.organos || []).includes(org)));
+    $("grid-tcm").innerHTML = lista.slice(0, lim.tcm).map(tarjetaFormula).join("") || `<p class="note">${T.ninguna_formula}</p>`;
+    botonMas("mas-tcm", lista.length, "tcm");
+  }
+  function pintarHierbas() {
+    const terms = normalizar($("f-hierba").value, lang).filter((t) => !t.startsWith("~"));
+    const lista = W.tcm.hierbas.filter((h) => {
+      if (!terms.length) return true;
+      const toks = normalizar(W.porId[h.id].texto, lang);
+      return terms.every((t) => toks.some((x) => x.startsWith(t)));
+    });
+    $("grid-hierbas").innerHTML = lista.slice(0, lim.hie).map(tarjetaHierba).join("") || `<p class="vacio">${T.sin_hierbas}</p>`;
+    botonMas("mas-hie", lista.length, "hie");
+    $("cuenta-hierbas").textContent = T.cuenta_hierbas(lista.length, W.tcm.hierbas.length);
+  }
+  function prepararFiltrosTcm() {
+    $("f-pol").innerHTML = ["", "positiva", "negativa"]
+      .map((v) => `<button type="button" class="chip" data-v="${v}" aria-pressed="${v === filtroPol}">${esc(T.pol_plural[v])}</button>`).join("");
+    const organos = [...new Set(W.tcm.formulas.flatMap((f) => f.organos || []))].sort((a, b) => a.localeCompare(b, lang));
+    $("f-organo").innerHTML = `<option value="">${esc(T.todos_organos)}</option>` + organos.map((o) => `<option>${esc(o)}</option>`).join("");
+  }
+
+  function tarjetaSeg(g) {
+    const tx = W.tx, ints = g.interacciones || [];
+    const orden = { alta: 0, moderada: 1, baja: 2, teorica: 3 };
+    const filas = [...ints].sort((a, b) => (orden[a.severidad] ?? 9) - (orden[b.severidad] ?? 9)).map((i) => `<tr>
+        <td>${esc(tx(i.farmaco))}<span class="evid">${esc(T.clases[i.clase] || i.clase)}</span></td>
+        <td><span class="sev ${esc(i.severidad)}">${esc(T.sev[i.severidad] || i.severidad)}</span></td>
+        <td>${esc(tx(i.efecto))}<span class="evid">${esc(T.evid[i.evidencia] || i.evidencia)}${i.fuente ? ` · <a href="${esc(i.fuente)}" target="_blank" rel="noopener">${esc(T.fuentes.toLowerCase())}</a>` : ""}</span></td>
+      </tr>`).join("");
+    const contra = tx(g.contraindicaciones) || [];
+    return `<article class="seg-card" id="card-${g.id}">
+      <div class="cab"><h3>${esc(tx(g.nombre))}</h3>${g.latin ? `<span class="lat">${esc(g.latin)}</span>` : ""}<span class="tag">${esc(T.grupos[g.grupo] || g.grupo)}</span>${g.ref ? `<button type="button" class="herb-chip" data-id="${g.ref}">${g.ref}</button>` : ""}</div>
+      <p>${esc(tx(g.resumen))}</p>
+      ${ints.length ? `<div class="tabla-int"><table><thead><tr><th>${T.th_farmaco}</th><th>${T.th_gravedad}</th><th>${T.th_efecto}</th></tr></thead><tbody>${filas}</tbody></table></div>` : `<p class="sin-int">${T.sin_int}</p>`}
+      <details><summary>${T.ficha_completa}</summary><dl>
+        ${contra.length ? `<div><dt>${T.contraindicaciones}</dt><dd>${esc(contra.join("; "))}</dd></div>` : ""}
+        <div><dt>${T.embarazo}</dt><dd>${esc(tx(g.embarazo_lactancia) || "—")}</dd></div>
+        <div class="fuentes"><dt>${T.fuentes}</dt><dd>${(g.fuentes || []).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, "").slice(0, 70))}</a>`).join("<br>")}</dd></div>
+      </dl></details>
+    </article>`;
+  }
+  function pintarSeguridad() {
+    const tx = W.tx;
+    const q = normalizar($("f-seg").value, lang).filter((t) => !t.startsWith("~"));
+    const clase = $("f-clase").value, sev = $("f-sev").value;
+    const orden = { alta: 0, moderada: 1, baja: 2, teorica: 3 };
+    const peor = (g) => Math.min(9, ...(g.interacciones || []).map((i) => orden[i.severidad] ?? 9));
+    const lista = W.seguridad.filter((g) => {
+      const ints = g.interacciones || [];
+      if (clase && !ints.some((i) => i.clase === clase)) return false;
+      if (sev && !ints.some((i) => i.severidad === sev)) return false;
+      if (!q.length) return true;
+      const toks = normalizar(W.porId[g.id].texto, lang);
+      return q.every((t) => toks.some((x) => x.startsWith(t)));
+    }).sort((a, b) => peor(a) - peor(b) || tx(a.nombre).localeCompare(tx(b.nombre), lang));
+    $("grid-seg").innerHTML = lista.slice(0, lim.seg).map(tarjetaSeg).join("") || `<p class="note">${T.ninguna_seg}</p>`;
+    botonMas("mas-seg", lista.length, "seg");
+    const total = W.seguridad.reduce((n, g) => n + (g.interacciones || []).length, 0);
+    $("cuenta-seg").textContent = T.cuenta_seg(lista.length, W.seguridad.length, total);
+  }
+  function prepararFiltrosSeg() {
+    const usadas = new Set(W.seguridad.flatMap((g) => (g.interacciones || []).map((i) => i.clase)));
+    $("f-clase").innerHTML = `<option value="">${esc(T.todas_clases)}</option>` +
+      Object.keys(T.clases).filter((c) => usadas.has(c)).map((c) => `<option value="${c}">${esc(T.clases[c])}</option>`).join("");
+    $("f-sev").innerHTML = `<option value="">${esc(T.todas_sev)}</option>` +
+      ["alta", "moderada", "baja", "teorica"].map((v) => `<option value="${v}">${esc(T.sev[v])}</option>`).join("");
+  }
+
+  let sistemaActual = "SIS-01";
+  function pintarSistemas() {
+    const tx = W.tx;
+    const etiqueta = (s) => { const n = tx(s.nombre).replace(/^Sistema /, "").replace(/ system$/, ""); return n.charAt(0).toUpperCase() + n.slice(1); };
+    $("sis-tabs").innerHTML = W.sistemas.map((s) => `<button type="button" class="chip" data-id="${s.id}" aria-pressed="${s.id === sistemaActual}">${esc(etiqueta(s))}</button>`).join("");
+    const s = W.sistemas.find((x) => x.id === sistemaActual) || W.sistemas[0];
+    if (!s) { $("sis-ficha").innerHTML = ""; return; }
+    const corto = (d) => d.titulo.split(" · ")[0].replace(/ - .*/, "");
+    const chips = (ids) => ids.filter((id) => W.porId[id]).map((id) => `<button type="button" class="herb-chip" data-id="${id}">${esc(corto(W.porId[id]))}</button>`).join("");
+    const lista = (xs) => `<ul>${(xs || []).map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    const grupo = (ids, titulo) => (ids.length ? `<div class="sis-grupo"><b class="label">${titulo}</b><div class="herbs">${chips(ids)}</div></div>` : "");
+    $("sis-ficha").innerHTML = `<article class="sis-card" id="card-${s.id}">
+      <div class="cab"><span class="label">${s.id}</span><h3>${esc(tx(s.nombre))}</h3><span class="partes">${T.sis_partes}: ${esc(tx(s.partes))}</span></div>
+      <p class="resumen">${esc(tx(s.resumen))}</p>
+      <div class="sis-cols">
+        <div><b class="label">${T.sis_senales}</b>${lista(tx(s.senales))}</div>
+        <div><b class="label">${T.sis_habitos}</b>${lista(tx(s.habitos))}</div>
+      </div>
+      ${grupo(s.productos, T.sis_productos)}
+      ${grupo(s.formulas, T.sis_formulas)}
+      ${grupo(s.hierbas, T.sis_hierbas)}
+      <p class="sis-medico"><strong>${T.sis_medico}</strong> ${esc(tx(s.medico))}</p>
+      <p class="note">${T.sis_nota}</p>
+    </article>`;
+  }
+
+  function tarjeta(p) {
+    return `<article class="card" id="card-${p.id}">
+      <div class="top"><span>${p.id}${p.sku ? " · #" + esc(p.sku) : ""}</span><span class="price">${p.precio_usd != null ? "US$ " + Number(p.precio_usd).toFixed(2) : ""}</span></div>
+      <h3>${esc(p.nombre_es)}</h3>
+      ${p.nombre_es !== p.nombre ? `<div class="en">${esc(p.nombre)}</div>` : ""}
+      <span class="tag">${esc(p.categoria)}</span>
+      <p>${esc(p.descripcion)}</p>
+      <details><summary>${T.ficha_completa}</summary><dl>
+        <div><dt>${T.presentacion}</dt><dd>${esc(p.presentacion || "—")} · ${esc(p.tipo)}</dd></div>
+        <div><dt>${T.ingredientes}</dt><dd>${esc(p.ingredientes.join(", "))}</dd></div>
+        <div><dt>${T.beneficios}</dt><dd>${esc(p.beneficios.join("; "))}</dd></div>
+        <div><dt>${T.modo_uso}</dt><dd>${esc(p.modo_de_uso || T.ver_etiqueta)}</dd></div>
+        <div><dt>${T.precauciones}</dt><dd>${esc(p.precauciones)}</dd></div>
+        ${p.url ? `<div><dt>${T.ficha_oficial}</dt><dd><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.url.replace("https://www.", ""))}</a></dd></div>` : ""}
+      </dl></details>
+    </article>`;
+  }
+  function pintarCatalogo() {
+    const f = $("filtro").value.trim();
+    const c = $("categoria").value;
+    const terms = f ? normalizar(f, lang).filter((t) => !t.startsWith("~")) : [];
+    const lista = W.productos.filter((p) => {
+      if (c && p.categoria !== c) return false;
+      if (!terms.length) return true;
+      const toks = normalizar(W.porId[p.id].texto, lang);
+      return terms.every((t) => toks.some((x) => x.startsWith(t)));
+    });
+    $("grid").innerHTML = lista.slice(0, lim.cat).map(tarjeta).join("") || `<p class="vacio">${T.sin_productos}</p>`;
+    botonMas("mas-cat", lista.length, "cat");
+    $("cuenta").textContent = T.cuenta_prod(lista.length, W.productos.length);
+  }
+  function prepararCategorias() {
+    const cats = [...new Set(W.productos.map((p) => p.categoria))];
+    $("categoria").innerHTML = `<option value="">${esc(T.todas_cat)}</option>` + cats.map((c) => `<option>${esc(c)}</option>`).join("");
+  }
+
+  function pintarGaleria() {
+    $("galeria").innerHTML = PLANTAS.map((pl) => {
+      const [nombre, nota] = pl[lang] || pl.es;
+      return `
+    <article class="planta">
+      <img src="img/${pl.img}.webp" alt="${esc(nombre)} (${esc(pl.latin)})" loading="lazy" width="960" height="720">
+      <div class="txt">
+        <h3>${esc(nombre)}</h3>
+        <span class="lat">${esc(pl.latin)}</span>
+        <p>${esc(nota)}</p>
+        <div class="herbs">${pl.ids.filter((id) => W.porId[id]).map((id) => `<button type="button" class="herb-chip" data-id="${id}">${esc(W.porId[id].titulo.split(" · ")[0].replace(/ - .*/, ""))}</button>`).join("")}</div>
+      </div>
+    </article>`;
+    }).join("");
+  }
+
+  // ================= Rutas =================
+  // Cada vista tiene su dirección (#/catalogo) y cada ficha la suya (#/catalogo/NSP-001), así se pueden compartir
+  // y la flecha de regresar vuelve a la vista y a la posición anteriores.
+  const VISTAS = ["inicio", "consulta", "catalogo", "sistemas", "evidencia", "mtc", "seguridad", "contacto", "privacidad", "terminos"];
+  const VISTA_DE_TIPO = { producto: "catalogo", formula: "mtc", hierba: "mtc", modelo: "mtc", seguridad: "seguridad", sistema: "sistemas", planta: "evidencia" };
+  const ANTIGUAS = { consulta: "consulta", catalogo: "catalogo", sistemas: "sistemas", tcm: "mtc", seguridad: "seguridad", contacto: "contacto" };
+  let vistaActual = "";
+  function navegar(hash) {
+    try { history.replaceState({ ...(history.state || {}), y: scrollY }, ""); } catch {}
+    if (location.hash === hash) mostrarRuta(); else location.hash = hash;
+  }
+  function irAFicha(id) {
+    const d = W.porId[id];
+    if (!d || d.tipo === "empresa") return;
+    navegar(`#/${VISTA_DE_TIPO[d.tipo]}/${id}`);
+  }
+  function mostrarRuta() {
+    let h = location.hash;
+    let vista = "inicio", id = "";
+    if (h.startsWith("#/")) {
+      const m = h.match(/^#\/([a-z-]*)\/?([A-Za-z0-9-]{0,20})$/);
+      vista = m ? (m[1] || "inicio") : "no-encontrado";
+      id = m ? m[2] : "";
+      if (!VISTAS.includes(vista)) vista = "no-encontrado";
+    } else if (h && h !== "#") {
+      const vieja = ANTIGUAS[h.slice(1)];
+      if (vieja) { history.replaceState(null, "", "#/" + vieja); vista = vieja; h = location.hash; }
+      else if (document.getElementById(h.slice(1))) return;   // ancla interna (p. ej. «Saltar al contenido»)
+      else vista = "no-encontrado";
+    }
+    const cambio = vista !== vistaActual;
+    vistaActual = vista;
+    document.querySelectorAll(".vista").forEach((v) => { v.hidden = v.dataset.vista !== vista; });
+    document.querySelectorAll("[data-ruta]").forEach((a) => {
+      if (a.dataset.ruta === vista) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    cerrarMas();
+    document.title = vista === "inicio" ? T.titulos.inicio : `${T.titulos[vista]} · Herbolario Consultor`;
+    if (vista === "evidencia") pintarEvidencia(false);
+    if (vista !== "evidencia" || !id) cerrarPlanta(true);
+    const d = id && W.porId[id];
+    // Se espera a que la vista se dibuje; si mientras tanto cambió la dirección, no se hace nada.
+    if (d && VISTA_DE_TIPO[d.tipo] === vista) { setTimeout(() => { if (location.hash === h) mostrarFicha(id); }, 0); return; }
+    const y = history.state?.y;
+    setTimeout(() => {
+      if (location.hash !== h) return;
+      scrollTo(0, y != null ? y : 0);
+      if (cambio && y == null) $("principal").focus({ preventScroll: true });
+    });
+  }
+  addEventListener("hashchange", mostrarRuta);
+
+  function mostrarFicha(id) {
+    const d = W.porId[id];
+    if (d.tipo === "planta") { abrirPlanta(id); return; }
+    if (!document.getElementById("card-" + id)) {
+      if (d.tipo === "sistema") { sistemaActual = id; pintarSistemas(); }
+      if (d.tipo === "producto") { $("filtro").value = ""; $("categoria").value = ""; lim.cat = Infinity; pintarCatalogo(); }
+      if (d.tipo === "formula") { lim.tcm = Infinity; filtroPol = ""; $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c.dataset.v === ""))); $("f-organo").value = ""; pintarTcm(); }
+      if (d.tipo === "hierba") { $("f-hierba").value = ""; lim.hie = Infinity; pintarHierbas(); }
+      if (d.tipo === "seguridad") { $("f-seg").value = ""; $("f-clase").value = ""; $("f-sev").value = ""; lim.seg = Infinity; pintarSeguridad(); }
+    }
+    const el = document.getElementById("card-" + id);
+    if (!el) return;
+    // Se abre antes de desplazar para que la ficha quede bien colocada; arriba queda espacio para la barra fija.
+    const det = el.tagName === "DETAILS" ? el : el.querySelector("details");
+    if (det) det.open = true;
+    el.style.scrollMarginTop = $("barra").offsetHeight + 24 + "px";
+    el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 1600);
+  }
+
+  // Menú «Más» del teléfono
+  function cerrarMas() { $("mas-menu").hidden = true; $("mas-btn").setAttribute("aria-expanded", "false"); }
+
+  // ================= Buscador de nombres (barra superior) =================
+  const plano = (s) => String(s ?? "").toLowerCase().normalize("NFKD").replace(/\p{M}/gu, "");
+  const mayus = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+  function indiceNombres() {
+    if (W.nombres) return W.nombres;
+    const out = [], tx = W.tx;
+    const add = (id, nombre, otros, tipo) => {
+      otros = [...new Set(otros.filter((o) => o && o !== nombre))];
+      out.push({ id, nombre, otros, tipo, claves: [nombre, ...otros].map(plano) });
+    };
+    for (const s of W.sistemas) add(s.id, tx(s.nombre), [], mayus(T.tipos.sistema));
+    for (const d of W.docs) if (d.tipo === "planta") add(d.id, tx(d.pl.nombre), [d.pl.latin], mayus(T.tipos.planta));
+    for (const p of W.productos) add(p.id, p.nombre_es, [p.nombre], mayus(T.tipos.producto));
+    for (const f of W.tcm.formulas) add(f.id, f.nombre, f.nombres_anteriores || [], mayus(T.tipos.formula));
+    for (const h of W.tcm.hierbas) add(h.id, h.pinyin || h.nombre_es, [h.nombre_es, h.latin], mayus(T.tipos.hierba));
+    // Las hierbas chinas ya están arriba (su ficha enlaza a la de seguridad); aquí entran las occidentales y los suplementos.
+    for (const g of W.seguridad) if (!g.ref) add(g.id, tx(g.nombre), [g.latin], T.grupos[g.grupo] || mayus(T.tipos.seguridad));
+    return (W.nombres = out);
+  }
+  function buscarNombres(texto) {
+    const q = plano(texto).trim().replace(/\s+/g, " ");
+    if (!q) return [];
+    // ¿Aparece q al principio de alguna palabra de k?
+    const inicioPalabra = (k) => {
+      for (let i = k.indexOf(q); i >= 0; i = k.indexOf(q, i + 1)) if (i === 0 || !/[a-z0-9]/.test(k[i - 1])) return true;
+      return false;
+    };
+    const res = [];
+    for (const e of indiceNombres()) {
+      let s = 0;
+      e.claves.forEach((k, i) => {
+        const v = k.startsWith(q) ? 3 : inicioPalabra(k) ? 2 : k.includes(q) ? 1 : 0;
+        s = Math.max(s, v - (i ? 0.5 : 0));
+      });
+      if (s > 0) res.push({ e, s });
+    }
+    return res.sort((a, b) => b.s - a.s || a.e.nombre.length - b.e.nombre.length).slice(0, 10).map((r) => r.e);
+  }
+  // Resalta la parte del nombre que coincide (sin depender de los acentos).
+  function resaltar(nombre, texto) {
+    const q = plano(texto).trim(), base = plano(nombre);
+    const i = q ? base.indexOf(q) : -1;
+    if (i < 0 || base.length !== nombre.length) return esc(nombre);
+    return esc(nombre.slice(0, i)) + "<mark>" + esc(nombre.slice(i, i + q.length)) + "</mark>" + esc(nombre.slice(i + q.length));
+  }
+  let activo = -1, resultados = [];
+  function cerrarBuscador() {
+    $("buscar-lista").hidden = true; $("buscar").setAttribute("aria-expanded", "false");
+    $("buscar").removeAttribute("aria-activedescendant"); activo = -1;
+  }
+  function pintarBuscador() {
+    const texto = $("buscar").value;
+    resultados = buscarNombres(texto); activo = resultados.length ? 0 : -1;
+    if (!texto.trim()) return cerrarBuscador();
+    $("buscar-lista").innerHTML = resultados.map((e, i) => `<li role="option" id="bn-${i}" data-id="${e.id}" aria-selected="${i === activo}">
+        <span class="t">${resaltar(e.nombre, texto)}</span>
+        <span class="m">${esc([e.tipo, ...e.otros].join(" · "))}</span></li>`).join("") || `<li class="vacio">${esc(T.sin_nombres)}</li>`;
+    $("buscar-lista").hidden = false; $("buscar").setAttribute("aria-expanded", "true");
+    marcarActivo();
+  }
+  function marcarActivo() {
+    $("buscar-lista").querySelectorAll("li[role=option]").forEach((li, i) => li.setAttribute("aria-selected", String(i === activo)));
+    if (activo >= 0) { $("buscar").setAttribute("aria-activedescendant", "bn-" + activo); $("bn-" + activo).scrollIntoView({ block: "nearest" }); }
+  }
+  function elegirNombre(id) {
+    cerrarBuscador(); $("buscar").value = ""; $("buscar").blur();
+    irAFicha(id);
+  }
+
+  function pintarHits(consulta, hits, ejemplo) {
+    $("hits-for").textContent = ejemplo ? T.ejemplo_para(consulta) : T.para(consulta);
+    if (!hits.length) { $("hits").innerHTML = `<p class="note">${T.sin_hits}</p>`; return; }
+    const max = hits[0].score || 1;
+    $("hits").innerHTML = hits.map((h) => `
+      <button class="hit" type="button" data-id="${h.doc.id}">
+        <span class="score">${h.score.toFixed(2)}</span>
+        <span class="t">${esc(h.doc.titulo)}</span>
+        <span class="m">${h.doc.id} · ${esc(h.doc.p ? h.doc.p.categoria : T.tipos[h.doc.tipo])}</span>
+        <span class="bar"><i data-w="${Math.round(Math.max(4, (h.score / max) * 100))}"></i></span>
+      </button>`).join("");
+    $("hits").querySelectorAll("i[data-w]").forEach((i) => { i.style.width = i.dataset.w + "%"; });
+  }
+
+  // ================= Evidencia científica (herbario clínico) =================
+  const EV_UI = {
+    es: {
+      buscar: "¿Qué planta o padecimiento buscas?", buscar_ph: "Ej.: ansiedad, cúrcuma, Rhodiola, hígado…", filtros: "Filtros",
+      padecimiento: "Padecimiento", todos: "Todos", minima: "Evidencia mínima", cualquiera: "Cualquiera", limitada: "Limitada o mejor",
+      moderada: "Moderada o mejor", solida: "Solo sólida", region: "Región de origen", ordenar: "Ordenar", por_ev: "Por evidencia", az: "Alfabético",
+      limpiar: "Limpiar filtros", n_plantas: (n, c) => `${n} plantas${c ? " para " + c.toLowerCase() : ""}`,
+      barras: (c) => `Barras = fuerza de la evidencia ${c ? "para este padecimiento" : "en su mejor uso"}`,
+      vacio: "No hay plantas con esos filtros. Prueba bajar la evidencia mínima o quitar regiones.",
+      std: "Estandarización", guardar: "Guardar", quitar: "Quitar de guardadas", guardada: "★ Guardada", guardar_b: "☆ Guardar",
+      elegir: "Elige un padecimiento y compara qué plantas tienen mejor respaldo",
+      orden_ev: "Ordenadas de mayor a menor evidencia científica. Toca una planta para ver el extracto estudiado, la dosis de los ensayos, sus usos tradicionales y las precauciones.",
+      sin_guardadas: "Aún no guardas plantas. Toca la estrella ☆ de cualquier ficha para tenerla aquí y comparar.", ir_plantas: "Ver plantas",
+      guardadas_h: "Plantas guardadas", solo_aqui: "Se guardan solo en este dispositivo.",
+      tabs: { ev: "Evidencia", std: "Estandarización y dosis", trad: "Usos tradicionales", safe: "Seguridad" },
+      nota_ev: "Los resultados corresponden a los extractos estandarizados estudiados, no a cualquier producto con esta planta.",
+      etiqueta: "Qué buscar en la etiqueta", extractos: "Extractos clínicos", parte: "Parte usada", dosis: "Dosis en estudios", origen: "Origen",
+      nota_dosis: "La dosis descrita es la usada en investigación, no una indicación personal. Pregunta a tu médico o farmacéutico cuál es adecuada para ti.",
+      trad_t: "Tradición y experiencias de usuarios",
+      nota_trad: "Estos usos provienen de sistemas médicos tradicionales, folclore y relatos personales. Tienen valor histórico y cultural, pero no demuestran eficacia.",
+      precauciones: "Precauciones", interacciones: "Interacciones con medicamentos",
+      nota_safe: "Consulta con tu médico antes de usarla, sobre todo si tomas medicamentos, estás embarazada o en lactancia, o tienes una enfermedad crónica.",
+      en_nsp: "En el catálogo de Nature's Sunshine", ver_seg: "Ficha de seguridad", cerrar: "Cerrar ficha",
+    },
+    en: {
+      buscar: "Which plant or condition are you looking for?", buscar_ph: "E.g.: anxiety, turmeric, Rhodiola, liver…", filtros: "Filters",
+      padecimiento: "Condition", todos: "All", minima: "Minimum evidence", cualquiera: "Any", limitada: "Limited or better",
+      moderada: "Moderate or better", solida: "Strong only", region: "Region of origin", ordenar: "Sort", por_ev: "By evidence", az: "A to Z",
+      limpiar: "Clear filters", n_plantas: (n, c) => `${n} plants${c ? " for " + c.toLowerCase() : ""}`,
+      barras: (c) => `Bars = strength of the evidence ${c ? "for this condition" : "for its best use"}`,
+      vacio: "No plants match those filters. Try lowering the minimum evidence or removing regions.",
+      std: "Standardization", guardar: "Save", quitar: "Remove from saved", guardada: "★ Saved", guardar_b: "☆ Save",
+      elegir: "Choose a condition and compare which plants have the best support",
+      orden_ev: "Sorted from strongest to weakest scientific evidence. Tap a plant to see the extract studied, the trial dose, its traditional uses and its cautions.",
+      sin_guardadas: "You haven't saved any plants yet. Tap the ☆ star on any record to keep it here and compare.", ir_plantas: "See plants",
+      guardadas_h: "Saved plants", solo_aqui: "They are saved only on this device.",
+      tabs: { ev: "Evidence", std: "Standardization and dose", trad: "Traditional uses", safe: "Safety" },
+      nota_ev: "Results apply to the standardized extracts studied, not to any product containing this plant.",
+      etiqueta: "What to look for on the label", extractos: "Clinical extracts", parte: "Part used", dosis: "Dose in studies", origen: "Origin",
+      nota_dosis: "The dose described is the one used in research, not personal advice. Ask your doctor or pharmacist which dose is right for you.",
+      trad_t: "Tradition and user experiences",
+      nota_trad: "These uses come from traditional medical systems, folklore and personal accounts. They have historical and cultural value, but they don't prove effectiveness.",
+      precauciones: "Cautions", interacciones: "Interactions with medications",
+      nota_safe: "Talk to your doctor before using it, especially if you take medications, are pregnant or breastfeeding, or have a chronic illness.",
+      en_nsp: "In the Nature's Sunshine catalog", ver_seg: "Safety record", cerrar: "Close record",
+    },
+  };
+  const GUIA = {
+    es: `<h2>Cómo reconocer un suplemento botánico de calidad</h2>
+      <p>Dos frascos con el mismo nombre de planta pueden ser productos completamente distintos. El resultado de un estudio solo aplica al extracto que se probó, no a la planta en general.</p>
+      <h3>Qué significa cada nivel de evidencia</h3>
+      <div class="leyenda">
+        <div>__M4__<span>Varios ensayos controlados de buena calidad o revisiones sistemáticas consistentes. Suele figurar en guías clínicas.</span></div>
+        <div>__M3__<span>Ensayos controlados favorables, pero pequeños, de corta duración o con posibles conflictos de interés.</span></div>
+        <div>__M2__<span>Pocos estudios, resultados mixtos o metodología débil. Prometedor, no confirmado.</span></div>
+        <div>__M1__<span>Sin estudios suficientes o con resultados negativos. Se basa sobre todo en la tradición.</span></div>
+      </div>
+      <h3>Lista de verificación antes de comprar</h3>
+      <ol>
+        <li><strong>Estandarización declarada.</strong> La etiqueta debe decir el porcentaje del compuesto activo. Un "extracto 10:1" solo indica concentración, no contenido de activos.</li>
+        <li><strong>Extracto con nombre clínico.</strong> Busca el extracto usado en los estudios para que la dosis y el efecto sean comparables.</li>
+        <li><strong>Parte de la planta correcta.</strong> Raíz, hoja o semilla tienen composiciones distintas.</li>
+        <li><strong>Certificación de terceros.</strong> Sellos como USP Verified o NSF Certified confirman identidad, dosis y ausencia de contaminantes.</li>
+        <li><strong>Análisis de contaminantes.</strong> Metales pesados, pesticidas, microorganismos y adulterantes.</li>
+        <li><strong>Certificado de análisis (COA).</strong> Las marcas serias lo entregan por lote al pedirlo.</li>
+        <li><strong>Evita las "mezclas patentadas" sin cantidades.</strong> Si la etiqueta no dice cuántos miligramos hay de cada ingrediente, no puedes saber si la dosis es efectiva.</li>
+        <li><strong>Desconfía de las promesas de curación.</strong> "Cura", "sin efectos secundarios" o "100% natural, por eso seguro" son señales de alerta.</li>
+      </ol>
+      <h3>Seguridad primero</h3>
+      <p>"Natural" no significa inocuo. La hierba de San Juan reduce la eficacia de anticonceptivos y muchos otros fármacos; la kava y el petasites se han asociado a daño hepático; ginkgo, ajo y cúrcuma aumentan el riesgo de sangrado. Informa siempre a tu médico y farmacéutico de lo que tomas, y suspende los suplementos al menos dos semanas antes de una cirugía salvo indicación contraria.</p>
+      <p>Busca atención médica si notas coloración amarilla de piel u ojos, orina oscura, sangrado inusual, reacciones alérgicas o empeoramiento del ánimo.</p>`,
+    en: `<h2>How to recognize a quality botanical supplement</h2>
+      <p>Two bottles with the same plant name can be completely different products. A study's result applies only to the extract that was tested, not to the plant in general.</p>
+      <h3>What each level of evidence means</h3>
+      <div class="leyenda">
+        <div>__M4__<span>Several good-quality controlled trials or consistent systematic reviews. Often included in clinical guidelines.</span></div>
+        <div>__M3__<span>Favorable controlled trials, but small, short or with possible conflicts of interest.</span></div>
+        <div>__M2__<span>Few studies, mixed results or weak methods. Promising, not confirmed.</span></div>
+        <div>__M1__<span>Not enough studies, or negative results. Based mostly on tradition.</span></div>
+      </div>
+      <h3>Checklist before you buy</h3>
+      <ol>
+        <li><strong>Declared standardization.</strong> The label should state the percentage of the active compound. A "10:1 extract" only tells you the concentration, not the active content.</li>
+        <li><strong>An extract with a clinical name.</strong> Look for the extract used in studies so the dose and effect are comparable.</li>
+        <li><strong>The right part of the plant.</strong> Root, leaf and seed have different compositions.</li>
+        <li><strong>Third-party certification.</strong> Seals such as USP Verified or NSF Certified confirm identity, dose and absence of contaminants.</li>
+        <li><strong>Contaminant testing.</strong> Heavy metals, pesticides, microbes and adulterants.</li>
+        <li><strong>Certificate of analysis (COA).</strong> Serious brands provide one per batch on request.</li>
+        <li><strong>Avoid "proprietary blends" without amounts.</strong> If the label doesn't list the milligrams of each ingredient, you can't know whether the dose works.</li>
+        <li><strong>Be wary of cure claims.</strong> "Cures", "no side effects" or "100% natural, so it's safe" are warning signs.</li>
+      </ol>
+      <h3>Safety first</h3>
+      <p>"Natural" doesn't mean harmless. St. John's wort makes birth control and many other drugs less effective; kava and butterbur have been linked to liver damage; ginkgo, garlic and turmeric raise the risk of bleeding. Always tell your doctor and pharmacist what you take, and stop supplements at least two weeks before surgery unless told otherwise.</p>
+      <p>Seek medical care if you notice yellowing of the skin or eyes, dark urine, unusual bleeding, allergic reactions or a worsening mood.</p>`,
+  };
+  const evi = { tab: "plantas", q: "", cond: "", regiones: new Set(), min: 0, orden: "ev", favs: new Set(), dTab: "ev", actual: "" };
+  try { JSON.parse(localStorage.getItem("herbolario-guardadas") || "[]").forEach((x) => typeof x === "string" && evi.favs.add(x)); } catch {}
+  const EVD = () => DATOS.evidencia || { plantas: [], padecimientos: {}, regiones: {}, niveles: {} };
+  const EU = () => EV_UI[lang];
+  const tl = (o) => (o && (o[lang] ?? o.es)) || "";
+  const maxEv = (p) => Math.max(0, ...p.evidencia.map((e) => e.l));
+  const evPara = (p, c) => p.evidencia.find((e) => e.c === c)?.l || 0;
+  const nomCond = (c) => tl(EVD().padecimientos[c]);
+  const medidor = (l) => `<span class="medidor" data-l="${l}"><span class="barras" aria-hidden="true"><i></i><i></i><i></i><i></i></span>${esc(tl(EVD().niveles[l]) || "—")}</span>`;
+  const docDePlanta = (pl) => "EVI-" + String(EVD().plantas.indexOf(pl) + 1).padStart(2, "0");
+  function guardarFavs() {
+    try { localStorage.setItem("herbolario-guardadas", JSON.stringify([...evi.favs])); } catch {}
+    $("evi-favs").textContent = evi.favs.size;
+  }
+  function plantasFiltradas() {
+    const q = plano(evi.q.trim());
+    const lista = EVD().plantas.filter((p) => {
+      if (q) {
+        const texto = plano([tl(p.nombre), p.latin, tl(p.origen), p.extractos, ...p.evidencia.map((e) => nomCond(e.c))].join(" "));
+        if (!texto.includes(q)) return false;
+      }
+      if (evi.cond && !p.evidencia.some((e) => e.c === evi.cond)) return false;
+      if (evi.regiones.size && !p.regiones.some((r) => evi.regiones.has(r))) return false;
+      return (evi.cond ? evPara(p, evi.cond) : maxEv(p)) >= evi.min;
+    });
+    const nivelDe = (p) => (evi.cond ? evPara(p, evi.cond) : maxEv(p));
+    return lista.sort((a, b) => (evi.orden === "az" ? 0 : nivelDe(b) - nivelDe(a)) || tl(a.nombre).localeCompare(tl(b.nombre), lang));
+  }
+  function tarjetaPlanta(p) {
+    const l = evi.cond ? evPara(p, evi.cond) : maxEv(p), fav = evi.favs.has(p.id), u = EU(), id = docDePlanta(p);
+    const top = [...p.evidencia].sort((a, b) => b.l - a.l).slice(0, 3).map((e) => `<span class="tag">${esc(nomCond(e.c))}</span>`).join("");
+    return `<article class="spec" id="card-${id}">
+      <button type="button" class="fav" data-fav="${esc(p.id)}" aria-pressed="${fav}" aria-label="${fav ? u.quitar : u.guardar}: ${esc(tl(p.nombre))}">${fav ? "★" : "☆"}</button>
+      <button type="button" class="spec-abrir" data-planta="${id}">
+        <span class="latin">${esc(p.latin)}</span>
+        <span class="comun">${esc(tl(p.nombre))}</span>
+        <span class="origen">${esc(tl(p.origen))} · ${esc(tl(p.parte))}</span>
+        ${medidor(l)}
+        <span class="tags">${top}</span>
+        <span class="stdline"><b>${u.std}:</b> ${esc(tl(p.estandarizacion).split(". ")[0].replace(/\.$/, ""))}.</span>
+      </button>
+    </article>`;
+  }
+  function pintarEvidencia(forzar) {
+    if (!DATOS.evidencia) return;
+    const cuerpo = $("evi-cuerpo");
+    if (!forzar && cuerpo.dataset.tab === evi.tab && cuerpo.dataset.lang === lang) return;
+    cuerpo.dataset.tab = evi.tab; cuerpo.dataset.lang = lang;
+    $("evi-tabs").querySelectorAll("[data-evi]").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.evi === evi.tab)));
+    $("evi-favs").textContent = evi.favs.size;
+    const u = EU(), D = EVD();
+    if (evi.tab === "plantas") {
+      const conds = Object.keys(D.padecimientos).filter((c) => D.plantas.some((p) => p.evidencia.some((e) => e.c === c)))
+        .sort((a, b) => nomCond(a).localeCompare(nomCond(b), lang));
+      const rapidos = ["estres", "sueno", "animo", "articular", "memoria", "digestion", "glucosa", "presion", "inmune"].filter((c) => D.padecimientos[c]);
+      cuerpo.innerHTML = `
+        <div class="finder">
+          <label class="q" for="evi-q">${u.buscar}</label>
+          <input id="evi-q" type="search" maxlength="80" autocomplete="off" placeholder="${esc(u.buscar_ph)}" value="${esc(evi.q)}">
+          <div class="chips" id="evi-rapidos" role="group" aria-label="${esc(u.padecimiento)}">${rapidos.map((c) => `<button type="button" class="chip" data-cond="${c}" aria-pressed="${evi.cond === c}">${esc(nomCond(c))}</button>`).join("")}</div>
+        </div>
+        <div class="evi-layout">
+          <details class="evi-filtros" id="evi-filtros">
+            <summary>${u.filtros}</summary>
+            <label>${u.padecimiento}<select id="evi-cond"><option value="">${u.todos}</option>${conds.map((c) => `<option value="${c}"${evi.cond === c ? " selected" : ""}>${esc(nomCond(c))}</option>`).join("")}</select></label>
+            <label>${u.minima}<select id="evi-min">${[[0, u.cualquiera], [2, u.limitada], [3, u.moderada], [4, u.solida]].map(([v, t]) => `<option value="${v}"${evi.min === v ? " selected" : ""}>${t}</option>`).join("")}</select></label>
+            <fieldset><legend>${u.region}</legend>${Object.keys(D.regiones).map((r) => `<label class="check"><input type="checkbox" data-reg="${r}"${evi.regiones.has(r) ? " checked" : ""}> ${esc(tl(D.regiones[r]))}</label>`).join("")}</fieldset>
+            <label>${u.ordenar}<select id="evi-orden"><option value="ev"${evi.orden === "ev" ? " selected" : ""}>${u.por_ev}</option><option value="az"${evi.orden === "az" ? " selected" : ""}>${u.az}</option></select></label>
+            <button type="button" class="linkbtn" id="evi-limpiar">${u.limpiar}</button>
+          </details>
+          <div><div class="resultbar" id="evi-barra"></div><div class="grid" id="evi-grid"></div></div>
+        </div>`;
+      if (matchMedia("(min-width: 861px)").matches) $("evi-filtros").open = true;
+      pintarPlantasRes();
+    } else if (evi.tab === "padecimiento") {
+      const conds = Object.keys(D.padecimientos).map((c) => ({ c, n: D.plantas.filter((p) => p.evidencia.some((e) => e.c === c)).length }))
+        .filter((x) => x.n).sort((a, b) => nomCond(a.c).localeCompare(nomCond(b.c), lang));
+      const cur = evi.cond && conds.some((x) => x.c === evi.cond) ? evi.cond : "estres";
+      const filas = D.plantas.filter((p) => p.evidencia.some((e) => e.c === cur)).map((p) => ({ p, e: p.evidencia.find((e) => e.c === cur) })).sort((a, b) => b.e.l - a.e.l);
+      cuerpo.innerHTML = `
+        <div class="finder"><p class="q">${u.elegir}</p>
+          <div class="chips" id="evi-conds">${conds.map(({ c, n }) => `<button type="button" class="chip" data-cond="${c}" aria-pressed="${cur === c}">${esc(nomCond(c))} (${n})</button>`).join("")}</div></div>
+        <h2 class="condhead">${esc(nomCond(cur))}</h2>
+        <p class="condsub">${u.orden_ev}</p>
+        <div class="rank">${filas.map(({ p, e }) => `
+          <button type="button" class="rank-row" data-planta="${docDePlanta(p)}">
+            <span class="nm"><em>${esc(p.latin)}</em><small>${esc(tl(p.nombre))} · ${esc(p.extractos.split(",")[0])}</small></span>
+            ${medidor(e.l)}
+            <span class="nt">${esc(tl(e.t))}</span>
+          </button>`).join("")}</div>`;
+    } else if (evi.tab === "calidad") {
+      cuerpo.innerHTML = `<div class="guia">${GUIA[lang].replace(/__M(\d)__/g, (m, l) => medidor(+l))}</div>`;
+    } else {
+      const lista = D.plantas.filter((p) => evi.favs.has(p.id));
+      cuerpo.innerHTML = lista.length
+        ? `<h2 class="condhead">${u.guardadas_h}</h2><p class="condsub">${u.solo_aqui}</p><div class="grid">${lista.map(tarjetaPlanta).join("")}</div>`
+        : `<div class="vacio grande">${u.sin_guardadas}<br><br><button type="button" class="btn" data-evi-ir="plantas">${u.ir_plantas}</button></div>`;
+    }
+  }
+  function pintarPlantasRes() {
+    const u = EU(), lista = plantasFiltradas();
+    $("evi-barra").innerHTML = `<span>${esc(u.n_plantas(lista.length, evi.cond ? nomCond(evi.cond) : ""))}</span><span>${esc(u.barras(evi.cond))}</span>`;
+    $("evi-grid").innerHTML = lista.length ? lista.map(tarjetaPlanta).join("")
+      : `<div class="vacio grande">${u.vacio}<br><br><button type="button" class="linkbtn" id="evi-limpiar2">${u.limpiar}</button></div>`;
+    $("evi-rapidos")?.querySelectorAll("[data-cond]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.cond === evi.cond)));
+    if ($("evi-cond")) $("evi-cond").value = evi.cond;
+  }
+  function limpiarEvi() {
+    evi.q = ""; evi.cond = ""; evi.regiones.clear(); evi.min = 0;
+    pintarEvidencia(true);
+  }
+  function abrirPlanta(id) {
+    const d = W.porId[id];
+    if (!d || d.tipo !== "planta") return;
+    evi.actual = id; evi.dTab = evi.dTab || "ev";
+    pintarPlanta();
+    const dlg = $("evi-ficha");
+    if (!dlg.open) { dlg.showModal(); dlg.querySelector(".cerrar").focus(); }
+  }
+  // Cierra la ficha. Sin «silencio» (✕, Escape o clic fuera), la dirección vuelve a #/evidencia sin añadir otra entrada al historial.
+  function cerrarPlanta(silencio) {
+    const dlg = $("evi-ficha");
+    if (!dlg.open) return;
+    dlg.close();
+    evi.dTab = "ev";
+    if (!silencio && /^#\/evidencia\/EVI-/.test(location.hash)) history.replaceState(history.state, "", "#/evidencia");
+    document.getElementById("card-" + evi.actual)?.querySelector(".spec-abrir")?.focus({ preventScroll: true });
+  }
+  function pintarPlanta() {
+    const d = W.porId[evi.actual];
+    if (!d) return;
+    const p = d.pl, u = EU(), fav = evi.favs.has(p.id), D = EVD();
+    let cuerpo;
+    if (evi.dTab === "ev") {
+      cuerpo = `<table class="evtable"><tbody>${[...p.evidencia].sort((a, b) => b.l - a.l).map((e) => `<tr><td>${esc(nomCond(e.c))}</td><td>${medidor(e.l)}</td><td>${esc(tl(e.t))}</td></tr>`).join("")}</tbody></table>
+        <p class="note">${u.nota_ev}</p>`;
+    } else if (evi.dTab === "std") {
+      cuerpo = `<div class="caja std"><strong>${u.etiqueta}</strong>${esc(tl(p.estandarizacion))}</div>
+        <dl class="dl"><dt>${u.extractos}</dt><dd>${esc(p.extractos)}</dd><dt>${u.parte}</dt><dd>${esc(tl(p.parte))}</dd>
+        <dt>${u.dosis}</dt><dd>${esc(tl(p.dosis))}</dd><dt>${u.origen}</dt><dd>${esc(tl(p.origen))} (${esc(p.regiones.map((r) => tl(D.regiones[r])).join(", "))})</dd></dl>
+        <p class="note">${u.nota_dosis}</p>`;
+    } else if (evi.dTab === "trad") {
+      cuerpo = `<div class="caja anec"><strong>${u.trad_t}</strong>${esc(tl(p.tradicion))}</div><p class="note">${u.nota_trad}</p>`;
+    } else {
+      cuerpo = `<div class="caja warn"><strong>${u.precauciones}</strong>${esc(tl(p.seguridad))}</div>
+        <div class="caja warn"><strong>${u.interacciones}</strong>${esc(tl(p.interacciones))}</div><p class="note">${u.nota_safe}</p>`;
+    }
+    const enlaces = [...(p.nsp || []), ...(p.seg || [])].filter((x) => W.porId[x]);
+    $("evi-ficha").innerHTML = `
+      <button type="button" class="cerrar" aria-label="${u.cerrar}">✕</button>
+      <p class="d-latin" id="evi-titulo">${esc(p.latin)}</p>
+      <p class="d-comun">${esc(tl(p.nombre))}</p>
+      <p class="d-origen">${esc(tl(p.origen))} · ${esc(tl(p.parte))}</p>
+      <button type="button" class="chip" id="evi-dfav" aria-pressed="${fav}">${fav ? u.guardada : u.guardar_b}</button>
+      ${enlaces.length ? `<div class="evi-nsp"><b class="label">${u.en_nsp}</b><div class="herbs">${enlaces.map((x) => `<button type="button" class="herb-chip" data-id="${x}">${esc(W.porId[x].tipo === "seguridad" ? u.ver_seg : W.porId[x].titulo)}</button>`).join("")}</div></div>` : ""}
+      <div class="d-tabs" role="tablist">${Object.entries(u.tabs).map(([k, v]) => `<button type="button" role="tab" data-dt="${k}" aria-selected="${evi.dTab === k}">${v}</button>`).join("")}</div>
+      <div class="d-panel" role="tabpanel">${cuerpo}</div>`;
+  }
+
+  // ================= Formulario de WhatsApp =================
+  function pintarPedido() {
+    const sel = $("p-tema"), previo = sel.value;
+    sel.innerHTML = `<option value="">${esc(T.tema_elige)}</option>` + T.temas.map((t, i) => `<option value="${i}">${esc(t)}</option>`).join("");
+    sel.value = previo;
+  }
+  const limpio = (v) => String(v).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "").replace(/[ \t]+/g, " ").trim();
+  function validarPedido() {
+    const nombre = limpio($("p-nombre").value), tema = $("p-tema").value, mensaje = limpio($("p-mensaje").value);
+    const errores = {
+      nombre: /^[\p{L}][\p{L}\p{M} .'-]{1,59}$/u.test(nombre) ? "" : T.err_nombre,
+      tema: T.temas[+tema] && tema !== "" ? "" : T.err_tema,
+      mensaje: mensaje.length >= 10 && mensaje.length <= 500 ? "" : T.err_mensaje,
+      acepto: $("p-acepto").checked ? "" : T.err_acepto,
+    };
+    let primero = null;
+    for (const [k, v] of Object.entries(errores)) {
+      const campo = $("p-" + k);
+      $("p-" + k + "-error").textContent = v;
+      campo.setAttribute("aria-invalid", String(!!v));
+      if (v) campo.setAttribute("aria-describedby", "p-" + k + "-error"); else campo.removeAttribute("aria-describedby");
+      if (v && !primero) primero = campo;
+    }
+    if (primero) { primero.focus(); return null; }
+    return { nombre, tema: T.temas[+tema], mensaje };
+  }
+
+  // ================= Chat =================
+  function md(texto) {
+    const lineas = esc(texto).split("\n");
+    let html = "", enLista = false;
+    for (const l of lineas) {
+      const item = l.match(/^\s*[-*•]\s+(.*)/);
+      if (item) { if (!enLista) { html += "<ul>"; enLista = true; } html += `<li>${inline(item[1])}</li>`; continue; }
+      if (enLista) { html += "</ul>"; enLista = false; }
+      if (l.trim()) html += `<p>${inline(l)}</p>`;
+    }
+    if (enLista) html += "</ul>";
+    return html;
+  }
+  function inline(s) {
+    return s
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\[((?:NSP|EMP|TCM|HRB|MOD|SEG|SIS|EVI)-\d{2,3})\]/g, (m, id) => `<button type="button" class="cite" data-id="${id}">${id}</button>`)
+      .replace(/(https:\/\/www\.naturessunshine\.com\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+  }
+  function addMsg(rol, html) {
+    const el = document.createElement("div");
+    el.className = "msg " + rol;
+    el.innerHTML = `<span class="who">${rol === "user" ? T.tu : rol === "err" ? T.aviso : T.asistente}</span><div class="body">${html}</div>`;
+    $("chat").append(el);
+    $("chat").scrollTop = $("chat").scrollHeight;
+    return el.querySelector(".body");
+  }
+  const notaTienda = () => `<p class="tienda-nota">${T.nota_tienda}</p>`;
+
+  async function preguntar(pregunta) {
+    if (ocupado || !pregunta.trim()) return;
+    const hits = W.buscar(pregunta);
+    pintarHits(pregunta, hits, false);
+    addMsg("user", esc(pregunta));
+    if (!sample && !apiListo) {
+      addMsg("bot", `<p>${T.intro_hits}</p>` +
+        (hits.length ? `<ul>${hits.map((h) => `<li><button type="button" class="cite" data-id="${h.doc.id}">${h.doc.id}</button> ${esc(h.doc.titulo)}</li>`).join("")}</ul>` : `<p>${T.ninguna}</p>`) + notaTienda());
+      return;
+    }
+    const usados = hits.map((h) => h.doc);
+    if (!usados.some((d) => d.id === "EMP-05") && W.porId["EMP-05"]) usados.push(W.porId["EMP-05"]);
+    const contexto = "<documentos>\n" + usados.map((d) => `<documento id="${d.id}">\n${d.texto}\n</documento>`).join("\n") + "\n</documentos>";
+    const entrada = [{ role: "user", content: RULES[lang] }, ...turnos.slice(-6), { role: "user", content: `${contexto}\n\n${T.pregunta}: ${pregunta}` }];
+
+    ocupado = true; $("send").disabled = true; $("stop").hidden = false;
+    const body = addMsg("bot", `<span class="thinking">${sample ? T.pensando : T.pensando_api}</span>`);
+    ctl = new AbortController();
+    if (!sample) {
+      try {
+        const r = await fetch(API_URL + "/api/preguntar", {
+          method: "POST", headers: { "Content-Type": "application/json" }, signal: ctl.signal,
+          body: JSON.stringify({ idioma: lang, pregunta, contexto,
+            historial: turnos.slice(-6).map((t) => ({ rol: t.role === "assistant" ? "model" : "user", texto: t.content })) }),
+        });
+        const d = await r.json().catch(() => ({}));
+        if (d.texto) {
+          body.innerHTML = md(d.texto) + (d.cortada ? `<p class="note">${T.cortada}</p>` : "") + notaTienda();
+          turnos.push({ role: "user", content: pregunta }, { role: "assistant", content: d.texto });
+        } else {
+          body.innerHTML = `<p>${T.intro_hits}</p><ul>${hits.map((h) => `<li><button type="button" class="cite" data-id="${h.doc.id}">${h.doc.id}</button> ${esc(h.doc.titulo)}</li>`).join("")}</ul>` + notaTienda();
+          addMsg("err", esc(T.errores_api[d.error] || T.error_gen));
+        }
+      } catch (e) {
+        body.innerHTML = e.name === "AbortError" ? `<p class="note">${T.detenido}</p>` :
+          `<p>${T.intro_hits}</p><ul>${hits.map((h) => `<li><button type="button" class="cite" data-id="${h.doc.id}">${h.doc.id}</button> ${esc(h.doc.titulo)}</li>`).join("")}</ul>` + notaTienda();
+        if (e.name !== "AbortError") addMsg("err", esc(T.error_gen));
+      } finally {
+        ocupado = false; $("send").disabled = false; $("stop").hidden = true;
+      }
+      return;
+    }
+    try {
+      const { text, truncated } = await sample(entrada, {
+        cache: false, signal: ctl.signal,
+        onText: ({ text }) => { body.innerHTML = md(text); $("chat").scrollTop = $("chat").scrollHeight; },
+      });
+      body.innerHTML = md(text) + (truncated ? `<p class="note">${T.cortada}</p>` : "") + notaTienda();
+      turnos.push({ role: "user", content: pregunta }, { role: "assistant", content: text });
+    } catch (e) {
+      if (e.code === "cancelled") body.innerHTML = (e.text ? md(e.text) : "") + `<p class="note">${T.detenido}</p>`;
+      else {
+        body.innerHTML = e.text && e.code !== "refused" ? md(e.text) : "";
+        addMsg("err", esc(T.errores[e.code] || T.error_gen));
+        if (["not_granted", "sampling_disabled", "not_declared", "capability_disabled", "capability_removed"].includes(e.code)) { sample = null; $("ai-note").textContent = notaIA(); }
+      }
+    } finally {
+      ocupado = false; $("send").disabled = false; $("stop").hidden = true;
+    }
+  }
+
+  // ================= Idioma =================
+  function aplicarIdioma(nuevo, primera) {
+    if (!primera && ocupado) ctl?.abort();
+    lang = nuevo; T = UI[lang]; W = mundo(lang);
+    try { localStorage.setItem("herbolario-idioma", lang); } catch {}
+    $("buscar").value = ""; cerrarBuscador();
+    filtroPol = ""; $("filtro").value = ""; $("f-hierba").value = ""; $("f-seg").value = ""; Object.assign(lim, LIM0);
+    pintarEstaticos();
+    prepararCategorias(); pintarCatalogo();
+    if (W.tcm.formulas.length) { prepararFiltrosTcm(); pintarModelo(); pintarTcm(); pintarHierbas(); }
+    if (W.seguridad.length) { prepararFiltrosSeg(); pintarSeguridad(); }
+    if (W.sistemas.length) pintarSistemas();
+    pintarGaleria();
+    if (vistaActual === "evidencia") pintarEvidencia(true);
+    if ($("evi-ficha").open) pintarPlanta();
+    if (vistaActual) document.title = vistaActual === "inicio" ? T.titulos.inicio : `${T.titulos[vistaActual]} · Herbolario Consultor`;
+    // La conversación empieza de nuevo en el idioma elegido.
+    turnos.length = 0;
+    $("chat").innerHTML = "";
+    addMsg("bot", `<p>${T.bienvenida}</p>`);
+    pintarHits(T.ejemplo, W.buscar(T.ejemplo), true);
+  }
+
+  // ================= Eventos (una sola vez) =================
+  document.querySelectorAll(".idioma button").forEach((b) => b.addEventListener("click", () => { if (b.dataset.lang !== lang) aplicarIdioma(b.dataset.lang); }));
+  $("buscar").addEventListener("input", pintarBuscador);
+  $("buscar").addEventListener("focus", () => { if ($("buscar").value.trim()) pintarBuscador(); });
+  $("buscar").addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { if ($("buscar-lista").hidden) $("buscar").value = ""; cerrarBuscador(); return; }
+    if (!resultados.length) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      if ($("buscar-lista").hidden) pintarBuscador();
+      activo = (activo + (e.key === "ArrowDown" ? 1 : -1) + resultados.length) % resultados.length; marcarActivo();
+    } else if (e.key === "Enter") { e.preventDefault(); elegirNombre(resultados[Math.max(activo, 0)].id); }
+  });
+  $("buscar-lista").addEventListener("mousedown", (e) => e.preventDefault());
+  $("buscar-lista").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) elegirNombre(li.dataset.id); });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".buscador")) cerrarBuscador(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && !e.ctrlKey && !e.metaKey && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName || "")) { e.preventDefault(); $("buscar").focus(); }
+  });
+  $("filtro").addEventListener("input", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
+  $("categoria").addEventListener("change", () => { lim.cat = LIM0.cat; pintarCatalogo(); });
+  $("mas-cat").addEventListener("click", () => { lim.cat += 24; pintarCatalogo(); });
+  $("mas-tcm").addEventListener("click", () => { lim.tcm = Infinity; pintarTcm(); });
+  $("mas-hie").addEventListener("click", () => { lim.hie += 24; pintarHierbas(); });
+  $("mas-seg").addEventListener("click", () => { lim.seg += 20; pintarSeguridad(); });
+  $("f-seg").addEventListener("input", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("f-clase").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("f-sev").addEventListener("change", () => { lim.seg = LIM0.seg; pintarSeguridad(); });
+  $("seguridad").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("f-pol").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    filtroPol = b.dataset.v; lim.tcm = LIM0.tcm;
+    $("f-pol").querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", String(c === b)));
+    pintarTcm();
+  });
+  $("f-organo").addEventListener("change", () => { lim.tcm = LIM0.tcm; pintarTcm(); });
+  $("f-hierba").addEventListener("input", () => { lim.hie = LIM0.hie; pintarHierbas(); });
+  $("tcm").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("sis-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b || b.dataset.id === sistemaActual) return;
+    sistemaActual = b.dataset.id; pintarSistemas();
+  });
+  $("sis-ficha").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("galeria").addEventListener("click", (e) => { const b = e.target.closest(".herb-chip"); if (b) irAFicha(b.dataset.id); });
+  $("hits").addEventListener("click", (e) => { const b = e.target.closest(".hit"); if (b) irAFicha(b.dataset.id); });
+  $("chat").addEventListener("click", (e) => { const b = e.target.closest(".cite"); if (b) irAFicha(b.dataset.id); });
+  $("ask").addEventListener("submit", (e) => { e.preventDefault(); const q = limpio($("q").value).slice(0, 600); $("q").value = ""; preguntar(q); });
+  $("stop").addEventListener("click", () => ctl?.abort());
+  $("sugerencias").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) preguntar(b.textContent); });
+  document.addEventListener("click", async (e) => {
+    const b = e.target.closest("button.copiar");
+    if (!b) return;
+    try {
+      await navigator.clipboard.writeText(b.dataset.copiar);
+      b.textContent = T.copiado;
+    } catch {
+      const dd = b.parentElement.querySelector("dd");
+      const r = document.createRange(); r.selectNodeContents(dd);
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+      b.textContent = T.seleccionado;
+    }
+    setTimeout(() => { b.textContent = T.copiar; }, 1600);
+  });
+
+  // Evidencia
+  $("evi-tabs").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-evi]"); if (!b) return;
+    evi.tab = b.dataset.evi; pintarEvidencia(true);
+  });
+  $("evi-tabs").addEventListener("keydown", (e) => {
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+    const tabs = [...$("evi-tabs").querySelectorAll("[data-evi]")], i = tabs.indexOf(document.activeElement);
+    if (i < 0) return;
+    const sig = tabs[(i + (e.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length];
+    sig.focus(); sig.click();
+  });
+  $("evi-cuerpo").addEventListener("input", (e) => {
+    if (e.target.id === "evi-q") { evi.q = e.target.value.slice(0, 80); pintarPlantasRes(); }
+  });
+  $("evi-cuerpo").addEventListener("change", (e) => {
+    const t = e.target;
+    if (t.id === "evi-cond") { evi.cond = t.value; pintarPlantasRes(); }
+    else if (t.id === "evi-min") { evi.min = +t.value || 0; pintarPlantasRes(); }
+    else if (t.id === "evi-orden") { evi.orden = t.value === "az" ? "az" : "ev"; pintarPlantasRes(); }
+    else if (t.dataset.reg) { if (t.checked) evi.regiones.add(t.dataset.reg); else evi.regiones.delete(t.dataset.reg); pintarPlantasRes(); }
+  });
+  $("evi-cuerpo").addEventListener("click", (e) => {
+    const fav = e.target.closest("[data-fav]");
+    if (fav) {
+      const id = fav.dataset.fav;
+      if (evi.favs.has(id)) evi.favs.delete(id); else evi.favs.add(id);
+      guardarFavs();
+      if (evi.tab === "guardadas") pintarEvidencia(true); else pintarPlantasRes();
+      return;
+    }
+    const abrir = e.target.closest("[data-planta]");
+    if (abrir) { navegar("#/evidencia/" + abrir.dataset.planta); return; }
+    const c = e.target.closest("[data-cond]");
+    if (c) {
+      if (evi.tab === "padecimiento") { evi.cond = c.dataset.cond; pintarEvidencia(true); }
+      else { evi.cond = evi.cond === c.dataset.cond ? "" : c.dataset.cond; pintarPlantasRes(); }
+      return;
+    }
+    if (e.target.closest("#evi-limpiar, #evi-limpiar2")) { limpiarEvi(); return; }
+    const ir = e.target.closest("[data-evi-ir]");
+    if (ir) { evi.tab = ir.dataset.eviIr; pintarEvidencia(true); }
+  });
+  $("evi-ficha").addEventListener("click", (e) => {
+    const dlg = $("evi-ficha");
+    const r = dlg.getBoundingClientRect();
+    const fuera = e.target === dlg && (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom);
+    if (fuera || e.target.closest(".cerrar")) { cerrarPlanta(false); return; }   // clic en el fondo oscuro o en ✕
+    const t = e.target.closest("[data-dt]");
+    if (t) { evi.dTab = t.dataset.dt; pintarPlanta(); dlg.querySelector(`[data-dt="${evi.dTab}"]`).focus(); return; }
+    if (e.target.closest("#evi-dfav")) {
+      const id = W.porId[evi.actual].pl.id;
+      if (evi.favs.has(id)) evi.favs.delete(id); else evi.favs.add(id);
+      guardarFavs(); pintarPlanta(); pintarEvidencia(true);
+      dlg.querySelector("#evi-dfav").focus();
+      return;
+    }
+    const ch = e.target.closest(".herb-chip");
+    if (ch) { cerrarPlanta(true); irAFicha(ch.dataset.id); }
+  });
+  // Escape: el navegador cerraría el diálogo por su cuenta; se cierra con cerrarPlanta para actualizar la dirección.
+  $("evi-ficha").addEventListener("cancel", (e) => { e.preventDefault(); cerrarPlanta(false); });
+  $("evi-ficha").addEventListener("keydown", (e) => { if (e.key === "Escape") { e.preventDefault(); cerrarPlanta(false); } });
+
+  // Formulario de WhatsApp
+  $("p-mensaje").addEventListener("input", () => { $("p-contador").textContent = `${$("p-mensaje").value.length}/500`; });
+  $("pedido").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const datos = validarPedido();
+    if (!datos) return;
+    const boton = $("pedido").querySelector("button[type=submit]");
+    boton.disabled = true; setTimeout(() => { boton.disabled = false; }, 5000);   // evita envíos repetidos
+    window.open(WA + "?text=" + encodeURIComponent(T.wa_mensaje(datos.nombre, datos.tema, datos.mensaje)), "_blank", "noopener");
+  });
+
+  // Menú «Más», tema y enlace «Saltar al contenido»
+  $("mas-btn").addEventListener("click", () => {
+    const abrir = $("mas-menu").hidden;
+    $("mas-menu").hidden = !abrir; $("mas-btn").setAttribute("aria-expanded", String(abrir));
+    if (abrir) $("mas-menu").querySelector("a").focus();
+  });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("mas-menu").hidden) { cerrarMas(); $("mas-btn").focus(); } });
+  document.addEventListener("click", (e) => { if (!$("mas-menu").hidden && !e.target.closest("#mas-menu, #mas-btn")) cerrarMas(); });
+  document.querySelector(".saltar").addEventListener("click", (e) => { e.preventDefault(); $("principal").focus(); });
+  try { const t = localStorage.getItem("herbolario-tema"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch {}
+  $("tema").addEventListener("click", () => {
+    const r = document.documentElement;
+    const oscuro = r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    r.dataset.theme = oscuro ? "light" : "dark";
+    try { localStorage.setItem("herbolario-tema", r.dataset.theme); } catch {}
+  });
+  $("anio").textContent = new Date().getFullYear();
+
+  // Errores inesperados: un aviso sencillo, sin detalles técnicos para el usuario.
+  function aviso(texto) {
+    let t = document.querySelector(".aviso-flotante");
+    if (!t) { t = document.createElement("div"); t.className = "aviso-flotante"; t.setAttribute("role", "alert"); document.body.append(t); }
+    t.textContent = texto; t.hidden = false;
+    clearTimeout(aviso.t); aviso.t = setTimeout(() => { t.hidden = true; }, 6000);
+  }
+  addEventListener("error", (e) => { console.error(e.error || e.message); aviso(T.error_general); });
+  addEventListener("unhandledrejection", (e) => { console.error(e.reason); aviso(T.error_general); });
+  addEventListener("offline", () => aviso(T.sin_conexion));
+
+  aplicarIdioma(lang, true);
+  $("estado-carga").hidden = true;
+  $("principal").hidden = false;
+  mostrarRuta();
+
+  // Modo sin conexión: solo en el sitio publicado (no dentro de claude.ai).
+  const SW = document.querySelector('meta[name="sw"]')?.content;
+  if (SW && "serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+    navigator.serviceWorker.register(SW).catch(() => {});
+  }
+
+  window.claude?.use?.("sample").then((s) => {
+    sample = s;
+    $("ai-note").textContent = notaIA();
+  }).catch(() => { $("ai-note").textContent = notaIA(); });
+
+  // Despierta el servidor gratuito de Render en cuanto alguien abre la página.
+  if (API_URL) {
+    fetch(API_URL + "/api/salud").then((r) => r.json()).then((d) => {
+      apiListo = !!d.listo;
+      $("ai-note").textContent = notaIA();
+    }).catch(() => {});
+  }
+})();
