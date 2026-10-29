@@ -1,13 +1,15 @@
 """Servidor del asistente del Herbolario Consultor (para Render, plan gratuito).
 
-Recibe la pregunta y las fichas que encontró el buscador de la página, y pide la respuesta a Gemini.
-Solo usa la biblioteca estándar de Python: no hay dependencias que instalar.
+Recibe la pregunta y las fichas que encontró el buscador de la página, y pide la respuesta a Claude (API de Anthropic)
+con el SDK oficial de Python (servidor/requirements.txt).
 
 Variables de entorno (se configuran en Render):
-  GEMINI_API_KEY   clave de la API de Gemini (obligatoria; nunca se escribe en el código)
-  GEMINI_MODEL     modelo a usar (por defecto: gemini-2.5-flash)
-  ALLOWED_ORIGINS  orígenes permitidos separados por comas (por defecto: el sitio de Render y localhost)
-  PORT             puerto (lo pone Render)
+  ANTHROPIC_API_KEY  clave de la API de Anthropic (obligatoria; nunca se escribe en el código)
+  ANTHROPIC_MODEL    modelo a usar (por defecto: claude-opus-5-5)
+  ANTHROPIC_EFFORT   esfuerzo de razonamiento: low, medium o high (por defecto: low, respuestas rápidas y económicas)
+  ALLOWED_ORIGINS    orígenes permitidos separados por comas (por defecto: el sitio de Render y localhost)
+  TOTAL_POR_DIA      tope global de preguntas por día (por defecto: 1500)
+  PORT               puerto (lo pone Render)
 
 Rutas:
   GET  /api/salud      responde {"ok": true}; la página lo llama al cargar para despertar el servicio
@@ -19,10 +21,10 @@ import os
 import re
 import threading
 import time
-import urllib.error
-import urllib.request
 from collections import defaultdict, deque
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+import anthropic
 
 # En tu computadora, las variables pueden venir de un archivo .env (nunca se sube a git). No pisa las que ya existen.
 _ENV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".env")
@@ -34,8 +36,11 @@ if os.path.exists(_ENV):
                 clave, valor = linea.split("=", 1)
                 os.environ.setdefault(clave.strip(), valor.strip())
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODELO = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+MODELO = os.environ.get("ANTHROPIC_MODEL", "claude-opus-5-5")
+ESFUERZO = os.environ.get("ANTHROPIC_EFFORT", "low") if os.environ.get("ANTHROPIC_EFFORT", "low") in ("low", "medium", "high") else "low"
+# El SDK reintenta solo los errores temporales (429, 5xx, 529 de sobrecarga) hasta 2 veces.
+CLIENTE = anthropic.Anthropic(api_key=API_KEY, timeout=60.0, max_retries=2) if API_KEY else None
 ORIGENES = [o.strip() for o in os.environ.get(
     "ALLOWED_ORIGINS", "https://herbolario-consultor.onrender.com,http://localhost:8765").split(",") if o.strip()]
 
@@ -155,35 +160,31 @@ def validar(datos):
     return {"idioma": idioma, "pregunta": pregunta, "contexto": contexto, "historial": historial}, None
 
 
-def preguntar_a_gemini(idioma, pregunta, contexto, historial):
-    contenidos = []
-    for t in historial:
-        contenidos.append({"role": t["rol"], "parts": [{"text": t["texto"]}]})
+def preguntar_a_claude(idioma, pregunta, contexto, historial):
+    """Devuelve (texto, motivo). motivo: "max_tokens" si se cortó, "bloqueada" si se rechazó, None si terminó bien."""
+    mensajes = [{"role": "assistant" if t["rol"] == "model" else "user", "content": t["texto"]} for t in historial]
+    # La API exige que la conversación empiece con el usuario y alterne; se descartan turnos sueltos del principio.
+    while mensajes and mensajes[0]["role"] != "user":
+        mensajes.pop(0)
     etiqueta = "Pregunta" if idioma == "es" else "Question"
-    contenidos.append({"role": "user", "parts": [{"text": f"{contexto}\n\n{etiqueta}: {pregunta}"}]})
-    cuerpo = {
-        "systemInstruction": {"parts": [{"text": REGLAS[idioma]}]},
-        "contents": contenidos,
-        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 4096},
-    }
-    req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent",
-        data=json.dumps(cuerpo).encode("utf-8"),
-        headers={"Content-Type": "application/json", "x-goog-api-key": API_KEY},
-        method="POST",
+    mensajes.append({"role": "user", "content": f"{contexto}\n\n{etiqueta}: {pregunta}"})
+    respuesta = CLIENTE.beta.messages.create(
+        model=MODELO,
+        max_tokens=16000,
+        system=REGLAS[idioma],
+        messages=mensajes,
+        output_config={"effort": ESFUERZO},
+        # Si los filtros de seguridad rechazan la pregunta, la API la reintenta con otro modelo (fallback del servidor).
+        betas=["server-side-fallback-2026-07-01"],
+        fallbacks="default",
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        datos = json.load(r)
-    if datos.get("promptFeedback", {}).get("blockReason"):
+    if respuesta.stop_reason == "refusal":
         return None, "bloqueada"
-    cands = datos.get("candidates") or []
-    if not cands:
-        return None, "vacia"
-    partes = (cands[0].get("content") or {}).get("parts") or []
-    texto = "".join(p.get("text", "") for p in partes if not p.get("thought")).strip()
+    texto = "".join(b.text for b in respuesta.content if b.type == "text").strip()
     if not texto:
         return None, "vacia"
-    return texto, cands[0].get("finishReason")
+    log.info("Claude: %s tokens de entrada, %s de salida", respuesta.usage.input_tokens, respuesta.usage.output_tokens)
+    return texto, respuesta.stop_reason
 
 
 class Manejador(BaseHTTPRequestHandler):
@@ -252,16 +253,25 @@ class Manejador(BaseHTTPRequestHandler):
         if error:
             return self._json(400, {"error": error})
         try:
-            texto, motivo = preguntar_a_gemini(campos["idioma"], campos["pregunta"], campos["contexto"], campos["historial"])
-        except urllib.error.HTTPError as e:
-            log.warning("Gemini HTTP %s", e.code)
-            return self._json(502, {"error": "cuota" if e.code == 429 else "proveedor"})
-        except (urllib.error.URLError, TimeoutError) as e:
-            log.warning("Gemini sin conexión: %s", type(e).__name__)
+            texto, motivo = preguntar_a_claude(campos["idioma"], campos["pregunta"], campos["contexto"], campos["historial"])
+        except anthropic.RateLimitError:
+            log.warning("Claude: límite de uso de la cuenta (429)")
+            return self._json(502, {"error": "cuota"})
+        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError):
+            log.error("Claude: la clave ANTHROPIC_API_KEY no es válida o no tiene permiso")
+            return self._json(502, {"error": "proveedor"})
+        except anthropic.BadRequestError as e:
+            log.error("Claude: petición rechazada (400): %s", e.message[:200])
+            return self._json(502, {"error": "proveedor"})
+        except anthropic.APIStatusError as e:
+            log.warning("Claude: error del servicio (%s)", e.status_code)
+            return self._json(502, {"error": "proveedor"})
+        except anthropic.APIConnectionError as e:
+            log.warning("Claude: sin conexión (%s)", type(e).__name__)
             return self._json(502, {"error": "proveedor"})
         if texto is None:
             return self._json(200, {"error": "bloqueada" if motivo == "bloqueada" else "vacia"})
-        self._json(200, {"texto": texto, "cortada": motivo == "MAX_TOKENS"})
+        self._json(200, {"texto": texto, "cortada": motivo == "max_tokens"})
 
     def log_message(self, formato, *args):
         # Ruta, código y tamaño (lo que registra http.server); sin IP completa ni contenido de las preguntas.

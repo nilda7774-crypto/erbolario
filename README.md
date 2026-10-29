@@ -4,7 +4,7 @@ Aplicación web bilingüe (español e inglés) para elegir suplementos de Nature
 asistente de consulta, catálogo, sistemas del cuerpo, evidencia científica de plantas medicinales, medicina tradicional
 china, seguridad con medicamentos y contacto por WhatsApp. Sitio publicado: https://herbolario-consultor.onrender.com
 
-Funciona como sitio estático (gratis en Render) más un servidor pequeño opcional que redacta las respuestas con Gemini.
+Funciona como sitio estático (gratis en Render) más un servidor pequeño opcional que redacta las respuestas con Claude (API de Anthropic).
 No hay cuentas de usuario, base de datos de usuarios, cookies ni analítica.
 
 ## Estructura
@@ -21,7 +21,7 @@ No hay cuentas de usuario, base de datos de usuarios, cookies ni analítica.
 | `web/src/` | Código fuente de la aplicación: `cuerpo.html` (estructura), `app.css`, `app.js` y `sw.js` (modo sin conexión) |
 | `web/img/` | Fotos (WebP), iconos e imagen para redes (`og.jpg`). Se optimizan con `scripts/optimizar_imagenes.py` |
 | `build_web.py` | Genera `web/sitio/` (lo que publica Render) y `web/herbolario.html` (versión de un solo archivo para claude.ai) |
-| `servidor/app.py` | Servidor del asistente con Gemini (solo biblioteca estándar de Python, sin dependencias) |
+| `servidor/app.py` | Servidor del asistente con Claude (SDK oficial `anthropic`, ver `servidor/requirements.txt`) |
 | `build_db.py`, `rag.py` | Base SQLite y asistente de línea de comandos con Claude (uso local) |
 | `render.yaml` | Configuración de los dos servicios de Render y de los encabezados de seguridad |
 
@@ -45,7 +45,7 @@ python build_web.py
 python -m http.server 8765 --directory web/sitio
 ```
 
-Probar también el asistente: copia `.env.example` como `.env` y escribe tu clave de Gemini (el servidor lee `.env`
+Probar también el asistente: copia `.env.example` como `.env` y escribe tu clave de Anthropic (el servidor lee `.env`
 solo). Arranca el servidor en otra terminal y genera el sitio apuntando a él (en PowerShell):
 
 ```bash
@@ -62,14 +62,15 @@ Sin el servidor la página sigue funcionando: el chat muestra las fichas que mej
 
 1. Cambia los datos o `web/src/` y ejecuta `python build_web.py`.
 2. Sube los cambios: `git add -A`, `git commit -m "..."`, `git push`. Render publica el sitio en uno o dos minutos.
-3. **Asistente con Gemini (una sola vez):** en Render, *New → Blueprint* con este repositorio crea el servicio
-   `herbolario-api`. En su panel, en *Environment*, escribe `GEMINI_API_KEY` (la clave nunca va en el código).
+3. **Asistente con Claude (una sola vez):** en Render, *New → Blueprint* con este repositorio crea el servicio
+   `herbolario-api`. En su panel, en *Environment*, escribe `ANTHROPIC_API_KEY` (la clave nunca va en el código).
+   Opcionales: `ANTHROPIC_MODEL` (por defecto `claude-opus-5-5`) y `ANTHROPIC_EFFORT` (`low` por defecto).
    Si el sitio estático se creó a mano y no desde el Blueprint, copia los encabezados de `render.yaml` en
    *Settings → Headers* del sitio.
 
 ## Seguridad
 
-- **Secretos:** la única clave (`GEMINI_API_KEY`) vive en variables de entorno de Render o en `.env`, que está en
+- **Secretos:** la única clave (`ANTHROPIC_API_KEY`) vive en variables de entorno de Render o en `.env`, que está en
   `.gitignore`. El navegador nunca la recibe. El historial de git no contiene claves.
 - **Validación en el servidor:** tipo de contenido JSON, tamaño máximo de 64 KB, pregunta de hasta 600 caracteres,
   contexto que solo admite fichas del catálogo con IDs conocidos (máximo 12), historial de 6 turnos, sin caracteres
@@ -85,8 +86,8 @@ Sin el servidor la página sigue funcionando: el chat muestra las fichas que mej
 - **Encabezados:** HTTPS y HSTS (Render), CSP, `X-Frame-Options: DENY`, `Referrer-Policy`, `Permissions-Policy`,
   `Cross-Origin-Opener-Policy`; el servidor añade también `Cache-Control: no-store`.
 - **CORS:** el servidor solo acepta peticiones desde `ALLOWED_ORIGINS` (el sitio publicado).
-- **Dependencias:** el sitio no usa paquetes de terceros y el servidor solo la biblioteca estándar. `pip-audit -r requirements.txt`
-  no encontró vulnerabilidades conocidas (28-10-2026).
+- **Dependencias:** el sitio no usa paquetes de terceros; el servidor solo usa el SDK oficial `anthropic` (versión fijada a 2.x).
+  `pip-audit -r servidor/requirements.txt` y `pip-audit -r requirements.txt` no encontraron vulnerabilidades conocidas (28-10-2026).
 
 ## Errores, registros y respaldo
 

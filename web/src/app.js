@@ -64,7 +64,7 @@
       hero_p: "Pregunta por un síntoma, un ingrediente o un producto. El buscador elige las fichas más relevantes del catálogo y el asistente responde usando solo esas fichas, con sus referencias.",
       consulta: "Consulta", q_ph: "Ej.: ¿Qué me ayuda a dormir mejor?", q_aria: "Tu pregunta", preguntar: "Preguntar", detener: "Detener",
       nota_claude: "Las respuestas usan tu cuenta de Claude; la primera vez se te pedirá permiso.",
-      nota_gemini: "Las respuestas las redacta una inteligencia artificial (Gemini) usando solo las fichas del catálogo. Puede equivocarse: revisa las fichas citadas.",
+      nota_api: "Las respuestas las redacta una inteligencia artificial (Claude, de Anthropic) usando solo las fichas del catálogo. Puede equivocarse: revisa las fichas citadas.",
       pensando_api: "Consultando las fichas… (si el asistente estaba en reposo, la primera respuesta puede tardar hasta un minuto)",
       errores_api: {
         limite: "Hiciste muchas preguntas seguidas. Espera un minuto y vuelve a intentarlo.",
@@ -171,7 +171,7 @@
       hero_p: "Ask about a symptom, an ingredient or a product. The search engine picks the most relevant records in the catalog and the assistant answers using only those records, with references.",
       consulta: "Ask", q_ph: "E.g.: What helps me sleep better?", q_aria: "Your question", preguntar: "Ask", detener: "Stop",
       nota_claude: "Answers use your Claude account; you will be asked for permission the first time.",
-      nota_gemini: "Answers are written by an AI (Gemini) using only the catalog records. It can make mistakes: check the cited records.",
+      nota_api: "Answers are written by an AI (Claude, by Anthropic) using only the catalog records. It can make mistakes: check the cited records.",
       pensando_api: "Checking the records… (if the assistant was idle, the first answer can take up to a minute)",
       errores_api: {
         limite: "You asked many questions in a row. Wait a minute and try again.",
@@ -524,10 +524,10 @@ product products take recommend something thing feel feeling hi hello please use
   }
   const turnos = [];
   let sample = null, ctl = null, ocupado = false, sampleListo = false;
-  // Servidor propio con Gemini (sitio de Render). Vacío = sin servidor.
+  // Servidor propio con Claude (sitio de Render). Vacío = sin servidor.
   const API_URL = (document.querySelector('meta[name="api"]')?.content || "").replace(/\/+$/, "");
   let apiListo = false;
-  const notaIA = () => (sample ? T.nota_claude : apiListo ? T.nota_gemini : T.nota_sin_ia);
+  const notaIA = () => (sample ? T.nota_claude : apiListo ? T.nota_api : T.nota_sin_ia);
 
   // ================= Pintado =================
   function pintarEstaticos() {

@@ -1,4 +1,4 @@
-# Render: sitio estático (herbolario-consultor) y asistente con Gemini (herbolario-api).
+# Render: sitio estático (herbolario-consultor) y asistente con Claude (herbolario-api).
 # El sitio ya está generado en web/sitio (se regenera con: python build_web.py).
 # Render añade por su cuenta HTTPS, Strict-Transport-Security y X-Content-Type-Options: nosniff.
 services:
@@ -36,19 +36,21 @@ services:
         name: Cache-Control
         value: no-cache
 
-  # Asistente con Gemini (plan gratuito). La clave GEMINI_API_KEY se escribe en el panel de Render, nunca aquí.
+  # Asistente con Claude (plan gratuito de Render). La clave ANTHROPIC_API_KEY se escribe en el panel de Render, nunca aquí.
   - type: web
     name: herbolario-api
     runtime: python
     plan: free
-    buildCommand: echo "Sin dependencias"
+    buildCommand: pip install -r servidor/requirements.txt
     startCommand: python servidor/app.py
     healthCheckPath: /api/salud
     envVars:
-      - key: GEMINI_API_KEY
+      - key: ANTHROPIC_API_KEY
         sync: false
-      - key: GEMINI_MODEL
-        value: gemini-2.5-flash
+      - key: ANTHROPIC_MODEL
+        value: claude-opus-5-5
+      - key: ANTHROPIC_EFFORT
+        value: low
       - key: ALLOWED_ORIGINS
         value: https://herbolario-consultor.onrender.com
       - key: TOTAL_POR_DIA

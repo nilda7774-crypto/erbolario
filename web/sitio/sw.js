@@ -1,7 +1,7 @@
 /* Service worker del Herbolario Consultor: permite abrir la aplicación sin conexión.
    La versión y la lista de archivos las escribe build_web.py; al publicar una versión nueva se borra la caché anterior. */
-const CACHE = "herbolario-5efadce8f8";
-const PRECACHE = ["/", "/assets/app.5d4ab63b92.css", "/assets/app.f158336181.js", "/assets/datos.7aac36a854.json", "/img/bosque.webp", "/img/equinacea.webp", "/img/astragalo.webp", "/img/goji.webp", "/img/jengibre.webp", "/img/curcuma.webp", "/img/manzanilla.webp", "/img/diente-de-leon.webp", "/img/alfalfa.webp", "/img/menta.webp", "/img/icono-180.png", "/img/icono-192.png", "/img/icono-512.png", "/manifest.webmanifest", "/404.html"];
+const CACHE = "herbolario-e9a86c1c71";
+const PRECACHE = ["/", "/assets/app.5d4ab63b92.css", "/assets/app.5629090a76.js", "/assets/datos.7aac36a854.json", "/img/bosque.webp", "/img/equinacea.webp", "/img/astragalo.webp", "/img/goji.webp", "/img/jengibre.webp", "/img/curcuma.webp", "/img/manzanilla.webp", "/img/diente-de-leon.webp", "/img/alfalfa.webp", "/img/menta.webp", "/img/icono-180.png", "/img/icono-192.png", "/img/icono-512.png", "/manifest.webmanifest", "/404.html"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE)).then(() => self.skipWaiting()));

@@ -1,0 +1,2 @@
+# Dependencias del servidor del asistente (Render las instala con: pip install -r servidor/requirements.txt)
+anthropic>=2.3,<3
